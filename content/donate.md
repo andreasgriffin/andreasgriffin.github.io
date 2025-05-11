@@ -13,7 +13,7 @@ menu:
 <br>
 
 Building **Bitcoin Safe** is hard work and I appreciate every support you can give:
-- Easiest way you can  support me by donating Sats: ⚡ [https://coinos.io/andreasgriffin](https://coinos.io/andreasgriffin)
+- Easiest way you can  support me by donating Sats: ⚡ [https://coinos.io/andreasgriffin](https://coinos.io/andreasgriffin)  or `bc1qhgfh9d4jymws3g47yxeylrwgxeep88jppun4jm`
 - But you can also support with your work, for example  *testing*, *testing*, *testing*, and giving me bug reports or  other ways to to make **Bitcoin Safe** better for everyone
 
 Support **Bitcoin Safe** and get into the list below
