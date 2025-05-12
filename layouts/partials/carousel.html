@@ -1,21 +1,53 @@
 <div class="row justify-content-center text-center mt-lg-3">
-  <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 100%; max-width: 899px;">
+  <div id="carouselExampleAutoplaying" 
+       class="carousel carousel-dark slide" 
+       data-bs-ride="carousel" 
+       style="width: 100%; max-width: 899px;">
     <div class="carousel-inner">
-      {{ $folder := .folder }} <!-- Define the folder path variable -->
-      {{ $path := printf "static/%s/" $folder }} <!-- Construct the full path for readDir -->
-      {{ $screenshots := readDir $path }}
-      {{ range $index, $file := $screenshots }}
-      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-        <img src="/{{ $folder }}/{{ $file.Name }}" class="d-block w-100" alt="Screenshot {{ $index }}">
-      </div>
+      {{ $folder := .folder }}
+      {{ $path := printf "static/%s/" $folder }}
+      {{ $items := readDir $path }}
+
+      {{ $imgExts   := slice ".jpg" ".jpeg" ".png" ".gif" }}
+      {{ $videoExts := slice ".mp4" ".webm" ".ogg" ".mkv" }}
+
+      {{ range $i, $file := $items }}
+        {{ $ext := lower (path.Ext $file.Name) }}
+        <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
+          {{ if in $imgExts $ext }}
+            <img src="/{{ $folder }}/{{ $file.Name }}" 
+                 class="d-block w-100" 
+                 alt="{{ $file.Name }}">
+          {{ else if in $videoExts $ext }}
+            {{/* strip the dot for MIME */}}
+            {{ $type := printf "video/%s" (replace $ext "." "" ) }}
+            <video autoplay muted loop playsinline 
+                   class="d-block w-100">
+              <source src="/{{ $folder }}/{{ $file.Name }}" 
+                      type="{{ $type }}">
+              Your browser does not support the video tag.
+            </video>
+          {{ else }}
+            <p class="text-danger">Unsupported file “{{ $file.Name }}”</p>
+          {{ end }}
+        </div>
       {{ end }}
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+    <button class="carousel-control-prev" 
+            type="button" 
+            data-bs-target="#carouselExampleAutoplaying" 
+            data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" 
+            aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <button class="carousel-control-next" 
+            type="button" 
+            data-bs-target="#carouselExampleAutoplaying" 
+            data-bs-slide="next">
+      <span class="carousel-control-next-icon" 
+            aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
