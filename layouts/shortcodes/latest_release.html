@@ -60,10 +60,10 @@
         {{ $platform = "Linux" }}
         {{ $platformIcon = $iconLinux }}
       {{ else if (findRE "arm64\\.dmg$" $assetName) }}
-        {{ $platform = "macOS (M chip)" }}
+        {{ $platform = "macOS (M chip, at least macOS 14)" }}
         {{ $platformIcon = $iconMacOS }}
       {{ else if (findRE "x86_64\\.dmg$" $assetName) }}
-        {{ $platform = "macOS (Intel)" }}
+        {{ $platform = "macOS (Intel, at least macOS 13)" }}
         {{ $platformIcon = $iconMacOS }}
       {{ else if (findRE "\\.dmg$" $assetName) }}
         {{ $platform = "macOS" }}
