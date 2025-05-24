@@ -1,6 +1,6 @@
 ---
-title: "Step-by-step Singlesig Setup"
-description: "Bitcoin Safe setup wizard guides you through the steps to create a singlesig bitcoin wallet"
+title: "Step-by-step Multisig Setup"
+description: "Bitcoin Safe setup wizard guides you through the steps to create a 2-of-3 Multisig bitcoin wallet"
 draft: false
 tags: ["Featured", "Knowledge"]
 # Download the logo from here https://i.ytimg.com/vi/m0g6ytYTy0w/maxresdefault.jpg
@@ -25,20 +25,20 @@ weight: 30
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
 videos:
-  - "https://www.youtube.com/watch?v=m0g6ytYTy0w"
+  - "https://www.youtube.com/watch?v=8n8lPfZZQPY"
 ---
 
 
-# Guided Singlesig Wallet Setup
+# Guided 2-of-3 Multisig Wallet
 
-🔒 Setting up a secure **Bitcoin Safe** wallet is the best way to protect your funds from exchange failures, hacks, and theft. In this tutorial, we’ll walk you through the entire process with Trezor step-by-step!
+🔒 Setting up a secure **Bitcoin Safe** wallet is the best way to protect your funds from exchange failures, hacks, and theft. In this tutorial, we’ll walk you through the entire process step by step!
  
 
-
-- 🔐 Connect a *Trezor* 
+- 🔐 Connect a *Coldcard Q*, a *Bitbox02*, and a *Keystone*
 - 📥 Receive test
 - 📤 Send test
 - ✅ Done
- 
+
+
 
 {{< youtube-gallery >}}

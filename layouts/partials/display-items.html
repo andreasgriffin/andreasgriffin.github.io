@@ -1,21 +1,20 @@
 {{ $items := .display_items | default .Page.Params.display_items }}
-{{ $columns := .columns | default 3 }} <!-- Set default to 3 columns -->
-{{ $entire_card_clickable := .entire_card_clickable | default false }} <!-- Set default to false -->
-
+{{ $columns := .columns | default 3 }}
+{{ $entire_card_clickable := .entire_card_clickable | default false }}
+{{ $open_in_blank_page := .open_in_blank_page | default false }}
 
 {{ if $items }}
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ $columns }} g-4">   
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ $columns }} g-4">
     {{ range $key, $item := $items }}
-      {{ partial "card.html" (dict 
-          "target_url" $item.target_url 
-          "title" $item.title 
-          "description" $item.description 
-          "image_url" $item.image_url 
-          "banner" $item.banner
-          "entire_card_clickable" $entire_card_clickable   
+      {{ partial "card.html" (dict
+          "target_url"            $item.target_url
+          "title"                 $item.title
+          "description"           $item.description
+          "image_url"             $item.image_url
+          "banner"                $item.banner
+          "entire_card_clickable" $entire_card_clickable
+          "open_in_blank_page"    $open_in_blank_page
       ) }}
     {{ end }}
   </div>
-{{ else }}
-  <!-- <p>No display items provided.</p> -->
 {{ end }}

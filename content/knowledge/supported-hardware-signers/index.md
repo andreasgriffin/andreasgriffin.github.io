@@ -139,7 +139,7 @@ display_items:
 
  <br> 
 
-{{< displayitems >}}
+{{< displayitems open_in_blank_page=true >}}
 
  <br><br> 
 
