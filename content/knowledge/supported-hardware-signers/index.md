@@ -122,6 +122,15 @@ display_items:
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
       <span class="bitcoin-only">Bitcoin-only</span><br> 
       '
+  92-krux:
+    image_url: "https://thebitcoinhole.com/img/hardware-wallets/krux-thumb.webp"
+    target_url: "https://selfcustody.github.io/krux/"
+    title: "Krux"
+    description: '
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <span class="bitcoin-only">Bitcoin-only</span><br> 
+      '
     # banner: "Get 5% off"      
 
 ---
