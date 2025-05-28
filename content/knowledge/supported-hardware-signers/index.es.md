@@ -98,7 +98,7 @@ display_items:
       '
   9-specter:
     image_url: "https://thebitcoinhole.com/img/hardware-wallets/specter-diy-thumb.webp"
-    target_url: "https://clavastack.com/?coupon=bitcoin-safe"
+    target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     title: "Specter Shield"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">

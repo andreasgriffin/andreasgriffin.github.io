@@ -105,7 +105,7 @@ display_items:
     # - Seed extraction in principle possible via ledger recover
   9-specter:
     image_url: "specter-diy.png"
-    target_url: "https://clavastack.com/?coupon=bitcoin-safe"
+    target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     title: "Specter DIY / Shield / Shield Lite"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">

@@ -76,7 +76,7 @@ People have made many expensive mistakes in the past. Most of them can be preven
             <a href="https://foundation.xyz/passport">Foundation Passport</a>,
             <a href="https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a">Keystone</a>,
             <a href="https://shop.ledger.com/pages/ledger-nano-s-plus">Ledger</a>,
-            <a href="https://clavastack.com/?coupon=bitcoin-safe">Specter DIY</a>)  
+            <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} includes screenshots instructions for each hardware signer to guide you through every step 
     <div style="max-width: 500px;  width: 100%;">
         {{< carousel-hardware-signer-screenshots >}}

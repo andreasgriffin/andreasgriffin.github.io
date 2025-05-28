@@ -73,7 +73,7 @@ Las personas han cometido errores costosos en el pasado. La mayoría pueden prev
             <a href="https://foundation.xyz/passport">Foundation Passport</a>,
             <a href="https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a">Keystone</a>,
             <a href="https://shop.ledger.com/pages/ledger-nano-s-plus">Ledger</a>,
-            <a href="https://clavastack.com/?coupon=bitcoin-safe">Specter DIY</a>)  
+            <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} incluye instrucciones con capturas de pantalla para cada dispositivo de hardware que te guían paso a paso.
     <div style="max-width: 500px; width: 100%;">
         {{< carousel-hardware-signer-screenshots >}}
