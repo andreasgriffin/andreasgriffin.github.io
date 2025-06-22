@@ -10,7 +10,7 @@ menu:
 ### {{< page-title >}} 
 
 Construir **Bitcoin Safe** es trabajo duro y aprecio todo el apoyo que puedas darme:
-- La forma más fácil en la que puedes apoyarme es donando Sats: ⚡ [https://coinos.io/andreasgriffin](https://coinos.io/andreasgriffin)  or `bc1qhgfh9d4jymws3g47yxeylrwgxeep88jppun4jm`
+- La forma más fácil en la que puedes apoyarme es donando Sats: ⚡ [https://coinos.io/andreasgriffin](https://coinos.io/andreasgriffin)  or `bc1qkkz3yytmne5gck2mhn5yak7dll5yt7c7ncy2n3`
 - Pero también puedes apoyar con tu trabajo, por ejemplo _probando_, _probando_, _probando_, y dandome informes de errores o otras formas para hacer **Bitcoin Safe** mejor para todos
 
 Apóyate a ti mismo en  **Bitcoin Safe** y ponte en la lista que está abajo 
