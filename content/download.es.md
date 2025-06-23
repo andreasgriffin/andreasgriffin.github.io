@@ -22,15 +22,20 @@ menu:
 
 Los archivos binarios de Windows están firmados, consulta la [Política de firmado de código]({{< ref "code-signing-policy" >}}). Ver aquí la  [Política de privacidad de Bitcoin Safe]({{< ref "code-signing-policy" >}}).
 
-
  
+
 ### macOS
 
-Al abrir Bitcoin Safe en macOS, puede aparecer la siguiente advertencia. <br>
-Puedes abrirlo de todos modos yendo a *Configuración del sistema* --> *Privacidad y seguridad* --> *Abrir de todos modos*<br>
+Sigue estos pasos para ejecutar **Bitcoin Safe** en macOS:
 
-<img src="/images/mac-warning.png" alt="advertencia de macOS" />  
-<img src="/images/mac-disable.png" alt="abrir Bitcoin Safe en macOS" />  
+* Copia la aplicación a tu carpeta de Aplicaciones
+* Intenta abrirla; aparecerá una advertencia
+* Ve a *Configuración del sistema* --> *Privacidad y seguridad* --> *Abrir de todos modos*
+* Ahora podrás abrirla
+
+<img src="/images/mac/copy-app.png" alt="macOS copiar app"   />  
+<img src="/images/mac/warning.png" alt="macOS advertencia"   />  
+<img src="/images/mac/disable.png" alt="macOS abrir Bitcoin Safe"   />  
  
 
 <br>

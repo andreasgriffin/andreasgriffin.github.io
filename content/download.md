@@ -24,11 +24,16 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 
 ###  macOS 
 
-Opening Bitcoin Safe on  macOS may give the following warning. <br>
- You can open it anyway by going into the *System Settings* --> *Privacy & Security* --> *Open Anyway*<br>
+Please follow the steps to run Bitcoin Safe on macOS:
+- Copy it into your app folder
+- Try to open it you will get a warning
+- Go into the *System Settings* --> *Privacy & Security* --> *Open Anyway*
+- Now you can open it
 
-<img src="/images/mac-warning.png" alt="macOS warning"   /> 
-<img src="/images/mac-disable.png" alt="macOS open Bitcoin Safe"   /> 
+
+<img src="/images/mac/copy-app.png" alt="macOS copy-app"   /> 
+<img src="/images/mac/warning.png" alt="macOS warning"   /> 
+<img src="/images/mac/disable.png" alt="macOS open Bitcoin Safe"   /> 
 
 <br>
 <br>
