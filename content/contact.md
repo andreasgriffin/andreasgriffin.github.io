@@ -4,6 +4,8 @@ draft: false
 menu:
   main:
     weight: 90
+aliases:
+  - "/contact/"
 ---
 
 ### {{< page-title >}} 

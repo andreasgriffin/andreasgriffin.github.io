@@ -5,6 +5,8 @@ draft: false
 menu:
   footer:
     weight: 10
+aliases:
+  - "/download/"
 ---
 
 ### {{< page-title >}} 

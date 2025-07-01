@@ -5,6 +5,9 @@ draft: false
 menu:
   footer:
     weight: 10 
+aliases:
+  - "/donate/"
+
 ---
 
 ### {{< page-title >}} 
