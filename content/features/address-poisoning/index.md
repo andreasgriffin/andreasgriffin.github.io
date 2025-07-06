@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/address-poisoning/"
 title: "Address Poisoning detection"
 description: "Attackers can send you transactions with  addresses similar to yours. Bitcoin Safe will warn you if that happens"
 draft: false

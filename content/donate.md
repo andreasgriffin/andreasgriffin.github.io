@@ -1,12 +1,12 @@
 ---
+aliases:
+  - "/donate/"
 title: "⚡Support"
 description: "Donate and support to Bitcoin Safe"
 draft: false
 menu:
   footer:
     weight: 10 
-aliases:
-  - "/donate/"
 
 ---
 

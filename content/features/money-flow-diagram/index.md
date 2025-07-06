@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/money-flow-diagram/"
 title: "Navigate Money flow diagrams"
 description: "Navigate through the money flow diagrams via simple clicks on the inputs or outputs of a transaction or PSBT"
 draft: false

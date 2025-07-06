@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/hardware-signer-only/"
 title: "Hardware Signers Required"
 description: "Bitcoin Safe enforces hardware-only seeds on Mainnet to maximize security and avoid the risks of software-based key storage. Here's why that matters."
 draft: false

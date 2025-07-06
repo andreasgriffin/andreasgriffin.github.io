@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/readme/"
 title: "All features"
 description: "Comprehensive overview of most features in Bitcoin Safe"
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/supported-hardware-signers/"
 title: "Fully supported hardware signers"
 description: "Fully supported hardware signers for Bitcoin Safe"
 draft: false

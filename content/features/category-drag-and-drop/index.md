@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/category-drag-and-drop/"
 title: "Category Drag and Drop"
 description: "Easily set the category of addresses"
 draft: false

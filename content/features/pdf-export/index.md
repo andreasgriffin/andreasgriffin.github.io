@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/pdf-export/"
 title: "PDF Export"
 description: "Export the pdf backup sheet for a MultiSig wallet"
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/multi-language/"
 title: "Multi-Language"
 description: "Many languages are supported"
 draft: false

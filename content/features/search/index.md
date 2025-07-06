@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/search/"
 title: "Search"
 description: "Type to search across all open wallets"
 draft: false

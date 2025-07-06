@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/label-sync/"
 title: "Synchronize Labels"
 description: "Label and Coin category synchronization"
 draft: false

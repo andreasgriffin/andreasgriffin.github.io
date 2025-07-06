@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/setup-singlesig-wallet/"
 title: "Step-by-step Singlesig Setup"
 description: "Bitcoin Safe setup wizard guides you through the steps to create a singlesig bitcoin wallet"
 draft: false

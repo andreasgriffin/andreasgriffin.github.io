@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/balance-statement/"
 title: "Balance Statement "
 description: "Exports a PDF balance statement"
 draft: false

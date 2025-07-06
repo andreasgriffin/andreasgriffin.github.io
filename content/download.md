@@ -1,12 +1,12 @@
 ---
+aliases:
+  - "/download/"
 title: "Download"
 description: "Download Bitcoin Safe"
 draft: false
 menu:
   footer:
     weight: 10
-aliases:
-  - "/download/"
 ---
 
 ### {{< page-title >}} 

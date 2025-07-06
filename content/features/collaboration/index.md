@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/collaboration/"
 title: "Collaboration in a Multisig"
 description: "Send a PSBT between participants in a Multi-party Multisig wallet"
 draft: false

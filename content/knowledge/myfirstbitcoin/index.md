@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/myfirstbitcoin/"
 title: "Bitcoin Intro"
 description: "Bitcoin Introductory Course: Transforming Money and the Future of Currency"
 draft: false

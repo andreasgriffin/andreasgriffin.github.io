@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/verify-receive-address/"
 title: "Verify Receive Addresses"
 description: "Verify Receive Addresses with Trezor & Jade"
 draft: false

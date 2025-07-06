@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/setup-multisig-wallet/"
 title: "Step-by-step Multisig Setup"
 description: "Bitcoin Safe setup wizard guides you through the steps to create a 2-of-3 Multisig bitcoin wallet"
 draft: false

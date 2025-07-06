@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/cross-platform/"
 title: "On Windows, MacOS, Linux"
 description: "Available on all desktops: Windows, MacOS, Linux"
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/features/usps/"
 title: "Why choose Bitcoin Safe?"
 description: "Several Desktop Bitcoin wallets are available. See what makes Bitcoin Safe stand out."
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/knowledge/tor-config/"
 title: "Tor Configuration"
 description: "Use your own node via Start9 or Umbrel"
 draft: false
