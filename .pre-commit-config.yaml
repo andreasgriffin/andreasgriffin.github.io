@@ -1,0 +1,11 @@
+repos:
+  - repo: local
+    hooks:
+      - id: add-md-aliases
+        name: Add YAML `aliases:` to top-level Markdown files
+        entry: python add_aliases.py
+        language: python
+        # Only trigger when you’ve staged *.md in content/ whose basename has no extra dot
+        files: '^content/[^.]+\.md$'
+        pass_filenames: false
+        stages: [pre-commit]

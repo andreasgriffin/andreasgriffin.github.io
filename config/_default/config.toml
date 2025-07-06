@@ -5,9 +5,12 @@ title= 'Bitcoin Safe - A bitcoin savings wallet for the entire family'
 
 timeZone = 'Europe/London'
 
-# Multilingual
+# Multilingual 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+
+
 
 
 theme = "hugo-bootstrap-theme"
