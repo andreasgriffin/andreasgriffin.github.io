@@ -16,7 +16,7 @@ menu:
 <br>
 
 Building **Bitcoin Safe** is hard work and I appreciate every support you can give:
-- Easiest way you can  support me by donating Sats: ⚡ [https://coinos.io/andreasgriffin](https://coinos.io/andreasgriffin)  or `bc1qkkz3yytmne5gck2mhn5yak7dll5yt7c7ncy2n3`
+- Easiest way you can  support me by donating Sats: ⚡  BitcoinSafe@blitz-wallet.com  or `bc1qkkz3yytmne5gck2mhn5yak7dll5yt7c7ncy2n3`
 - But you can also support with your work, for example
   -   *testing*, *testing*, *testing*, and giving me bug reports
   - improve the [translations](https://hosted.weblate.org/engage/bitcoin-safe/) of **Bitcoin Safe**. You don't find your language there?  Write to me and we add it together.

@@ -30,6 +30,9 @@ weight: 21
 
  
 
+![](logo.png)
+{ .img-fluid .mb-5 .float-end style="max-width: 300px;" }
+
 ## 🚫 Why does Bitcoin Safe block software seeds on Mainnet?
 
 🤔 Isn't that inconvenient?
