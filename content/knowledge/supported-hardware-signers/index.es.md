@@ -92,7 +92,7 @@ display_items:
   8-ledger:
     image_url: "https://thebitcoinhole.com/img/hardware-wallets/ledger-nano-x-thumb.webp"
     target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
-    title: "Ledger Nano S / S Plus / X"
+    title: "Ledger Nano S / S Plus / X / Flex"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       '
