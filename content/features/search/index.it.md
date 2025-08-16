@@ -1,8 +1,8 @@
 ---
 aliases:
-  - "/features/buscar/"
-title: "Buscar"
-description: "Escribe para buscar en todos los monederos abiertos"
+  - "/features/ricerca/"
+title: "Ricerca"
+description: "Digita per cercare in tutti i portafogli aperti"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]

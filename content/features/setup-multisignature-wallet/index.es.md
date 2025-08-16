@@ -1,6 +1,8 @@
 ---
-title: "Wizard de configuración - Único y Bolsillo Multi-Sig"
-description: "Guía de configuración de Bitcoin Safe que te guía a través de los pasos para crear un bolso seguro de bitcoin"
+aliases:
+  - "/features/configuracion-cartera-multifirma/"
+title: "Asistente de configuración - Monofirma y Multisig"
+description: "El asistente de configuración de Bitcoin Safe te guía paso a paso para crear un monedero de bitcoin seguro"
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
@@ -11,14 +13,13 @@ weight: 20
 # or the list will be rendered below the content
 videos:
   - "https://www.youtube.com/watch?v=m0g6ytYTy0w"
-
 ---
 
 
-# Billetera de Firma Única
+# Monedero de firma única
 
-¿Quieres asegurar tu Bitcoin de la manera correcta? Aprende cómo configurar una billetera en Bitcoin-Safe.org con Trezor  
-! 🔐💰
+¿Quieres proteger tu Bitcoin de la manera correcta? Aprende a configurar un monedero de Bitcoin-Safe.org con Trezor
+ ! 🔐💰
+
 
 {{< youtube-gallery >}}
- 
