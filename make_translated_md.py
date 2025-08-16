@@ -224,12 +224,18 @@ def main():
     
     if args.llminstructions:
         print("""
-The task is to translate a hugo md file into the languages [es_ES, it_IT]. 
+The task is to translate a hugo md file into the languages [es_ES, it_IT].
 
-Do not translate:  header tags, header keywords, header images, hugo syntax like {{< page-title >}} , filenames or links
-Do translate: header aliases, header title, header description
+Do not translate:  header tags, header images, hugo syntax like {{< page-title >}} , filenames or links
 
-Please return a single downloadable txt file  with the content:
+Do translate: 
+ - header aliases
+ - header title
+ - header description
+ - header keywords
+ - the visible page content  (that includes the code signing policy)
+
+Please return a single downloadable txt file (named translations.txt )  with the content:
 
 # LANG:de_DE    
 ...de md content...
@@ -237,7 +243,10 @@ Please return a single downloadable txt file  with the content:
 # LANG:it_IT     
 ...it md content...
 
+
+
 The hugo file to be translated is:
+
               
               """)
         return

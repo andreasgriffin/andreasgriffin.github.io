@@ -1,8 +1,8 @@
 ---
 aliases:
-  - "/knowledge/firmadores-hardware-compatibles/"
-title: "Firmadores de hardware totalmente compatibles"
-description: "Firmadores de hardware totalmente compatibles con Bitcoin Safe"
+  - "/knowledge/firmatari-hardware-pienamente-supportati/"
+title: "Firmatari hardware pienamente supportati"
+description: "Firmatari hardware pienamente supportati da Bitcoin Safe"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
@@ -133,7 +133,7 @@ display_items:
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
       <span class="bitcoin-only">Bitcoin-only</span><br> 
       '
-    # banner: "Get 5% off"        
+    # banner: "Get 5% off"      
 ---
 
 ### {{< page-title >}}  
@@ -144,4 +144,4 @@ display_items:
 
  <br><br> 
 
-Una comparación completa de las funciones de los distintos firmadores de hardware está aquí: https://thebitcoinhole.com/hardware-wallets
+Un confronto completo delle funzionalità dei diversi firmatari hardware è qui: https://thebitcoinhole.com/hardware-wallets

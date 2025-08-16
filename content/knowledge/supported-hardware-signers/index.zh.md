@@ -1,8 +1,8 @@
 ---
 aliases:
-  - "/knowledge/firmadores-hardware-compatibles/"
-title: "Firmadores de hardware totalmente compatibles"
-description: "Firmadores de hardware totalmente compatibles con Bitcoin Safe"
+  - "/knowledge/wanquan-zhichi-de-yingjian-qianmingqi/"
+title: "完全支持的硬件签名器"
+description: "Bitcoin Safe 完全支持的硬件签名器"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
@@ -133,7 +133,7 @@ display_items:
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
       <span class="bitcoin-only">Bitcoin-only</span><br> 
       '
-    # banner: "Get 5% off"        
+    # banner: "Get 5% off"      
 ---
 
 ### {{< page-title >}}  
@@ -144,4 +144,4 @@ display_items:
 
  <br><br> 
 
-Una comparación completa de las funciones de los distintos firmadores de hardware está aquí: https://thebitcoinhole.com/hardware-wallets
+不同硬件签名器功能的完整对比见： https://thebitcoinhole.com/hardware-wallets
