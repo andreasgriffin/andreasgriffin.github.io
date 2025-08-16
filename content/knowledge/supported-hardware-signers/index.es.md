@@ -14,7 +14,7 @@ keywords: []
 weight: 100
 display_items:
   0-q:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/coldcard-q-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-q-thumb.webp"
     target_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
     title: "Coldcard Q"
     description: '
@@ -28,7 +28,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>
       '
   1-mk4:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/coldcard-mk4-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp"
     target_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
     title: "Coldcard Mk4"
     description: '
@@ -37,7 +37,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>  
       '
   2-bitbox02:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/bitbox02-multi-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
     target_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
     title: "Bitbox02"
     description: '
@@ -45,7 +45,7 @@ display_items:
       Elige el firmware solo para Bitcoin
       '
   3-passport:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/passport-batch-2-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
     target_url: "https://foundation.xyz/passport"
     title: "Foundation Passport"
     description: '
@@ -54,7 +54,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>
       '
   4-jade:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/jade-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade"
     description: '
@@ -63,7 +63,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>
       '
   5-jadeplus:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/jade-plus-metal-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade Plus"
     description: '
@@ -73,7 +73,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>
       '
   6-trezor:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/trezor-safe-5-btconly-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
     target_url: "https://trezor.io/trezor-safe-5-bitcoin-only"
     title: "Trezor Safe 3 & 5"
     description: '
@@ -81,7 +81,7 @@ display_items:
       Elige el firmware solo para Bitcoin
       '
   7-keystone:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/keystone-3-pro-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
     target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
@@ -90,14 +90,14 @@ display_items:
       Elige el firmware solo para Bitcoin
       '
   8-ledger:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/ledger-nano-x-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp"
     target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
     title: "Ledger Nano S / S Plus / X / Flex"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       '
   9-specter:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/specter-diy-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/specter-diy-thumb.webp"
     target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     title: "Specter Shield"
     description: '
@@ -106,7 +106,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span>
       '
   91-seedsigner:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/seedsigner-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
     target_url: "https://seedsigner.com/"
     title: "SeedSigner"
     description: '
@@ -115,7 +115,7 @@ display_items:
       <span class="bitcoin-only">Bitcoin-only</span><br> 
       '
   92-krux:
-    image_url: "https://thebitcoinhole.com/img/hardware-wallets/krux-thumb.webp"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp"
     target_url: "https://selfcustody.github.io/krux/"
     title: "Krux"
     description: '
