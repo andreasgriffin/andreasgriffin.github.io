@@ -42,4 +42,9 @@ weight: 20
 - ✅ How to verify your address using Jade
 - ✅ Tips to prevent fraud and secure your Bitcoin
 
+
+{{< video "address-tab.mp4" controls  autoplay muted playsinline >}}
+
+
+
 {{< youtube-gallery >}}
