@@ -75,6 +75,7 @@ Bitcoin Safe **only allows software seeds on Testnet, Signet, and Regtest** — 
 
 </br>
 
+
 - 🔐 **Mainnet requires hardware signers — no exceptions**
   - 🔌 USB, 📷 QR, and 💾 SD card with all major  devices
     - [Coldcard]({{< ref "knowledge/supported-hardware-signers" >}})

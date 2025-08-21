@@ -4,10 +4,11 @@ url = ""
 weight = 10
 
 [[main]]
-name = "Descargar"
+name = "📥Descargar"
 url = "download"
 weight = 20
 title = "Descargar"
+
 
 [[main]]
 identifier = "Features"
@@ -15,9 +16,8 @@ name = "🚀Características"
 url = "features"
 weight = 50
 
-
 [[main]]
-identifier = "Conocimiento"
+identifier = "Knowledge"
 name = "🏫Conocimiento"
 url = "knowledge"
 weight = 55
@@ -25,10 +25,9 @@ weight = 55
 
 [[main]]
 identifier = "Donate"
-name = "⚡Apóyate"
+name = "⚡Donar"
 url = "donate"
 weight = 60
-
 
 
 [[social]]
@@ -36,8 +35,16 @@ weight = 60
   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>"
   url = "https://github.com/andreasgriffin/bitcoin-safe"
   weight = 10
-  title = "Visit the GitHub project"
+  title = "Visitar el proyecto en GitHub"
 
+
+
+[[social]]
+  name = "Chorus"
+  pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
+  url = "https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki"
+  weight = 11
+  title = "Comunidad de Chorus"
 
 # [[social]]
 #   name = "Email"
@@ -52,7 +59,7 @@ weight = 60
   pre = "<img src='/icons/nostr-logo-outline.svg' alt='Nostr' class='feather feather-github' />"
   url = "https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v"
   weight = 20
-  title = "Nostr Profile"
+  title = "Perfil de Nostr"
 
 
 
@@ -61,7 +68,7 @@ weight = 60
   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/images/feather/feather-sprite.svg#twitter'/></svg>"
   url = "https://x.com/BitcoinSafeOrg"
   weight = 21
-  title = "Contact on Twitter"
+  title = "Contactar en Twitter"
 
 
 
@@ -70,4 +77,4 @@ weight = 60
   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-youtube'><use href='/images/feather/feather-sprite.svg#youtube'/></svg>"
   url = "https://www.youtube.com/@BitcoinSafeOrg"
   weight = 20
-  title = "Channel on Youtube"
+  title = "Canal en YouTube"

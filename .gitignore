@@ -5,3 +5,8 @@ node_modules/
 
 .directory
 .hugo_build.lock
+
+
+**/translations.txt
+
+translate_cmd.txt

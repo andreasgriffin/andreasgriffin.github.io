@@ -1,10 +1,10 @@
 ---
-title: "Sincronizar Etiquetas"
-description: "Sincronización de categorías de etiquetas y monedas"
+title: "Sincronizar etiquetas"
+description: "Sincronización de etiquetas y categorías de monedas"
 draft: false
-tags: ["Featured", "sync" ,"Features"]
+tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["send"]
+keywords: ["enviar"]
 previewimage: "logo.png"
 weight: 18
 ---
@@ -15,6 +15,4 @@ weight: 18
 <br>
 
 
-![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/refs/heads/main/docs/label-sync.gif)
-{ .img-fluid .mb-5 }
-
+{{< video "label-sync.mp4" controls  autoplay muted playsinline >}}

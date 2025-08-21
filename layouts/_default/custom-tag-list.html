@@ -1,5 +1,6 @@
 {{ define "main" }}
   <div class="container py-3">
-    {{ partial "featured-pages" (dict "context" . "tags" (index .Site.Taxonomies.tags .Params.tag)) }}
+    {{ $key := urlize .Params.tag }} {{/* normalize to match taxonomy keys */}}
+    {{ partial "featured-pages" (dict "context" . "tags" (index .Site.Taxonomies.tags $key)) }}
   </div>
 {{ end }}

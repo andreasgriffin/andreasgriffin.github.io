@@ -1,13 +1,12 @@
 ---
-title: "Declaración de Equilibrio"
-description: "Exporta una declaración de estado del equilibrio en formato PDF"
+title: "Estado de balance "
+description: "Exporta un estado de balance en PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
-images: ["logo.jpg"]
-keywords: ["Multisignature"]
-weight: 15
+images: ["logo.png"]
+keywords: ["Multifirma"]
+weight: 16
 ---
-
 
 ### {{< page-title >}} 
 <!-- {{< page-description >}}  -->
@@ -15,10 +14,4 @@ weight: 15
 <br>
 
 
-
-![lick export](step1.png)
-{ .img-fluid .mb-5 }
-
-![lick export](page.png)
-{ .img-fluid .mb-5 }
-
+{{< video "pdf-balance-sheet.mp4" controls  autoplay muted playsinline >}}

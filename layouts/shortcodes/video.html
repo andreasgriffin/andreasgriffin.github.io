@@ -1,0 +1,44 @@
+{{/* Shortcode usage:
+     {{< video "vid.mp4" controls autoplay muted playsinline loop poster="poster.jpg" >}}
+*/}}
+
+{{ $file   := .Get 0 }}
+{{ $poster := .Get "poster" }}
+
+{{ $res := .Page.Resources.Get $file }}
+
+{{/* Helper: build attribute string */}}
+{{- $attrs := slice -}}
+{{- if .IsNamedParams -}}
+  {{- if .Get "controls" }}{{ $attrs = $attrs | append "controls" }}{{ end -}}
+  {{- if .Get "autoplay" }}{{ $attrs = $attrs | append "autoplay" }}{{ end -}}
+  {{- if .Get "muted" }}{{ $attrs = $attrs | append "muted" }}{{ end -}}
+  {{- if .Get "playsinline" }}{{ $attrs = $attrs | append "playsinline" }}{{ end -}}
+  {{- if .Get "loop" }}{{ $attrs = $attrs | append "loop" }}{{ end -}}
+  {{- with $poster }}
+    {{ $p := $.Page.Resources.Get . }}
+    {{ if $p }}
+      {{ $attrs = $attrs | append (printf `poster="%s"` $p.RelPermalink) }}
+    {{ else }}
+      {{ $dir := replace $.Page.File.Dir "content/" "" }}
+      {{ $attrs = $attrs | append (printf `poster="%s"` (relLangURL (print $dir .))) }}
+    {{ end }}
+  {{- end }}
+{{- else -}}
+  {{/* If positional only: always include controls by default */}}
+  {{ $attrs = $attrs | append "controls" }}
+{{- end }}
+
+<video style="max-width:100%;height:auto;" {{ delimit $attrs " " }}>
+  {{ if $res }}
+    <source src="{{ $res.RelPermalink }}" type="video/mp4">
+  {{ else }}
+    {{ $dir := replace .Page.File.Dir "content/" "" }}
+    {{ $path := print $dir $file }}
+    <source src="{{ relLangURL $path }}" type="video/mp4">
+    {{ if hugo.IsServer }}
+      <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>
+    {{ end }}
+  {{ end }}
+  Your browser does not support the video tag.
+</video>

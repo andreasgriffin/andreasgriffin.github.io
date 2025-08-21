@@ -23,11 +23,4 @@ Want to secure your Bitcoin the right way? Learn how to set up a Bitcoin-Safe.or
 
 
 {{< youtube-gallery >}}
-
-<br><br> 
-
-
-# Multi Signature Wallet
-
-![Setup Multisignature Wallet](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/refs/heads/main/docs/multisig-setup.gif)
-{ .img-fluid .mb-5 }
+ 

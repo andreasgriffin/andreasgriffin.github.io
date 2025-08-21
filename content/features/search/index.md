@@ -20,6 +20,4 @@ keywords: ["search"]
 
 
 
-![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/refs/heads/main/docs/global-search.gif)
-{ .img-fluid .mb-5 }
-
+{{< video "search.mp4" controls  autoplay muted playsinline >}}

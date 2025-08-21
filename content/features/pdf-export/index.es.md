@@ -1,10 +1,10 @@
 ---
 title: "Exportación de PDF"
-description: "Exportar la hoja de respaldo PDF de un bolsillo MultiSig"
+description: "Exporta la hoja de respaldo en PDF para una cartera MultiSig"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["Multifirma"]
 weight: 15
 ---
 
@@ -14,18 +14,4 @@ weight: 15
 <br>
 
 
-
-![lick export](step1.png)
-{ .img-fluid .mb-5 }
-
-![1](1.png)
-{ .img-fluid .mb-5 }
-
-
-![2](2.png)
-{ .img-fluid .mb-5 }
-
-
-![3](3.png)
-{ .img-fluid .mb-5 }
-
+{{< video "pdf-backup-sheet.mp4" controls  autoplay muted playsinline >}}
