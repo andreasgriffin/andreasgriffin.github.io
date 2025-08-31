@@ -1,0 +1,26 @@
+{{- /* inputs: .Page (required), .src (required), .langAware (optional, bool) */ -}}
+{{- $p := .Page -}}
+{{- $src := .src | default "" -}}
+{{- $langAware := .langAware | default true -}}
+
+{{- /* normalize "./some.jpg" -> "some.jpg" */ -}}
+{{- $src = replaceRE "^\\./" "" $src -}}
+
+{{- if and $p $src -}}
+  {{- with $p.Resources.GetMatch $src -}}
+    {{- /* bundled resource */ -}}
+    {{- .RelPermalink -}}
+  {{- else -}}
+    {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//") -}}
+      {{- /* external url */ -}}
+      {{- $src -}}
+    {{- else -}}
+      {{- /* static or relative path; prefer lang-aware */ -}}
+      {{- if $langAware -}}
+        {{- $src | relLangURL -}}
+      {{- else -}}
+        {{- $src | relURL -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
