@@ -17,6 +17,4 @@ weight: 18
 <br>
 
 
-![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/refs/heads/main/docs/label-sync.gif)
-{ .img-fluid .mb-5 }
-
+{{< video "label-sync.mp4" controls  autoplay muted playsinline >}}

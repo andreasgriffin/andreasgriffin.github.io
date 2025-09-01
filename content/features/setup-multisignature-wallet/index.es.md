@@ -1,30 +1,23 @@
 ---
-title: "Wizard de configuración - Único y Bolsillo Multi-Sig"
-description: "Guía de configuración de Bitcoin Safe que te guía a través de los pasos para crear un bolso seguro de bitcoin"
+title: "Asistente de configuración - Firma única y multifirma"
+description: "El asistente de configuración de Bitcoin Safe te guía a través de los pasos para crear una cartera de bitcoin segura"
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["Multifirma"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
 videos:
   - "https://www.youtube.com/watch?v=m0g6ytYTy0w"
-
 ---
 
 
-# Billetera de Firma Única
+# Cartera de firma única
 
-¿Quieres asegurar tu Bitcoin de la manera correcta? Aprende cómo configurar una billetera en Bitcoin-Safe.org con Trezor  
-! 🔐💰
+¿Quieres proteger tus bitcoins de la forma correcta? Aprende cómo configurar una cartera de Bitcoin-Safe.org con Trezor
+ ! 🔐💰
+
 
 {{< youtube-gallery >}}
-
-<br><br>
-
-# Billetera de Firma Múltiple
-
-![Configura una Billetera Multisignatura](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/refs/heads/main/docs/multisig-setup.gif)
-{ .img-fluid .mb-5 }

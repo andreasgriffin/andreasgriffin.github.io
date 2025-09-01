@@ -4,7 +4,7 @@ url = ""
 weight = 10
 
 [[main]]
-name = "Download"
+name = "📥Download"
 url = "download"
 weight = 20
 title = "Download"
@@ -37,6 +37,14 @@ weight = 60
   weight = 10
   title = "Visit the GitHub project"
 
+
+
+[[social]]
+  name = "Chorus"
+  pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
+  url = "https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki"
+  weight = 11
+  title = "Chorus Community"
 
 # [[social]]
 #   name = "Email"

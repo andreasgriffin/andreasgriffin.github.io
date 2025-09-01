@@ -1,0 +1,4 @@
+<pre><code class="language-bash">
+gpg --import 2759AA7148568ECCB03B76301D82124B440F612D.asc
+gpg --verify Bitcoin-Safe-{{ $release := .Site.Data.latest_release }}{{ $release.name }}-x86_64.AppImage.asc
+</code></pre>

@@ -1,6 +1,6 @@
 ---
 title: "Firmantes de hardware totalmente compatibles"
-description: "Firmantes de hardware totalmente compatibles para Bitcoin Safe"
+description: "Firmantes de hardware totalmente compatibles con Bitcoin Safe"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
@@ -42,7 +42,7 @@ display_items:
     title: "Bitbox02"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Elige el firmware solo para Bitcoin
+      Choose the Bitcoin-only edition
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
@@ -51,7 +51,8 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span>
+      <span class="bitcoin-only">Bitcoin-only</span><br>
+      Get $10 off with the code: <b>BITCOINSAFE</b>
       '
   4-jade:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
@@ -61,6 +62,8 @@ display_items:
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <span class="bitcoin-only">Bitcoin-only</span>
+      <br> 
+      Get 10% off with the code: <b>XEocg5boS77D</b>      
       '
   5-jadeplus:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
@@ -71,6 +74,8 @@ display_items:
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
       <span class="bitcoin-only">Bitcoin-only</span>
+      <br> 
+      Get 10% off with the code: <b>XEocg5boS77D</b>      
       '
   6-trezor:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
@@ -78,7 +83,7 @@ display_items:
     title: "Trezor Safe 3 & 5"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Elige el firmware solo para Bitcoin
+      Choose the Bitcoin-only edition
       '
   7-keystone:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
@@ -87,8 +92,9 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      Elige el firmware solo para Bitcoin
+      Choose the Bitcoin-only firmware.
       '
+    # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp"
     target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
@@ -96,14 +102,16 @@ display_items:
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       '
+    # - Seed extraction in principle possible via ledger recover
   9-specter:
-    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/specter-diy-thumb.webp"
+    image_url: "specter-diy.png"
     target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
-    title: "Specter Shield"
+    title: "Specter DIY / Shield / Shield Lite"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span>
+      <span class="bitcoin-only">Bitcoin-only</span><br> 
+      Get 5% off with the code: <b>bitcoin-safe</b>      
       '
   91-seedsigner:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
@@ -123,12 +131,16 @@ display_items:
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
       <span class="bitcoin-only">Bitcoin-only</span><br> 
       '
+    # banner: "Get 5% off"      
+
 ---
 
 ### {{< page-title >}}  
+
  <br> 
-{{< displayitems >}}
+
+{{< displayitems open_in_blank_page=true >}}
 
  <br><br> 
 
-Una comparación completa de las características de los diferentes firmantes de hardware está aquí: https://thebitcoinhole.com/hardware-wallets
+Una comparativa exhaustiva de las características de los distintos firmantes de hardware está aquí: https://thebitcoinhole.com/hardware-wallets

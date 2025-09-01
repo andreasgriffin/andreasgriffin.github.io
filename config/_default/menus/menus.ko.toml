@@ -1,0 +1,80 @@
+[[main]]
+name = "홈"
+url = ""
+weight = 10
+
+[[main]]
+name = "📥다운로드"
+url = "download"
+weight = 20
+title = "다운로드"
+
+
+[[main]]
+identifier = "Features"
+name = "🚀기능"
+url = "features"
+weight = 50
+
+[[main]]
+identifier = "Knowledge"
+name = "🏫지식"
+url = "knowledge"
+weight = 55
+
+
+[[main]]
+identifier = "Donate"
+name = "⚡후원"
+url = "donate"
+weight = 60
+
+
+[[social]]
+  name = "깃허브"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/andreasgriffin/bitcoin-safe"
+  weight = 10
+  title = "깃허브 프로젝트 방문"
+
+
+
+[[social]]
+  name = "코러스"
+  pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
+  url = "https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki"
+  weight = 11
+  title = "코러스 커뮤니티"
+
+# [[social]]
+#   name = "Email"
+#   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-email'><use href='images/feather/feather-sprite.svg#email'/></svg>"
+#   url = "<a href='bitcoinsafe.strobe206@aleeas.com'>Example mailto link</a>"
+#   weight = 10
+#   title = "Mail me"
+
+
+[[social]]
+  name = "노스트"
+  pre = "<img src='/icons/nostr-logo-outline.svg' alt='Nostr' class='feather feather-github' />"
+  url = "https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v"
+  weight = 20
+  title = "노스트 프로필"
+
+
+
+[[social]]
+  name = "트위터"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/images/feather/feather-sprite.svg#twitter'/></svg>"
+  url = "https://x.com/BitcoinSafeOrg"
+  weight = 21
+  title = "트위터에서 연락하기"
+
+
+
+[[social]]
+  name = "유튜브"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-youtube'><use href='/images/feather/feather-sprite.svg#youtube'/></svg>"
+  url = "https://www.youtube.com/@BitcoinSafeOrg"
+  weight = 20
+  title = "유튜브 채널"

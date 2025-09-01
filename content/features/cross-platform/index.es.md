@@ -1,11 +1,12 @@
 ---
 title: "En Windows, MacOS, Linux"
-description: "Disponible en todas las computadoras portátiles o de escritorio: Windows, macOS y Linux"
+description: "Disponible en todos los escritorios: Windows, MacOS, Linux"
 draft: false
-tags: [ "Features"]
+tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagram"]
+keywords: ["Diagrama"]
 ---
+<!-- header-end -->
 
 ### {{< page-title >}} 
 {{< page-description >}} 
@@ -18,4 +19,4 @@ keywords: ["Diagram"]
 
  
 
- {{< sync-page-box >}} 
+ {{< sync-page-box >}}

@@ -1,11 +1,25 @@
 ---
-title: "Configuración paso a paso de Multisig"
-description: "El asistente de configuración de Bitcoin Safe te guía paso a paso para crear una cartera bitcoin Multisig 2-de-3"
+title: "Configuración Multisig paso a paso"
+description: "El asistente de configuración de Bitcoin Safe te guía a través de los pasos para crear una cartera bitcoin Multisig 2-de-3"
 draft: false
 tags: ["Featured", "Knowledge"]
 # Download the logo from here https://i.ytimg.com/vi/m0g6ytYTy0w/maxresdefault.jpg
 images: ["maxresdefault.jpg" ]
-keywords: []
+keywords: [
+  "cartera Bitcoin segura para familias",
+  "bitcoin",
+  "ahorro en bitcoin",
+  "firmante de hardware",
+  "Custodios de Bitcoin",
+  "Asesores financieros",
+  "cartera bitcoin",
+  "trezor",
+  "bitcoin USA",
+  "BTC",
+  "HODL",
+  "Seguridad de Bitcoin"
+]
+
 weight: 30
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
@@ -15,14 +29,16 @@ videos:
 ---
 
 
-# Configuración Guiada de Cartera Multisig 2-de-3
+# Guía para cartera Multisig 2-de-3
 
-🔒 Configurar una cartera segura de **Bitcoin Safe** es la mejor manera de proteger tus fondos de fallos en exchanges, hackeos y robos. En este tutorial, te guiaremos paso a paso por todo el proceso.
+🔒 Configurar una cartera segura **Bitcoin Safe** es la mejor manera de proteger tus fondos frente a fallos de exchanges, hacks y robos. En este tutorial te guiaremos por todo el proceso paso a paso.
+ 
 
-* 🔐 Conectar un *Coldcard Q*, un *Bitbox02* y un *Keystone*
-* 📥 Recibir prueba
-* 📤 Enviar prueba
-* ✅ Listo
+- 🔐 Conecta un *Coldcard Q*, un *Bitbox02* y un *Keystone*
+- 📥 Prueba de recepción
+- 📤 Prueba de envío
+- ✅ Listo
+
 
 
 {{< youtube-gallery >}}
