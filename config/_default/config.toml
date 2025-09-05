@@ -1,5 +1,5 @@
 baseURL = 'https://bitcoin-safe.org/'
-languageCode = 'en-Us'
+languageCode = 'en-US'
 title= 'Bitcoin Safe - A bitcoin savings wallet for the entire family'
 
 
