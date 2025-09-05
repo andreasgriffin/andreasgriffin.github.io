@@ -1,2 +1,5 @@
 {{ $link := .Get "link" }}
-{{ partial "youtube-gallery.html" (dict "videos" (slice $link)) }}
+{{ $upload := .Get "uploadDate" | default (now.Format "2006-01-02") }}
+{{ $video := dict "url" $link }}
+{{ with $upload }}{{ $video = merge $video (dict "uploadDate" .) }}{{ end }}
+{{ partial "youtube-gallery.html" (dict "videos" (slice $video) "Page" .Page) }}
