@@ -2,13 +2,23 @@
      {{< video "vid.mp4" controls autoplay muted playsinline loop poster="poster.jpg" >}}
 */}}
 
-{{ $file   := .Get 0 }}
-{{ $poster := .Get "poster" }}
+{{ $file    := .Get 0 }}
+{{ $poster  := .Get "poster" }}
+{{ $upload  := .Get "uploadDate" | default (now.Format "2006-01-02") }}
+{{ $name    := .Get "name" | default .Page.Title }}
+{{ $desc    := .Get "description" | default .Page.Params.description }}
+{{ $dir     := replace .Page.File.Dir "content/" "" }}
+{{ $res     := .Page.Resources.Get $file }}
+{{ $src     := "" }}
+{{ if $res }}
+  {{ $src = $res.RelPermalink }}
+{{ else }}
+  {{ $src = relLangURL (print $dir $file) }}
+{{ end }}
 
-{{ $res := .Page.Resources.Get $file }}
-
-{{/* Helper: build attribute string */}}
+{{/* Helper: build attribute string and thumbnail */}}
 {{- $attrs := slice -}}
+{{- $thumb := "" -}}
 {{- if .IsNamedParams -}}
   {{- if .Get "controls" }}{{ $attrs = $attrs | append "controls" }}{{ end -}}
   {{- if .Get "autoplay" }}{{ $attrs = $attrs | append "autoplay" }}{{ end -}}
@@ -18,11 +28,11 @@
   {{- with $poster }}
     {{ $p := $.Page.Resources.Get . }}
     {{ if $p }}
-      {{ $attrs = $attrs | append (printf `poster="%s"` $p.RelPermalink) }}
+      {{ $thumb = $p.RelPermalink }}
     {{ else }}
-      {{ $dir := replace $.Page.File.Dir "content/" "" }}
-      {{ $attrs = $attrs | append (printf `poster="%s"` (relLangURL (print $dir .))) }}
+      {{ $thumb = relLangURL (print $dir .) }}
     {{ end }}
+    {{ $attrs = $attrs | append (printf `poster="%s"` $thumb) }}
   {{- end }}
 {{- else -}}
   {{/* If positional only: always include controls by default */}}
@@ -30,15 +40,22 @@
 {{- end }}
 
 <video style="max-width:100%;height:auto;" {{ delimit $attrs " " }}>
-  {{ if $res }}
-    <source src="{{ $res.RelPermalink }}" type="video/mp4">
-  {{ else }}
-    {{ $dir := replace .Page.File.Dir "content/" "" }}
-    {{ $path := print $dir $file }}
-    <source src="{{ relLangURL $path }}" type="video/mp4">
-    {{ if hugo.IsServer }}
-      <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>
-    {{ end }}
+  <source src="{{ $src }}" type="video/mp4">
+  {{ if and (not $res) hugo.IsServer }}
+    <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>
   {{ end }}
   Your browser does not support the video tag.
 </video>
+
+{{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" "VideoObject"
+    "name" $name
+    "description" $desc
+    "contentUrl" ($src | absURL)
+    "embedUrl" ($src | absURL) }}
+{{ with $thumb }}{{ $schema = merge $schema (dict "thumbnailUrl" ($thumb | absURL)) }}{{ end }}
+{{ with $upload }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end }}
+<script type="application/ld+json">
+{{ $schema | jsonify | safeJS }}
+</script>
