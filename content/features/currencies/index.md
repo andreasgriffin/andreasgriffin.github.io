@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "/features/balance-statement/"
+  - "/features/currencies/"
 title: "Fiat currency "
 description: "Choose your fiat currency and even convert"
 draft: false
