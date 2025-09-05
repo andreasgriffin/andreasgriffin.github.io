@@ -4,7 +4,7 @@ description: "PDF形式の残高明細書をエクスポートします"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["マルチシグ"]
+keywords: ["バランスステートメント", "PDFレポート", "ウォレットの概要", "取引履歴"]
 weight: 16
 ---
 

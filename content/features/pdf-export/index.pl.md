@@ -4,7 +4,7 @@ description: "Eksport arkusza kopii zapasowej PDF dla portfela MultiSig"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Wielopodpisowy"]
+keywords: ["Kopia zapasowa PDF", "deskryptor portfela", "Multisig", "eksport"]
 weight: 15
 ---
 

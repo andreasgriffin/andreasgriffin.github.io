@@ -4,7 +4,7 @@ description: "Tüm açık cüzdanlarda arama yapmak için yazın"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["arama"]
+keywords: ["aramak", "işlem arama", "Adres Arama", "cüzdan"]
 ---
 
 

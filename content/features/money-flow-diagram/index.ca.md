@@ -4,7 +4,7 @@ description: "Navega pels diagrames del flux de diners amb senzills clics a les 
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["flux de diners", "Visualització de les carteres", "Diagrama de fluxos de caixa"]
 ---
 
 ### {{< page-title >}} 

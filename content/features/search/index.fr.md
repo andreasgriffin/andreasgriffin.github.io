@@ -4,7 +4,7 @@ description: "Tapez pour rechercher dans tous les portefeuilles ouverts"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["recherche"]
+keywords: ["recherche", "recherche de transactions", "recherche d'adresse", "portefeuille"]
 ---
 
 

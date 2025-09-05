@@ -4,7 +4,7 @@ description: "Wählen Sie Ihre Fiat-Währung und konvertieren Sie sie sogar"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["Währungsumwandlung", "Fiat -Raten", "Bitcoin -Preis", "Wechselkurse"]
 weight: 16
 ---
 

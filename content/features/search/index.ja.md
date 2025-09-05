@@ -4,7 +4,7 @@ description: "開いているすべてのウォレットを検索するには入
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["検索"]
+keywords: ["検索", "トランザクション検索", "アドレスルックアップ", "財布"]
 ---
 
 

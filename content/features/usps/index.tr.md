@@ -4,7 +4,7 @@ description: "Birçok masaüstü Bitcoin cüzdanı mevcut. Bitcoin Safe'i öne �
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["benzersiz özellikler"]
+keywords: ["Bitcoin kasası", "benzersiz özellikler", "Güvenli Cüzdan", "Kullanıcı dostu"]
 weight: 1000
 ---
 

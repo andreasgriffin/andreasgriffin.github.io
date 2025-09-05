@@ -4,7 +4,7 @@ description: "Penyerang dapat mengirimkan transaksi dengan alamat yang mirip den
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["kirim"]
+keywords: ["mengatasi keracunan", "phishing", "serangan debu", "perlindungan dompet"]
 ---
 
 ### {{< page-title >}} 

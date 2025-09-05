@@ -4,7 +4,7 @@ description: "Sinkronisasi label dan kategori koin"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["kirim"]
+keywords: ["Sinkronisasi Label", "Label Koin", "Cadangan Metadata", "sinkronisasi"]
 previewimage: "logo.png"
 weight: 18
 ---

@@ -4,7 +4,7 @@ description: "Los atacantes pueden enviarte transacciones con direcciones simila
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["enviar"]
+keywords: ["dirigir envenenamiento", "phishing", "ataque con polvo", "protección de la billetera"]
 ---
 
 ### {{< page-title >}} 

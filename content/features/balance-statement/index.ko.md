@@ -4,7 +4,7 @@ description: "PDF 잔액 명세서를 내보냅니다"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["다중서명"]
+keywords: ["밸런스 성명서", "PDF 보고서", "지갑 요약", "거래 기록"]
 weight: 16
 ---
 

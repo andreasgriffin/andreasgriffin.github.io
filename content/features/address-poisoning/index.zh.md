@@ -4,7 +4,7 @@ description: "攻击者可能向您发送包含与您地址相似的地址的交
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["发送"]
+keywords: ["解决中毒", "网络钓鱼", "尘埃攻击", "钱包保护"]
 ---
 
 ### {{< page-title >}} 

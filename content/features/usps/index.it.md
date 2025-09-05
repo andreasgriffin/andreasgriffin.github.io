@@ -4,7 +4,7 @@ description: "Sono disponibili diversi wallet Bitcoin per desktop. Scopri cosa r
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["caratteristiche uniche"]
+keywords: ["Bitcoin sicuro", "Caratteristiche uniche", "Portafoglio sicuro", "facile da usare"]
 weight: 1000
 ---
 

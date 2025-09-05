@@ -4,7 +4,7 @@ description: "Choisissez votre devise fiduciaire et convertissez-la"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["conversion de devises", "taux de fiat", "prix du bitcoin", "taux de change"]
 weight: 16
 ---
 

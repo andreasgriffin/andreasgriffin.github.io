@@ -4,7 +4,7 @@ description: "Les attaquants peuvent vous envoyer des transactions avec des adre
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["envoi"]
+keywords: ["empoisonnement à l'adresse", "phishing", "attaque à la poussière", "protection des portefeuilles"]
 ---
 
 ### {{< page-title >}} 

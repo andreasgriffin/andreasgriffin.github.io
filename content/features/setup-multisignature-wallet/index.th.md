@@ -4,7 +4,7 @@ description: "วิซาร์ดการตั้งค่าของ Bitco
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["หลายลายเซ็น"]
+keywords: ["การตั้งค่าหลาย", "การสร้างกระเป๋าเงิน", "Bitcoin ปลอดภัย", "2-of-3 multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

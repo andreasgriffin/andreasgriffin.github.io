@@ -4,7 +4,7 @@ description: "เลือกสกุลเงินฟิอัตของค
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["การแปลงสกุลเงิน", "อัตราคำสั่ง", "ราคา bitcoin", "อัตราแลกเปลี่ยน"]
 weight: 16
 ---
 

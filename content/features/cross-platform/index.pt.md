@@ -4,7 +4,7 @@ description: "Disponível em todos os ambientes de trabalho: Windows, macOS e Li
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["plataforma cruzada", "Windows", "macos", "Linux", "compatibilidade"]
 ---
 <!-- header-end -->
 

@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "거래"
+keywords: [
+  "가족을 위한 안전한 비트코인 지갑",
+  "비트코인",
+  "비트코인 저축",
+  "하드웨어 서명기",
+  "비트코인 수탁자",
+  "재무 고문",
+  "비트코인 지갑",
+  "trezor",
+  "미국 비트코인",
+  "BTC",
+  "HODL",
+  "비트코인 보안",
+  "즉시 거래 알림"
 ]
 
 # embedding videos can be done with 

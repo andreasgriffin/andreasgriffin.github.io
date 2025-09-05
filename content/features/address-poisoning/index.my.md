@@ -4,7 +4,7 @@ description: "တိုက်ခိုက်သူများသည် သင�
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["ပို့"]
+keywords: ["Keracunan alamat", "phishing", "Serangan habuk", "perlindungan dompet"]
 ---
 
 ### {{< page-title >}} 

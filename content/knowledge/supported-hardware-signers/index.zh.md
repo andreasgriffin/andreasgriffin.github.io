@@ -5,7 +5,7 @@ draft: false
 tags: ["特色","知识" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: [ "logo.png" ]
-keywords: []
+keywords: ["硬件钱包", "硬件签名器"]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content

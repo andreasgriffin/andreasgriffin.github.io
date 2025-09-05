@@ -4,7 +4,7 @@ description: "Wpisz, aby wyszukać we wszystkich otwartych portfelach"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["wyszukiwanie"]
+keywords: ["szukaj", "Wyszukiwanie transakcji", "Wyszukiwanie adresu", "portfel"]
 ---
 
 

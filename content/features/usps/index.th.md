@@ -4,7 +4,7 @@ description: "มีกระเป๋าเงิน Bitcoin บนเดสก
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["คุณสมบัติที่โดดเด่น"]
+keywords: ["Bitcoin ปลอดภัย", "คุณสมบัติที่เป็นเอกลักษณ์", "กระเป๋าเงินที่ปลอดภัย", "เป็นมิตรกับผู้ใช้"]
 weight: 1000
 ---
 

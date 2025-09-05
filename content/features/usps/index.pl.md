@@ -4,7 +4,7 @@ description: "Dostępnych jest kilka portfeli Bitcoin na komputery. Zobacz, co w
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["unikatowe funkcje"]
+keywords: ["Bitcoin Safe", "unikalne funkcje", "bezpieczny portfel", "przyjazny dla użytkownika"]
 weight: 1000
 ---
 

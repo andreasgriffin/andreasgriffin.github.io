@@ -6,7 +6,7 @@ description: "Bitcoin Safe setup wizard guides you through the steps to create a
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["multisig setup", "wallet creation", "bitcoin safe", "2-of-3 multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

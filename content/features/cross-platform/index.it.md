@@ -4,7 +4,7 @@ description: "Disponibile su tutti i desktop: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagramma"]
+keywords: ["piattaforma crociata", "finestre", "macos", "Linux", "compatibilità"]
 ---
 <!-- header-end -->
 

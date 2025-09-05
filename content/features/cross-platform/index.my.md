@@ -4,7 +4,7 @@ description: "Desktop များအားလုံး (Windows, MacOS, Linux) 
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["ဒီယာဂရမ်"]
+keywords: ["cross-platform", "tingkap", "macOS", "Linux", "keserasian"]
 ---
 <!-- header-end -->
 

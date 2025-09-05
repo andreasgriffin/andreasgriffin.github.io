@@ -4,7 +4,7 @@ description: "Saldırganlar, adresinize benzeyen adreslerle size işlemler gönd
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["gönder"]
+keywords: ["Adres Zehirlenmesi", "kimlik avı", "toz saldırısı", "cüzdan koruması"]
 ---
 
 ### {{< page-title >}} 

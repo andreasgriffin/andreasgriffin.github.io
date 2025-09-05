@@ -4,7 +4,7 @@ description: "Els atacants poden enviar-te transaccions amb adreces similars a l
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["enviar"]
+keywords: ["intoxicació per adreces", "pesca", "atac de pols", "Protecció de la cartera"]
 ---
 
 ### {{< page-title >}} 

@@ -4,7 +4,7 @@ description: "Exporta un extracte de balanç en PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multisignatura"]
+keywords: ["Declaració de l'equilibri", "Informe PDF", "Resum de la cartera", "Història de les transaccions"]
 weight: 16
 ---
 

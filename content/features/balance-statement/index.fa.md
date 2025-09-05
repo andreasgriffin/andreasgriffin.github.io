@@ -4,7 +4,7 @@ description: "خروجی گرفتن ترازنامه به‌صورت PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["چندامضایی"]
+keywords: ["بیانیه توازن", "گزارش PDF", "خلاصه کیف پول", "سابقه معامله"]
 weight: 16
 ---
 

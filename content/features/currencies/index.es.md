@@ -4,7 +4,7 @@ description: "Elige tu moneda fiduciaria e incluso conviértela"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["conversión de divisas", "tarifas fiduciarias", "precio de bitcoin", "tasas de cambio"]
 weight: 16
 ---
 

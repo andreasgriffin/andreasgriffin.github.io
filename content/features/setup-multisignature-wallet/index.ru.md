@@ -4,7 +4,7 @@ description: "Мастер настройки Bitcoin Safe проведёт ва
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Мультиподпись"]
+keywords: ["Multisig Setup", "Создание кошелька", "Биткойн сейф", "2 из 3 Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

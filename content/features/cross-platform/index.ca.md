@@ -4,7 +4,7 @@ description: "Disponible a tots els escriptoris: Windows, MacOS i Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["multiplata", "finestres", "macOS", "Linux", "compatibilitat"]
 ---
 <!-- header-end -->
 

@@ -4,7 +4,7 @@ description: "L'assistant de configuration de Bitcoin Safe vous guide pas à pas
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["configuration multisig", "création de portefeuille", "Bitcoin en toute sécurité", "2 sur 3 multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

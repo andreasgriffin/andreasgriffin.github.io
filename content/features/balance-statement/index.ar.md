@@ -4,7 +4,7 @@ description: "يصدّر بيان رصيد بصيغة PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["توقيع متعدد"]
+keywords: ["بيان التوازن", "تقرير PDF", "ملخص محفظة", "تاريخ المعاملة"]
 weight: 16
 ---
 

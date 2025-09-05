@@ -4,7 +4,7 @@ description: "Sincronització d'etiquetes i categories de monedes"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["enviar"]
+keywords: ["Sync de l'etiqueta", "Etiquetes de monedes", "Còpia de seguretat de metadades", "sincronització"]
 previewimage: "logo.png"
 weight: 18
 ---

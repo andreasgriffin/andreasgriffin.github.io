@@ -4,7 +4,7 @@ description: "Der Bitcoin Safe Einrichtungsassistent führt Sie durch die Schrit
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignatur"]
+keywords: ["Multisig -Setup", "Brieftaschenschöpfung", "Bitcoin sicher", "2-von-3-Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

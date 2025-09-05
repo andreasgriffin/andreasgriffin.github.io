@@ -4,7 +4,7 @@ description: "ဖွင့်ထားသော ပိုက်ဆံအိတ�
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["ရှာဖွေ"]
+keywords: ["cari", "carian transaksi", "Alamat carian", "dompet"]
 ---
 
 

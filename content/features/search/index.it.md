@@ -4,7 +4,7 @@ description: "Digita per cercare in tutti i portafogli aperti"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["ricerca"]
+keywords: ["ricerca", "Ricerca delle transazioni", "La ricerca dell'indirizzo", "portafoglio"]
 ---
 
 

@@ -4,7 +4,7 @@ description: "Eksportuje wyciąg sald w formacie PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Wielopodpisowy"]
+keywords: ["Instrukcja równowagi", "Raport PDF", "Podsumowanie portfela", "Historia transakcji"]
 weight: 16
 ---
 

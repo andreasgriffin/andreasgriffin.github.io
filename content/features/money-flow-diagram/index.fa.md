@@ -4,7 +4,7 @@ description: "با کلیک‌های ساده روی ورودی‌ها یا خر
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["نمودار"]
+keywords: ["جریان پول", "تجسم کیف پول", "نمودار جریان نقدی"]
 ---
 
 ### {{< page-title >}} 

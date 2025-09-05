@@ -4,7 +4,7 @@ description: "ใช้งานได้บนเดสก์ท็อปทุ
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["ไดอะแกรม"]
+keywords: ["ข้ามแพลตฟอร์ม", "หน้าต่าง", "แม็กอส", "ลินเวกซ์", "ความเข้ากันได้"]
 ---
 <!-- header-end -->
 

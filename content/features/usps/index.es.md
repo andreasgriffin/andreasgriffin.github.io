@@ -4,7 +4,7 @@ description: "Hay varias carteras de Bitcoin de escritorio disponibles. Descubre
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["características únicas"]
+keywords: ["bitcoin safe", "características únicas", "billetera segura", "fácil de usar"]
 weight: 1000
 ---
 

@@ -4,7 +4,7 @@ description: "标签与币种分类同步"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["发送"]
+keywords: ["标签同步", "硬币标签", "元数据备份", "同步"]
 previewimage: "logo.png"
 weight: 18
 ---

@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "交易"
+keywords: [
+  "适合家庭的安全比特币钱包",
+  "比特币",
+  "比特币储蓄",
+  "硬件签名器",
+  "比特币托管人",
+  "财务顾问",
+  "比特币钱包",
+  "trezor",
+  "美国比特币",
+  "BTC",
+  "HODL",
+  "比特币安全",
+  "即时交易通知"
 ]
 
 # embedding videos can be done with 

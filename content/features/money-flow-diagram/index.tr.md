@@ -4,7 +4,7 @@ description: "Bir işlemin veya PSBT'nin girişlerine ya da çıkışlarına tı
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diyagram"]
+keywords: ["para akışı", "cüzdan görselleştirme", "nakit akışı diyagramı"]
 ---
 
 ### {{< page-title >}} 

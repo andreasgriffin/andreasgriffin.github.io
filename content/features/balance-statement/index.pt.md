@@ -4,7 +4,7 @@ description: "Exporta um extrato de balanço em PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multassinatura"]
+keywords: ["Declaração de saldo", "Relatório PDF", "Resumo da carteira", "Histórico de transações"]
 weight: 16
 ---
 

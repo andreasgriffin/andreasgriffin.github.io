@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "işlem"
+keywords: [
+  "aileler için güvenli Bitcoin cüzdanı",
+  "bitcoin",
+  "bitcoin biriktirme",
+  "donanım imzalayıcı",
+  "Bitcoin saklama sağlayıcıları",
+  "Finansal Danışmanlar",
+  "bitcoin cüzdanı",
+  "trezor",
+  "ABD bitcoin",
+  "BTC",
+  "HODL",
+  "BitcoinGüvenliği",
+  "Anlık işlem bildirimleri"
 ]
 
 # embedding videos can be done with 

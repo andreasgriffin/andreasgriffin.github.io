@@ -6,7 +6,7 @@ description: "Label and Coin category synchronization"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["send"]
+keywords: ["label sync", "coin labels", "metadata backup", "synchronization"]
 previewimage: "logo.png"
 weight: 18
 ---

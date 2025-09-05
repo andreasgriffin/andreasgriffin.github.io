@@ -4,7 +4,7 @@ description: "Angreifer können Ihnen Transaktionen mit Adressen senden, die Ihr
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["senden"]
+keywords: ["Adressvergiftung", "Phishing", "Staubangriff", "Brieftaschenschutz"]
 ---
 
 ### {{< page-title >}} 

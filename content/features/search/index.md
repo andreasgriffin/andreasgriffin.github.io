@@ -6,7 +6,7 @@ description: "Type to search across all open wallets"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["search"]
+keywords: ["search", "transaction search", "address lookup", "wallet"]
 ---
 
 

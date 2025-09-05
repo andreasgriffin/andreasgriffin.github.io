@@ -4,7 +4,7 @@ description: "يرشدك معالج إعداد Bitcoin Safe خلال الخطو�
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["التوقيع المتعدد"]
+keywords: ["إعداد multisig", "خلق محفظة", "بيتكوين آمن", "2 من 3 multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

@@ -4,7 +4,7 @@ description: "कई डेस्कटॉप बिटकॉइन वॉले
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["अनूठी विशेषताएँ"]
+keywords: ["बिटकॉइन सुरक्षित", "अनन्य विशेषताएं", "सुरक्षित बटुआ", "यूजर फ्रेंडली"]
 weight: 1000
 ---
 

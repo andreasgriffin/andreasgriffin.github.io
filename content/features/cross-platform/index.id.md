@@ -4,7 +4,7 @@ description: "Tersedia di semua desktop: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagram"]
+keywords: ["Cross-Platform", "windows", "MacOS", "Linux", "kesesuaian"]
 ---
 <!-- header-end -->
 

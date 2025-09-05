@@ -4,7 +4,7 @@ description: "พิมพ์เพื่อค้นหาภายในกร
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["ค้นหา"]
+keywords: ["ค้นหา", "การค้นหาธุรกรรม", "การค้นหาที่อยู่", "กระเป๋าสตางค์"]
 ---
 
 

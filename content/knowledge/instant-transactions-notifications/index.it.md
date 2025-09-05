@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "transazione"
+keywords: [
+  "portafoglio Bitcoin sicuro per famiglie",
+  "bitcoin",
+  "risparmio in bitcoin",
+  "firmatore hardware",
+  "Custodi di Bitcoin",
+  "Consulenti finanziari",
+  "portafoglio bitcoin",
+  "trezor",
+  "usa bitcoin",
+  "BTC",
+  "HODL",
+  "Sicurezza Bitcoin",
+  "Notifiche istantanee delle transazioni"
 ]
 
 # embedding videos can be done with 

@@ -26,7 +26,7 @@ enableEmoji = true
   shorttitle= 'Bitcoin Safe'
   keywords = [
   "multisig",
-  "siging device",
+  "signing device",
   "hardware wallet",
   "multiparty multisig collaboration",
   "remote signing",
@@ -71,7 +71,7 @@ enableEmoji = true
   "usb signing",
   "sd card signing",
   "Sneakernet",
-  "Label synchonization",
+  "Label synchronization",
   "Coin categories",
   "Airgapped Keys",
   "Comprehensive Reporting",

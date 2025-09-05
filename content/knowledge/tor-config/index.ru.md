@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "tor"
+keywords: [
+  "безопасный биткойн-кошелёк для семей",
+  "биткойн",
+  "накопления в биткойне",
+  "аппаратный модуль подписи",
+  "Хранители Bitcoin",
+  "финансовые консультанты",
+  "биткойн-кошелёк",
+  "trezor",
+  "Bitcoin в США",
+  "BTC",
+  "HODL",
+  "Безопасность Bitcoin",
+  "Конфигурация Tor"
 ]
 
 # embedding videos can be done with 

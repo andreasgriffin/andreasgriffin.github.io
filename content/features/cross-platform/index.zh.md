@@ -4,7 +4,7 @@ description: "适用于所有桌面：Windows、MacOS、Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["图表"]
+keywords: ["跨平台", "视窗", "macos", "Linux", "兼容性"]
 ---
 <!-- header-end -->
 

@@ -4,7 +4,7 @@ description: "여러 데스크탑 비트코인 지갑이 있습니다. Bitcoin S
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["독특한 기능"]
+keywords: ["비트 코인 안전", "독특한 기능", "안전한 지갑", "사용자 친화적"]
 weight: 1000
 ---
 

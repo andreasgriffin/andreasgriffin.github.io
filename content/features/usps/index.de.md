@@ -4,7 +4,7 @@ description: "Es gibt mehrere Desktop-Bitcoin-Wallets. Sehen Sie, was Bitcoin Sa
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["einzigartige Funktionen"]
+keywords: ["Bitcoin sicher", "einzigartige Funktionen", "sichern Brieftasche", "Benutzerfreundlich"]
 weight: 1000
 ---
 

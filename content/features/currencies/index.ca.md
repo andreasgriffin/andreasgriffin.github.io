@@ -4,7 +4,7 @@ description: "Tria la teva moneda fiat i fins i tot converteix-la"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["conversió de moneda", "taxes de fiat", "Preu Bitcoin", "tipus de canvi"]
 weight: 16
 ---
 

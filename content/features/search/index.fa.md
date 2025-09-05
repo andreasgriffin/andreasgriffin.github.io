@@ -4,7 +4,7 @@ description: "برای جستجو در تمام کیف‌پول‌های باز 
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["جستجو"]
+keywords: ["جستجو", "جستجوی معامله", "جستجوی آدرس", "کیف پول"]
 ---
 
 

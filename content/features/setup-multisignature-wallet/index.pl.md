@@ -4,7 +4,7 @@ description: "Kreator konfiguracji Bitcoin Safe przeprowadzi Cię krok po kroku 
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Wielopodpisowy"]
+keywords: ["Konfiguracja multisig", "Tworzenie portfela", "Bitcoin Safe", "2 z 3 Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

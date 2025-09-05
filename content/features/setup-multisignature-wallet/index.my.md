@@ -4,7 +4,7 @@ description: "Bitcoin Safe တပ်ဆင်ရေး လမ်းညွှန�
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["အတည်ပြုပေါင်းစည်းမှု"]
+keywords: ["Persediaan Multig", "Penciptaan dompet", "Bitcoin selamat", "2-of-3 Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

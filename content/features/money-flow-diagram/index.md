@@ -6,7 +6,7 @@ description: "Navigate through the money flow diagrams via simple clicks on the 
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagram"]
+keywords: ["money flow", "wallet visualization", "cash flow diagram"]
 ---
 
 ### {{< page-title >}} 

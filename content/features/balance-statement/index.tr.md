@@ -4,7 +4,7 @@ description: "PDF formatında bilanço özetini dışa aktarır"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Çoklu İmza"]
+keywords: ["bakiye beyanı", "PDF raporu", "cüzdan özeti", "işlem geçmişi"]
 weight: 16
 ---
 

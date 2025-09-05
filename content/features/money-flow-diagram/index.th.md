@@ -4,7 +4,7 @@ description: "เรียกดูแผนผังการไหลของ
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["แผนผัง"]
+keywords: ["กระแสเงิน", "การสร้างภาพกระเป๋าเงิน", "แผนภาพกระแสเงินสด"]
 ---
 
 ### {{< page-title >}} 

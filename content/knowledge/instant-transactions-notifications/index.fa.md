@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "تراکنش"
+keywords: [
+  "کیف پول بیت‌کوین امن برای خانواده‌ها",
+  "بیت‌کوین",
+  "پس‌انداز بیت‌کوین",
+  "امضاکننده سخت‌افزاری",
+  "نگهدارندگان بیت‌کوین",
+  "مشاوران مالی",
+  "کیف پول بیت‌کوین",
+  "trezor",
+  "usa bitcoin",
+  "BTC",
+  "HODL",
+  "BitcoinSecurity",
+  "اعلان‌های فوری تراکنش"
 ]
 
 # embedding videos can be done with 

@@ -4,7 +4,7 @@ description: "MultiSig အိတ်ဆောင်အတွက် PDF backup စ
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["စုံလက်မှတ်"]
+keywords: ["sandaran pdf", "deskriptor dompet", "Multig", "eksport"]
 weight: 15
 ---
 

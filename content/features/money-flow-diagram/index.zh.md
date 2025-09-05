@@ -4,7 +4,7 @@ description: "通过简单点击交易或 PSBT 的输入或输出来浏览资金
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["图表"]
+keywords: ["货币流", "钱包可视化", "现金流程图"]
 ---
 
 ### {{< page-title >}} 

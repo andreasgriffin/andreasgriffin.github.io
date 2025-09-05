@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "transacció"
+keywords: [
+  "moneder Bitcoin segur per a famílies",
+  "bitcoin",
+  "estalvi en bitcoin",
+  "signador de maquinari",
+  "custodis de Bitcoin",
+  "assessors financers",
+  "moneder de bitcoin",
+  "trezor",
+  "bitcoin EUA",
+  "BTC",
+  "HODL",
+  "Seguretat de Bitcoin",
+  "Notificacions de transaccions instantànies"
 ]
 
 # embedding videos can be done with 

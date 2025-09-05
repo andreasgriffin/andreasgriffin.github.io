@@ -4,7 +4,7 @@ description: "Bitcoin Safe 설정 마법사는 안전한 비트코인 지갑을 
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["다중 서명"]
+keywords: ["멀티시 설정", "지갑 생성", "비트 코인 안전", "2-of-3 Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

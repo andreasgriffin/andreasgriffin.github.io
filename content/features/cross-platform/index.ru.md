@@ -4,7 +4,7 @@ description: "Доступно на всех настольных платфор
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Диаграмма"]
+keywords: ["кроссплатформенный", "окна", "macOS", "Linux", "совместимость"]
 ---
 <!-- header-end -->
 

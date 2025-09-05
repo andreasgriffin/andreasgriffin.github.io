@@ -4,7 +4,7 @@ description: "Exporter la feuille de sauvegarde au format PDF pour un portefeuil
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["Sauvegarde PDF", "descripteur de portefeuille", "multisig", "exporter"]
 weight: 15
 ---
 

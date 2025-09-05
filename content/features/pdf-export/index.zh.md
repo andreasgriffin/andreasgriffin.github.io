@@ -4,7 +4,7 @@ description: "为多重签名钱包导出 PDF 备份表"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["多重签名"]
+keywords: ["PDF备份", "钱包描述符", "Multisig", "出口"]
 weight: 15
 ---
 

@@ -4,7 +4,7 @@ description: "Navega por los diagramas de flujo de dinero mediante simples clics
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["flujo de dinero", "visualización de la billetera", "Diagrama de flujo de caja"]
 ---
 
 ### {{< page-title >}} 

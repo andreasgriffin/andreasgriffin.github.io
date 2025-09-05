@@ -4,7 +4,7 @@ description: "Exporta la fitxa de còpia de seguretat en PDF per a una cartera M
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignatura"]
+keywords: ["Còpia de seguretat de PDF", "Descriptor de la cartera", "multisig", "exportar"]
 weight: 15
 ---
 

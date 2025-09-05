@@ -4,7 +4,7 @@ description: "Os atacantes podem enviar-lhe transacções com endereços semelha
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["enviar"]
+keywords: ["envenenamento por endereço", "phishing", "ataque de poeira", "Proteção da carteira"]
 ---
 
 ### {{< page-title >}} 

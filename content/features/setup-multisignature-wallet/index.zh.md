@@ -4,7 +4,7 @@ description: "Bitcoin Safe 设置向导将引导您完成创建安全的比特�
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["多重签名"]
+keywords: ["Multisig设置", "钱包创造", "比特币安全", "3中的2中"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

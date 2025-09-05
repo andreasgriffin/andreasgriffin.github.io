@@ -4,7 +4,7 @@ description: "ラベルとコインカテゴリの同期"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["送信"]
+keywords: ["ラベル同期", "コインラベル", "メタデータバックアップ", "同期"]
 previewimage: "logo.png"
 weight: 18
 ---

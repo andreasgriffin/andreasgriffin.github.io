@@ -4,7 +4,7 @@ description: "Navegue pelos diagramas de fluxo de dinheiro através de cliques s
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["fluxo de dinheiro", "Visualização da carteira", "Diagrama de fluxo de caixa"]
 ---
 
 ### {{< page-title >}} 

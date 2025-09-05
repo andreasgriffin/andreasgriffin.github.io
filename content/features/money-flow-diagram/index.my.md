@@ -4,7 +4,7 @@ description: "ငွေစီးကြောင်းဇယားများတ
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["ဇယား"]
+keywords: ["aliran wang", "Visualisasi dompet", "Rajah aliran tunai"]
 ---
 
 ### {{< page-title >}} 

@@ -6,7 +6,7 @@ description: "Attackers can send you transactions with  addresses similar to you
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["send"]
+keywords: ["address poisoning", "phishing", "dust attack", "wallet protection"]
 ---
 
 ### {{< page-title >}} 

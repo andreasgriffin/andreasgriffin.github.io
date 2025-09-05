@@ -4,7 +4,7 @@ description: "Fiat para biriminizi seçin ve hatta dönüştürün"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["para birimi dönüşümü", "Fiat Oranları", "Bitcoin Fiyatı", "döviz kurları"]
 weight: 16
 ---
 

@@ -4,7 +4,7 @@ description: "چندین کیف پول دسکتاپ بیت‌کوین موجود
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["ویژگی‌های منحصربه‌فرد"]
+keywords: ["بیت کوین ایمن", "ویژگی های منحصر به فرد", "کیف پول ایمن", "کاربرپسند"]
 weight: 1000
 ---
 

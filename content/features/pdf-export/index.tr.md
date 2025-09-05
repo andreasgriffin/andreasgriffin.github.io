@@ -4,7 +4,7 @@ description: "MultiSig cüzdanı için PDF yedekleme sayfasını dışa aktarın
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Çoklu İmza"]
+keywords: ["PDF yedekleme", "cüzdan tanımlayıcısı", "çoklu", "ihracat"]
 weight: 15
 ---
 

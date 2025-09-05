@@ -4,7 +4,7 @@ description: "Bitcoin Safeのセットアップウィザードは、安全なビ
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["マルチ署名"]
+keywords: ["Multisigセットアップ", "ウォレットの作成", "ビットコインセーフ", "3分の2マルチシグ"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

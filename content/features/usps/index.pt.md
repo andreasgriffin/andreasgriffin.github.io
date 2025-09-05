@@ -4,7 +4,7 @@ description: "Existem várias carteiras de Bitcoin para desktop disponíveis. Ve
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["funcionalidades únicas"]
+keywords: ["Bitcoin seguro", "Recursos únicos", "carteira segura", "amigo do usuário"]
 weight: 1000
 ---
 

@@ -4,7 +4,7 @@ description: "تصدير ورقة النسخ الاحتياطي بصيغة PDF �
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["متعدد التواقيع"]
+keywords: ["PDF النسخ الاحتياطي", "واصف محفظة", "multisig", "يصدّر"]
 weight: 15
 ---
 

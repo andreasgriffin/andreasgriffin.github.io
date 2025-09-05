@@ -4,7 +4,7 @@ description: "Gli aggressori possono inviarti transazioni con indirizzi simili a
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["inviare"]
+keywords: ["affrontare l'avvelenamento", "phishing", "attacco di polvere", "Protezione del portafoglio"]
 ---
 
 ### {{< page-title >}} 

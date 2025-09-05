@@ -4,7 +4,7 @@ description: "すべてのデスクトップで利用可能: Windows、MacOS、L
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["ダイアグラム"]
+keywords: ["クロスプラットフォーム", "Windows", "macos", "Linux", "互換性"]
 ---
 <!-- header-end -->
 

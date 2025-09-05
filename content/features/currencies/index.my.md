@@ -4,7 +4,7 @@ description: "သင့်ဖီယတ်ငွေကြေးကို ရွ�
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["penukaran mata wang", "Kadar Fiat", "Harga Bitcoin", "kadar pertukaran"]
 weight: 16
 ---
 

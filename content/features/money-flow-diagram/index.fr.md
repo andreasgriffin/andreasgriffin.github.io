@@ -4,7 +4,7 @@ description: "Naviguez dans les diagrammes de flux d'argent en cliquant simpleme
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagramme"]
+keywords: ["flux monétaire", "visualisation du portefeuille", "diagramme de flux de trésorerie"]
 ---
 
 ### {{< page-title >}} 

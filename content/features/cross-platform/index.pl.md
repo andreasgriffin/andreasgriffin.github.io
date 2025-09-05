@@ -4,7 +4,7 @@ description: "Dostępne na wszystkich komputerach: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Schemat"]
+keywords: ["Splatform krzyżowy", "okna", "MacOS", "Linux", "zgodność"]
 ---
 <!-- header-end -->
 

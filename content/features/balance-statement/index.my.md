@@ -4,7 +4,7 @@ description: "လက်ကျန်စာရင်းကို PDF အဖြစ�
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["လက်မှတ်အများ"]
+keywords: ["penyata baki", "Laporan PDF", "Ringkasan dompet", "Sejarah Transaksi"]
 weight: 16
 ---
 

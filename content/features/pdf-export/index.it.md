@@ -4,7 +4,7 @@ description: "Esporta il foglio di backup PDF per un portafoglio MultiSig"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multifirma"]
+keywords: ["PDF Backup", "Descrittore del portafoglio", "multisig", "esportare"]
 weight: 15
 ---
 

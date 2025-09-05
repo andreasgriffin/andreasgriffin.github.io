@@ -4,7 +4,7 @@ description: "Synchronizacja etykiet i kategorii monet"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["wyślij"]
+keywords: ["Synchronizacja etykiety", "Etykiety monet", "Backup Metadata", "synchronizacja"]
 previewimage: "logo.png"
 weight: 18
 ---

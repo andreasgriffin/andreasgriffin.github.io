@@ -4,7 +4,7 @@ description: "Digite para pesquisar em todas as carteiras abertas"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["pesquisa"]
+keywords: ["procurar", "Pesquisa de transação", "Pesquisa de endereço", "carteira"]
 ---
 
 

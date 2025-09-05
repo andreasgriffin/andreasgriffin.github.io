@@ -4,7 +4,7 @@ description: "Exporte un relevé de solde au format PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["énoncé de solde", "Rapport PDF", "Résumé du portefeuille", "Historique des transactions"]
 weight: 16
 ---
 

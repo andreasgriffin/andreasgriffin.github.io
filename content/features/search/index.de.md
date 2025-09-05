@@ -4,7 +4,7 @@ description: "Tippe, um in allen offenen Wallets zu suchen"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["suche"]
+keywords: ["suchen", "Transaktionssuche", "Adress -Suche", "Geldbörse"]
 ---
 
 

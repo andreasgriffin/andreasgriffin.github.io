@@ -4,7 +4,7 @@ description: "مزامنة الوسوم وفئات العملات"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["إرسال"]
+keywords: ["مزامنة التسمية", "ملصقات العملة", "النسخ الاحتياطي بيانات التعريف", "التزامن"]
 previewimage: "logo.png"
 weight: 18
 ---

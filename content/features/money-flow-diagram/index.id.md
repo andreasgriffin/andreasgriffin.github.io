@@ -4,7 +4,7 @@ description: "Menavigasi diagram aliran uang melalui klik sederhana pada input a
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagram"]
+keywords: ["aliran uang", "Visualisasi Dompet", "Diagram arus kas"]
 ---
 
 ### {{< page-title >}} 

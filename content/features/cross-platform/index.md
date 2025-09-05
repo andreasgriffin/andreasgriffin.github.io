@@ -6,7 +6,7 @@ description: "Available on all desktops: Windows, MacOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagram"]
+keywords: ["cross-platform", "windows", "macOS", "linux", "compatibility"]
 ---
 <!-- header-end -->
 

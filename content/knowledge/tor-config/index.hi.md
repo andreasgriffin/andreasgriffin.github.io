@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "टोर"
+keywords: [
+  "परिवारों के लिए सुरक्षित बिटकॉइन वॉलेट",
+  "बिटकॉइन",
+  "बिटकॉइन बचत",
+  "हार्डवेयर साइनर",
+  "बिटकॉइन कस्टोडियन",
+  "वित्तीय सलाहकार",
+  "बिटकॉइन वॉलेट",
+  "trezor",
+  "यूएसए बिटकॉइन",
+  "BTC",
+  "HODL",
+  "BitcoinSecurity",
+  "Tor विन्यास"
 ]
 
 # embedding videos can be done with 

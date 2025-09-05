@@ -4,7 +4,7 @@ description: "Hi ha diverses carteres de Bitcoin d'escriptori disponibles. Desco
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["característiques úniques"]
+keywords: ["Bitcoin Safe", "Característiques úniques", "Callera segura", "usuari"]
 weight: 1000
 ---
 

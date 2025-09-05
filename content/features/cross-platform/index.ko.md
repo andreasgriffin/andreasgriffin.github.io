@@ -4,7 +4,7 @@ description: "모든 데스크톱에서 사용 가능: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["다이어그램"]
+keywords: ["크로스 플랫폼", "창", "마코스", "리눅스", "호환성"]
 ---
 <!-- header-end -->
 

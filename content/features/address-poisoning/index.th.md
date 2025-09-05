@@ -4,7 +4,7 @@ description: "ผู้โจมตีอาจส่งธุรกรรมท
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["ส่ง"]
+keywords: ["ที่อยู่เป็นพิษ", "การทำฟิชชิ่ง", "การโจมตีด้วยฝุ่น", "การป้องกันกระเป๋าเงิน"]
 ---
 
 ### {{< page-title >}} 

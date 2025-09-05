@@ -4,7 +4,7 @@ description: "توجد العديد من محافظ بتكوين لسطح الم
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["ميزات فريدة"]
+keywords: ["بيتكوين آمن", "ميزات فريدة", "محفظة آمنة", "سهل الاستخدام"]
 weight: 1000
 ---
 

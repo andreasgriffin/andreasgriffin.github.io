@@ -4,7 +4,7 @@ description: "Escribe para buscar en todas las carteras abiertas"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["búsqueda"]
+keywords: ["buscar", "búsqueda de transacciones", "búsqueda de direcciones", "billetera"]
 ---
 
 

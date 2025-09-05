@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "トランザクション"
+keywords: [
+  "家族向けの安全なビットコインウォレット",
+  "ビットコイン",
+  "ビットコイン貯蓄",
+  "ハードウェア署名デバイス",
+  "ビットコイン保管者",
+  "ファイナンシャルアドバイザー",
+  "ビットコインウォレット",
+  "trezor",
+  "usa bitcoin",
+  "BTC",
+  "HODL",
+  "ビットコインセキュリティ",
+  "即時トランザクション通知"
 ]
 
 # embedding videos can be done with 

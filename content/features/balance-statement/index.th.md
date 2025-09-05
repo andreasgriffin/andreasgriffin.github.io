@@ -4,7 +4,7 @@ description: "ส่งออกงบดุลเป็น PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["มัลติซิกเนเจอร์"]
+keywords: ["งบสมดุล", "รายงาน PDF", "สรุปกระเป๋าเงิน", "ประวัติการทำธุรกรรม"]
 weight: 16
 ---
 

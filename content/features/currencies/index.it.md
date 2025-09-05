@@ -4,7 +4,7 @@ description: "Scegli la tua valuta fiat e convertiscila"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["conversione valutaria", "Tariffe fiat", "prezzo bitcoin", "tassi di cambio"]
 weight: 16
 ---
 

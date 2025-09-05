@@ -4,7 +4,7 @@ description: "सभी डेस्कटॉप पर उपलब्ध: Wind
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["डायग्राम"]
+keywords: ["क्रॉस-प्लेटफॉर्म", "खिंचाव", "मैक ओएस", "लिनक्स", "अनुकूलता"]
 ---
 <!-- header-end -->
 

@@ -4,7 +4,7 @@ description: "Synchronisation des étiquettes et des catégories de pièces"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["envoyer"]
+keywords: ["synchronisation", "étiquettes de monnaie", "Sauvegarde des métadonnées", "synchronisation"]
 previewimage: "logo.png"
 weight: 18
 ---

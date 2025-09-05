@@ -4,7 +4,7 @@ description: "တံဆိပ်များနှင့် Coin အမျို
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["ပို့"]
+keywords: ["Label Sync", "Label duit syiling", "sandaran metadata", "Penyegerakan"]
 previewimage: "logo.png"
 weight: 18
 ---

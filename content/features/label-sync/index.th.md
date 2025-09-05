@@ -4,7 +4,7 @@ description: "การซิงโครไนซ์ป้ายกำกับ
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["ส่ง"]
+keywords: ["การซิงค์ฉลาก", "ฉลากเหรียญ", "ข้อมูลสำรองข้อมูลเมตา", "การซิงโครไนซ์"]
 previewimage: "logo.png"
 weight: 18
 ---

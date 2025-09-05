@@ -4,7 +4,7 @@ description: "Plusieurs portefeuilles Bitcoin pour bureau sont disponibles. Déc
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["fonctionnalités uniques"]
+keywords: ["Bitcoin en toute sécurité", "caractéristiques uniques", "portefeuille sécurisé", "convivial"]
 weight: 1000
 ---
 

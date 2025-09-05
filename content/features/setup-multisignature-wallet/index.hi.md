@@ -4,7 +4,7 @@ description: "Bitcoin Safe सेटअप विज़र्ड आपको �
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["बहु-हस्ताक्षर"]
+keywords: ["बहुस्तरीय सेटअप", "बटुए का निर्माण", "बिटकॉइन सुरक्षित", "2-3 मल्टीसिग"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

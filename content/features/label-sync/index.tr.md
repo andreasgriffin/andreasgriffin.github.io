@@ -4,7 +4,7 @@ description: "Etiket ve Coin kategori senkronizasyonu"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["gönder"]
+keywords: ["Etiket Senkronizasyonu", "madeni para", "meta veri yedekleme", "senkronizasyon"]
 previewimage: "logo.png"
 weight: 18
 ---

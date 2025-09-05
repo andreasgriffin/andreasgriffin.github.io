@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "tor"
+keywords: [
+  "กระเป๋าบิทคอยน์ที่ปลอดภัยสำหรับครอบครัว",
+  "บิทคอยน์",
+  "การออมบิทคอยน์",
+  "อุปกรณ์เซ็นด้วยฮาร์ดแวร์",
+  "ผู้ดูแลบิทคอยน์",
+  "ที่ปรึกษาทางการเงิน",
+  "กระเป๋าเงินบิทคอยน์",
+  "trezor",
+  "บิทคอยน์ สหรัฐอเมริกา",
+  "BTC",
+  "HODL",
+  "ความปลอดภัยของบิทคอยน์",
+  "การตั้งค่า Tor"
 ]
 
 # embedding videos can be done with 

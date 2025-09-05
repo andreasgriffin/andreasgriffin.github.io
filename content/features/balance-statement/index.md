@@ -6,7 +6,7 @@ description: "Exports a PDF balance statement"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["balance statement", "pdf report", "wallet summary", "transaction history"]
 weight: 16
 ---
 

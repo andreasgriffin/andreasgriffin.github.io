@@ -4,7 +4,7 @@ description: "Ekspor lembar cadangan PDF untuk dompet MultiSig"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multitanda tangan"]
+keywords: ["Cadangan PDF", "deskriptor dompet", "MULTISIG", "ekspor"]
 weight: 15
 ---
 

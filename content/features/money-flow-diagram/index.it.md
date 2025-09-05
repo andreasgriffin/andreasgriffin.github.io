@@ -4,7 +4,7 @@ description: "Naviga nei diagrammi del flusso di denaro con semplici clic sugli 
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagramma"]
+keywords: ["Flusso di denaro", "Visualizzazione del portafoglio", "Diagramma del flusso di cassa"]
 ---
 
 ### {{< page-title >}} 

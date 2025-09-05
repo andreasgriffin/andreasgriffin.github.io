@@ -4,7 +4,7 @@ description: "マルチシグウォレットの PDF バックアップシート�
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["マルチシグ"]
+keywords: ["PDFバックアップ", "ウォレット記述子", "Multisig", "輸出"]
 weight: 15
 ---
 

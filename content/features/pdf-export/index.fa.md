@@ -4,7 +4,7 @@ description: "صدور برگه پشتیبان PDF برای کیف پول چند
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["چندامضایی"]
+keywords: ["تهیه نسخه پشتیبان از PDF", "توصیف کننده کیف پول", "چند", "صادر کردن"]
 weight: 15
 ---
 

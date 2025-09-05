@@ -4,7 +4,7 @@ description: "تصفح مخططات تدفق الأموال عبر نقرات ب
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["مخطط"]
+keywords: ["تدفق المال", "تصور محفظة", "مخطط التدفق النقدي"]
 ---
 
 ### {{< page-title >}} 

@@ -4,7 +4,7 @@ description: "Beberapa dompet Bitcoin Desktop tersedia. Lihat apa yang membuat B
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["fitur unik"]
+keywords: ["Bitcoin aman", "Fitur unik", "dompet aman", "ramah pengguna"]
 weight: 1000
 ---
 

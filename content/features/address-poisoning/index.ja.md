@@ -4,7 +4,7 @@ description: "攻撃者は、あなたのアドレスに似たアドレスを使
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["送信"]
+keywords: ["中毒に対処します", "フィッシング", "ダスト攻撃", "ウォレット保護"]
 ---
 
 ### {{< page-title >}} 

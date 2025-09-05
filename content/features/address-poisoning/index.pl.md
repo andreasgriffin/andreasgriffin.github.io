@@ -4,7 +4,7 @@ description: "Atakujący mogą wysyłać Ci transakcje z adresami podobnymi do T
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["wysyłanie"]
+keywords: ["Zatruć", "phishing", "atak pyłu", "Ochrona portfela"]
 ---
 
 ### {{< page-title >}} 

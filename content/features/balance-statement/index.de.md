@@ -4,7 +4,7 @@ description: "Exportiert eine Bilanz als PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multisignatur"]
+keywords: ["Gleichgewichtserklärung", "PDF -Bericht", "Brieftasche Zusammenfassung", "Transaktionsgeschichte"]
 weight: 16
 ---
 

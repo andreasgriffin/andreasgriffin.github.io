@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "معاملة"
+keywords: [
+  "محفظة بيتكوين آمنة للعائلات",
+  "بيتكوين",
+  "الادخار بعملة بيتكوين",
+  "جهاز توقيع مادي",
+  "أمناء بيتكوين",
+  "مستشارون ماليون",
+  "محفظة بيتكوين",
+  "trezor",
+  "بيتكوين الولايات المتحدة",
+  "BTC",
+  "HODL",
+  "أمن البيتكوين",
+  "إشعارات المعاملات الفورية"
 ]
 
 # embedding videos can be done with 

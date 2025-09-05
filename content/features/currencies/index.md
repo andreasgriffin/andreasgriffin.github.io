@@ -6,7 +6,7 @@ description: "Choose your fiat currency and even convert"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["currency conversion", "fiat rates", "bitcoin price", "exchange rates"]
 weight: 16
 ---
 

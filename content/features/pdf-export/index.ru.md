@@ -4,7 +4,7 @@ description: "Экспорт PDF-листа резервной копии для
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Мультиподпись"]
+keywords: ["PDF резервное копирование", "Дескриптор кошелька", "Multisig", "экспорт"]
 weight: 15
 ---
 

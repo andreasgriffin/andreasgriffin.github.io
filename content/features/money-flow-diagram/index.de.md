@@ -4,7 +4,7 @@ description: "Navigieren Sie durch die Geldflussdiagramme, indem Sie einfach auf
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Diagramm"]
+keywords: ["Geldfluss", "Brieftaschenvisualisierung", "Cashflow -Diagramm"]
 ---
 
 ### {{< page-title >}} 

@@ -4,7 +4,7 @@ description: "공격자가 귀하의 주소와 유사한 주소로 거래를 보
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["보내기"]
+keywords: ["중독을 해결하십시오", "피싱", "먼지 공격", "지갑 보호"]
 ---
 
 ### {{< page-title >}} 

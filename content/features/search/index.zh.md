@@ -4,7 +4,7 @@ description: "输入以在所有打开的钱包中进行搜索"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["搜索"]
+keywords: ["搜索", "交易搜索", "地址查找", "钱包"]
 ---
 
 

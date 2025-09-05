@@ -4,7 +4,7 @@ description: "Tüm masaüstlerinde kullanılabilir: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diyagram"]
+keywords: ["platformlar arası", "pencere", "macos", "linux", "uyumluluk"]
 ---
 <!-- header-end -->
 

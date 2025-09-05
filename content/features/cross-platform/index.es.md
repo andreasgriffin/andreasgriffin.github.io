@@ -4,7 +4,7 @@ description: "Disponible en todos los escritorios: Windows, MacOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagrama"]
+keywords: ["multiplataforma", "Windows", "macosa", "Linux", "compatibilidad"]
 ---
 <!-- header-end -->
 

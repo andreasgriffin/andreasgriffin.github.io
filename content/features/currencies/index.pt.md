@@ -4,7 +4,7 @@ description: "Escolha a sua moeda fiat e converta-a"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["conversão de moeda", "Taxas fiduciárias", "Preço de Bitcoin", "taxas de câmbio"]
 weight: 16
 ---
 

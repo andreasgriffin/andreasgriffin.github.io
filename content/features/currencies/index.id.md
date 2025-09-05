@@ -4,7 +4,7 @@ description: "Pilih mata uang fiat Anda dan lakukan konversi"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["konversi mata uang", "tarif fiat", "Harga Bitcoin", "nilai tukar"]
 weight: 16
 ---
 

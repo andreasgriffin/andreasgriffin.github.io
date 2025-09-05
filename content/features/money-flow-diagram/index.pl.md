@@ -4,7 +4,7 @@ description: "Nawiguj po diagramach przepływu pieniędzy poprzez proste klikni�
 draft: false
 tags: ["Featured","Features" ]
 images: ["logo.png"]
-keywords: ["Schemat"]
+keywords: ["przepływ pieniędzy", "Wizualizacja portfela", "Schemat przepływów pieniężnych"]
 ---
 
 ### {{< page-title >}} 

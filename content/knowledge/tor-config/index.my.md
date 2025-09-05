@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "tor"
+keywords: [
+  "မိသားစုများအတွက် လုံခြုံသော Bitcoin အိတ်ဆောင်",
+  "ဘစ်ကိုင်း",
+  "ဘစ်ကိုင်း သိမ်းဆည်းခြင်း",
+  "ဟာ့ဒ်ဝဲ လက်မှတ်ရေးစက်",
+  "ဘစ်ကိုင်း စောင့်ရှောက်သူများ",
+  "ဘဏ္ဍာရေး အကြံပေးများ",
+  "ဘစ်ကိုင်း အိတ်ဆောင်",
+  "trezor",
+  "အမေရိကန် ဘစ်ကိုင်း",
+  "BTC",
+  "HODL",
+  "ဘစ်ကိုင်း လုံခြုံရေး",
+  "Tor ဆက်တင်"
 ]
 
 # embedding videos can be done with 

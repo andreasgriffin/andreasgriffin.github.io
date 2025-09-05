@@ -4,7 +4,7 @@ description: "Bitcoin Safe kurulum sihirbazı, güvenli bir Bitcoin cüzdanı ol
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Çoklu İmza"]
+keywords: ["çoklu kurulum", "cüzdan yaratma", "Bitcoin kasası", "3'ün 2'si çoklu"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

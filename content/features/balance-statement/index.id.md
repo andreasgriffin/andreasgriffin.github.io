@@ -4,7 +4,7 @@ description: "Mengekspor laporan saldo sebagai PDF"
 draft: false
 tags: [  "Features", "Multisignature"]
 images: ["logo.png"]
-keywords: ["Multitanda tangan"]
+keywords: ["pernyataan saldo", "Laporan PDF", "Ringkasan Dompet", "riwayat transaksi"]
 weight: 16
 ---
 

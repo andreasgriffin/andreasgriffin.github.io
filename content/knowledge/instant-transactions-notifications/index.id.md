@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "transaksi"
+keywords: [
+  "dompet Bitcoin aman untuk keluarga",
+  "bitcoin",
+  "tabungan bitcoin",
+  "penandatangan perangkat keras",
+  "kustodian Bitcoin",
+  "penasihat keuangan",
+  "dompet bitcoin",
+  "trezor",
+  "usa bitcoin",
+  "BTC",
+  "HODL",
+  "KeamananBitcoin",
+  "Notifikasi transaksi instan"
 ]
 
 # embedding videos can be done with 

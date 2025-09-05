@@ -4,7 +4,7 @@ description: "法定通貨を選択し、通貨換算も行えます"
 draft: false
 tags: [  "Features",  ]
 images: ["logo.png"]
-keywords: [ ]
+keywords: ["通貨変換", "フィアット率", "ビットコイン価格", "為替レート"]
 weight: 16
 ---
 

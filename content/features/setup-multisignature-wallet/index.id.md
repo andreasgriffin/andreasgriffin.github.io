@@ -4,7 +4,7 @@ description: "Panduan pengaturan Bitcoin Safe memandu Anda melalui langkah-langk
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignature"]
+keywords: ["Pengaturan Multisig", "Penciptaan dompet", "Bitcoin aman", "2-of-3 Multisig"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

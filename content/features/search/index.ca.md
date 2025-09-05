@@ -4,7 +4,7 @@ description: "Escriu per cercar entre totes les carteres obertes"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["cerca"]
+keywords: ["buscar", "Cerca de transaccions", "cerca d'adreces", "cartera"]
 ---
 
 

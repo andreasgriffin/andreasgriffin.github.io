@@ -4,7 +4,7 @@ description: "اكتب للبحث في جميع المحافظ المفتوحة"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["بحث"]
+keywords: ["يبحث", "البحث عن المعاملات", "عنوان البحث", "محفظة"]
 ---
 
 

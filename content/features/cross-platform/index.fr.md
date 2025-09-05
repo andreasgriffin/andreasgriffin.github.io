@@ -4,7 +4,7 @@ description: "Disponible sur tous les postes de travail : Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagramme"]
+keywords: ["multiplateforme", "fenêtre", "macos", "linux", "compatibilité"]
 ---
 <!-- header-end -->
 

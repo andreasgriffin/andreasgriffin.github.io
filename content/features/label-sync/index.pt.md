@@ -4,7 +4,7 @@ description: "Sincronização de etiquetas e categorias de moeda"
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["enviar"]
+keywords: ["Sincronização de etiquetas", "Rótulos de moedas", "Backup de metadados", "sincronização"]
 previewimage: "logo.png"
 weight: 18
 ---

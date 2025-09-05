@@ -4,7 +4,7 @@ description: "ส่งออกแผ่นสำรองเป็นไฟล
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["หลายลายเซ็น"]
+keywords: ["การสำรองข้อมูล PDF", "ตัวบ่งชี้กระเป๋าเงิน", "มัลติซิก", "ส่งออก"]
 weight: 15
 ---
 

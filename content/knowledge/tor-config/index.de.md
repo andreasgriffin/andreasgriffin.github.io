@@ -5,7 +5,20 @@ draft: false
 tags: ["Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: ["logo.png" ]
-keywords: [ "tor"
+keywords: [
+  "sichere Bitcoin-Wallet für Familien",
+  "Bitcoin",
+  "Bitcoin-Sparen",
+  "Hardware-Signer",
+  "Bitcoin-Verwahrer",
+  "Finanzberater",
+  "Bitcoin-Wallet",
+  "Trezor",
+  "Bitcoin USA",
+  "BTC",
+  "HODL",
+  "Bitcoin-Sicherheit",
+  "Tor-Konfiguration"
 ]
 
 # embedding videos can be done with 

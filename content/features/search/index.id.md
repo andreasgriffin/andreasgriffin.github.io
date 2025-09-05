@@ -4,7 +4,7 @@ description: "Ketik untuk mencari di semua dompet yang terbuka"
 draft: false
 tags: ["Featured" ,"Features"]
 images: [ "logo.png" ]
-keywords: ["pencarian"]
+keywords: ["mencari", "Pencarian Transaksi", "pencarian alamat", "dompet"]
 ---
 
 

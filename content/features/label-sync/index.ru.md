@@ -4,7 +4,7 @@ description: "Синхронизация меток и категорий мон
 draft: false
 tags: ["Featured", "sync","Features" ]
 images: [ "logo.png" ]
-keywords: ["отправка"]
+keywords: ["Метка синхронизации", "ярлыки монет", "Метаданная резервная копия", "синхронизация"]
 previewimage: "logo.png"
 weight: 18
 ---

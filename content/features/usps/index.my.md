@@ -4,7 +4,7 @@ description: "Desktop Bitcoin ဝေါလက်အမျိုးမျို�
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["ထူးခြားတဲ့ အင်္ဂါရပ်များ"]
+keywords: ["Bitcoin selamat", "Ciri -ciri unik", "dompet selamat", "mesra pengguna"]
 weight: 1000
 ---
 

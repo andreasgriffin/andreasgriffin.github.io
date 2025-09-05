@@ -4,7 +4,7 @@ description: "Verfügbar auf allen Desktops: Windows, macOS, Linux"
 draft: false
 tags: [ "Features" ]
 images: ["logo.png"]
-keywords: ["Diagramm"]
+keywords: ["plattformübergreifend", "Fenster", "macos", "Linux", "Kompatibilität"]
 ---
 <!-- header-end -->
 

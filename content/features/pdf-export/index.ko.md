@@ -4,7 +4,7 @@ description: "멀티시그 지갑용 PDF 백업 시트를 내보냅니다."
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["다중 서명"]
+keywords: ["PDF 백업", "지갑 디스크립터", "멀티시", "내보내다"]
 weight: 15
 ---
 

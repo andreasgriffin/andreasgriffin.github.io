@@ -4,7 +4,7 @@ description: "راهنمای راه‌اندازی Bitcoin Safe شما را در
 draft: false
 tags: [  "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["چندامضایی"]
+keywords: ["راه اندازی چندگانه", "ایجاد کیف پول", "بیت کوین ایمن", "2-از 3 چندگوش"]
 weight: 20
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}

@@ -4,7 +4,7 @@ description: "Exportiere das PDF-Sicherungsblatt für eine MultiSig-Wallet"
 draft: false
 tags: [ "Multisignature","Features"]
 images: ["logo.png"]
-keywords: ["Multisignatur"]
+keywords: ["PDF -Sicherung", "Brieftasche Deskriptor", "Multisig", "Export"]
 weight: 15
 ---
 

@@ -6,7 +6,7 @@ description: "Several Desktop Bitcoin wallets are available. See what makes Bitc
 draft: false
 tags: ["Featured","Features"]
 images: ["logo.png"]
-keywords: ["unique features"]
+keywords: ["bitcoin safe", "unique features", "secure wallet", "user friendly"]
 weight: 1000
 ---
 
