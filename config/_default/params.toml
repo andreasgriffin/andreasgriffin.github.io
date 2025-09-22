@@ -6,8 +6,8 @@
 # https://schema.org/Thing
 # https://schema.org/Article
 description = "A bitcoin savings wallet for the entire family."
-images = ['images/logo-bare.svg']
-mainMenuLogo = "images/logo-bare.svg"
+images = ['images/logo/icon-big.png']
+mainMenuLogo = "images/logo/logo-bare.svg"
 
 # For favicons
 ## Chrome Browser

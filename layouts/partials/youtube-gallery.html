@@ -8,19 +8,28 @@
         {{ if eq (printf "%T" $video) "string" }}
           {{ $video = dict "url" $video }}
         {{ end }}
+
         {{ $videoUrl := $video.url }}
         {{ $name := $page.Title }}
         {{ $desc := $page.Params.description }}
         {{ with $video.name }}{{ $name = . }}{{ end }}
         {{ with $video.description }}{{ $desc = . }}{{ end }}
-        {{ $upload := $video.uploadDate | default (now.Format "2006-01-02") }}
-        {{ $id := "" }}
-        {{ if in $videoUrl "youtu.be" }}
-          {{ $id = replaceRE "^https?://(www\\.)?youtu\\.be/" "" $videoUrl }}
-        {{ else }}
-          {{ $id = replaceRE "^https?://(www\\.)?youtube\\.com/watch\\?v=" "" $videoUrl }}
+
+        {{/* --- uploadDate as ISO-8601 with timezone --- */}}
+        {{ $uploadTime := now }}
+        {{ with $page.Date }}{{ $uploadTime = . }}{{ end }}
+        {{ with $video.uploadDate }}{{ $uploadTime = time . }}{{ end }}
+        {{ $upload := time.Format "2006-01-02T15:04:05Z07:00" $uploadTime }}
+
+        {{/* --- robust YouTube ID extraction --- */}}
+        {{ $id := replaceRE `(?i)^.*(?:v=|youtu\.be/|shorts/|embed/)([A-Za-z0-9_-]{11}).*$` `$1` $videoUrl }}
+        {{ if ne (len $id) 11 }}
+          {{ $m := findRE `[A-Za-z0-9_-]{11}` $videoUrl }}
+          {{ if gt (len $m) 0 }}{{ $id = index $m 0 }}{{ end }}
         {{ end }}
+
         {{ $embedUrl := printf "https://www.youtube-nocookie.com/embed/%s" $id }}
+
         <div class="col-md-12 mb-4 text-center">
           <div class="ratio ratio-16x9" style="max-width:800px; margin:0 auto;">
             <iframe src="{{ $embedUrl }}"
@@ -32,19 +41,27 @@
             </iframe>
           </div>
         </div>
-        {{ $thumb := printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $id }}
-        {{ $schema := dict
-            "@context" "https://schema.org"
-            "@type" "VideoObject"
-            "name" $name
-            "description" $desc
-            "thumbnailUrl" $thumb
-            "contentUrl" $videoUrl
-            "embedUrl" $embedUrl }}
-        {{ with $upload }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end }}
-        <script type="application/ld+json">
-        {{ $schema | jsonify | safeJS }}
-        </script>
+
+        {{/* --- single thumbnail URL --- */}}
+        {{ $thumb := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id }}
+
+        {{/* --- JSON-LD VideoObject --- */}}
+        {{ if eq (len $id) 11 }}
+          {{ $schema := dict
+              "@context" "https://schema.org"
+              "@type" "VideoObject"
+              "name" $name
+              "description" $desc
+              "thumbnailUrl" $thumb
+              "embedUrl" $embedUrl
+              "url" $videoUrl
+              "contentUrl" $videoUrl
+              "uploadDate" $upload
+          }}
+          <script type="application/ld+json">
+          {{ $schema | jsonify | safeJS }}
+          </script>
+        {{ end }}
       {{ end }}
     </div>
   </div>
