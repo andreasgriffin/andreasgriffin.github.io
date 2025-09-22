@@ -41,7 +41,7 @@ display_items:
   2-bitbox02:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
     target_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
-    title: "Bitbox02"
+    title: "BitBox02 / BitBox02 Nova"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       Choose the Bitcoin-only edition

@@ -1,5 +1,5 @@
 ---
-title: "⚡الدعم"
+title: "⚡ادعم"
 description: "تبرع وادعم Bitcoin Safe"
 draft: false
 menu:
@@ -12,15 +12,18 @@ menu:
 
 
 <br>
+{{< donate_widget >}}
 
-بناء **Bitcoin Safe** عمل شاق وأقدّر كل دعم تقدمه:
-- أسهل طريقة لدعمي هي التبرع بالساتس: {{< donation_lightning_address >}} أو {{< donation_btc >}}
-- لكن يمكنك أيضًا دعم المشروع بعملك، على سبيل المثال
+بناء **Bitcoin Safe** عمل شاق وأقدّر أي دعم يمكنك تقديمه:
+- أسهل طريقة لدعمي هي التبرع بالساتوشي (Sats):
+  - {{< donation_lightning_address >}}
+  - {{< donation_btc >}}
+- لكن يمكنك أيضاً الدعم من خلال عملك، على سبيل المثال:
   -   *الاختبار*, *الاختبار*, *الاختبار*, وإرسال تقارير الأخطاء لي
-  - تحسين [الترجمات](https://hosted.weblate.org/engage/bitcoin-safe/) لـ **Bitcoin Safe**. ألا تجد لغتك هناك؟ اكتب لي وسنضيفها معًا.
+  - حسّن [الترجمات](https://hosted.weblate.org/engage/bitcoin-safe/) ل**Bitcoin Safe**. هل لم تجد لغتك هناك؟ اكتب لي وسنضيفها معاً.
   - أو اعثر على طرق أخرى لجعل **Bitcoin Safe** أفضل للجميع
 
-ادعم **Bitcoin Safe** وادخل في القائمة أدناه
+ادعم **Bitcoin Safe** وانضم إلى القائمة أدناه
 
 <br>
 <br>

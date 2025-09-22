@@ -1,6 +1,6 @@
 ---
 title: "⚡Suport"
-description: "Dóna i dóna suport a Bitcoin Safe"
+description: "Fes una donació i dóna suport a Bitcoin Safe"
 draft: false
 menu:
   footer:
@@ -12,15 +12,18 @@ menu:
 
 
 <br>
+{{< donate_widget >}}
 
-Construir **Bitcoin Safe** és una feina difícil i agraeixo qualsevol suport que pugueu donar:
-- La manera més fàcil de donar-me suport és fent una donació de Sats: {{< donation_lightning_address >}}  o {{< donation_btc >}}
-- Però també podeu donar suport amb la vostra feina, per exemple
+Desenvolupar **Bitcoin Safe** és una feina difícil i agraeixo qualsevol suport que puguis oferir:
+- La manera més fàcil de donar-me suport és fent una donació de Sats:
+  - {{< donation_lightning_address >}}
+  - {{< donation_btc >}}
+- Però també em pots ajudar amb la teva feina, per exemple
   -   *proves*, *proves*, *proves*, i enviant-me informes d'errors
-  - millorar les [traduccions](https://hosted.weblate.org/engage/bitcoin-safe/) de **Bitcoin Safe**. No hi trobes la teva llengua? Escriu-me i l'afegim plegats.
-  -  o trobeu altres maneres de fer **Bitcoin Safe** millor per a tothom
+  - millora les [traduccions](https://hosted.weblate.org/engage/bitcoin-safe/) de **Bitcoin Safe**. No trobes el teu idioma allà? Escriu-me i l'afegim plegats.
+  - o troba altres maneres de fer **Bitcoin Safe** millor per a tothom
 
-Doneu suport a **Bitcoin Safe** i apareixeu a la llista següent
+Dóna suport a **Bitcoin Safe** i apareix a la llista següent
 
 <br>
 <br>

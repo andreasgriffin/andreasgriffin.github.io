@@ -12,15 +12,18 @@ menu:
 
 
 <br>
+{{< donate_widget >}}
 
-Bitcoin Safe の構築は大変な作業です。皆様からのあらゆるご支援に感謝します：
-- 最も簡単に支援する方法は Sats を寄付することです: {{< donation_lightning_address >}}  または {{< donation_btc >}}
-- しかし、作業でサポートすることもできます。例えば
-  -   *テスト*, *テスト*, *テスト* を行い、バグ報告を送ってください
-  - [翻訳](https://hosted.weblate.org/engage/bitcoin-safe/) を改善して **Bitcoin Safe** をより良くしてください。あなたの言語がそこに見つかりませんか？ご連絡いただければ一緒に追加します。
-  -  または、すべての人にとって **Bitcoin Safe** をより良くするための他の方法を見つけてください
+「Bitcoin Safe」を作るのは大変な作業で、皆様からのご支援を心より感謝します：
+- 最も簡単な支援方法は Sats を寄付することです：
+  - {{< donation_lightning_address >}}
+  - {{< donation_btc >}}
+- また、ご自身の作業で支援することもできます。例えば：
+  - *テスト*、*テスト*、*テスト*、そしてバグ報告の提出
+  - **Bitcoin Safe** の[翻訳](https://hosted.weblate.org/engage/bitcoin-safe/)を改善する。あなたの言語が見つかりませんか？私に連絡してください。一緒に追加しましょう。
+  - または、**Bitcoin Safe** を誰にとってもより良くするための他の方法を見つける
 
-**Bitcoin Safe** をサポートして、以下のリストに掲載されましょう
+**Bitcoin Safe** を支援すると、以下のリストに掲載されます
 
 <br>
 <br>

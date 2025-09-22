@@ -1,6 +1,6 @@
 ---
 title: "⚡Wsparcie"
-description: "Wesprzyj Bitcoin Safe"
+description: "Przekaż darowiznę i wesprzyj Bitcoin Safe"
 draft: false
 menu:
   footer:
@@ -12,15 +12,18 @@ menu:
 
 
 <br>
+{{< donate_widget >}}
 
-Tworzenie **Bitcoin Safe** to ciężka praca i doceniam każde wsparcie, jakie możesz udzielić:
-- Najprostszy sposób, by mnie wesprzeć, to przekazać Sats: {{< donation_lightning_address >}}  lub {{< donation_btc >}}
-- Możesz też wesprzeć projekt swoją pracą, na przykład:
-  -   *testowaniem*, *testowaniem*, *testowaniem* i przesyłaniem raportów o błędach
-  - poprawą [tłumaczeń](https://hosted.weblate.org/engage/bitcoin-safe/) **Bitcoin Safe**. Nie ma tam Twojego języka? Napisz do mnie, a dodamy go wspólnie.
-  - lub znajdź inne sposoby, by uczynić **Bitcoin Safe** lepszym dla wszystkich
+Tworzenie **Bitcoin Safe** to ciężka praca i doceniam każde wsparcie, które możesz udzielić:
+- Najprostszy sposób, w jaki możesz mnie wesprzeć, to przekazanie Sats: 
+  - {{< donation_lightning_address >}}
+  - {{< donation_btc >}}
+- Możesz też wesprzeć projekt przez swoją pracę, na przykład:
+  -   *testowanie*, *testowanie*, *testowanie*, i przesyłanie mi raportów o błędach
+  - pomóż ulepszyć [tłumaczenia](https://hosted.weblate.org/engage/bitcoin-safe/) **Bitcoin Safe**. Nie ma Twojego języka? Napisz do mnie, a dodamy go wspólnie.
+  -  lub znajdź inne sposoby, aby uczynić **Bitcoin Safe** lepszym dla wszystkich
 
-Wesprzyj **Bitcoin Safe** i znajdź się na poniższej liście
+Wesprzyj **Bitcoin Safe** i zostań wpisany na listę poniżej
 
 <br>
 <br>
