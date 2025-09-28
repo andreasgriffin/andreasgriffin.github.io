@@ -24,6 +24,12 @@ enableEmoji = true
 
 [params]
   shorttitle= 'Bitcoin Safe'
+
+  title = 'Bitcoin Safe'
+  description = 'Bitcoin Safe is a collaborative wallet that keeps families and organizations in full control of their bitcoin.'
+  images = ['images/social-share.png']
+  mainMenuLogo = "images/logo/logo-bare.svg"
+
   keywords = [
   "multisig",
   "signing device",
@@ -83,6 +89,40 @@ enableEmoji = true
 ]
 
 
+
+  # For favicons
+  ## Chrome Browser
+  themeColor = "#fff"
+
+  # Alert
+  alert = false
+  alertDismissable = true
+  # alertText = "Introducing this new service! <a class=\"alert-link stretched-link\" href=\"https://salvus.site/\">Check out Total Security</a>"
+
+  # # Pre-footer
+  # footerAbout = true
+  # footerAboutTitle = "Few Words About Us"
+  # footerAboutText = "We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity."
+
+
+
+# Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
+# https://gohugo.io/templates/internal/#open-graph
+# https://gohugo.io/templates/internal/#twitter-cards
+# https://schema.org/Thing
+# https://schema.org/Article
+
+  [params.social]
+    twitter = 'BitcoinSafeOrg'
+
+
+  [params.options]
+    bootStrapJs = true
+    breadCrumb = true
+    listCategoryFilter = true
+    listTagFilter = true
+
+
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
   lastmod = ["lastmod", ":fileModTime", ":default"]
@@ -112,3 +152,6 @@ enableEmoji = true
   [[module.mounts]]
     source = "static"
     target = "static"
+
+
+
