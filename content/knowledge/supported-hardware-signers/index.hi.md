@@ -1,6 +1,6 @@
 ---
-title: "पूर्ण रूप से समर्थित हार्डवेयर साइनर"
-description: "Bitcoin Safe के लिए पूर्ण रूप से समर्थित हार्डवेयर साइनर"
+title: "पूरी तरह से समर्थित हार्डवेयर साइनर"
+description: "Bitcoin Safe के लिए पूरी तरह से समर्थित हार्डवेयर साइनर"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
@@ -21,11 +21,12 @@ display_items:
       <style>
         .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);}
         .bitcoin-only {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
+        .bitcoin-only-available {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
       </style> 
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span>
+      <span class="bitcoin-only">केवल बिटकॉइन</span>
       '
   1-mk4:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp"
@@ -34,7 +35,7 @@ display_items:
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span>  
+      <span class="bitcoin-only">केवल बिटकॉइन</span>  
       '
   2-bitbox02:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
@@ -42,7 +43,7 @@ display_items:
     title: "BitBox02 / BitBox02 Nova"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Choose the Bitcoin-only edition
+      <span class="bitcoin-only-available">केवल बिटकॉइन उपलब्ध</span><br>
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
@@ -51,7 +52,7 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span><br>
+      <span class="bitcoin-only">केवल बिटकॉइन</span><br>
       Get $10 off with the code: <b>BITCOINSAFE</b>
       '
   4-jade:
@@ -61,7 +62,7 @@ display_items:
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <span class="bitcoin-only">Bitcoin-only</span>
+      <span class="bitcoin-only">केवल बिटकॉइन</span>
       <br> 
       Get 10% off with the code: <b>XEocg5boS77D</b>      
       '
@@ -73,7 +74,7 @@ display_items:
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span>
+      <span class="bitcoin-only">केवल बिटकॉइन</span>
       <br> 
       Get 10% off with the code: <b>XEocg5boS77D</b>      
       '
@@ -83,16 +84,16 @@ display_items:
     title: "Trezor Safe 3 & 5"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Choose the Bitcoin-only edition
+      <span class="bitcoin-only-available">केवल बिटकॉइन उपलब्ध</span><br>
       '
   7-keystone:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
-    target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    target_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      Choose the Bitcoin-only firmware.
+      <span class="bitcoin-only-available">केवल बिटकॉइन उपलब्ध</span><br>
       '
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
@@ -110,7 +111,7 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span><br> 
+      <span class="bitcoin-only">केवल बिटकॉइन</span><br> 
       Get 5% off with the code: <b>bitcoin-safe</b>      
       '
   91-seedsigner:
@@ -120,7 +121,7 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span><br> 
+      <span class="bitcoin-only">केवल बिटकॉइन</span><br> 
       '
   92-krux:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp"
@@ -129,7 +130,7 @@ display_items:
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      <span class="bitcoin-only">Bitcoin-only</span><br> 
+      <span class="bitcoin-only">केवल बिटकॉइन</span><br> 
       '
     # banner: "Get 5% off"      
 
@@ -143,4 +144,4 @@ display_items:
 
  <br><br> 
 
-विभिन्न हार्डवेयर साइनरों की विशेषताओं की एक व्यापक तुलना यहाँ है: https://thebitcoinhole.com/hardware-wallets
+विभिन्न हार्डवेयर साइनरों की विशेषताओं की एक व्यापक तुलना यहाँ उपलब्ध है: https://thebitcoinhole.com/hardware-wallets

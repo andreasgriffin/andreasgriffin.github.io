@@ -1,11 +1,11 @@
 ---
-title: "완전 지원 하드웨어 서명기"
-description: "Bitcoin Safe용 완전 지원 하드웨어 서명기"
+title: "완전 지원되는 하드웨어 서명기"
+description: "Bitcoin Safe용 완전 지원되는 하드웨어 서명기"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: [ "logo.png" ]
-keywords: ["하드웨어 지갑", "하드웨어 서명자"]
+keywords: ["하드웨어 지갑", "하드웨어 서명기"]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
@@ -21,6 +21,7 @@ display_items:
       <style>
         .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);}
         .bitcoin-only {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
+        .bitcoin-only-available {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
       </style> 
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
@@ -42,7 +43,7 @@ display_items:
     title: "BitBox02 / BitBox02 Nova"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Choose the Bitcoin-only edition
+      <span class="bitcoin-only-available">Bitcoin-only available</span><br>
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
@@ -83,16 +84,16 @@ display_items:
     title: "Trezor Safe 3 & 5"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      Choose the Bitcoin-only edition
+      <span class="bitcoin-only-available">Bitcoin-only available</span><br>
       '
   7-keystone:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
-    target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    target_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
       <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      Choose the Bitcoin-only firmware.
+      <span class="bitcoin-only-available">Bitcoin-only available</span><br>
       '
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
@@ -143,4 +144,4 @@ display_items:
 
  <br><br> 
 
-다양한 하드웨어 서명기의 기능을 종합적으로 비교한 내용은 여기에서 확인할 수 있습니다: https://thebitcoinhole.com/hardware-wallets
+다양한 하드웨어 서명기들의 기능을 종합 비교한 내용은 다음 링크에서 확인하세요: https://thebitcoinhole.com/hardware-wallets

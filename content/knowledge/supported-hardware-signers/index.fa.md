@@ -1,11 +1,11 @@
 ---
-title: "امضای‌گرهای سخت‌افزاری با پشتیبانی کامل"
-description: "امضای‌گرهای سخت‌افزاری با پشتیبانی کامل برای Bitcoin Safe"
+title: "امضاگرهای سخت‌افزاری کاملاً پشتیبانی‌شده"
+description: "امضاگرهای سخت‌افزاری کاملاً پشتیبانی‌شده برای Bitcoin Safe"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: [ "logo.png" ]
-keywords: ["کیف‌پول سخت‌افزاری", "امضاکننده سخت‌افزاری"]
+keywords: ["کیف پول سخت‌افزاری", "امضاگر سخت‌افزاری"]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
@@ -21,10 +21,11 @@ display_items:
       <style>
         .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);}
         .bitcoin-only {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
+        .bitcoin-only-available {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
       </style> 
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span>
       '
   1-mk4:
@@ -32,8 +33,8 @@ display_items:
     target_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
     title: "Coldcard Mk4"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span>  
       '
   2-bitbox02:
@@ -41,58 +42,58 @@ display_items:
     target_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
     title: "BitBox02 / BitBox02 Nova"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      انتخاب نسخه فقط بیت‌کوین
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <span class="bitcoin-only-available">نسخهٔ فقط بیت‌کوین موجود است</span><br>
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
     target_url: "https://foundation.xyz/passport"
     title: "Foundation Passport"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span><br>
-      دریافت ۱۰ دلار تخفیف با کد: <b>BITCOINSAFE</b>
+      با کد <b>BITCOINSAFE</b>، 10 دلار تخفیف بگیرید
       '
   4-jade:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
       <span class="bitcoin-only">فقط بیت‌کوین</span>
       <br> 
-      دریافت ۱۰٪ تخفیف با کد: <b>XEocg5boS77D</b>      
+      با کد <b>XEocg5boS77D</b>، 10٪ تخفیف بگیرید      
       '
   5-jadeplus:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade Plus"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span>
       <br> 
-      دریافت ۱۰٪ تخفیف با کد: <b>XEocg5boS77D</b>      
+      با کد <b>XEocg5boS77D</b>، 10٪ تخفیف بگیرید      
       '
   6-trezor:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
     target_url: "https://trezor.io/trezor-safe-5-bitcoin-only"
     title: "Trezor Safe 3 & 5"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      انتخاب نسخه فقط بیت‌کوین
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
+      <span class="bitcoin-only-available">نسخهٔ فقط بیت‌کوین موجود است</span><br>
       '
   7-keystone:
-    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro_thumb.webp"
-    target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
+    target_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      انتخاب firmware فقط بیت‌کوین.
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
+      <span class="bitcoin-only-available">نسخهٔ فقط بیت‌کوین موجود است</span><br>
       '
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
@@ -100,7 +101,7 @@ display_items:
     target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
     title: "Ledger Nano S / S Plus / X / Flex"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی USB">
       '
     # - Seed extraction in principle possible via ledger recover
   9-specter:
@@ -108,18 +109,18 @@ display_items:
     target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     title: "Specter DIY / Shield / Shield Lite"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span><br> 
-      دریافت ۵٪ تخفیف با کد: <b>bitcoin-safe</b>      
+      با کد <b>bitcoin-safe</b>، 5٪ تخفیف بگیرید      
       '
   91-seedsigner:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
     target_url: "https://seedsigner.com/"
     title: "SeedSigner"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span><br> 
       '
   92-krux:
@@ -127,8 +128,8 @@ display_items:
     target_url: "https://selfcustody.github.io/krux/"
     title: "Krux"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی QR">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="لوگوی کارت SD" >
       <span class="bitcoin-only">فقط بیت‌کوین</span><br> 
       '
     # banner: "Get 5% off"      
@@ -143,4 +144,4 @@ display_items:
 
  <br><br> 
 
-یک مقایسهٔ جامع از ویژگی‌های امضای‌گرهای سخت‌افزاری مختلف در اینجا موجود است: https://thebitcoinhole.com/hardware-wallets
+مقایسه‌ای جامع از ویژگی‌های امضاگرهای سخت‌افزاری مختلف در اینجا موجود است: https://thebitcoinhole.com/hardware-wallets

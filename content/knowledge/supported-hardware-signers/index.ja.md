@@ -1,11 +1,11 @@
 ---
-title: "完全にサポートされたハードウェア署名デバイス"
-description: "Bitcoin Safe向けに完全にサポートされたハードウェア署名デバイス"
+title: "フルサポートのハードウェア署名デバイス"
+description: "Bitcoin Safe向けに完全サポートされたハードウェア署名デバイス"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: [ "logo.png" ]
-keywords: ["ハードウェアウォレット", "ハードウェア署名者"]
+keywords: ["ハードウェアウォレット", "ハードウェア署名デバイス"]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
@@ -21,10 +21,11 @@ display_items:
       <style>
         .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);}
         .bitcoin-only {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
+        .bitcoin-only-available {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
       </style> 
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span>
       '
   1-mk4:
@@ -32,8 +33,8 @@ display_items:
     target_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
     title: "Coldcard Mk4"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span>  
       '
   2-bitbox02:
@@ -41,58 +42,58 @@ display_items:
     target_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
     title: "BitBox02 / BitBox02 Nova"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      ビットコイン専用版を選択してください
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <span class="bitcoin-only-available">ビットコイン専用版あり</span><br>
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
     target_url: "https://foundation.xyz/passport"
     title: "Foundation Passport"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span><br>
-      コード <b>BITCOINSAFE</b> で$10オフ
+      コードを使用すると<b>BITCOINSAFE</b>で$10割引
       '
   4-jade:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
       <span class="bitcoin-only">ビットコイン専用</span>
       <br> 
-      コード <b>XEocg5boS77D</b> で10%オフ      
+      コードを使用すると<b>XEocg5boS77D</b>で10%割引      
       '
   5-jadeplus:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
     target_url: "https://store.blockstream.com/?code=XEocg5boS77D"
     title: "Jade Plus"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span>
       <br> 
-      コード <b>XEocg5boS77D</b> で10%オフ      
+      コードを使用すると<b>XEocg5boS77D</b>で10%割引      
       '
   6-trezor:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
     target_url: "https://trezor.io/trezor-safe-5-bitcoin-only"
     title: "Trezor Safe 3 & 5"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
-      ビットコイン専用版を選択してください
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
+      <span class="bitcoin-only-available">ビットコイン専用版あり</span><br>
       '
   7-keystone:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
-    target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    target_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
-      ビットコイン専用のファームウェアを選択してください。
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
+      <span class="bitcoin-only-available">ビットコイン専用版あり</span><br>
       '
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
@@ -100,7 +101,7 @@ display_items:
     target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
     title: "Ledger Nano S / S Plus / X / Flex"
     description: '
-      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+      <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USBロゴ">
       '
     # - Seed extraction in principle possible via ledger recover
   9-specter:
@@ -108,18 +109,18 @@ display_items:
     target_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     title: "Specter DIY / Shield / Shield Lite"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span><br> 
-      コード <b>bitcoin-safe</b> で5%オフ      
+      コードを使用すると<b>bitcoin-safe</b>で5%割引      
       '
   91-seedsigner:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
     target_url: "https://seedsigner.com/"
     title: "SeedSigner"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span><br> 
       '
   92-krux:
@@ -127,8 +128,8 @@ display_items:
     target_url: "https://selfcustody.github.io/krux/"
     title: "Krux"
     description: '
-      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+      <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="QRコードロゴ">
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="SDカードロゴ" >
       <span class="bitcoin-only">ビットコイン専用</span><br> 
       '
     # banner: "Get 5% off"      
@@ -143,4 +144,4 @@ display_items:
 
  <br><br> 
 
-さまざまなハードウェア署名デバイスの機能を比較した包括的な比較は以下を参照してください: https://thebitcoinhole.com/hardware-wallets
+さまざまなハードウェア署名デバイスの機能を比較した包括的な一覧はこちら: https://thebitcoinhole.com/hardware-wallets

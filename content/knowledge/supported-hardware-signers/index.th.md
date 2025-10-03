@@ -1,11 +1,11 @@
 ---
-title: "อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับอย่างเต็มที่"
-description: "อุปกรณ์เซ็นฮาร์ดแวร์ที่รองรับอย่างเต็มที่สำหรับ Bitcoin Safe"
+title: "อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับเต็มรูปแบบ"
+description: "อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับอย่างเต็มรูปแบบสำหรับ Bitcoin Safe"
 draft: false
 tags: ["Featured","Knowledge" ]
 # Download the logo from here https://i.ytimg.com/vi/xxxxxxxx/maxresdefault.jpg
 images: [ "logo.png" ]
-keywords: ["กระเป๋าเงินฮาร์ดแวร์", "ผู้ลงนามฮาร์ดแวร์"]
+keywords: ["กระเป๋าเงินฮาร์ดแวร์","อุปกรณ์ลงนามฮาร์ดแวร์"]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
@@ -21,11 +21,12 @@ display_items:
       <style>
         .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);}
         .bitcoin-only {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
+        .bitcoin-only-available {background-color: rgb(247, 147, 26);color: white;padding: 4px 10px;border-radius: 10px;position: relative;top: -5px;}
       </style> 
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span>
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span>
       '
   1-mk4:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp"
@@ -33,8 +34,8 @@ display_items:
     title: "Coldcard Mk4"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span>  
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span>  
       '
   2-bitbox02:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
@@ -42,7 +43,7 @@ display_items:
     title: "BitBox02 / BitBox02 Nova"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
-      เลือกรุ่นสำหรับ Bitcoin เท่านั้น
+      <span class="bitcoin-only-available">มีรุ่นเฉพาะสำหรับ Bitcoin</span><br>
       '
   3-passport:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
@@ -50,9 +51,9 @@ display_items:
     title: "Foundation Passport"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span><br>
-      รับส่วนลด $10 ด้วยรหัส: <b>BITCOINSAFE</b>
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span><br>
+      รับส่วนลด $10 โดยใช้รหัส: <b>BITCOINSAFE</b>
       '
   4-jade:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
@@ -61,9 +62,9 @@ display_items:
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span>
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span>
       <br> 
-      รับส่วนลด 10% ด้วยรหัส: <b>XEocg5boS77D</b>      
+      รับส่วนลด 10% โดยใช้รหัส: <b>XEocg5boS77D</b>      
       '
   5-jadeplus:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
@@ -72,10 +73,10 @@ display_items:
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span>
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span>
       <br> 
-      รับส่วนลด 10% ด้วยรหัส: <b>XEocg5boS77D</b>      
+      รับส่วนลด 10% โดยใช้รหัส: <b>XEocg5boS77D</b>      
       '
   6-trezor:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
@@ -83,16 +84,16 @@ display_items:
     title: "Trezor Safe 3 & 5"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ USB">
-      เลือกรุ่นสำหรับ Bitcoin เท่านั้น
+      <span class="bitcoin-only-available">มีรุ่นเฉพาะสำหรับ Bitcoin</span><br>
       '
   7-keystone:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
-    target_url: "https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    target_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
     title: "Keystone"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      เลือกเฟิร์มแวร์เฉพาะสำหรับ Bitcoin.
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only-available">มีรุ่นเฉพาะสำหรับ Bitcoin</span><br>
       '
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
@@ -109,9 +110,9 @@ display_items:
     title: "Specter DIY / Shield / Shield Lite"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span><br> 
-      รับส่วนลด 5% ด้วยรหัส: <b>bitcoin-safe</b>      
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span><br> 
+      รับส่วนลด 5% โดยใช้รหัส: <b>bitcoin-safe</b>      
       '
   91-seedsigner:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
@@ -119,8 +120,8 @@ display_items:
     title: "SeedSigner"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span><br> 
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span><br> 
       '
   92-krux:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp"
@@ -128,8 +129,8 @@ display_items:
     title: "Krux"
     description: '
       <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ QR">
-      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD" >
-      <span class="bitcoin-only">สำหรับ Bitcoin เท่านั้น</span><br> 
+      <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="โลโก้ SD Card" >
+      <span class="bitcoin-only">รองรับเฉพาะ Bitcoin</span><br> 
       '
     # banner: "Get 5% off"      
 
@@ -143,4 +144,4 @@ display_items:
 
  <br><br> 
 
-การเปรียบเทียบคุณสมบัติของอุปกรณ์ลงนามฮาร์ดแวร์ต่างๆ ทั้งหมดอยู่ที่นี่: https://thebitcoinhole.com/hardware-wallets
+การเปรียบเทียบคุณสมบัติของอุปกรณ์ลงนามฮาร์ดแวร์ต่าง ๆ อย่างครบถ้วนอยู่ที่นี่: https://thebitcoinhole.com/hardware-wallets
