@@ -60,7 +60,7 @@ weight: -10
 - **आसान** मल्टीसिग-वॉलेट सेटअप
   - सुरक्षित मल्टीसिग सेटअप के लिए चरण-दर-चरण निर्देश, PDF बैकअप शीट्स के साथ
   - टेस्ट ट्रांज़ैक्शन यह सुनिश्चित करते हैं कि सभी हार्डवेयर साइनर तैयार हैं
-  - पूर्ण समर्थन के लिए [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://trezor.io), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/pages/ledger-nano-s-plus), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), *QR*, *USB*, और *SD-कार्ड* के उपयोग से  
+  - पूर्ण समर्थन के लिए [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtN), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), *QR*, *USB*, और *SD-कार्ड* के उपयोग से  
 - **सुरक्षित**: केवल हार्डवेयर साइनर
   - सभी वॉलेट्स को सुरक्षित सीड स्टोरेज के लिए हार्डवेयर साइनर/वॉलेट की आवश्यकता होती है 
   - **[BDK](https://github.com/bitcoindevkit/bdk)** द्वारा शक्ति प्राप्त 

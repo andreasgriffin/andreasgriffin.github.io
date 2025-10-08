@@ -80,7 +80,7 @@ display_items:
       '
   6-trezor:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
-    target_url: "https://trezor.io/trezor-safe-5-bitcoin-only"
+    target_url: "https://affil.trezor.io/SHtN"
     title: "Trezor Safe 3 & 5"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB 图标">
@@ -98,7 +98,7 @@ display_items:
     # - Multisig only after Bitcoin-only Firmware update
   8-ledger:
     image_url: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp"
-    target_url: "https://shop.ledger.com/pages/ledger-nano-s-plus"
+    target_url: "https://shop.ledger.com/?r=400f1fff75b5"
     title: "Ledger Nano S / S Plus / X / Flex"
     description: '
       <img src="/images/usb.svg"  class="coloredicon"  style="height: 1.5em; margin-right: 1em; margin-bottom: 1em;" alt="USB 图标">

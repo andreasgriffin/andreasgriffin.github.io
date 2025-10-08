@@ -60,7 +60,7 @@ weight: -10
 - **简单** 的 Multisig 钱包设置
   - 提供逐步说明，用于安全的 MultiSig 设置，并带有 PDF 备份表
   - 测试交易确保所有硬件签名器已准备就绪
-  - 完整支持 [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://trezor.io), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/pages/ledger-nano-s-plus), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux)，通过 *QR*、*USB* 和 *SD 卡* 进行交互
+  - 完整支持 [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtN), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux)，通过 *QR*、*USB* 和 *SD 卡* 进行交互
 - **安全**：仅使用硬件签名器
   - 所有钱包都需要硬件签名器/钱包以安全存储种子
   - 由 **[BDK](https://github.com/bitcoindevkit/bdk)** 提供支持

@@ -60,7 +60,7 @@ weight: -10
 - **ง่าย** Multisig‑Wallet Setup
   - คำแนะนำขั้นตอนต่อขั้นสำหรับการตั้งค่า MultiSig อย่างปลอดภัยพร้อมแผ่นสำรอง PDF
   - การทดสอบการทำธุรกรรมเพื่อยืนยันว่าผู้ลงนามฮาร์ดแวร์ทั้งหมดพร้อมใช้งาน
-  - Full support for [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://trezor.io), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/pages/ledger-nano-s-plus), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), using  *QR*, *USB*, and *SD-card* 
+  - Full support for [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtN), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), using  *QR*, *USB*, and *SD-card* 
 - **ปลอดภัย**: ผู้ลงนามฮาร์ดแวร์เท่านั้น
   - กระเป๋าทั้งหมดต้องใช้ผู้ลงนามฮาร์ดแวร์/กระเป๋าเพื่อการจัดเก็บ seed อย่างปลอดภัย 
   - Powered by **[BDK](https://github.com/bitcoindevkit/bdk)**

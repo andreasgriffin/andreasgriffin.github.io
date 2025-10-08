@@ -60,7 +60,7 @@ weight: -10
 - **Fàcil** Configuració de cartera MultiSig
   - Instruccions pas a pas per a una configuració segura de MultiSig amb fulls de còpia de seguretat PDF
   - Transaccions de prova asseguren que tots els signadors de maquinari estan llestos
-  - Suport complet per a [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://trezor.io), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/pages/ledger-nano-s-plus), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), utilitzant *QR*, *USB* i *SD-card* 
+  - Suport complet per a [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtN), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), utilitzant *QR*, *USB* i *SD-card* 
 - **Segura**: Només signadors de maquinari
   - Totes les carteres requereixen signadors de maquinari/carretilles per a l'emmagatzematge segur de la llavor 
   - Impulsat per **[BDK](https://github.com/bitcoindevkit/bdk)**

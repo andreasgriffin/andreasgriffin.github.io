@@ -60,7 +60,7 @@ weight: -10
 - **簡単** なマルチシグウォレット設定
   - PDFバックアップシート付きで安全なマルチシグ設定をステップバイステップで案内
   - テストトランザクションにより全てのハードウェア署名デバイスが準備済みであることを確認
-  - [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410)、[Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410)、[Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm)、[Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D)、[Trezor](https://trezor.io)、[Foundation Passport](https://foundation.xyz/passport)、[Keystone](https://keyst.one)、[Ledger](https://shop.ledger.com/pages/ledger-nano-s-plus)、[Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe)、[SeedSigner](https://seedsigner.com)、[Krux](https://selfcustody.github.io/krux) をフルサポートし、*QR*、*USB*、*SDカード* を使用可能
+  - [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410)、[Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410)、[Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm)、[Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D)、[Trezor](https://affil.trezor.io/SHtN)、[Foundation Passport](https://foundation.xyz/passport)、[Keystone](https://keyst.one)、[Ledger](https://shop.ledger.com/?r=400f1fff75b5)、[Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe)、[SeedSigner](https://seedsigner.com)、[Krux](https://selfcustody.github.io/krux) をフルサポートし、*QR*、*USB*、*SDカード* を使用可能
 - **安全**：ハードウェア署名デバイスのみ
   - すべてのウォレットは安全なシード保管のためにハードウェア署名デバイス／ウォレットを必要とします
   - **[BDK](https://github.com/bitcoindevkit/bdk)** により動作
