@@ -57,7 +57,7 @@ weight: -10
 <!-- header-end -->
 # Bitcoin Safe
 
-#### A bitcoin savings wallet for the entire family
+#### A secure bitcoin savings wallet for everyone
 
 - **Easy** Multisig-Wallet Setup
   - Step-by-Step instructions for a secure MultiSig setup with PDF backup sheets

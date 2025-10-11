@@ -1,6 +1,6 @@
 baseURL = 'https://bitcoin-safe.org/'
 languageCode = 'en-US'
-title= 'Bitcoin Safe - A bitcoin savings wallet for the entire family'
+title= 'Bitcoin Safe - A secure bitcoin savings wallet for everyone'
 
 
 timeZone = 'Europe/London'
