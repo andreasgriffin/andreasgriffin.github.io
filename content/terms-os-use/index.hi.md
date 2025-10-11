@@ -57,4 +57,4 @@ menu:
 
 8. संपर्क करें
 
-    - इन शर्तों के संबंध में प्रश्नों के लिए, कृपया हमसे [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) पर संपर्क करें
+    - इन शर्तों के संबंध में प्रश्नों के लिए, कृपया हमसे [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) पर संपर्क करें

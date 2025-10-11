@@ -16,6 +16,6 @@ Bitcoin Safe topluluğu: [https://chorus.community/group/34550%3Af8827954feef009
 
 [Bir issue açın](https://github.com/andreasgriffin/bitcoin-safe) GitHub'da.
 
-Veya bize [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) üzerinden şifreli bir mesaj gönderin
+Veya bize [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) üzerinden şifreli bir mesaj gönderin
 
 veya e-posta gönderin: bitcoinsafe.strobe206@aleeas.com

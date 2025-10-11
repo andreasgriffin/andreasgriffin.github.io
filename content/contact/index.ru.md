@@ -16,6 +16,6 @@ Bitcoin Safe community: [https://chorus.community/group/34550%3Af8827954feef0092
 
 [Откройте issue](https://github.com/andreasgriffin/bitcoin-safe) на GitHub.
 
-Или отправьте нам зашифрованное сообщение в [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
+Или отправьте нам зашифрованное сообщение в [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
 или напишите по электронной почте: bitcoinsafe.strobe206@aleeas.com

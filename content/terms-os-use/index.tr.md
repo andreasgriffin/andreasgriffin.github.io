@@ -58,4 +58,4 @@ Tarih: *3 Kasım 2024*
 
 8. Bize Ulaşın
 
-    - Bu Şartlarla ilgili sorularınız için lütfen [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) üzerinden bize ulaşın.
+    - Bu Şartlarla ilgili sorularınız için lütfen [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) üzerinden bize ulaşın.

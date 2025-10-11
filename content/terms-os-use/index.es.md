@@ -58,4 +58,4 @@ Fecha: *3 de noviembre de 2024*
 
 8. Contacto
 
-    - Para preguntas sobre estos Términos, por favor contáctanos en [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)
+    - Para preguntas sobre estos Términos, por favor contáctanos en [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)

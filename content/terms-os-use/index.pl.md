@@ -58,4 +58,4 @@ Data: *3 listopada 2024*
 
 8. Kontakt
 
-    - W przypadku pytań dotyczących niniejszych Warunków prosimy o kontakt przez [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)
+    - W przypadku pytań dotyczących niniejszych Warunków prosimy o kontakt przez [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)

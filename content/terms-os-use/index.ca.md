@@ -57,4 +57,4 @@ Data: *3 de novembre de 2024*
 
 8. Contacteu-nos
 
-    - Per a preguntes sobre aquestes Condicions, poseu-vos en contacte amb nosaltres a [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)
+    - Per a preguntes sobre aquestes Condicions, poseu-vos en contacte amb nosaltres a [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)

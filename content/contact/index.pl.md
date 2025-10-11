@@ -16,6 +16,6 @@ Społeczność Bitcoin Safe: [https://chorus.community/group/34550%3Af8827954fee
 
 [Zgłoś problem](https://github.com/andreasgriffin/bitcoin-safe) na GitHubie.
 
-Lub wyślij do nas zaszyfrowaną wiadomość na [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
+Lub wyślij do nas zaszyfrowaną wiadomość na [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
 lub napisz e-mail: bitcoinsafe.strobe206@aleeas.com

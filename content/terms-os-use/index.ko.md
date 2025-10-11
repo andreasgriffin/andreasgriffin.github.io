@@ -57,4 +57,4 @@ menu:
 
 8. 문의하기
 
-    - 본 약관에 대한 문의는 [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)에서 연락해 주시기 바랍니다.
+    - 본 약관에 대한 문의는 [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)에서 연락해 주시기 바랍니다.

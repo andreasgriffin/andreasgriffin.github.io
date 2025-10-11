@@ -57,4 +57,4 @@ menu:
 
 8. 联系我们
 
-    - 如对这些条款有疑问，请通过 [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 与我们联系。
+    - 如对这些条款有疑问，请通过 [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 与我们联系。

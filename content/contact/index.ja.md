@@ -16,6 +16,6 @@ Bitcoin Safe コミュニティ： [https://chorus.community/group/34550%3Af8827
 
 GitHubで[Issueを作成する](https://github.com/andreasgriffin/bitcoin-safe)。
 
-または [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) で暗号化されたメッセージを送ってください
+または [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) で暗号化されたメッセージを送ってください
 
 またはメール: bitcoinsafe.strobe206@aleeas.com

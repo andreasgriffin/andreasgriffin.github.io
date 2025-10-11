@@ -16,6 +16,6 @@ Comunitat de Bitcoin Safe: [https://chorus.community/group/34550%3Af8827954feef0
 
 [Obre una incidència](https://github.com/andreasgriffin/bitcoin-safe) a GitHub.
 
-O envia'ns un missatge xifrat a [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
+O envia'ns un missatge xifrat a [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
 o escriu un correu electrònic: bitcoinsafe.strobe206@aleeas.com

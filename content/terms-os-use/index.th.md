@@ -57,4 +57,4 @@ menu:
 
 8. ติดต่อเรา
 
-    - สำหรับคำถามเกี่ยวกับข้อกำหนดเหล่านี้ กรุณาติดต่อเราที่ [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)
+    - สำหรับคำถามเกี่ยวกับข้อกำหนดเหล่านี้ กรุณาติดต่อเราที่ [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v)

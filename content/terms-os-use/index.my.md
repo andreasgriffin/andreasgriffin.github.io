@@ -57,4 +57,4 @@ menu:
 
 8. ဆက်သွယ်ရန်
 
-    - ဤ သတ်မှတ်ချက်များနှင့် ဆိုင်သော မေးခွန်းများအတွက် ကျွန်ုပ်တို့အား [nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) မှ ဆက်သွယ်နိုင်ပါသည်။
+    - ဤ သတ်မှတ်ချက်များနှင့် ဆိုင်သော မေးခွန်းများအတွက် ကျွန်ုပ်တို့အား [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) မှ ဆက်သွယ်နိုင်ပါသည်။

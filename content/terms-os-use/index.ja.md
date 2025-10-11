@@ -58,4 +58,4 @@ menu:
 
 8. お問い合わせ
 
-    - 本規約に関するご質問は、[nostr](https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) までお問い合わせください。
+    - 本規約に関するご質問は、[nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) までお問い合わせください。
