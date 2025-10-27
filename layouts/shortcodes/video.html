@@ -16,28 +16,51 @@
   {{ $src = relLangURL (print $dir $file) }}
 {{ end }}
 
-{{/* Helper: build attribute string and thumbnail */}}
-{{- $attrs := slice -}}
+{{/* --------- Auto-poster detection ---------- */}}
 {{- $thumb := "" -}}
+{{- if $poster -}}
+  {{- $p := $.Page.Resources.Get $poster | default ($.Page.Resources.GetMatch $poster) -}}
+  {{- if $p -}}
+    {{- $thumb = $p.RelPermalink -}}
+  {{- else -}}
+    {{- $thumb = relLangURL (print $dir $poster) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $base := replace (path.Base $file) (path.Ext $file) "" -}}
+  {{- $match := $.Page.Resources.GetMatch (printf "%s.{jpg,jpeg,png,webp,avif}" $base) -}}
+  {{- if $match -}}
+    {{- $thumb = $match.RelPermalink -}}
+  {{- else -}}
+    {{/* Check under /static/<page-dir>/<video_name>.jpg (or other common types) */}}
+    {{- $candidates := slice
+        (print "static/" $dir $base ".jpg")
+        (print "static/" $dir $base ".jpeg")
+        (print "static/" $dir $base ".png")
+        (print "static/" $dir $base ".webp")
+        (print "static/" $dir $base ".avif")
+      -}}
+    {{- range $c := $candidates -}}
+      {{- if and (eq $thumb "") (fileExists $c) -}}
+        {{- $thumb = relLangURL (replace $c "static/" "") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* --------- Build attributes ---------- */}}
+{{- $attrs := slice -}}
 {{- if .IsNamedParams -}}
   {{- if .Get "controls" }}{{ $attrs = $attrs | append "controls" }}{{ end -}}
   {{- if .Get "autoplay" }}{{ $attrs = $attrs | append "autoplay" }}{{ end -}}
   {{- if .Get "muted" }}{{ $attrs = $attrs | append "muted" }}{{ end -}}
   {{- if .Get "playsinline" }}{{ $attrs = $attrs | append "playsinline" }}{{ end -}}
   {{- if .Get "loop" }}{{ $attrs = $attrs | append "loop" }}{{ end -}}
-  {{- with $poster }}
-    {{ $p := $.Page.Resources.Get . }}
-    {{ if $p }}
-      {{ $thumb = $p.RelPermalink }}
-    {{ else }}
-      {{ $thumb = relLangURL (print $dir .) }}
-    {{ end }}
-    {{ $attrs = $attrs | append (printf `poster="%s"` $thumb) }}
-  {{- end }}
 {{- else -}}
-  {{/* If positional only: always include controls by default */}}
-  {{ $attrs = $attrs | append "controls" }}
-{{- end }}
+  {{- $attrs = $attrs | append "controls" -}}
+{{- end -}}
+{{- with $thumb -}}
+  {{- $attrs = $attrs | append (printf `poster="%s"` .) -}}
+{{- end -}}
 
 <video style="max-width:100%;height:auto;" {{ delimit $attrs " " }}>
   <source src="{{ $src }}" type="video/mp4">
@@ -47,6 +70,7 @@
   Your browser does not support the video tag.
 </video>
 
+{{/* --------- Schema.org VideoObject ---------- */}}
 {{ $schema := dict
     "@context" "https://schema.org"
     "@type" "VideoObject"
@@ -54,8 +78,9 @@
     "description" $desc
     "contentUrl" ($src | absURL)
     "embedUrl" ($src | absURL) }}
-{{ with $thumb }}{{ $schema = merge $schema (dict "thumbnailUrl" ($thumb | absURL)) }}{{ end }}
+{{ with $thumb }}{{ $schema = merge $schema (dict "thumbnailUrl" (absURL .)) }}{{ end }}
 {{ with $upload }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end }}
+
 <script type="application/ld+json">
 {{ $schema | jsonify | safeJS }}
 </script>
