@@ -155,3 +155,6 @@ enableEmoji = true
 
 
 
+[markup]
+  [markup.highlight]
+    style = "github-dark"   # try: monokai, github-dark, nord, etc.

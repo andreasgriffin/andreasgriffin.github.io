@@ -43,7 +43,10 @@ Postępuj zgodnie z poniższymi krokami, aby uruchomić Bitcoin Safe na macOS:
 Wszystkie programy są podpisane moim kluczem prywatnym. Aby zweryfikować autentyczność pobrania, wykonaj następujące kroki:
 
 Zaimportuj mój [klucz publiczny]({{< gpg_key_link >}}) i zweryfikuj podpis za pomocą:
+```bash
 {{< gpg_import_code >}}
+```
+
 
 
 <br> 
