@@ -2,8 +2,8 @@
 title: "Kompaktowe filtry bloków"
 description: "Dowiedz się, czym są kompaktowe filtry bloków i jak poprawiają prywatność w porównaniu z serwerami Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "kompaktowe filtry bloków"
@@ -33,7 +33,7 @@ Serwery Electrum, w przeciwieństwie do tego, przeszukują łańcuch bloków w T
 Poniżej prosty widok pokazujący, jak Bitcoin Safe łączy się, gdy CBF jest włączone. Zwróć uwagę, jak odzwierciedla to sposób, w jaki węzły Bitcoin Core już się komunikują:
 
 
-![Bitcoin Safe pobiera kompaktowe filtry bloków od kilku losowych peerów Bitcoin Core.](logo.png)
+![Bitcoin Safe pobiera kompaktowe filtry bloków od kilku losowych peerów Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

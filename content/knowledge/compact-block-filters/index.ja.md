@@ -2,8 +2,8 @@
 title: "コンパクトブロックフィルター"
 description: "コンパクトブロックフィルターが何か、そしてElectrumサーバーと比べてどのようにプライバシーを向上させるかを理解する。"
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "コンパクトブロックフィルター"
@@ -33,7 +33,7 @@ Bitcoin Safeが判断をローカルで行うため、サードパーティの�
 Below is a simple view of how Bitcoin Safe connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
 
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.png)
+![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

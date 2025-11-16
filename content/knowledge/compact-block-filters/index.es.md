@@ -2,8 +2,8 @@
 title: "Filtros compactos de bloques"
 description: "Entender qué son los filtros compactos de bloques y cómo mejoran la privacidad frente a servidores Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "filtros compactos de bloques"
@@ -33,7 +33,7 @@ Los servidores Electrum, en cambio, buscan en la cadena de bloques en tu nombre.
 A continuación hay una vista sencilla de cómo se conecta Bitcoin Safe cuando CBF está activado. Observa cómo refleja la manera en que los nodos de Bitcoin Core ya se comunican entre sí:
 
 
-![Bitcoin Safe descarga filtros compactos de bloques desde varios nodos aleatorios de Bitcoin Core.](logo.png)
+![Bitcoin Safe descarga filtros compactos de bloques desde varios nodos aleatorios de Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

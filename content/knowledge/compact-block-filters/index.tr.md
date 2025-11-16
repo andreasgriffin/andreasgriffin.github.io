@@ -2,8 +2,8 @@
 title: "Kompakt Blok Filtreleri"
 description: "Kompakt blok filtrelerinin ne olduğunu ve Electrum sunucularına kıyasla gizliliği nasıl iyileştirdiğini öğrenin."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "Kompakt blok filtreleri"
@@ -33,7 +33,7 @@ Buna karşılık Electrum sunucuları blok zincirini sizin adınıza arar. Her i
 Aşağıda CBF etkinleştirildiğinde Bitcoin Safe'in nasıl bağlandığına dair basit bir görünüm yer alıyor. Bitcoin Core düğümlerinin zaten birbirleriyle konuşma şeklini nasıl yansıttığına dikkat edin:
 
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.png)
+![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

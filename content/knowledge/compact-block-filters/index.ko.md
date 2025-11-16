@@ -2,8 +2,8 @@
 title: "콤팩트 블록 필터 (Compact Block Filters)"
 description: "콤팩트 블록 필터가 무엇이고 Electrum 서버 대비 어떻게 프라이버시를 향상시키는지 이해합니다."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "콤팩트 블록 필터"
@@ -33,7 +33,7 @@ Bitcoin Safe가 로컬에서 결정을 내리기 때문에, 제3자 서버는 �
 아래는 CBF가 활성화되었을 때 Bitcoin Safe가 연결되는 방식을 단순화한 모습입니다. Bitcoin Core 노드들이 이미 서로 통신하는 방식과 어떻게 유사한지 주목하세요:
 
 
-![Bitcoin Safe가 여러 무작위 Bitcoin Core 피어에서 콤팩트 블록 필터를 다운로드합니다.](logo.png)
+![Bitcoin Safe가 여러 무작위 Bitcoin Core 피어에서 콤팩트 블록 필터를 다운로드합니다.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

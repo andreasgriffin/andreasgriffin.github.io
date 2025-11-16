@@ -2,8 +2,8 @@
 title: "Filter Blok Kompak"
 description: "Pahami apa itu filter blok kompak dan bagaimana mereka meningkatkan privasi dibandingkan server Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "filter blok kompak"
@@ -33,7 +33,7 @@ Server Electrum, sebaliknya, mencari di blockchain atas nama Anda. Setiap permin
 Di bawah ini adalah tampilan sederhana bagaimana Bitcoin Safe terhubung saat CBF diaktifkan. Perhatikan bagaimana ini mencerminkan cara node Bitcoin Core saling berkomunikasi:
 
 
-![Bitcoin Safe mengunduh filter blok kompak dari beberapa node Bitcoin Core acak.](logo.png)
+![Bitcoin Safe mengunduh filter blok kompak dari beberapa node Bitcoin Core acak.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

@@ -2,8 +2,8 @@
 title: "紧凑区块过滤器"
 description: "了解什么是紧凑区块过滤器以及它们如何比 Electrum 服务器更好地保护隐私。"
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "紧凑区块过滤器"
@@ -33,7 +33,7 @@ Bitcoin Safe   1.6.0 引入了 **紧凑区块过滤器 (CBF)**，作为一种可
 下面是启用 CBF 时 Bitcoin Safe 的连接示意图。注意它如何镜像 Bitcoin Core 节点彼此通信的方式：
 
 
-![Bitcoin Safe 从多个随机的 Bitcoin Core 节点下载紧凑区块过滤器。](logo.png)
+![Bitcoin Safe 从多个随机的 Bitcoin Core 节点下载紧凑区块过滤器。](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

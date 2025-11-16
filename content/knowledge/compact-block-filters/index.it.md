@@ -2,8 +2,8 @@
 title: "Filtri compatti dei blocchi"
 description: "Scopri cosa sono i filtri compatti dei blocchi e come migliorano la privacy rispetto ai server Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "filtri compatti dei blocchi"
@@ -33,7 +33,7 @@ I server Electrum, al contrario, cercano nella blockchain per conto tuo. Ogni ri
 Qui sotto c'è una vista semplice di come Bitcoin Safe si connette quando CBF è abilitato. Nota come rispecchia il modo in cui i nodi Bitcoin Core già comunicano tra loro:
 
 
-![Bitcoin Safe scarica filtri compatti dei blocchi da diversi peer casuali di Bitcoin Core.](logo.png)
+![Bitcoin Safe scarica filtri compatti dei blocchi da diversi peer casuali di Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

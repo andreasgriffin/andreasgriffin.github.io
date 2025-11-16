@@ -2,8 +2,8 @@
 title: "Filtros Compactos de Bloco"
 description: "Compreenda o que são filtros compactos de bloco e como melhoram a privacidade em relação aos servidores Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "filtros compactos de bloco"
@@ -33,7 +33,7 @@ Os servidores Electrum, em contraste, pesquisam a blockchain em seu nome. Cada p
 Abaixo está uma visão simples de como o Bitcoin Safe se liga quando o CBF está ativado. Repare como espelha a forma como os nós do Bitcoin Core já comunicam entre si:
 
 
-![O Bitcoin Safe descarrega filtros compactos de bloco a partir de vários nós aleatórios do Bitcoin Core.](logo.png)
+![O Bitcoin Safe descarrega filtros compactos de bloco a partir de vários nós aleatórios do Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

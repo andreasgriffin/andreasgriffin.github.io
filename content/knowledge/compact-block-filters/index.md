@@ -4,8 +4,8 @@ aliases:
 title: "Compact Block Filters"
 description: "Understand what compact block filters are and how they improve privacy over Electrum servers."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "compact block filters"
@@ -35,7 +35,7 @@ Electrum servers, by contrast, search the blockchain on your behalf. Every reque
 Below is a simple view of how Bitcoin Safe connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
 
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.png)
+![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

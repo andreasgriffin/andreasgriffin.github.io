@@ -2,8 +2,8 @@
 title: "Компактные блок-фильтры"
 description: "Узнайте, что такое компактные блок-фильтры и как они повышают приватность по сравнению с серверами Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "компактные блок-фильтры"
@@ -33,7 +33,7 @@ Bitcoin Safe   1.6.0 представляет **Компактные блок-ф
 Ниже показан простой обзор того, как Bitcoin Safe подключается при включённом CBF. Обратите внимание, как это отражает способ, которым узлы Bitcoin Core уже обмениваются данными между собой:
 
 
-![Bitcoin Safe загружает компактные блок-фильтры с нескольких случайных узлов Bitcoin Core.](logo.png)
+![Bitcoin Safe загружает компактные блок-фильтры с нескольких случайных узлов Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

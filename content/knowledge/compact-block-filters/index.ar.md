@@ -2,8 +2,8 @@
 title: "مرشحات الكتل المضغوطة"
 description: "تعرف على ماهية مرشحات الكتل المضغوطة وكيف تحسّن الخصوصية مقارنة بخوادم Electrum."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "مرشحات الكتل المضغوطة"
@@ -33,7 +33,7 @@ Bitcoin Safe   1.6.0 يقدم **مرشحات الكتل المضغوطة (CBF)**
 فيما يلي عرض بسيط لكيفية اتصال Bitcoin Safe عند تفعيل CBF. لاحظ كيف يعكس ذلك الطريقة التي تتواصل بها عقد Bitcoin Core بالفعل مع بعضها البعض:
 
 
-![يقوم Bitcoin Safe بتنزيل مرشحات الكتل المضغوطة من عدة أقران عشوائيين لعقد Bitcoin Core.](logo.png)
+![يقوم Bitcoin Safe بتنزيل مرشحات الكتل المضغوطة من عدة أقران عشوائيين لعقد Bitcoin Core.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

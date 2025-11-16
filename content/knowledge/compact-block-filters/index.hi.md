@@ -2,8 +2,8 @@
 title: "कम्पैक्ट ब्लॉक फ़िल्टर"
 description: "जानें कि कम्पैक्ट ब्लॉक फ़िल्टर क्या हैं और ये Electrum सर्वरों की तुलना में आपकी गोपनीयता को कैसे बेहतर बनाते हैं।"
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "कम्पैक्ट ब्लॉक फ़िल्टर"
@@ -33,7 +33,7 @@ Bitcoin Safe 1.6.0 आपकी वॉलेट सिंक करने के
 नीचे एक साधारण दृश्य है कि जब CBF सक्षम होता है तो Bitcoin Safe कैसे कनेक्ट करता है। देखें कैसे यह उसी तरह की बातचीत को दर्शाता है जैसे Bitcoin Core नोड्स पहले से एक-दूसरे के साथ करते हैं:
 
 
-![Bitcoin Safe कई यादृच्छिक Bitcoin Core पीयर्स से कम्पैक्ट ब्लॉक फ़िल्टर डाउनलोड करता है।](logo.png)
+![Bitcoin Safe कई यादृच्छिक Bitcoin Core पीयर्स से कम्पैक्ट ब्लॉक फ़िल्टर डाउनलोड करता है।](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 

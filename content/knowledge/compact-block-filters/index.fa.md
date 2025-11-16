@@ -2,8 +2,8 @@
 title: "فیلترهای فشردهٔ بلاک"
 description: "درک کنید فیلترهای فشردهٔ بلاک چیستند و چگونه حریم خصوصی را نسبت به سرورهای Electrum بهبود می‌دهند."
 draft: false
-tags: ["Knowledge" ]
-images: ["logo.png" ]
+tags: ["Featured", "Knowledge" ]
+images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
   - "فیلترهای فشردهٔ بلاک"
@@ -33,7 +33,7 @@ Bitcoin Safe 1.6.0 قابلیت **فیلترهای فشردهٔ بلاک (CBF)**
 در زیر نمای ساده‌ای از نحوهٔ اتصال Bitcoin Safe هنگامی که CBF فعال است آمده است. توجه کنید که چگونه این روش نحوهٔ ارتباط نودهای Bitcoin Core با یکدیگر را بازتاب می‌دهد:
 
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.png)
+![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
 { .img-fluid .mb-5   style="max-width: 450px;" }
 
 
