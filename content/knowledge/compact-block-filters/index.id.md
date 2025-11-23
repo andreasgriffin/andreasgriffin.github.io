@@ -61,7 +61,7 @@ Filter blok kompak hanya mencakup **blok yang sudah dikonfirmasi**. Untuk mendap
 ### Rincian teknis
 
 
-- *Untuk pengembang yang ingin mendalami:* filter blok kompak mengikuti spesifikasi [BIP158](https://bips.dev/158/) dan dibahas dalam [tinjauan Elle Mouton tentang Golomb-coded sets](https://ellemouton.com/posts/bip158/). Implementasi Bitcoin Safe bergantung pada modul open-source [Kyoto compact block filter untuk BDK](https://github.com/rustaceanrob/kyoto).
+- *Untuk pengembang yang ingin mendalami:* filter blok kompak mengikuti spesifikasi [BIP158](https://bips.dev/158/) dan dibahas dalam [tinjauan Elle Mouton tentang Golomb-coded sets](https://ellemouton.com/posts/bip158/). Implementasi Bitcoin Safe bergantung pada modul open-source [Kyoto compact block filter untuk BDK](https://github.com/2140-dev/kyoto).
 - Anda dapat menambahkan node Bitcoin Core Anda sendiri ke peer untuk sinkronisasi Filter Blok Kompak, dengan memilih _Initial node_ dari _Bitcoin network monitoring_.
 
 

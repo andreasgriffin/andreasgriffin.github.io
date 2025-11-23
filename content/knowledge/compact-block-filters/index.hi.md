@@ -61,7 +61,7 @@ CBF यह बदल देता है कि आप कितनी देर
 ### तकनीकी विवरण
 
 
-- *डिवेलपर्स जो गहराई में जाना चाहते हैं:* कम्पैक्ट ब्लॉक फ़िल्टर [BIP158 स्पेसिफिकेशन](https://bips.dev/158/) का पालन करते हैं और इन्हें [Elle Mouton द्वारा Golomb-coded sets का ओवरव्यू](https://ellemouton.com/posts/bip158/) में बताया गया है। Bitcoin Safe की इम्प्लीमेंटेशन ओपन-सोर्स [Kyoto compact block filter module for BDK](https://github.com/rustaceanrob/kyoto) पर आधारित है।
+- *डिवेलपर्स जो गहराई में जाना चाहते हैं:* कम्पैक्ट ब्लॉक फ़िल्टर [BIP158 स्पेसिफिकेशन](https://bips.dev/158/) का पालन करते हैं और इन्हें [Elle Mouton द्वारा Golomb-coded sets का ओवरव्यू](https://ellemouton.com/posts/bip158/) में बताया गया है। Bitcoin Safe की इम्प्लीमेंटेशन ओपन-सोर्स [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) पर आधारित है।
 - आप कम्पैक्ट ब्लॉक फ़िल्टर सिंकिंग के लिए अपने अपने Bitcoin Core नोड को पीयर्स में जोड़ सकते हैं, _Bitcoin नेटवर्क निगरानी_ के _प्रारम्भिक नोड_ को चुनकर।
 
 

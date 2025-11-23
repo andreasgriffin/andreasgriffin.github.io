@@ -61,7 +61,7 @@ Els filtres compactes de blocs cobreixen només els **blocs confirmats**. Per re
 ### Detalls tècnics
 
 
-- *Per a desenvolupadors que vulguin aprofundir:* els filtres compactes de blocs segueixen l'[especificació BIP158](https://bips.dev/158/) i s'expliquen a la [visió general d'Elle Mouton sobre conjunts codificats amb Golomb](https://ellemouton.com/posts/bip158/). La implementació de Bitcoin Safe es basa en el mòdul de filtres compactes de blocs de codi obert [Kyoto compact block filter module for BDK](https://github.com/rustaceanrob/kyoto).
+- *Per a desenvolupadors que vulguin aprofundir:* els filtres compactes de blocs segueixen l'[especificació BIP158](https://bips.dev/158/) i s'expliquen a la [visió general d'Elle Mouton sobre conjunts codificats amb Golomb](https://ellemouton.com/posts/bip158/). La implementació de Bitcoin Safe es basa en el mòdul de filtres compactes de blocs de codi obert [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 - Pots afegir el teu propi node Bitcoin Core als peers per sincronitzar els filtres compactes de blocs, triant el _Node inicial_ de la _Supervisió de la xarxa Bitcoin_.
 
 

@@ -62,7 +62,7 @@ Compact block filters များသည် **အတည်ပြုထားသ�
 ### နည်းပညာဆိုင်ရာ အသေးစိတ်
 
 
-- *နက်ဝပ်ဒေသထဲ ပိုမိုဝင်ရောက်လိုသူ developer များအတွက်:* compact block filters များသည် [BIP158 specification](https://bips.dev/158/) အတိုင်းလိုက်နာပြီး [Elle Mouton ရဲ့ Golomb-coded sets အကြောင်း အကျဉ်းချုပ်](https://ellemouton.com/posts/bip158/) တွင် ဆွေးနွေးထားပါသည်။ Bitcoin Safe ၏ အကောင်အထည်ဖော်မှုသည် open-source ဖြစ်သော [Kyoto compact block filter module for BDK](https://github.com/rustaceanrob/kyoto) ကို အခြေခံထားပါသည်။
+- *နက်ဝပ်ဒေသထဲ ပိုမိုဝင်ရောက်လိုသူ developer များအတွက်:* compact block filters များသည် [BIP158 specification](https://bips.dev/158/) အတိုင်းလိုက်နာပြီး [Elle Mouton ရဲ့ Golomb-coded sets အကြောင်း အကျဉ်းချုပ်](https://ellemouton.com/posts/bip158/) တွင် ဆွေးနွေးထားပါသည်။ Bitcoin Safe ၏ အကောင်အထည်ဖော်မှုသည် open-source ဖြစ်သော [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) ကို အခြေခံထားပါသည်။
 - Compact Block Filter စင်က်လုပ်ရာတွင် သင့်ပုဂ္ဂိုလ်ရေး Bitcoin Core node ကို peers အဖြစ် ထည့်သွင်းနိုင်သည် — 이를 위해 _Bitcoin network monitoring_ ၏ _Initial node_ ကို ရွေးချယ်ပါ။
 
 

@@ -61,7 +61,7 @@ CBF изменяет время ожидания в зависимости от 
 ### Технические подробности
 
 
-- *Для разработчиков, кто хочет углубиться:* компактные блок-фильтры следуют спецификации [BIP158](https://bips.dev/158/) и подробно разбираются в обзоре [Elle Mouton о Golomb-coded sets](https://ellemouton.com/posts/bip158/). Реализация Bitcoin Safe опирается на открытый модуль [Kyoto compact block filter module for BDK](https://github.com/rustaceanrob/kyoto).
+- *Для разработчиков, кто хочет углубиться:* компактные блок-фильтры следуют спецификации [BIP158](https://bips.dev/158/) и подробно разбираются в обзоре [Elle Mouton о Golomb-coded sets](https://ellemouton.com/posts/bip158/). Реализация Bitcoin Safe опирается на открытый модуль [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 - Вы можете добавить свой собственный узел Bitcoin Core в список пиров для синхронизации Компактных блок-фильтров, выбрав _Начальный узел_ в разделе _Мониторинг сети Bitcoin_.
 
 

@@ -61,7 +61,7 @@ Kompakt blok filtreleri yalnızca **onaylanmış blokları** kapsar. Onaylanmada
 ### Teknik detaylar
 
 
-- *Daha derine inmek isteyen geliştiriciler için:* kompakt blok filtreleri [BIP158 spesifikasyonunu](https://bips.dev/158/) takip eder ve [Elle Mouton’un Golomb-kodlu kümeler üzerine özeti](https://ellemouton.com/posts/bip158/) bu konuyu açıklar. Bitcoin Safe’in uygulaması açık kaynaklı [BDK için Kyoto kompakt blok filtre modülüne](https://github.com/rustaceanrob/kyoto) dayanır.
+- *Daha derine inmek isteyen geliştiriciler için:* kompakt blok filtreleri [BIP158 spesifikasyonunu](https://bips.dev/158/) takip eder ve [Elle Mouton’un Golomb-kodlu kümeler üzerine özeti](https://ellemouton.com/posts/bip158/) bu konuyu açıklar. Bitcoin Safe’in uygulaması açık kaynaklı [BDK için Kyoto kompakt blok filtre modülüne](https://github.com/2140-dev/kyoto) dayanır.
 - Kompakt Blok Filtreleri eşitlemesi için kendi Bitcoin Core düğümünüzü eşlere ekleyebilirsiniz; bunun için _Bitcoin ağ izleme_ ayarlarında _Başlangıç düğümü_ seçeneğini belirleyin.
 
 

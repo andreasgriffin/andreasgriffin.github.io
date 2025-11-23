@@ -61,7 +61,7 @@ Kompakte Block-Filter decken nur **bestätigte Blöcke** ab. Um über eingehende
 ### Technische Details
 
 
-- *Für Entwickler, die tiefer einsteigen möchten:* kompakte Block-Filter folgen der [BIP158-Spezifikation](https://bips.dev/158/) und werden in [Elle Moutons Überblick über Golomb-coded sets](https://ellemouton.com/posts/bip158/) beschrieben. Die Implementierung von Bitcoin Safe basiert auf dem Open-Source-[Kyoto Compact Block Filter Modul für BDK](https://github.com/rustaceanrob/kyoto).
+- *Für Entwickler, die tiefer einsteigen möchten:* kompakte Block-Filter folgen der [BIP158-Spezifikation](https://bips.dev/158/) und werden in [Elle Moutons Überblick über Golomb-coded sets](https://ellemouton.com/posts/bip158/) beschrieben. Die Implementierung von Bitcoin Safe basiert auf dem Open-Source-[Kyoto Compact Block Filter Modul für BDK](https://github.com/2140-dev/kyoto).
 - Sie können Ihren eigenen Bitcoin Core-Knoten zu den Peers für das Synchronisieren von Compact Block Filters hinzufügen, indem Sie den _Initial node_ des _Bitcoin network monitoring_ auswählen.
 
 

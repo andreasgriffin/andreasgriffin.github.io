@@ -61,7 +61,7 @@ CBFは、行っている操作に応じて待ち時間が変わります：
 ### 技術的な詳細
 
 
-- *さらに詳しく知りたい開発者向け：* コンパクトブロックフィルターは[BIP158仕様](https://bips.dev/158/)に従っており、[Elle MoutonによるGolomb-coded setsの概説](https://ellemouton.com/posts/bip158/)でも詳述されています。Bitcoin Safeの実装はオープンソースの[BDK向けKyotoコンパクトブロックフィルターモジュール](https://github.com/rustaceanrob/kyoto)に依存しています。
+- *さらに詳しく知りたい開発者向け：* コンパクトブロックフィルターは[BIP158仕様](https://bips.dev/158/)に従っており、[Elle MoutonによるGolomb-coded setsの概説](https://ellemouton.com/posts/bip158/)でも詳述されています。Bitcoin Safeの実装はオープンソースの[BDK向けKyotoコンパクトブロックフィルターモジュール](https://github.com/2140-dev/kyoto)に依存しています。
 - 自分のBitcoin Coreノードをコンパクトブロックフィルター同期のピアに追加することもできます。_ビットコインネットワーク監視_の設定で _初期ノード_ を選択してください。
 
 

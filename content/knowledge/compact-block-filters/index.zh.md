@@ -61,7 +61,7 @@ CBF 会根据你正在做的操作改变等待时间：
 ### 技术细节
 
 
-- *对于想深入了解的开发者：* 紧凑区块过滤器遵循 [BIP158 规范](https://bips.dev/158/)，并且可参阅 [Elle Mouton 关于 Golomb 编码集合的概述](https://ellemouton.com/posts/bip158/)。Bitcoin Safe 的实现依赖于开源的 [BDK 的 Kyoto 紧凑区块过滤器模块](https://github.com/rustaceanrob/kyoto)。
+- *对于想深入了解的开发者：* 紧凑区块过滤器遵循 [BIP158 规范](https://bips.dev/158/)，并且可参阅 [Elle Mouton 关于 Golomb 编码集合的概述](https://ellemouton.com/posts/bip158/)。Bitcoin Safe 的实现依赖于开源的 [BDK 的 Kyoto 紧凑区块过滤器模块](https://github.com/2140-dev/kyoto)。
 - 你可以将自己的 Bitcoin Core 节点添加到用于紧凑区块过滤器同步的对等节点，通过在 _比特币网络监控_ 中选择 _初始节点_ 来实现。
 
 
