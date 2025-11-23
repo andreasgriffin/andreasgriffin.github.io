@@ -57,17 +57,17 @@ weight: -10
 <!-- header-end -->
 # Bitcoin Safe
 
-#### A secure bitcoin savings wallet for everyone
+#### A bitcoin savings wallet for the entire family
 
 - **Easy** Multisig-Wallet Setup
   - Step-by-Step instructions for a secure MultiSig setup with PDF backup sheets
   - Test transactions ensure that all hardware signers are ready
-  - Full support for [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtN), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), using  *QR*, *USB*, and *SD-card* 
+  - Full support for [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtNo), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), using  *QR*, *USB*, and *SD-card* 
 - **Secure**: Hardware signers only
   - All wallets require hardware signers/wallets for safe seed storage 
   - Powered by **[BDK](https://github.com/bitcoindevkit/bdk)**
 - **Multi-Language**:
-  - {{ partial "flags-short.html" . }} (more upon request)
+  - 🇺🇸 English, 🇨🇳 Chinese – 简体中文, 🇪🇸 Spanish – español de España, 🇯🇵 Japanese – 日本語, 🇷🇺 Russian – русский, 🇵🇹 Portuguese – português europeo, 🇧🇷 Portuguese (Brazil) – português do Brasil, 🇮🇳 Hindi – हिन्दी, 🇦🇪 Arabic – العربية, 🇮🇹 Italian – italiano, 🇫🇷 French – Français, 🇩🇪 German – Deutsch, 🇲🇲 Burmese – မြန်မာ, 🇰🇷 Korean – 한국어, 🇹🇭 Thai – ภาษาไทย, 🇮🇷 Persian (Farsi) – فارسی, 🇵🇱 Polish – Polski, 🇪🇸 Catalan – Català, 🇮🇩 Indonesian – Bahasa Indonesia, 🇹🇷 Turkish – Türkçe, 🇺🇦 Ukrainian – Українська (more upon request)
 - **Simpler** address labels by using categories (e.g. "KYC", "Non-KYC", "Work", "Friends", ...)
   - Automatic coin selection within categories
   - Transaction flow diagrams, visualizing inputs and outputs, click on inputs and output to trace the money flow
@@ -79,10 +79,8 @@ weight: -10
   - Label synchronization between different computers
   - Wallet chat and PSBTs sharing between different computers
 - **Fast**: 
-  - Electrum server syncing
-  - planned upgrade to **Compact Block Filters** for the Bitcoin Safe 2.0 release
-
-
+  - Electrum/Esplora server
+  - Compact Block Filters 
 
 
 
@@ -126,7 +124,7 @@ weight: -10
 
 - **Languages**
   
-  - {{ partial "flags-short.html" . }}, 🇮🇩 Indonesian — Bahasa Indonesia, 🇹🇷 Turkish — Türkçe (more upon request)
+  - 🇺🇸 English, 🇨🇳 Chinese – 简体中文, 🇪🇸 Spanish – español de España, 🇯🇵 Japanese – 日本語, 🇷🇺 Russian – русский, 🇵🇹 Portuguese – português europeo, 🇧🇷 Portuguese (Brazil) – português do Brasil, 🇮🇳 Hindi – हिन्दी, 🇦🇪 Arabic – العربية, 🇮🇹 Italian – italiano, 🇫🇷 French – Français, 🇩🇪 German – Deutsch, 🇲🇲 Burmese – မြန်မာ, 🇰🇷 Korean – 한국어, 🇹🇭 Thai – ภาษาไทย, 🇮🇷 Persian (Farsi) – فارسی, 🇵🇱 Polish – Polski, 🇪🇸 Catalan – Català, 🇮🇩 Indonesian – Bahasa Indonesia, 🇹🇷 Turkish – Türkçe, 🇺🇦 Ukrainian – Українська (more upon request)
 
 - **Transaction / PSBT Creation**
   
@@ -149,12 +147,9 @@ weight: -10
   - Collaborative wallet management including chat and PSBT sharing via nostr and label synchronization between trusted devices
   - Optional custom nostr server 
 
-- **Upcoming Features**
-  
-  - For the 2.0 Release
-    - **Compact Block Filters** by default
-      - Compact Block Filters are **fast** and **private**
-      - Compact Block Filters (bdk) are being [worked on](https://github.com/bitcoindevkit/bdk/issues/679), and will be included in bdk 1.1. For now RPC, Electrum and Esplora are available, but will be replaced completely with Compact Block Filters.
+- **Fast syncing**: 
+  - Electrum/Esplora server
+  - Compact Block Filters 
 
 
 ## Installation from Git repository
@@ -279,6 +274,21 @@ nigiri faucet bcrt1qgsnt3d4sny4w4zd5zl9x6jufc5rankqmgphyms9vz0ds73q4xfms655y4c 0
   python3 -m bitcoin_safe
   ``` -->
 
+
+
+
+### Verifying the binaries
+
+- In Linux the appimage and deb file hashes should match perfectly with your own built version.
+- The Windows exe files are signed, and therefore the signature needs to be stripped. 
+```sh
+osslsigncode remove-signature -in signed-binary.exe -out binary-stripped.exe
+```
+`binary-stripped.exe` hash will match the hash of your built version.
+
+
+
+
 ### Qt designer
 
 Qt componets can be explored with the qt designer:
@@ -289,6 +299,8 @@ source .env-qt-designer/bin/activate
 pip install pyqt6-tools 
 pyqt6-tools designer 
 ```
+
+
 
 ## Code signing policy
 
