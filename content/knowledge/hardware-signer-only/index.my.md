@@ -170,5 +170,5 @@ Bitcoin Safe = အမှန်တကယ်သော Bitcoin စုဆောင�
 ✅ developer များအတြက္ စမ်းသပ်ရန် သက်သာသော ပတ်ဝန်းကျင်များ  
 ✅ မိသားစုနှင့် အဖွဲ့လိုက် အသုံးပြုရန် အသင့်တော်သော လက္ခဏာများ  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube ချန်နယ် →: https://youtube.com/@BitcoinSafeOrg

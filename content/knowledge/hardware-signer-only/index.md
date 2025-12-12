@@ -172,5 +172,5 @@ Bitcoin Safe = Real Bitcoin savings:
 ✅ Developer-friendly testing environments  
 ✅ Family & team-ready features  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube channel →: https://youtube.com/@BitcoinSafeOrg

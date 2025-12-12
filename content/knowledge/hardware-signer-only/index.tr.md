@@ -170,5 +170,5 @@ Bitcoin Safe = Gerçek Bitcoin tasarrufu:
 ✅ Geliştiriciler için test ortamları  
 ✅ Aile ve ekip için hazır özellikler  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube kanalı →: https://youtube.com/@BitcoinSafeOrg

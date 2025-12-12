@@ -170,5 +170,5 @@ Bitcoin Safe = Estalvis reals en Bitcoin:
 ✅ Entorns de prova aptes per a desenvolupadors  
 ✅ Funcions preparades per a família i equips  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 Canal de YouTube →: https://youtube.com/@BitcoinSafeOrg

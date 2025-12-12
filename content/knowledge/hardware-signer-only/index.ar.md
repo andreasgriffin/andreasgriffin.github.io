@@ -169,5 +169,5 @@ Bitcoin Safe = مدخرات بيتكوين حقيقية:
 ✅ بيئات اختبار مناسبة للمطورين  
 ✅ ميزات مناسبة للعائلة والفريق  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 قناة YouTube →: https://youtube.com/@BitcoinSafeOrg

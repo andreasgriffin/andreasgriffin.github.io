@@ -170,5 +170,5 @@ Bitcoin Safe = poupanças reais em Bitcoin:
 ✅ Ambientes de teste amigáveis para desenvolvedores  
 ✅ Funcionalidades prontas para família e equipas  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 Canal YouTube →: https://youtube.com/@BitcoinSafeOrg

@@ -169,5 +169,5 @@ Bitcoin Safe = 진짜 비트코인 보관:
 ✅ 개발자 친화적 테스트 환경  
 ✅ 가족 및 팀용 기능 완비  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube 채널 →: https://youtube.com/@BitcoinSafeOrg
