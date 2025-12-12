@@ -16,7 +16,7 @@ videos:
 
 # 单签名钱包
 
-想以正确的方式保护您的比特币吗？了解如何使用 Trezor 设置 Bitcoin-Safe.org 钱包
+想以正确的方式保护您的比特币吗？了解如何使用 Trezor 设置 [Bitcoin-Safe.org]({{< ref "/" >}}) 钱包
  ! 🔐💰
 
 

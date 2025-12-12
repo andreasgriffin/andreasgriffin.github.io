@@ -16,7 +16,7 @@ videos:
 
 # Dompet Tanda Tangan Tunggal
 
-Ingin mengamankan Bitcoin Anda dengan cara yang tepat? Pelajari cara mengatur dompet Bitcoin-Safe.org dengan Trezor
+Ingin mengamankan Bitcoin Anda dengan cara yang tepat? Pelajari cara mengatur dompet [Bitcoin-Safe.org]({{< ref "/" >}}) dengan Trezor
  ! 🔐💰
 
 

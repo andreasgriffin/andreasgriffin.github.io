@@ -16,7 +16,7 @@ videos:
 
 # Portfel z pojedynczym podpisem
 
-Chcesz zabezpieczyć swoje Bitcoiny w odpowiedni sposób? Dowiedz się, jak skonfigurować portfel Bitcoin-Safe.org z Trezorem
+Chcesz zabezpieczyć swoje Bitcoiny w odpowiedni sposób? Dowiedz się, jak skonfigurować portfel [Bitcoin-Safe.org]({{< ref "/" >}}) z Trezorem
  ! 🔐💰
 
 

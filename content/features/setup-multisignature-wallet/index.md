@@ -18,7 +18,7 @@ videos:
 
 # Single Signature Wallet
 
-Want to secure your Bitcoin the right way? Learn how to set up a Bitcoin-Safe.org wallet with Trezor
+Want to secure your Bitcoin the right way? Learn how to set up a [Bitcoin-Safe.org]({{< ref "/" >}}) wallet with Trezor
  ! 🔐💰
 
 

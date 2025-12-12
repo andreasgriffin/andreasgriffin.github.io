@@ -16,7 +16,7 @@ videos:
 
 # Portefeuille à signature unique
 
-Vous voulez sécuriser vos Bitcoins correctement ? Apprenez comment configurer un portefeuille Bitcoin-Safe.org avec Trezor
+Vous voulez sécuriser vos Bitcoins correctement ? Apprenez comment configurer un portefeuille [Bitcoin-Safe.org]({{< ref "/" >}}) avec Trezor
  ! 🔐💰
 
 
