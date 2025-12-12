@@ -18,7 +18,7 @@ weight: 0
 ## {{< page-title >}}
 
 
-Bitcoin Safe 1.6.0, cüzdanınızı eşitlemenin isteğe bağlı bir yolu olarak **Kompakt Blok Filtreleri (CBF)** sunar. Merkezi bir Electrum sunucusuna cüzdan geçmişinizi sormak yerine, Bitcoin Safe artık her blok için rastgele Bitcoin Core düğümlerinden küçük bir özet dosyası indirebilir. Bu özetler, cüzdanınızın bir bloğun işlemlerinizden birini içerip içermediğine kendi başına karar vermesini sağlayan kısa bir kontrol listesi gibi davranır.
+Bitcoin Safe 1.6.0, cüzdanınızı eşitlemenin isteğe bağlı bir yolu olarak **Kompakt Blok Filtreleri (CBF)** sunar. Merkezi bir Electrum sunucusuna cüzdan geçmişinizi sormak yerine, [Bitcoin Safe]({{< ref "/" >}}) artık her blok için rastgele Bitcoin Core düğümlerinden küçük bir özet dosyası indirebilir. Bu özetler, cüzdanınızın bir bloğun işlemlerinizden birini içerip içermediğine kendi başına karar vermesini sağlayan kısa bir kontrol listesi gibi davranır.
 
 Bitcoin Safe kararı yerel olarak verdiği için, herhangi bir üçüncü taraf sunucu hangi adresleri veya işlemleri önemsediğinizi asla öğrenmez. Tam bir düğümün saklayacağı aynı onay verilerini alırsınız, ancak günlük cihazlara uygun daha hafif bir biçimde.
 
@@ -46,7 +46,7 @@ CBF, ne yaptığına bağlı olarak bekleme sürenizi değiştirir:
 
 1. ✨ **Cüzdan kurma veya kurtarma:** Yeni bir cüzdan oluşturuyor veya mevcut bir cüzdanı kurtarıyorsanız, ilk eşitleme cüzdanınızın tüm geçmişi için filtreleri çeker. İnternet hızınıza bağlı olarak bu tek seferlik işlemin **5 ila 30 dakika** arasında sürebileceğini bekleyin.
 2. 🚀 **Zaten eşitlenmiş bir cüzdanı açmak:** Bitcoin Safe, yalnızca son oturumunuzdan bu yana oluşan en yeni filtreleri alır. Bu yakalama genellikle **30 saniyenin altında** tamamlanır.
-3. 🔄 **Electrum sunucularından CBF'ye geçiş:** Cüzdan daha önce Electrum sunucularıyla eşitlenmişse, Bitcoin Safe yalnızca en yeni filtreleri alır; bu genellikle **30 saniyeden az** sürer.
+3. 🔄 **Electrum sunucularından CBF'ye geçiş:** Cüzdan daha önce Electrum sunucularıyla eşitlenmişse, [Bitcoin Safe]({{< ref "/" >}}) yalnızca en yeni filtreleri alır; bu genellikle **30 saniyeden az** sürer.
 
 ### Onaylanmamış ödemeler hakkında haberdar olun
 

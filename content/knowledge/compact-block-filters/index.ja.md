@@ -30,7 +30,7 @@ Bitcoin Safeが判断をローカルで行うため、サードパーティの�
 
 これに対してElectrumサーバーはユーザーに代わってブロックチェーンを検索します。すべてのリクエストはウォレットのアドレスをサーバー運営者と共有するため、運営者がその情報を記録する可能性があります。コンパクトブロックフィルターを使うことで、Bitcoin Safeは各ノードが共有する中立的なデータをダウンロードします。ウォレットが最初からアドレスを明かさないため、誰もどのアドレスがあなたのものであるかを判断できません。
 
-Below is a simple view of how Bitcoin Safe connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
+Below is a simple view of how [Bitcoin Safe]({{< ref "/" >}}) connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
 
 
 ![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
