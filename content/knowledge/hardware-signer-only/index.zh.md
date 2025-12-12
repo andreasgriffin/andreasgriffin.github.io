@@ -169,5 +169,5 @@ Bitcoin Safe = 真正的比特币储蓄：
 ✅ 面向开发者的测试环境友好  
 ✅ 适合家庭与团队的功能  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube 频道 →: https://youtube.com/@BitcoinSafeOrg

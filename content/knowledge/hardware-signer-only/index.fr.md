@@ -170,5 +170,5 @@ Bitcoin Safe = Vraies économies en Bitcoin :
 ✅ Environnements de test adaptés aux développeurs  
 ✅ Fonctionnalités prêtes pour la famille et les équipes  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 Chaîne YouTube →: https://youtube.com/@BitcoinSafeOrg

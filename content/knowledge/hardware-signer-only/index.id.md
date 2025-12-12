@@ -170,5 +170,5 @@ Bitcoin Safe = Tabungan Bitcoin sejati:
 ✅ Lingkungan pengujian ramah pengembang  
 ✅ Fitur siap keluarga & tim  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 Channel YouTube →: https://youtube.com/@BitcoinSafeOrg

@@ -170,5 +170,5 @@ Bitcoin Safe = 本物のビットコイン貯蓄:
 ✅ 開発者向けのテスト環境  
 ✅ 家族やチーム向けの機能  
 
-🔗 [Bitcoin-Safe.org](https://Bitcoin-Safe.org)  
+🔗 [Bitcoin-Safe.org]({{< ref "/" >}})  
 🎥 YouTube チャンネル →: https://youtube.com/@BitcoinSafeOrg
