@@ -16,7 +16,7 @@ videos:
 
 # Cartera de signatura única
 
-Vols protegir els teus bitcoins de la manera correcta? Aprèn com configurar una cartera de Bitcoin-Safe.org amb Trezor
+Vols protegir els teus bitcoins de la manera correcta? Aprèn com configurar una cartera de [Bitcoin-Safe.org]({{< ref "/" >}}) amb Trezor
  ! 🔐💰
 
 

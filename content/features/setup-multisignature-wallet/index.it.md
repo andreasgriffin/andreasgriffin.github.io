@@ -16,7 +16,7 @@ videos:
 
 # Portafoglio a firma singola
 
-Vuoi mettere al sicuro i tuoi Bitcoin nel modo corretto? Scopri come configurare un portafoglio su Bitcoin-Safe.org con Trezor! 🔐💰
+Vuoi mettere al sicuro i tuoi Bitcoin nel modo corretto? Scopri come configurare un portafoglio su [Bitcoin-Safe.org]({{< ref "/" >}}) con Trezor! 🔐💰
 
 
 {{< youtube-gallery >}}

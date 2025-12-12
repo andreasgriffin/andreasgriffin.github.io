@@ -16,7 +16,7 @@ videos:
 
 # Carteira com Assinatura Única
 
-Quer proteger os seus Bitcoins da forma correta? Aprenda a configurar uma carteira Bitcoin-Safe.org com a Trezor ! 🔐💰
+Quer proteger os seus Bitcoins da forma correta? Aprenda a configurar uma carteira [Bitcoin-Safe.org]({{< ref "/" >}}) com a Trezor ! 🔐💰
 
 
 {{< youtube-gallery >}}

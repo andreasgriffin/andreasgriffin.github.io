@@ -16,7 +16,7 @@ videos:
 
 # Tek İmzalı Cüzdan
 
-Bitcoin'inizi doğru şekilde mi korumak istiyorsunuz? Trezor ile Bitcoin-Safe.org cüzdanını nasıl kuracağınızı öğrenin ! 🔐💰
+Bitcoin'inizi doğru şekilde mi korumak istiyorsunuz? Trezor ile [Bitcoin-Safe.org]({{< ref "/" >}}) cüzdanını nasıl kuracağınızı öğrenin ! 🔐💰
 
 
 {{< youtube-gallery >}}
