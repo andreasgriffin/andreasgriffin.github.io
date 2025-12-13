@@ -12,16 +12,15 @@ menu:
 
 
 <br>
-{{< donate_widget >}}
 
-Desenvolupar **Bitcoin Safe** és una feina difícil i agraeixo qualsevol suport que puguis oferir:
-- La manera més fàcil de donar-me suport és fent una donació de Sats:
-  - {{< donation_lightning_address >}}
+
+Crear **Bitcoin Safe** és una tasca difícil i meticulosa per oferir el millor valor per a tu. Agraïm qualsevol suport que ens puguis donar:
+- La manera més senzilla de donar suport a Bitcoin Safe és fent una donació: 
   - {{< donation_btc >}}
-- Però també em pots ajudar amb la teva feina, per exemple
-  -   *proves*, *proves*, *proves*, i enviant-me informes d'errors
-  - millora les [traduccions](https://hosted.weblate.org/engage/bitcoin-safe/) de **Bitcoin Safe**. No trobes el teu idioma allà? Escriu-me i l'afegim plegats.
-  - o troba altres maneres de fer **Bitcoin Safe** millor per a tothom
+- Però també ens pots donar suport amb la teva feina, per exemple:
+  -   *proves*, *proves*, *proves*, i enviar-me informes d'errors
+  - millorar les [traduccions](https://hosted.weblate.org/engage/bitcoin-safe/) de **Bitcoin Safe**. No trobes el teu idioma allà? Escriu-me i l'afegirem plegats.
+  - o trobar altres maneres de millorar **Bitcoin Safe** per a tothom
 
 Dóna suport a **Bitcoin Safe** i apareix a la llista següent
 

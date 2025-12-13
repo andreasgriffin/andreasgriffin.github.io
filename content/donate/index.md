@@ -14,11 +14,10 @@ menu:
 
 
 <br>
-{{< donate_widget >}}
 
-Building **Bitcoin Safe** is hard work and I appreciate every support you can give:
-- Easiest way you can  support me by donating Sats: 
-  - {{< donation_lightning_address >}}
+
+Building **Bitcoin Safe** is hard, diffcult and careful work to build the best value for you. We appreciate every support you can give:
+- Easiest way you can  support Bitcoin Safe is by donating: 
   - {{< donation_btc >}}
 - But you can also support with your work, for example
   -   *testing*, *testing*, *testing*, and giving me bug reports
