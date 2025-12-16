@@ -16,7 +16,7 @@ menu:
 
 Bitcoin Safe를 개발하는 일은 어렵고 세심한 작업이며, 사용자에게 최고의 가치를 제공하기 위해 많은 정성과 노력이 필요합니다. 여러분이 해주시는 모든 지원에 감사드립니다:
 - Bitcoin Safe를 지원하는 가장 쉬운 방법은 기부입니다: 
-  - {{< donation_btc >}}
+  - {{< donation_btc >}}{{< donate_widget >}}
 - 하지만 작업으로도 지원할 수 있습니다. 예를 들어:
   -   *테스트*, *테스트*, *테스트*, 그리고 버그 리포트 보내기
   - **Bitcoin Safe**의 [번역](https://hosted.weblate.org/engage/bitcoin-safe/)을 개선하기. 여기에 본인의 언어가 없나요? 저에게 알려주시면 함께 추가하겠습니다.

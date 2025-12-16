@@ -16,7 +16,7 @@ menu:
 
 Bitcoin Safe'i geliştirmek, sizin için en iyi değeri oluşturmak adına zor, titiz ve dikkatli bir iştir. Verebileceğiniz her desteği takdir ediyoruz:
 - Bitcoin Safe'e destek olmanın en kolay yolu bağış yapmaktır:
-  - {{< donation_btc >}}
+  - {{< donation_btc >}}{{< donate_widget >}}
 - Ancak katkıda bulunabileceğiniz başka yollar da var, örneğin
   -   *test etme*, *test etme*, *test etme* ve bana hata raporları göndermek
   - **Bitcoin Safe**'in [çevirilerini](https://hosted.weblate.org/engage/bitcoin-safe/) geliştirmek. Dilinizi orada bulamıyor musunuz? Bana yazın, birlikte ekleyelim.

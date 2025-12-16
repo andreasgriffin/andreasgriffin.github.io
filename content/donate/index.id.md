@@ -16,7 +16,7 @@ menu:
 
 Membangun **Bitcoin Safe** adalah pekerjaan yang sulit, menantang, dan memerlukan kehati-hatian untuk memberikan nilai terbaik bagi Anda. Kami menghargai setiap dukungan yang dapat Anda berikan:
 - Cara termudah untuk mendukung Bitcoin Safe adalah dengan berdonasi: 
-  - {{< donation_btc >}}
+  - {{< donation_btc >}}{{< donate_widget >}}
 - Namun Anda juga bisa mendukung melalui kontribusi kerja Anda, misalnya:
   -   *pengujian*, *pengujian*, *pengujian*, dan mengirimkan laporan bug kepada saya
   - meningkatkan [terjemahan](https://hosted.weblate.org/engage/bitcoin-safe/) dari **Bitcoin Safe**. Tidak menemukan bahasa Anda di sana? Tulis kepada saya dan kita tambahkan bersama.

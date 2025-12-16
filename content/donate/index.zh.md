@@ -16,7 +16,7 @@ menu:
 
 构建 **Bitcoin Safe** 是一项艰难、细致的工作，旨在为你提供最大的价值。我们感谢你给予的每一份支持：
 - 支持 Bitcoin Safe 最简单的方式是捐赠：
-  - {{< donation_btc >}}
+  - {{< donation_btc >}}{{< donate_widget >}}
 - 但你也可以通过贡献工作来支持，例如
   -   *测试*、*测试*、*测试*，并向我提供错误报告
   - 改进 **Bitcoin Safe** 的[翻译](https://hosted.weblate.org/engage/bitcoin-safe/)。没有找到你的语言？写信给我，我们一起来添加。

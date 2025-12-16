@@ -16,7 +16,7 @@ menu:
 
 Créer **Bitcoin Safe** est un travail difficile, exigeant et minutieux pour offrir la meilleure valeur pour vous. Nous apprécions tout soutien que vous pouvez apporter :
 - Le moyen le plus simple de soutenir Bitcoin Safe est de faire un don : 
-  - {{< donation_btc >}}
+  - {{< donation_btc >}}{{< donate_widget >}}
 - Mais vous pouvez aussi aider par votre travail, par exemple
   -   *tests*, *tests*, *tests*, et en m'envoyant des rapports de bugs
   - améliorez les [traductions](https://hosted.weblate.org/engage/bitcoin-safe/) de **Bitcoin Safe**. Vous ne trouvez pas votre langue ? Écrivez-moi et nous l'ajouterons ensemble.
