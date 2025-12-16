@@ -15,9 +15,10 @@ menu:
 
 <br>
 
+
 Building **Bitcoin Safe** is hard, diffcult and careful work to build the best value for you. We appreciate every support you can give:
 - Easiest way you can  support Bitcoin Safe is by donating: 
-  - {{< donation_btc >}}{{< donate_widget >}}
+  - {{< donation_btc >}}
 - But you can also support with your work, for example
   -   *testing*, *testing*, *testing*, and giving me bug reports
   - improve the [translations](https://hosted.weblate.org/engage/bitcoin-safe/) of **Bitcoin Safe**. You don't find your language there?  Write to me and we add it together.
