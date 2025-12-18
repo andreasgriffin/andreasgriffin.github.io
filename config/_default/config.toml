@@ -28,7 +28,7 @@ enableEmoji = true
   title = 'Bitcoin Safe'
   description = 'Bitcoin Safe is a collaborative wallet that keeps families and organizations in full control of their bitcoin.'
   images = ['images/social-share.png']
-  mainMenuLogo = "images/logo/logo-bare.svg"
+  mainMenuLogo = "images/logo/logo-cut.svg"
 
   keywords = [
   "multisig",

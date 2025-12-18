@@ -12,7 +12,10 @@
         <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" width="30" height="24"
           class="d-inline-block align-text-top">
         {{ end }}
-        {{ .Site.Params.shorttitle }}
+        
+        <span style="position: relative; top: -2px;">
+          {{ .Site.Params.shorttitle }}
+        </span>
       </a>
 
       <!-- Menu Toggler -->
