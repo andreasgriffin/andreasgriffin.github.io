@@ -11,10 +11,7 @@ weight: 20
 
 ### {{< page-title >}}
 
-Wallet Graph muestra la historia de tu billetera para que veas los flujos, detectes riesgos y compartas una visión completa con tu equipo o auditores.
-
-- Mapa visual de entradas, salidas, políticas conectadas y UTXOs a lo largo del tiempo
-- Destaca movimientos grandes o saltos inusuales antes de aprobar transacciones
-- Exporta cada transacción y UTXO como GraphML para auditorías y análisis
+- Mapa visual de entradas, salidas y transacciones a lo largo del tiempo
+- Exporta cada transacción y UTXO como GraphML para análisis
 
 {{< carousel-images >}}

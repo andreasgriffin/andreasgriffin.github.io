@@ -11,10 +11,7 @@ weight: 20
 
 ### {{< page-title >}}
 
-Wallet Graph pokazuje historię portfela, abyś widział przepływy, wykrywał ryzyka i mógł udostępnić pełny obraz zespołowi lub audytorom.
-
-- Wizualna mapa wejść, wyjść, powiązanych zasad i UTXO w czasie
-- Podkreśla duże ruchy lub nietypowe ścieżki przed zatwierdzeniem transakcji
-- Eksportuje każdą transakcję i UTXO do GraphML na potrzeby audytu i analizy
+- Wizualna mapa wejść, wyjść i transakcji w czasie
+- Eksportuje każdą transakcję i UTXO jako GraphML do analizy
 
 {{< carousel-images >}}

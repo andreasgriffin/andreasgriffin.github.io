@@ -11,10 +11,7 @@ weight: 20
 
 ### {{< page-title >}}
 
-Wallet Graph, cüzdan geçmişini göstererek akışları görmeni, riskleri fark etmeni ve tüm resmi ekibinle veya denetçilerle paylaşmanı sağlar.
-
-- Zaman içinde girişler, çıkışlar, bağlı politikalar ve UTXO’ların görsel haritası
-- İşlemi onaylamadan önce büyük hareketleri veya olağandışı sıçramaları öne çıkarır
-- Her işlem ve UTXO’yu denetim ve analiz için GraphML olarak dışa aktarır
+- Zaman içindeki girdilerin, çıktılarının ve işlemlerin görsel haritası
+- Her işlemi ve UTXO’yu analiz için GraphML olarak dışa aktarır
 
 {{< carousel-images >}}

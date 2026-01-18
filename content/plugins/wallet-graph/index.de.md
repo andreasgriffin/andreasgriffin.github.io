@@ -11,10 +11,7 @@ weight: 20
 
 ### {{< page-title >}}
 
-Wallet Graph visualisiert die Historie deiner Wallet, damit du Geldflüsse siehst, Risiken erkennst und das Gesamtbild mit Team oder Prüfern teilen kannst.
-
-- Visuelle Karte von Eingängen, Ausgängen, verknüpften Policies und UTXOs im Zeitverlauf
-- Hebt große Bewegungen oder ungewöhnliche Pfade vor Freigaben hervor
-- Exportiert jede Transaktion und jeden UTXO als GraphML für Audits und Analysen
+- Visuelle Karte von Eingängen, Ausgängen und Transaktionen im Zeitverlauf
+- Exportiert jede Transaktion und jedes UTXO als GraphML für die Analyse
 
 {{< carousel-images >}}
