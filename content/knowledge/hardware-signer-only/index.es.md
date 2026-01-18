@@ -118,7 +118,7 @@ Verifica las direcciones de recepción directamente en tu firmante de hardware �
  
 - {{<text-name-with-logo>}} incluye capturas de pantalla e instrucciones para cada firmante de hardware que te guían en cada paso 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

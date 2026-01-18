@@ -79,7 +79,7 @@ weight: 1000
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} प्रत्येक हार्डवेयर साइनर के लिए स्क्रीनशॉट निर्देश शामिल करता है ताकि आपको हर चरण में मार्गदर्शन मिल सके 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

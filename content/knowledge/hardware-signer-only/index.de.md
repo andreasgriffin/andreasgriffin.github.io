@@ -117,7 +117,7 @@ Wenn jemand versucht, deine Zwischenablage mit einer gefälschten Adresse zu ver
  
 - {{<text-name-with-logo>}} enthält schrittweise Screenshot-Anleitungen für jeden Hardware-Signer, die dich durch jeden Schritt führen 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

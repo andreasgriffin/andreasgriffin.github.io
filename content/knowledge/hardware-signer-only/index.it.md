@@ -117,7 +117,7 @@ Verifica gli indirizzi di ricezione direttamente sul tuo firmatore hardware — 
  
 - {{<text-name-with-logo>}} include istruzioni con screenshot per ogni firmatore hardware per guidarti in ogni passaggio 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

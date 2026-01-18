@@ -118,7 +118,7 @@ Verifica les adreces de recepció directament al teu signant de maquinari — no
  
 - {{<text-name-with-logo>}} inclou captures de pantalla i instruccions per a cada signant de maquinari per guiar-te a cada pas 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

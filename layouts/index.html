@@ -20,7 +20,10 @@
   {{ partial (printf "features/index.%s.html" .Site.Language.Lang) . }}
 </section>
 
-
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Plugins</h3>
+  {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.plugins) }}
+</section>
 
 <!-- <section class="section container my-3">
   <h3 class="text-secondary text-center my-5">Latest Posts</h3>

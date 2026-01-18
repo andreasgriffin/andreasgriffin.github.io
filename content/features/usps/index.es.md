@@ -79,7 +79,7 @@ La gente ha cometido muchos errores costosos en el pasado. La mayoría de ellos 
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} incluye instrucciones con capturas de pantalla para cada firmante de hardware que te guían en cada paso 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

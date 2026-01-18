@@ -117,7 +117,7 @@ Bitcoin Safe **用颜色标记接收地址**，让地址中毒一目了然：
  
 - {{<text-name-with-logo>}} 包含每种硬件签名器的截图说明，引导你完成每一步 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

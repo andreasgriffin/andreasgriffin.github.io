@@ -118,7 +118,7 @@ Bitcoin Safe သည် လိပ်စာ အဆိပ်ပေးခြင်�
  
 - {{<text-name-with-logo>}} တွင် လူကြီးမင်းကို လက်မှတ်ထိုးသူ တစ်ခုချင်းစီအတွက် အဆင့်ဆင့် screenshot လမ်းညွှန်ချက်များကို ပေးထားသည် 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

@@ -79,7 +79,7 @@ weight: 1000
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>) အပြည့်အစုံ ထောက်ခံပေးသည်။
 - {{<text-name-with-logo>}} သည် hardware signer တစ်ခုချင်းစီအတွက် စာရင်းပြဘားများနှင့် ဖန်သားပြင်ပုံရိပ်များပါဝင်သော ညွှန်ကြားချက်များကို ထည့်သွင်းပေးကာ အဆင့်ဆင့် လမ်းညွှန်ပေးပါသည်။
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

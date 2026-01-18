@@ -118,7 +118,7 @@ Bitcoin Safe は受取アドレスを**色分け表示**して、アドレスポ
  
 - {{<text-name-with-logo>}} には各ハードウェア署名器ごとのスクリーンショット付き手順が含まれており、各ステップを案内します 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

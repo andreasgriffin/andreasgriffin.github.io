@@ -118,7 +118,7 @@ Vérifiez les adresses de réception directement sur votre signateur matériel �
  
 - {{<text-name-with-logo>}} inclut des captures d'écran et des instructions pour chaque signateur matériel afin de vous guider à chaque étape 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

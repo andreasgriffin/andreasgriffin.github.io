@@ -79,7 +79,7 @@ weight: 1000
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} включает пошаговые инструкции со скриншотами для каждого аппаратного кошелька, чтобы провести вас через каждый шаг 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

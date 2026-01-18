@@ -118,7 +118,7 @@ Verifikasi alamat penerimaan langsung di penanda perangkat keras Anda — tidak 
  
 - {{<text-name-with-logo>}} menyertakan screenshot petunjuk untuk setiap penanda perangkat keras untuk membimbing Anda melalui setiap langkah 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

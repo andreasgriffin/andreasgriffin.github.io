@@ -118,7 +118,7 @@ Bitcoin Safe प्राप्त करने वाले पतों को
  
 - {{<text-name-with-logo>}} में प्रत्येक हार्डवेयर साइनर के लिए स्क्रीनशॉट सहित निर्देश हैं जो आपको हर चरण में मार्गदर्शन करेंगे 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

@@ -1,34 +1,59 @@
+{{/* Reusable carousel partial.
+     Accepts:
+       - resources: slice of page resources (images/videos)
+       - path/base: filesystem path and base URL prefix (fallback)
+       - id: optional unique carousel id (defaults to carouselExampleAutoplaying)
+*/}}
+{{ $id := or .id "carouselExampleAutoplaying" }}
+{{ $imgExts   := slice ".jpg" ".jpeg" ".png" ".gif" ".webp" ".avif" }}
+{{ $videoExts := slice ".mp4" ".webm" ".ogg" ".mkv" }}
+
+{{ $items := slice }}
+{{ $useResources := false }}
+{{ $base := .base }}
+
+{{ if .resources }}
+  {{ $useResources = true }}
+  {{ $items = .resources }}
+{{ else if .path }}
+  {{ $items = readDir .path }}
+{{ else if .folder }}
+  {{ $path := printf "static/%s/" .folder }}
+  {{ $items = readDir $path }}
+  {{ if not $base }}
+    {{ $base = printf "/%s/" .folder }}
+  {{ end }}
+{{ end }}
+
 <div class="row justify-content-center text-center mt-lg-3">
-  <div id="carouselExampleAutoplaying" 
+  <div id="{{ $id }}" 
        class="carousel carousel-dark slide" 
        data-bs-ride="carousel" 
        style="width: 100%; max-width: 899px;">
     <div class="carousel-inner">
-      {{ $folder := .folder }}
-      {{ $path := printf "static/%s/" $folder }}
-      {{ $items := readDir $path }}
-
-      {{ $imgExts   := slice ".jpg" ".jpeg" ".png" ".gif" }}
-      {{ $videoExts := slice ".mp4" ".webm" ".ogg" ".mkv" }}
-
-      {{ range $i, $file := $items }}
-        {{ $ext := lower (path.Ext $file.Name) }}
+      {{ range $i, $item := $items }}
+        {{ $ext := "" }}
+        {{ if $useResources }}
+          {{ $ext = lower (path.Ext $item.Name) }}
+        {{ else }}
+          {{ $ext = lower (path.Ext $item.Name) }}
+        {{ end }}
         <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
           {{ if in $imgExts $ext }}
-            <img src="/{{ $folder }}/{{ $file.Name }}" 
-                 class="d-block w-100" 
-                 alt="{{ $file.Name }}">
+            <img 
+              src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
+              class="d-block w-100" 
+              alt="{{ $item.Name }}">
           {{ else if in $videoExts $ext }}
-            {{/* strip the dot for MIME */}}
             {{ $type := printf "video/%s" (replace $ext "." "" ) }}
-            <video autoplay muted loop playsinline 
-                   class="d-block w-100">
-              <source src="/{{ $folder }}/{{ $file.Name }}" 
-                      type="{{ $type }}">
+            <video autoplay muted loop playsinline class="d-block w-100">
+              <source 
+                src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
+                type="{{ $type }}">
               Your browser does not support the video tag.
             </video>
           {{ else }}
-            <p class="text-danger">Unsupported file “{{ $file.Name }}”</p>
+            <p class="text-danger">Unsupported file “{{ $item.Name }}”</p>
           {{ end }}
         </div>
       {{ end }}
@@ -36,7 +61,7 @@
 
     <button class="carousel-control-prev" 
             type="button" 
-            data-bs-target="#carouselExampleAutoplaying" 
+            data-bs-target="#{{ $id }}" 
             data-bs-slide="prev">
       <span class="carousel-control-prev-icon" 
             aria-hidden="true"></span>
@@ -44,7 +69,7 @@
     </button>
     <button class="carousel-control-next" 
             type="button" 
-            data-bs-target="#carouselExampleAutoplaying" 
+            data-bs-target="#{{ $id }}" 
             data-bs-slide="next">
       <span class="carousel-control-next-icon" 
             aria-hidden="true"></span>

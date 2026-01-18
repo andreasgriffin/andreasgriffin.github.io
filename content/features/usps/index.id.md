@@ -79,7 +79,7 @@ Banyak orang telah membuat kesalahan mahal di masa lalu. Sebagian besar dapat di
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} menyertakan instruksi berupa tangkapan layar untuk setiap perangkat keras penandatangan guna memandu Anda melalui setiap langkah 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

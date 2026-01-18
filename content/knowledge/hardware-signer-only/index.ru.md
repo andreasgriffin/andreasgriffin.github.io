@@ -118,7 +118,7 @@ Bitcoin Safe **подсвечивает адреса получателя цве
  
 - {{<text-name-with-logo>}} включает пошаговые инструкции с скриншотами для каждого аппаратного подписанта, чтобы провести вас через каждый шаг 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

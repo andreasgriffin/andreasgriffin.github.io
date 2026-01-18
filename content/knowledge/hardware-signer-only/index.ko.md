@@ -117,7 +117,7 @@ Bitcoin Safe는 **수신 주소를 색상으로 구분**하여 주소 포이즈�
 
 - {{<text-name-with-logo>}} 는 각 하드웨어 서명기별 스크린샷과 지침을 포함하여 모든 단계를 안내합니다 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

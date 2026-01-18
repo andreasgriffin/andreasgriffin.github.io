@@ -1,0 +1,49 @@
+{{/* Generic carousel shortcode. Usage:
+     {{< carousel-images >}}                     # uses .Page.Params.carousel_folder
+     {{< carousel-images "folder/path" >}}       # overrides folder
+     {{< carousel-images folder="folder/path" >}}
+*/}}
+{{ $folder := or (.Get "folder") (.Get 0) (.Page.Params.carousel_folder) }}
+{{ if $folder }}
+  {{/* First try page resources under the folder */}}
+  {{ $resourceMatch := printf "%s/*" $folder }}
+  {{ $resAll := .Page.Resources.Match $resourceMatch }}
+  {{ $mediaSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv" }}
+  {{ $res := where $resAll "MediaType.SubType" "in" $mediaSubtypes }}
+  {{ if gt (len $res) 0 }}
+    {{ partial "carousel" (dict "resources" $res "id" (printf "carousel-%d" now.UnixNano)) }}
+  {{ else }}
+    {{/* Fallback to filesystem folders: static, content, then relative */}}
+    {{ $staticPath := printf "static/%s" $folder }}
+    {{ $contentPath := printf "content/%s" $folder }}
+    {{ $relativeContentPath := path.Join .Page.File.Dir $folder }}
+    {{ $baseForRelative := strings.TrimPrefix "content/" $relativeContentPath }}
+
+    {{ $candidates := slice 
+        (dict "path" $staticPath   "base" (printf "/%s/" $folder))
+        (dict "path" $contentPath  "base" (printf "/%s/" $folder))
+        (dict "path" $relativeContentPath "base" (printf "/%s/" $baseForRelative))
+    }}
+
+    {{ $found := false }}
+    {{ range $candidates }}
+      {{ if and (not $found) (fileExists .path) }}
+        {{ $found = true }}
+        {{ partial "carousel" (dict "path" .path "base" .base "folder" $folder "id" (printf "carousel-%d" now.UnixNano)) }}
+      {{ end }}
+    {{ end }}
+
+    {{ if not $found }}
+      <p class="text-danger">carousel-images: folder “{{ $folder }}” not found</p>
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $mediaSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv" }}
+  {{ $all := .Page.Resources.Match "*" }}
+  {{ $res := where $all "MediaType.SubType" "in" $mediaSubtypes }}
+  {{ if not $res }}
+    <p class="text-danger">carousel-images: no media found</p>
+  {{ else }}
+    {{ partial "carousel" (dict "resources" $res "id" (printf "carousel-%d" now.UnixNano)) }}
+  {{ end }}
+{{ end }}

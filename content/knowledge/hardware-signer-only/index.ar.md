@@ -117,7 +117,7 @@ weight: 21
  
 - {{<text-name-with-logo>}} يتضمن لقطات شاشة وتعليمات لكل جهاز توقيع مادي لتوجيهك خلال كل خطوة 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

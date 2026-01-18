@@ -79,7 +79,7 @@ Des personnes ont commis de nombreuses erreurs coûteuses par le passé. La plup
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
 - {{<text-name-with-logo>}} inclut des captures d'écran et des instructions pour chaque signataire matériel afin de vous guider à chaque étape 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images "hardware-signer-screenshots" >}}
     </div>
 
    

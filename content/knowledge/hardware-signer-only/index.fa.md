@@ -118,7 +118,7 @@ Bitcoin Safe **آدرس‌های دریافت را با رنگ‌بندی نما
  
 - {{<text-name-with-logo>}} شامل راهنماهای تصویری برای هر امضاکنندهٔ سخت‌افزاری است تا شما را در هر مرحله همراهی کند 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

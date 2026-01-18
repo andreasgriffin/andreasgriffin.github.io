@@ -118,7 +118,7 @@ Weryfikuj adresy odbioru bezpośrednio na swoim sprzętowym urządzeniu podpisuj
  
 - {{<text-name-with-logo>}} zawiera zrzuty ekranu oraz instrukcje dla każdego urządzenia do podpisu, prowadzące przez każdy krok 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

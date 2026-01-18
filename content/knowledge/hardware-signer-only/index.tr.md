@@ -118,7 +118,7 @@ Alım adreslerini doğrudan donanım imzacınızda doğrulayın — ekrana güve
  
 - {{<text-name-with-logo>}} her donanım imzacısı için adım adım ekran görüntüsü talimatları içerir ve her adımda size rehberlik eder 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    

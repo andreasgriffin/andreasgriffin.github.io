@@ -120,7 +120,7 @@ Verify receive addresses directly on your hardware signer — no need to trust t
  
 - {{<text-name-with-logo>}} includes screenshots instructions for each hardware signer to guide you through every step 
     <div style="max-width: 500px;  width: 100%;">
-        {{< carousel-hardware-signer-screenshots >}}
+        {{< carousel-images >}}
     </div>
 
    
