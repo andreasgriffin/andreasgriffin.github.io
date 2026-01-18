@@ -62,7 +62,7 @@
   {{- $attrs = $attrs | append (printf `poster="%s"` .) -}}
 {{- end -}}
 
-<video style="max-width:100%;height:auto;" {{ delimit $attrs " " }}>
+<video style="max-width:100%;height:auto;" {{ delimit $attrs " " | safeHTMLAttr }}>
   <source src="{{ $src }}" type="video/mp4">
   {{ if and (not $res) hugo.IsServer }}
     <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>
