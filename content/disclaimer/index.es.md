@@ -1,6 +1,6 @@
 ---
-title: "Aviso legal"
-description: "Aviso legal"
+title: "Descargo de responsabilidad"
+description: "Descargo de responsabilidad"
 draft: false
 tags: ["legal"]
 menu:
@@ -8,7 +8,7 @@ menu:
     weight: 90
 ---
 
-# Aviso legal
+# Descargo de responsabilidad
 
 1. Aviso general
 
