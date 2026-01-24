@@ -32,6 +32,7 @@ keywords: [
 previewimage: "logo.png"
 weight: 0
 
+type: "watch"
 videos:
   - "https://www.youtube.com/watch?v=oQB2qzYZ_cw"
 ---

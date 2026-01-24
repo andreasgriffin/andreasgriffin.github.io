@@ -24,6 +24,7 @@ weight: 30
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
+type: "watch"
 videos:
   - "https://www.youtube.com/watch?v=8n8lPfZZQPY"
 ---
