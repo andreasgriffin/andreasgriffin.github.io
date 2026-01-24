@@ -47,6 +47,44 @@
   {{- end -}}
 {{- end -}}
 
+{{/* --------- Fallback to page images when no poster/auto thumbnail found ---------- */}}
+{{- if eq $thumb "" -}}
+  {{- with .Page.Params.previewimage -}}
+    {{- $p := $.Page.Resources.Get . | default ($.Page.Resources.GetMatch .) -}}
+    {{- if $p -}}
+      {{- $thumb = $p.RelPermalink -}}
+    {{- else -}}
+      {{- $candidates := slice
+          (print "static/" $dir .)
+          (print "static/" .)
+        -}}
+      {{- range $c := $candidates -}}
+        {{- if and (eq $thumb "") (fileExists $c) -}}
+          {{- $thumb = relLangURL (replace $c "static/" "") -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (eq $thumb "") (gt (len .Page.Params.images) 0) -}}
+  {{- $img := index .Page.Params.images 0 -}}
+  {{- $p := $.Page.Resources.Get $img | default ($.Page.Resources.GetMatch $img) -}}
+  {{- if $p -}}
+    {{- $thumb = $p.RelPermalink -}}
+  {{- else -}}
+    {{- $candidates := slice
+        (print "static/" $dir $img)
+        (print "static/" $img)
+      -}}
+    {{- range $c := $candidates -}}
+      {{- if and (eq $thumb "") (fileExists $c) -}}
+        {{- $thumb = relLangURL (replace $c "static/" "") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 {{/* --------- Build attributes ---------- */}}
 {{- $attrs := slice -}}
 {{- if .IsNamedParams -}}
