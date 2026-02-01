@@ -84,6 +84,9 @@ Permanece em controlo total e pode alternar esta funcionalidade a qualquer momen
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️ Apenas transacções confirmadas são fiáveis
 

@@ -84,6 +84,9 @@ Bitcoin Safe는 일반적인 Bitcoin Core 노드처럼 동작합니다: 공개 P
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️  확인된(컨펌된) 거래만 신뢰할 수 있습니다
 

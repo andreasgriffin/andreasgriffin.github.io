@@ -84,6 +84,9 @@ Tu mantens el control total i pots activar o desactivar aquesta funció en quals
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️ Només les transaccions confirmades són de confiança
 

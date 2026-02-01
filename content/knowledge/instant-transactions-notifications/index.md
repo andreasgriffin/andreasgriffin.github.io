@@ -84,7 +84,10 @@ To respect user preferences and privacy settings:
 
 You remain in full control and can toggle this feature at any time.
  
- 
+
+
+![](config.png)
+{ .img-fluid .mb-5 }
 
 
 #### ⚠️  Only confirmed transactions can be trusted

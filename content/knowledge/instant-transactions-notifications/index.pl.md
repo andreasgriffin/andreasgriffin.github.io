@@ -84,6 +84,9 @@ Masz pełną kontrolę i możesz w dowolnym momencie przełączyć tę funkcję.
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️ Tylko potwierdzone transakcje są wiarygodne
 

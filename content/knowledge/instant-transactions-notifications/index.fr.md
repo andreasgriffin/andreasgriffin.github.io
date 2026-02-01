@@ -84,6 +84,9 @@ Vous gardez le contrôle total et pouvez activer ou désactiver cette fonctionna
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️ Seules les transactions confirmées peuvent être considérées comme fiables
 

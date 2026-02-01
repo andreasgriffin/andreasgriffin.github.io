@@ -83,6 +83,9 @@ Tam kontrol sizde kalır ve bu özelliği istediğiniz zaman açıp kapatabilirs
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️  Sadece onaylanmış işlemlere güvenilebilir
 

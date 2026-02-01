@@ -84,6 +84,9 @@ Anda tetap memiliki kendali penuh dan dapat mengubah pengaturan ini kapan saja.
  
  
 
+![](config.png)
+{ .img-fluid .mb-5 }
+
 
 #### ⚠️  Hanya transaksi yang terkonfirmasi yang dapat dipercaya
 
