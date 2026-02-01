@@ -25,6 +25,11 @@
   {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.plugins) }}
 </section>
 
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Supported hardware signers</h3>
+  {{ partial "hardware-signer/scroll-row.html" . }}
+</section>
+
 <!-- <section class="section container my-3">
   <h3 class="text-secondary text-center my-5">Latest Posts</h3>
   {{ partial "latest-posts" . }}

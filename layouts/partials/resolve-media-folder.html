@@ -1,0 +1,51 @@
+{{/* Resolves media either from page resources or filesystem.
+     Inputs:
+       - Page: current page (required)
+       - folder: optional folder path (relative to bundle/static/content)
+       - mediaSubtypes: optional slice of allowed MediaType.SubType values
+     Returns a dict with:
+       - found (bool)
+       - resources (slice) when found in page resources
+       - path/base (strings) when found on filesystem
+       - error (string) when not found
+*/}}
+{{- $p := .Page -}}
+{{- $folder := .folder | default "" -}}
+{{- $mediaSubtypes := .mediaSubtypes | default (slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv") -}}
+{{- $result := dict "found" false "folder" $folder -}}
+
+{{- if $folder -}}
+  {{- $resourceMatch := printf "%s/*" $folder -}}
+  {{- $resAll := $p.Resources.Match $resourceMatch -}}
+  {{- $res := where $resAll "MediaType.SubType" "in" $mediaSubtypes -}}
+  {{- if gt (len $res) 0 -}}
+    {{- $result = merge $result (dict "found" true "resources" $res "mode" "resources") -}}
+  {{- else -}}
+    {{- $staticPath := printf "static/%s" $folder -}}
+    {{- $contentPath := printf "content/%s" $folder -}}
+    {{- $relativeContentPath := path.Join $p.File.Dir $folder -}}
+    {{- $baseForRelative := strings.TrimPrefix "content/" $relativeContentPath -}}
+    {{- $candidates := slice
+        (dict "path" $staticPath          "base" (printf "/%s/" $folder))
+        (dict "path" $contentPath         "base" (printf "/%s/" $folder))
+        (dict "path" $relativeContentPath "base" (printf "/%s/" $baseForRelative))
+      -}}
+    {{- range $candidates -}}
+      {{- if and (not (index $result "found")) (fileExists .path) -}}
+        {{- $result = merge $result (dict "found" true "path" .path "base" .base "mode" "filesystem") -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not (index $result "found") -}}
+      {{- $result = merge $result (dict "error" (printf "folder “%s” not found" $folder)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $res := where ($p.Resources.Match "*") "MediaType.SubType" "in" $mediaSubtypes -}}
+  {{- if gt (len $res) 0 -}}
+    {{- $result = merge $result (dict "found" true "resources" $res "mode" "resources") -}}
+  {{- else -}}
+    {{- $result = merge $result (dict "error" "no media found") -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

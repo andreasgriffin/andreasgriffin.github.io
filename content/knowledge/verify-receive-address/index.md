@@ -23,12 +23,12 @@ keywords: [
   "BitcoinSecurity",
   "verify bitcoin address",
   "verify receive address",
-  "verify address" 
+  "verify address"
 ]
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
-type: "watch"
+# type: "watch"
 videos:
   - "https://www.youtube.com/watch?v=dbSmQmt0uDI"
 weight: 20

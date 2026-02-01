@@ -37,7 +37,7 @@ keywords: [
 # embedding videos can be done with 
 # {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
 # or the list will be rendered below the content
-type: "watch"
+# type: "watch"
 videos:
   - "https://www.youtube.com/watch?v=GykmXP6Z1zM"
 weight: 110

@@ -6,8 +6,12 @@
 {{- /* normalize "./some.jpg" -> "some.jpg" */ -}}
 {{- $src = replaceRE "^\\./" "" $src -}}
 
-{{- if and $p $src -}}
-  {{- with $p.Resources.GetMatch $src -}}
+{{- /* Shortcodes pass a ShortcodeWithPage; use the underlying Page when present */ -}}
+{{- $page := $p -}}
+{{- with $p.Page }}{{ $page = . }}{{ end -}}
+
+{{- if and $page $src -}}
+  {{- with $page.Resources.GetMatch $src -}}
     {{- /* bundled resource */ -}}
     {{- .RelPermalink -}}
   {{- else -}}
