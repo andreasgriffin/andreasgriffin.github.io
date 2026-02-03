@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ $slug := path.Base (path.Clean .File.Dir) }}
+  {{ $signer := index (where (index site.Data "hardware-signers").signers "slug" $slug) 0 }}
+  <main class="container py-4">
+    {{ if $signer }}
+      {{ partial "hardware-signer/detail.html" (dict "signer" $signer "context" .) }}
+    {{ else }}
+      {{ if .Content }}
+        {{ .Content }}
+      {{ else }}
+        {{ partial "hardware-signer/list.html" . }}
+      {{ end }}
+    {{ end }}
+  </main>
+{{ end }}

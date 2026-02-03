@@ -1,0 +1,14 @@
+.hardware-signer .btn-primary {
+  background: linear-gradient(90deg, #ff9f1c, #ff7f11);
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+.hardware-signer .card-img-top {
+  background: #f8f9fa;
+}
+.signer-thumb {
+  max-height: 180px;
+  width: 100%;
+  object-fit: contain;
+  padding: 12px;
+}

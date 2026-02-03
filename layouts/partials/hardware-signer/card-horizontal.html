@@ -1,0 +1,32 @@
+{{/* Compact card for horizontal scroller on home page */}}
+{{ $signer := .signer }}
+{{ $ctx := .context }}
+{{ $lang := default "en" $ctx.Site.Language.Lang }}
+{{ $page := $ctx.Site.GetPage (printf "knowledge/supported-hardware-signers/%s" $signer.slug) }}
+{{ $href := cond $page ($page.RelPermalink) (relLangURL (printf "/knowledge/supported-hardware-signers/%s/" $signer.slug)) }}
+{{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
+{{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
+{{ $discount := $signer.discount }}
+
+<div class="card shadow-sm h-100" style="min-width: 240px; max-width: 260px;">
+  {{ if $signer.bitcoin_only }}
+    <span class="badge bg-warning text-dark position-absolute m-2">Bitcoin-only</span>
+  {{ else if $signer.bitcoin_only_available }}
+    <span class="badge bg-warning text-dark position-absolute m-2">Bitcoin-only available</span>
+  {{ end }}
+
+  <a href="{{ $href }}" class="stretched-link text-decoration-none text-reset">
+    {{ if $signer.image }}
+      {{ $img := partial "resolve-rel-url.html" (dict "Page" $ctx "src" $signer.image) }}
+      <img src="{{ $img }}" class="card-img-top signer-thumb" alt="{{ $name }} thumbnail" loading="lazy" style="max-height: 150px; object-fit: contain; background: #f8f9fa; padding: 10px;">
+    {{ end }}
+    <div class="card-body">
+      <h6 class="card-title mb-2">{{ $name }}</h6>
+      {{ with $summary }}<p class="card-text text-muted small mb-2">{{ . }}</p>{{ end }}
+      {{ partial "hardware-signer/features.html" (dict "features" $signer.features) }}
+      {{ with $discount }}
+        <p class="mt-2 mb-0 small text-success">{{ i18n "hardware_discount" }} <strong>{{ .code }}</strong></p>
+      {{ end }}
+    </div>
+  </a>
+</div>

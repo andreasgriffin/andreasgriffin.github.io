@@ -1,0 +1,12 @@
+{{/* Horizontal scroller of hardware signer cards for the home page */}}
+{{ $ctx := . }}
+{{ $signers := (index site.Data "hardware-signers").signers }}
+{{ if not $signers }}
+  <p class="text-muted">No hardware signers defined.</p>
+{{ else }}
+  <div class="d-flex flex-row gap-3 overflow-auto pb-3 px-1">
+    {{ range $signers }}
+      {{ partial "hardware-signer/card-horizontal.html" (dict "signer" . "context" $ctx) }}
+    {{ end }}
+  </div>
+{{ end }}
