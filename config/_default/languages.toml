@@ -137,3 +137,10 @@
   [tr.params]
     languageISO = "TR"
     description = "Tüm aile için bir bitcoin tasarruf cüzdanı."
+
+[uk]
+  languageName = "Українська"
+  languageCode = "uk-UA"
+  weight = 210
+  [uk.params]
+    languageISO = "UK"
