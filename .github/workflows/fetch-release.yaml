@@ -35,6 +35,8 @@ jobs:
       - name: Commit changes if any
         uses: planetscale/ghcommit-action@v0.2.20
         if: steps.fetch.outputs.status == '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           commit_message: "Update latest release data"
           repo: ${{ github.repository }}
