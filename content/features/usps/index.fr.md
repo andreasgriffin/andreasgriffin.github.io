@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">assistant de configuration</a>    rend la signature simple et la multi-signature **faciles** pour les personnes non techniques
     --> Suivez simplement chaque étape pour configurer un portefeuille sécurisé.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - Le <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Export PDF</a>   vous aide à sauvegarder le descripteur de portefeuille important avec chaque seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - Le <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Export PDF</a>   vous aide à sauvegarder le descripteur de portefeuille important avec chaque seed.
     - Enregistrez la multi-signature avec chaque signataire matériel
     - Inclut des tests de réception et d'envoi depuis le portefeuille, pour s'assurer que tous les principaux signataires matériels fonctionnent
 <br>
@@ -54,7 +54,7 @@ Participer à un portefeuille multi-signature 3-sur-5 ?
 
 #### ✔ Organiser les adresses en catégories de pièces
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Vous pouvez regrouper les adresses en **catégories de pièces**. C'est plus simple que d'étiqueter chaque adresse.
 - Pour chaque PSBT que vous créez, vous sélectionnez la catégorie de pièces correspondante et {{<text-name-with-logo>}} sélectionnera les entrées uniquement à partir de celle-ci.   

@@ -87,13 +87,13 @@ weight: -10
 
 | **Multisig စတင်သူ စက်**          | **Create a PSBT, sign and broadcast**                     |
 |--------------------------------|----------------------------|
-| ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/multisig-setup.gif) |  ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/send.gif) |
+| ![Multisig setup](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/multisig-setup.gif) |  ![Send transaction](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/send.gif) |
 | **အထွက်အဝင် ကြည့်ရှုခြင်း အတ္တလင်**          | **အိတ်များအားလုံးတွင် စာရိုက်ရှာဖွေမှု**                    |
-| ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/explorer.gif) |  ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/global-search.gif) |
+| ![Explorer](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/explorer.gif) |  ![Global search](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/global-search.gif) |
 |   **တံဆိပ် အလိုအလောတူညီမှု**      | **အဖွဲ့အများ Multisig ပူးပေါင်းဆောင်ရွက်မှု**                  |
-| ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/label-sync.gif)  |   ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/psbt-share.gif) |
+| ![Label sync](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/label-sync.gif)  |   ![PSBT share](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/psbt-share.gif) |
 |   **ငွေအမျိုးအစားများ**      |                 |
-| ![](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/category-drag-and-drop.gif)  |   |
+| ![Category drag and drop](https://raw.githubusercontent.com/andreasgriffin/bitcoin-safe/main/docs/category-drag-and-drop.gif)  |   |
 
 
 

@@ -16,5 +16,5 @@ keywords: ["address poisoning", "phishing", "dust attack", "wallet protection"]
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

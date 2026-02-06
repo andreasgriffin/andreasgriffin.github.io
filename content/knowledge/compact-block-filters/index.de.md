@@ -65,5 +65,5 @@ Kompakte Block-Filter decken nur **bestätigte Blöcke** ab. Um über eingehende
 - Sie können Ihren eigenen Bitcoin Core-Knoten zu den Peers für das Synchronisieren von Compact Block Filters hinzufügen, indem Sie den _Initial node_ des _Bitcoin network monitoring_ auswählen.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

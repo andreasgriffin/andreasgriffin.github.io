@@ -14,5 +14,5 @@ keywords: ["envenenamento por endereço", "phishing", "ataque de poeira", "Prote
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

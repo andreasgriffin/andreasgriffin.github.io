@@ -31,7 +31,7 @@ weight: 0
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -84,7 +84,7 @@ Bitcoin Safe는 일반적인 Bitcoin Core 노드처럼 동작합니다: 공개 P
  
  
 
-![](config.png)
+![Notification settings screenshot](config.png)
 { .img-fluid .mb-5 }
 
 

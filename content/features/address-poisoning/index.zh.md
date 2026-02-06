@@ -14,5 +14,5 @@ keywords: ["解决中毒", "网络钓鱼", "尘埃攻击", "钱包保护"]
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

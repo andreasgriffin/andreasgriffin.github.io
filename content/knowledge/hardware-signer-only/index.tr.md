@@ -28,7 +28,7 @@ weight: 21
 
  
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 Neden Bitcoin Safe Mainnet'te yazılım tohumlarını engelliyor?

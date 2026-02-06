@@ -65,5 +65,5 @@ Los filtros compactos de bloques cubren únicamente los **bloques confirmados**.
 - Puedes añadir tu propio nodo de Bitcoin Core a los pares para la sincronización de Filtros Compactos de Bloques, eligiendo el _Nodo inicial_ de la _Supervisión de la red Bitcoin_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

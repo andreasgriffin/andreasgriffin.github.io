@@ -14,5 +14,5 @@ keywords: ["معالجة التسمم", "التصيد", "هجوم الغبار",
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

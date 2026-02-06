@@ -27,7 +27,7 @@ weight: 21
 ---
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 为什么 Bitcoin Safe 在主网禁止软件种子？

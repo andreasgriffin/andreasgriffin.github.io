@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">procedura guidata di configurazione</a>    rende Single e Multi-signature **facili** per persone non tecniche
     --> Segui semplicemente ogni passaggio per creare un wallet sicuro.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - L'<a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Esportazione PDF</a>   ti aiuta a fare il backup del descriptor del wallet insieme a ogni seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - L'<a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Esportazione PDF</a>   ti aiuta a fare il backup del descriptor del wallet insieme a ogni seed.
     - Registra il Multi-signature con ogni signer hardware 
     - Include test di ricezione e spesa dal wallet, per assicurarti che tutti i principali signer hardware funzionino
 <br>
@@ -54,7 +54,7 @@ Vuoi partecipare a un wallet Multi-sig 3-of-5?
 
 #### ✔ Organizza gli indirizzi in categorie di monete
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Puoi raggruppare gli indirizzi in **categorie di monete**. È più semplice che etichettare ogni indirizzo singolarmente.
 - Per ogni PSBT che crei selezioni la categoria di monete corrispondente e {{<text-name-with-logo>}} selezionerà gli input solo da quella categoria.   

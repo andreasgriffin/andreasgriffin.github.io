@@ -24,8 +24,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">майстер налаштування</a> робить SingleSig і MultiSig **простими** для нетехнічних користувачів
     --> Просто виконуйте кроки, щоб налаштувати безпечний гаманець.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Експорт PDF</a> допомагає зберігати важливий дескриптор гаманця разом із кожним сидом.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Експорт PDF</a> допомагає зберігати важливий дескриптор гаманця разом із кожним сидом.
     - Реєструйте мультисиг у кожному апаратному підписувачі 
     - Включає тестове отримання і витрату з гаманця, щоб переконатися, що всі основні апаратні підписувачі працюють
 <br>
@@ -56,7 +56,7 @@ weight: 1000
 
 #### ✔ Організовуйте адреси за категоріями монет
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Ви можете групувати адреси в **категорії монет**. Це простіше, ніж мітити кожну адресу.
 - Для кожного PSBT ви обираєте відповідну категорію, і {{<text-name-with-logo>}} вибере входи лише з неї.   

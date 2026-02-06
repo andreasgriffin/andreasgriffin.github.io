@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">دستیار راه‌اندازی</a> باعث می‌شود امضای تک‌امضایی و چندامضایی برای افراد غیر فنی **ساده** شود
     --> کافی است هر مرحله را دنبال کنید تا یک کیف پول ایمن راه‌اندازی کنید.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  خروجی PDF</a> به شما کمک می‌کند descriptor مهم کیف پول را همراه با هر عبارت بازیابی پشتیبان‌گیری کنید.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  خروجی PDF</a> به شما کمک می‌کند descriptor مهم کیف پول را همراه با هر عبارت بازیابی پشتیبان‌گیری کنید.
     - کیف پول چندامضایی را با هر امضاکننده سخت‌افزاری ثبت کنید
     - شامل آزمایش دریافت و خرج کردن از کیف پول است تا اطمینان حاصل شود همه امضاکننده‌های سخت‌افزاری مهم کار می‌کنند
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ سازمان‌دهی آدرس‌ها در دسته‌بندی‌های سکه
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - می‌توانید آدرس‌ها را در «دسته‌بندی‌های سکه» گروه‌بندی کنید. این کار از برچسب‌زدن تک‌تک آدرس‌ها ساده‌تر است.
 - برای هر PSBT که ایجاد می‌کنید دسته‌بندی سکهٔ مربوطه را انتخاب می‌کنید و {{<text-name-with-logo>}} تنها ورودی‌ها را از همان دسته‌بندی انتخاب می‌کند.   

@@ -65,5 +65,5 @@ CBF 会根据你正在做的操作改变等待时间：
 - 你可以将自己的 Bitcoin Core 节点添加到用于紧凑区块过滤器同步的对等节点，通过在 _比特币网络监控_ 中选择 _初始节点_ 来实现。
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

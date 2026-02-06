@@ -65,5 +65,5 @@ CBF는 수행하는 작업에 따라 대기 시간이 달라집니다:
 - 콤팩트 블록 필터 동기화를 위해 자신의 Bitcoin Core 노드를 피어로 추가할 수 있습니다. _Bitcoin network monitoring_의 _Initial node_를 선택하면 됩니다.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

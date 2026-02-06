@@ -14,5 +14,5 @@ keywords: ["中毒に対処します", "フィッシング", "ダスト攻撃", 
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

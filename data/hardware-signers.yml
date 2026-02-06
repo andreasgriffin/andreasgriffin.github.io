@@ -150,7 +150,7 @@ signers:
       en: "Specter DIY / Shield / Shield Lite"
     summary:
       en: "DIY-friendly QR + SD signer; Bitcoin-only."
-    image: "/knowledge/supported-hardware-signers/specter-diy.png"
+    image: "/en/knowledge/supported-hardware-signers/specter-diy.png"
     shop_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
     discount:
       code: "bitcoin-safe"

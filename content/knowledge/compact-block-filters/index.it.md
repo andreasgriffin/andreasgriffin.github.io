@@ -65,5 +65,5 @@ I filtri compatti dei blocchi coprono solo i **blocchi confermati**. Per essere 
 - Puoi aggiungere il tuo nodo Bitcoin Core ai peer per la sincronizzazione dei Filtri compatti dei blocchi, scegliendo il _nodo iniziale_ del _monitoraggio della rete Bitcoin_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

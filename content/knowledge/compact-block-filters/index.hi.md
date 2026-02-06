@@ -65,5 +65,5 @@ CBF यह बदल देता है कि आप कितनी देर
 - आप कम्पैक्ट ब्लॉक फ़िल्टर सिंकिंग के लिए अपने अपने Bitcoin Core नोड को पीयर्स में जोड़ सकते हैं, _Bitcoin नेटवर्क निगरानी_ के _प्रारम्भिक नोड_ को चुनकर।
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

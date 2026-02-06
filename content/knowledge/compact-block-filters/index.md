@@ -67,6 +67,6 @@ Compact block filters cover **confirmed blocks** only. To hear about incoming tr
 - You can add your own Bitcoin core node to the peers for Compact Block Filter syncing, by choosing the _Initial node_ of the _Bitcoin network monitoring_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }
 

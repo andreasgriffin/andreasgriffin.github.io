@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">assistent de configuració</a>    facilita les signatures Simple i Multi-signature **per a persones no tècniques**
     --> Simplement segueix cada pas per configurar una cartera segura.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - L'<a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Exportació PDF</a>   t'ajuda a fer còpia de seguretat del descriptor de la cartera important amb cada seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - L'<a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Exportació PDF</a>   t'ajuda a fer còpia de seguretat del descriptor de la cartera important amb cada seed.
     - Registra la Multi-signature amb cada signador de maquinari 
     - Inclou comprovacions de recepció i despesa des de la cartera, per assegurar que tots els signadors de maquinari principals funcionen
 <br>
@@ -54,7 +54,7 @@ Vols participar en una cartera Multi-sig 3-de-5?
 
 #### ✔ Organitza adreces en categories de monedes
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Pots agrupar adreces en **categories de monedes**. És més fàcil que etiquetar cada adreça.
 - Per a cada PSBT que creïs, selecciona la categoria de monedes corresponent i {{<text-name-with-logo>}} seleccionarà només les entrades d'aquesta categoria.   

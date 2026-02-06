@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">мастер настройки</a> делает одноподписные и многоподписные кошельки **простыми** для нетехнических пользователей
     --> Просто следуйте шагам мастера, чтобы настроить безопасный кошелек.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Экспорт в PDF</a> помогает создать резервную копию важного дескриптора кошелька вместе с каждым сидом.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Экспорт в PDF</a> помогает создать резервную копию важного дескриптора кошелька вместе с каждым сидом.
     - Зарегистрируйте многоподписный кошелек у каждого аппаратного устройства
     - Включает тестовые приёмы и отправки из кошелька, чтобы убедиться, что все основные аппаратные кошельки работают
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ Организация адресов по категориям монет
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Вы можете группировать адреса по **категориям монет**. Это проще, чем помечать каждый адрес.
 - Для каждой создаваемой PSBT вы выбираете соответствующую категорию монет, и {{<text-name-with-logo>}} выберет входы только из неё.   

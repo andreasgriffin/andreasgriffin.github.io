@@ -14,5 +14,5 @@ keywords: ["Adres Zehirlenmesi", "kimlik avı", "toz saldırısı", "cüzdan kor
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

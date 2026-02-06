@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">panduan pengaturan</a>    makes Single and  Multi-signature **easy**   for non-technical people
     --> Ikuti setiap langkah untuk menyiapkan dompet yang aman.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Ekspor PDF</a>   helps you to backup the important wallet descriptor with each seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Ekspor PDF</a>   helps you to backup the important wallet descriptor with each seed.
     - Daftarkan Multi-signature dengan setiap perangkat keras penandatangan 
     - Menyertakan uji penerimaan dan pengeluaran dari dompet, untuk memastikan semua perangkat keras penandatangan utama berfungsi
 <br>
@@ -54,7 +54,7 @@ Berpartisipasi dalam dompet Multi-sig 3-dari-5?
 
 #### ✔ Atur alamat dalam kategori koin
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Anda dapat mengelompokkan alamat dalam **kategori koin**. Lebih mudah daripada memberi label pada setiap alamat.
 - Untuk setiap PSBT yang Anda buat Anda memilih kategori koin yang sesuai dan {{<text-name-with-logo>}} akan memilih input hanya dari kategori tersebut.   

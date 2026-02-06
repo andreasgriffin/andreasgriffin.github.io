@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - يجعل معالج الإعداد {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">معالج الإعداد</a> التوقيع الفردي والمتعدد سهلة للمستخدمين غير التقنيين
     --> ما عليك سوى اتباع كل خطوة لإعداد محفظة آمنة.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - يساعد <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  تصدير PDF</a> في عمل نسخ احتياطية لمواصفات المحفظة المهمة مع كل مفتاح استرداد.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - يساعد <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  تصدير PDF</a> في عمل نسخ احتياطية لمواصفات المحفظة المهمة مع كل مفتاح استرداد.
     - سجّل المحفظة متعددة التوقيع مع كل جهاز توقيع مادي
     - يتضمن اختبار الاستلام والإنفاق من المحفظة للتأكد من عمل جميع أجهزة التوقيع الرئيسية
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ تنظيم العناوين في فئات العملات
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - يمكنك تجميع العناوين في **فئات عملات**. هذا أسهل من وسم كل عنوان على حدة.
 - لكل PSBT تنشئه تختار فئة العملة المطابقة وسيقوم {{<text-name-with-logo>}} باختيار المدخلات فقط من تلك الفئة.

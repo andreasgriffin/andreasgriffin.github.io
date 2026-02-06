@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">ဆက်တင် ဝစ်ဇတ် (setup wizard)</a> သည် Single နှင့် Multi-signature ကို နည်းပညာမကျွမ်းတဲ့ လူများအတွက် **လွယ်ကူစေသည်**
     --> ပတ်သက်သမျှ အဆင့်တိုင်းကို လိုက်နာပြီး လုံခြုံသော ဝေါလက်ကို တစ်ဆင့်ချင်းစီ ပြင်ဆင်နိုင်ပါသည်။   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF ထုတ်ယူခြင်း</a> သည် seed တစ်ခုချင်းစီနှင့် အရေးကြီးသော wallet descriptor ကို အလွယ်တကူ ဘက်အပ်လုပ်ကာ ထိန်းသိမ်းရန် ကူညီပေးသည်။
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF ထုတ်ယူခြင်း</a> သည် seed တစ်ခုချင်းစီနှင့် အရေးကြီးသော wallet descriptor ကို အလွယ်တကူ ဘက်အပ်လုပ်ကာ ထိန်းသိမ်းရန် ကူညီပေးသည်။
     - Multi-signature ကို hardware signer တစ်ခုချင်းစီနှင့် မှတ်ပုံတင်ပါ
     - ဝေါလက်မှ ဝင်ငွေ စစ်ဆေးခြင်းနှင့် အသုံးပြု၍ စမ်းသပ်ခြင်းကိုပါ တိုးချဲ့ပေးထား၍ အဓိက hardware signers များ အလုပ်လုပ်နိုင်ကြောင်း အာမခံပေးသည်။
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ လိပ်စာများကို ကွိုင်အမျိုးအစားများဖြင့် စနစ်ကျစွာ စုစည်းပါ
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - လိပ်စာများကို **ကွိုင်အမျိုးအစားများ** ထဲတွင် အုပ်စုဖွဲ့နိုင်သည်။ လိပ်စာတိုင်းကို တစ်ခုချင်းစီ တံဆိပ်ထိုးခြင်းထက် ပိုမိုလွယ်ကူသည်။
 - သင့်အနေဖြင့် PSBT တစ်ခုချင်းစီ ဖန်တီးသောအခါ သင့်နှိုင်းယှဉ်ထားသည့် ကွိုင်အမျိုးအစားကို ရွေးချယ်နိုင်ပြီး {{<text-name-with-logo>}} သည် ထိုကွိုင်မှတစ်ခုလျင်သာ inputs များကို ရွေးချယ်ပေးမည်။

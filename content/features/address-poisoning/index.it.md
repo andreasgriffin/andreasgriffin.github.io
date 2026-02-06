@@ -14,5 +14,5 @@ keywords: ["affrontare l'avvelenamento", "phishing", "attacco di polvere", "Prot
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - Der {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">Setup-Assistent</a>    macht Single- und Multi-Signature für nicht-technische Anwender **einfach**
     --> Befolgen Sie einfach jeden Schritt, um eine sichere Wallet einzurichten.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - Der <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF-Export</a>   hilft Ihnen, den wichtigen Wallet-Deskriptor zusammen mit jedem Seed zu sichern.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - Der <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF-Export</a>   hilft Ihnen, den wichtigen Wallet-Deskriptor zusammen mit jedem Seed zu sichern.
     - Registrieren Sie die Multi-Signature mit jedem Hardware-Signer 
     - Beinhaltet Testempfang und -ausgabe aus der Wallet, um sicherzustellen, dass alle wichtigen Hardware-Signer funktionieren
 <br>
@@ -54,7 +54,7 @@ Möchten Sie an einer 3-von-5-Multi-Sig-Wallet teilnehmen?
 
 #### ✔ Adressen in Münzkategorien organisieren
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Sie können Adressen in **Münzkategorien** gruppieren. Das ist einfacher, als jede Adresse einzeln zu beschriften.
 - Für jede von Ihnen erstellte PSBT wählen Sie die passende Münzkategorie, und {{<text-name-with-logo>}} wählt die Inputs nur daraus aus.   

@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">सेटअप विज़ार्ड</a>    non-technical लोगों के लिए Single और Multi-signature को **सरल** बनाता है
     --> बस हर चरण का पालन करें और एक सुरक्षित वॉलेट सेटअप करें।   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF एक्सपोर्ट</a>   आपको हर सीड के साथ महत्वपूर्ण वॉलेट डिस्क्रिप्टर का बैकअप लेने में मदद करता है।
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF एक्सपोर्ट</a>   आपको हर सीड के साथ महत्वपूर्ण वॉलेट डिस्क्रिप्टर का बैकअप लेने में मदद करता है।
     - प्रत्येक हार्डवेयर साइनर के साथ Multi-signature पंजीकरण करें
     - वॉलेट से प्राप्त करने और खर्च करने का परीक्षण शामिल है, ताकि यह सुनिश्चित हो सके कि सभी प्रमुख हार्डवेयर साइनर काम करते हैं
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ पते को कॉइन श्रेणियों में व्यवस्थित करें
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - आप पतों को **कॉइन श्रेणियों** में क्लस्टर कर सकते हैं। यह प्रत्येक पते को लेबल करने से आसान है।
 - आप जो भी PSBT बनाते हैं उसके लिए आप मिलते-जुलते कॉइन कैटेगरी का चयन करते हैं और {{<text-name-with-logo>}} केवल उसी से इनपुट चुनेगा।   

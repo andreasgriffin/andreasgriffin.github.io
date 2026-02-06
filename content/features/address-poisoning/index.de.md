@@ -14,5 +14,5 @@ keywords: ["Adressvergiftung", "Phishing", "Staubangriff", "Brieftaschenschutz"]
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

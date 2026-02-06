@@ -27,7 +27,7 @@ weight: 21
 ---
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 왜 Bitcoin Safe는 메인넷에서 소프트웨어 시드를 차단하나요?

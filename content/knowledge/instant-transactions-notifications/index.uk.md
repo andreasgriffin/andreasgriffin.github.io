@@ -33,7 +33,7 @@ weight: 0
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -86,7 +86,7 @@ Bitcoin Safe поводиться як звичайний вузол Bitcoin Cor
  
 
 
-![](config.png)
+![Notification settings screenshot](config.png)
 { .img-fluid .mb-5 }
 
 

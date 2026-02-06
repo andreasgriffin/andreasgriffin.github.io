@@ -65,5 +65,5 @@ Filter blok kompak hanya mencakup **blok yang sudah dikonfirmasi**. Untuk mendap
 - Anda dapat menambahkan node Bitcoin Core Anda sendiri ke peer untuk sinkronisasi Filter Blok Kompak, dengan memilih _Initial node_ dari _Bitcoin network monitoring_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }
