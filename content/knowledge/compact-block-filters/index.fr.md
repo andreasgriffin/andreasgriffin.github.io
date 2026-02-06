@@ -65,5 +65,5 @@ Les filtres de blocs compacts couvrent uniquement les **blocs confirmés**. Pour
 - Vous pouvez ajouter votre propre nœud Bitcoin Core aux pairs pour la synchronisation des filtres de blocs compacts, en choisissant le _Nœud initial_ du _Surveillance du réseau Bitcoin_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

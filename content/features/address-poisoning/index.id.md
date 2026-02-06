@@ -14,5 +14,5 @@ keywords: ["mengatasi keracunan", "phishing", "serangan debu", "perlindungan dom
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

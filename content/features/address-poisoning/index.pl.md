@@ -14,5 +14,5 @@ keywords: ["Zatruć", "phishing", "atak pyłu", "Ochrona portfela"]
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

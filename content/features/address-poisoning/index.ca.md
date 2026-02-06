@@ -14,5 +14,5 @@ keywords: ["intoxicació per adreces", "pesca", "atac de pols", "Protecció de l
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">asistente de configuración</a>    hace que la firma única y la multifirma sean **fáciles** para personas no técnicas
     --> Simplemente sigue cada paso para configurar una cartera segura.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - El <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Exportar a PDF</a>   te ayuda a respaldar el descriptor importante de la cartera junto con cada semilla.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - El <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Exportar a PDF</a>   te ayuda a respaldar el descriptor importante de la cartera junto con cada semilla.
     - Registra la multifirma con cada firmante de hardware 
     - Incluye pruebas de recepción y gasto desde la cartera, para asegurar que todos los firmantes de hardware principales funcionan
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ Organiza direcciones en categorías de monedas
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Puedes agrupar direcciones en **categorías de monedas**. Es más fácil que etiquetar cada dirección.
 - Para cada PSBT que crees seleccionas la categoría de monedas correspondiente y {{<text-name-with-logo>}} seleccionará las entradas solamente de esa categoría.   

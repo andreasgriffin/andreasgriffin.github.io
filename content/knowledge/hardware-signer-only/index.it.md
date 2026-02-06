@@ -27,7 +27,7 @@ weight: 21
 ---
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 Perché Bitcoin Safe blocca i seed software su Mainnet?

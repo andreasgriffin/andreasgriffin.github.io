@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - O {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">assistente de configuração</a>    torna a assinatura Simples e a Multisignature **fáceis** para utilizadores não técnicos
     --> Basta seguir cada passo para configurar uma carteira segura.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - O <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Exportador PDF</a>   ajuda-o a fazer backup do descritor importante da carteira com cada seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - O <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Exportador PDF</a>   ajuda-o a fazer backup do descritor importante da carteira com cada seed.
     - Registe a Multi-signature com cada assinador de hardware 
     - Inclui testes de receção e gasto a partir da carteira, para garantir que os principais assinadores de hardware funcionam
 <br>
@@ -54,7 +54,7 @@ Participa numa carteira Multi-sig 3-de-5?
 
 #### ✔ Organizar endereços em categorias de moeda
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Pode agrupar endereços em **categorias de moeda**. É mais fácil do que etiquetar cada endereço.
 - Para cada PSBT que criar, seleccione a categoria de moeda correspondente e o {{<text-name-with-logo>}} seleccionará apenas as entradas dessa categoria.   

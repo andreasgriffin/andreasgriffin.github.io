@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">kurulum sihirbazı</a>    makes Single and  Multi-signature **easy**   for non-technical people
     --> Her adımı takip ederek güvenli bir cüzdan kurun.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF Dışa Aktarma</a>   helps you to backup the important wallet descriptor with each seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF Dışa Aktarma</a>   helps you to backup the important wallet descriptor with each seed.
     - Çok imzalıyı her donanım imzalayıcı ile kaydedin 
     - Cüzdandan test alma ve harcama içerir; tüm ana donanım imzalayıcılarının çalıştığından emin olun
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ Adresleri coin kategorilerinde düzenleyin
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Adresleri **coin kategorileri** içinde gruplayabilirsiniz. Her adresi etiketlemekten daha kolaydır.
 - Oluşturduğunuz her PSBT için uygun coin kategorisini seçersiniz ve {{<text-name-with-logo>}} yalnızca o kategoriden girdileri seçer.   

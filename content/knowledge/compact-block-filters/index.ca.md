@@ -65,5 +65,5 @@ Els filtres compactes de blocs cobreixen només els **blocs confirmats**. Per re
 - Pots afegir el teu propi node Bitcoin Core als peers per sincronitzar els filtres compactes de blocs, triant el _Node inicial_ de la _Supervisió de la xarxa Bitcoin_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

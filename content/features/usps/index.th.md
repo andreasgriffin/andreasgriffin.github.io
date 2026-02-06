@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">ตัวช่วยตั้งค่า</a> ทำให้การใช้งาน Single และ Multi-signature เป็นเรื่อง **ง่าย** สำหรับผู้ที่ไม่ได้เชี่ยวชาญด้านเทคนิค
     --> เพียงทำตามแต่ละขั้นตอนเพื่อสร้างกระเป๋าเงินที่ปลอดภัย   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF Export</a> ช่วยให้คุณสำรอง descriptor ของกระเป๋าเงินที่สำคัญพร้อมกับแต่ละ seed ได้
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF Export</a> ช่วยให้คุณสำรอง descriptor ของกระเป๋าเงินที่สำคัญพร้อมกับแต่ละ seed ได้
     - ลงทะเบียน Multi-signature กับแต่ละ hardware signer
     - รวมการทดสอบการรับและการใช้จ่ายจากกระเป๋าเงิน เพื่อให้แน่ใจว่า hardware signer หลักๆ ทุกตัวทำงานได้
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ จัดระเบียบที่อยู่ด้วยหมวดหมู่เหรียญ
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - คุณสามารถจัดกลุ่มที่อยู่เป็น **หมวดหมู่เหรียญ** ซึ่งง่ายกว่าการติดป้ายกำกับที่อยู่แต่ละรายการ
 - สำหรับแต่ละ PSBT ที่คุณสร้าง คุณเลือกหมวดหมู่เหรียญที่ตรงกันและ {{<text-name-with-logo>}} จะเลือกอินพุตจากหมวดหมู่นั้นเท่านั้น  

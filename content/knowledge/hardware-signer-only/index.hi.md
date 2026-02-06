@@ -28,7 +28,7 @@ weight: 21
 
  
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 Bitcoin Safe Mainnet पर सॉफ़्टवेयर सीड क्यों ब्लॉक करता है?

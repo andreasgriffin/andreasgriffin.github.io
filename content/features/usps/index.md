@@ -24,8 +24,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">setup wizard</a>    makes Single and  Multi-signature **easy**   for non-technical people
     --> Simply follow each step to set up a safe wallet.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF Export</a>   helps you to backup the important wallet descriptor with each seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF Export</a>   helps you to backup the important wallet descriptor with each seed.
     - Register the Multi-signature with each hardware signer 
     - Includes test receiving and spending from the wallet, to ensure all major hardware signers work
 <br>
@@ -56,7 +56,7 @@ Participate in a 3-of-5 Multi-sig wallet?
 
 #### ✔ Organize addresses in coin categories
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - You can cluster addresses in **coin categories**. It's easier than labeling each address.
 - For each PSBT you create you select the matching coin category and {{<text-name-with-logo>}}   will select the inputs only from it.   

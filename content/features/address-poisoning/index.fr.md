@@ -14,5 +14,5 @@ keywords: ["empoisonnement à l'adresse", "phishing", "attaque à la poussière"
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

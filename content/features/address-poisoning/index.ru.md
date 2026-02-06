@@ -14,5 +14,5 @@ keywords: ["Адрес отравления", "фишинг", "пылевая а
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

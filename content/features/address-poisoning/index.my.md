@@ -14,5 +14,5 @@ keywords: ["Keracunan alamat", "phishing", "Serangan habuk", "perlindungan dompe
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

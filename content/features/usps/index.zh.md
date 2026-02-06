@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">设置向导</a>    让单签名和多重签名对非技术用户也变得**简单**
     --> 只需按步骤操作即可建立一个安全的钱包。   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF 导出</a>   帮助您备份每个种子对应的重要钱包描述符。
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF 导出</a>   帮助您备份每个种子对应的重要钱包描述符。
     - 将多重签名在每个硬件签名器上注册
     - 包括测试从钱包接收和支出，以确保所有主要硬件签名器都能工作
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ 在币种类别中组织地址
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - 您可以将地址聚合到 **币种类别** 中。这比为每个地址单独打标签更方便。
 - 对于您创建的每个 PSBT，选择匹配的币种类别，{{<text-name-with-logo>}} 将只从该类别中选择输入。   

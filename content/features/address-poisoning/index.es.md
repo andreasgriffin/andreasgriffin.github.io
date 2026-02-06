@@ -14,5 +14,5 @@ keywords: ["dirigir envenenamiento", "phishing", "ataque con polvo", "protecció
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }

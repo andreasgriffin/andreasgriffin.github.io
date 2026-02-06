@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - {{<text-name-with-logo>}} の <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">セットアップウィザード</a> は、非技術者でもシングル署名とマルチ署名を**簡単**に設定できます
     --> 各ステップに従うだけで安全なウォレットを設定できます。   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF エクスポート</a> により、各シードとともに重要なウォレット記述子をバックアップできます。
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF エクスポート</a> により、各シードとともに重要なウォレット記述子をバックアップできます。
     - 各ハードウェア署名機器に対してマルチ署名を登録する
     - 受取と支出のテストを含み、主要なハードウェア署名機がすべて動作することを確認します
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ コインカテゴリでアドレスを整理
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - アドレスを **コインカテゴリ** にクラスタ化できます。各アドレスにラベルを付けるよりも簡単です。
 - 作成する各 PSBT に対して一致するコインカテゴリを選択すると、{{<text-name-with-logo>}} はそのカテゴリからのみ入力（inputs）を選択します。   

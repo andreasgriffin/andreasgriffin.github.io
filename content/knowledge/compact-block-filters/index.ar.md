@@ -65,5 +65,5 @@ CBF يغيّر مدة الانتظار حسب ما تقوم به:
 - يمكنك إضافة عقدة Bitcoin Core الخاصة بك إلى قائمة الأقران لمزامنة مرشحات الكتل المضغوطة، عن طريق اختيار _العقدة الأولية_ في _مراقبة شبكة البيتكوين_.
 
 
-![](inital-node.png)
+![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }

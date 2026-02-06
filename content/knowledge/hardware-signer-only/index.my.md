@@ -28,7 +28,7 @@ weight: 21
 
  
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 ## 🚫 ဘာကြောင့် Bitcoin Safe က Mainnet ပေါ်မှာ ဆော့ဖ်ဝဲ စီဒ်ကို ပိတ်ထားတာလဲ?

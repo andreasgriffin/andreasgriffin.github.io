@@ -31,7 +31,7 @@ weight: 0
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -83,7 +83,7 @@ Bitcoin Safe बिल्कुल एक सामान्य Bitcoin Core न
  
  
 
-![](config.png)
+![Notification settings screenshot](config.png)
 { .img-fluid .mb-5 }
 
 

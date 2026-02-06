@@ -31,7 +31,7 @@ weight: 0
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -84,7 +84,7 @@ Permanece em controlo total e pode alternar esta funcionalidade a qualquer momen
  
  
 
-![](config.png)
+![Notification settings screenshot](config.png)
 { .img-fluid .mb-5 }
 
 

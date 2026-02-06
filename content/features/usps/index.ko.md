@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">설정 마법사</a>    makes Single and  Multi-signature **easy**   for non-technical people
     --> 각 단계에 따라 안전한 지갑을 설정하세요.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  PDF Export</a>   helps you to backup the important wallet descriptor with each seed.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  PDF Export</a>   helps you to backup the important wallet descriptor with each seed.
     - 각 하드웨어 서명자(hardware signer)와 멀티시그를 등록하세요
     - 모든 주요 하드웨어 서명자가 작동하는지 확인하기 위해 지갑으로의 수신 및 지출 테스트를 포함합니다
 <br>
@@ -54,7 +54,7 @@ weight: 1000
 
 #### ✔ 주소를 코인 카테고리로 정리
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - 주소를 **코인 카테고리**로 그룹화할 수 있습니다. 각 주소에 라벨을 다는 것보다 더 쉽습니다.
 - 생성하는 각 PSBT에 대해 일치하는 코인 카테고리를 선택하면 {{<text-name-with-logo>}}가 해당 카테고리에서만 입력(입금 UTXO)을 선택합니다.   

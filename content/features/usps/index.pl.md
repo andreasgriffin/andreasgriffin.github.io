@@ -22,8 +22,8 @@ weight: 1000
     - Robust against loss or leak of 1 seed  -->
 - The {{<text-name-with-logo>}} <a  href={{< ref "knowledge/setup-singlesig-wallet" >}} role="button">setup wizard</a>    makes Single and  Multi-signature **easy**   for non-technical people
     --> Po prostu wykonaj kolejne kroki, aby skonfigurować bezpieczny portfel.   
-    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;">
-    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100">  Eksport PDF</a>   pomaga w wykonaniu kopii ważnego deskryptora portfela wraz z każdym seedem.
+    <img  src="/images/multisig-steps.png" style="max-width: 600px; width: 100%;" alt="Multisig setup steps">
+    - The <a  href={{< ref "features/pdf-export" >}}   role="button"> <img  src="pdf-export.png" width="100" alt="PDF export">  Eksport PDF</a>   pomaga w wykonaniu kopii ważnego deskryptora portfela wraz z każdym seedem.
     - Zarejestruj Multi-signature z każdym sprzętowym signerem 
     - Zawiera test odbierania i wydawania środków z portfela, aby upewnić się, że wszystkie główne sprzętowe signery działają
 <br>
@@ -54,7 +54,7 @@ Chcesz uczestniczyć w portfelu Multi-sig 3 z 5?
 
 #### ✔ Organizuj adresy w kategoriach monet
 
- <img  src="coin-categories.png" width="150"> 
+ <img  src="coin-categories.png" width="150" alt="Coin categories"> 
  
 - Możesz grupować adresy w **kategoriach monet**. To prostsze niż etykietowanie każdego adresu.
 - Dla każdego tworzonego PSBT wybierasz pasującą kategorię monet, a {{<text-name-with-logo>}} wybierze z niej tylko wejścia.   

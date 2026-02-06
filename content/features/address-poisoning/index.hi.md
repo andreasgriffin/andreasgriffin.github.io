@@ -14,5 +14,5 @@ keywords: ["संबोधन विषाक्तता", "फ़िशिं
 
 
 
-![](logo.png)
+![Bitcoin Safe logo](logo.png)
 { .img-fluid .mb-5 }
