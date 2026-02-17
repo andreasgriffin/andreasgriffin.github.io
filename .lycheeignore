@@ -1,0 +1,16 @@
+# To scan the public folder do:
+# lychee public 
+
+
+
+# Exclude any link containing "feather-sprite.svg"
+.*feather-sprite\.svg.*
+
+# Exclude all links to www.gnu.org (matching both http and https)
+^https?:\/\/www\.gnu\.org\/.*
+
+# Exclude all links to x.com (matching both http and https)
+^https?:\/\/x\.com\/.*
+
+
+^https://pkgs.org

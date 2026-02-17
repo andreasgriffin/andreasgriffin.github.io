@@ -1,0 +1,64 @@
+<!-- Features section -->
+
+<style>
+    .coloredicon {
+      filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);
+    }
+</style>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <svg xmlns='http://www.w3.org/2000/svg' class='feather text-violet feather-big' width="4em" height="4em"  >
+            <use href="{{ `images/feather/feather-sprite.svg#shield` | relURL }}"/>
+        </svg>
+        <h2 class="h2">امن </h2>
+        <p>مجهز به <a href="https://bitcoindevkit.org/" target="_blank" rel="noopener">BDK</a><br>
+            امضاکننده سخت‌افزاری <i>ضروری</i> که بهترین شیوه‌ها را تضمین می‌کند
+            </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/flows.svg"  style=" height: 4em; margin-right: 1em;"  alt="Money Flow diagram">
+        <h2 class="h2">مدرن</h2>
+        <p>ترکیب جداول قدرتمند با مصورسازی‌های مدرن برای ممپول و نمودارهای جریان پول. <a href="{{ "/features/" | relLangURL }}">به‌صورت کامل</a> از ابتدا آماده است   </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/synctalk.svg" class="coloredicon"  style="height: 4em; margin-right: 1em;"  alt="Bitcoin Safe Sync & Chat logo">
+        <h2 class="h2">همگام‌سازی و گفت‌وگو </h2>
+        <p>
+            پشتیبان‌گیری و همگام‌سازی برچسب‌ها. <a href="{{ "/features/collaboration" | relLangURL }}">همکاری کنید</a> با سایر امضاکنندگان در یک تنظیم چندطرفه چندامضایی
+          </p>
+          
+    </div>
+</div>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <img src="/images/checkmark.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="checkmark">
+        <h2 class="h2">آسان </h2>
+        <p> <a href="{{ "/knowledge/setup-singlesig-wallet/" | relLangURL }}">دستورالعمل‌های گام‌به‌گام</a> برای راه‌اندازی امن SingleSig یا MultiSig با <a href="{{ "/features/pdf-export/" | relLangURL }}">برگه‌های پشتیبان PDF</a>     </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/usb.svg"  class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+        <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+        <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+        <h2 class="h2">سازگار </h2>
+        <p>
+            پشتیبانی کامل از {{ partial "hardware-signer/inline-list.html" . }}.
+            پشتیبانی از تمام کیف‌پول‌های سخت‌افزاری اصلی با استفاده از QR، USB یا کارت SD.
+          </p>
+          
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/language-translator-icon.svg"  alt="Translate logo" class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" >
+        <h2 class="h2">چندزبانه</h2>
+        <p><a href="{{ "/features/multi-language" | relLangURL }}">زبان خود را انتخاب کنید</a>: {{ partial "flags-short.html" . }}   </p> 
+    </div>
+</div>
+
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <h2 class="h2">متن‌باز</h2>
+        <p>ما ❤ متن‌باز را دوست داریم: <a href="https://github.com/andreasgriffin/bitcoin-safe">Bitcoin Safe</a> تحت <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a> است</p> 
+    </div> 
+</div>

@@ -1,0 +1,101 @@
+{{ $release := .Site.Data.latest_release }}
+
+<h5>Latest Release: <a href="{{ $release.html_url }}">{{ $release.name }}</a></h5>
+
+
+{{/* Check for "b" in the version name to display beta warning */}}
+{{ if findRE "b" $release.name }}
+<div class="alert alert-warning" role="alert">
+  Beta Version - Use with caution
+</div> 
+{{ end }}
+
+
+
+{{/* Define global variables for platform icons */}}
+{{ $iconWindows := "windows-icon.svg" }}
+{{ $iconLinux := "linux-icon.svg" }}
+{{ $iconMacOS := "apple-icon.svg" }}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>File Name</th>
+      <th>Signature</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $release.assets }}
+      {{ $assetName := .name }}
+      {{ $signatureURL := "" }}
+      {{ $platform := "" }}
+      {{ $platformIcon := "" }}
+
+      {{/* Skip .asc files from displaying as separate rows */}}
+      {{ if (findRE "\\.asc$" $assetName) }}
+        {{ continue }}
+      {{ end }}
+
+      {{/* Detect platform based on file extension and assign icon */}}
+      {{ if (findRE "\\.exe$" $assetName) }}
+        {{ $platform = "Windows" }}
+        {{ $platformIcon = $iconWindows }}
+      {{ else if (findRE "\\.msi$" $assetName) }}
+        {{ $platform = "Windows" }}
+        {{ $platformIcon = $iconWindows }}
+      {{ else if (findRE "\\.AppImage$" $assetName) }}
+        {{ $platform = "Linux" }}
+        {{ $platformIcon = $iconLinux }}
+      {{ else if (findRE "\\.deb$" $assetName) }}
+        {{ $platform = "Linux" }}
+        {{ $platformIcon = $iconLinux }}
+      {{ else if (findRE "\\.tar\\.gz$" $assetName) }}
+        {{ $platform = "Linux" }}
+        {{ $platformIcon = $iconLinux }}
+      {{ else if (findRE "\\.snap$" $assetName) }}
+        {{ $platform = "Linux" }}
+        {{ $platformIcon = $iconLinux }}
+      {{ else if (findRE "\\.flatpak$" $assetName) }}
+        {{ $platform = "Linux" }}
+        {{ $platformIcon = $iconLinux }}
+      {{ else if (findRE "arm64\\.dmg$" $assetName) }}
+        {{ $platform = "macOS (M chip, at least macOS 14)" }}
+        {{ $platformIcon = $iconMacOS }}
+      {{ else if (findRE "x86_64\\.dmg$" $assetName) }}
+        {{ $platform = "macOS (Intel, at least macOS 13)" }}
+        {{ $platformIcon = $iconMacOS }}
+      {{ else if (findRE "\\.dmg$" $assetName) }}
+        {{ $platform = "macOS" }}
+        {{ $platformIcon = $iconMacOS }}
+      {{ else if (findRE "\\.pkg$" $assetName) }}
+        {{ $platform = "macOS" }}
+        {{ $platformIcon = $iconMacOS }}
+      {{ end }}
+
+      {{/* Find matching .asc signature */}}
+      {{ range $release.assets }}
+        {{ if and (eq (print $assetName ".asc") .name) (not (eq $assetName .name)) }}
+          {{ $signatureURL = .browser_download_url }}
+        {{ end }}
+      {{ end }}
+
+      <tr>
+        <td>
+          {{ if $platformIcon }}
+            <img src="/images/{{ $platformIcon }}" alt="{{ $platform }} icon" style="width: 24px; height: 24px; margin-right: 5px;">
+          {{ end }}
+          {{ $platform }}
+        </td>
+        <td><a href="{{ .browser_download_url }}">{{ $assetName }}</a></td>
+        <td>
+          {{ if $signatureURL }}
+            <a href="{{ $signatureURL }}">Signature</a>
+          {{ else }}
+            No signature
+          {{ end }}
+        </td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

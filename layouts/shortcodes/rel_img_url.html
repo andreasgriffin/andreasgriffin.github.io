@@ -1,0 +1,7 @@
+{{- $src := .Get 0 -}}
+{{- partial "resolve-rel-url.html" (dict "Page" .Page "src" $src "langAware" true) -}}
+
+{{/* 
+    use it as 
+  ![Alt text]({{< rel_img_url "image_in_page_folder.png" >}}) 
+*/}}

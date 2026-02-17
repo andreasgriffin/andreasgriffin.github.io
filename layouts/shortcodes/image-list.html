@@ -1,0 +1,50 @@
+{{/* Image list shortcode
+Usage:
+  {{< image-list "folder/path" >}}
+  {{< image-list folder="folder/path" match="coldcard" columns="3" >}}
+Resolves resources from page bundle first, then static/content fallbacks (same logic as carousel-images).
+*/}}
+{{ $folder := or (.Get "folder") (.Get 0) (.Page.Params.carousel_folder) }}
+{{ $match := lower (or (.Get "match") (.Get 1) "") }}
+{{ $columns := default "3" (.Get "columns") }}
+{{ $mediaSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv" }}
+{{ $resolved := partial "resolve-media-folder" (dict "Page" .Page "folder" $folder "mediaSubtypes" $mediaSubtypes) }}
+{{ $res := slice }}
+
+{{ if $resolved.resources }}
+  {{ $res = $resolved.resources }}
+{{ else if $resolved.path }}
+  {{ $files := readDir $resolved.path }}
+  {{ $base := $resolved.base }}
+  {{ range $files }}
+    {{ $ext := lower (strings.TrimPrefix "." .Ext) }}
+    {{ if in $mediaSubtypes $ext }}
+      {{ $res = $res | append (dict "RelPermalink" (printf "%s%s" $base .Name) "Name" .Name) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not (gt (len $res) 0) }}
+  <p class="text-danger">image-list: {{ if $resolved.error }}{{ $resolved.error }}{{ else }}no media found{{ end }}</p>
+{{ else }}
+  {{ $filtered := slice }}
+  {{ range $res }}
+    {{ $name := lower .Name }}
+    {{ if or (eq $match "") (in $name $match) }}
+      {{ $filtered = $filtered | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if eq (len $filtered) 0 }}
+    <p class="text-warning">image-list: no media matched filter "{{ $match }}"</p>
+  {{ else }}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ $columns }} g-3">
+      {{ range $filtered }}
+        <div class="col">
+          <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" class="card h-100 shadow-sm text-decoration-none">
+            <img src="{{ .RelPermalink }}" class="card-img-top" alt="{{ .Name }}">
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

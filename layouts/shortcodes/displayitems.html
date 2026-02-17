@@ -1,0 +1,11 @@
+{{/* layouts/shortcodes/displayitems.html */}}
+{{ $items := .Page.Params.display_items }}
+{{ $columns := .Get "columns" | default 3 }} <!-- Get columns parameter, default to 3 if not provided -->
+{{ $entire_card_clickable := .Get "entire_card_clickable" | default false }} <!-- Get entire_card_clickable parameter from shortcode -->
+{{ $open_in_blank_page := .Get "open_in_blank_page" | default false }} <!-- Get entire_card_clickable parameter from shortcode -->
+
+{{ if $items }}
+  {{ partial "display-items.html" (dict "display_items" $items "Page" .Page "columns" $columns "entire_card_clickable" $entire_card_clickable "open_in_blank_page" $open_in_blank_page) }}
+{{ else }}
+  <p>No display items found in front matter.</p>
+{{ end }}

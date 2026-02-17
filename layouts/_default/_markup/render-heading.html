@@ -1,0 +1,6 @@
+{{- /* rendered for each heading */ -}}
+{{ $id := .Anchor | default (anchorize .Text) }}
+<h{{ .Level }} id="{{ $id }}">
+  <a class="header-anchor" href="#{{ $id }}" aria-hidden="true">🔗</a>
+  {{ .Text | safeHTML }}
+</h{{ .Level }}>

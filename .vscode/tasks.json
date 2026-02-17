@@ -1,0 +1,35 @@
+// .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Hugo: Serve (clean)",
+        "type": "shell",
+        "command": "hugo",
+        "args": ["server", "--cleanDestinationDir"],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "isBackground": true,
+        "problemMatcher": []
+      },
+      {
+        "label": "Lychee: Public",
+        "type": "shell",
+        "command": "lychee",
+        "args": ["public"],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "isBackground": false,
+        "problemMatcher": []
+      }
+    ]
+  }
+  

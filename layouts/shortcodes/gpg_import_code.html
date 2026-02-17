@@ -1,0 +1,8 @@
+gpg --import 2759AA7148568ECCB03B76301D82124B440F612D.asc
+
+{{- $release := .Site.Data.latest_release }}
+{{- range $asset := $release.assets }}
+{{- if strings.HasSuffix $asset.name ".asc" }}
+gpg --verify {{ $asset.name }}              # for {{ replace $asset.name ".asc" "" }}
+{{- end }}
+{{- end }}

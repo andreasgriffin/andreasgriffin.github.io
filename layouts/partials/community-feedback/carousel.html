@@ -1,0 +1,9 @@
+{{ $items := (index site.Data "community-feedback").items }}
+
+{{ if not $items }}
+  <p class="text-muted text-center">No community feedback items defined.</p>
+{{ else }}
+  <div class="community-feedback-carousel">
+    {{ partial "carousel.html" (dict "items" $items "id" "communityFeedbackCarousel" "per_slide" 3 "max_width" 1100 "responsive" true) }}
+  </div>
+{{ end }}

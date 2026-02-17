@@ -1,0 +1,18 @@
+{{ $f := .features }}
+{{ $center := .center | default false }}
+<style>
+  .signer-thumb {max-height: 180px; object-fit: contain; background: #f8f9fa; padding: 12px;}
+  .feature-chip {display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: #f3f4f6; color: #333; font-size: 0.85rem;}
+  .feature-chip .coloredicon {filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%); height: 1.2em;}
+</style>
+<div class="d-flex gap-2 flex-wrap align-items-center mt-2{{ if $center }} justify-content-center text-center{{ end }}">
+  {{ if $f.usb }}
+    <span class="feature-chip"><img src="/images/usb.svg" class="coloredicon" alt="USB">USB</span>
+  {{ end }}
+  {{ if $f.qr }}
+    <span class="feature-chip"><img src="/images/qr-code.svg" class="coloredicon" alt="QR">QR</span>
+  {{ end }}
+  {{ if $f.sd }}
+    <span class="feature-chip"><img src="/images/sd-card.svg" class="coloredicon" alt="SD card">SD</span>
+  {{ end }}
+</div>

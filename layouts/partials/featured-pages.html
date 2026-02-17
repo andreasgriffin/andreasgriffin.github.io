@@ -1,0 +1,22 @@
+{{ $rowClass := .row_class | default "" }}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4{{ if $rowClass }} {{ $rowClass }}{{ end }}">   <!-- add this to get 4 columns: row-cols-xl-4  -->
+  {{ $tags := .tags | default (slice) }}
+  {{ $sortedPages := sort $tags "Params.weight" "desc" }}
+  {{ range $sortedPages }}
+    {{/* Process the image resource if available */}}
+    {{ $imageURL := "" }}
+    {{ if isset .Params "images" }}
+      {{ with .Resources.GetMatch (index .Params.images 0) }}
+        {{ $img := .Fill "600x300 Center webp" }}
+        {{ $imageURL = $img.RelPermalink }}
+      {{ end }}
+    {{ end }}
+    {{ partial "card.html" (dict 
+         "target_url" .RelPermalink 
+         "title" .Title 
+         "description" (or .Params.description (.Summary | truncate 200))
+         "image_url" $imageURL 
+         "authors" .Params.authors
+    ) }}
+  {{ end }}
+</div>

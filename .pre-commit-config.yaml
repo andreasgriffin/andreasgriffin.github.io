@@ -1,0 +1,21 @@
+repos:
+  - repo: local
+    hooks:
+      - id: add-md-aliases
+        name: Add YAML `aliases:` to top-level Markdown files
+        entry: python add_aliases.py
+        language: python
+        # Only trigger when you’ve staged *.md in content/ whose basename has no extra dot
+        files: '^content/[^.]+\.md$'
+        pass_filenames: false
+        stages: [pre-commit]
+
+      - id: generate-hardware-signer-lang-files
+        name: Generate hardware signer language stubs
+        entry: python generate_hardware_signer_lang_files.py
+        language: python
+        files: '^(content/knowledge/supported-hardware-signers/.*|data/hardware-signers\.yml|config/_default/languages\.toml|generate_hardware_signer_lang_files\.py)$'
+        pass_filenames: false
+        stages: [pre-commit]
+        additional_dependencies:
+          - pyyaml

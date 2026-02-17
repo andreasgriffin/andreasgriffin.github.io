@@ -1,0 +1,50 @@
+<!-- Features section -->
+
+<style>
+    .coloredicon {
+      filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);
+    }
+</style>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <svg xmlns='http://www.w3.org/2000/svg' class='feather text-violet feather-big' width="4em" height="4em"  >
+            <use href="{{ `images/feather/feather-sprite.svg#shield` | relURL }}"/>
+        </svg>
+        <h2 class="h2">Безпечно </h2>
+        <p>Працює на базі <a href="https://bitcoindevkit.org/" target="_blank" rel="noopener">BDK</a><br>
+            Потрібен апаратний підписувач, що забезпечує найкращі практики
+            </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/flows.svg"  style=" height: 4em; margin-right: 1em;"  alt="Money Flow diagram">
+        <h2 class="h2">Сучасно</h2>
+        <p>Поєднує потужні таблиці із сучасними візуалізаціями для мемпулу та діаграм руху коштів. <a href="{{ "/features/" | relLangURL }}">Повний набір функцій</a> одразу з коробки   </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/language-translator-icon.svg"  alt="Translate logo" class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" >
+        <h2 class="h2">Багатомовність</h2>
+        <p><a href="{{ "/features/multi-language" | relLangURL }}">Використовуйте свою мову</a>: {{ partial "flags-short.html" . }}   </p> 
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/checkmark.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="checkmark">
+        <h2 class="h2">Легко </h2>
+        <p> <a href="{{ "/knowledge/setup-singlesig-wallet/" | relLangURL }}">Покрокові</a> інструкції для безпечного налаштування SingleSig або MultiSig з <a href="{{ "/features/pdf-export/" | relLangURL }}">PDF-шаблонами резервних копій</a>     </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/usb.svg"  class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+        <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+        <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+        <h2 class="h2">Сумісно </h2>
+        <p>
+            Повна підтримка {{ partial "hardware-signer/inline-list.html" . }}.
+            Підтримує всі основні апаратні гаманці через QR, USB або SD-карту.
+          </p>
+          
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/code.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="Code icon">
+        <h2 class="h2">Відкритий код</h2>
+        <p>Ми ❤ відкритий код: <a href="https://github.com/andreasgriffin/bitcoin-safe">Bitcoin Safe</a> під <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a></p> 
+    </div> 
+</div>

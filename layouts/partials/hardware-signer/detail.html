@@ -1,0 +1,154 @@
+{{ $signer := .signer }}
+{{ $ctx := .context }}
+{{ $lang := $ctx.Language.Lang | default "en" }}
+{{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
+{{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
+{{ $discount := $signer.discount }}
+{{ $slug := or $signer.slug (path.Base (path.Clean $ctx.File.Dir)) }}
+{{ $connections := slice }}
+{{ if $signer.features.usb }}{{ $connections = $connections | append "USB" }}{{ end }}
+{{ if $signer.features.qr }}{{ $connections = $connections | append "QR" }}{{ end }}
+{{ if $signer.features.sd }}{{ $connections = $connections | append "microSD" }}{{ end }}
+{{ $connectionLabel := cond (gt (len $connections) 0) (delimit $connections " + ") "USB" }}
+
+<article class="hardware-signer">
+  <header class="mb-4">
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        {{ if $signer.image }}
+          {{ $img := partial "resolve-rel-url.html" (dict "Page" $ctx "src" $signer.image) }}
+          <img src="{{ $img }}" class="img-fluid" alt="{{ $name }} image" loading="lazy" style="max-height:180px; object-fit:contain;">
+        {{ end }}
+      </div>
+      <div class="col">
+        <h1 class="mb-1">{{ $name }}</h1>
+        {{ with $summary }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
+        <div class="d-flex gap-2 flex-wrap mb-2">
+          {{ if $signer.bitcoin_only }}<span class="badge bg-warning text-dark">Bitcoin-only</span>{{ end }}
+          {{ if $signer.bitcoin_only_available }}<span class="badge bg-warning text-dark">Bitcoin-only available</span>{{ end }}
+        </div>
+        <div class="mb-2">
+          {{ partial "hardware-signer/features.html" (dict "features" $signer.features "center" false) }}
+        </div>
+        {{ if $signer.shop_url }}
+          <a class="btn btn-primary btn-md px-4" href="{{ $signer.shop_url }}" target="_blank" rel="noopener">
+            {{ i18n "hardware_buy_official" }}
+          </a>
+          {{ with $discount }}
+            <p class="mt-2 mb-0 text-success fw-semibold">{{ i18n "hardware_discount" }} <strong>{{ .code }}</strong> {{ with .note }}<span class="text-muted small">— {{ or (index . $lang) (index . "en") }}</span>{{ end }}</p>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{/* Auto-discover screenshots for this signer */}}
+  {{ with $ctx.Content }}
+    <div class="content">{{ . }}</div>
+  {{ else }}
+    <div class="content">
+      <h2>{{ i18n "hardware_expect_title" }}</h2>
+      <p>{{ i18n "hardware_expect_intro" (dict "Name" $name "Connections" $connectionLabel) }}</p>
+      <ul>
+        {{ if $signer.features.usb }}<li>{{ i18n "hardware_expect_usb" }}</li>{{ end }}
+        {{ if $signer.features.qr }}<li>{{ i18n "hardware_expect_qr" }}</li>{{ end }}
+        {{ if $signer.features.sd }}<li>{{ i18n "hardware_expect_sd" }}</li>{{ end }}
+        {{ if $signer.bitcoin_only }}<li>{{ i18n "hardware_expect_bitcoin_only" }}</li>{{ else if $signer.bitcoin_only_available }}<li>{{ i18n "hardware_expect_bitcoin_only_available" }}</li>{{ end }}
+      </ul>
+      <p class="text-muted mb-0">{{ i18n "hardware_default_body" }}</p>
+    </div>
+  {{ end }}
+
+  {{/* Auto-discover screenshots using shared folder resolved via resolve-media-folder */}}
+  {{ $media := partial "resolve-media-folder.html" (dict "Page" $ctx "folder" "knowledge/supported-hardware-signers/screenshots") }}
+  {{ if $media.found }}
+    {{ $files := slice }}
+    {{ if eq $media.mode "resources" }}
+      {{ $files = $media.resources }}
+    {{ else if eq $media.mode "filesystem" }}
+      {{ $files = readDir $media.path }}
+    {{ end }}
+
+    {{ $candidates := slice $slug (replace $slug "-" "") }}
+    {{ with $signer.slugimage }}{{ $candidates = $candidates | append . }}{{ end }}
+
+    {{ $allowedExt := slice ".png" ".jpg" ".jpeg" ".webp" ".gif" ".avif" ".mp4" ".webm" ".ogg" ".mkv" }}
+    {{ $screens := slice }}
+
+    {{ range $files }}
+      {{ $item := . }}
+      {{ if or (ne $media.mode "filesystem") (not $item.IsDir) }}
+        {{ $name := $item.Name }}
+        {{ $ext := lower (path.Ext $name) }}
+        {{ if in $allowedExt $ext }}
+          {{ $base := lower (strings.TrimSuffix $ext $name) }}
+          {{ $matched := false }}
+          {{ range $candidates }}
+            {{ if and (not $matched) (hasPrefix $base (printf "%s-" (lower .))) }}
+            {{ $src := "" }}
+            {{ if eq $media.mode "resources" }}
+              {{ $src = $item.RelPermalink }}
+            {{ else }}
+              {{ $target := strings.TrimPrefix "/" (path.Join $media.base $name) }}
+              {{ $defaultPrefix := "" }}
+              {{ if hugo.IsMultilingual }}
+                {{ $defaultPrefix = (index $ctx.Site.Sites 0).LanguagePrefix }}
+              {{ end }}
+              {{ $src = relURL (path.Join $defaultPrefix $target) }}
+            {{ end }}
+            {{ $screens = $screens | append (dict "name" $base "src" $src) }}
+            {{ $matched = true }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if gt (len $screens) 0 }}
+      {{/* group by step derived from filename suffix, with friendly titles */}}
+      {{ $titleMap := dict
+        "generate-seed" (i18n "hardware_step_generate_seed")
+        "register-multisig-decriptor" (i18n "hardware_step_register_descriptor")
+        "register-multisig-descriptor" (i18n "hardware_step_register_descriptor")
+        "view-seed" (i18n "hardware_step_view_seed")
+        "wallet-export" (i18n "hardware_step_wallet_export")
+      }}
+      {{ $introMap := dict
+        "generate-seed" (i18n "hardware_step_generate_seed_intro")
+        "register-multisig-decriptor" (i18n "hardware_step_register_descriptor_intro")
+        "register-multisig-descriptor" (i18n "hardware_step_register_descriptor_intro")
+        "view-seed" (i18n "hardware_step_view_seed_intro")
+        "wallet-export" (i18n "hardware_step_wallet_export_intro")
+      }}
+      {{ $stepOrder := slice "generate-seed" "view-seed" "wallet-export" "register-multisig-decriptor" "register-multisig-descriptor" }}
+      {{ $steps := slice }}
+      {{ range $screens }}
+        {{ $step := replaceRE "^[^-]+-" "" .name }}
+        {{ if not (in $steps $step) }}{{ $steps = $steps | append $step }}{{ end }}
+      {{ end }}
+      <section class="mt-4">
+        <h3 class="h5 mb-2">{{ i18n "hardware_instructions" | default "Instructions" }}</h3>
+        {{ range $stepOrder }}
+          {{ $step := . }}
+          {{ if in $steps $step }}
+          {{ $title := or (index $titleMap $step) (title (replace $step "-" " ")) }}
+          <h4 class="h6 mt-3 mb-1">{{ $title }}</h4>
+          {{ with (index $introMap $step) }}<p class="text-muted small mb-2">{{ . }}</p>{{ end }}
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
+            {{ range $screens }}
+              {{ $stepOfImg := replaceRE "^[^-]+-" "" .name }}
+              {{ if eq $stepOfImg $step }}
+                <div class="col">
+                  <a href="{{ .src }}" target="_blank" rel="noopener" class="card h-100 shadow-sm text-decoration-none">
+                    <img src="{{ .src }}" class="card-img-top" alt="{{ $name }} screenshot {{ .name }}">
+                  </a>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ end }}
+  {{ end }}
+</article>

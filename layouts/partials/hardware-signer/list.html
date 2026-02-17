@@ -1,0 +1,12 @@
+{{/* Renders the grid of hardware signers from data/hardware-signers.yml */}}
+{{ $ctx := . }}
+{{ $signers := (index site.Data "hardware-signers").signers }}
+{{ if not $signers }}
+  <p class="text-muted">No hardware signers defined.</p>
+{{ else }}
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+    {{ range $signers }}
+      {{ partial "hardware-signer/card.html" (dict "signer" . "context" $ctx) }}
+    {{ end }}
+  </div>
+{{ end }}

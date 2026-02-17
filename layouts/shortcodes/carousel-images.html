@@ -1,0 +1,16 @@
+{{/* Generic carousel shortcode. Usage:
+     {{< carousel-images >}}                     # uses .Page.Params.carousel_folder
+     {{< carousel-images "folder/path" >}}       # overrides folder
+     {{< carousel-images folder="folder/path" >}}
+*/}}
+{{ $folder := or (.Get "folder") (.Get 0) (.Page.Params.carousel_folder) }}
+{{ $mediaSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv" }}
+{{ $resolved := partial "resolve-media-folder" (dict "Page" .Page "folder" $folder "mediaSubtypes" $mediaSubtypes) }}
+
+{{ if not $resolved.found }}
+  <p class="text-danger">carousel-images: {{ $resolved.error }}</p>
+{{ else if $resolved.resources }}
+  {{ partial "carousel" (dict "resources" $resolved.resources "id" (printf "carousel-%d" now.UnixNano)) }}
+{{ else }}
+  {{ partial "carousel" (dict "path" $resolved.path "base" $resolved.base "folder" $folder "id" (printf "carousel-%d" now.UnixNano)) }}
+{{ end }}

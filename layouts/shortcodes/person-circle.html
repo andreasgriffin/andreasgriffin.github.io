@@ -1,0 +1,18 @@
+<div class="col-12 col-md-4 col-lg-3 text-center mb-4">
+  {{ if .Get "target_url" }}
+    <a href="{{ .Get "target_url" }}" target="_blank" style="text-decoration: none;">
+  {{ end }}
+    <div class="card h-100">
+      {{ if .Get "image_url" }}
+        <div class="card-body">
+          <img src="{{ .Get "image_url" }}" alt="{{ .Get "title" }}" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+        </div>
+      {{ end }}
+      <div class="card-footer">
+        <h5 class="card-title">{{ .Get "title" }}</h5>
+      </div>
+    </div>
+  {{ if .Get "target_url" }}
+    </a>
+  {{ end }}
+</div>

@@ -1,0 +1,124 @@
+{{/* Shortcode usage:
+     {{< video "vid.mp4" controls autoplay muted playsinline loop poster="poster.jpg" >}}
+*/}}
+
+{{ $file    := .Get 0 }}
+{{ $poster  := .Get "poster" }}
+{{ $upload  := .Get "uploadDate" | default (now.Format "2006-01-02") }}
+{{ $name    := .Get "name" | default .Page.Title }}
+{{ $desc    := .Get "description" | default .Page.Params.description }}
+{{ $dir     := replace .Page.File.Dir "content/" "" }}
+{{ $res     := .Page.Resources.Get $file }}
+{{ $src     := "" }}
+{{ if $res }}
+  {{ $src = $res.RelPermalink }}
+{{ else }}
+  {{ $src = relLangURL (print $dir $file) }}
+{{ end }}
+
+{{/* --------- Auto-poster detection ---------- */}}
+{{- $thumb := "" -}}
+{{- if $poster -}}
+  {{- $p := $.Page.Resources.Get $poster | default ($.Page.Resources.GetMatch $poster) -}}
+  {{- if $p -}}
+    {{- $thumb = $p.RelPermalink -}}
+  {{- else -}}
+    {{- $thumb = relLangURL (print $dir $poster) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $base := replace (path.Base $file) (path.Ext $file) "" -}}
+  {{- $match := $.Page.Resources.GetMatch (printf "%s.{jpg,jpeg,png,webp,avif}" $base) -}}
+  {{- if $match -}}
+    {{- $thumb = $match.RelPermalink -}}
+  {{- else -}}
+    {{/* Check under /static/<page-dir>/<video_name>.jpg (or other common types) */}}
+    {{- $candidates := slice
+        (print "static/" $dir $base ".jpg")
+        (print "static/" $dir $base ".jpeg")
+        (print "static/" $dir $base ".png")
+        (print "static/" $dir $base ".webp")
+        (print "static/" $dir $base ".avif")
+      -}}
+    {{- range $c := $candidates -}}
+      {{- if and (eq $thumb "") (fileExists $c) -}}
+        {{- $thumb = relLangURL (replace $c "static/" "") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* --------- Fallback to page images when no poster/auto thumbnail found ---------- */}}
+{{- if eq $thumb "" -}}
+  {{- with .Page.Params.previewimage -}}
+    {{- $p := $.Page.Resources.Get . | default ($.Page.Resources.GetMatch .) -}}
+    {{- if $p -}}
+      {{- $thumb = $p.RelPermalink -}}
+    {{- else -}}
+      {{- $candidates := slice
+          (print "static/" $dir .)
+          (print "static/" .)
+        -}}
+      {{- range $c := $candidates -}}
+        {{- if and (eq $thumb "") (fileExists $c) -}}
+          {{- $thumb = relLangURL (replace $c "static/" "") -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (eq $thumb "") (gt (len .Page.Params.images) 0) -}}
+  {{- $img := index .Page.Params.images 0 -}}
+  {{- $p := $.Page.Resources.Get $img | default ($.Page.Resources.GetMatch $img) -}}
+  {{- if $p -}}
+    {{- $thumb = $p.RelPermalink -}}
+  {{- else -}}
+    {{- $candidates := slice
+        (print "static/" $dir $img)
+        (print "static/" $img)
+      -}}
+    {{- range $c := $candidates -}}
+      {{- if and (eq $thumb "") (fileExists $c) -}}
+        {{- $thumb = relLangURL (replace $c "static/" "") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* --------- Build attributes ---------- */}}
+{{- $attrs := slice -}}
+{{- if .IsNamedParams -}}
+  {{- if .Get "controls" }}{{ $attrs = $attrs | append "controls" }}{{ end -}}
+  {{- if .Get "autoplay" }}{{ $attrs = $attrs | append "autoplay" }}{{ end -}}
+  {{- if .Get "muted" }}{{ $attrs = $attrs | append "muted" }}{{ end -}}
+  {{- if .Get "playsinline" }}{{ $attrs = $attrs | append "playsinline" }}{{ end -}}
+  {{- if .Get "loop" }}{{ $attrs = $attrs | append "loop" }}{{ end -}}
+{{- else -}}
+  {{- $attrs = $attrs | append "controls" -}}
+{{- end -}}
+{{- with $thumb -}}
+  {{- $attrs = $attrs | append (printf `poster="%s"` .) -}}
+{{- end -}}
+
+<video style="max-width:100%;height:auto;" {{ delimit $attrs " " | safeHTMLAttr }}>
+  <source src="{{ $src }}" type="video/mp4">
+  {{ if and (not $res) hugo.IsServer }}
+    <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>
+  {{ end }}
+  Your browser does not support the video tag.
+</video>
+
+{{/* --------- Schema.org VideoObject ---------- */}}
+{{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" "VideoObject"
+    "name" $name
+    "description" $desc
+    "contentUrl" ($src | absURL)
+    "embedUrl" ($src | absURL) }}
+{{ with $thumb }}{{ $schema = merge $schema (dict "thumbnailUrl" (absURL .)) }}{{ end }}
+{{ with $upload }}{{ $schema = merge $schema (dict "uploadDate" .) }}{{ end }}
+
+<script type="application/ld+json">
+{{ $schema | jsonify | safeJS }}
+</script>

@@ -1,0 +1,61 @@
+<!-- Features section -->
+
+<style>
+    .coloredicon {
+      filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);
+    }
+</style>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <svg xmlns='http://www.w3.org/2000/svg' class='feather text-violet feather-big' width="4em" height="4em"  >
+            <use href="{{ `images/feather/feather-sprite.svg#shield` | relURL }}"/>
+        </svg>
+        <h2 class="h2">安全</h2>
+        <p>由 <a href="https://bitcoindevkit.org/" target="_blank" rel="noopener">BDK</a> 提供支持<br>
+            需要硬件签名器 <i>确保最佳实践</i>
+            </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/flows.svg"  style=" height: 4em; margin-right: 1em;"  alt="Money Flow diagram">
+        <h2 class="h2">现代</h2>
+        <p>结合强大的表格和现代的mempool及资金流动图示。<a href="{{ "/features/" | relLangURL }}">开箱即用，功能齐全</a>   </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/synctalk.svg" class="coloredicon"  style="height: 4em; margin-right: 1em;"  alt="Bitcoin Safe Sync & Chat logo">
+        <h2 class="h2">同步与聊天</h2>
+        <p>
+            标签备份与同步。<a href="{{ "/features/collaboration" | relLangURL }}">与其他签名者协作</a>，实现多方多重签名
+          </p>
+          
+    </div>
+</div>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <img src="/images/checkmark.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="checkmark">
+        <h2 class="h2">简易</h2>
+        <p> <a href="{{ "/knowledge/setup-singlesig-wallet/" | relLangURL }}">逐步指导</a>，实现安全的单签或多签钱包设置，配备 <a href="{{ "/features/pdf-export/" | relLangURL }}">PDF备份表</a>     </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/usb.svg"  class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+        <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+        <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+        <h2 class="h2">兼容</h2>
+        {{ partial "hardware-signer/inline-list.html" . }}
+          
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/language-translator-icon.svg"  alt="Translate logo" class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" >
+        <h2 class="h2">多语言</h2>
+        <p><a href="{{ "/features/multi-language" | relLangURL }}">使用您的语言</a>：🇺🇸 英语, 🇨🇳 中文 - 简体中文, 🇪🇸 西班牙语 - 西班牙语, 🇯🇵 日语 - 日本語, 🇷🇺 俄语 - русский, 🇵🇹 葡萄牙语 - 欧洲葡萄牙语, 🇮🇳 印地语 - हिन्दी, 阿拉伯语 - العربية, 🇮🇹 意大利语 - italiano, 🇫🇷 法语 - Français, 🇩🇪 德语 - Deutsch, 🇲🇲 缅甸语 - မြန်မာ, 🇰🇷 韩语 - 한국어, 🇹🇭 泰语 - ภาษาไทย, 🇮🇷 波斯语（法尔西语）- فارسی, 🇵🇱 波兰语 - Polski, 🇪🇸 加泰罗尼亚语 - Català, 🇺🇦 乌克兰语 - Українська</p> 
+    </div>
+</div>
+
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <h2 class="h2">开源</h2>
+        <p>我们 ❤ 开源：<a href="https://github.com/andreasgriffin/bitcoin-safe">Bitcoin Safe</a> 采用<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a>许可</p> 
+    </div> 
+</div>

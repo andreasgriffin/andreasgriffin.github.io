@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="container py-3">
+    {{ with .Content }}
+      <div class="mb-4">
+        {{ . }}
+      </div>
+    {{ end }}
+    {{ $key := urlize .Params.tag }} {{/* normalize to match taxonomy keys */}}
+    {{ partial "featured-pages" (dict "context" . "tags" (index .Site.Taxonomies.tags $key)) }}
+  </div>
+{{ end }}

@@ -1,0 +1,42 @@
+---
+title: "⚡ထောက်ပံ့မှု"
+description: "Bitcoin Safe အတွက် လှူဒါန်း၍ ထောက်ပံ့ပါ"
+draft: false
+menu:
+  footer:
+    weight: 10 
+
+---
+
+### {{< page-title >}} 
+
+
+<br>
+
+
+Bitcoin Safe ကို တည်ဆောက်ရတာ ခက်ခဲပြီး သေချာစွာ လုပ်ကိုင်ရတဲ့ အလုပ်ပါ။ သင်ပေးနိုင်သမျှ အထောက်အပံ့ တစ်ခုချင်းစီအား ကျွန်ုပ်တို့ အလွန်ကျေးဇူးတင်ပါတယ်။
+- Bitcoin Safe ကို အထောက်အပံ့ပေးရန် အလွယ်ဆုံးနည်းလမ်းမှာ လှူဒါန်းခြင်းဖြစ်ပါတယ်: 
+  - {{< donation_btc >}}
+- သို့သော် သင့်အလုပ်ဖြင့်လည်း ထောက်ပံ့နိုင်ပါသည်၊ ဥပမာ
+  - စမ်းသပ်ခြင်း၊ စမ်းသပ်ခြင်း၊ စမ်းသပ်ခြင်းနှင့် အမှားအစီရင်ခံစာများ ပေးပို့ပေးခြင်း
+  - **Bitcoin Safe** ၏ [ဘာသာပြန်ချက်များ](https://hosted.weblate.org/engage/bitcoin-safe/) ကို တိုးတက်စေရန် ပါဝင်ပါ။ သင့်ဘာသာစကားကို အဲဒီမှာ မတွေ့ပါသလား? ကျွန်ုပ်တို့အား ဆက်သွယ်ပါ၊ အတူတကွ ထည့်သွင်းပေးပါမည်။
+  - ဒါမှမဟုတ် **Bitcoin Safe** ကို လူတိုင်းအတွက် ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ရန် အခြားနည်းလမ်းများ ရှာဖွေပါ
+
+Support **Bitcoin Safe** and get into the list below
+
+<br>
+<br>
+
+### ထောက်ပံ့သူများ
+
+<br> 
+ 
+
+<div class="row">
+  {{< person-circle image_url="https://cdn.nostr.build/i/p/2625c1c7593ffed6a0619e28f57de0691b8327dffc5367b125c09ac60d8b99a9.png" title="Opensats" target_url="https://opensats.org/blog/tenth-wave-of-bitcoin-grants" >}}
+  {{< person-circle image_url="https://einundzwanzig.space/img/media/einundzwanzig-square.svg" title="Einundzwanzig" target_url="https://einundzwanzig.space/" >}}
+  {{< person-circle image_url="/supporters/bitbox.png" title="Bitbox.swiss" target_url="https://bitbox.swiss" >}}
+
+
+
+</div>

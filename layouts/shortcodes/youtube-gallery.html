@@ -1,0 +1,2 @@
+{{ $videos := .Page.Params.videos }}
+{{ partial "youtube-gallery.html" (dict "videos" $videos "Page" .Page) }}

@@ -1,0 +1,54 @@
+name: Fetch Latest Release
+
+on:
+  schedule:
+    - cron: "38 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run fetch_release.sh
+        id: fetch
+        run: |
+          set +e
+          bash ./fetch_release.sh
+          status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          if [[ "$status" -eq 1 ]]; then
+            exit 1
+          fi
+          exit 0
+      - name: Commit changes if any
+        uses: planetscale/ghcommit-action@v0.2.20
+        if: steps.fetch.outputs.status == '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit_message: "Update latest release data"
+          repo: ${{ github.repository }}
+          branch: main
+      - name: Trigger Hugo workflow
+        if: steps.fetch.outputs.status == '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "hugo.yaml",
+              ref: "main"
+            });

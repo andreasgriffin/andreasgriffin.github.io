@@ -1,0 +1,59 @@
+<div class="col">
+  <div class="card h-100" style="position: relative;">
+    {{ if .banner }}
+      <!-- Ribbon Container -->
+      <div class="ribbon" style="position: absolute; right: 0; top: 0; z-index: 1; overflow: hidden; width: 200px; height: 200px; text-align: right;">
+        <span style="font-weight: bold; color: #000; text-transform: uppercase; text-align: center; line-height: 30px; transform: rotate(45deg); width: 200px; display: block; background: rgba(89.0, 41.0, 212.0, 0.548); box-shadow: 0 3px 10px -5px rgba(0,0,0,1); position: absolute; top: 30px; right: -50px;">
+          {{ .banner | safeHTML }}
+        </span>
+      </div>
+    {{ end }}
+
+    {{ if .entire_card_clickable }}
+      <a 
+        href="{{ .target_url }}" 
+        class="stretched-link text-primary text-decoration-none"
+        {{ if .open_in_blank_page }}target="_blank" rel="noopener"{{ end }}
+      >
+    {{ end }}
+
+    <div class="card-body">
+      <h4 class="card-title">
+        <a 
+          href="{{ .target_url }}" 
+          class="stretched-link text-primary text-decoration-none"
+          {{ if .open_in_blank_page }}target="_blank" rel="noopener"{{ end }}
+        >
+          {{ .title | safeHTML }}
+        </a>
+      </h4>
+
+      {{ with .authors }}
+        <p class="card-subtitle text-muted">
+          by {{ index . 0 }}
+        </p>
+      {{ end }}
+
+      {{ if .image_url }}
+        <div class="col-md-4 d-flex align-items-center">
+          <img
+            class="img-fluid rounded p-1"
+            src="{{ .image_url }}"
+            loading="lazy"
+            alt="featured image {{ .title }}"
+          >
+        </div>
+      {{ end }}
+
+      <p class="card-text mt-3">
+        {{ with .description }}
+          {{ . | safeHTML }}
+        {{ end }}
+      </p>
+    </div>
+
+    {{ if .entire_card_clickable }}
+      </a>
+    {{ end }}
+  </div>
+</div>

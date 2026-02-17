@@ -1,0 +1,64 @@
+<!-- Features section -->
+
+<style>
+    .coloredicon {
+      filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);
+    }
+</style>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <svg xmlns='http://www.w3.org/2000/svg' class='feather text-violet feather-big' width="4em" height="4em"  >
+            <use href="{{ `images/feather/feather-sprite.svg#shield` | relURL }}"/>
+        </svg>
+        <h2 class="h2">Seguro </h2>
+        <p>Desarrollado por <a href="https://bitcoindevkit.org/" target="_blank" rel="noopener">BDK</a><br>
+            Firmador de hardware <i>requerido</i> que garantiza las mejores prácticas
+            </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/flows.svg"  style=" height: 4em; margin-right: 1em;"  alt="Money Flow diagram">
+        <h2 class="h2">Moderno</h2>
+        <p>Combinando potentes tablas con visualizaciones modernas para el mempool y diagramas de flujo de dinero. <a href="{{ "/features/" | relLangURL }}">Con todas las funciones</a> desde el primer momento   </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/synctalk.svg" class="coloredicon"  style="height: 4em; margin-right: 1em;"  alt="Bitcoin Safe Sync & Chat logo">
+        <h2 class="h2">Sincronización y Chat </h2>
+        <p>
+            Copia de seguridad y sincronización de etiquetas. <a href="{{ "/features/collaboration" | relLangURL }}">Colabora</a> con otros firmantes en un multisig multipartito
+          </p>
+          
+    </div>
+</div>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <img src="/images/checkmark.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="checkmark">
+        <h2 class="h2">Fácil </h2>
+        <p> <a href="{{ "/knowledge/setup-singlesig-wallet/" | relLangURL }}">Guía paso a paso</a> instrucciones  para una configuración segura SingleSig o MultiSig  con <a href="{{ "/features/pdf-export/" | relLangURL }}">hojas de respaldo en PDF</a>     </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/usb.svg"  class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="USB logo">
+        <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="QR logo">
+        <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="SD Card logo" >
+        <h2 class="h2">Compatible </h2>
+        <p>
+            Compatibilidad total con {{ partial "hardware-signer/inline-list.html" . }}.
+            Compatible con todos los principales monederos hardware usando QR, USB o tarjeta SD.
+          </p>
+          
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/language-translator-icon.svg"  alt="Translate logo" class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" >
+        <h2 class="h2">Multilingüe</h2>
+        <p><a href="{{ "/features/multi-language" | relLangURL }}">Usa tu idioma</a>:{{ partial "flags-short.html" . }} </p> 
+    </div>
+</div>
+
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <h2 class="h2">Código abierto</h2>
+        <p>Nos encanta el código abierto: <a href="https://github.com/andreasgriffin/bitcoin-safe">Bitcoin Safe</a> es <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a></p> 
+    </div> 
+</div>

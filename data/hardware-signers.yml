@@ -1,0 +1,190 @@
+signers:
+  - id: coldcard-q
+    slug: coldcard-q
+    slugimage: q
+    name:
+      en: "Coldcard Q"
+    summary:
+      en: "Flagship QR + USB + SD signer; Bitcoin-only firmware."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-q-thumb.webp"
+    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
+    discount:
+      code: "8BFF877000C34A86F410"
+      note:
+        en: "Promo automatically applied at Coinkite."
+    features:
+      usb: true
+      qr: true
+      sd: true
+    bitcoin_only: true
+
+  - id: coldcard-mk4
+    slug: coldcard-mk4
+    slugimage: coldcard
+    name:
+      en: "Coldcard Mk4"
+    summary:
+      en: "Secure USB + SD signer; Bitcoin-only."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp"
+    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
+    discount:
+      code: "8BFF877000C34A86F410"
+      note:
+        en: "Promo automatically applied at Coinkite."
+    features:
+      usb: true
+      sd: true
+    bitcoin_only: true
+
+  - id: bitbox02
+    slug: bitbox02
+    slugimage: bitbox02
+    name:
+      en: "BitBox02 / BitBox02 Nova"
+    summary:
+      en: "Compact USB signer; Bitcoin-only firmware option available."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
+    shop_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
+    features:
+      usb: true
+    bitcoin_only_available: true
+
+  - id: passport
+    slug: passport
+    slugimage: passport
+    name:
+      en: "Foundation Passport"
+    summary:
+      en: "Camera-based QR + SD signer; Bitcoin-only."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
+    shop_url: "https://foundation.xyz/passport"
+    discount:
+      code: "BITCOINSAFE"
+      note:
+        en: "$10 off with code at checkout."
+    features:
+      qr: true
+      sd: true
+    bitcoin_only: true
+
+  - id: jade
+    slug: jade
+    slugimage: jade
+    name:
+      en: "Jade"
+    summary:
+      en: "USB + QR signer; Bitcoin-only firmware."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
+    shop_url: "https://store.blockstream.com/?code=XEocg5boS77D"
+    discount:
+      code: "XEocg5boS77D"
+      note:
+        en: "10% off at Blockstream Store."
+    features:
+      usb: true
+      qr: true
+    bitcoin_only: true
+
+  - id: jade-plus
+    slug: jade-plus
+    slugimage: jade
+    name:
+      en: "Jade Plus"
+    summary:
+      en: "USB + QR + SD signer with metal body; Bitcoin-only firmware."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
+    shop_url: "https://store.blockstream.com/?code=XEocg5boS77D"
+    discount:
+      code: "XEocg5boS77D"
+      note:
+        en: "10% off at Blockstream Store."
+    features:
+      usb: true
+      qr: true
+      sd: true
+    bitcoin_only: true
+
+  - id: trezor
+    slug: trezor
+    slugimage: trezor
+    name:
+      en: "Trezor Safe 3 & 5"
+    summary:
+      en: "Popular USB signer; Bitcoin-only firmware available."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
+    shop_url: "https://affil.trezor.io/SHtN"
+    features:
+      usb: true
+    bitcoin_only_available: true
+
+  - id: keystone
+    slug: keystone
+    slugimage: keystone
+    name:
+      en: "Keystone"
+    summary:
+      en: "Air-gapped QR + SD signer; Bitcoin-only firmware option available."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
+    shop_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
+    features:
+      qr: true
+      sd: true
+    bitcoin_only_available: true
+
+  - id: ledger
+    slug: ledger
+    slugimage: ledger
+    name:
+      en: "Ledger Nano S / S Plus / X / Flex"
+    summary:
+      en: "Mainstream USB signer."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp"
+    shop_url: "https://shop.ledger.com/?r=400f1fff75b5"
+    features:
+      usb: true
+
+  - id: specter
+    slug: specter
+    slugimage: specterdiy
+    name:
+      en: "Specter DIY / Shield / Shield Lite"
+    summary:
+      en: "DIY-friendly QR + SD signer; Bitcoin-only."
+    image: "/en/knowledge/supported-hardware-signers/specter-diy.png"
+    shop_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
+    discount:
+      code: "bitcoin-safe"
+      note:
+        en: "5% off with coupon."
+    features:
+      qr: true
+      sd: true
+    bitcoin_only: true
+
+  - id: seedsigner
+    slug: seedsigner
+    slugimage: seedsigner
+    name:
+      en: "SeedSigner"
+    summary:
+      en: "Camera-based DIY QR + SD signer; Bitcoin-only."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
+    shop_url: "https://seedsigner.com/"
+    features:
+      qr: true
+      sd: true
+    bitcoin_only: true
+
+  - id: krux
+    slug: krux
+    slugimage: krux
+    name:
+      en: "Krux"
+    summary:
+      en: "DIY QR + SD signer built on off-the-shelf hardware; Bitcoin-only."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp"
+    shop_url: "https://selfcustody.github.io/krux/"
+    features:
+      qr: true
+      sd: true
+    bitcoin_only: true

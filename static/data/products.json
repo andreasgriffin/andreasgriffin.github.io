@@ -1,0 +1,4 @@
+{
+  "test_a": {"duration": 31536000, "amount_sats":2, "name":"Test A" , "description":"This is a test"}, 
+  "test_b": {"duration": 315360000, "amount_sats":10 , "name":"Test B", "description":"This is a test"}
+}

@@ -1,0 +1,80 @@
+[[main]]
+name = "ပင်မ"
+url = ""
+weight = 10
+
+[[main]]
+name = "📥ဒေါင်းလုဒ်"
+url = "download"
+weight = 20
+title = "ဒေါင်းလုဒ်"
+
+
+[[main]]
+identifier = "Features"
+name = "🚀အင်္ဂါရပ်များ"
+url = "features"
+weight = 50
+
+[[main]]
+identifier = "Knowledge"
+name = "🏫အသိပညာ"
+url = "knowledge"
+weight = 55
+
+
+[[main]]
+identifier = "Donate"
+name = "⚡ထောက်ပံ့ရန်"
+url = "donate"
+weight = 60
+
+
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/andreasgriffin/bitcoin-safe"
+  weight = 10
+  title = "GitHub ပရိုဂျက်သို့ သွားရန်"
+
+
+
+[[social]]
+  name = "Chorus"
+  pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
+  url = "https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki"
+  weight = 11
+  title = "Chorus အသိုင်းအဝိုင်း"
+
+# [[social]]
+#   name = "Email"
+#   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-email'><use href='images/feather/feather-sprite.svg#email'/></svg>"
+#   url = "<a href='bitcoinsafe.strobe206@aleeas.com'>Example mailto link</a>"
+#   weight = 10
+#   title = "Mail me"
+
+
+[[social]]
+  name = "Nostr"
+  pre = "<img src='/icons/nostr-logo-outline.svg' alt='Nostr' class='feather feather-github' />"
+  url = "https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v"
+  weight = 20
+  title = "Nostr ပရိုဖိုင်"
+
+
+
+[[social]]
+  name = "Twitter"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/images/feather/feather-sprite.svg#twitter'/></svg>"
+  url = "https://x.com/BitcoinSafeOrg"
+  weight = 21
+  title = "Twitter တွင် ဆက်သွယ်ရန်"
+
+
+
+[[social]]
+  name = "Youtube"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-youtube'><use href='/images/feather/feather-sprite.svg#youtube'/></svg>"
+  url = "https://www.youtube.com/@BitcoinSafeOrg"
+  weight = 20
+  title = "YouTube ချန်နယ်"

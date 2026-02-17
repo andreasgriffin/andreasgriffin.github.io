@@ -1,0 +1,64 @@
+<!-- Features section -->
+
+<style>
+    .coloredicon {
+      filter: brightness(0) saturate(100%) invert(37%) sepia(99%) saturate(667%) hue-rotate(224deg) brightness(72%) contrast(150%);
+    }
+</style>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <svg xmlns='http://www.w3.org/2000/svg' class='feather text-violet feather-big' width="4em" height="4em"  >
+            <use href="{{ `images/feather/feather-sprite.svg#shield` | relURL }}"/>
+        </svg>
+        <h2 class="h2">Segur </h2>
+        <p>Impulsat per <a href="https://bitcoindevkit.org/" target="_blank" rel="noopener">BDK</a><br>
+            Signador de maquinari <i>requerit</i> per a garantir les millors pràctiques
+            </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/flows.svg"  style=" height: 4em; margin-right: 1em;"  alt="Diagrama de flux de diners">
+        <h2 class="h2">Modern</h2>
+        <p>Combina taules potents amb visualitzacions modernes per al mempool i diagrames de flux de diners. <a href="{{ "/features/" | relLangURL }}">Completament funcional</a> des del primer moment   </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/synctalk.svg" class="coloredicon"  style="height: 4em; margin-right: 1em;"  alt="Logotip de Bitcoin Safe Sync i Xat">
+        <h2 class="h2">Sincronització i Xat </h2>
+        <p>
+            Còpia de seguretat i sincronització d'etiquetes. <a href="{{ "/features/collaboration" | relLangURL }}">Col·labora</a> amb altres signants en un multisig multipartit
+          </p>
+          
+    </div>
+</div>
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <img src="/images/checkmark.svg"  class="coloredicon"  style="height: 4em; margin-right: 1em;" alt="marca de verificació">
+        <h2 class="h2">Fàcil </h2>
+        <p> <a href="{{ "/knowledge/setup-singlesig-wallet/" | relLangURL }}">Pas a pas</a> instruccions per a una configuració segura SingleSig o MultiSig amb <a href="{{ "/features/pdf-export/" | relLangURL }}">fulls de còpia de seguretat en PDF</a>     </p>
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/usb.svg"  class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="Logotip USB">
+        <img src="/images/qr-code.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="Logotip QR">
+        <img src="/images/sd-card.svg"  class="coloredicon"   style="height: 3em; margin-right: 1em; margin-bottom: 1em;" alt="Logotip targeta SD" >
+        <h2 class="h2">Compatible </h2>
+        <p>
+            Suport complet per a {{ partial "hardware-signer/inline-list.html" . }}.
+            Admet tots els principals dispositius de maquinari mitjançant QR, USB o targeta SD.
+          </p>
+          
+    </div>
+    <div class="col-lg-4">
+        <img src="/images/language-translator-icon.svg"  alt="Logotip de traducció" class="coloredicon"  style="height: 3em; margin-right: 1em; margin-bottom: 1em;" >
+        <h2 class="h2">Multilingüe</h2>
+        <p><a href="{{ "/features/multi-language" | relLangURL }}">Fes servir la teva llengua</a>: {{ partial "flags-short.html" . }}   </p> 
+    </div>
+</div>
+
+
+<div class="row justify-content-center text-center mt-lg-3">
+    <div class="col-lg-4">
+        <h2 class="h2">Codi obert</h2>
+        <p>We ❤ open source: <a href="https://github.com/andreasgriffin/bitcoin-safe">Bitcoin Safe</a> és <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a></p> 
+    </div> 
+</div>

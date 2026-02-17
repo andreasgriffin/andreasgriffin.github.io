@@ -1,0 +1,31 @@
+<!-- layouts/partials/image-table.html -->
+<table>
+    {{ $folder := .folder }} <!-- Path to the image folder -->
+    {{ $columns := .columns | default 3 }} <!-- Number of columns, default to 3 if not specified -->
+    {{ $images := readDir (printf "static/%s" $folder) }}
+    {{ $imageCount := len $images }}
+    {{ $rows := div $imageCount $columns }} <!-- Calculate the base number of full rows -->
+    {{ if gt (mod (len $images) $columns) 0 }}
+        {{ $rows = add $rows 1 }}
+    {{ end }}
+
+    {{ range seq $rows }}
+        {{ $rowIndex := sub . 1 }}
+        <tr>
+            {{ range $i := seq $columns }}
+                {{ $index := add $rowIndex (mul (sub $i 1) $columns) }}
+                {{ if lt $index (len $images) }}
+                    {{ with index $images $index }}
+                        <td>
+                            <img src="{{ printf "/%s/%s" $folder .Name }}" alt="{{ .Name }}" style="width: 100%;">
+                            <div>{{ .Name | replaceRE "\\.[^.]*$" "" }}</div> <!-- Filename without extension -->
+                        </td>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </tr>
+    {{ end }}
+</table>
+
+
+<!-- {{ partial "image-table" (dict "folder" "multi-language" "columns" 3) }} -->

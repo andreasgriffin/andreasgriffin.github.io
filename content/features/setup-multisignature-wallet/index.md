@@ -1,0 +1,27 @@
+---
+aliases:
+  - "/features/setup-multisignature-wallet/"
+title: "Setup wizard - Single & Multisig"
+description: "Bitcoin Safe setup wizard guides you through the steps to create a safe bitcoin wallet"
+draft: false
+tags: [  "Multisignature","Features"]
+images: ["logo.png"]
+keywords: ["multisig setup", "wallet creation", "bitcoin safe", "2-of-3 multisig"]
+weight: 20
+# embedding videos can be done with 
+# {{< youtube-embed link="https://www.youtube.com/watch?v=dbSmQmt0uDI" >}}
+# or the list will be rendered below the content
+# type: "watch"
+videos:
+  - "https://www.youtube.com/watch?v=m0g6ytYTy0w"
+---
+
+
+# Single Signature Wallet
+
+Want to secure your Bitcoin the right way? Learn how to set up a [Bitcoin-Safe.org]({{< ref "/" >}}) wallet with Trezor
+ ! 🔐💰
+
+
+{{< youtube-gallery >}}
+ 

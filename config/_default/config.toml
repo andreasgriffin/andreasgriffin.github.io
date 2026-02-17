@@ -1,0 +1,160 @@
+baseURL = 'https://bitcoin-safe.org/'
+languageCode = 'en-US'
+title= 'Bitcoin Safe - A secure bitcoin savings wallet for everyone'
+
+
+timeZone = 'Europe/London'
+
+# Multilingual 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+
+
+
+
+theme = "hugo-bootstrap-theme"
+
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+#enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[params]
+  shorttitle= 'Bitcoin Safe'
+
+  title = 'Bitcoin Safe'
+  description = 'Bitcoin Safe is a collaborative wallet that keeps families and organizations in full control of their bitcoin.'
+  images = ['images/social-share.png']
+  mainMenuLogo = "images/logo/logo-cut.svg"
+
+  keywords = [
+  "multisig",
+  "signing device",
+  "hardware wallet",
+  "multiparty multisig collaboration",
+  "remote signing",
+  "secure chat",
+  "PSBT sharing",
+  "bitcoin security software",
+  "best bitcoin multisig wallets",
+  "bitcoin desktop wallet comparison",
+  "open source bitcoin security tools",
+  "what is multisig in bitcoin",
+  "bitcoin wallet management software",
+  "top bitcoin storage options",
+  "collaborative bitcoin wallet solutions",
+  "how to secure bitcoin for nonprofits",
+  "bitcoin storage practices for artists",
+  "trusted bitcoin management software",
+  "importance of multisig for bitcoin",
+  "bitcoin wallets for family offices",
+  "bitcoin fund management tools",
+  "choosing a bitcoin multisig provider",
+  "analyzing bitcoin security risks",
+  "how to set up a bitcoin wallet",
+  "bitcoin wallets for research grants",
+  "how to safeguard bitcoin investments",
+  "how to manage bitcoin safely",
+  "bitcoin asset management for families",
+  "bitcoin security for small businesses",
+  "future of bitcoin wallet management",
+  "bitcoin insurance trust management",
+  "secure bitcoin holding solutions",
+  "bitcoin safekeeping methods",
+  "how to use bitcoin multisig",
+  "what is bitcoin key management",
+  "bitcoin wallet security tips",
+  "best practices for bitcoin security",
+  "Bitcoin Safe",
+  "Bitcoin Management Software",
+  "Encrypted communication",
+  "Private Key Storage",
+  "Cold storage",
+  "qr signing",
+  "usb signing",
+  "sd card signing",
+  "Sneakernet",
+  "Label synchronization",
+  "Coin categories",
+  "Airgapped Keys",
+  "Comprehensive Reporting",
+  "Detailed Analytics",
+  "Multi-Device Compatibility",
+  "Singlesig and Multisig Configurations",
+  "Encrypted Remote Chat",
+  "Nostr Protocol"
+]
+
+
+
+  # For favicons
+  ## Chrome Browser
+  themeColor = "#fff"
+
+  # Alert
+  alert = false
+  alertDismissable = true
+  # alertText = "Introducing this new service! <a class=\"alert-link stretched-link\" href=\"https://salvus.site/\">Check out Total Security</a>"
+
+  # # Pre-footer
+  # footerAbout = true
+  # footerAboutTitle = "Few Words About Us"
+  # footerAboutText = "We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity."
+
+
+
+# Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
+# https://gohugo.io/templates/internal/#open-graph
+# https://gohugo.io/templates/internal/#twitter-cards
+# https://schema.org/Thing
+# https://schema.org/Article
+
+  [params.social]
+    twitter = 'BitcoinSafeOrg'
+
+
+  [params.options]
+    bootStrapJs = true
+    breadCrumb = true
+    listCategoryFilter = true
+    listTagFilter = true
+
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = 'series'
+  author = "authors"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[permalinks]
+#  post = "/post/:title/"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.99.1"
+    max = ""
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+
+
+[markup]
+  [markup.highlight]
+    style = "github-dark"   # try: monokai, github-dark, nord, etc.
