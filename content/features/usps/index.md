@@ -73,7 +73,7 @@ People have made many expensive mistakes in the past. Most of them can be preven
 - {{<text-name-with-logo>}}  has full support for the most common hardware signers (e.g.  <a href="https://store.coinkite.com/promo/8BFF877000C34A86F410">Coldcard</a>, 
             <a href="https://store.coinkite.com/promo/8BFF877000C34A86F410">Coldcard Q</a>, 
             <a href="https://shop.bitbox.swiss/?ref=MOB4dk7gpm">Bitbox02</a>, 
-            <a href="https://store.blockstream.com/?code=XEocg5boS77D">Blockstream Jade</a>,    
+            <a href="https://rewards.blockstream.com/885who">Blockstream Jade</a>,    
             <a href="https://affil.trezor.io/SHtN">Trezor Safe</a>,
             <a href="https://foundation.xyz/passport">Foundation Passport</a>,
             <a href="https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a">Keystone</a>,

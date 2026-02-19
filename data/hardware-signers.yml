@@ -75,9 +75,9 @@ signers:
     summary:
       en: "USB + QR signer; Bitcoin-only firmware."
     image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
-    shop_url: "https://store.blockstream.com/?code=XEocg5boS77D"
+    shop_url: "https://rewards.blockstream.com/885who"
     discount:
-      code: "XEocg5boS77D"
+      code: "885WHO"
       note:
         en: "10% off at Blockstream Store."
     features:
@@ -93,9 +93,9 @@ signers:
     summary:
       en: "USB + QR + SD signer with metal body; Bitcoin-only firmware."
     image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
-    shop_url: "https://store.blockstream.com/?code=XEocg5boS77D"
+    shop_url: "https://rewards.blockstream.com/885who"
     discount:
-      code: "XEocg5boS77D"
+      code: "885WHO"
       note:
         en: "10% off at Blockstream Store."
     features:
