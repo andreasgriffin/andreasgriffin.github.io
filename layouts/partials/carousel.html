@@ -3,11 +3,19 @@
        - resources: slice of page resources (images/videos)
        - path/base: filesystem path and base URL prefix (fallback)
        - items: slice of dicts with image/src, link, alt (optional)
-       - per_slide: number of items per slide (defaults to 1)
+       - per_slide: desktop number of items per slide
+       - per_slide_md/per_slide_tablet: tablet number of items per slide
+       - per_slide_sm/per_slide_mobile: mobile number of items per slide
+       - fallback defaults if not set:
+         desktop: site.Params.carousel.per_slide (or 1)
+         tablet:  site.Params.carousel.per_slide_md/per_slide_tablet (or 2 when desktop > 1, else 1)
+         mobile:  site.Params.carousel.per_slide_sm/per_slide_mobile (or 1)
        - id: optional unique carousel id (defaults to carouselExampleAutoplaying)
 */}}
 {{ $id := or .id "carouselExampleAutoplaying" }}
-{{ $perSlide := or .per_slide 1 }}
+{{ $perSlide := or .per_slide site.Params.carousel.per_slide 1 }}
+{{ $perSlideMd := or .per_slide_md .per_slide_tablet site.Params.carousel.per_slide_md site.Params.carousel.per_slide_tablet (cond (gt $perSlide 1) 2 1) }}
+{{ $perSlideSm := or .per_slide_sm .per_slide_mobile site.Params.carousel.per_slide_sm site.Params.carousel.per_slide_mobile 1 }}
 {{ $responsive := or .responsive false }}
 {{ $maxWidth := or .max_width 899 }}
 {{ $imgExts   := slice ".jpg" ".jpeg" ".png" ".gif" ".webp" ".avif" }}
@@ -38,6 +46,22 @@
 {{ if gt $perSlide $count }}
   {{ $perSlide = $count }}
 {{ end }}
+{{ if gt $perSlideMd $count }}
+  {{ $perSlideMd = $count }}
+{{ end }}
+{{ if gt $perSlideSm $count }}
+  {{ $perSlideSm = $count }}
+{{ end }}
+{{ if lt $perSlideMd 1 }}
+  {{ $perSlideMd = 1 }}
+{{ end }}
+{{ if lt $perSlideSm 1 }}
+  {{ $perSlideSm = 1 }}
+{{ end }}
+{{ if not $responsive }}
+  {{ $perSlideMd = $perSlide }}
+  {{ $perSlideSm = $perSlide }}
+{{ end }}
 {{ $multi := gt $perSlide 1 }}
 
 <div class="row justify-content-center text-center mt-lg-3">
@@ -46,7 +70,7 @@
          class="carousel-multi"
          data-per-slide="{{ $perSlide }}"
          data-interval="5000"
-         style="{{ if not $responsive }}--carousel-per-slide: {{ $perSlide }}; {{ end }}--carousel-gap: 1rem; width: 100%; max-width: {{ $maxWidth }}px;">
+         style="--carousel-per-slide-base: {{ $perSlide }}; --carousel-per-slide: var(--carousel-per-slide-base); --carousel-per-slide-md: {{ $perSlideMd }}; --carousel-per-slide-sm: {{ $perSlideSm }}; --carousel-gap: 1rem; width: 100%; max-width: {{ $maxWidth }}px;">
       <button class="carousel-control-prev" type="button" data-carousel-action="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -101,28 +125,34 @@
          style="width: 100%; max-width: {{ $maxWidth }}px;">
       <div class="carousel-inner">
         {{ range $i, $item := $items }}
-          {{ $ext := "" }}
-          {{ if $useResources }}
-            {{ $ext = lower (path.Ext $item.Name) }}
-          {{ else }}
-            {{ $ext = lower (path.Ext $item.Name) }}
-          {{ end }}
           <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
-            {{ if in $imgExts $ext }}
-              <img
-                src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
-                class="d-block w-100"
-                alt="{{ $item.Name }}">
-            {{ else if in $videoExts $ext }}
-              {{ $type := printf "video/%s" (replace $ext "." "" ) }}
-              <video autoplay muted loop playsinline class="d-block w-100">
-                <source
-                  src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
-                  type="{{ $type }}">
-                Your browser does not support the video tag.
-              </video>
+            {{ if $useItems }}
+              {{ $src := or $item.image $item.src }}
+              {{ if and $src (not (hasPrefix $src "http")) }}
+                {{ $src = $src | relURL }}
+              {{ end }}
+              {{ $alt := or $item.alt "Carousel item" }}
+              {{ if $item.link }}<a href="{{ $item.link }}" target="_blank" rel="noopener">{{ end }}
+              <img src="{{ $src }}" class="d-block w-100" alt="{{ $alt }}">
+              {{ if $item.link }}</a>{{ end }}
             {{ else }}
-              <p class="text-danger">Unsupported file “{{ $item.Name }}”</p>
+              {{ $ext := lower (path.Ext $item.Name) }}
+              {{ if in $imgExts $ext }}
+                <img
+                  src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
+                  class="d-block w-100"
+                  alt="{{ $item.Name }}">
+              {{ else if in $videoExts $ext }}
+                {{ $type := printf "video/%s" (replace $ext "." "" ) }}
+                <video autoplay muted loop playsinline class="d-block w-100">
+                  <source
+                    src="{{ if $useResources }}{{ $item.RelPermalink }}{{ else }}{{ printf "%s%s" $base $item.Name }}{{ end }}"
+                    type="{{ $type }}">
+                  Your browser does not support the video tag.
+                </video>
+              {{ else }}
+                <p class="text-danger">Unsupported file “{{ $item.Name }}”</p>
+              {{ end }}
             {{ end }}
           </div>
         {{ end }}
