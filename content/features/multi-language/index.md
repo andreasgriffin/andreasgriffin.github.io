@@ -7,7 +7,7 @@ draft: false
 tags: [ "Features"  ]
 images: [ "logo.png" ]
 keywords: [  
-  "Multi-language","Multi language", "Multy currency" "weblate.org" ]
+  "Multi-language","Multi language", "Multy currency", "weblate.org" ]
 previewimage: "logo.png"
 weight: 0
 
