@@ -32,7 +32,9 @@ const setupMultiScroller = (carousel) => {
       return 1
     }
 
-    const fitByWidth = Math.floor(availableWidth / itemMinWidth)
+    const gapValue = window.getComputedStyle(carousel).getPropertyValue('--carousel-gap')
+    const gap = Math.max(0, parseFloat(gapValue) || 0)
+    const fitByWidth = Math.floor((availableWidth + gap) / (itemMinWidth + gap))
     return Math.max(1, Math.min(maxPerSlide, fitByWidth || 1))
   }
 
