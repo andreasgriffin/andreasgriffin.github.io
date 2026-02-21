@@ -2,7 +2,9 @@ const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 const setupMultiScroller = (carousel) => {
-  const dataPerSlide = parseInt(carousel.getAttribute('data-per-slide'), 10)
+  const maxPerSlide = parseInt(carousel.getAttribute('data-max-per-slide') || carousel.getAttribute('data-per-slide'), 10) || 1
+  const itemMinWidth = Math.max(1, parseInt(carousel.getAttribute('data-item-min-width'), 10) || 220)
+  const isResponsive = carousel.getAttribute('data-responsive') === 'true'
   const intervalMs = parseInt(carousel.getAttribute('data-interval'), 10) || 5000
 
   const viewport = carousel.querySelector('.carousel-multi-viewport')
@@ -21,16 +23,22 @@ const setupMultiScroller = (carousel) => {
   let currentPerSlide = 0
 
   const getPerSlide = () => {
-    const computed = window.getComputedStyle(carousel).getPropertyValue('--carousel-per-slide')
-    const cssValue = parseInt(computed, 10)
-    if (cssValue) {
-      return cssValue
+    if (!isResponsive) {
+      return maxPerSlide
     }
-    return dataPerSlide || 1
+
+    const availableWidth = viewport.clientWidth || carousel.clientWidth || 0
+    if (availableWidth <= 0) {
+      return 1
+    }
+
+    const fitByWidth = Math.floor(availableWidth / itemMinWidth)
+    return Math.max(1, Math.min(maxPerSlide, fitByWidth || 1))
   }
 
   const rebuildTrack = (perSlide) => {
     const safePerSlide = Math.max(1, Math.min(perSlide, originalItems.length))
+    carousel.style.setProperty('--carousel-per-slide', String(safePerSlide))
     track.innerHTML = ''
     originalItems.forEach((item) => {
       track.appendChild(item)
@@ -150,7 +158,7 @@ const setupMultiScroller = (carousel) => {
 }
 
 const setupMultiCarousels = () => {
-  const carousels = document.querySelectorAll('.carousel-multi[data-per-slide]')
+  const carousels = document.querySelectorAll('.carousel-multi[data-max-per-slide], .carousel-multi[data-per-slide]')
   carousels.forEach(setupMultiScroller)
 }
 

@@ -3,19 +3,16 @@
        - resources: slice of page resources (images/videos)
        - path/base: filesystem path and base URL prefix (fallback)
        - items: slice of dicts with image/src, link, alt (optional)
-       - per_slide: desktop number of items per slide
-       - per_slide_md/per_slide_tablet: tablet number of items per slide
-       - per_slide_sm/per_slide_mobile: mobile number of items per slide
+       - maximum_per_slide/max_per_slide/per_slide: maximum number of items per slide
+       - item_min_width: minimum width (px) for each visible item when responsive=true
        - fallback defaults if not set:
-         desktop: site.Params.carousel.per_slide (or 1)
-         tablet:  site.Params.carousel.per_slide_md/per_slide_tablet (or 2 when desktop > 1, else 1)
-         mobile:  site.Params.carousel.per_slide_sm/per_slide_mobile (or 1)
+         maximum_per_slide: site.Params.carousel.maximum_per_slide/max_per_slide/per_slide (or 1)
+         item_min_width: site.Params.carousel.item_min_width (or 220)
        - id: optional unique carousel id (defaults to carouselExampleAutoplaying)
 */}}
 {{ $id := or .id "carouselExampleAutoplaying" }}
-{{ $perSlide := or .per_slide site.Params.carousel.per_slide 1 }}
-{{ $perSlideMd := or .per_slide_md .per_slide_tablet site.Params.carousel.per_slide_md site.Params.carousel.per_slide_tablet (cond (gt $perSlide 1) 2 1) }}
-{{ $perSlideSm := or .per_slide_sm .per_slide_mobile site.Params.carousel.per_slide_sm site.Params.carousel.per_slide_mobile 1 }}
+{{ $perSlide := or .maximum_per_slide .max_per_slide .per_slide site.Params.carousel.maximum_per_slide site.Params.carousel.max_per_slide site.Params.carousel.per_slide 1 }}
+{{ $itemMinWidth := or .item_min_width site.Params.carousel.item_min_width 220 }}
 {{ $responsive := or .responsive false }}
 {{ $maxWidth := or .max_width 899 }}
 {{ $imgExts   := slice ".jpg" ".jpeg" ".png" ".gif" ".webp" ".avif" }}
@@ -46,21 +43,11 @@
 {{ if gt $perSlide $count }}
   {{ $perSlide = $count }}
 {{ end }}
-{{ if gt $perSlideMd $count }}
-  {{ $perSlideMd = $count }}
+{{ if lt $perSlide 1 }}
+  {{ $perSlide = 1 }}
 {{ end }}
-{{ if gt $perSlideSm $count }}
-  {{ $perSlideSm = $count }}
-{{ end }}
-{{ if lt $perSlideMd 1 }}
-  {{ $perSlideMd = 1 }}
-{{ end }}
-{{ if lt $perSlideSm 1 }}
-  {{ $perSlideSm = 1 }}
-{{ end }}
-{{ if not $responsive }}
-  {{ $perSlideMd = $perSlide }}
-  {{ $perSlideSm = $perSlide }}
+{{ if lt $itemMinWidth 1 }}
+  {{ $itemMinWidth = 220 }}
 {{ end }}
 {{ $multi := gt $perSlide 1 }}
 
@@ -68,9 +55,11 @@
   {{ if $multi }}
     <div id="{{ $id }}"
          class="carousel-multi"
-         data-per-slide="{{ $perSlide }}"
+         data-max-per-slide="{{ $perSlide }}"
+         data-item-min-width="{{ $itemMinWidth }}"
+         data-responsive="{{ if $responsive }}true{{ else }}false{{ end }}"
          data-interval="5000"
-         style="--carousel-per-slide-base: {{ $perSlide }}; --carousel-per-slide: var(--carousel-per-slide-base); --carousel-per-slide-md: {{ $perSlideMd }}; --carousel-per-slide-sm: {{ $perSlideSm }}; --carousel-gap: 1rem; width: 100%; max-width: {{ $maxWidth }}px;">
+         style="--carousel-per-slide: {{ $perSlide }}; --carousel-gap: 1rem; width: 100%; max-width: {{ $maxWidth }}px;">
       <button class="carousel-control-prev" type="button" data-carousel-action="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>

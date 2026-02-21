@@ -120,20 +120,6 @@ table img {
     flex: 0 0 calc((100% - (var(--carousel-gap, 1rem) * (var(--carousel-per-slide) - 1))) / var(--carousel-per-slide));
 }
 
-@media (max-width: 991.98px) {
-    .carousel-multi {
-        --carousel-per-slide: var(--carousel-per-slide-md, var(--carousel-per-slide-base, 1));
-    }
-}
-
-@media (max-width: 575.98px) {
-    .carousel-multi {
-        --carousel-per-slide: var(--carousel-per-slide-sm, var(--carousel-per-slide-base, 1));
-    }
-}
-
-
-
   
 /* Ensure the heading is the positioning context */
 h1,h2, h3, h4, h5, h6 {
