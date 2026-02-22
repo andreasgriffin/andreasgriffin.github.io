@@ -1,5 +1,5 @@
 [en]
-  languageName = "English"
+  languageName = "🇺🇸 English"
   languageCode = "en-US"
   weight = 10
   [en.params]
@@ -8,7 +8,7 @@
 
 
 [es]
-  languageName = "Spanish"
+  languageName = "🇪🇸 Spanish"
   languageCode = "es-ES"
   weight = 30
   [es.params]
@@ -16,105 +16,105 @@
     description = "Una billetera de ahorros de bitcoin para toda la familia."
 
 [fr]
-  languageName = "Français"
+  languageName = "🇫🇷 Français"
   languageCode = "fr-FR"
   weight = 40
   [fr.params]
     languageISO = "FR"
 
 [ko]
-  languageName = "한국어"
+  languageName = "🇰🇷 한국어"
   languageCode = "ko-KR"
   weight = 50
   [ko.params]
     languageISO = "KO"
 
 [ru]
-  languageName = "Русский"
+  languageName = "🇷🇺 Русский"
   languageCode = "ru-RU"
   weight = 60
   [ru.params]
     languageISO = "RU"
 
 [ca]
-  languageName = "Català"
+  languageName = "🇪🇸 Català"
   languageCode = "ca-ES"
   weight = 70
   [ca.params]
     languageISO = "CA"
 
 [ar]
-  languageName = "العربية"
+  languageName = "🇦🇪 العربية"
   languageCode = "ar-AE"
   weight = 80
   [ar.params]
     languageISO = "AR"
 
 [th]
-  languageName = "ไทย"
+  languageName = "🇹🇭 ไทย"
   languageCode = "th-TH"
   weight = 90
   [th.params]
     languageISO = "TH"
 
 [zh]
-  languageName = "简体中文"
+  languageName = "🇨🇳 简体中文"
   languageCode = "zh-CN"
   weight = 100
   [zh.params]
     languageISO = "ZH"
 
 [hi]
-  languageName = "हिन्दी"
+  languageName = "🇮🇳 हिन्दी"
   languageCode = "hi-IN"
   weight = 110
   [hi.params]
     languageISO = "HI"
 
 [it]
-  languageName = "Italiano"
+  languageName = "🇮🇹 Italiano"
   languageCode = "it-IT"
   weight = 120
   [it.params]
     languageISO = "IT"
 
 [de]
-  languageName = "Deutsch"
+  languageName = "🇩🇪 Deutsch"
   languageCode = "de-DE"
   weight = 130
   [de.params]
     languageISO = "DE"
 
 [my]
-  languageName = "မြန်မာ"
+  languageName = "🇲🇲 မြန်မာ"
   languageCode = "my-MM"
   weight = 140
   [my.params]
     languageISO = "MY"
 
 [ja]
-  languageName = "日本語"
+  languageName = "🇯🇵 日本語"
   languageCode = "ja-JP"
   weight = 150
   [ja.params]
     languageISO = "JA"
 
 [fa]
-  languageName = "فارسی"
+  languageName = "🇮🇷 فارسی"
   languageCode = "fa-IR"
   weight = 160
   [fa.params]
     languageISO = "FA"
 
 [pt]
-  languageName = "Português (Portugal)"
+  languageName = "🇵🇹 Português (Portugal)"
   languageCode = "pt-PT"
   weight = 170
   [pt.params]
     languageISO = "PT"
 
 [pl]
-  languageName = "Polski"
+  languageName = "🇵🇱 Polski"
   languageCode = "pl-PL"
   weight = 180
   [pl.params]
@@ -123,7 +123,7 @@
 
 
 [id]
-  languageName = "Indonesian"
+  languageName = "🇮🇩 Indonesian"
   languageCode = "id-ID"
   weight = 190
   [id.params]
@@ -131,7 +131,7 @@
     description = "Dompet tabungan bitcoin untuk seluruh keluarga."
 
 [tr]
-  languageName = "Turkish"
+  languageName = "🇹🇷 Turkish"
   languageCode = "tr-TR"
   weight = 200
   [tr.params]
@@ -139,7 +139,7 @@
     description = "Tüm aile için bir bitcoin tasarruf cüzdanı."
 
 [uk]
-  languageName = "Українська"
+  languageName = "🇺🇦 Українська"
   languageCode = "uk-UA"
   weight = 210
   [uk.params]

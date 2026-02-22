@@ -94,6 +94,14 @@ const setupMultiScroller = (carousel) => {
     isAnimating = false
   }
 
+  const applyLayout = () => {
+    const nextPerSlide = getPerSlide()
+    if (nextPerSlide !== currentPerSlide) {
+      rebuildTrack(nextPerSlide)
+    }
+    setPosition(false)
+  }
+
   setPosition(false)
   track.addEventListener('transitionend', onTransitionEnd)
 
@@ -124,13 +132,20 @@ const setupMultiScroller = (carousel) => {
   carousel.addEventListener('mouseleave', startAuto)
   startAuto()
 
-  window.addEventListener('resize', () => {
-    const nextPerSlide = getPerSlide()
-    if (nextPerSlide !== currentPerSlide) {
-      rebuildTrack(nextPerSlide)
-    }
-    setPosition(false)
-  })
+  window.addEventListener('resize', applyLayout)
+  window.addEventListener('load', applyLayout, { once: true })
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(applyLayout).catch(() => {})
+  }
+
+  if ('ResizeObserver' in window) {
+    const resizeObserver = new ResizeObserver(() => {
+      applyLayout()
+    })
+    resizeObserver.observe(carousel)
+    resizeObserver.observe(viewport)
+  }
 
   const images = carousel.querySelectorAll('img')
   if (images.length) {
@@ -154,7 +169,7 @@ const setupMultiScroller = (carousel) => {
 
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      setPosition(false)
+      applyLayout()
     })
   })
 }

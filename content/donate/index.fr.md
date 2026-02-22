@@ -8,6 +8,7 @@ menu:
 
 ---
 
+
 ### {{< page-title >}} 
 
 
@@ -27,6 +28,7 @@ Soutenez **Bitcoin Safe** et figurez dans la liste ci-dessous
 <br>
 <br>
 
+
 ### Soutiens
 
 <br> 
@@ -39,4 +41,28 @@ Soutenez **Bitcoin Safe** et figurez dans la liste ci-dessous
 
 
 
+</div>
+
+### Traducteurs
+
+<br>
+
+<div class="row">
+  {{< person-circle image_url="https://github.com/qdyg-vn.png" title="qdyg-vn 🇻🇳 (vietnamien)" target_url="https://github.com/qdyg-vn" >}}
+  {{< person-circle image_url="https://unavatar.io/x/bsn21m" title="bsn21m 🇩🇪 (allemand)" target_url="https://x.com/bsn21m" >}}
+  {{< person-circle image_url="https://github.com/cyphra.png" title="cyphra 🇪🇸 (espagnol)" target_url="https://github.com/cyphra" >}}
+  {{< person-circle image_url="https://unavatar.io/x/DaGrindDontStop" title="DaGrindDontStop 🇨🇳 (chinois)" target_url="https://hosted.weblate.org/user/DaGrindDontStop/" >}}
+</div>
+
+<br>
+
+<p>Améliorez les traductions ici :</p>
+
+<div style="display: flex;  gap: 1rem; flex-wrap: wrap;">
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/open-graph.png" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/multi-auto.svg" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
 </div>

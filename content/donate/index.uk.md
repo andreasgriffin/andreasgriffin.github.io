@@ -8,6 +8,7 @@ menu:
 
 ---
 
+
 ### {{< page-title >}} 
 
 
@@ -27,6 +28,7 @@ menu:
 <br>
 <br>
 
+
 ### Підтримувачі
 
 <br> 
@@ -39,4 +41,28 @@ menu:
 
 
 
+</div>
+
+### Перекладачі
+
+<br>
+
+<div class="row">
+  {{< person-circle image_url="https://github.com/qdyg-vn.png" title="qdyg-vn 🇻🇳 (в'єтнамська)" target_url="https://github.com/qdyg-vn" >}}
+  {{< person-circle image_url="https://unavatar.io/x/bsn21m" title="bsn21m 🇩🇪 (німецька)" target_url="https://x.com/bsn21m" >}}
+  {{< person-circle image_url="https://github.com/cyphra.png" title="cyphra 🇪🇸 (іспанська)" target_url="https://github.com/cyphra" >}}
+  {{< person-circle image_url="https://unavatar.io/x/DaGrindDontStop" title="DaGrindDontStop 🇨🇳 (китайська)" target_url="https://hosted.weblate.org/user/DaGrindDontStop/" >}}
+</div>
+
+<br>
+
+<p>Покращуйте переклади тут:</p>
+
+<div style="display: flex;  gap: 1rem; flex-wrap: wrap;">
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/open-graph.png" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/multi-auto.svg" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
 </div>

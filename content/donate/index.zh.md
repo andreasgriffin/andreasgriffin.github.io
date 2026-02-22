@@ -8,6 +8,7 @@ menu:
 
 ---
 
+
 ### {{< page-title >}} 
 
 
@@ -27,6 +28,7 @@ menu:
 <br>
 <br>
 
+
 ### 支持者
 
 <br> 
@@ -39,4 +41,28 @@ menu:
 
 
 
+</div>
+
+### 翻译者
+
+<br>
+
+<div class="row">
+  {{< person-circle image_url="https://github.com/qdyg-vn.png" title="qdyg-vn 🇻🇳 (越南语)" target_url="https://github.com/qdyg-vn" >}}
+  {{< person-circle image_url="https://unavatar.io/x/bsn21m" title="bsn21m 🇩🇪 (德语)" target_url="https://x.com/bsn21m" >}}
+  {{< person-circle image_url="https://github.com/cyphra.png" title="cyphra 🇪🇸 (西班牙语)" target_url="https://github.com/cyphra" >}}
+  {{< person-circle image_url="https://unavatar.io/x/DaGrindDontStop" title="DaGrindDontStop 🇨🇳 (中文)" target_url="https://hosted.weblate.org/user/DaGrindDontStop/" >}}
+</div>
+
+<br>
+
+<p>在此改进翻译：</p>
+
+<div style="display: flex;  gap: 1rem; flex-wrap: wrap;">
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/open-graph.png" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
+<a href="https://hosted.weblate.org/engage/bitcoin-safe/">
+<img src="https://hosted.weblate.org/widget/bitcoin-safe/multi-auto.svg" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
+</a>
 </div>
