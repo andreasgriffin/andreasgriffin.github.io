@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 126445757,
       "digest": "sha256:f53e0fca112c93697d40a481a06313d7f5f4d42c680c02adef08b7cebb92724c",
-      "download_count": 44,
+      "download_count": 458,
       "created_at": "2026-02-03T16:36:08Z",
       "updated_at": "2026-02-03T16:36:34Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-arm64.dmg"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:968fba7a7305410c0964d175784441e86251f9624a91c353cab101a925bc35a2",
-      "download_count": 44,
+      "download_count": 444,
       "created_at": "2026-02-03T16:35:19Z",
       "updated_at": "2026-02-03T16:35:19Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-arm64.dmg.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 115913592,
       "digest": "sha256:cae74d181daec7ecf733609916eb0db62e4874424fc0b3f4b9cc80ebf3356df3",
-      "download_count": 42,
+      "download_count": 449,
       "created_at": "2026-02-03T16:34:53Z",
       "updated_at": "2026-02-03T16:35:18Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-portable.exe"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:700ddeceb9367754bdce75e63529e256abdc322161e6cc4ca5df539b1b70fc8a",
-      "download_count": 42,
+      "download_count": 440,
       "created_at": "2026-02-03T16:36:05Z",
       "updated_at": "2026-02-03T16:36:05Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-portable.exe.asc"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 83799000,
       "digest": "sha256:7196302b144fc28abd581afe5448119917a27e86438e0141f3337b39fa8f9ad4",
-      "download_count": 45,
+      "download_count": 446,
       "created_at": "2026-02-03T16:35:47Z",
       "updated_at": "2026-02-03T16:36:05Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-setup.exe"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:f256c557f308b15a22e950e3c1443c13b793ce7a61831fc558a2835f7d2dc05e",
-      "download_count": 43,
+      "download_count": 441,
       "created_at": "2026-02-03T16:35:47Z",
       "updated_at": "2026-02-03T16:35:47Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-setup.exe.asc"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 248168893,
       "digest": "sha256:a04be26a3f3d3e3ada56d169b1767dddf4d48c3b6f31563fae13ee9f3b08753f",
-      "download_count": 42,
+      "download_count": 447,
       "created_at": "2026-02-03T16:34:03Z",
       "updated_at": "2026-02-03T16:34:53Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.AppImage.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:74d161b56ef15a2a7adccfdaa6c2cde9466ee96425306ead8df54dec2f755aee",
-      "download_count": 43,
+      "download_count": 438,
       "created_at": "2026-02-03T16:36:06Z",
       "updated_at": "2026-02-03T16:36:06Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.AppImage.tar.gz.asc"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 191707716,
       "digest": "sha256:4ed2cf769c2373eca91e9b5131335b0a2527cf93ca5ce7123410bfc5c27b6d77",
-      "download_count": 42,
+      "download_count": 448,
       "created_at": "2026-02-03T16:36:34Z",
       "updated_at": "2026-02-03T16:37:13Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.deb"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:b1b4fe87f0073d72f61c512e6dcfe7df15d615aec2488aa988cc2350e541c8d5",
-      "download_count": 42,
+      "download_count": 446,
       "created_at": "2026-02-03T16:36:07Z",
       "updated_at": "2026-02-03T16:36:07Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.deb.asc"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 121721718,
       "digest": "sha256:29a82701efa8e6724c6c1d95d8bcf9addcb653f1689b440fd7658eda3554e378",
-      "download_count": 42,
+      "download_count": 447,
       "created_at": "2026-02-03T16:35:19Z",
       "updated_at": "2026-02-03T16:35:46Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.dmg"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:c8bc7efdfbb2c164a6dc72ef5d6c3ee7a109a6835f0daad39aee98ac03f45c02",
-      "download_count": 42,
+      "download_count": 445,
       "created_at": "2026-02-03T16:36:07Z",
       "updated_at": "2026-02-03T16:36:08Z",
       "browser_download_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.7.1/Bitcoin-Safe-1.7.1-x86_64.dmg.asc"
@@ -472,5 +472,17 @@
   "tarball_url": "https://api.github.com/repos/andreasgriffin/bitcoin-safe/tarball/1.7.1",
   "zipball_url": "https://api.github.com/repos/andreasgriffin/bitcoin-safe/zipball/1.7.1",
   "body": "### New Features\r\n\r\n* Choice between BTC and ₿  in the UI\r\n* UTXO based coin selection is supplemented by address based coin selection directly from the address list\r\n* Fully configurable P2P listening connections for instant transaction notifications\r\n\r\n### Improvements\r\n\r\n* Better explanations for RBF/CPFP transactions\r\n* Better notifications for sync errors\r\n* Bug fixes, Translation fixes\r\n\r\n\r\nThanks to @design-rrr for relentless design support!\r\n\r\n### Check out \r\n\r\n- www.bitcoin-safe.org\r\n- 🌍 Community forum: [chorus](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki)\r\n- Follow on [nostr](https://yakihonne.com/profile/nprofile1qqsyz7tjgwuarktk88qvlnkzue3ja52c3e64s7pcdwj52egphdfll0cq9934g) or [X](https://x.com/BitcoinSafeOrg)\r\n\r\n####  Verify signature\r\n\r\nImport my [public key](https://keys.openpgp.org/vks/v1/by-fingerprint/2759AA7148568ECCB03B76301D82124B440F612D) and verify the signature with:\r\n```bash\r\ngpg --import 2759AA7148568ECCB03B76301D82124B440F612D.asc\r\ngpg --verify Bitcoin-Safe-1.7.1-x86_64.AppImage.asc\r\n```",
+  "reactions": {
+    "url": "https://api.github.com/repos/andreasgriffin/bitcoin-safe/releases/282638711/reactions",
+    "total_count": 2,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 2,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
