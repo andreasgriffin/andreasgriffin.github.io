@@ -1,0 +1,26 @@
+{
+  "names": {
+    "_"  :  "41797243b9d1d97639c0cfcec2e6632ed1588e755878386ba5456501bb53ffbf"  },
+
+  "relays": {
+	  "41797243b9d1d97639c0cfcec2e6632ed1588e755878386ba5456501bb53ffbf": [
+	      "wss://nostr-pub.semisol.dev",
+	      "wss://nostr-relay.wlvs.space",
+	      "wss://relay.snort.social",
+	      "wss://nostr.bitcoiner.social",
+	      "wss://relay.damus.io",
+	      "wss://offchain.pub",
+	      "wss://relay.current.fyi",
+	      "wss://nostr.onsats.org",
+	      "wss://nos.lol",
+	     "wss://nostr.wine",
+	      "wss://relay.nostr.band",
+	     "wss://brb.io",
+	      "wss://relay.nostr.info",
+	      "wss://nostr.walletofsatoshi.com",
+	      "wss://nostr.zebedee.cloud",
+	      "wss://eden.nostr.land",
+	      "wss://nostr-pub.wellorder.net"
+	  ]
+  }
+}
