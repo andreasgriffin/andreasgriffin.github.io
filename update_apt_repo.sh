@@ -11,6 +11,8 @@ APT_DATA_FILE="${APT_DATA_FILE:-data/apt_repo.json}"
 APT_GPG_KEY_ID="${APT_GPG_KEY_ID:-}"
 APT_KEYRING_PATH="${APT_KEYRING_PATH:-/usr/share/keyrings/bitcoin-safe-archive-keyring.gpg}"
 APT_KEYRING_FILE="${APT_KEYRING_FILE:-bitcoin-safe-archive-keyring.gpg}"
+UPSTREAM_SIGNATURE_KEY_FINGERPRINT="${UPSTREAM_SIGNATURE_KEY_FINGERPRINT:-2759AA7148568ECCB03B76301D82124B440F612D}"
+UPSTREAM_SIGNATURE_KEY_URL="${UPSTREAM_SIGNATURE_KEY_URL:-https://keys.openpgp.org/vks/v1/by-fingerprint/${UPSTREAM_SIGNATURE_KEY_FINGERPRINT}}"
 
 APT_REPO_URL="${APT_REPO_URL%/}"
 APT_KEYRING_URL="${APT_REPO_URL}/${APT_KEYRING_FILE}"
@@ -23,12 +25,31 @@ require_cmd() {
   fi
 }
 
-for cmd in curl jq dpkg-deb dpkg-scanpackages gzip md5sum sha256sum stat sort base64; do
+for cmd in curl jq dpkg-deb dpkg-scanpackages gzip md5sum sha256sum stat sort base64 gpg; do
   require_cmd "$cmd"
 done
 
 if [[ ! -f "$RELEASE_FILE" ]]; then
   echo "Error: release file not found: $RELEASE_FILE" >&2
+  exit 1
+fi
+
+verify_gnupg_home="$(mktemp -d)"
+upstream_key_file="$(mktemp)"
+trap 'rm -rf "$verify_gnupg_home" "$upstream_key_file"' EXIT
+chmod 700 "$verify_gnupg_home"
+
+echo "Downloading upstream release signing key"
+curl -fsSL "$UPSTREAM_SIGNATURE_KEY_URL" -o "$upstream_key_file"
+GNUPGHOME="$verify_gnupg_home" gpg --batch --import "$upstream_key_file"
+
+expected_fpr="$(echo "$UPSTREAM_SIGNATURE_KEY_FINGERPRINT" | tr '[:lower:]' '[:upper:]')"
+imported_fpr="$(
+  GNUPGHOME="$verify_gnupg_home" gpg --batch --with-colons --fingerprint "$UPSTREAM_SIGNATURE_KEY_FINGERPRINT" 2>/dev/null \
+    | awk -F: '$1 == "fpr" { print toupper($10); exit }'
+)"
+if [[ "$imported_fpr" != "$expected_fpr" ]]; then
+  echo "Error: imported key fingerprint mismatch (expected $expected_fpr, got ${imported_fpr:-<none>})" >&2
   exit 1
 fi
 
@@ -64,9 +85,26 @@ for asset_b64 in "${deb_assets[@]}"; do
     package_name="$current_package"
   fi
 
-  asc_url="$(jq -r --arg n "${asset_name}.asc" '.assets[] | select(.name == $n) | .browser_download_url' "$RELEASE_FILE")"
-  if [[ -n "$asc_url" ]]; then
-    curl -fsSL "$asc_url" -o "${target_deb}.asc"
+  sig_name="${asset_name}.sig"
+  sig_url="$(jq -r --arg n "$sig_name" '.assets[] | select(.name == $n) | .browser_download_url' "$RELEASE_FILE")"
+  if [[ -z "$sig_url" || "$sig_url" == "null" ]]; then
+    sig_name="${asset_name}.asc"
+    sig_url="$(jq -r --arg n "$sig_name" '.assets[] | select(.name == $n) | .browser_download_url' "$RELEASE_FILE")"
+  fi
+
+  if [[ -z "$sig_url" || "$sig_url" == "null" ]]; then
+    echo "Error: no detached signature asset found for $asset_name (.sig or .asc)" >&2
+    exit 1
+  fi
+
+  target_sig="$pool_dir/$sig_name"
+  echo "Downloading $sig_name"
+  curl -fsSL "$sig_url" -o "$target_sig"
+
+  echo "Verifying signature for $asset_name"
+  if ! GNUPGHOME="$verify_gnupg_home" gpg --batch --verify "$target_sig" "$target_deb"; then
+    echo "Error: signature verification failed for $asset_name" >&2
+    exit 1
   fi
 done
 
