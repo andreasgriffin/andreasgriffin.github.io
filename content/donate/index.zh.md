@@ -19,9 +19,9 @@ menu:
 - 支持 Bitcoin Safe 最简单的方式是捐赠：
   - {{< donation_btc >}}
 - 但你也可以通过贡献工作来支持，例如
-  -   *测试*、*测试*、*测试*，并向我提供错误报告
+  - {{< i18n "donate_support_testing_feedback" >}}
   - 改进 **Bitcoin Safe** 的[翻译](https://hosted.weblate.org/engage/bitcoin-safe/)。没有找到你的语言？写信给我，我们一起来添加。
-  - 或寻找其他方式，使 **Bitcoin Safe** 对所有人更好
+  - {{< i18n "donate_support_other_ways" >}}
 
 支持 **Bitcoin Safe** 并进入下面的名单
 

@@ -19,9 +19,9 @@ Building **Bitcoin Safe** è un lavoro difficile, impegnativo e accurato per off
 - Il modo più semplice per supportare Bitcoin Safe è donare: 
   - {{< donation_btc >}}
 - Ma puoi anche contribuire con il tuo lavoro, per esempio
-  -   *test*, *test*, *test* e inviando segnalazioni di bug
+  - {{< i18n "donate_support_testing_feedback" >}}
   - migliora le [traduzioni](https://hosted.weblate.org/engage/bitcoin-safe/) di **Bitcoin Safe**. Non trovi la tua lingua? Scrivimi e la aggiungiamo insieme.
-  -  oppure trova altri modi per rendere **Bitcoin Safe** migliore per tutti
+  - {{< i18n "donate_support_other_ways" >}}
 
 Sostieni **Bitcoin Safe** e entra nella lista qui sotto
 

@@ -1,19 +1,68 @@
-hardware_buy_official = "Comprar na loja oficial"
-hardware_discount = "Código de desconto"
-hardware_default_body = "Mais detalhes sobre este assinador serão adicionados em breve."
-hardware_expect_title = "O que esperar"
-hardware_expect_intro = "O {{ .Name }} é totalmente suportado pelo Bitcoin Safe. Você pode assinar transações via {{ .Connections }} sem configuração extra."
-hardware_expect_usb = "Use USB para um fluxo de trabalho rápido no desktop."
-hardware_expect_qr = "Troque PSBTs com códigos QR da câmera para assinatura isolada."
-hardware_expect_sd = "Fique offline transferindo PSBT por microSD."
-hardware_expect_bitcoin_only = "Vem com firmware apenas Bitcoin para reduzir a superfície de ataque."
-hardware_expect_bitcoin_only_available = "Firmware apenas Bitcoin opcional."
-hardware_instructions = "Instruções"
-hardware_step_generate_seed = "Gerar seed"
-hardware_step_generate_seed_intro = "Crie uma nova seed no dispositivo antes de emparelhar."
-hardware_step_register_descriptor = "Registrar descritor multisig"
-hardware_step_register_descriptor_intro = "Carregue o descritor multisig para que o assinador conheça o mapa da carteira."
-hardware_step_view_seed = "Ver seed"
-hardware_step_view_seed_intro = "Verifique as palavras da seed direto na tela do dispositivo."
-hardware_step_wallet_export = "Exportar assinador"
-hardware_step_wallet_export_intro = "Exporte o arquivo/descritor do assinador para backup e coordenação."
+[hardware_buy_official]
+other = "Comprar na loja oficial"
+
+[hardware_discount]
+other = "Código de desconto"
+
+[hardware_default_body]
+other = "Mais detalhes sobre este assinador serão adicionados em breve."
+
+[hardware_expect_title]
+other = "O que esperar"
+
+[hardware_expect_intro]
+other = "O {{ .Name }} é totalmente suportado pelo Bitcoin Safe. Você pode assinar transações via {{ .Connections }} sem configuração extra."
+
+[hardware_expect_usb]
+other = "Use USB para um fluxo de trabalho rápido no desktop."
+
+[hardware_expect_qr]
+other = "Troque PSBTs com códigos QR da câmera para assinatura isolada."
+
+[hardware_expect_sd]
+other = "Fique offline transferindo PSBT por microSD."
+
+[hardware_expect_bitcoin_only]
+other = "Vem com firmware apenas Bitcoin para reduzir a superfície de ataque."
+
+[hardware_expect_bitcoin_only_available]
+other = "Firmware apenas Bitcoin opcional."
+
+[hardware_instructions]
+other = "Instruções"
+
+[hardware_step_generate_seed]
+other = "Gerar seed"
+
+[hardware_step_generate_seed_intro]
+other = "Crie uma nova seed no dispositivo antes de emparelhar."
+
+[hardware_step_register_descriptor]
+other = "Registrar descritor multisig"
+
+[hardware_step_register_descriptor_intro]
+other = "Carregue o descritor multisig para que o assinador conheça o mapa da carteira."
+
+[hardware_step_view_seed]
+other = "Ver seed"
+
+[hardware_step_view_seed_intro]
+other = "Verifique as palavras da seed direto na tela do dispositivo."
+
+[hardware_step_wallet_export]
+other = "Exportar assinador"
+
+[hardware_step_wallet_export_intro]
+other = "Exporte o arquivo/descritor do assinador para backup e coordenação."
+
+[donate_support_testing_feedback]
+other = "*testar*, *testar*, *testar*, e enviar novos relatórios de bugs e feedback via [GitHub](https://github.com/andreasgriffin/bitcoin-safe/issues/new), [Community Forum](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki) ou em privado por [Email](mailto:bitcoinsafe.strobe206@aleeas.com)."
+
+[donate_support_other_ways]
+other = "ou encontrar outras formas de tornar o **Bitcoin Safe** melhor para todos"
+
+[hardware_badge_bitcoin_only]
+other = "Apenas Bitcoin"
+
+[hardware_badge_bitcoin_only_available]
+other = "Opção apenas Bitcoin disponível"

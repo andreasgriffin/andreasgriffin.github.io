@@ -10,9 +10,9 @@
 <div class="col">
   <div class="card h-100 shadow-sm">
     {{ if $signer.bitcoin_only }}
-      <span class="badge bg-warning text-dark position-absolute m-2">Bitcoin-only</span>
+      <span class="badge bg-warning text-dark position-absolute m-2">{{ i18n "hardware_badge_bitcoin_only" }}</span>
     {{ else if $signer.bitcoin_only_available }}
-      <span class="badge bg-warning text-dark position-absolute m-2">Bitcoin-only available</span>
+      <span class="badge bg-warning text-dark position-absolute m-2">{{ i18n "hardware_badge_bitcoin_only_available" }}</span>
     {{ end }}
 
     <a href="{{ $href }}" class="stretched-link text-decoration-none text-reset">
