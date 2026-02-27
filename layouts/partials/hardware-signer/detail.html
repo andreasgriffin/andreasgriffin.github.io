@@ -24,8 +24,8 @@
         <h1 class="mb-1">{{ $name }}</h1>
         {{ with $summary }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
         <div class="d-flex gap-2 flex-wrap mb-2">
-          {{ if $signer.bitcoin_only }}<span class="badge bg-warning text-dark">Bitcoin-only</span>{{ end }}
-          {{ if $signer.bitcoin_only_available }}<span class="badge bg-warning text-dark">Bitcoin-only available</span>{{ end }}
+          {{ if $signer.bitcoin_only }}<span class="badge bg-warning text-dark">{{ i18n "hardware_badge_bitcoin_only" }}</span>{{ end }}
+          {{ if $signer.bitcoin_only_available }}<span class="badge bg-warning text-dark">{{ i18n "hardware_badge_bitcoin_only_available" }}</span>{{ end }}
         </div>
         <div class="mb-2">
           {{ partial "hardware-signer/features.html" (dict "features" $signer.features "center" false) }}

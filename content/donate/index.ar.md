@@ -19,9 +19,9 @@ menu:
 - أسهل طريقة لدعم Bitcoin Safe هي بالتبرع:
   - {{< donation_btc >}}
 - لكن يمكنك أيضًا المساهمة بعملك، على سبيل المثال
-  -   *الاختبار*، *الاختبار*، *الاختبار*، وإرسال تقارير الأخطاء إليّ
+  - {{< i18n "donate_support_testing_feedback" >}}
   - تحسين [الترجمات](https://hosted.weblate.org/engage/bitcoin-safe/) الخاصة بـ **Bitcoin Safe**. لا تجد لغتك هناك؟ اكتب لي وسنضيفها معًا.
-  - أو إيجاد طرق أخرى لجعل **Bitcoin Safe** أفضل للجميع
+  - {{< i18n "donate_support_other_ways" >}}
 
 ادعم **Bitcoin Safe** واندرج في القائمة أدناه
 
