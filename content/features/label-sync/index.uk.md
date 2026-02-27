@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/label-sync/"
 title: "Синхронізація міток"
 description: "Синхронізація міток і категорій монет"
 draft: false

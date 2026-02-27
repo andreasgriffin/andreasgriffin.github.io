@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Graphique de portefeuille"
 description: "Visualisez l’historique du portefeuille et exportez chaque transaction et UTXO en GraphML."
 draft: false

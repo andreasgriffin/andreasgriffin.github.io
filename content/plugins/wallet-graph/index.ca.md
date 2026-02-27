@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Gràfic de cartera"
 description: "Visualitza l’historial de la cartera i exporta totes les transaccions i UTXO com a GraphML."
 draft: false

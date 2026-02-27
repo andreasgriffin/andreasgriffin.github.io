@@ -6,8 +6,6 @@ tags: ["legal"]
 menu:
   footer:
     weight: 90
-aliases:
-  - "/terms-os-use/"
 ---
 
 # Умови використання

@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/bitbox02/"
 title: "BitBox02 / BitBox02 Nova"
 signer: bitbox02
 # type: "watch"

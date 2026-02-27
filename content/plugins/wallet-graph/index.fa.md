@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "نمودار کیف پول"
 description: "تاریخچه کیف پول را ببینید و تمام تراکنش‌ها و UTXOها را به GraphML صادر کنید."
 draft: false

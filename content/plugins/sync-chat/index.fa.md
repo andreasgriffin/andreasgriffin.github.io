@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "همتایان کیف پول را پیدا کنید، برچسب‌ها و دسته‌ها را همگام کنید، امن چت کنید و PSBT را با یک کلیک به اشتراک بگذارید."
 draft: false

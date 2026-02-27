@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/_index/"
 title: "Плагіни"
 layout: "custom-tag-list"
 tag: "plugins"

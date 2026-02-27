@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "ပိုက်ဆံအိတ်တွင်ဖော်များရှာ၍ label/အမျိုးအစားများကို ချိတ်ဆက်၊ စိတ်ချလက်ချ စကားပြောပြီး PSBT ကို တစ်ချက်နှိပ်မှတဆင့် မျှဝေပါ။"
 draft: false

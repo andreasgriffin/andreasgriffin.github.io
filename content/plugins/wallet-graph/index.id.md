@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Graf dompet"
 description: "Visualisasikan riwayat dompet dan ekspor semua transaksi serta UTXO sebagai GraphML."
 draft: false

@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "اكتشف الأجهزة المرتبطة بمحفظتك، وزامن التصنيفات، وتحدث بأمان، وشارك PSBT بضغطة واحدة."
 draft: false

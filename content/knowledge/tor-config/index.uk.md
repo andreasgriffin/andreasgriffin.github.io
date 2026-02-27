@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/tor-config/"
 title: "Налаштування Tor"
 description: "Використовуйте власний вузол через Start9 або Umbrel"
 draft: false

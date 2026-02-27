@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Znajdź współużytkowników portfela, synchronizuj etykiety i kategorie, czatuj bezpiecznie i udostępniaj PSBT jednym kliknięciem."
 draft: false

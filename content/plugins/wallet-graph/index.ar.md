@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "مخطط المحفظة"
 description: "تصوّر سجل المحفظة وصدّر كل المعاملات و UTXO بصيغة GraphML."
 draft: false

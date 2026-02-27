@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Wykres portfela"
 description: "Wizualizuj historię portfela i eksportuj każdą transakcję oraz UTXO do GraphML."
 draft: false

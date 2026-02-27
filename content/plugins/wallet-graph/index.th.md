@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "กราฟกระเป๋าเงิน"
 description: "แสดงประวัติกระเป๋าเงินและส่งออกธุรกรรมและ UTXO ทุกตัวเป็น GraphML"
 draft: false

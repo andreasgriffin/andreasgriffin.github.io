@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Descobreix els parells del teu moneder, sincronitza etiquetes i categories, xateja de forma segura i comparteix PSBT amb un clic."
 draft: false

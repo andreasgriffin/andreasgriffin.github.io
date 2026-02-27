@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Grafico del wallet"
 description: "Visualizza la cronologia del wallet ed esporta ogni transazione e UTXO in GraphML."
 draft: false

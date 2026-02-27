@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/usps/"
 title: "Чому обрати Bitcoin Safe?"
 description: "Існує кілька настільних біткоїн-гаманців. Подивіться, чим Bitcoin Safe вирізняється."
 draft: false

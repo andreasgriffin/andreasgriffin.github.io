@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Descubre pares en tu billetera, sincroniza etiquetas y categorías, chatea de forma segura y comparte PSBT en un clic."
 draft: false

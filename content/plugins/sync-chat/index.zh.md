@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "发现同钱包的伙伴，同步标签和分类，安全聊天，并一键共享PSBT。"
 draft: false

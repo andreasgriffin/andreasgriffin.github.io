@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/instant-transactions-notifications/"
 title: "Миттєві сповіщення про транзакції"
 description: "Як Bitcoin Safe отримує миттєві сповіщення про транзакції"
 draft: false

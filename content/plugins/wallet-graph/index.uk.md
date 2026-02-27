@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Wallet Graph"
 description: "Візуалізуйте історію гаманця та експортуйте кожну транзакцію й UTXO у форматі GraphML."
 draft: false

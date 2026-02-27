@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "ပိုက်ဆံအိတ် ဂရပ်"
 description: "ပိုက်ဆံအိတ်မှတ်တမ်းကို မြင်သာစေပြီး လုပ်ငန်းစဉ်၊ UTXO အားလုံးကို GraphML ဖြင့် ထုတ်ယူပါ။"
 draft: false

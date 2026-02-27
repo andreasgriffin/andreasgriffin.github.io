@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "ウォレットグラフ"
 description: "ウォレット履歴を可視化し、すべての取引とUTXOをGraphMLでエクスポート。"
 draft: false

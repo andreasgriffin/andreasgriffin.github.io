@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/currencies/"
 title: "Фіатні валюти"
 description: "Обирайте фіатну валюту та навіть конвертуйте"
 draft: false

@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "वॉलेट ग्राफ"
 description: "वॉलेट का इतिहास दिखाएँ और हर ट्रांज़ेक्शन व UTXO को GraphML में एक्सपोर्ट करें।"
 draft: false

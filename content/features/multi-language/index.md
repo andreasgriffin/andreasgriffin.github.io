@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "/features/collaboration/"
+  - "/features/multi-language/"
 title: "Multi language support"
 description: "We support over 20 languages"
 draft: false

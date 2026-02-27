@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/trezor/"
 title: "Trezor Safe 3 & 5"
 signer: trezor
 # type: "watch"

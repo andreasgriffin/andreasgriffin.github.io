@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Encontre pares da carteira, sincronize rótulos e categorias, converse com segurança e compartilhe PSBT com um clique."
 draft: false

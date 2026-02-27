@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/money-flow-diagram/"
 title: "Навігація діаграмами руху коштів"
 description: "Переходьте по діаграмах руху коштів простими кліками по входах або виходах транзакції чи PSBT"
 draft: false

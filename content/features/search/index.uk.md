@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/search/"
 title: "Пошук"
 description: "Введіть запит для пошуку у всіх відкритих гаманцях"
 draft: false

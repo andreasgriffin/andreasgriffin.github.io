@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Temukan rekan dompet, sinkronkan label dan kategori, obrolan aman, dan bagikan PSBT dengan sekali klik."
 draft: false

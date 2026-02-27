@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "钱包图表"
 description: "可视化钱包历史，并将所有交易和UTXO导出为GraphML。"
 draft: false

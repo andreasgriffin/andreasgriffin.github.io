@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/setup-singlesig-wallet/"
 title: "Покрокове налаштування SingleSig"
 description: "Майстер налаштування Bitcoin Safe проведе вас кроками створення singlesig біткоїн‑гаманця"
 draft: false

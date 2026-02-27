@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/download/"
 title: "Завантажити"
 description: "Завантаження Bitcoin Safe"
 draft: false

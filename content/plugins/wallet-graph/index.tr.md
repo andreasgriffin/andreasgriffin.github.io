@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Cüzdan Grafiği"
 description: "Cüzdan geçmişini görselleştir ve tüm işlemleri ile UTXO’ları GraphML olarak dışa aktar."
 draft: false

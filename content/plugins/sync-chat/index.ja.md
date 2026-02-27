@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "ウォレットの仲間を見つけ、ラベルとカテゴリを同期し、安全にチャット、PSBTをワンクリック共有。"
 draft: false

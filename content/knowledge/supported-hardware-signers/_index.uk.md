@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/"
 title: "Повністю підтримувані апаратні підписувачі"
 description: "Повністю підтримувані апаратні підписувачі для Bitcoin Safe"
 draft: false
@@ -15,7 +13,6 @@ keywords: [
 ]
 weight: 100
 images: ["logo.png"]
-
 ---
 
 ### {{< page-title >}}

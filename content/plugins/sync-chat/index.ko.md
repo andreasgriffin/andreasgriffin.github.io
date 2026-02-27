@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "지갑에서 피어를 찾고, 라벨/카테고리를 동기화하며, 안전하게 채팅하고 PSBT를 원클릭 공유."
 draft: false

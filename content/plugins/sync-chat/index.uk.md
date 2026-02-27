@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Знаходьте пристрої, синхронізуйте мітки й категорії, спілкуйтеся безпечно та діліться PSBT одним кліком."
 draft: false

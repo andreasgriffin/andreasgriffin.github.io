@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/myfirstbitcoin/"
 title: "Вступ до Bitcoin"
 description: "Вступний курс про Bitcoin: трансформація грошей і майбутнє валюти"
 draft: false

@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/setup-multisignature-wallet/"
 title: "Майстер налаштування — SingleSig та MultiSig"
 description: "Майстер налаштування Bitcoin Safe проведе вас кроками створення безпечного біткоїн-гаманця"
 draft: false

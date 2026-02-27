@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "ค้นหาเพื่อนร่วมกระเป๋า ซิงก์ป้ายและหมวดหมู่ แชทอย่างปลอดภัย และแชร์ PSBT แค่คลิกเดียว"
 draft: false

@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/verify-receive-address/"
 title: "Перевірка адрес отримання"
 description: "Перевіряйте адреси отримання з Trezor і Jade"
 draft: false

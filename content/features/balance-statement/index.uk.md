@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/balance-statement/"
 title: "Звіт про баланс"
 description: "Експортує PDF-звіт про баланс"
 draft: false

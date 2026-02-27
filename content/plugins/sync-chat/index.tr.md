@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Cüzdan eşlerini bul, etiketleri/kategorileri senkronize et, güvenli sohbet et ve PSBT’yi tek tıkla paylaş."
 draft: false

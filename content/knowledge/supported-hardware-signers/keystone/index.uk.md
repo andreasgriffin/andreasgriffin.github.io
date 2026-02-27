@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/keystone/"
 title: "Keystone"
 signer: keystone
 # type: "watch"

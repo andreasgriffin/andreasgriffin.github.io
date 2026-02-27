@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/cross-platform/"
 title: "Для Windows, MacOS, Linux"
 description: "Доступно на всіх настільних ОС: Windows, MacOS, Linux"
 draft: false

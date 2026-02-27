@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/coldcard-q/"
 title: "Coldcard Q"
 signer: coldcard-q
 # type: "watch"

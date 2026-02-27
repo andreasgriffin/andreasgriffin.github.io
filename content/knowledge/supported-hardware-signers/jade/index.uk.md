@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/supported-hardware-signers/jade/"
 title: "Jade"
 signer: jade
 # type: "watch"

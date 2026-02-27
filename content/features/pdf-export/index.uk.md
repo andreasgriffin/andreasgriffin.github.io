@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/pdf-export/"
 title: "Експорт PDF"
 description: "Експортуйте PDF-аркуш резервної копії для мультисиг-гаманця"
 draft: false

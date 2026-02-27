@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/collaboration/"
 title: "Співпраця в мультисиг"
 description: "Надсилайте PSBT між учасниками багатостороннього мультисиг-гаманця"
 draft: false

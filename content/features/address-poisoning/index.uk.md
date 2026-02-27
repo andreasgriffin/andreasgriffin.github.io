@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/address-poisoning/"
 title: "Виявлення отруєння адреси"
 description: "Зловмисники можуть надсилати транзакції з адресами, схожими на вашу. Bitcoin Safe попередить про це"
 draft: false

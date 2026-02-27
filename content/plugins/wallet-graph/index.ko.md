@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "지갑 그래프"
 description: "지갑 기록을 시각화하고 모든 트랜잭션과 UTXO를 GraphML로 내보냅니다."
 draft: false

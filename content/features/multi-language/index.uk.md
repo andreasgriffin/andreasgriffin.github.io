@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/features/collaboration/"
 title: "Підтримка багатьох мов"
 description: "Ми підтримуємо понад 20 мов"
 draft: false

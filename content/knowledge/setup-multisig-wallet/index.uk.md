@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/knowledge/setup-multisig-wallet/"
 title: "Покрокове налаштування MultiSig"
 description: "Майстер налаштування Bitcoin Safe проведе вас кроками створення 2‑з‑3 мультисиг‑гаманця"
 draft: false

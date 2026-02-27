@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "Ищите участников кошелька, синхронизируйте метки и категории, общайтесь безопасно и делитесь PSBT в один клик."
 draft: false

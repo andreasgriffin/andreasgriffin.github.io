@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/wallet-graph/"
 title: "Gráfico da carteira"
 description: "Visualize o histórico da carteira e exporte todas as transações e UTXOs em GraphML."
 draft: false

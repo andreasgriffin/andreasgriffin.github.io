@@ -1,6 +1,4 @@
 ---
-aliases:
-  - "/plugins/sync-chat/"
 title: "Sync & Chat"
 description: "वॉलेट में साथियों को खोजें, लेबल/श्रेणियाँ सिंक करें, सुरक्षित चैट करें और PSBT एक क्लिक में साझा करें।"
 draft: false
