@@ -1,0 +1,11 @@
+{
+  "url": "https://bitcoin-safe.org/apt",
+  "suite": "stable",
+  "component": "main",
+  "package": "bitcoin-safe",
+  "signed": false,
+  "source_line": "deb [trusted=yes] https://bitcoin-safe.org/apt stable main",
+  "keyring_path": "/usr/share/keyrings/bitcoin-safe-archive-keyring.gpg",
+  "keyring_file": "bitcoin-safe-archive-keyring.gpg",
+  "keyring_url": "https://bitcoin-safe.org/apt/bitcoin-safe-archive-keyring.gpg"
+}

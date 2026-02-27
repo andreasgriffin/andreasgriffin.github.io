@@ -13,6 +13,10 @@ menu:
 
 {{< latest_release >}}
 
+### Debian/Ubuntu (APT deposu) ile kurulum
+
+{{< apt_repo_install >}}
+
 
 ✅ **Bitcoin Safe sizi daha yeni bir sürüm olduğunda bilgilendirir ve özgünlüğünü otomatik olarak doğrular.**
 
