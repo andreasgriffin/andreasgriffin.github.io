@@ -51,9 +51,8 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 ซอฟต์แวร์ทั้งหมดถูกลงลายมือชื่อด้วยคีย์ส่วนตัวของฉัน ยืนยันว่าการดาวน์โหลดเป็นของแท้โดยทำตามขั้นตอนดังต่อไปนี้:
 
 นำเข้ากุญแจสาธารณะของฉัน [กุญแจสาธารณะ]({{< gpg_key_link >}}) แล้วตรวจสอบลายเซ็นด้วย:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

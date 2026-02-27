@@ -51,9 +51,8 @@ Bitte führen Sie die folgenden Schritte aus, um Bitcoin Safe unter macOS zu sta
 Alle Software ist mit meinem privaten Schlüssel signiert. Überprüfen Sie die Authentizität des Downloads, indem Sie folgende Schritte ausführen:
 
 Importieren Sie meinen [öffentlichen Schlüssel]({{< gpg_key_link >}}) und überprüfen Sie die Signatur mit:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

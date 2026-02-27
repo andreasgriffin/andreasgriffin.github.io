@@ -51,9 +51,8 @@ Ikuti langkah-langkah berikut untuk menjalankan Bitcoin Safe di macOS:
 Semua perangkat lunak ditandatangani dengan kunci privat saya. Verifikasi bahwa unduhan ini otentik dengan mengikuti langkah-langkah berikut:
 
 Impor [kunci publik]({{< gpg_key_link >}}) saya dan verifikasi tanda tangannya dengan:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

@@ -51,9 +51,8 @@ Segueix aquests passos per executar Bitcoin Safe a macOS:
 Tot el programari està signat amb la meva clau privada. Verifica que la descàrrega és autèntica seguint aquests passos:
 
 Importa la meva [clau pública]({{< gpg_key_link >}}) i verifica la signatura amb:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

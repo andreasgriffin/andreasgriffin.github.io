@@ -53,9 +53,8 @@ Please follow the steps to run Bitcoin Safe on macOS:
 All software is signed with my private key. Verify the download is authentic by following these steps:
 
 Import my [public key]({{< gpg_key_link >}}) and verify the signature with:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

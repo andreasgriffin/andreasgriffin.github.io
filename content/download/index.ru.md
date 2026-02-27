@@ -51,9 +51,8 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 Всё программное обеспечение подписано моим приватным ключом. Проверьте подлинность загрузки, выполнив следующие шаги:
 
 Импортируйте мой [публичный ключ]({{< gpg_key_link >}}) и проверьте подпись с помощью:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

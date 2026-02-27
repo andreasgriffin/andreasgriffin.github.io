@@ -51,9 +51,8 @@ Bitcoin Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
 Tüm yazılımlar özel anahtarımla imzalanmıştır. İndirmenin orijinal olduğunu doğrulamak için şu adımları izleyin:
 
 Benim [açık anahtarımı]({{< gpg_key_link >}}) içe aktarın ve imzayı şu komutla doğrulayın:
-```bash
-{{< gpg_import_code >}}
-```
+
+{{< gpg_verify_tabs >}}
 
 
 

@@ -1,0 +1,106 @@
+{{- $release := .Site.Data.latest_release -}}
+{{- $tabs := slice -}}
+
+{{- range $asset := $release.assets -}}
+  {{- if strings.HasSuffix $asset.name ".asc" -}}
+    {{- $binary := strings.TrimSuffix ".asc" $asset.name -}}
+    {{- $typeKey := "other" -}}
+    {{- $typeLabel := "Other" -}}
+
+    {{- if findRE "portable\\.exe$" $binary -}}
+      {{- $typeKey = "portable-exe" -}}
+      {{- $typeLabel = "Portable EXE" -}}
+    {{- else if findRE "setup\\.exe$" $binary -}}
+      {{- $typeKey = "setup-exe" -}}
+      {{- $typeLabel = "Setup EXE" -}}
+    {{- else if findRE "\\.exe$" $binary -}}
+      {{- $typeKey = "exe" -}}
+      {{- $typeLabel = "EXE" -}}
+    {{- else if findRE "\\.msi$" $binary -}}
+      {{- $typeKey = "msi" -}}
+      {{- $typeLabel = "MSI" -}}
+    {{- else if findRE "arm64\\.dmg$" $binary -}}
+      {{- $typeKey = "dmg-arm64" -}}
+      {{- $typeLabel = "DMG arm64" -}}
+    {{- else if findRE "x86_64\\.dmg$" $binary -}}
+      {{- $typeKey = "dmg-x86-64" -}}
+      {{- $typeLabel = "DMG x86_64" -}}
+    {{- else if findRE "\\.dmg$" $binary -}}
+      {{- $typeKey = "dmg" -}}
+      {{- $typeLabel = "DMG" -}}
+    {{- else if findRE "\\.pkg$" $binary -}}
+      {{- $typeKey = "pkg" -}}
+      {{- $typeLabel = "PKG" -}}
+    {{- else if findRE "AppImage\\.tar\\.gz$" $binary -}}
+      {{- $typeKey = "appimage" -}}
+      {{- $typeLabel = "AppImage" -}}
+    {{- else if findRE "\\.AppImage$" $binary -}}
+      {{- $typeKey = "appimage" -}}
+      {{- $typeLabel = "AppImage" -}}
+    {{- else if findRE "\\.deb$" $binary -}}
+      {{- $typeKey = "deb" -}}
+      {{- $typeLabel = "DEB" -}}
+    {{- else if findRE "\\.rpm$" $binary -}}
+      {{- $typeKey = "rpm" -}}
+      {{- $typeLabel = "RPM" -}}
+    {{- else if findRE "\\.flatpak$" $binary -}}
+      {{- $typeKey = "flatpak" -}}
+      {{- $typeLabel = "Flatpak" -}}
+    {{- else if findRE "\\.snap$" $binary -}}
+      {{- $typeKey = "snap" -}}
+      {{- $typeLabel = "Snap" -}}
+    {{- else if findRE "\\.tar\\.gz$" $binary -}}
+      {{- $typeKey = "tar-gz" -}}
+      {{- $typeLabel = "tar.gz" -}}
+    {{- else if findRE "\\.tar\\.xz$" $binary -}}
+      {{- $typeKey = "tar-xz" -}}
+      {{- $typeLabel = "tar.xz" -}}
+    {{- end -}}
+
+    {{- $updated := slice -}}
+    {{- $found := false -}}
+    {{- range $tab := $tabs -}}
+      {{- if eq (index $tab "key") $typeKey -}}
+        {{- $files := (index $tab "files") | append $binary -}}
+        {{- $updated = $updated | append (dict "key" $typeKey "label" (index $tab "label") "files" $files) -}}
+        {{- $found = true -}}
+      {{- else -}}
+        {{- $updated = $updated | append $tab -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $found -}}
+      {{- $updated = $updated | append (dict "key" $typeKey "label" $typeLabel "files" (slice $binary)) -}}
+    {{- end -}}
+    {{- $tabs = $updated -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $tabsID := printf "gpg-verify-tabs-%d" .Ordinal -}}
+
+{{- if gt (len $tabs) 0 -}}
+<ul class="nav nav-tabs" id="{{ $tabsID }}" role="tablist">
+  {{- range $idx, $tab := $tabs -}}
+  {{- $tabID := printf "%s-%s" $tabsID (index $tab "key") -}}
+  {{- $active := eq $idx 0 -}}
+  <li class="nav-item" role="presentation">
+    <button class="nav-link{{ if $active }} active{{ end }}" id="{{ $tabID }}-tab" data-bs-toggle="tab" data-bs-target="#{{ $tabID }}" type="button" role="tab" aria-controls="{{ $tabID }}" aria-selected="{{ if $active }}true{{ else }}false{{ end }}">{{ index $tab "label" }}</button>
+  </li>
+  {{- end -}}
+</ul>
+<div class="tab-content border border-top-0 rounded-bottom p-3 mb-2" id="{{ $tabsID }}-content">
+  {{- range $idx, $tab := $tabs -}}
+  {{- $tabID := printf "%s-%s" $tabsID (index $tab "key") -}}
+  {{- $active := eq $idx 0 -}}
+  {{- $commands := slice -}}
+  {{- $commands = $commands | append "gpg --import 2759AA7148568ECCB03B76301D82124B440F612D.asc" -}}
+  {{- range $file := (index $tab "files") -}}
+    {{- $commands = $commands | append (printf "gpg --verify %s.asc              # for %s" $file $file) -}}
+  {{- end -}}
+  <div class="tab-pane fade{{ if $active }} show active{{ end }}" id="{{ $tabID }}" role="tabpanel" aria-labelledby="{{ $tabID }}-tab" tabindex="0">
+    {{ highlight (delimit $commands "\n") "bash" "" }}
+  </div>
+  {{- end -}}
+</div>
+{{- else -}}
+{{ highlight "No signatures found in the latest release data." "text" "" }}
+{{- end -}}
