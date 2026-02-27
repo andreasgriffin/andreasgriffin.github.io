@@ -21,9 +21,9 @@ Building **Bitcoin Safe** is hard, diffcult and careful work to build the best v
 - Easiest way you can  support Bitcoin Safe is by donating: 
   - {{< donation_btc >}}
 - But you can also support with your work, for example
-  -   *testing*, *testing*, *testing*, and giving me bug reports
+  -   *testing*, *testing*, *testing*, and submit new bug reports and feedback via [GitHub](https://github.com/andreasgriffin/bitcoin-safe/issues/new), [Community Forum](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki) or privately via [Email](mailto:bitcoinsafe.strobe206@aleeas.com).
   - improve the [translations](https://hosted.weblate.org/engage/bitcoin-safe/) of **Bitcoin Safe**. You don't find your language there?  Write to me and we add it together.
-  -  or  find other ways to to make **Bitcoin Safe** better for everyone
+  -  or  find other ways to make **Bitcoin Safe** better for everyone
 
 Support **Bitcoin Safe** and get into the list below
 
