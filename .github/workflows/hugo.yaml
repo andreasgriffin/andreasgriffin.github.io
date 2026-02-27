@@ -45,6 +45,20 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Import APT signing key
+        env:
+          APT_GPG_PRIVATE_KEY_ASC: ${{ secrets.APT_GPG_PRIVATE_KEY_ASC }}
+        run: |
+          if [[ -n "${APT_GPG_PRIVATE_KEY_ASC:-}" ]]; then
+            printf '%s' "$APT_GPG_PRIVATE_KEY_ASC" > /tmp/apt-signing-key.asc
+            gpg --batch --import /tmp/apt-signing-key.asc
+          else
+            echo "APT_GPG_PRIVATE_KEY_ASC is not set; continuing without APT repo signing key."
+          fi
+      - name: Generate APT repository
+        env:
+          APT_GPG_KEY_ID: ${{ secrets.APT_GPG_KEY_ID }}
+        run: bash ./update_apt_repo.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -76,4 +90,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

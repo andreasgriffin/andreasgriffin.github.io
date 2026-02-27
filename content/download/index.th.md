@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe จะแจ้งเตือนเมื่อมีเวอร์ชันใหม่กว่าและยืนยันความถูกต้องโดยอัตโนมัติ.**
 
 
@@ -34,6 +33,15 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 <img src="/images/mac/copy-app.png" alt="คัดลอกแอปบน macOS"   /> 
 <img src="/images/mac/warning.png" alt="การเตือนบน macOS"   /> 
 <img src="/images/mac/disable.png" alt="เปิด Bitcoin Safe บน macOS"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (คลังแพ็กเกจ APT)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

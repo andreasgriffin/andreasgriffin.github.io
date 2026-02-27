@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **يُنبهك Bitcoin Safe عند توفر إصدار أحدث ويتحقق من الأصالة تلقائيًا.**
 
 
@@ -34,6 +33,14 @@ menu:
 <img src="/images/mac/copy-app.png" alt="نسخ التطبيق على macOS"   /> 
 <img src="/images/mac/warning.png" alt="تحذير على macOS"   /> 
 <img src="/images/mac/disable.png" alt="فتح Bitcoin Safe على macOS"   /> 
+
+
+<br>
+<br>
+
+### ديبيان/أوبونتو (مستودع APT)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

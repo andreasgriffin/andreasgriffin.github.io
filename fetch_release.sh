@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 # Replace with your GitHub repository, e.g., "username/repository"
 REPO="andreasgriffin/bitcoin-safe"
@@ -8,7 +10,9 @@ OUTPUT_FILE="data/latest_release.json"
 mkdir -p "data"
 
 tmp_file="$(mktemp)"
-curl -s "$API_URL" | jq '.' > "$tmp_file"
+trap 'rm -f "$tmp_file"' EXIT
+
+curl -fsSL "$API_URL" | jq '.' > "$tmp_file"
 
 new_tag="$(jq -r '.tag_name // empty' "$tmp_file")"
 if [[ -f "$OUTPUT_FILE" ]]; then
@@ -19,7 +23,6 @@ fi
 
 if [[ -n "$new_tag" && "$new_tag" == "$old_tag" ]]; then
   echo "Release tag unchanged ($new_tag); skipping update."
-  rm -f "$tmp_file"
   exit 2
 fi
 

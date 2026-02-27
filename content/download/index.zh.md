@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe 会自动通知您有新版本并验证其真实性。**
 
 
@@ -34,6 +33,15 @@ Windows 二进制文件已签名，请查看 [代码签名策略]({{< ref "code-
 <img src="/images/mac/copy-app.png" alt="macOS 复制应用"   /> 
 <img src="/images/mac/warning.png" alt="macOS 警告"   /> 
 <img src="/images/mac/disable.png" alt="macOS 打开 Bitcoin Safe"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu（APT 软件源）
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

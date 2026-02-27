@@ -1,6 +1,73 @@
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+const copyIconSvg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+  <path fill="currentColor" fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+</svg>`
+
+const copyText = async (text) => {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text)
+    return
+  }
+
+  const textarea = document.createElement('textarea')
+  textarea.value = text
+  textarea.setAttribute('readonly', '')
+  textarea.style.position = 'fixed'
+  textarea.style.left = '-9999px'
+  document.body.appendChild(textarea)
+  textarea.select()
+  const copied = document.execCommand('copy')
+  document.body.removeChild(textarea)
+  if (!copied) {
+    throw new Error('Copy command failed')
+  }
+}
+
+const setupCodeCopyButtons = () => {
+  const blocks = document.querySelectorAll('.highlight')
+  blocks.forEach((block) => {
+    if (block.querySelector('.code-copy-btn')) {
+      return
+    }
+
+    const code = block.querySelector('pre > code')
+    if (!code) {
+      return
+    }
+
+    const button = document.createElement('button')
+    button.type = 'button'
+    button.className = 'code-copy-btn'
+    button.innerHTML = copyIconSvg
+    button.setAttribute('aria-label', 'Copy code block')
+    button.title = 'Copy'
+
+    button.addEventListener('click', async () => {
+      const text = code.innerText.replace(/\n$/, '')
+      try {
+        await copyText(text)
+        button.setAttribute('aria-label', 'Copied')
+        button.title = 'Copied'
+        button.classList.add('is-copied')
+      } catch (err) {
+        button.setAttribute('aria-label', 'Copy failed')
+        button.title = 'Copy failed'
+      }
+
+      window.setTimeout(() => {
+        button.setAttribute('aria-label', 'Copy code block')
+        button.title = 'Copy'
+        button.classList.remove('is-copied')
+      }, 1400)
+    })
+
+    block.appendChild(button)
+  })
+}
+
 const setupMultiScroller = (carousel) => {
   const maxPerSlide = parseInt(carousel.getAttribute('data-max-per-slide') || carousel.getAttribute('data-per-slide'), 10) || 1
   const itemMinWidth = Math.max(1, parseInt(carousel.getAttribute('data-item-min-width'), 10) || 220)
@@ -180,7 +247,11 @@ const setupMultiCarousels = () => {
 }
 
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', setupMultiCarousels)
+  document.addEventListener('DOMContentLoaded', () => {
+    setupMultiCarousels()
+    setupCodeCopyButtons()
+  })
 } else {
   setupMultiCarousels()
+  setupCodeCopyButtons()
 }

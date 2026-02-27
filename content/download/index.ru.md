@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe автоматически уведомляет вас о наличии новой версии и проверяет её подлинность.**
 
 
@@ -34,6 +33,15 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 <img src="/images/mac/copy-app.png" alt="Копирование приложения (macOS)"   /> 
 <img src="/images/mac/warning.png" alt="Предупреждение (macOS)"   /> 
 <img src="/images/mac/disable.png" alt="Открытие Bitcoin Safe (macOS)"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (APT-репозиторий)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

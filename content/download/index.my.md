@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe သည် ဗားရှင်းအသစ်ရှိပါက အလိုအလျောက် သတိပေးပြီး မူရင်းဖြစ်ကြောင်း အတည်ပြုပါသည်။**
 
 
@@ -33,6 +32,15 @@ Please follow the steps to run Bitcoin Safe on macOS:
 <img src="/images/mac/copy-app.png" alt="macOS အက်ပ် ကူးထည့်ခြင်း"   /> 
 <img src="/images/mac/warning.png" alt="macOS သတိပေးချက်"   /> 
 <img src="/images/mac/disable.png" alt="macOS Bitcoin Safe ဖွင့်ခြင်း"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (APT ရီပိုစစ်တရီ)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

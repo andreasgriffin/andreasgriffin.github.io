@@ -15,7 +15,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe сповіщає про новішу версію та автоматично перевіряє справжність.**
 
 
@@ -36,6 +35,15 @@ menu:
 <img src="/images/mac/copy-app.png" alt="macOS copy-app"   /> 
 <img src="/images/mac/warning.png" alt="macOS warning"   /> 
 <img src="/images/mac/disable.png" alt="macOS open Bitcoin Safe"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (APT-репозиторій)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

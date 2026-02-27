@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe sizi daha yeni bir sürüm olduğunda bilgilendirir ve özgünlüğünü otomatik olarak doğrular.**
 
 
@@ -34,6 +33,15 @@ Bitcoin Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
 <img src="/images/mac/copy-app.png" alt="macOS uygulamayı kopyala"   /> 
 <img src="/images/mac/warning.png" alt="macOS uyarı"   /> 
 <img src="/images/mac/disable.png" alt="macOS Bitcoin Safe'i aç"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (APT deposu) ile kurulum
+
+{{< apt_repo_install >}}
 
 <br>
 <br>

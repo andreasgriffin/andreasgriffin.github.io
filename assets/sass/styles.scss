@@ -120,6 +120,57 @@ table img {
     flex: 0 0 calc((100% - (var(--carousel-gap, 1rem) * (var(--carousel-per-slide) - 1))) / var(--carousel-per-slide));
 }
 
+.highlight {
+    position: relative;
+
+    pre {
+        padding-right: 4.5rem;
+    }
+}
+
+.code-copy-btn {
+    position: absolute;
+    top: 0.55rem;
+    right: 0.55rem;
+    border: 0;
+    border-radius: 0.45rem;
+    background: rgba(0, 0, 0, 0.72);
+    color: #fff;
+    line-height: 1;
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(-3px);
+    transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+    pointer-events: none;
+}
+
+.code-copy-btn svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.highlight:hover .code-copy-btn,
+.highlight:focus-within .code-copy-btn {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.code-copy-btn:hover,
+.code-copy-btn:focus-visible {
+    background: rgba(0, 0, 0, 0.86);
+}
+
+.code-copy-btn.is-copied {
+    background: #157347;
+}
+
   
 /* Ensure the heading is the positioning context */
 h1,h2, h3, h4, h5, h6 {

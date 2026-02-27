@@ -1,0 +1,26 @@
+{{ $aptRepo := .Site.Data.apt_repo }}
+
+{{ $aptURL := "https://bitcoin-safe.org/apt" }}
+{{ $aptSuite := "stable" }}
+{{ $aptComponent := "main" }}
+{{ $aptPackage := "bitcoin-safe" }}
+{{ with $aptRepo.url }}{{ $aptURL = . }}{{ end }}
+{{ with $aptRepo.suite }}{{ $aptSuite = . }}{{ end }}
+{{ with $aptRepo.component }}{{ $aptComponent = . }}{{ end }}
+{{ with $aptRepo.package }}{{ $aptPackage = . }}{{ end }}
+{{ $aptSourceLine := printf "deb [trusted=yes] %s %s %s" $aptURL $aptSuite $aptComponent }}
+{{ with $aptRepo.source_line }}{{ $aptSourceLine = . }}{{ end }}
+{{ $aptSigned := false }}
+{{ with $aptRepo.signed }}{{ $aptSigned = . }}{{ end }}
+{{ $aptKeyringURL := "" }}
+{{ with $aptRepo.keyring_url }}{{ $aptKeyringURL = . }}{{ end }}
+{{ $aptKeyringPath := "/usr/share/keyrings/bitcoin-safe-archive-keyring.gpg" }}
+{{ with $aptRepo.keyring_path }}{{ $aptKeyringPath = . }}{{ end }}
+{{ $commands := slice }}
+{{ if $aptSigned }}
+  {{ $commands = $commands | append (printf "curl -fsSL %s | sudo tee %s > /dev/null" $aptKeyringURL $aptKeyringPath) }}
+{{ end }}
+{{ $commands = $commands | append (printf "echo \"%s\" | sudo tee /etc/apt/sources.list.d/bitcoin-safe.list" $aptSourceLine) }}
+{{ $commands = $commands | append "sudo apt update" }}
+{{ $commands = $commands | append (printf "sudo apt install %s" $aptPackage) }}
+{{ highlight (delimit $commands "\n") "bash" "" }}

@@ -13,7 +13,6 @@ menu:
 
 {{< latest_release >}}
 
-
 ✅ **Bitcoin Safe benachrichtigt Sie über neuere Versionen und überprüft automatisch deren Authentizität.**
 
 
@@ -34,6 +33,15 @@ Bitte führen Sie die folgenden Schritte aus, um Bitcoin Safe unter macOS zu sta
 <img src="/images/mac/copy-app.png" alt="macOS App kopieren"   /> 
 <img src="/images/mac/warning.png" alt="macOS Warnung"   /> 
 <img src="/images/mac/disable.png" alt="macOS Bitcoin Safe öffnen"   /> 
+
+
+
+<br>
+<br>
+
+### Debian/Ubuntu (APT-Repository)
+
+{{< apt_repo_install >}}
 
 <br>
 <br>
