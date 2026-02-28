@@ -7,6 +7,8 @@ videos:
 - https://www.youtube.com/watch?v=8n8lPfZZQPY
 ---
 
+**คู่มือ:** [ใช้ Keystone กับ Bitcoin Safe](https://guide.keyst.one/docs/bitcoinsafe)
+
 # Videos
   
 {{< youtube-gallery >}} 
