@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**コンパクトブロックフィルター（CBF）** を使うと、[Bitcoin Safe]({{< ref "/" >}}) は Electrum サーバーにアドレスを尋ねずにブロックチェーンをスキャンできます。
 
-Bitcoin Safe   1.6.0では、ウォレットを同期するオプションとして**コンパクトブロックフィルター（CBF）**を導入しました。中央集権的なElectrumサーバーにウォレット履歴を問い合わせる代わりに、Bitcoin SafeはランダムなBitcoin Coreピアから各ブロックの小さな要約ファイルを直接ダウンロードできます。これらの要約は短いチェックリストのように機能し、ウォレット自身がそのブロックにあなたの取引が含まれている可能性があるかどうかを判断できます。
+![Bitcoin Safe が複数のランダムな Bitcoin Core ピアからコンパクトブロックフィルターをダウンロードします。](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Bitcoin Safeが判断をローカルで行うため、サードパーティのサーバーがどのアドレスや取引をあなたが気にしているかを知ることは決してありません。フルノードが保持するのと同じ確認データを、日常のデバイスに適した軽量な形式で受け取ることができます。
+中央サーバーに問い合わせる代わりに、Bitcoin Safe は各ブロックの小さなフィルターをランダムな Bitcoin Core ピアからダウンロードします。ウォレットはそれをローカルで確認し、必要なときだけ完全なブロックを取得します。
 
-**なぜより良く感じるのか：**
+### CBF と Electrum
 
-- 📦 **小さなダウンロード量：** 各フィルターは数キロバイト程度しかないため、ブロックチェーン全体を保存せずに通常の家庭用回線で同期できます。
-- 🔐 **ネットワークから直接取得：** Bitcoin Safeは複数のランダムなBitcoin Coreノードと通信します。他のノードと同様の方法で動作するため、単一の観測者にプロファイリングされる可能性を減らします。
-- 🕵️ **ローカルでの照合：** フィルターはローカルでウォレットがチェックします。フィルターが関連ありと判断した場合にのみ該当ブロックを取得するため、あなたのアドレスを秘匿できます。
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">項目</th>
+        <th scope="col">コンパクトブロックフィルター</th>
+        <th scope="col">Electrum サーバー</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">プライバシー</th>
+        <td><span class="text-success fw-semibold">良い</span> - ウォレットデータはローカルに保持される</td>
+        <td><span class="text-danger fw-semibold">悪い</span> - サーバーがあなたのアドレスや履歴を把握できる</td>
+      </tr>
+      <tr>
+        <th scope="row">データ元</th>
+        <td><span class="text-success fw-semibold">良い</span> - ランダムな Bitcoin Core ピア</td>
+        <td><span class="text-warning fw-semibold">中立</span> - 1つの選んだサーバー</td>
+      </tr>
+      <tr>
+        <th scope="row">初回同期</th>
+        <td><span class="text-warning fw-semibold">中立</span> - たいてい遅い</td>
+        <td><span class="text-success fw-semibold">良い</span> - たいてい速い</td>
+      </tr>
+      <tr>
+        <th scope="row">継続同期</th>
+        <td><span class="text-success fw-semibold">良い</span> - 初回同期後はとても速い</td>
+        <td><span class="text-success fw-semibold">良い</span> - たいてい速い</td>
+      </tr>
+      <tr>
+        <th scope="row">向いている人</th>
+        <td><span class="text-success fw-semibold">良い</span> - プライバシーを重視する人</td>
+        <td><span class="text-success fw-semibold">良い</span> - 最速で設定・復元したい人</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-これに対してElectrumサーバーはユーザーに代わってブロックチェーンを検索します。すべてのリクエストはウォレットのアドレスをサーバー運営者と共有するため、運営者がその情報を記録する可能性があります。コンパクトブロックフィルターを使うことで、Bitcoin Safeは各ノードが共有する中立的なデータをダウンロードします。ウォレットが最初からアドレスを明かさないため、誰もどのアドレスがあなたのものであるかを判断できません。
+### CBF を使う理由
 
-Below is a simple view of how [Bitcoin Safe]({{< ref "/" >}}) connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
+- より高いプライバシー: ウォレットがサーバーに自分のアドレスを尋ねることはありません。
+- 信頼できるインデクサー不要: Bitcoin Safe は Bitcoin ネットワークと直接通信します。
+- 軽量な同期: フィルターは小さいので、ブロックチェーン全体は不要です。
 
+### 期待できること
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- 新しいウォレットまたは復元: 初回同期は通常 **5〜30分** です。
+- すでに同期済みのウォレット: 追いつきは **とても速く**、多くの場合 **30秒未満** です。
+- Electrum から CBF への切り替え: これも通常 **30秒未満** です。
 
+Bitcoin Safe が接続するピア数は選べます。ピアが増えるほど冗長性は上がりますが、帯域幅と同期時間は増えがちです。デフォルトは **2** ピアです。
 
-Bitcoin Safeが接続するピア数は選択できます。ピア数が多いほど帯域幅を多く使い、同期に時間がかかる場合があります。デフォルトは2です。  
+### 未確認トランザクション
 
- 
-### 同期時に期待すること
+CBF がカバーするのは **確認済みブロック** だけです。未確認の入金も受け取りたい場合は、[インスタント取引通知]({{< ref "knowledge/instant-transactions-notifications/" >}}) を有効のままにしてください。これが既定の設定です。
 
-CBFは、行っている操作に応じて待ち時間が変わります：
+### 技術メモ
 
-1. ✨ **ウォレットの設定または復元：** 新しいウォレットを作成する場合でも既存のウォレットを復元する場合でも、初回同期ではウォレットの履歴全体に対するフィルターを取得します。この一回限りの処理は、インターネット接続速度により**5〜30分**かかることがあります。
-2. 🚀 **既に同期済みのウォレットを開く：** Bitcoin Safeは前回のセッション以降の最新フィルターのみを取得すればよいため、その追いつき処理は通常**30秒未満**で完了します。
-3. 🔄 **ElectrumサーバーからCBFへ切り替える場合：** ウォレットが以前Electrumサーバーで同期されていた場合、Bitcoin Safeは最新のフィルターだけを取得すればよく、通常**30秒未満**です。
+コンパクトブロックフィルターは [BIP158](https://bips.dev/158/) で定義されています。Bitcoin Safe はオープンソースの [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) を使用しています。
 
-### 未確認の支払いについて把握する
+_Bitcoin network monitoring_ 設定で、初期ピアとして自分の Bitcoin Core ノードを使うこともできます。
 
-コンパクトブロックフィルターは**確認済みブロック**のみをカバーします。確認前の着信取引について通知を受けたい場合は、[インスタント取引通知]({{< ref "knowledge/instant-transactions-notifications/" >}})も有効にしてください。この機能はランダムなBitcoinノードからのライブなピアツーピアメッセージを監視するため、プライバシーを犠牲にせずにメンプールの活動に反応できます。
-
-
-<br>
-<br>
-
-
-
-### 技術的な詳細
-
-
-- *さらに詳しく知りたい開発者向け：* コンパクトブロックフィルターは[BIP158仕様](https://bips.dev/158/)に従っており、[Elle MoutonによるGolomb-coded setsの概説](https://ellemouton.com/posts/bip158/)でも詳述されています。Bitcoin Safeの実装はオープンソースの[BDK向けKyotoコンパクトブロックフィルターモジュール](https://github.com/2140-dev/kyoto)に依存しています。
-- 自分のBitcoin Coreノードをコンパクトブロックフィルター同期のピアに追加することもできます。_ビットコインネットワーク監視_の設定で _初期ノード_ を選択してください。
-
-
-![Initial node setting](inital-node.png)
+![初期ノード設定](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

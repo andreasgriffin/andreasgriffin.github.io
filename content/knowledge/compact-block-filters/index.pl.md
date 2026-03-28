@@ -1,6 +1,6 @@
 ---
 title: "Kompaktowe filtry bloków"
-description: "Dowiedz się, czym są kompaktowe filtry bloków i jak poprawiają prywatność w porównaniu z serwerami Electrum."
+description: "Dowiedz się, czym są kompaktowe filtry bloków i jak zwiększają prywatność w porównaniu z serwerami Electrum."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
-
-Bitcoin Safe   1.6.0 wprowadza **kompaktowe filtry bloków (CBF)** jako opcjonalny sposób synchronizacji portfela. Zamiast pytać scentralizowany serwer Electrum o historię swojego portfela, [Bitcoin Safe]({{< ref "/" >}}) może teraz pobierać mały plik podsumowujący dla każdego bloku bezpośrednio od losowych peerów Bitcoin Core. Te podsumowania działają jak krótka lista kontrolna, która pozwala Twojemu portfelowi samodzielnie zdecydować, czy dany blok może zawierać jedną z Twoich transakcji.
-
-Ponieważ [Bitcoin Safe]({{< ref "/" >}}) podejmuje decyzje lokalnie, żaden serwer zewnętrzny nigdy nie dowiaduje się, które adresy lub transakcje są dla Ciebie istotne. Otrzymujesz te same dane potrzebne do potwierdzeń, jakie przechowuje pełny węzeł, ale w lżejszym formacie odpowiednim dla codziennych urządzeń.
-
-**Dlaczego to jest lepsze:**
-
-- 📦 **Małe pobrania:** Każdy filtr zajmuje tylko kilka kilobajtów, więc możesz synchronizować się przez zwykłe domowe łącza bez przechowywania całego łańcucha bloków.
-- 🔐 **Bezpośrednio z sieci:** [Bitcoin Safe]({{< ref "/" >}}) łączy się z wieloma losowymi węzłami Bitcoin Core, tak jak robią to inne węzły, zmniejszając szansę, że pojedynczy obserwator będzie mógł Cię profilować.
-- 🕵️ **Dopasowanie lokalne:** Twój portfel sprawdza filtry lokalnie. Jeśli filtr wydaje się istotny, dopiero wtedy pobiera konkretny blok, chroniąc Twoje adresy.
-
-Serwery Electrum, w przeciwieństwie do tego, przeszukują łańcuch bloków w Twoim imieniu. Każde zapytanie ujawnia adresy Twojego portfela operatorowi serwera, który mógłby te informacje rejestrować. Dzięki kompaktowym filtrom bloków [Bitcoin Safe]({{< ref "/" >}}) pobiera te same neutralne dane, którymi wymieniają się wszystkie węzły. Nikt nie może stwierdzić, które adresy należą do Ciebie, ponieważ Twój portfel nigdy ich nie ujawnia.
-
-Poniżej prosty widok pokazujący, jak [Bitcoin Safe]({{< ref "/" >}}) łączy się, gdy CBF jest włączone. Zwróć uwagę, jak odzwierciedla to sposób, w jaki węzły Bitcoin Core już się komunikują:
-
+**Kompaktowe filtry bloków (CBF)** pozwalają [Bitcoin Safe]({{< ref "/" >}}) skanować blockchain bez pytania serwera Electrum, które adresy należą do Ciebie.
 
 ![Bitcoin Safe pobiera kompaktowe filtry bloków od kilku losowych peerów Bitcoin Core.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
+Zamiast odpytywać centralny serwer, Bitcoin Safe pobiera mały filtr dla każdego bloku od losowych peerów Bitcoin Core. Twój portfel sprawdza je lokalnie i pobiera pełne bloki tylko wtedy, gdy to potrzebne.
 
-Możesz wybrać, z ilu peerów [Bitcoin Safe]({{< ref "/" >}}) powinien się łączyć. Więcej peerów wymaga większej przepustowości i skutkuje wolniejszym czasem synchronizacji. Domyślnie jest to 2.  
+### CBF vs Electrum
 
- 
-### Czego się spodziewać podczas synchronizacji
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Cecha</th>
+        <th scope="col">Kompaktowe filtry bloków</th>
+        <th scope="col">Serwer Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Prywatność</th>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Dane portfela pozostają lokalne</td>
+        <td><span class="text-danger fw-semibold">Źle</span> - Serwer może widzieć Twoje adresy i historię</td>
+      </tr>
+      <tr>
+        <th scope="row">Źródło danych</th>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Losowe peery Bitcoin Core</td>
+        <td><span class="text-warning fw-semibold">Neutralnie</span> - Jeden wybrany serwer</td>
+      </tr>
+      <tr>
+        <th scope="row">Pierwsza synchronizacja</th>
+        <td><span class="text-warning fw-semibold">Neutralnie</span> - Zwykle wolniejsza</td>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Zwykle szybsza</td>
+      </tr>
+      <tr>
+        <th scope="row">Ciągła synchronizacja</th>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Bardzo szybka po pierwszej synchronizacji</td>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Zwykle szybka</td>
+      </tr>
+      <tr>
+        <th scope="row">Najlepsze dla</th>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Użytkowników, dla których ważna jest prywatność</td>
+        <td><span class="text-success fw-semibold">Dobrze</span> - Najszybszej konfiguracji i odzyskiwania</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-CBF zmienia czas oczekiwania w zależności od tego, co robisz:
+### Dlaczego warto używać CBF
 
-1. ✨ **Tworzenie lub odzyskiwanie portfela:** Niezależnie od tego, czy tworzysz nowy portfel, czy odzyskujesz istniejący, początkowa synchronizacja pobiera filtry dla całej historii Twojego portfela. Spodziewaj się, że ten jednorazowy proces potrwa **od 5 do 30 minut**, w zależności od szybkości Twojego internetu.
-2. 🚀 **Otwarcie już zsynchronizowanego portfela:** [Bitcoin Safe]({{< ref "/" >}}) musi pobrać tylko najnowsze filtry od czasu Twojej ostatniej sesji. To uzupełnienie zwykle kończy się **w mniej niż 30 sekund**.
-3. 🔄 **Przejście z serwerów Electrum na CBF:** Ponieważ portfel był wcześniej synchronizowany za pomocą serwerów Electrum, [Bitcoin Safe]({{< ref "/" >}}) musi pobrać tylko najnowsze filtry, co zwykle zajmuje **mniej niż 30 sekund**.
+- Większa prywatność: portfel nigdy nie pyta serwera o Twoje adresy.
+- Bez zaufanego indeksatora: Bitcoin Safe łączy się bezpośrednio z siecią Bitcoin.
+- Lekka synchronizacja: filtry są małe, więc nie potrzebujesz całego blockchaina.
 
-### Bądź na bieżąco z niepotwierdzonymi płatnościami
+### Czego się spodziewać
 
-Kompaktowe filtry bloków dotyczą tylko **potwierdzonych bloków**. Aby dowiadywać się o przychodzących transakcjach zanim zostaną potwierdzone, upewnij się, że masz również włączone [Powiadomienia o transakcjach natychmiastowych]({{< ref "knowledge/instant-transactions-notifications/" >}}). Ta funkcja nasłuchuje komunikatów P2P z losowego węzła Bitcoin, dzięki czemu możesz reagować na aktywność w mempoolu bez rezygnacji z prywatności.
+- Nowy portfel lub odzyskiwanie: zwykle **5 do 30 minut** na pierwszą synchronizację.
+- Już zsynchronizowany portfel: zwykle nadrabia **bardzo szybko**, często w **mniej niż 30 sekund**.
+- Przejście z Electrum na CBF: zwykle też **mniej niż 30 sekund**.
 
+Możesz wybrać, z iloma peerami łączy się Bitcoin Safe. Więcej peerów zwiększa redundancję, ale zwykle podnosi zużycie łącza i czas synchronizacji. Domyślnie są to **2** peery.
 
-<br>
-<br>
+### Niepotwierdzone transakcje
 
+CBF obejmuje tylko **potwierdzone bloki**. Aby również otrzymywać powiadomienia o niepotwierdzonych wpłatach, pozostaw [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}) włączone. To ustawienie domyślne.
 
+### Uwaga techniczna
 
-### Szczegóły techniczne
+Kompaktowe filtry bloków są zdefiniowane w [BIP158](https://bips.dev/158/). Bitcoin Safe korzysta z otwartego modułu [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
+Możesz też użyć własnego węzła Bitcoin Core jako początkowego peera w ustawieniach _Bitcoin network monitoring_.
 
-- *Dla deweloperów, którzy chcą zgłębić temat:* kompaktowe filtry bloków stosują specyfikację [BIP158](https://bips.dev/158/) i są omówione w [przeglądzie Elle Mouton na temat zbiorów kodowanych Golombem](https://ellemouton.com/posts/bip158/). Implementacja [Bitcoin Safe]({{< ref "/" >}}) opiera się na otwartoźródłowym [module Kyoto compact block filter dla BDK](https://github.com/2140-dev/kyoto).
-- Możesz dodać własny węzeł Bitcoin Core do peerów używanych do synchronizacji kompaktowych filtrów bloków, wybierając _Węzeł początkowy_ w ustawieniach _Monitorowanie sieci Bitcoin_.
-
-
-![Initial node setting](inital-node.png)
+![Ustawienie początkowego węzła](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

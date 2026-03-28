@@ -1,12 +1,12 @@
 ---
-title: "Kompakt Blok Filtreleri"
-description: "Kompakt blok filtrelerinin ne olduğunu ve Electrum sunucularına kıyasla gizliliği nasıl iyileştirdiğini öğrenin."
+title: "Kompakt blok filtreleri"
+description: "Kompakt blok filtrelerinin ne olduğunu ve Electrum sunucularına göre gizliliği nasıl artırdığını anlayın."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
-  - "Kompakt blok filtreleri"
+  - "kompakt blok filtreleri"
   - "CBF"
   - "gizlilik"
   - "Bitcoin cüzdanı"
@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Kompakt blok filtreleri (CBF)**, [Bitcoin Safe]({{< ref "/" >}}) uygulamasının bir Electrum sunucusuna hangi adreslerin size ait olduğunu sormadan blok zincirini taramasını sağlar.
 
-Bitcoin Safe 1.6.0, cüzdanınızı eşitlemenin isteğe bağlı bir yolu olarak **Kompakt Blok Filtreleri (CBF)** sunar. Merkezi bir Electrum sunucusuna cüzdan geçmişinizi sormak yerine, [Bitcoin Safe]({{< ref "/" >}}) artık her blok için rastgele Bitcoin Core düğümlerinden küçük bir özet dosyası indirebilir. Bu özetler, cüzdanınızın bir bloğun işlemlerinizden birini içerip içermediğine kendi başına karar vermesini sağlayan kısa bir kontrol listesi gibi davranır.
+![Bitcoin Safe, birkaç rastgele Bitcoin Core peer'inden kompakt blok filtreleri indirir.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Bitcoin Safe kararı yerel olarak verdiği için, herhangi bir üçüncü taraf sunucu hangi adresleri veya işlemleri önemsediğinizi asla öğrenmez. Tam bir düğümün saklayacağı aynı onay verilerini alırsınız, ancak günlük cihazlara uygun daha hafif bir biçimde.
+Bitcoin Safe, merkezi bir sunucuyu sorgulamak yerine her blok için küçük bir filtreyi rastgele Bitcoin Core peer'lerinden indirir. Cüzdanınız bunları yerel olarak kontrol eder ve yalnızca gerektiğinde tam blokları indirir.
 
-**Neden daha iyi hissettirir:**
+### CBF ve Electrum
 
-- 📦 **Küçük indirmeler:** Her filtre yalnızca birkaç kilobayt olduğundan, tüm blok zincirini depolamadan normal ev bağlantıları üzerinden eşitleme yapabilirsiniz.
-- 🔐 **Doğrudan ağdan:** Bitcoin Safe, diğer düğümlerin yaptığı gibi birden fazla rastgele Bitcoin Core düğümüyle konuşur; bu, tek bir gözlemcinin sizi profilleme olasılığını azaltır.
-- 🕵️ **Yerel eşleme:** Cüzdanınız filtreleri yerel olarak kontrol eder. Bir filtre ilgili görünürse, yalnızca o zaman ilgili bloğu indirir; bu da adreslerinizi gizli tutar.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Özellik</th>
+        <th scope="col">Kompakt blok filtreleri</th>
+        <th scope="col">Electrum sunucusu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Gizlilik</th>
+        <td><span class="text-success fw-semibold">İyi</span> - Cüzdan verileri yerelde kalır</td>
+        <td><span class="text-danger fw-semibold">Kötü</span> - Sunucu adreslerinizi ve geçmişinizi görebilir</td>
+      </tr>
+      <tr>
+        <th scope="row">Veri kaynağı</th>
+        <td><span class="text-success fw-semibold">İyi</span> - Rastgele Bitcoin Core peer'leri</td>
+        <td><span class="text-warning fw-semibold">Nötr</span> - Seçilmiş tek bir sunucu</td>
+      </tr>
+      <tr>
+        <th scope="row">İlk senkronizasyon</th>
+        <td><span class="text-warning fw-semibold">Nötr</span> - Genelde daha yavaş</td>
+        <td><span class="text-success fw-semibold">İyi</span> - Genelde daha hızlı</td>
+      </tr>
+      <tr>
+        <th scope="row">Sürekli senkronizasyon</th>
+        <td><span class="text-success fw-semibold">İyi</span> - İlk senkronizasyondan sonra çok hızlı</td>
+        <td><span class="text-success fw-semibold">İyi</span> - Genelde hızlı</td>
+      </tr>
+      <tr>
+        <th scope="row">Kimin için uygun</th>
+        <td><span class="text-success fw-semibold">İyi</span> - Gizliliği önemseyen kullanıcılar</td>
+        <td><span class="text-success fw-semibold">İyi</span> - En hızlı kurulum ve kurtarma isteyenler</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Buna karşılık Electrum sunucuları blok zincirini sizin adınıza arar. Her istek, cüzdanınızdaki adresleri sunucu operatörüyle paylaşır ve operatör bu bilgileri kaydedebilir. Kompakt blok filtreleri ile Bitcoin Safe, her düğümün paylaştığı aynı tarafsız veriyi indirir. Cüzdanınız baştan bu adresleri asla açığa çıkarmadığı için kimse hangi adreslerin size ait olduğunu söyleyemez.
+### Neden CBF kullanılır
 
-Aşağıda CBF etkinleştirildiğinde Bitcoin Safe'in nasıl bağlandığına dair basit bir görünüm yer alıyor. Bitcoin Core düğümlerinin zaten birbirleriyle konuşma şeklini nasıl yansıttığına dikkat edin:
+- Daha fazla gizlilik: cüzdanınız hiçbir zaman sunucuya adreslerinizi sormaz.
+- Güvenilen indeksleyici yok: Bitcoin Safe doğrudan Bitcoin ağıyla konuşur.
+- Hafif senkronizasyon: filtreler küçüktür, bu yüzden tüm blok zinciri gerekmez.
 
+### Ne beklemeli
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- Yeni cüzdan veya kurtarma: ilk senkronizasyon genelde **5 ila 30 dakika** sürer.
+- Zaten senkronize edilmiş cüzdan: genelde **çok hızlı** yetişir, çoğu zaman **30 saniyeden kısa** sürer.
+- Electrum'dan CBF'ye geçiş: genelde o da **30 saniyeden kısa** sürer.
 
+Bitcoin Safe'in kaç peer'e bağlanacağını seçebilirsiniz. Peer sayısı arttıkça yedeklilik artar, ancak genelde bant genişliği ve senkronizasyon süresi de artar. Varsayılan **2** peer'dir.
 
-Bitcoin Safe'in kaç eşe bağlanacağını seçebilirsiniz. Daha fazla eş daha fazla bant genişliği gerektirir ve eşitleme süresini uzatabilir. Varsayılan değer 2'dir.
+### Onaylanmamış işlemler
 
- 
-### Eşitleme sırasında bekleyebilecekleriniz
+CBF yalnızca **onaylı blokları** kapsar. Onaylanmamış gelen ödemeler için de bildirim almak istiyorsanız, [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}) özelliğini açık bırakın. Bu varsayılan ayardır.
 
-CBF, ne yaptığına bağlı olarak bekleme sürenizi değiştirir:
+### Teknik not
 
-1. ✨ **Cüzdan kurma veya kurtarma:** Yeni bir cüzdan oluşturuyor veya mevcut bir cüzdanı kurtarıyorsanız, ilk eşitleme cüzdanınızın tüm geçmişi için filtreleri çeker. İnternet hızınıza bağlı olarak bu tek seferlik işlemin **5 ila 30 dakika** arasında sürebileceğini bekleyin.
-2. 🚀 **Zaten eşitlenmiş bir cüzdanı açmak:** Bitcoin Safe, yalnızca son oturumunuzdan bu yana oluşan en yeni filtreleri alır. Bu yakalama genellikle **30 saniyenin altında** tamamlanır.
-3. 🔄 **Electrum sunucularından CBF'ye geçiş:** Cüzdan daha önce Electrum sunucularıyla eşitlenmişse, [Bitcoin Safe]({{< ref "/" >}}) yalnızca en yeni filtreleri alır; bu genellikle **30 saniyeden az** sürer.
+Kompakt blok filtreleri [BIP158](https://bips.dev/158/) içinde tanımlanmıştır. Bitcoin Safe, açık kaynaklı [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) kullanır.
 
-### Onaylanmamış ödemeler hakkında haberdar olun
+Kendi Bitcoin Core düğümünüzü _Bitcoin network monitoring_ ayarlarında başlangıç peer'i olarak da kullanabilirsiniz.
 
-Kompakt blok filtreleri yalnızca **onaylanmış blokları** kapsar. Onaylanmadan önce gelen işlemler hakkında bilgi almak istiyorsanız, [Anlık işlem bildirimleri]({{< ref "knowledge/instant-transactions-notifications/" >}}) özelliğini de etkinleştirdiğinizden emin olun. Bu özellik, mempool etkinliğine gizliliğinizi riske atmadan tepki verebilmeniz için rastgele bir Bitcoin düğümünden gelen eşler arası canlı mesajları dinler.
-
-
-<br>
-<br>
-
-
-
-### Teknik detaylar
-
-
-- *Daha derine inmek isteyen geliştiriciler için:* kompakt blok filtreleri [BIP158 spesifikasyonunu](https://bips.dev/158/) takip eder ve [Elle Mouton’un Golomb-kodlu kümeler üzerine özeti](https://ellemouton.com/posts/bip158/) bu konuyu açıklar. Bitcoin Safe’in uygulaması açık kaynaklı [BDK için Kyoto kompakt blok filtre modülüne](https://github.com/2140-dev/kyoto) dayanır.
-- Kompakt Blok Filtreleri eşitlemesi için kendi Bitcoin Core düğümünüzü eşlere ekleyebilirsiniz; bunun için _Bitcoin ağ izleme_ ayarlarında _Başlangıç düğümü_ seçeneğini belirleyin.
-
-
-![Initial node setting](inital-node.png)
+![Başlangıç düğümü ayarı](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

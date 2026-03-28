@@ -1,12 +1,12 @@
 ---
-title: "Filtres compactes de blocs"
-description: "Entén què són els filtres compactes de blocs i com milloren la privadesa respecte als servidors Electrum."
+title: "Filtres de blocs compactes"
+description: "Entén què són els filtres de blocs compactes i com milloren la privadesa respecte als servidors Electrum."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
-  - "filtres compactes de blocs"
+  - "filtres de blocs compactes"
   - "CBF"
   - "privadesa"
   - "cartera Bitcoin"
@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Els filtres de blocs compactes (CBF)** permeten que [Bitcoin Safe]({{< ref "/" >}}) escanegi la blockchain sense preguntar a un servidor Electrum quines adreces són teves.
 
-Bitcoin Safe   1.6.0 introdueix **filtres compactes de blocs (CBF)** com una forma opcional de sincronitzar la teva cartera. En lloc de sol·licitar a un servidor Electrum centralitzat l'historial de la teva cartera, [Bitcoin Safe]({{< ref "/" >}}) ara pot descarregar un petit fitxer resum per a cada bloc directament de peers aleatoris de Bitcoin Core. Aquests resums actuen com una llista de comprovació curta que permet a la teva cartera decidir per si mateixa si un bloc podria contenir alguna de les teves transaccions.
+![Bitcoin Safe descarrega filtres de blocs compactes de diversos peers aleatoris de Bitcoin Core.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Com que [Bitcoin Safe]({{< ref "/" >}}) pren la decisió localment, cap servidor de tercers mai no arriba a saber quines adreces o transaccions t'importen. Obtens les mateixes dades de confirmació que un node complet conservaria, però en un format més lleuger que s'adapta a dispositius d'ús quotidià.
+En lloc de consultar un servidor central, Bitcoin Safe descarrega un filtre petit per a cada bloc des de peers aleatoris de Bitcoin Core. La teva cartera els comprova localment i només descarrega els blocs complets quan cal.
 
-**Per què és millor:**
+### CBF vs Electrum
 
-- 📦 **Descarregues petites:** Cada filtre ocupa només uns quants quilobytes, així que pots sincronitzar-te a través de connexions domèstiques normals sense emmagatzemar tota la cadena de blocs.
-- 🔐 **Directament des de la xarxa:** [Bitcoin Safe]({{< ref "/" >}}) parla amb diversos nodes Bitcoin Core aleatoris, igual que fan altres nodes, reduint la possibilitat que un observador individual et pugui perfilar.
-- 🕵️ **Comprovació local:** La teva cartera comprova els filtres localment. Si un filtre sembla rellevant, només en aquest cas descarrega el bloc concret, mantenint les teves adreces privades.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspecte</th>
+        <th scope="col">Filtres de blocs compactes</th>
+        <th scope="col">Servidor Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privadesa</th>
+        <td><span class="text-success fw-semibold">Bo</span> - Les dades de la cartera es mantenen locals</td>
+        <td><span class="text-danger fw-semibold">Dolent</span> - El servidor pot veure les teves adreces i historial</td>
+      </tr>
+      <tr>
+        <th scope="row">Font de dades</th>
+        <td><span class="text-success fw-semibold">Bo</span> - Peers aleatoris de Bitcoin Core</td>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Un únic servidor escollit</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronització inicial</th>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Normalment més lenta</td>
+        <td><span class="text-success fw-semibold">Bo</span> - Normalment més ràpida</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronització contínua</th>
+        <td><span class="text-success fw-semibold">Bo</span> - Molt ràpida després de la primera sincronització</td>
+        <td><span class="text-success fw-semibold">Bo</span> - Normalment ràpida</td>
+      </tr>
+      <tr>
+        <th scope="row">Ideal per a</th>
+        <td><span class="text-success fw-semibold">Bo</span> - Usuaris que prioritzen la privadesa</td>
+        <td><span class="text-success fw-semibold">Bo</span> - La configuració i recuperació més ràpides</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Els servidors Electrum, en canvi, cerquen la cadena de blocs en el teu nom. Cada sol·licitud comparteix les adreces de la teva cartera amb l'operador del servidor, que podria registrar aquesta informació. Amb els filtres compactes de blocs, [Bitcoin Safe]({{< ref "/" >}}) descarrega les mateixes dades neutrals que comparteix cada node. Ningú no pot saber quines adreces són teves perquè la teva cartera mai no les revela en primer lloc.
+### Per què usar CBF
 
-A continuació hi ha una vista simplificada de com es connecta [Bitcoin Safe]({{< ref "/" >}}) quan CBF està activat. Observa com reflecteix la manera en què els nodes de Bitcoin Core ja es comuniquen entre ells:
+- Més privadesa: la teva cartera no pregunta mai a cap servidor quines adreces són teves.
+- Sense indexador de confiança: Bitcoin Safe parla directament amb la xarxa Bitcoin.
+- Sincronització lleugera: els filtres són petits, així que no necessites tota la blockchain.
 
+### Què esperar
 
-![Bitcoin Safe descarrega filtres compactes de blocs de diversos peers aleatoris de Bitcoin Core.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- Cartera nova o recuperació: normalment **5 a 30 minuts** per a la primera sincronització.
+- Cartera ja sincronitzada: normalment es posa al dia **molt ràpid**, sovint en **menys de 30 segons**.
+- Canvi d'Electrum a CBF: normalment també **menys de 30 segons**.
 
+Pots triar amb quants peers es connecta Bitcoin Safe. Més peers milloren la redundància, però normalment també augmenten l'ús de banda i el temps de sincronització. El valor per defecte és **2** peers.
 
-Pots triar amb quants peers ha de connectar-se Bitcoin Safe. Més peers requereixen més amplada de banda i fan que la sincronització sigui més lenta. El valor per defecte és 2.
+### Transaccions no confirmades
 
- 
-### Què pots esperar durant la sincronització
+CBF només cobreix **blocs confirmats**. Per rebre també alertes de pagaments no confirmats, deixa [Notificacions instantànies de transaccions]({{< ref "knowledge/instant-transactions-notifications/" >}}) activades, que és el comportament per defecte.
 
-CBF modifica el temps d'espera segons el que estiguis fent:
+### Nota tècnica
 
-1. ✨ **Crear o recuperar una cartera:** Ja sigui que creïs una nova cartera o recuperis una existent, la sincronització inicial descarrega els filtres per a tot l'historial de la teva cartera. Espera que aquest procés d'una sola vegada trigui **entre 5 i 30 minuts**, depenent de la velocitat d'Internet.
-2. 🚀 **Obrir una cartera que ja estava sincronitzada:** [Bitcoin Safe]({{< ref "/" >}}) només necessita obtenir els filtres més nous des de la teva última sessió. Aquesta actualització normalment finalitza en **menys de 30 segons**.
-3. 🔄 **Canviar de servidors Electrum a CBF:** Com que la cartera estava prèviament sincronitzada amb servidors Electrum, [Bitcoin Safe]({{< ref "/" >}}) només necessita obtenir els filtres més nous, cosa que normalment serà **menys de 30 segons**.
+Els filtres de blocs compactes es defineixen a [BIP158](https://bips.dev/158/). Bitcoin Safe usa el mòdul de codi obert [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-### Mantingues-te informat sobre pagaments no confirmats
+També pots usar el teu propi node de Bitcoin Core com a peer inicial a la configuració de _Bitcoin network monitoring_.
 
-Els filtres compactes de blocs cobreixen només els **blocs confirmats**. Per rebre avisos sobre transaccions entrants abans que es confirmin, assegura't també d'habilitar [Notificacions instantànies de transaccions]({{< ref "knowledge/instant-transactions-notifications/" >}}). Aquesta funció escolta els missatges en viu peer-to-peer d'un node Bitcoin aleatori perquè puguis reaccionar a l'activitat de la mempool sense renunciar a la privadesa.
-
-
-<br>
-<br>
-
-
-
-### Detalls tècnics
-
-
-- *Per a desenvolupadors que vulguin aprofundir:* els filtres compactes de blocs segueixen l'[especificació BIP158](https://bips.dev/158/) i s'expliquen a la [visió general d'Elle Mouton sobre conjunts codificats amb Golomb](https://ellemouton.com/posts/bip158/). La implementació de [Bitcoin Safe]({{< ref "/" >}}) es basa en el mòdul de filtres compactes de blocs de codi obert [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
-- Pots afegir el teu propi node Bitcoin Core als peers per sincronitzar els filtres compactes de blocs, triant el _Node inicial_ de la _Supervisió de la xarxa Bitcoin_.
-
-
-![Initial node setting](inital-node.png)
+![Configuració del node inicial](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

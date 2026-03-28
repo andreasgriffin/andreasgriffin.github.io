@@ -2,7 +2,7 @@
 aliases:
   - "/knowledge/compact-block-filters/"
 title: "Compact Block Filters"
-description: "Understand what compact block filters are and how they improve privacy over Electrum servers."
+description: "Compact Block Filters let Bitcoin Safe sync privately without exposing your wallet to an Electrum server."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
@@ -10,6 +10,7 @@ keywords:
   - "Bitcoin Safe"
   - "compact block filters"
   - "CBF"
+  - "electrum"
   - "privacy"
   - "Bitcoin wallet"
   - "Bitcoin Core"
@@ -19,54 +20,77 @@ weight: 100
 
 ## {{< page-title >}}
 
-
-Bitcoin Safe   1.6.0 introduces **Compact Block Filters (CBF)** as an optional way to sync your wallet.  Instead of asking a centralized Electrum server for your wallet history, [Bitcoin Safe]({{< ref "/" >}}) can now download a tiny summary file for every block directly from random Bitcoin Core peers. These summaries act like a short checklist that lets your wallet decide on its own whether a block might contain one of your transactions.
-
-Because [Bitcoin Safe]({{< ref "/" >}}) makes the decision locally, no third-party server ever learns which addresses or transactions you care about. You get the same confirmation data that a full node would keep, but in a lighter format that fits everyday devices.
-
-**Why it feels better:**
-
-- 📦 **Small downloads:** Each filter is only a few kilobytes, so you can sync through normal home connections without storing the whole blockchain.
-- 🔐 **Direct from the network:** [Bitcoin Safe]({{< ref "/" >}}) talks to multiple random Bitcoin Core nodes, just like other nodes do, reducing the chance that any single observer can profile you.
-- 🕵️ **Local matching:** Your wallet checks the filters locally. If a filter looks relevant, only then does it fetch the specific block, keeping your addresses private.
-
-Electrum servers, by contrast, search the blockchain on your behalf. Every request shares addresses of your wallet with the server operator, who could log that information. With compact block filters, [Bitcoin Safe]({{< ref "/" >}}) downloads the same neutral data that every node shares. No one can tell which addresses belong to you because your wallet never reveals them in the first place.
-
-Below is a simple view of how [Bitcoin Safe]({{< ref "/" >}}) connects when CBF is enabled. Notice how it mirrors the way Bitcoin Core nodes already talk to each other:
-
+**Compact Block Filters (CBF)** let [Bitcoin Safe]({{< ref "/" >}}) scan the blockchain without asking an Electrum server which addresses belong to you.
 
 ![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
+Instead of querying a central server, Bitcoin Safe downloads a small filter for each block from random Bitcoin Core peers. Your wallet checks those filters locally and only downloads full blocks when needed.
 
-You can choose how many peers [Bitcoin Safe]({{< ref "/" >}}) should connect to. More peers need more bandwidth and result in a slower sync time.  The default is 2.  
+### CBF vs Electrum
 
- 
-### What to expect when syncing
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Feature</th>
+        <th scope="col">Compact Block Filters</th>
+        <th scope="col">Electrum server</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privacy</th>
+        <td><span class="text-success fw-semibold">Good</span> - Wallet data stays local</td>
+        <td><span class="text-danger fw-semibold">Bad</span> - Server can learn your addresses and history</td>
+      </tr>
+      <tr>
+        <th scope="row">Data source</th>
+        <td><span class="text-success fw-semibold">Good</span> - Random Bitcoin Core peers</td>
+        <td><span class="text-warning fw-semibold">Neutral</span> - One chosen server</td>
+      </tr>
+      <tr>
+        <th scope="row">Initial sync</th>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Usually slower</td>
+        <td><span class="text-success fw-semibold">Good</span> - Usually faster</td>
+      </tr>
+      <tr>
+        <th scope="row">Ongoing sync</th>
+        <td><span class="text-success fw-semibold">Good</span> - Very fast after the first sync</td>
+        <td><span class="text-success fw-semibold">Good</span> - Usually quick</td>
+      </tr>
+      <tr>
+        <th scope="row">Best for</th>
+        <td><span class="text-success fw-semibold">Good</span> - Privacy-focused users</td>
+        <td><span class="text-success fw-semibold">Good</span> - Fastest setup and recovery</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-CBF changes how long you wait depending on what you are doing:
+### Why use CBF
 
-1. ✨ **Setting up or recovering a wallet:** Whether you create a new wallet or recover an existing one, the initial sync pulls filters for the entire history of your wallet. Expect this one-time process to take **between 5 and 30 minutes**, depending on your internet speed.
-2. 🚀 **Opening a wallet that was already synced:** [Bitcoin Safe]({{< ref "/" >}}) only needs to grab the newest filters since your last session. That catch-up usually finishes in **under 30 seconds**.
-3. 🔄 **Switching from Electrum servers to CBF:** Since the wallet was previously synced with Electrum servers,   [Bitcoin Safe]({{< ref "/" >}}) only needs to grab the newest filters, which will be usually **less than 30 seconds**.
+- Better privacy: your wallet never asks a server about your addresses.
+- No trusted indexer: Bitcoin Safe talks directly to the Bitcoin network.
+- Lightweight sync: filters are small, so you do not need the full blockchain.
 
-### Stay informed about unconfirmed payments
+### What to expect
 
-Compact block filters cover **confirmed blocks** only. To hear about incoming transactions before they are confirmed, make sure you also enable [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}). That feature listens to the live peer-to-peer messages from a random Bitcoin node so you can react to mempool activity without giving up privacy.
+- New wallet or wallet recovery: usually takes **5 to 30 minutes** for the first sync.
+- Already synced wallet: usually catches up **very fast**, often in **under 30 seconds**.
+- Switching from Electrum to CBF: usually also **under 30 seconds**.
 
+You can choose how many peers Bitcoin Safe connects to. More peers improve redundancy, but usually increase bandwidth use and sync time. The default is **2** peers.
 
-<br>
-<br>
+### Unconfirmed transactions
 
+CBF covers **confirmed blocks only**. To also get alerts for incoming unconfirmed payments, leave [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}) enabled, which is the default.
 
+### Technical note
 
-### Technical details
+Compact block filters are defined in [BIP158](https://bips.dev/158/). Bitcoin Safe uses the open-source [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-
-- *For developers who want to go deeper:* compact block filters follow the [BIP158 specification](https://bips.dev/158/) and are explored in [Elle Mouton’s overview of Golomb-coded sets](https://ellemouton.com/posts/bip158/). Bitcoin Safe’s implementation relies on the open-source [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
-- You can add your own Bitcoin core node to the peers for Compact Block Filter syncing, by choosing the _Initial node_ of the _Bitcoin network monitoring_.
-
+You can also use your own Bitcoin Core node as an initial peer in the _Bitcoin network monitoring_ settings.
 
 ![Initial node setting](inital-node.png)
 { .img-fluid .mb-5   style="max-width: 414px;" }
-

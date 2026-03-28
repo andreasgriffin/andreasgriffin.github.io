@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Os filtros compactos de bloco (CBF)** permitem ao [Bitcoin Safe]({{< ref "/" >}}) analisar a blockchain sem perguntar a um servidor Electrum quais endereços são seus.
 
-O [Bitcoin Safe]({{< ref "/" >}}) 1.6.0 introduz **Filtros Compactos de Bloco (CBF)** como uma forma opcional de sincronizar a sua carteira. Em vez de perguntar a um servidor Electrum centralizado pelo histórico da sua carteira, o [Bitcoin Safe]({{< ref "/" >}}) pode agora descarregar um pequeno ficheiro resumo para cada bloco diretamente de nós aleatórios do Bitcoin Core. Esses resumos funcionam como uma lista de verificação curta que permite à sua carteira decidir por si só se um bloco pode conter uma das suas transacções.
+![O Bitcoin Safe descarrega filtros compactos de bloco de vários pares aleatórios do Bitcoin Core.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Como o [Bitcoin Safe]({{< ref "/" >}}) toma a decisão localmente, nenhum servidor terceiro alguma vez fica a saber quais endereços ou transacções o interessam. Obtém os mesmos dados de confirmação que um nó completo armazenaria, mas num formato mais leve que se adequa a dispositivos do dia a dia.
+Em vez de consultar um servidor central, o Bitcoin Safe descarrega um filtro pequeno para cada bloco de pares aleatórios do Bitcoin Core. A sua carteira verifica esses filtros localmente e só descarrega blocos completos quando é necessário.
 
-**Porque parece melhor:**
+### CBF vs Electrum
 
-- 📦 **Transferências pequenas:** Cada filtro tem apenas alguns kilobytes, pelo que pode sincronizar através de ligações domésticas normais sem armazenar toda a blockchain.
-- 🔐 **Direto da rede:** O [Bitcoin Safe]({{< ref "/" >}}) comunica com múltiplos nós aleatórios do Bitcoin Core, tal como outros nós fazem, reduzindo a hipótese de um único observador o poder perfilar.
-- 🕵️ **Verificação local:** A sua carteira verifica os filtros localmente. Se um filtro parecer relevante, só então descarrega o bloco específico, mantendo os seus endereços privados.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspeto</th>
+        <th scope="col">Filtros compactos de bloco</th>
+        <th scope="col">Servidor Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privacidade</th>
+        <td><span class="text-success fw-semibold">Bom</span> - Os dados da carteira permanecem locais</td>
+        <td><span class="text-danger fw-semibold">Mau</span> - O servidor pode ver os seus endereços e histórico</td>
+      </tr>
+      <tr>
+        <th scope="row">Fonte de dados</th>
+        <td><span class="text-success fw-semibold">Bom</span> - Pares aleatórios do Bitcoin Core</td>
+        <td><span class="text-warning fw-semibold">Neutro</span> - Um único servidor escolhido</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronização inicial</th>
+        <td><span class="text-warning fw-semibold">Neutro</span> - Normalmente mais lenta</td>
+        <td><span class="text-success fw-semibold">Bom</span> - Normalmente mais rápida</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronização contínua</th>
+        <td><span class="text-success fw-semibold">Bom</span> - Muito rápida depois da primeira sincronização</td>
+        <td><span class="text-success fw-semibold">Bom</span> - Normalmente rápida</td>
+      </tr>
+      <tr>
+        <th scope="row">Ideal para</th>
+        <td><span class="text-success fw-semibold">Bom</span> - Utilizadores focados na privacidade</td>
+        <td><span class="text-success fw-semibold">Bom</span> - A configuração e recuperação mais rápidas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Os servidores Electrum, em contraste, pesquisam a blockchain em seu nome. Cada pedido partilha endereços da sua carteira com o operador do servidor, que poderia registar essa informação. Com filtros compactos de bloco, o [Bitcoin Safe]({{< ref "/" >}}) descarrega os mesmos dados neutros que todos os nós partilham. Ninguém consegue saber quais endereços lhe pertencem porque a sua carteira nunca os revela em primeiro lugar.
+### Por que usar CBF
 
-Abaixo está uma visão simples de como o [Bitcoin Safe]({{< ref "/" >}}) se liga quando o CBF está ativado. Repare como espelha a forma como os nós do Bitcoin Core já comunicam entre si:
+- Mais privacidade: a sua carteira nunca pergunta a um servidor quais endereços são seus.
+- Sem indexador de confiança: o Bitcoin Safe fala diretamente com a rede Bitcoin.
+- Sincronização leve: os filtros são pequenos, por isso não precisa de toda a blockchain.
 
+### O que esperar
 
-![O [Bitcoin Safe]({{< ref "/" >}}) descarrega filtros compactos de bloco a partir de vários nós aleatórios do Bitcoin Core.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- Carteira nova ou recuperação: normalmente **5 a 30 minutos** para a primeira sincronização.
+- Carteira já sincronizada: normalmente recupera **muito rápido**, muitas vezes em **menos de 30 segundos**.
+- Mudança de Electrum para CBF: normalmente também **menos de 30 segundos**.
 
+Pode escolher com quantos pares o Bitcoin Safe se liga. Mais pares melhoram a redundância, mas normalmente aumentam a largura de banda e o tempo de sincronização. O predefinido é **2** pares.
 
-Pode escolher com quantos nós o [Bitcoin Safe]({{< ref "/" >}}) deve ligar-se. Mais nós exigem mais largura de banda e resultam numa sincronização mais lenta. O predefinido é 2.  
+### Transações não confirmadas
 
- 
-### O que esperar durante a sincronização
+CBF cobre apenas **blocos confirmados**. Para também receber alertas de pagamentos não confirmados, deixe [Notificações instantâneas de transações]({{< ref "knowledge/instant-transactions-notifications/" >}}) ativadas, que é o comportamento padrão.
 
-CBF altera o tempo de espera consoante o que estiver a fazer:
+### Nota técnica
 
-1. ✨ **Configuração ou recuperação de uma carteira:** Quer crie uma carteira nova ou recupere uma existente, a sincronização inicial descarrega filtros para todo o histórico da sua carteira. Espere que este processo único demore **entre 5 e 30 minutos**, dependendo da sua velocidade de internet.
-2. 🚀 **Abrir uma carteira que já estava sincronizada:** O [Bitcoin Safe]({{< ref "/" >}}) só precisa de obter os filtros mais recentes desde a sua última sessão. Esse ajuste normalmente termina em **menos de 30 segundos**.
-3. 🔄 **Mudar de servidores Electrum para CBF:** Como a carteira foi previamente sincronizada com servidores Electrum, o [Bitcoin Safe]({{< ref "/" >}}) só precisa de obter os filtros mais recentes, o que normalmente será **menos de 30 segundos**.
+Os filtros compactos de bloco estão definidos no [BIP158](https://bips.dev/158/). O Bitcoin Safe usa o módulo de código aberto [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-### Mantenha-se informado sobre pagamentos não confirmados
+Também pode usar o seu próprio nó Bitcoin Core como peer inicial nas definições de _Bitcoin network monitoring_.
 
-Os filtros compactos de bloco cobrem apenas **blocos confirmados**. Para ser notificado sobre transacções recebidas antes de serem confirmadas, certifique-se de também activar as [Notificações instantâneas de transações]({{< ref "knowledge/instant-transactions-notifications/" >}}). Essa funcionalidade escuta as mensagens peer-to-peer em tempo real de um nó Bitcoin aleatório, para que possa reagir à actividade do mempool sem perder privacidade.
-
-
-<br>
-<br>
-
-
-
-### Detalhes técnicos
-
-
-- *Para desenvolvedores que queiram aprofundar:* os filtros compactos de bloco seguem a especificação [BIP158](https://bips.dev/158/) e são explorados no [resumo de Elle Mouton sobre Golomb-coded sets](https://ellemouton.com/posts/bip158/). A implementação do [Bitcoin Safe]({{< ref "/" >}}) baseia-se no módulo open-source [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
-- Pode adicionar o seu próprio nó Bitcoin Core aos pares para sincronização de Filtros Compactos de Bloco, escolhendo o _Nó inicial_ do _Monitor de rede Bitcoin_.
-
-
-![Initial node setting](inital-node.png)
+![Definição do nó inicial](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

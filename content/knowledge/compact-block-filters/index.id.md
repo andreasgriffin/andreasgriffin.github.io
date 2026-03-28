@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Filter Blok Kompak (CBF)** memungkinkan [Bitcoin Safe]({{< ref "/" >}}) memindai blockchain tanpa menanyakan server Electrum alamat mana yang milik Anda.
 
-Bitcoin Safe   1.6.0 memperkenalkan **Filter Blok Kompak (CBF)** sebagai cara opsional untuk menyinkronkan dompet Anda. Daripada meminta server Electrum terpusat untuk riwayat dompet Anda, [Bitcoin Safe]({{< ref "/" >}}) sekarang dapat mengunduh berkas ringkasan kecil untuk setiap blok langsung dari node Bitcoin Core acak. Ringkasan ini berfungsi seperti daftar periksa singkat yang memungkinkan dompet Anda memutuskan sendiri apakah sebuah blok mungkin berisi salah satu transaksi Anda.
+![Bitcoin Safe mengunduh filter blok kompak dari beberapa peer Bitcoin Core acak.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Karena [Bitcoin Safe]({{< ref "/" >}}) membuat keputusan secara lokal, tidak ada server pihak ketiga yang mengetahui alamat atau transaksi mana yang Anda pedulikan. Anda mendapatkan data konfirmasi yang sama seperti yang disimpan oleh node penuh, namun dalam format yang lebih ringan yang cocok untuk perangkat sehari-hari.
+Alih-alih meminta server pusat, Bitcoin Safe mengunduh filter kecil untuk setiap blok dari peer Bitcoin Core acak. Dompet Anda memeriksa filter itu secara lokal dan hanya mengunduh blok penuh saat diperlukan.
 
-**Mengapa terasa lebih baik:**
+### CBF vs Electrum
 
-- 📦 **Unduhan kecil:** Setiap filter hanya beberapa kilobita, sehingga Anda dapat menyinkronkan melalui koneksi rumah biasa tanpa menyimpan seluruh blockchain.
-- 🔐 **Langsung dari jaringan:** [Bitcoin Safe]({{< ref "/" >}}) berbicara dengan beberapa node Bitcoin Core acak, sama seperti node lain, mengurangi peluang bahwa pengamat tunggal dapat memprofil Anda.
-- 🕵️ **Pencocokan lokal:** Dompet Anda memeriksa filter secara lokal. Jika sebuah filter tampak relevan, baru kemudian ia mengunduh blok spesifik tersebut, menjaga alamat Anda tetap privat.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspek</th>
+        <th scope="col">Filter Blok Kompak</th>
+        <th scope="col">Server Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privasi</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Data dompet tetap lokal</td>
+        <td><span class="text-danger fw-semibold">Buruk</span> - Server dapat melihat alamat dan riwayat Anda</td>
+      </tr>
+      <tr>
+        <th scope="row">Sumber data</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Peer Bitcoin Core acak</td>
+        <td><span class="text-warning fw-semibold">Netral</span> - Satu server yang dipilih</td>
+      </tr>
+      <tr>
+        <th scope="row">Sinkronisasi awal</th>
+        <td><span class="text-warning fw-semibold">Netral</span> - Biasanya lebih lambat</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Biasanya lebih cepat</td>
+      </tr>
+      <tr>
+        <th scope="row">Sinkronisasi berkelanjutan</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Sangat cepat setelah sinkronisasi pertama</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Biasanya cepat</td>
+      </tr>
+      <tr>
+        <th scope="row">Cocok untuk</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Pengguna yang memprioritaskan privasi</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Pengaturan dan pemulihan tercepat</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Server Electrum, sebaliknya, mencari di blockchain atas nama Anda. Setiap permintaan membagikan alamat dompet Anda kepada operator server, yang bisa mencatat informasi tersebut. Dengan filter blok kompak, [Bitcoin Safe]({{< ref "/" >}}) mengunduh data netral yang sama yang dibagikan setiap node. Tidak ada yang bisa mengetahui alamat mana yang milik Anda karena dompet Anda tidak pernah mengungkapkannya sejak awal.
+### Mengapa memakai CBF
 
-Di bawah ini adalah tampilan sederhana bagaimana [Bitcoin Safe]({{< ref "/" >}}) terhubung saat CBF diaktifkan. Perhatikan bagaimana ini mencerminkan cara node Bitcoin Core saling berkomunikasi:
+- Privasi lebih baik: dompet Anda tidak pernah menanyakan alamat Anda ke server.
+- Tanpa indexer tepercaya: Bitcoin Safe berbicara langsung dengan jaringan Bitcoin.
+- Sinkronisasi ringan: filternya kecil, jadi Anda tidak perlu seluruh blockchain.
 
+### Apa yang diharapkan
 
-![Bitcoin Safe mengunduh filter blok kompak dari beberapa node Bitcoin Core acak.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- Dompet baru atau pemulihan: biasanya **5 sampai 30 menit** untuk sinkronisasi pertama.
+- Dompet yang sudah tersinkron: biasanya mengejar **sangat cepat**, sering kali dalam **kurang dari 30 detik**.
+- Pindah dari Electrum ke CBF: biasanya juga **kurang dari 30 detik**.
 
+Anda dapat memilih berapa banyak peer yang dihubungkan Bitcoin Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan bandwidth dan waktu sinkronisasi. Default-nya adalah **2** peer.
 
-Anda dapat memilih berapa banyak peer yang harus dihubungkan Bitcoin Safe. Semakin banyak peer, semakin besar bandwidth yang dibutuhkan dan semakin lambat waktu sinkronisasi. Defaultnya adalah 2.  
+### Transaksi belum dikonfirmasi
 
- 
-### Apa yang diharapkan saat menyinkronkan
+CBF hanya mencakup **blok yang dikonfirmasi**. Untuk juga menerima notifikasi pembayaran masuk yang belum dikonfirmasi, biarkan [Notifikasi transaksi instan]({{< ref "knowledge/instant-transactions-notifications/" >}}) tetap aktif, karena itu adalah pengaturan default.
 
-CBF mengubah lamanya waktu tunggu tergantung pada apa yang Anda lakukan:
+### Catatan teknis
 
-1. ✨ **Menyiapkan atau memulihkan dompet:** Baik Anda membuat dompet baru atau memulihkan yang sudah ada, sinkronisasi awal menarik filter untuk seluruh riwayat dompet Anda. Proses satu kali ini biasanya memakan waktu **antara 5 hingga 30 menit**, tergantung kecepatan internet Anda.
-2. 🚀 **Membuka dompet yang sudah pernah disinkronkan:** [Bitcoin Safe]({{< ref "/" >}}) hanya perlu mengambil filter terbaru sejak sesi terakhir Anda. Pengejaran ini biasanya selesai dalam **kurang dari 30 detik**.
-3. 🔄 **Beralih dari server Electrum ke CBF:** Karena dompet sebelumnya sudah disinkronkan dengan server Electrum, [Bitcoin Safe]({{< ref "/" >}}) hanya perlu mengambil filter terbaru, yang biasanya akan **kurang dari 30 detik**.
+Filter blok kompak didefinisikan dalam [BIP158](https://bips.dev/158/). Bitcoin Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-### Tetap diberitahu tentang pembayaran yang belum dikonfirmasi
+Anda juga dapat memakai node Bitcoin Core Anda sendiri sebagai peer awal di pengaturan _Bitcoin network monitoring_.
 
-Filter blok kompak hanya mencakup **blok yang sudah dikonfirmasi**. Untuk mendapat pemberitahuan tentang transaksi masuk sebelum dikonfirmasi, pastikan Anda juga mengaktifkan [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}). Fitur itu mendengarkan pesan peer-to-peer langsung dari node Bitcoin acak sehingga Anda bisa bereaksi terhadap aktivitas mempool tanpa mengorbankan privasi.
-
-
-<br>
-<br>
-
-
-
-### Rincian teknis
-
-
-- *Untuk pengembang yang ingin mendalami:* filter blok kompak mengikuti spesifikasi [BIP158](https://bips.dev/158/) dan dibahas dalam [tinjauan Elle Mouton tentang Golomb-coded sets](https://ellemouton.com/posts/bip158/). Implementasi [Bitcoin Safe]({{< ref "/" >}}) bergantung pada modul open-source [Kyoto compact block filter untuk BDK](https://github.com/2140-dev/kyoto).
-- Anda dapat menambahkan node Bitcoin Core Anda sendiri ke peer untuk sinkronisasi Filter Blok Kompak, dengan memilih _Initial node_ dari _Bitcoin network monitoring_.
-
-
-![Initial node setting](inital-node.png)
+![Pengaturan node awal](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

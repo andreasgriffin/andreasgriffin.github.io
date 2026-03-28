@@ -1,12 +1,12 @@
 ---
-title: "콤팩트 블록 필터 (Compact Block Filters)"
-description: "콤팩트 블록 필터가 무엇이고 Electrum 서버 대비 어떻게 프라이버시를 향상시키는지 이해합니다."
+title: "컴팩트 블록 필터"
+description: "컴팩트 블록 필터가 무엇인지, 그리고 Electrum 서버보다 어떻게 프라이버시를 높이는지 이해하세요."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
-  - "콤팩트 블록 필터"
+  - "컴팩트 블록 필터"
   - "CBF"
   - "프라이버시"
   - "비트코인 지갑"
@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**컴팩트 블록 필터(CBF)** 를 사용하면 [Bitcoin Safe]({{< ref "/" >}}) 는 Electrum 서버에 주소를 묻지 않고도 블록체인을 스캔할 수 있습니다.
 
-Bitcoin Safe   1.6.0은 지갑 동기화의 선택적 방법으로 **콤팩트 블록 필터(CBF)** 를 도입합니다. 중앙화된 Electrum 서버에 지갑 내역을 요청하는 대신, Bitcoin Safe는 이제 각 블록에 대한 작은 요약 파일을 무작위 Bitcoin Core 피어들로부터 직접 다운로드할 수 있습니다. 이 요약은 체크리스트처럼 작동하여 지갑이 해당 블록에 사용자의 트랜잭션이 포함되어 있을지 스스로 판단할 수 있게 합니다.
+![Bitcoin Safe가 여러 랜덤 Bitcoin Core 피어에서 컴팩트 블록 필터를 다운로드합니다.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Bitcoin Safe가 로컬에서 결정을 내리기 때문에, 제3자 서버는 어떤 주소나 트랜잭션에 사용자가 관심이 있는지 전혀 알 수 없습니다. 전체 노드가 보관하는 동일한 확인 데이터를 더 가벼운 형식으로 얻을 수 있어 일상적인 기기에서도 사용하기에 적합합니다.
+중앙 서버를 조회하는 대신, Bitcoin Safe는 각 블록에 대한 작은 필터를 랜덤한 Bitcoin Core 피어들로부터 다운로드합니다. 지갑은 이를 로컬에서 확인하고 필요할 때만 전체 블록을 내려받습니다.
 
-**더 나은 이유:**
+### CBF 와 Electrum
 
-- 📦 **작은 다운로드:** 각 필터는 몇 킬로바이트에 불과하므로 전체 블록체인을 저장하지 않고도 일반 가정용 연결로 동기화할 수 있습니다.
-- 🔐 **네트워크에서 직접 수신:** Bitcoin Safe는 다른 노드들처럼 여러 무작위 Bitcoin Core 노드와 통신하여 단일 관찰자가 사용자를 프로파일링할 가능성을 줄입니다.
-- 🕵️ **로컬 매칭:** 지갑이 필터를 로컬에서 검사합니다. 필터가 관련 있는 것으로 보일 때에만 해당 블록을 가져오므로 주소를 비공개로 유지합니다.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">항목</th>
+        <th scope="col">컴팩트 블록 필터</th>
+        <th scope="col">Electrum 서버</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">프라이버시</th>
+        <td><span class="text-success fw-semibold">좋음</span> - 지갑 데이터가 로컬에 남음</td>
+        <td><span class="text-danger fw-semibold">나쁨</span> - 서버가 주소와 기록을 볼 수 있음</td>
+      </tr>
+      <tr>
+        <th scope="row">데이터 출처</th>
+        <td><span class="text-success fw-semibold">좋음</span> - 랜덤한 Bitcoin Core 피어</td>
+        <td><span class="text-warning fw-semibold">중립</span> - 하나의 선택한 서버</td>
+      </tr>
+      <tr>
+        <th scope="row">초기 동기화</th>
+        <td><span class="text-warning fw-semibold">중립</span> - 보통 더 느림</td>
+        <td><span class="text-success fw-semibold">좋음</span> - 보통 더 빠름</td>
+      </tr>
+      <tr>
+        <th scope="row">지속 동기화</th>
+        <td><span class="text-success fw-semibold">좋음</span> - 첫 동기화 후 매우 빠름</td>
+        <td><span class="text-success fw-semibold">좋음</span> - 보통 빠름</td>
+      </tr>
+      <tr>
+        <th scope="row">추천 대상</th>
+        <td><span class="text-success fw-semibold">좋음</span> - 프라이버시를 중시하는 사용자</td>
+        <td><span class="text-success fw-semibold">좋음</span> - 가장 빠른 설정과 복구가 필요한 사용자</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-반면 Electrum 서버는 사용자를 대신해 블록체인을 검색합니다. 각 요청은 지갑의 주소들을 서버 운영자와 공유하며, 운영자가 이를 기록할 수 있습니다. 콤팩트 블록 필터를 사용하면 Bitcoin Safe는 모든 노드가 공유하는 중립적인 동일 데이터를 다운로드합니다. 사용자의 지갑이 주소를 처음부터 공개하지 않기 때문에 누구도 어떤 주소가 사용자에게 속했는지 알 수 없습니다.
+### CBF 를 사용하는 이유
 
-아래는 CBF가 활성화되었을 때 Bitcoin Safe가 연결되는 방식을 단순화한 모습입니다. Bitcoin Core 노드들이 이미 서로 통신하는 방식과 어떻게 유사한지 주목하세요:
+- 더 나은 프라이버시: 지갑이 서버에 주소를 묻지 않습니다.
+- 신뢰할 수 있는 인덱서 불필요: Bitcoin Safe 는 비트코인 네트워크와 직접 통신합니다.
+- 가벼운 동기화: 필터가 작아서 전체 블록체인이 필요 없습니다.
 
+### 기대할 수 있는 점
 
-![Bitcoin Safe가 여러 무작위 Bitcoin Core 피어에서 콤팩트 블록 필터를 다운로드합니다.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- 새 지갑 또는 복구: 첫 동기화는 보통 **5~30분** 걸립니다.
+- 이미 동기화된 지갑: 보통 **매우 빠르게** 따라잡으며, 종종 **30초 이내** 입니다.
+- Electrum 에서 CBF 로 전환: 보통 역시 **30초 이내** 입니다.
 
+Bitcoin Safe 가 연결할 피어 수를 선택할 수 있습니다. 피어가 많을수록 중복성은 좋아지지만, 대개 대역폭과 동기화 시간도 늘어납니다. 기본값은 **2** 개입니다.
 
-Bitcoin Safe가 연결할 피어 수를 선택할 수 있습니다. 더 많은 피어는 더 많은 대역폭을 필요로 하며 동기화 시간이 길어질 수 있습니다. 기본값은 2입니다.
+### 미확인 거래
 
- 
-### 동기화 시 예상되는 사항
+CBF 는 **확인된 블록** 만 다룹니다. 미확인 입금 알림도 받으려면 [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}) 를 켠 상태로 두세요. 이것이 기본 설정입니다.
 
-CBF는 수행하는 작업에 따라 대기 시간이 달라집니다:
+### 기술 참고
 
-1. ✨ **지갑 설정 또는 복구:** 새 지갑을 만들든 기존 지갑을 복구하든 초기 동기화는 지갑의 전체 기록에 대한 필터를 가져옵니다. 인터넷 속도에 따라 이 일회성 과정은 **약 5분에서 30분 사이**가 소요될 것으로 예상하세요.
-2. 🚀 **이미 동기화했던 지갑 열기:** Bitcoin Safe는 마지막 세션 이후의 최신 필터만 가져오면 됩니다. 이런 보정 동기화는 보통 **30초 이내**에 끝납니다.
-3. 🔄 **Electrum 서버에서 CBF로 전환:** 지갑이 이전에 Electrum 서버로 동기화되어 있었다면 Bitcoin Safe는 최신 필터만 가져오면 되므로, 일반적으로 **30초 미만**이 소요됩니다.
+컴팩트 블록 필터는 [BIP158](https://bips.dev/158/) 에 정의되어 있습니다. Bitcoin Safe 는 오픈 소스 [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) 를 사용합니다.
 
-### 확인되지 않은 결제에 대한 정보 유지
+_Bitcoin network monitoring_ 설정에서 자신의 Bitcoin Core 노드를 초기 피어로 사용할 수도 있습니다.
 
-콤팩트 블록 필터는 **확인된 블록**만 다룹니다. 확인되기 전의 수신 트랜잭션에 대해 알림을 받으려면 [즉시 거래 알림]({{< ref "knowledge/instant-transactions-notifications/" >}})을 활성화했는지 확인하세요. 이 기능은 무작위 비트코인 노드로부터의 실시간 피어투피어 메시지를 수신하여 메모풀 활동에 대응하면서도 프라이버시를 유지할 수 있게 해줍니다.
-
-
-<br>
-<br>
-
-
-
-### 기술적 세부사항
-
-
-- *더 깊게 알고 싶은 개발자를 위해:* 콤팩트 블록 필터는 [BIP158 명세](https://bips.dev/158/)를 따르며, Golomb-coded sets에 대한 개요는 [Elle Mouton의 글](https://ellemouton.com/posts/bip158/)에서 다룹니다. Bitcoin Safe의 구현은 오픈 소스인 [BDK용 Kyoto 콤팩트 블록 필터 모듈](https://github.com/2140-dev/kyoto)에 의존합니다.
-- 콤팩트 블록 필터 동기화를 위해 자신의 Bitcoin Core 노드를 피어로 추가할 수 있습니다. _Bitcoin network monitoring_의 _Initial node_를 선택하면 됩니다.
-
-
-![Initial node setting](inital-node.png)
+![초기 노드 설정](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

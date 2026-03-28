@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Los filtros compactos de bloques (CBF)** permiten a [Bitcoin Safe]({{< ref "/" >}}) analizar la cadena sin preguntar a un servidor Electrum qué direcciones son tuyas.
 
-Bitcoin Safe 1.6.0 introduce los **Filtros Compactos de Bloques (CBF)** como una forma opcional de sincronizar tu monedero. En lugar de consultar a un servidor Electrum centralizado por el historial de tu monedero, [Bitcoin Safe]({{< ref "/" >}}) ahora puede descargar un pequeño archivo resumen de cada bloque directamente desde nodos aleatorios de Bitcoin Core. Estos resúmenes actúan como una breve lista de verificación que permite a tu monedero decidir por sí mismo si un bloque podría contener una de tus transacciones.
+![Bitcoin Safe descarga filtros compactos de bloques desde varios pares aleatorios de Bitcoin Core.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Como [Bitcoin Safe]({{< ref "/" >}}) toma la decisión de forma local, ningún servidor tercero llega a saber qué direcciones o transacciones te interesan. Obtienes los mismos datos de confirmación que conservaría un nodo completo, pero en un formato más ligero que cabe en dispositivos cotidianos.
+En lugar de consultar a un servidor central, Bitcoin Safe descarga un filtro pequeño para cada bloque desde pares aleatorios de Bitcoin Core. Tu monedero comprueba esos filtros localmente y solo descarga los bloques completos cuando hace falta.
 
-**Por qué resulta mejor:**
+### CBF frente a Electrum
 
-- 📦 **Descargas pequeñas:** Cada filtro ocupa solo unos pocos kilobytes, por lo que puedes sincronizarte a través de conexiones domésticas normales sin almacenar toda la cadena de bloques.
-- 🔐 **Directo desde la red:** [Bitcoin Safe]({{< ref "/" >}}) se comunica con varios nodos aleatorios de Bitcoin Core, igual que hacen otros nodos, reduciendo la posibilidad de que un único observador pueda perfilarte.
-- 🕵️ **Coincidencia local:** Tu monedero comprueba los filtros de forma local. Si un filtro parece relevante, solo entonces descarga el bloque específico, manteniendo tus direcciones privadas.
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspecto</th>
+        <th scope="col">Filtros compactos de bloques</th>
+        <th scope="col">Servidor Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privacidad</th>
+        <td><span class="text-success fw-semibold">Bien</span> - Los datos del monedero siguen siendo locales</td>
+        <td><span class="text-danger fw-semibold">Mal</span> - El servidor puede ver tus direcciones y tu historial</td>
+      </tr>
+      <tr>
+        <th scope="row">Fuente de datos</th>
+        <td><span class="text-success fw-semibold">Bien</span> - Pares aleatorios de Bitcoin Core</td>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Un solo servidor elegido</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronización inicial</th>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Normalmente más lenta</td>
+        <td><span class="text-success fw-semibold">Bien</span> - Normalmente más rápida</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronización continua</th>
+        <td><span class="text-success fw-semibold">Bien</span> - Muy rápida después de la primera sincronización</td>
+        <td><span class="text-success fw-semibold">Bien</span> - Normalmente rápida</td>
+      </tr>
+      <tr>
+        <th scope="row">Ideal para</th>
+        <td><span class="text-success fw-semibold">Bien</span> - Usuarios que priorizan la privacidad</td>
+        <td><span class="text-success fw-semibold">Bien</span> - La configuración y recuperación más rápidas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Los servidores Electrum, en cambio, buscan en la cadena de bloques en tu nombre. Cada petición comparte direcciones de tu monedero con el operador del servidor, que podría registrar esa información. Con los filtros compactos de bloques, [Bitcoin Safe]({{< ref "/" >}}) descarga los mismos datos neutrales que comparte cualquier nodo. Nadie puede saber qué direcciones te pertenecen porque tu monedero nunca las revela en primer lugar.
+### Por qué usar CBF
 
-A continuación hay una vista sencilla de cómo se conecta [Bitcoin Safe]({{< ref "/" >}}) cuando CBF está activado. Observa cómo refleja la manera en que los nodos de Bitcoin Core ya se comunican entre sí:
+- Mejor privacidad: tu monedero nunca le pide a un servidor qué direcciones son tuyas.
+- Sin indexador de confianza: Bitcoin Safe se comunica directamente con la red Bitcoin.
+- Sincronización ligera: los filtros son pequeños, así que no necesitas toda la cadena de bloques.
 
+### Qué esperar
 
-![Bitcoin Safe descarga filtros compactos de bloques desde varios nodos aleatorios de Bitcoin Core.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+- Monedero nuevo o recuperación: normalmente **5 a 30 minutos** para la primera sincronización.
+- Monedero ya sincronizado: normalmente se pone al día **muy rápido**, a menudo en **menos de 30 segundos**.
+- Cambio de Electrum a CBF: normalmente también **menos de 30 segundos**.
 
+Puedes elegir a cuántos pares se conecta Bitcoin Safe. Más pares mejoran la redundancia, pero normalmente aumentan el uso de ancho de banda y el tiempo de sincronización. El valor predeterminado es **2** pares.
 
-Puedes elegir a cuántos nodos debe conectarse Bitcoin Safe. Más nodos necesitan más ancho de banda y resultan en un tiempo de sincronización más lento. El valor predeterminado es 2.
+### Transacciones no confirmadas
 
- 
-### Qué esperar al sincronizar
+CBF cubre solo los **bloques confirmados**. Para recibir también alertas de pagos no confirmados, deja [Notificaciones instantáneas de transacciones]({{< ref "knowledge/instant-transactions-notifications/" >}}) activadas, que es el comportamiento predeterminado.
 
-CBF cambia el tiempo de espera dependiendo de lo que estés haciendo:
+### Nota técnica
 
-1. ✨ **Configurar o recuperar un monedero:** Ya sea que crees un monedero nuevo o recuperes uno existente, la sincronización inicial descarga filtros para todo el historial de bloques. Espera que este proceso único tarde **entre 5 y 30 minutos**, según la velocidad de tu conexión a Internet.
-2. 🚀 **Abrir un monedero que ya estaba sincronizado:** [Bitcoin Safe]({{< ref "/" >}}) solo necesita obtener los filtros más recientes desde tu última sesión. Esa puesta al día suele completarse en **menos de 30 segundos**.
-3. 🔄 **Cambiar de servidores Electrum a CBF:** Dado que el monedero ya estaba sincronizado con servidores Electrum, [Bitcoin Safe]({{< ref "/" >}}) solo necesita obtener los filtros más nuevos, lo cual generalmente será **menos de 30 segundos**.
+Los filtros compactos de bloques están definidos en [BIP158](https://bips.dev/158/). Bitcoin Safe usa el módulo de código abierto [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-### Mantente informado sobre pagos no confirmados
+También puedes usar tu propio nodo de Bitcoin Core como par inicial en los ajustes de _Supervisión de la red Bitcoin_.
 
-Los filtros compactos de bloques cubren únicamente los **bloques confirmados**. Para enterarte de transacciones entrantes antes de que se confirmen, asegúrate también de habilitar [Notificaciones instantáneas de transacciones]({{< ref "knowledge/instant-transactions-notifications/" >}}). Esa función escucha los mensajes en vivo peer-to-peer de un nodo Bitcoin aleatorio para que puedas reaccionar a la actividad del mempool sin renunciar a la privacidad.
-
-
-<br>
-<br>
-
-
-
-### Detalles técnicos
-
-
-- *Para desarrolladores que quieran profundizar:* los filtros compactos de bloques siguen la especificación [BIP158](https://bips.dev/158/) y se exploran en el [resumen de Elle Mouton sobre los conjuntos codificados con Golomb](https://ellemouton.com/posts/bip158/). La implementación de [Bitcoin Safe]({{< ref "/" >}}) se basa en el módulo de filtros compactos Kyoto de código abierto para BDK: [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
-- Puedes añadir tu propio nodo de Bitcoin Core a los pares para la sincronización de Filtros Compactos de Bloques, eligiendo el _Nodo inicial_ de la _Supervisión de la red Bitcoin_.
-
-
-![Initial node setting](inital-node.png)
+![Ajuste de nodo inicial](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

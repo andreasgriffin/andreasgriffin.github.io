@@ -1,15 +1,15 @@
 ---
-title: "ကွန်ပက် ဘလော့ခ် ဖီလ်တာများ (Compact Block Filters)"
-description: "Compact block filters များဆိုတာဘာလဲ၊ Electrum ဆာဗာများထက် ကိုယ့်ရဲ့ကိုယ်ရေးကိုယ်တာလုံခြုံမှုကို ဘယ်လိုတိုးတက်စေသည်ကို နားလည်ပါ။"
+title: "Penapis Blok Padat"
+description: "Fahami apa itu penapis blok padat dan bagaimana ia meningkatkan privasi berbanding pelayan Electrum."
 draft: false
 tags: ["Featured", "Knowledge" ]
 images: ["logo.jpg" ]
 keywords:
   - "Bitcoin Safe"
-  - "ကွန်ပက် ဘလော့ခ် ဖီလ်တာများ"
+  - "penapis blok padat"
   - "CBF"
-  - "ကိုယ်ရေးကိုယ်တာ လုံခြုံမှု"
-  - "Bitcoin ဝေါလက်"
+  - "privasi"
+  - "dompet Bitcoin"
   - "Bitcoin Core"
   - "BDK"
 weight: 0
@@ -17,54 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
+**Penapis Blok Padat (CBF)** membolehkan [Bitcoin Safe]({{< ref "/" >}}) mengimbas blockchain tanpa bertanya kepada pelayan Electrum alamat yang milik anda.
 
-Bitcoin Safe 1.6.0 သည် သင့်ဝေါလက်ကို စင်က်လုပ်ရန် ရွေးချယ်စရာ နည်းလမ်းတစ်ခုအဖြစ် **Compact Block Filters (CBF)** ကို စတင်ထည့်သွင်းပေးလိုက်ပါသည်။ အလယ်ဗျာ Electrum ဆာဗာတစ်ခုကို သင့်ဝေါလက်စာရင်းကို မေးမြန်းရန်မဟုတ်ဘဲ၊ [Bitcoin Safe]({{< ref "/" >}}) သည် အခုမှစ၍ တစ်ဘလော့ခ်စီအတွက် သေးငယ်သော အကျဉ်ချုပ်ဖိုင်များကို မဖြစ်မနည်း ရRandom Bitcoin Core peer များထံမှ တိုက်ရိုက်ဒေါင်းလုဒ်နိုင်ပါသည်။ ဤအကျဉ်ချုပ်များသည် သင့်ဝေါလက်အား ဘလော့ခ်တစ်ခုတွင် သင့်ငွေလွှဲစနစ်အချက်လက်တစ်ခု ပါဝင်နေမနေ ကိုယ်တိုင်ဆုံးဖြတ်နိုင်စေရန် အတိုချုပ် စစ်ဆေးစာရင်းလို တာဝန်ထမ်းဆောင်လိမ့်မည်။
+![Bitcoin Safe memuat turun penapis blok padat daripada beberapa peer Bitcoin Core rawak.](logo.jpg)
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Bitcoin Safe သည် ဆုံးဖြတ်ချက်ကို ဒေသတွင်းပြုလုပ်သလို၊ တတိယ पक्षဆာဗာတစ်ခုမှ မည်သည့်လိမ်လည်သူမျိုးက သင့်လိပ်စာများ သို့မဟုတ် လုပ်ငန်းဆောင်တာများကို စိတ်ဝင်စားသည်ကို မသိနိုင်တော့ပါ။ သင်သည် အပြည့်စုံ node တစ်ခုက ထိန်းသိမ်းထားသည့် အတည်ပြုဒေတာကို ရယူနိုင်သော်လည်း၊ အဲဒါကို နေ့စဉ် အသုံးပြုသော ကိရိယာများနှင့် သင့်ကိုက်ညီအောင် ပိုသေးငယ်သည့် ပုံစံဖြင့် ရရှိမည်ဖြစ်သည်။
+Daripada bertanya kepada pelayan pusat, Bitcoin Safe memuat turun penapis kecil untuk setiap blok daripada peer Bitcoin Core rawak. Dompet anda menyemak penapis itu secara tempatan dan hanya memuat turun blok penuh apabila perlu.
 
-ဘာကြောင့် ပိုမိုကောင်းမြန်တယ်လို့ ခံစားရမလဲ။
+### CBF vs Electrum
 
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspek</th>
+        <th scope="col">Penapis Blok Padat</th>
+        <th scope="col">Pelayan Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privasi</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Data dompet kekal tempatan</td>
+        <td><span class="text-danger fw-semibold">Buruk</span> - Pelayan boleh melihat alamat dan sejarah anda</td>
+      </tr>
+      <tr>
+        <th scope="row">Sumber data</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Peer Bitcoin Core rawak</td>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Satu pelayan yang dipilih</td>
+      </tr>
+      <tr>
+        <th scope="row">Penyegerakan awal</th>
+        <td><span class="text-warning fw-semibold">Neutral</span> - Biasanya lebih perlahan</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Biasanya lebih pantas</td>
+      </tr>
+      <tr>
+        <th scope="row">Penyegerakan berterusan</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Sangat pantas selepas penyegerakan pertama</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Biasanya pantas</td>
+      </tr>
+      <tr>
+        <th scope="row">Sesuai untuk</th>
+        <td><span class="text-success fw-semibold">Baik</span> - Pengguna yang mengutamakan privasi</td>
+        <td><span class="text-success fw-semibold">Baik</span> - Persediaan dan pemulihan terpantas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-- 📦 အရွယ်လျှော့: ဖီလ်တာတိုင်းသည် ကီလိုဘိုက်နည်းနည်းသာရှိပြီး၊ သင့်အိမ်အင်တာနက် ချိတ်ဆက်မှုတွင် blockchain လုံးဝကို သိမ်းဆည်းစရာမလိုဘဲ sync လုပ်နိုင်ပါတယ်။
-- 🔐 ကွန်ယက်မှ တိုက်ရိုက်: [Bitcoin Safe]({{< ref "/" >}}) သည် အများကဲ့သို့ ရှေ့ပြေး Bitcoin Core node များအနက် အချို့နှင့် ဆက်သွယ်ပြီး အလုပ်လုပ်သည်၊ ထို့ကြောင့် တစ်ဦးတည်းသော စောင့်ကြည့်သူက သင့်အား ပြုစုဖော်ထုတ်နိုင်မှုနည်းပါးစေပါသည်။
-- 🕵️ ဒေသဆိုင်ရာ တွက်ချက်ခြင်း: သင့်ဝေါလက်သည် ဖီလ်တာများကို ဒေသတွင်းတွင် စစ်ဆေးသည်။ ဖီလ်တာတစ်ခုက သက်ဆိုင်နိုင်တယ်လို့ ထင်ရင်သာ အဲဒီဘလော်ခ်ကို ရယူမယ်၊ သင့်လိပ်စာများကို လွှင့်ပေးခြင်းမရှိဘဲ ကာကွယ်ထားနိုင်စေပါတယ်။
+### Mengapa guna CBF
 
-မတူကွဲပြားမှုအနေဖြင့် Electrum ဆာဗာများသည် သင့်အတွက် blockchain ကို ရှာဖွေကြသည်။ တောင်းဆိုမှုအတော်များစွာသည် သင့်ဝေါလက်လိပ်စာများကို ဆာဗာအ opérတာထံ မျှဝေပြီး၊ ထိုသူသည် ထို့အချက်အလက်များကို မှတ်တမ်းတင်နိုင်သည်။ Compact block filters များနှင့်အတူ [Bitcoin Safe]({{< ref "/" >}}) သည် node တစ်ခုချင်းစီ မျှဝေသည့် အဲဒီ တပြင်လုံးတည့်တည့်သော အကျဉ်ချုပ်ဒေတာကိုဒေါင်းလုဒ်လုပ်သည်။ သင့်လိပ်စာများက သင့်ဖိုင်ထဲကနေ ပထမဦးစွာ မဖော်ထုတ်သဖြင့် မည်သူမျှမသိနိုင်ပါ။
+- Privasi lebih baik: dompet anda tidak pernah bertanya kepada pelayan alamat anda.
+- Tanpa pengindeks yang dipercayai: Bitcoin Safe bercakap terus dengan rangkaian Bitcoin.
+- Penyegerakan ringan: penapisnya kecil, jadi anda tidak perlu seluruh blockchain.
 
-အောက်တွင် CBF ဖွင့်ထားသောအခါ [Bitcoin Safe]({{< ref "/" >}}) ဆက်သွယ်ပုံကို ရိုးရှင်းစွာ ဖော်ပြထားသည်။ Bitcoin Core node များက မိမိတို့အကြား ပြောဆိုသည့် နည်းလမ်းကို ဘယ်လိုအတိုင်းတူညီစွာ ဆက်သွယ်ကြောင်း မှတ်ချက်ထားပါ။
+### Apa yang dijangka
 
+- Dompet baharu atau pemulihan: biasanya **5 hingga 30 minit** untuk penyegerakan pertama.
+- Dompet yang sudah disegerakkan: biasanya mengejar **sangat pantas**, selalunya dalam **kurang daripada 30 saat**.
+- Bertukar daripada Electrum ke CBF: biasanya juga **kurang daripada 30 saat**.
 
-![Bitcoin Safe downloads compact block filters from several random Bitcoin Core peers.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+Anda boleh memilih berapa banyak peer yang disambungkan oleh Bitcoin Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan jalur lebar dan masa penyegerakan. Lalai ialah **2** peer.
 
+### Transaksi belum disahkan
 
-Bitcoin Safe သည် ဘယ်နှစ်ခုသော peer များနှင့် ဆက်သွယ်ရမည်ကို သင်ရွေးချယ်နိုင်သည်။ peer များပိုများလျှင် ဘန်ဒ်ဝစ်ံအသုံးများပြီး စင်က်ချိန်ပိုနည်းအချိန်ယူနိုင်သည်။ ရှေ့ပြတ်စွာ သတ်မှတ်ထားသည်မှာ 2 ဖြစ်သည်။
+CBF hanya meliputi **blok yang telah disahkan**. Untuk juga menerima makluman pembayaran masuk yang belum disahkan, biarkan [Notifikasi transaksi segera]({{< ref "knowledge/instant-transactions-notifications/" >}}) diaktifkan, kerana itu ialah tetapan lalai.
 
- 
-### စင်က်လုပ်ချိန်တွင် မျှော်လင့်ရမည့်အချက်များ
+### Nota teknikal
 
-CBF သည် သင်လုပ်ဆောင်သည့် လုပ်ငန်းအပေါ်မူတည်ပြီး စောင့်ဆိုင်းရချိန်ကို ကွဲပြားစေပါသည်။
+Penapis blok padat ditakrifkan dalam [BIP158](https://bips.dev/158/). Bitcoin Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
-1. ✨ စတင်တည်ဆောက်ခြင်း သို့မဟုတ် ဝေါလက် ပြန်လည်ရယူခြင်း: ဝေါလက်အသစ်တစ်ခု ဖန်တီးမည်ဖြစ်စေ သို့မဟုတ် ရှိပြီးသားကို ပြန်လည်ရယူမည်ဖြစ်စေ၊ မူလစင်က်လုပ်ငန်းသည် သင့်ဝေါလက်၏ အစိတ်အပိုင်း အထူးတလျှောက် ဖီလ်တာများကို ရယူပါသည်။ သင့်အင်တာနက် အမြန်နှုန်းပေါ်မူတည်ပြီး ဤ တစ်ကြိမ်သာဖြစ်သော လုပ်ငန်းသည် **၅ မိနစ်မှ ၃၀ မိနစ်အကြား** ကြာနိုင်သည်ဟု မျှော်လင့်ပါ။
-2. 🚀 အရင်က စင်က်ပြီးသား ဝေါလက်တစ်ခု ဖွင့်သောအခါ: [Bitcoin Safe]({{< ref "/" >}}) သည် မန္တလေးစဉ်ကနေ နောက်ဆုံးအပ်ဒိတ်များသာ ရယူရုံ ဖြစ်သည်။ ထို Catch-up လုပ်ငန်းသည် ပုံမှန်အားဖြင့် **၃၀ စက္ကန့်အောက်** တွင်ပြီးစီးပါလိမ့်မည်။
-3. 🔄 Electrum ဆာဗာများမှ CBF သို့ ပြောင်းလဲခြင်း: ဝေါလက်သည် ရှေ့တရား Electrum ဆာဗာများဖြင့် စင်က်ပြီးသားဖြစ်လျှင် [Bitcoin Safe]({{< ref "/" >}}) သည် အဓိကအားဖြင့် နောက်ဆုံး ဖီလ်တာများကိုသာ ရယူရုံဖြစ်ပြီး၊ ပုံမှန်အားဖြင့် အချိန် **၃၀ စက္ကန့်ထက်နည်း** ဖြစ်မည်။
+Anda juga boleh menggunakan nod Bitcoin Core anda sendiri sebagai peer awal dalam tetapan _Bitcoin network monitoring_.
 
-### မအတည်ပြုသေးသော ငွေပေးချေမှုများအကြောင်း သိရှိနေပါ
-
-Compact block filters များသည် **အတည်ပြုထားသောဘလော့ခ်များ** အားသာ ဖုံးလွှမ်းပါသည်။ မျက်နှာချင်းဆိုင် တိုးတက်မှုမရှိသေးသော ငွေလက်ခံမှုများကို အတည်ပြုမှမဟုတ်မီ သိရှိလိုပါက၊ [Instant transaction notifications]({{< ref "knowledge/instant-transactions-notifications/" >}}) ကိုလည်း ဖွင့်ထားရန် မမေ့ပါနှင့်။ အဆိုပါ လုပ်ဆောင်ချက်သည် မည်သည့်လိမ်လည်မှုပြုခြင်းမရှိဘဲ mempool လှုပ်ရှားမှုများကို တုံ့ပြန်နိုင်ရန် အချို့သော ရက်(ပဲ) Bitcoin node များထံမှ တိုက်ရိုက် peer-to-peer စာတိုက်ကြောင်းများကို ကြားနာသည်။
-
-
-<br>
-<br>
-
-
-
-### နည်းပညာဆိုင်ရာ အသေးစိတ်
-
-
-- *နက်ဝပ်ဒေသထဲ ပိုမိုဝင်ရောက်လိုသူ developer များအတွက်:* compact block filters များသည် [BIP158 specification](https://bips.dev/158/) အတိုင်းလိုက်နာပြီး [Elle Mouton ရဲ့ Golomb-coded sets အကြောင်း အကျဉ်းချုပ်](https://ellemouton.com/posts/bip158/) တွင် ဆွေးနွေးထားပါသည်။ [Bitcoin Safe]({{< ref "/" >}}) ၏ အကောင်အထည်ဖော်မှုသည် open-source ဖြစ်သော [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) ကို အခြေခံထားပါသည်။
-- Compact Block Filter စင်က်လုပ်ရာတွင် သင့်ပုဂ္ဂိုလ်ရေး Bitcoin Core node ကို peers အဖြစ် ထည့်သွင်းနိုင်သည် — 이를 위해 _Bitcoin network monitoring_ ၏ _Initial node_ ကို ရွေးချယ်ပါ။
-
-
-![Initial node setting](inital-node.png)
+![Tetapan nod awal](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }

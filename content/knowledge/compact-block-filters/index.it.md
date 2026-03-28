@@ -17,53 +17,77 @@ weight: 0
 
 ## {{< page-title >}}
 
-
-Bitcoin Safe   1.6.0 introduce i **Filtri compatti dei blocchi (CBF)** come metodo opzionale per sincronizzare il tuo portafoglio. Invece di interrogare un server Electrum centralizzato per la cronologia del portafoglio, [Bitcoin Safe]({{< ref "/" >}}) può ora scaricare un piccolo file di riepilogo per ogni blocco direttamente da peer casuali di Bitcoin Core. Questi riepiloghi funzionano come una breve lista di controllo che permette al tuo portafoglio di decidere autonomamente se un blocco potrebbe contenere una delle tue transazioni.
-
-Poiché [Bitcoin Safe]({{< ref "/" >}}) prende la decisione localmente, nessun server di terze parti viene mai a sapere quali indirizzi o transazioni ti interessano. Ottieni gli stessi dati di conferma che un nodo completo conserverebbe, ma in un formato più leggero adatto ai dispositivi di tutti i giorni.
-
-**Perché è migliore:**
-
-- 📦 **Download ridotti:** Ogni filtro è di soli pochi kilobyte, quindi puoi sincronizzare tramite normali connessioni domestiche senza memorizzare l'intera blockchain.
-- 🔐 **Diretto dalla rete:** [Bitcoin Safe]({{< ref "/" >}}) parla con più nodi Bitcoin Core casuali, proprio come fanno gli altri nodi, riducendo la possibilità che un singolo osservatore possa profilarti.
-- 🕵️ **Corrispondenza locale:** Il tuo portafoglio verifica i filtri localmente. Se un filtro sembra rilevante, solo allora scarica il blocco specifico, mantenendo privati i tuoi indirizzi.
-
-I server Electrum, al contrario, cercano nella blockchain per conto tuo. Ogni richiesta condivide con l'operatore del server gli indirizzi del tuo portafoglio, che potrebbe registrarli. Con i filtri compatti dei blocchi, [Bitcoin Safe]({{< ref "/" >}}) scarica gli stessi dati neutrali che ogni nodo condivide. Nessuno può dire quali indirizzi ti appartengono perché il tuo portafoglio non li rivela in primo luogo.
-
-Qui sotto c'è una vista semplice di come [Bitcoin Safe]({{< ref "/" >}}) si connette quando CBF è abilitato. Nota come rispecchia il modo in cui i nodi Bitcoin Core già comunicano tra loro:
-
+**I filtri compatti dei blocchi (CBF)** permettono a [Bitcoin Safe]({{< ref "/" >}}) di analizzare la blockchain senza chiedere a un server Electrum quali indirizzi sono tuoi.
 
 ![Bitcoin Safe scarica filtri compatti dei blocchi da diversi peer casuali di Bitcoin Core.](logo.jpg)
-{ .img-fluid .mb-5   style="max-width: 450px;" }
+{ .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
+Invece di interrogare un server centrale, Bitcoin Safe scarica un piccolo filtro per ogni blocco da peer casuali di Bitcoin Core. Il tuo portafoglio verifica questi filtri localmente e scarica i blocchi completi solo quando serve.
 
-Puoi scegliere a quanti peer [Bitcoin Safe]({{< ref "/" >}}) deve connettersi. Più peer richiedono maggiore larghezza di banda e comportano un tempo di sincronizzazione più lento. Il valore predefinito è 2.  
+### CBF vs Electrum
 
- 
-### Cosa aspettarsi durante la sincronizzazione
+<div class="table-responsive mb-4">
+  <table class="table table-striped align-middle">
+    <thead>
+      <tr>
+        <th scope="col">Aspetto</th>
+        <th scope="col">Filtri compatti dei blocchi</th>
+        <th scope="col">Server Electrum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Privacy</th>
+        <td><span class="text-success fw-semibold">Buono</span> - I dati del portafoglio restano locali</td>
+        <td><span class="text-danger fw-semibold">Cattivo</span> - Il server può vedere i tuoi indirizzi e la cronologia</td>
+      </tr>
+      <tr>
+        <th scope="row">Origine dei dati</th>
+        <td><span class="text-success fw-semibold">Buono</span> - Peer casuali di Bitcoin Core</td>
+        <td><span class="text-warning fw-semibold">Neutro</span> - Un solo server scelto</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronizzazione iniziale</th>
+        <td><span class="text-warning fw-semibold">Neutro</span> - Di solito più lenta</td>
+        <td><span class="text-success fw-semibold">Buono</span> - Di solito più veloce</td>
+      </tr>
+      <tr>
+        <th scope="row">Sincronizzazione continua</th>
+        <td><span class="text-success fw-semibold">Buono</span> - Molto rapida dopo la prima sincronizzazione</td>
+        <td><span class="text-success fw-semibold">Buono</span> - Di solito rapida</td>
+      </tr>
+      <tr>
+        <th scope="row">Ideale per</th>
+        <td><span class="text-success fw-semibold">Buono</span> - Utenti attenti alla privacy</td>
+        <td><span class="text-success fw-semibold">Buono</span> - L'installazione e il ripristino più rapidi</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-I filtri compatti influenzano i tempi di attesa a seconda di quello che stai facendo:
+### Perché usare CBF
 
-1. ✨ **Creare o recuperare un portafoglio:** Che tu crei un nuovo portafoglio o ne recuperi uno esistente, la sincronizzazione iniziale scarica i filtri per l'intera storia del portafoglio. Aspettati che questo processo una tantum duri **tra i 5 e i 30 minuti**, in base alla velocità della tua connessione internet.
-2. 🚀 **Aprire un portafoglio già sincronizzato:** [Bitcoin Safe]({{< ref "/" >}}) deve scaricare solo i filtri più recenti dall'ultima sessione. Il recupero solitamente termina in **meno di 30 secondi**.
-3. 🔄 **Passare dai server Electrum ai CBF:** Poiché il portafoglio era precedentemente sincronizzato con server Electrum, [Bitcoin Safe]({{< ref "/" >}}) deve scaricare solo i filtri più recenti, il che di solito richiede **meno di 30 secondi**.
+- Più privacy: il tuo portafoglio non chiede mai a un server quali indirizzi sono tuoi.
+- Nessun indexer fidato: Bitcoin Safe parla direttamente con la rete Bitcoin.
+- Sincronizzazione leggera: i filtri sono piccoli, quindi non serve tutta la blockchain.
 
-### Rimani informato sui pagamenti non confermati
+### Cosa aspettarsi
 
-I filtri compatti dei blocchi coprono solo i **blocchi confermati**. Per essere avvisato delle transazioni in arrivo prima che vengano confermate, assicurati di abilitare anche [Notifiche istantanee sulle transazioni]({{< ref "knowledge/instant-transactions-notifications/" >}}). Questa funzione ascolta i messaggi peer-to-peer in tempo reale da un nodo Bitcoin casuale, così puoi reagire all'attività del mempool senza rinunciare alla privacy.
+- Portafoglio nuovo o ripristino: di solito **5-30 minuti** per la prima sincronizzazione.
+- Portafoglio già sincronizzato: si aggiorna **molto rapidamente**, spesso in **meno di 30 secondi**.
+- Passaggio da Electrum a CBF: di solito anche **meno di 30 secondi**.
 
+Puoi scegliere con quanti peer si collega Bitcoin Safe. Più peer migliorano la ridondanza, ma di solito aumentano banda e tempo di sincronizzazione. Il valore predefinito è **2** peer.
 
-<br>
-<br>
+### Transazioni non confermate
 
+CBF copre solo i **blocchi confermati**. Per ricevere anche avvisi sui pagamenti non confermati, lascia [Notifiche istantanee sulle transazioni]({{< ref "knowledge/instant-transactions-notifications/" >}}) attive, che è il comportamento predefinito.
 
+### Nota tecnica
 
-### Dettagli tecnici
+I filtri compatti dei blocchi sono definiti nel [BIP158](https://bips.dev/158/). Bitcoin Safe usa il modulo open-source [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
+Puoi anche usare il tuo nodo Bitcoin Core come peer iniziale nelle impostazioni di _Bitcoin network monitoring_.
 
-- *Per gli sviluppatori che vogliono approfondire:* i filtri compatti dei blocchi seguono la [specifica BIP158](https://bips.dev/158/) e sono analizzati nella panoramica di Elle Mouton sugli insiemi codificati con Golomb (Golomb-coded sets) https://ellemouton.com/posts/bip158/. L'implementazione di [Bitcoin Safe]({{< ref "/" >}}) si basa sul modulo open-source [Kyoto compact block filter per BDK](https://github.com/2140-dev/kyoto).
-- Puoi aggiungere il tuo nodo Bitcoin Core ai peer per la sincronizzazione dei Filtri compatti dei blocchi, scegliendo il _nodo iniziale_ del _monitoraggio della rete Bitcoin_.
-
-
-![Initial node setting](inital-node.png)
+![Impostazione del nodo iniziale](inital-node.svg)
 { .img-fluid .mb-5   style="max-width: 414px;" }
