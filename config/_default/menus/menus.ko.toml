@@ -24,6 +24,12 @@ weight = 55
 
 
 [[main]]
+identifier = "News"
+name = "📰뉴스"
+url = "news"
+weight = 57
+
+[[main]]
 identifier = "Donate"
 name = "⚡후원"
 url = "donate"

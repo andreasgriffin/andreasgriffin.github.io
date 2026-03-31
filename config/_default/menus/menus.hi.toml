@@ -24,6 +24,12 @@ weight = 55
 
 
 [[main]]
+identifier = "News"
+name = "📰समाचार"
+url = "news"
+weight = 57
+
+[[main]]
 identifier = "Donate"
 name = "⚡समर्थन"
 url = "donate"
