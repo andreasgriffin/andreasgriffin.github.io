@@ -16,12 +16,14 @@ external:
     url: "https://x.com/BitBoxSwiss/status/1937065232217858510?s=20"
     image: "/supporters/bitbox.png"
     description: "BitBoxSwiss highlighted a quarterly donation to Bitcoin Safe and described it as a self-custody wallet built for families."
-  - title: "Einundzwanzig mentions Bitcoin Safe"
+  - title: "Einundzwanzig donates to Bitcoin Safe"
     source: "X"
     url: "https://x.com/_einundzwanzig_/status/1906048850952892762?s=20"
     date: "2025-03-29"
-    image: "/images/community-feedback/einundzwanzig.png"
-    description: "Post from Einundzwanzig referencing Bitcoin Safe."
+    image: "/images/other/einundzwanzig-support.webp"
+    description: |
+      🚀 Wir fördern heute Andreas Griffin von @BitcoinSafeOrg
+      mit 1.000.000 Satoshi für seine Arbeit an Bitcoin Safe – einer einsteigerfreundlichen Multisig-Wallet für Mac, Windows, Linux oder überall, wo Python läuft.
   - title: "Tenth Wave of Bitcoin Grants"
     source: "OpenSats"
     url: "https://opensats.org/blog/tenth-wave-of-bitcoin-grants#bitcoin-safe"
