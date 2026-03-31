@@ -2,7 +2,7 @@
      {{< video "vid.mp4" controls autoplay muted playsinline loop poster="poster.jpg" >}}
 */}}
 
-{{ $file    := .Get 0 }}
+{{ $file    := .Get "src" | default (.Get 0) }}
 {{ $poster  := .Get "poster" }}
 {{ $upload  := .Get "uploadDate" | default (now.Format "2006-01-02") }}
 {{ $name    := .Get "name" | default .Page.Title }}
@@ -67,7 +67,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- if and (eq $thumb "") (gt (len .Page.Params.images) 0) -}}
+{{- if and (eq $thumb "") (isset .Page.Params "images") (gt (len .Page.Params.images) 0) -}}
   {{- $img := index .Page.Params.images 0 -}}
   {{- $p := $.Page.Resources.Get $img | default ($.Page.Resources.GetMatch $img) -}}
   {{- if $p -}}
@@ -100,7 +100,7 @@
   {{- $attrs = $attrs | append (printf `poster="%s"` .) -}}
 {{- end -}}
 
-<video style="max-width:100%;height:auto;" {{ delimit $attrs " " | safeHTMLAttr }}>
+<video style="display:block;max-width:720px;width:100%;height:auto;margin:0 auto;" {{ delimit $attrs " " | safeHTMLAttr }}>
   <source src="{{ $src }}" type="video/mp4">
   {{ if and (not $res) hugo.IsServer }}
     <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>

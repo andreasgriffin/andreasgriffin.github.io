@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Hugo Server (clean)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "hugo server --cleanDestinationDir",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{{ define "main" }}
+  <div class="container py-3">
+    <div class="mb-4">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}
+        {{ . }}
+      {{ end }}
+    </div>
+
+    {{ $items := slice }}
+    {{ $pages := where .Site.RegularPages "Section" "news" }}
+    {{ if and hugo.IsMultilingual (eq (len $pages) 0) }}
+      {{ $defaultSite := index .Site.Sites 0 }}
+      {{ $pages = where $defaultSite.RegularPages "Section" "news" }}
+    {{ end }}
+
+    {{ range $pages }}
+      {{ $image := "/images/logo/logo-bare.svg" }}
+      {{ with .Params.images }}
+        {{ $image = index . 0 }}
+      {{ end }}
+      {{ if and (eq $image "/images/logo/logo-bare.svg") .Params.videos }}
+        {{ $video := index .Params.videos 0 }}
+        {{ $videoId := replaceRE `(?i)^.*(?:v=|youtu\.be/|shorts/|embed/)([A-Za-z0-9_-]{11}).*$` `$1` $video }}
+        {{ if ne (len $videoId) 11 }}
+          {{ $match := findRE `[A-Za-z0-9_-]{11}` $video }}
+          {{ if gt (len $match) 0 }}
+            {{ $videoId = index $match 0 }}
+          {{ end }}
+        {{ end }}
+        {{ if eq (len $videoId) 11 }}
+          {{ $image = printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $videoId }}
+        {{ end }}
+      {{ end }}
+      {{ $items = $items | append (dict
+        "title" .Title
+        "url" .RelPermalink
+        "description" (or .Params.description (.Summary | plainify | truncate 220))
+        "dateSort" .Date
+        "dateDisplay" (.Date.Format "Jan 2, 2006")
+        "image" $image
+        "kind" "Update"
+        "source" "Bitcoin Safe"
+        "cta" "Read update"
+      ) }}
+    {{ end }}
+
+    {{ range site.Data.news.external }}
+      {{ $dateSort := time.AsTime "0001-01-01" }}
+      {{ $dateDisplay := "" }}
+      {{ with .date }}
+        {{ $dateSort = time.AsTime . }}
+        {{ $dateDisplay = $dateSort.Format "Jan 2, 2006" }}
+      {{ end }}
+      {{ $items = $items | append (dict
+        "title" .title
+        "url" .url
+        "description" .description
+        "dateSort" $dateSort
+        "dateDisplay" $dateDisplay
+        "image" .image
+        "kind" "External"
+        "source" .source
+        "cta" "Open article"
+        "external" true
+      ) }}
+    {{ end }}
+
+    {{ $sorted := sort $items "dateSort" "desc" }}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {{ range $sorted }}
+        {{ partial "news-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
