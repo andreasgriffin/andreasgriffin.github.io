@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Generates the static APT repository metadata under static/apt from
+# data/latest_release.json.
+#
+# This script is run automatically by the site build workflow in
+# .github/workflows/hugo.yaml before Hugo builds the site, so it normally does
+# not need to be called manually. The release-fetch workflow only refreshes the
+# upstream release data; the subsequent Hugo workflow invocation is what runs
+# this script and publishes the updated APT repository files.
+
 set -euo pipefail
 
 RELEASE_FILE="${RELEASE_FILE:-data/latest_release.json}"
