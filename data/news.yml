@@ -1,4 +1,10 @@
 external:
+  - title: "Seventeenth Wave of Bitcoin Grants"
+    source: "OpenSats"
+    url: "https://opensats.org/blog/seventeenth-wave-of-bitcoin-grants"
+    date: "2026-03-31"
+    image: "https://opensats.org/static/images/blog/104-seventeenth-wave-of-bitcoin-grants.jpg"
+    description: "OpenSats announced its seventeenth wave of Bitcoin grants, including a grant renewal for Bitcoin Safe."
   - title: "Advancements in Bitcoin and Lightning Wallets"
     source: "OpenSats"
     url: "https://opensats.org/blog/advancements-in-bitcoin-and-lightning-wallets#bitcoin-safe"
