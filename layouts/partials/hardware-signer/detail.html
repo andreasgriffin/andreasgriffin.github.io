@@ -9,6 +9,7 @@
 {{ if $signer.features.usb }}{{ $connections = $connections | append "USB" }}{{ end }}
 {{ if $signer.features.qr }}{{ $connections = $connections | append "QR" }}{{ end }}
 {{ if $signer.features.sd }}{{ $connections = $connections | append "microSD" }}{{ end }}
+{{ if $signer.features.bluetooth }}{{ $connections = $connections | append "Bluetooth" }}{{ end }}
 {{ $connectionLabel := cond (gt (len $connections) 0) (delimit $connections " + ") "USB" }}
 
 <article class="hardware-signer">
@@ -53,6 +54,7 @@
         {{ if $signer.features.usb }}<li>{{ i18n "hardware_expect_usb" }}</li>{{ end }}
         {{ if $signer.features.qr }}<li>{{ i18n "hardware_expect_qr" }}</li>{{ end }}
         {{ if $signer.features.sd }}<li>{{ i18n "hardware_expect_sd" }}</li>{{ end }}
+        {{ if $signer.features.bluetooth }}<li>Use Bluetooth for a cable-free signing workflow.</li>{{ end }}
         {{ if $signer.bitcoin_only }}<li>{{ i18n "hardware_expect_bitcoin_only" }}</li>{{ else if $signer.bitcoin_only_available }}<li>{{ i18n "hardware_expect_bitcoin_only_available" }}</li>{{ end }}
       </ul>
       <p class="text-muted mb-0">{{ i18n "hardware_default_body" }}</p>

@@ -73,7 +73,7 @@ signers:
     name:
       en: "Jade"
     summary:
-      en: "USB + QR signer; Bitcoin-only firmware."
+      en: "USB + QR + Bluetooth signer; Bitcoin-only firmware."
     image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
     shop_url: "https://rewards.blockstream.com/885who"
     discount:
@@ -83,6 +83,7 @@ signers:
     features:
       usb: true
       qr: true
+      bluetooth: true
     bitcoin_only: true
 
   - id: jade-plus
@@ -91,7 +92,7 @@ signers:
     name:
       en: "Jade Plus"
     summary:
-      en: "USB + QR + SD signer with metal body; Bitcoin-only firmware."
+      en: "USB + QR + SD + Bluetooth signer with metal body; Bitcoin-only firmware."
     image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
     shop_url: "https://rewards.blockstream.com/885who"
     discount:
@@ -102,6 +103,7 @@ signers:
       usb: true
       qr: true
       sd: true
+      bluetooth: true
     bitcoin_only: true
 
   - id: trezor
