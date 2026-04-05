@@ -26,6 +26,17 @@ UPSTREAM_SIGNATURE_KEY_URL="${UPSTREAM_SIGNATURE_KEY_URL:-https://keys.openpgp.o
 APT_REPO_URL="${APT_REPO_URL%/}"
 APT_KEYRING_URL="${APT_REPO_URL}/${APT_KEYRING_FILE}"
 
+write_by_hash_copy() {
+  local file_path="$1"
+  local hash_dir
+  local sha256_value
+
+  hash_dir="$(dirname "$file_path")/by-hash/SHA256"
+  sha256_value="$(sha256sum "$file_path" | awk '{print $1}')"
+  mkdir -p "$hash_dir"
+  cp -f "$file_path" "$hash_dir/$sha256_value"
+}
+
 require_cmd() {
   local cmd="$1"
   if ! command -v "$cmd" >/dev/null 2>&1; then
@@ -66,6 +77,15 @@ mapfile -t deb_assets < <(jq -r '.assets[] | select(.name | endswith(".deb")) | 
 if [[ ${#deb_assets[@]} -eq 0 ]]; then
   echo "Error: no .deb asset found in $RELEASE_FILE" >&2
   exit 1
+fi
+
+release_date="$(LC_ALL=C date -Ru)"
+release_published_at="$(jq -r '.published_at // .created_at // empty' "$RELEASE_FILE")"
+if [[ -n "$release_published_at" ]]; then
+  parsed_release_date="$(LC_ALL=C date -Ru -d "$release_published_at" 2>/dev/null || true)"
+  if [[ -n "$parsed_release_date" ]]; then
+    release_date="$parsed_release_date"
+  fi
 fi
 
 pool_dir="$APT_REPO_ROOT/pool/$APT_COMPONENT"
@@ -155,7 +175,9 @@ for arch in "${arches[@]}"; do
       }
     }
   ' "$all_packages_file" > "$dist_component_dir/binary-$arch/Packages"
-  gzip -9c "$dist_component_dir/binary-$arch/Packages" > "$dist_component_dir/binary-$arch/Packages.gz"
+  gzip -n -9c "$dist_component_dir/binary-$arch/Packages" > "$dist_component_dir/binary-$arch/Packages.gz"
+  write_by_hash_copy "$dist_component_dir/binary-$arch/Packages"
+  write_by_hash_copy "$dist_component_dir/binary-$arch/Packages.gz"
 done
 
 rm -f "$all_packages_file"
@@ -169,7 +191,8 @@ mapfile -t index_files < <(find "$release_dir/$APT_COMPONENT" -type f \( -name "
   echo "Label: Bitcoin Safe"
   echo "Suite: $APT_SUITE"
   echo "Codename: $APT_SUITE"
-  echo "Date: $(LC_ALL=C date -Ru)"
+  echo "Date: $release_date"
+  echo "Acquire-By-Hash: yes"
   echo "Architectures: ${arches[*]}"
   echo "Components: $APT_COMPONENT"
   echo "Description: Bitcoin Safe APT repository"
