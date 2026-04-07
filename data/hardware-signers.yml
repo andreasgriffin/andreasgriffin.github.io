@@ -36,6 +36,24 @@ signers:
       sd: true
     bitcoin_only: true
 
+  - id: coldcard-mk5
+    slug: coldcard-mk5
+    slugimage: coldcard
+    name:
+      en: "Coldcard Mk5"
+    summary:
+      en: "Secure USB + SD signer; Bitcoin-only."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"
+    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
+    discount:
+      code: "8BFF877000C34A86F410"
+      note:
+        en: "Promo automatically applied at Coinkite."
+    features:
+      usb: true
+      sd: true
+    bitcoin_only: true
+
   - id: bitbox02
     slug: bitbox02
     slugimage: bitbox02
