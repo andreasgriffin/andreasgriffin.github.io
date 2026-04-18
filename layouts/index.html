@@ -24,7 +24,33 @@
   <h3 class="text-secondary text-center my-5">Community Feedback</h3>
   {{ partial "community-feedback/carousel.html" . }}
   
-  <div style="visibility:hidden;display:none!important;" class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Plugins</h3>
+  {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.plugins "row_class" "justify-content-center") }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Supported hardware signers</h3>
+  {{ partial "hardware-signer/scroll-row.html" . }}
+</section>
+
+<!-- <section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Latest Posts</h3>
+  {{ partial "latest-posts" . }}
+</section> -->
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Discover Bitcoin Safe</h3>
+  {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.featured "row_class" "justify-content-center") }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">As Seen in</h3>
+
+ <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+
 
     <a href="https://findly.tools/bitcoin-safe?utm_source=bitcoin-safe" target="_blank" rel="noopener noreferrer">
       <img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width="174" height="54" />
@@ -59,26 +85,7 @@
     </a>
 
   </div>
-  
+
 </section>
 
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Plugins</h3>
-  {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.plugins "row_class" "justify-content-center") }}
-</section>
-
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Supported hardware signers</h3>
-  {{ partial "hardware-signer/scroll-row.html" . }}
-</section>
-
-<!-- <section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Latest Posts</h3>
-  {{ partial "latest-posts" . }}
-</section> -->
-
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Discover Bitcoin Safe</h3>
-  {{ partial "featured-pages" (dict "context" . "tags" .Site.Taxonomies.tags.featured "row_class" "justify-content-center") }}
-</section>
 {{ end }}
