@@ -1,5 +1,5 @@
-{{- /* rendered for each heading */ -}}
-{{ $id := .Anchor | default (anchorize .Text) }}
+{{- /* Render Markdown headings with the same hover anchor affordance used elsewhere. */ -}}
+{{- $id := .Anchor | default (anchorize .Text) -}}
 <h{{ .Level }} id="{{ $id }}">
   <a class="header-anchor" href="#{{ $id }}" aria-hidden="true">🔗</a>
   {{ .Text | safeHTML }}

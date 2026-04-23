@@ -5,6 +5,7 @@
 {{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
 {{ $discount := $signer.discount }}
 {{ $slug := or $signer.slug (path.Base (path.Clean $ctx.File.Dir)) }}
+{{ $headerID := anchorize $name }}
 {{ $connections := slice }}
 {{ if $signer.features.usb }}{{ $connections = $connections | append "USB" }}{{ end }}
 {{ if $signer.features.qr }}{{ $connections = $connections | append "QR" }}{{ end }}
@@ -22,7 +23,10 @@
         {{ end }}
       </div>
       <div class="col">
-        <h1 class="mb-1">{{ $name }}</h1>
+        <h1 class="mb-1" id="{{ $headerID }}">
+          <a class="header-anchor" href="#{{ $headerID }}" aria-hidden="true">🔗</a>
+          {{ $name }}
+        </h1>
         {{ with $summary }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
         <div class="d-flex gap-2 flex-wrap mb-2">
           {{ if $signer.bitcoin_only }}<span class="badge bg-warning text-dark">{{ i18n "hardware_badge_bitcoin_only" }}</span>{{ end }}
@@ -48,7 +52,11 @@
     <div class="content">{{ . }}</div>
   {{ else }}
     <div class="content">
-      <h2>{{ i18n "hardware_expect_title" }}</h2>
+      {{ $expectID := anchorize (i18n "hardware_expect_title") }}
+      <h2 id="{{ $expectID }}">
+        <a class="header-anchor" href="#{{ $expectID }}" aria-hidden="true">🔗</a>
+        {{ i18n "hardware_expect_title" }}
+      </h2>
       <p>{{ i18n "hardware_expect_intro" (dict "Name" $name "Connections" $connectionLabel) }}</p>
       <ul>
         {{ if $signer.features.usb }}<li>{{ i18n "hardware_expect_usb" }}</li>{{ end }}
@@ -129,12 +137,21 @@
         {{ if not (in $steps $step) }}{{ $steps = $steps | append $step }}{{ end }}
       {{ end }}
       <section class="mt-4">
-        <h3 class="h5 mb-2">{{ i18n "hardware_instructions" | default "Instructions" }}</h3>
+        {{ $instructionsTitle := i18n "hardware_instructions" | default "Instructions" }}
+        {{ $instructionsID := anchorize $instructionsTitle }}
+        <h3 class="h5 mb-2" id="{{ $instructionsID }}">
+          <a class="header-anchor" href="#{{ $instructionsID }}" aria-hidden="true">🔗</a>
+          {{ $instructionsTitle }}
+        </h3>
         {{ range $stepOrder }}
           {{ $step := . }}
           {{ if in $steps $step }}
           {{ $title := or (index $titleMap $step) (title (replace $step "-" " ")) }}
-          <h4 class="h6 mt-3 mb-1">{{ $title }}</h4>
+          {{ $stepID := printf "instruction-%s" (anchorize $title) }}
+          <h4 class="h6 mt-3 mb-1" id="{{ $stepID }}">
+            <a class="header-anchor" href="#{{ $stepID }}" aria-hidden="true">🔗</a>
+            {{ $title }}
+          </h4>
           {{ with (index $introMap $step) }}<p class="text-muted small mb-2">{{ . }}</p>{{ end }}
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
             {{ range $screens }}

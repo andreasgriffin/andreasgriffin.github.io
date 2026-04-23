@@ -178,22 +178,26 @@ h1,h2, h3, h4, h5, h6 {
   }
   
   /* Base style: zero-width, hidden, no layout shift */
-  .header-anchor {
+.header-anchor {
     position: absolute;
-    left: 0;
-    padding-right: 0.3em;
-    margin-left: -1.3em;    /* pulls it into the gutter */
+    top: 50%;
+    left: -1.9em;           /* place the icon farther into the gutter */
+    transform: translateY(-50%);
+    padding-right: 0.4em;
     width: 0;             /* collapsed when not in use */
     overflow: hidden;     /* hide both icon + any extra */
     opacity: 0;
     white-space: nowrap;  /* keep it on one line */
-    font-size: 0.7em;     /* make the icon smaller */
+    line-height: 1;
+    text-decoration: none;
+    font-size: 0.45em;    /* keep the hover icon subtle */
     transition:
       opacity 0.2s ease-in-out,
       width 0.2s ease-in-out;
   }
   
   /* On hover (of the heading), expand and show */
+  h1:hover .header-anchor,
   h2:hover .header-anchor,
   h3:hover .header-anchor,
   h4:hover .header-anchor,
