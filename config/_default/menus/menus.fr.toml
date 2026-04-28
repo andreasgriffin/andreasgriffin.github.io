@@ -47,7 +47,7 @@ weight = 60
 
 [[social]]
   name = "Substr"
-  pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
+  pre = "<img src='/icons/substr.svg' alt='Nostr' class='feather feather-github' />"
   url = "https://substr.network/s/bitcoin-safe"
   weight = 11
   title = "Communauté Substr"
