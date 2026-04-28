@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-ชุมชน Bitcoin Safe: [https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki)
+ชุมชน Bitcoin Safe: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 [เปิด issue](https://github.com/andreasgriffin/bitcoin-safe) บน GitHub.
 

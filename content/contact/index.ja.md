@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe コミュニティ： [https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki)
+Bitcoin Safe コミュニティ： [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 GitHubで[Issueを作成する](https://github.com/andreasgriffin/bitcoin-safe)。
 

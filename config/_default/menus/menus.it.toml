@@ -46,11 +46,11 @@ weight = 60
 
 
 [[social]]
-  name = "Chorus"
+  name = "Substr"
   pre = '<span class="text-red-500 font-extrabold text-3xl">+</span>c'
-  url = "https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki"
+  url = "https://substr.network/s/bitcoin-safe"
   weight = 11
-  title = "Community di Chorus"
+  title = "Community di Substr"
 
 # [[social]]
 #   name = "Email"
