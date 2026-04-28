@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe 커뮤니티: [https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki)
+Bitcoin Safe 커뮤니티: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 [이슈 열기](https://github.com/andreasgriffin/bitcoin-safe) GitHub에서.
 

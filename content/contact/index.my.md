@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe အသိုင်းအဝိုင်း: [https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki](https://chorus.community/group/34550%3Af8827954feef0092c8afec0be4cae544a9ed93dce9a365596e75b19aa05f0c84%3Abitcoin-safe-meiqbfki)
+Bitcoin Safe အသိုင်းအဝိုင်း: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 GitHub တွင် [Issue တင်ရန်](https://github.com/andreasgriffin/bitcoin-safe)။
 
