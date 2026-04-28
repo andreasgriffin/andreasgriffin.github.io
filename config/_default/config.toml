@@ -1,7 +1,6 @@
 baseURL = 'https://bitcoin-safe.org/'
 languageCode = 'en-US'
-title= 'Bitcoin Safe - A secure bitcoin savings wallet for everyone'
-
+title= 'Bitcoin Safe - Free & OpenSource software for securely manage your Bitcoin cold storage wallets'
 
 timeZone = 'Europe/London'
 
@@ -9,9 +8,6 @@ timeZone = 'Europe/London'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 disableDefaultLanguageRedirect = false
-
-
-
 
 theme = "hugo-bootstrap-theme"
 
@@ -26,11 +22,19 @@ enableEmoji = true
   shorttitle= 'Bitcoin Safe'
 
   title = 'Bitcoin Safe'
-  description = 'Bitcoin Safe is a collaborative wallet that keeps families and organizations in full control of their bitcoin.'
+  description = 'Bitcoin-Safe is a FOSS desktop wallet that makes self-custody accessible to everyone. It supports hardware wallets, multisig, testnet playgroun, encrypted nostr chat groups, categories and labels sync, and air-gapped signing — no KYC, no accounts, no telemetry, no middlemen. Your keys, your sats!'
   images = ['images/social-share.png']
   mainMenuLogo = "images/logo/logo-cut.svg"
 
   keywords = [
+  "bitcoin safe",
+  "bitcoin-safe",
+  "bitcoin wallet",
+  "bitcoin desktop",
+  "bitcoin wallet linux",
+  "bitcoin wallet macos",
+  "bitcoin multisig",
+  "btc multisig",
   "multisig",
   "signing device",
   "hardware wallet",
@@ -68,7 +72,6 @@ enableEmoji = true
   "what is bitcoin key management",
   "bitcoin wallet security tips",
   "best practices for bitcoin security",
-  "Bitcoin Safe",
   "Bitcoin Management Software",
   "Encrypted communication",
   "Private Key Storage",
@@ -85,10 +88,9 @@ enableEmoji = true
   "Multi-Device Compatibility",
   "Singlesig and Multisig Configurations",
   "Encrypted Remote Chat",
-  "Nostr Protocol"
+  "Nostr chat group"
+  "Nostr group chat"
 ]
-
-
 
   # For favicons
   ## Chrome Browser
@@ -104,8 +106,6 @@ enableEmoji = true
   # footerAboutTitle = "Few Words About Us"
   # footerAboutText = "We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity."
 
-
-
 # Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
 # https://gohugo.io/templates/internal/#open-graph
 # https://gohugo.io/templates/internal/#twitter-cards
@@ -115,13 +115,11 @@ enableEmoji = true
   [params.social]
     twitter = 'BitcoinSafeOrg'
 
-
   [params.options]
     bootStrapJs = true
     breadCrumb = true
     listCategoryFilter = true
     listTagFilter = true
-
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
@@ -152,8 +150,6 @@ enableEmoji = true
   [[module.mounts]]
     source = "static"
     target = "static"
-
-
 
 [markup]
   [markup.highlight]
