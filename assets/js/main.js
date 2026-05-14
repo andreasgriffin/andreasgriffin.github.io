@@ -246,12 +246,79 @@ const setupMultiCarousels = () => {
   carousels.forEach(setupMultiScroller)
 }
 
+const setupHardwareSignerFilters = () => {
+  const filterRoots = document.querySelectorAll('[data-hardware-signer-filter]')
+
+  filterRoots.forEach((root) => {
+    if (root.dataset.filterBound === 'true') {
+      return
+    }
+
+    const buttons = Array.from(root.querySelectorAll('[data-connection-type]'))
+    const cards = Array.from(root.querySelectorAll('[data-hardware-signer-card]'))
+    const emptyState = root.querySelector('[data-hardware-signer-empty]')
+
+    if (!buttons.length || !cards.length || !emptyState) {
+      return
+    }
+
+    root.dataset.filterBound = 'true'
+
+    const setButtonState = (button, isActive) => {
+      button.setAttribute('aria-pressed', isActive ? 'true' : 'false')
+      button.classList.toggle('is-active', isActive)
+      button.classList.toggle('is-inactive', !isActive)
+    }
+
+    const getActiveTypes = () => new Set(
+      buttons
+        .filter(button => button.getAttribute('aria-pressed') === 'true')
+        .map(button => button.dataset.connectionType)
+        .filter(Boolean)
+    )
+
+    const updateCards = () => {
+      const activeTypes = getActiveTypes()
+      let visibleCount = 0
+
+      cards.forEach((card) => {
+        const supportedTypes = (card.dataset.connectionTypes || '')
+          .split(',')
+          .map(type => type.trim())
+          .filter(Boolean)
+
+        const isVisible = activeTypes.size > 0 && supportedTypes.some(type => activeTypes.has(type))
+        card.hidden = !isVisible
+
+        if (isVisible) {
+          visibleCount += 1
+        }
+      })
+
+      emptyState.hidden = visibleCount > 0
+    }
+
+    buttons.forEach((button) => {
+      setButtonState(button, true)
+      button.addEventListener('click', () => {
+        const isActive = button.getAttribute('aria-pressed') === 'true'
+        setButtonState(button, !isActive)
+        updateCards()
+      })
+    })
+
+    updateCards()
+  })
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     setupMultiCarousels()
     setupCodeCopyButtons()
+    setupHardwareSignerFilters()
   })
 } else {
   setupMultiCarousels()
   setupCodeCopyButtons()
+  setupHardwareSignerFilters()
 }
