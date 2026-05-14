@@ -66,3 +66,21 @@ other = "Apenas Bitcoin"
 
 [hardware_badge_bitcoin_only_available]
 other = "Opção apenas Bitcoin disponível"
+
+[hardware_filter_label]
+other = "Filtrar por tipo de conexão"
+
+[hardware_filter_usb]
+other = "USB"
+
+[hardware_filter_qr]
+other = "QR"
+
+[hardware_filter_sd]
+other = "SD"
+
+[hardware_filter_bluetooth]
+other = "Bluetooth"
+
+[hardware_filter_empty]
+other = "Nenhum assinador corresponde aos tipos de conexão selecionados."

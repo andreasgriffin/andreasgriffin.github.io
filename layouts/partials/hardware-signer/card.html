@@ -6,8 +6,13 @@
 {{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
 {{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
 {{ $discount := $signer.discount }}
+{{ $connections := slice }}
+{{ if $signer.features.usb }}{{ $connections = $connections | append "usb" }}{{ end }}
+{{ if $signer.features.qr }}{{ $connections = $connections | append "qr" }}{{ end }}
+{{ if $signer.features.sd }}{{ $connections = $connections | append "sd" }}{{ end }}
+{{ if $signer.features.bluetooth }}{{ $connections = $connections | append "bluetooth" }}{{ end }}
 
-<div class="col">
+<div class="col hardware-signer-card" data-hardware-signer-card data-connection-types="{{ delimit $connections "," }}">
   <div class="card h-100 shadow-sm">
     {{ if $signer.bitcoin_only }}
       <span class="badge bg-warning text-dark position-absolute m-2">{{ i18n "hardware_badge_bitcoin_only" }}</span>
