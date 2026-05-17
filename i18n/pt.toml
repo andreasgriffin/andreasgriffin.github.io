@@ -84,3 +84,15 @@ other = "Bluetooth"
 
 [hardware_filter_empty]
 other = "Nenhum assinador corresponde aos tipos de conexão selecionados."
+
+[hardware_sort_label]
+other = "Ordenar"
+
+[hardware_sort_alpha_asc]
+other = "Alfabética (A-Z)"
+
+[hardware_sort_alpha_desc]
+other = "Alfabética (Z-A)"
+
+[hardware_sort_manual]
+other = "Padrão"

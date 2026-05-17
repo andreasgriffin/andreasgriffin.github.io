@@ -257,8 +257,11 @@ const setupHardwareSignerFilters = () => {
     const buttons = Array.from(root.querySelectorAll('[data-connection-type]'))
     const cards = Array.from(root.querySelectorAll('[data-hardware-signer-card]'))
     const emptyState = root.querySelector('[data-hardware-signer-empty]')
+    const grid = root.querySelector('[data-hardware-signer-grid]')
+    const sortSelect = root.querySelector('[data-hardware-signer-sort]')
+    const hasFilterButtons = buttons.length > 0
 
-    if (!buttons.length || !cards.length || !emptyState) {
+    if (!cards.length || !emptyState || !grid) {
       return
     }
 
@@ -277,6 +280,43 @@ const setupHardwareSignerFilters = () => {
         .filter(Boolean)
     )
 
+    const collator = new Intl.Collator(undefined, {
+      numeric: true,
+      sensitivity: 'base'
+    })
+
+    const sortCards = () => {
+      if (!sortSelect) {
+        return
+      }
+
+      const sortValue = sortSelect.value || 'alpha-asc'
+      const sortedCards = [...cards]
+
+      if (sortValue === 'manual') {
+        sortedCards
+          .sort((left, right) => (
+            Number(left.dataset.originalIndex || 0) - Number(right.dataset.originalIndex || 0)
+          ))
+          .forEach((card) => grid.appendChild(card))
+        return
+      }
+
+      sortedCards.sort((left, right) => {
+        const leftName = left.dataset.sortName || ''
+        const rightName = right.dataset.sortName || ''
+        const result = collator.compare(leftName, rightName)
+
+        if (result !== 0) {
+          return sortValue === 'alpha-desc' ? -result : result
+        }
+
+        return Number(left.dataset.originalIndex || 0) - Number(right.dataset.originalIndex || 0)
+      })
+
+      sortedCards.forEach((card) => grid.appendChild(card))
+    }
+
     const updateCards = () => {
       const activeTypes = getActiveTypes()
       let visibleCount = 0
@@ -287,7 +327,9 @@ const setupHardwareSignerFilters = () => {
           .map(type => type.trim())
           .filter(Boolean)
 
-        const isVisible = activeTypes.size > 0 && supportedTypes.some(type => activeTypes.has(type))
+        const isVisible = !hasFilterButtons || (
+          activeTypes.size > 0 && supportedTypes.some(type => activeTypes.has(type))
+        )
         card.hidden = !isVisible
 
         if (isVisible) {
@@ -307,6 +349,14 @@ const setupHardwareSignerFilters = () => {
       })
     })
 
+    if (sortSelect) {
+      sortSelect.addEventListener('change', () => {
+        sortCards()
+        updateCards()
+      })
+    }
+
+    sortCards()
     updateCards()
   })
 }

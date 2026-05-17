@@ -14,4 +14,3 @@ videos:
 {{< youtube-gallery >}} 
 
 
-
