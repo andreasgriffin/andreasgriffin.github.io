@@ -124,7 +124,8 @@ table img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.9rem;
+    gap: 1rem;
+    min-width: 0;
 }
 
 .hardware-signer-filter-label {
@@ -137,6 +138,32 @@ table img {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.hardware-signer-sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.hardware-signer-sort-label {
+    color: var(--bs-secondary-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hardware-signer-sort-select {
+    min-width: 220px;
 }
 
 .hardware-signer-filter-btn {
@@ -193,6 +220,16 @@ table img {
 }
 
 @media (max-width: 575.98px) {
+    .hardware-signer-sort {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hardware-signer-sort-select {
+        min-width: 0;
+        flex: 1 1 auto;
+    }
+
     .hardware-signer-filter-btn {
         width: 100%;
         justify-content: center;

@@ -137,6 +137,19 @@ signers:
       usb: true
     bitcoin_only_available: true
 
+  - id: trezor-safe-7
+    slug: trezor-safe-7
+    slugimage: trezor
+    name:
+      en: "Trezor Safe 7"
+    summary:
+      en: "Trezor Safe 7, supported via USB in Bitcoin Safe starting from version 2.0.0; Bitcoin-only firmware available."
+    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-7-btconly-thumb.webp"
+    shop_url: "https://affil.trezor.io/SH13X"
+    features:
+      usb: true
+    bitcoin_only_available: true
+
   - id: keystone
     slug: keystone
     slugimage: keystone

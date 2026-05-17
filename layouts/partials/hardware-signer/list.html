@@ -1,9 +1,21 @@
 {{/* Renders the grid of hardware signers from data/hardware-signers.yml */}}
 {{ $ctx := . }}
 {{ $signers := (index site.Data "hardware-signers").signers }}
+{{ $lang := default "en" $ctx.Site.Language.Lang }}
+{{ $entries := slice }}
+{{ $sortID := "hardware-signer-sort" }}
 {{ if not $signers }}
   <p class="text-muted">No hardware signers defined.</p>
 {{ else }}
+  {{ range $index, $signer := $signers }}
+    {{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
+    {{ $entries = $entries | append (dict
+      "signer" $signer
+      "sort_name" (lower $name)
+      "original_index" $index
+    ) }}
+  {{ end }}
+  {{ $entries = sort $entries "sort_name" }}
   {{ $connectionOptions := slice
     (dict "key" "usb" "label" (i18n "hardware_filter_usb") "icon" "/images/usb.svg")
     (dict "key" "qr" "label" (i18n "hardware_filter_qr") "icon" "/images/qr-code.svg")
@@ -25,8 +37,8 @@
   {{ end }}
 
   <div class="hardware-signer-filter" data-hardware-signer-filter>
-    {{ if $availableConnections }}
-      <div class="hardware-signer-filter-bar mt-3">
+    <div class="hardware-signer-filter-bar mt-3">
+      {{ if $availableConnections }}
         <p class="hardware-signer-filter-label mb-0">{{ i18n "hardware_filter_label" }}</p>
         <div class="hardware-signer-filter-buttons" role="group" aria-label="{{ i18n "hardware_filter_label" }}">
           {{ range $availableConnections }}
@@ -41,12 +53,21 @@
             </button>
           {{ end }}
         </div>
+      {{ end }}
+
+      <div class="hardware-signer-sort">
+        <label class="hardware-signer-sort-label" for="{{ $sortID }}">{{ i18n "hardware_sort_label" }}</label>
+        <select class="form-select hardware-signer-sort-select" id="{{ $sortID }}" data-hardware-signer-sort>
+          <option value="alpha-asc" selected>{{ i18n "hardware_sort_alpha_asc" }}</option>
+          <option value="alpha-desc">{{ i18n "hardware_sort_alpha_desc" }}</option>
+          <option value="manual">{{ i18n "hardware_sort_manual" }}</option>
+        </select>
       </div>
-    {{ end }}
+    </div>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3" data-hardware-signer-grid>
-      {{ range $signers }}
-        {{ partial "hardware-signer/card.html" (dict "signer" . "context" $ctx) }}
+      {{ range $entries }}
+        {{ partial "hardware-signer/card.html" (dict "signer" .signer "context" $ctx "sort_name" .sort_name "original_index" .original_index) }}
       {{ end }}
     </div>
 
