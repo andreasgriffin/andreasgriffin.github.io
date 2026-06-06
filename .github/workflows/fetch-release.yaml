@@ -57,7 +57,7 @@ jobs:
           commit_message: "Update latest release data"
           repo: ${{ github.repository }}
           branch: main
-          file_pattern: "data/latest_release.json content/features/readme/index.md"
+          file_pattern: "data/latest_release.json data/latest_prerelease.json content/features/readme/index.md"
       - name: Trigger Hugo workflow
         if: steps.fetch.outputs.status == '0'
         uses: actions/github-script@v7
