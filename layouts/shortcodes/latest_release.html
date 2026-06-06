@@ -1,6 +1,11 @@
 {{ $release := .Site.Data.latest_release }}
+{{ $prerelease := .Site.Data.latest_prerelease }}
 
 <h5>Latest Release: <a href="{{ $release.html_url }}">{{ $release.name }}</a></h5>
+
+{{ if and $prerelease $prerelease.newer_than_latest_stable $prerelease.html_url }}
+<p>Newer pre-release available: <a href="{{ $prerelease.html_url }}">{{ or $prerelease.name $prerelease.tag_name }}</a></p>
+{{ end }}
 
 
 {{/* Check for "b" in the version name to display beta warning */}}

@@ -6,7 +6,12 @@
       "type": "node-terminal",
       "request": "launch",
       "command": "hugo server --cleanDestinationDir",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "Web Server is available at (http://localhost:1313/)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
     }
   ]
 }
