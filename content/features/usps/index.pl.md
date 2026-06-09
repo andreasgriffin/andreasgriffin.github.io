@@ -2,7 +2,7 @@
 title: "Dlaczego warto wybrać Bitcoin Safe?"
 description: "Dostępnych jest kilka portfeli Bitcoin na komputery. Zobacz, co wyróżnia Bitcoin Safe."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin Safe", "unikalne funkcje", "bezpieczny portfel", "przyjazny dla użytkownika"]
 weight: 1000

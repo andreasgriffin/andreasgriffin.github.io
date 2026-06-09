@@ -2,7 +2,7 @@
 title: "چرا Bitcoin Safe را انتخاب کنیم؟"
 description: "چندین کیف پول دسکتاپ بیت‌کوین موجود است. ببینید چه چیزی Bitcoin Safe را برجسته می‌کند."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["بیت کوین ایمن", "ویژگی های منحصر به فرد", "کیف پول ایمن", "کاربرپسند"]
 weight: 1000

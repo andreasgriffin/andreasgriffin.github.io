@@ -2,7 +2,7 @@
 title: "Bitcoin Safe क्यों चुनें?"
 description: "कई डेस्कटॉप बिटकॉइन वॉलेट उपलब्ध हैं। देखें कि Bitcoin Safe को क्या अलग बनाता है।"
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["बिटकॉइन सुरक्षित", "अनन्य विशेषताएं", "सुरक्षित बटुआ", "यूजर फ्रेंडली"]
 weight: 1000

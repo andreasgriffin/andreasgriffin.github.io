@@ -2,7 +2,7 @@
 title: "为什么选择 Bitcoin Safe?"
 description: "市面上有多款桌面比特币钱包。了解是什么让 Bitcoin Safe 脱颖而出。"
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["比特币安全", "独特的功能", "固定钱包", "方便使用的"]
 weight: 1000

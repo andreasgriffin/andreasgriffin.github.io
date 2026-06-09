@@ -2,7 +2,7 @@
 title: "Por que escolher o Bitcoin Safe?"
 description: "Existem várias carteiras de Bitcoin para desktop disponíveis. Veja o que torna o Bitcoin Safe especial."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin seguro", "Recursos únicos", "carteira segura", "amigo do usuário"]
 weight: 1000

@@ -2,7 +2,7 @@
 title: "Pourquoi choisir Bitcoin Safe ?"
 description: "Plusieurs portefeuilles Bitcoin pour bureau sont disponibles. Découvrez ce qui distingue Bitcoin Safe."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin en toute sécurité", "caractéristiques uniques", "portefeuille sécurisé", "convivial"]
 weight: 1000

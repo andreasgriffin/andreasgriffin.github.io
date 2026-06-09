@@ -2,7 +2,7 @@
 title: "Почему стоит выбрать Bitcoin Safe?"
 description: "Доступно несколько десктопных биткойн-кошельков. Узнайте, чем Bitcoin Safe выделяется."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Биткойн сейф", "уникальные функции", "Безопасный кошелек", "удобный"]
 weight: 1000

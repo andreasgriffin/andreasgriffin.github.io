@@ -2,7 +2,7 @@
 title: "Bitcoin Safe를 선택해야 하는 이유"
 description: "여러 데스크탑 비트코인 지갑이 있습니다. Bitcoin Safe가 돋보이는 이유를 확인하세요."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["비트 코인 안전", "독특한 기능", "안전한 지갑", "사용자 친화적"]
 weight: 1000
