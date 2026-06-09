@@ -2,7 +2,7 @@
 title: "なぜ Bitcoin Safe を選ぶのか？"
 description: "デスクトップ向けのBitcoinウォレットはいくつもあります。Bitcoin Safeが際立つ理由をご覧ください。"
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["ビットコインセーフ", "ユニークな機能", "セキュアウォレット", "使いやすい"]
 weight: 1000

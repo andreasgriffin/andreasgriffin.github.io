@@ -2,7 +2,7 @@
 title: "ทำไมต้องเลือก Bitcoin Safe?"
 description: "มีกระเป๋าเงิน Bitcoin บนเดสก์ท็อปหลายตัวให้เลือก ดูว่าทำไม Bitcoin Safe จึงโดดเด่น"
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin ปลอดภัย", "คุณสมบัติที่เป็นเอกลักษณ์", "กระเป๋าเงินที่ปลอดภัย", "เป็นมิตรกับผู้ใช้"]
 weight: 1000

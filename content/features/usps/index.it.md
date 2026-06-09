@@ -2,7 +2,7 @@
 title: "Perché scegliere Bitcoin Safe?"
 description: "Sono disponibili diversi wallet Bitcoin per desktop. Scopri cosa rende Bitcoin Safe speciale."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin sicuro", "Caratteristiche uniche", "Portafoglio sicuro", "facile da usare"]
 weight: 1000

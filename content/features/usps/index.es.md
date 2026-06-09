@@ -2,7 +2,7 @@
 title: "¿Por qué elegir Bitcoin Safe?"
 description: "Hay varias carteras de Bitcoin de escritorio disponibles. Descubre qué hace que Bitcoin Safe destaque."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["bitcoin safe", "características únicas", "billetera segura", "fácil de usar"]
 weight: 1000

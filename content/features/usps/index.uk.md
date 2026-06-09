@@ -2,7 +2,7 @@
 title: "Чому обрати Bitcoin Safe?"
 description: "Існує кілька настільних біткоїн-гаманців. Подивіться, чим Bitcoin Safe вирізняється."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["bitcoin safe", "unique features", "secure wallet", "user friendly"]
 weight: 1000

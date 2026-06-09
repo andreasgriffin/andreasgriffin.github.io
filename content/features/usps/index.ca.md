@@ -2,7 +2,7 @@
 title: "Per què triar Bitcoin Safe?"
 description: "Hi ha diverses carteres de Bitcoin d'escriptori disponibles. Descobreix què fa que Bitcoin Safe destaqui."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin Safe", "Característiques úniques", "Callera segura", "usuari"]
 weight: 1000

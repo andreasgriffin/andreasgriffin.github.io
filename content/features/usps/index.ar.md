@@ -2,7 +2,7 @@
 title: "لماذا تختار Bitcoin Safe؟"
 description: "توجد العديد من محافظ بتكوين لسطح المكتب. تعرّف على ما الذي يجعل Bitcoin Safe مميزًا."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["بيتكوين آمن", "ميزات فريدة", "محفظة آمنة", "سهل الاستخدام"]
 weight: 1000

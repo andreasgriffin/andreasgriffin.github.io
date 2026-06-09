@@ -2,7 +2,7 @@
 title: "Mengapa memilih Bitcoin Safe?"
 description: "Beberapa dompet Bitcoin Desktop tersedia. Lihat apa yang membuat Bitcoin Safe menonjol."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin aman", "Fitur unik", "dompet aman", "ramah pengguna"]
 weight: 1000

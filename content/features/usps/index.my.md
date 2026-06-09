@@ -2,7 +2,7 @@
 title: "ဘာကြောင့် Bitcoin Safe ကို ရွေးသင့်သလဲ?"
 description: "Desktop Bitcoin ဝေါလက်အမျိုးမျိုး ရနိုင်ပါတယ်။ Bitcoin Safe ကို ထူးခြားစေသော အချက်များကို ကြည့်ရှုပါ။"
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin selamat", "Ciri -ciri unik", "dompet selamat", "mesra pengguna"]
 weight: 1000

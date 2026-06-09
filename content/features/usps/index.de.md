@@ -2,7 +2,7 @@
 title: "Warum Bitcoin Safe wählen?"
 description: "Es gibt mehrere Desktop-Bitcoin-Wallets. Sehen Sie, was Bitcoin Safe auszeichnet."
 draft: false
-tags: ["Featured","Features"]
+tags: ["Features"]
 images: ["logo.png"]
 keywords: ["Bitcoin sicher", "einzigartige Funktionen", "sichern Brieftasche", "Benutzerfreundlich"]
 weight: 1000
