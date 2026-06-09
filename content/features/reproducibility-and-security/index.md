@@ -38,7 +38,7 @@ Taken together, these measures put Bitcoin Safe in a small group of projects tha
 Beyond binary integrity, Bitcoin Safe is built around secure defaults, good operational practices, and clear user guidance. A few examples:
 
 - **Hardware-first custody**: Bitcoin Safe requires [hardware signers]({{< ref "knowledge/supported-hardware-signers" >}}), so seeds stay on dedicated devices instead of becoming hot secrets on a general-purpose computer.
-- **Safer setup flow**: The setup wizard helps users create wallets that are actually ready for real use, including [hardware signer]({{< ref "knowledge/supported-hardware-signers" >}}) testing and [PDF recovery sheets]({{< ref "features/pdf-export/" >}}) for clear backups.
+- **Safer setup flow**: The setup wizard helps users create wallets that are actually ready for real use, including [hardware signer]({{< ref "knowledge/supported-hardware-signers" >}}) testing and [PDF recovery sheets]({{< ref "features/pdf-export/" >}}) for clear backups, and guidance on how to store the hardware signers and seed backups.
 - **Receive-address verification**: Bitcoin Safe makes it easy to [verify receive addresses]({{< ref "knowledge/verify-receive-address/" >}}) on the signer itself before sharing them.
 - **Address-poisoning detection**: It warns about suspicious [look-alike addresses]({{< ref "features/address-poisoning/" >}}).
 - **Multisig security**: Bitcoin Safe supports multisignature wallets, so larger holdings can be protected by multiple devices or people instead of a single point of failure.
