@@ -38,11 +38,6 @@ Support **Bitcoin Safe** and get into the list below
 
 <div class="row">
   {{< person-circle image_url="https://cdn.nostr.build/i/p/2625c1c7593ffed6a0619e28f57de0691b8327dffc5367b125c09ac60d8b99a9.png" title="Opensats" target_url="https://opensats.org/blog/tenth-wave-of-bitcoin-grants" >}}
-  {{< person-circle image_url="https://einundzwanzig.space/img/media/einundzwanzig-square.svg" title="Einundzwanzig" target_url="https://einundzwanzig.space/" >}}
-  {{< person-circle image_url="/supporters/bitbox.png" title="Bitbox.swiss" target_url="https://bitbox.swiss" >}}
-
-
-
 </div>
 
 
@@ -68,4 +63,15 @@ Support **Bitcoin Safe** and get into the list below
 <a href="https://hosted.weblate.org/engage/bitcoin-safe/">
 <img src="https://hosted.weblate.org/widget/bitcoin-safe/multi-auto.svg" alt="Translation status" width="440" style="max-width: 100%; height: auto;" />
 </a>
+</div>
+
+
+
+### Past supporters
+
+<br>
+
+<div class="row">
+  {{< person-circle image_url="https://einundzwanzig.space/img/media/einundzwanzig-square.svg" title="Einundzwanzig" target_url="https://einundzwanzig.space/" >}}
+  {{< person-circle image_url="/supporters/bitbox.png" title="Bitbox.swiss" target_url="https://bitbox.swiss" >}}
 </div>

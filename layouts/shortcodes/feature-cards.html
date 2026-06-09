@@ -1,0 +1,33 @@
+{{ $itemsParam := .Get "items" | default "" }}
+{{ $columns := .Get "columns" | default "3" }}
+{{ $slugs := split $itemsParam "," }}
+
+{{ if $itemsParam }}
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ $columns }} g-4">
+    {{ range $rawSlug := $slugs }}
+      {{ $slug := trim $rawSlug " " }}
+      {{ if $slug }}
+        {{ $feature := $.Page.GetPage (printf "/features/%s" $slug) }}
+        {{ if $feature }}
+          {{ $imageURL := "" }}
+          {{ with $feature.Resources.GetMatch "logo.*" }}
+            {{ $imageURL = .RelPermalink }}
+          {{ else }}
+            {{ with index $feature.Params.images 0 }}
+              {{ $imageURL = . }}
+            {{ end }}
+          {{ end }}
+
+          {{ partial "card.html" (dict
+            "target_url" $feature.RelPermalink
+            "title" $feature.Title
+            "description" $feature.Description
+            "image_url" $imageURL
+            "entire_card_clickable" true
+            "open_in_blank_page" false
+          ) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
