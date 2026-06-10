@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "/features/reproducibility/"
+  - "/features/reproducibility-and-security/"
 title: "Security and reproducibility"
 description: "Bitcoin Safe follows a high standard for binary security: reproducible builds, signed commits, signed releases, and independent external monitoring."
 draft: false
