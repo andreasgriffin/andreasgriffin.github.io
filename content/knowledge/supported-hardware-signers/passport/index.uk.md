@@ -1,4 +1,4 @@
 ---
-title: "Foundation Passport"
+title: "Foundation Passport Core"
 signer: passport
 ---

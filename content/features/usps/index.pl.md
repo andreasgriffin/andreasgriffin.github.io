@@ -73,7 +73,7 @@ Ludzie popełnili wiele kosztownych błędów w przeszłości. Większości z ni
             <a href="https://shop.bitbox.swiss/?ref=MOB4dk7gpm">Bitbox02</a>, 
             <a href="https://store.blockstream.com/?code=XEocg5boS77D">Blockstream Jade</a>,    
             <a href="https://affil.trezor.io/SHtN">Trezor Safe</a>,
-            <a href="https://foundation.xyz/passport">Foundation Passport</a>,
+            <a href="https://foundation.xyz/?ref=cbyqjjxumy">Foundation Passport Core</a>,
             <a href="https://keyst.one/?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a">Keystone</a>,
             <a href="https://shop.ledger.com/?r=400f1fff75b5">Ledger</a>,
             <a href="https://clavastack.com/en/?coupon=bitcoin-safe">Specter DIY</a>)  
