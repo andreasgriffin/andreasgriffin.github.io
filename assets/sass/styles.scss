@@ -219,6 +219,36 @@ table img {
     font-size: 0.95rem;
 }
 
+.hardware-signer .row.row-cols-1 > .hardware-signer-screenshot-col {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.hardware-signer-screenshot-card {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
+
+.hardware-signer-screenshot {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (min-width: 768px) {
+    .hardware-signer .row.row-cols-1 > .hardware-signer-screenshot-col {
+        width: 60%;
+        max-width: 60%;
+        flex: 0 0 60%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @media (max-width: 575.98px) {
     .hardware-signer-sort {
         width: 100%;

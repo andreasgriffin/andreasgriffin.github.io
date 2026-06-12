@@ -79,7 +79,7 @@ O Bitcoin Safe **permite seeds de software apenas em Testnet, Signet e Regtest**
     - [Coldcard]({{< ref "knowledge/supported-hardware-signers" >}})
     - [BitBox02]({{< ref "knowledge/supported-hardware-signers" >}})
     - [Blockstream Jade]({{< ref "knowledge/supported-hardware-signers" >}})
-    - [Foundation Passport]({{< ref "knowledge/supported-hardware-signers" >}})
+    - [Foundation Passport Core]({{< ref "knowledge/supported-hardware-signers" >}})
     - [Trezor Safe]({{< ref "knowledge/supported-hardware-signers" >}})
     - [Ledger]({{< ref "knowledge/supported-hardware-signers" >}})
     - [Keystone]({{< ref "knowledge/supported-hardware-signers" >}})

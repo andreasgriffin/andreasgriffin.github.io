@@ -153,13 +153,13 @@
             {{ $title }}
           </h4>
           {{ with (index $introMap $step) }}<p class="text-muted small mb-2">{{ . }}</p>{{ end }}
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
+          <div class="row row-cols-1 g-3 mb-3">
             {{ range $screens }}
               {{ $stepOfImg := replaceRE "^[^-]+-" "" .name }}
               {{ if eq $stepOfImg $step }}
-                <div class="col">
-                  <a href="{{ .src }}" target="_blank" rel="noopener" class="card h-100 shadow-sm text-decoration-none">
-                    <img src="{{ .src }}" class="card-img-top" alt="{{ $name }} screenshot {{ .name }}">
+                <div class="col hardware-signer-screenshot-col">
+                  <a href="{{ .src }}" target="_blank" rel="noopener" class="card hardware-signer-screenshot-card shadow-sm text-decoration-none">
+                    <img src="{{ .src }}" class="card-img-top hardware-signer-screenshot" alt="{{ $name }} screenshot {{ .name }}">
                   </a>
                 </div>
               {{ end }}

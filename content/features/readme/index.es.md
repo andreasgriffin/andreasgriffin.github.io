@@ -16,7 +16,7 @@ keywords: [
   "Bitbox02",
   "Blockstream Jade",
   "Trezor",
-  "Foundation Passport",
+  "Foundation Passport Core",
   "Keystone",
   "Ledger",
   "Specter DIY",
@@ -60,7 +60,7 @@ weight: -10
 - **Fácil** Configuración de cartera Multisig
   - Instrucciones paso a paso para una configuración segura de MultiSig con hojas de copia de seguridad PDF
   - Transacciones de prueba garantizan que todos los firmantes de hardware están listos
-  - Compatibilidad total con Coldcard, Coldcard Q, Bitbox02, Blockstream Jade, Trezor, Foundation Passport, Keystone, Ledger, Specter DIY, SeedSigner, Krux, usando *QR*, *USB* y *tarjeta SD*
+  - Compatibilidad total con Coldcard, Coldcard Q, Bitbox02, Blockstream Jade, Trezor, Foundation Passport Core, Keystone, Ledger, Specter DIY, SeedSigner, Krux, usando *QR*, *USB* y *tarjeta SD*
 - **Seguro**: Solo firmantes de hardware
   - Todas las carteras requieren firmantes/ dispositivos de hardware para un almacenamiento seguro de la semilla
   - Alimentado por **[BDK](https://github.com/bitcoindevkit/bdk)**

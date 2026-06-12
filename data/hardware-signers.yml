@@ -71,11 +71,11 @@ signers:
     slug: passport
     slugimage: passport
     name:
-      en: "Foundation Passport"
+      en: "Foundation Passport Core"
     summary:
-      en: "Camera-based QR + SD signer; Bitcoin-only."
+      en: "Camera-based QR + microSD signer; Bitcoin-only."
     image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
-    shop_url: "https://foundation.xyz/passport"
+    shop_url: "https://foundation.xyz/?ref=cbyqjjxumy"
     discount:
       code: "BITCOINSAFE"
       note:
@@ -83,6 +83,18 @@ signers:
     features:
       qr: true
       sd: true
+    bitcoin_only: true
+
+  - id: passport-prime
+    slug: passport-prime
+    name:
+      en: "Foundation Passport Prime"
+    summary:
+      en: "Camera-based QR signer without microSD; Bitcoin-only."
+    image: "https://thebitcoinhole.com/img/item-types/hardware-wallets/passport-prime.webp"
+    shop_url: "https://foundation.xyz/?ref=cbyqjjxumy"
+    features:
+      qr: true
     bitcoin_only: true
 
   - id: jade

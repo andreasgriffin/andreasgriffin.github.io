@@ -16,7 +16,7 @@ keywords: [
   "Bitbox02",
   "Blockstream Jade",
   "Trezor",
-  "Foundation Passport",
+  "Foundation Passport Core",
   "Keystone",
   "Ledger",
   "Specter DIY",
@@ -60,7 +60,7 @@ weight: -10
 - **Просте** налаштування мультисиг‑гаманця
   - Покрокові інструкції для безпечного налаштування MultiSig з PDF‑аркушами резервного копіювання
   - Тестові транзакції гарантують готовність усіх апаратних підписувачів
-  - Повна підтримка [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtNo), [Foundation Passport](https://foundation.xyz/passport), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), з використанням *QR*, *USB* та *SD‑картки*
+  - Повна підтримка [Coldcard](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Coldcard Q](https://store.coinkite.com/promo/8BFF877000C34A86F410), [Bitbox02](https://shop.bitbox.swiss/?ref=MOB4dk7gpm), [Blockstream Jade](https://store.blockstream.com/?code=XEocg5boS77D), [Trezor](https://affil.trezor.io/SHtNo), [Foundation Passport Core](https://foundation.xyz/?ref=cbyqjjxumy), [Keystone](https://keyst.one), [Ledger](https://shop.ledger.com/?r=400f1fff75b5), [Specter DIY](https://clavastack.com/en/?coupon=bitcoin-safe), [SeedSigner](https://seedsigner.com), [Krux](https://selfcustody.github.io/krux), з використанням *QR*, *USB* та *SD‑картки*
 - **Безпека**: лише апаратні підписувачі
   - Усі гаманці потребують апаратних підписувачів/гаманців для безпечного зберігання сідів
   - Працює на **[BDK](https://github.com/bitcoindevkit/bdk)**
