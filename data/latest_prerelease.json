@@ -1,8 +1,8 @@
 {
   "newer_than_latest_stable": true,
-  "name": "2.0.0rc2",
-  "tag_name": "2.0.0rc2",
-  "html_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/tag/2.0.0rc2",
-  "published_at": "2026-06-06T09:46:28Z",
+  "name": "2.0.0rc3",
+  "tag_name": "2.0.0rc3",
+  "html_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/tag/2.0.0rc3",
+  "published_at": "2026-06-12T12:27:58Z",
   "prerelease": true
 }
