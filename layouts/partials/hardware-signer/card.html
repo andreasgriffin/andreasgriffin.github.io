@@ -4,7 +4,6 @@
 {{ $page := $ctx.Site.GetPage (printf "knowledge/supported-hardware-signers/%s" $signer.slug) }}
 {{ $href := cond $page ($page.RelPermalink) (relLangURL (printf "/knowledge/supported-hardware-signers/%s/" $signer.slug)) }}
 {{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
-{{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
 {{ $discount := $signer.discount }}
 {{ $sortName := or .sort_name (lower $name) }}
 {{ $originalIndex := default 0 .original_index }}
@@ -29,7 +28,12 @@
       {{ end }}
       <div class="card-body">
         <h5 class="card-title">{{ $name }}</h5>
-        {{ with $summary }}<p class="card-text text-muted">{{ . }}</p>{{ end }}
+        {{ partial "hardware-signer/summary.html" (dict
+          "signer" $signer
+          "lang" $lang
+          "list_class" "hardware-signer-summary-list text-muted"
+          "text_class" "card-text text-muted"
+        ) }}
         {{ partial "hardware-signer/features.html" (dict "features" $signer.features) }}
         {{ with $discount }}
           <p class="mt-2 mb-0 small text-success">{{ i18n "hardware_discount" }} <strong>{{ .code }}</strong></p>

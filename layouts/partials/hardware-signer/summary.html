@@ -1,0 +1,16 @@
+{{ $signer := .signer }}
+{{ $lang := default "en" .lang }}
+{{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
+{{ $summaryPoints := or (index $signer.summary_points $lang) (index $signer.summary_points "en") }}
+{{ $listClass := or .list_class "hardware-signer-summary-list text-muted" }}
+{{ $textClass := or .text_class "text-muted" }}
+
+{{ with $summaryPoints }}
+  <ul class="{{ $listClass }}">
+    {{ range . }}
+      <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+{{ else with $summary }}
+  <p class="{{ $textClass }}">{{ . }}</p>
+{{ end }}

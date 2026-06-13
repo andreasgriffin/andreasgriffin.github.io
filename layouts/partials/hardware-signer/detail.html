@@ -2,7 +2,6 @@
 {{ $ctx := .context }}
 {{ $lang := $ctx.Language.Lang | default "en" }}
 {{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
-{{ $summary := or (index $signer.summary $lang) (index $signer.summary "en") }}
 {{ $discount := $signer.discount }}
 {{ $slug := or $signer.slug (path.Base (path.Clean $ctx.File.Dir)) }}
 {{ $headerID := anchorize $name }}
@@ -27,7 +26,12 @@
           <a class="header-anchor" href="#{{ $headerID }}" aria-hidden="true">🔗</a>
           {{ $name }}
         </h1>
-        {{ with $summary }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
+        {{ partial "hardware-signer/summary.html" (dict
+          "signer" $signer
+          "lang" $lang
+          "list_class" "hardware-signer-summary-list text-muted mb-2"
+          "text_class" "text-muted mb-2"
+        ) }}
         <div class="d-flex gap-2 flex-wrap mb-2">
           {{ if $signer.bitcoin_only }}<span class="badge bg-warning text-dark">{{ i18n "hardware_badge_bitcoin_only" }}</span>{{ end }}
           {{ if $signer.bitcoin_only_available }}<span class="badge bg-warning text-dark">{{ i18n "hardware_badge_bitcoin_only_available" }}</span>{{ end }}

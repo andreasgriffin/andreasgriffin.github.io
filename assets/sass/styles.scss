@@ -219,6 +219,15 @@ table img {
     font-size: 0.95rem;
 }
 
+.hardware-signer-summary-list {
+    margin-top: 0;
+    padding-left: 1.15rem;
+}
+
+.hardware-signer-summary-list li + li {
+    margin-top: 0.2rem;
+}
+
 .hardware-signer .row.row-cols-1 > .hardware-signer-screenshot-col {
     width: 100%;
     max-width: 100%;
