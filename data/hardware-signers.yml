@@ -1111,85 +1111,98 @@ signers:
     en: Ledger Nano S / S Plus / X / Flex
   summary_points:
     en:
-    - USB signer.
     - Ledger Live is needed for setup.
     - The Bitcoin app must be installed on the device.
+    - No multisig quorum storage, so it cannot validate multisig change addresses.
     es:
-    - Dispositivo de firma por USB.
     - Ledger Live es necesario para la configuración.
     - La app de Bitcoin debe estar instalada en el dispositivo.
+    - Sin almacenamiento de quórums multifirma, por lo que no puede validar direcciones
+      de cambio multifirma.
     fr:
-    - Signataire USB.
     - Ledger Live est nécessaire pour la configuration.
     - L’application Bitcoin doit être installée sur l’appareil.
+    - Pas de stockage des quorums multisig, il ne peut donc pas valider les adresses
+      de change multisig.
     de:
-    - USB-Signer.
     - Ledger Live wird für die Einrichtung benötigt.
     - Die Bitcoin-App muss auf dem Gerät installiert sein.
+    - Keine Speicherung von Multisig-Quoren, daher keine Validierung von
+      Multisig-Wechseladressen.
     it:
-    - Signer USB.
     - Ledger Live è necessario per la configurazione.
     - L’app Bitcoin deve essere installata sul dispositivo.
+    - Nessuna memorizzazione dei quorum multisig, quindi nessuna convalida degli
+      indirizzi di resto multisig.
     pt:
-    - Dispositivo de assinatura USB.
     - O Ledger Live é necessário para a configuração.
     - A aplicação Bitcoin deve estar instalada no dispositivo.
+    - Sem armazenamento de quóruns multisig, por isso não consegue validar endereços
+      de troco multisig.
     pl:
-    - Podpisywacz USB.
     - Ledger Live jest wymagany do konfiguracji.
     - Aplikacja Bitcoin musi być zainstalowana na urządzeniu.
+    - Bez przechowywania kworów multisig, więc nie może weryfikować adresów zmiany
+      multisig.
     tr:
-    - USB imzalayıcı.
     - Kurulum için Ledger Live gerekir.
     - Bitcoin uygulaması cihazda kurulu olmalıdır.
+    - Multisig quorum'ları saklanmaz, bu yüzden multisig change adresleri doğrulanamaz.
     id:
-    - Penanda tangan USB.
     - Ledger Live diperlukan untuk penyiapan.
     - Aplikasi Bitcoin harus dipasang di perangkat.
+    - Tidak menyimpan kuorum multisig, sehingga tidak dapat memvalidasi alamat kembalian
+      multisig.
     ca:
-    - Signador USB.
     - Ledger Live és necessari per a la configuració.
     - L’aplicació Bitcoin ha d’estar instal·lada al dispositiu.
+    - Sense emmagatzemar quòrums multifirma, de manera que no pot validar adreces
+      de canvi multifirma.
     ru:
-    - USB-устройство подписи.
     - Для настройки нужен Ledger Live.
     - Приложение Bitcoin должно быть установлено на устройстве.
+    - Не хранит multisig-кворумы, поэтому не может проверять multisig-адреса сдачи.
     uk:
-    - USB-підписувач.
     - Для налаштування потрібен Ledger Live.
     - Застосунок Bitcoin має бути встановлений на пристрої.
+    - Не зберігає multisig-кворуми, тому не може перевіряти multisig-адреси здачі.
     zh:
-    - USB 签名设备。
     - 设置时需要 Ledger Live。
     - 设备上必须安装 Bitcoin 应用。
+    - 不存储多签 quorum，因此无法验证多签找零地址。
     ja:
-    - USB 署名デバイス。
     - 設定には Ledger Live が必要です。
     - デバイスに Bitcoin アプリをインストールする必要があります。
+    - マルチシグのクォーラムを保存しないため、マルチシグのチェンジアドレスを検証できません。
     ko:
-    - USB 서명 장치.
     - 설정에는 Ledger Live가 필요합니다.
     - Bitcoin 앱이 장치에 설치되어 있어야 합니다.
+    - 멀티시그 쿼럼을 저장하지 않아 멀티시그 잔돈 주소를 검증할 수 없습니다.
     hi:
-    - USB साइनर।
     - सेटअप के लिए Ledger Live चाहिए।
     - Bitcoin ऐप डिवाइस पर स्थापित होना चाहिए।
+    - मल्टीसिग क्वोरम संग्रहीत नहीं करता, इसलिए मल्टीसिग चेंज एड्रेस सत्यापित
+      नहीं कर सकता।
     th:
-    - อุปกรณ์ลงนามผ่าน USB
     - ต้องใช้ Ledger Live สำหรับการตั้งค่า
     - ต้องติดตั้งแอป Bitcoin บนอุปกรณ์
+    - ไม่เก็บ quorum ของ multisig จึงไม่สามารถตรวจสอบที่อยู่เงินทอนแบบ
+      multisig ได้
     ar:
-    - جهاز توقيع عبر USB.
     - يلزم Ledger Live للإعداد.
     - يجب تثبيت تطبيق Bitcoin على الجهاز.
+    - لا يخزن quorums للمحافظ متعددة التوقيع، لذلك لا يمكنه التحقق من عناوين
+      الفكة متعددة التوقيع.
     fa:
-    - امضاکننده USB.
     - برای راه‌اندازی به Ledger Live نیاز است.
     - برنامه Bitcoin باید روی دستگاه نصب شود.
+    - کوئوروم‌های چندامضایی را ذخیره نمی‌کند، بنابراین نمی‌تواند آدرس‌های change
+      چندامضایی را اعتبارسنجی کند.
     my:
-    - USB signer ဖြစ်သည်။
     - setup အတွက် Ledger Live လိုအပ်သည်။
     - Bitcoin app ကို စက်ပေါ်တွင် install လုပ်ထားရမည်။
+    - multisig quorum များကို မသိမ်းဆည်းသဖြင့် multisig change address များကို
+      validate မလုပ်နိုင်ပါ။
   summary:
     en: USB signer; Ledger Live is needed for setup, the Bitcoin app must be installed
       on the device, and multisig wallet details are not stored on-device.
