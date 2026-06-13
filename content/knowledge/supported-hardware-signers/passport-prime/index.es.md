@@ -1,6 +1,6 @@
 ---
 aliases:
 - /es/knowledge/supported-hardware-signers/passport-prime/
-title: Foundation Passport Prime
+title: Passport Prime
 signer: passport-prime
 ---

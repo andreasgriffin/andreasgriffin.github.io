@@ -1,235 +1,1443 @@
 signers:
-  - id: coldcard-q
-    slug: coldcard-q
-    slugimage: q
-    name:
-      en: "Coldcard Q"
-    summary:
-      en: "Flagship QR + USB + SD signer; Bitcoin-only firmware."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-q-thumb.webp"
-    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
-    discount:
-      code: "8BFF877000C34A86F410"
-      note:
-        en: "Promo automatically applied at Coinkite."
-    features:
-      usb: true
-      qr: true
-      sd: true
-    bitcoin_only: true
-
-  - id: coldcard-mk4
-    slug: coldcard-mk4
-    slugimage: coldcard
-    name:
-      en: "Coldcard Mk4"
-    summary:
-      en: "Secure USB + SD signer; Bitcoin-only."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp"
-    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
-    discount:
-      code: "8BFF877000C34A86F410"
-      note:
-        en: "Promo automatically applied at Coinkite."
-    features:
-      usb: true
-      sd: true
-    bitcoin_only: true
-
-  - id: coldcard-mk5
-    slug: coldcard-mk5
-    slugimage: coldcard
-    name:
-      en: "Coldcard Mk5"
-    summary:
-      en: "Secure USB + SD signer; Bitcoin-only."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"
-    shop_url: "https://store.coinkite.com/promo/8BFF877000C34A86F410"
-    discount:
-      code: "8BFF877000C34A86F410"
-      note:
-        en: "Promo automatically applied at Coinkite."
-    features:
-      usb: true
-      sd: true
-    bitcoin_only: true
-
-  - id: bitbox02
-    slug: bitbox02
-    slugimage: bitbox02
-    name:
-      en: "BitBox02 / BitBox02 Nova"
-    summary:
-      en: "Compact USB signer; Bitcoin-only firmware option available."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp"
-    shop_url: "https://shop.bitbox.swiss/?ref=MOB4dk7gpm"
-    features:
-      usb: true
-    bitcoin_only_available: true
-
-  - id: passport
-    slug: passport
-    slugimage: passport
-    name:
-      en: "Foundation Passport Core"
-    summary:
-      en: "Camera-based QR + microSD signer; Bitcoin-only."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp"
-    shop_url: "https://foundation.xyz/?ref=cbyqjjxumy"
-    discount:
-      code: "BITCOINSAFE"
-      note:
-        en: "$10 off with code at checkout."
-    features:
-      qr: true
-      sd: true
-    bitcoin_only: true
-
-  - id: passport-prime
-    slug: passport-prime
-    name:
-      en: "Foundation Passport Prime"
-    summary:
-      en: "Camera-based QR signer without microSD; Bitcoin-only."
-    image: "https://thebitcoinhole.com/img/item-types/hardware-wallets/passport-prime.webp"
-    shop_url: "https://foundation.xyz/?ref=cbyqjjxumy"
-    features:
-      qr: true
-    bitcoin_only: true
-
-  - id: jade
-    slug: jade
-    slugimage: jade
-    name:
-      en: "Jade"
-    summary:
-      en: "USB + QR + Bluetooth signer; Bitcoin-only firmware."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp"
-    shop_url: "https://rewards.blockstream.com/885who"
-    discount:
-      code: "885WHO"
-      note:
-        en: "10% off at Blockstream Store."
-    features:
-      usb: true
-      qr: true
-      bluetooth: true
-    bitcoin_only: true
-
-  - id: jade-plus
-    slug: jade-plus
-    slugimage: jade
-    name:
-      en: "Jade Plus"
-    summary:
-      en: "USB + QR + SD + Bluetooth signer with metal body; Bitcoin-only firmware."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp"
-    shop_url: "https://rewards.blockstream.com/885who"
-    discount:
-      code: "885WHO"
-      note:
-        en: "10% off at Blockstream Store."
-    features:
-      usb: true
-      qr: true
-      sd: true
-      bluetooth: true
-    bitcoin_only: true
-
-  - id: trezor
-    slug: trezor
-    slugimage: trezor
-    name:
-      en: "Trezor Safe 3 & 5"
-    summary:
-      en: "Popular USB signer; Bitcoin-only firmware available."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp"
-    shop_url: "https://affil.trezor.io/SHtN"
-    features:
-      usb: true
-    bitcoin_only_available: true
-
-  - id: trezor-safe-7
-    slug: trezor-safe-7
-    slugimage: trezor
-    name:
-      en: "Trezor Safe 7"
-    summary:
-      en: "Trezor Safe 7, supported via USB in Bitcoin Safe starting from version 2.0.0; Bitcoin-only firmware available."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-7-btconly-thumb.webp"
-    shop_url: "https://affil.trezor.io/SH13X"
-    features:
-      usb: true
-    bitcoin_only_available: true
-
-  - id: keystone
-    slug: keystone
-    slugimage: keystone
-    name:
-      en: "Keystone"
-    summary:
-      en: "Air-gapped QR + SD signer; Bitcoin-only firmware option available."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp"
-    shop_url: "https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a"
-    features:
-      qr: true
-      sd: true
-    bitcoin_only_available: true
-
-  - id: ledger
-    slug: ledger
-    slugimage: ledger
-    name:
-      en: "Ledger Nano S / S Plus / X / Flex"
-    summary:
-      en: "Mainstream USB signer."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp"
-    shop_url: "https://shop.ledger.com/?r=400f1fff75b5"
-    features:
-      usb: true
-
-  - id: specter
-    slug: specter
-    slugimage: specterdiy
-    name:
-      en: "Specter DIY / Shield / Shield Lite"
-    summary:
-      en: "DIY-friendly QR + SD signer; Bitcoin-only."
-    image: "/en/knowledge/supported-hardware-signers/specter-diy.png"
-    shop_url: "https://clavastack.com/en/?coupon=bitcoin-safe"
-    discount:
-      code: "bitcoin-safe"
-      note:
-        en: "5% off with coupon."
-    features:
-      qr: true
-      sd: true
-    bitcoin_only: true
-
-  - id: seedsigner
-    slug: seedsigner
-    slugimage: seedsigner
-    name:
-      en: "SeedSigner"
-    summary:
-      en: "Camera-based DIY QR + SD signer; Bitcoin-only."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp"
-    shop_url: "https://seedsigner.com/"
-    features:
-      qr: true
-      sd: true
-    bitcoin_only: true
-
-  - id: krux
-    slug: krux
-    slugimage: krux
-    name:
-      en: "Krux"
-    summary:
-      en: "DIY QR + SD signer built on off-the-shelf hardware; Bitcoin-only."
-    image: "https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp"
-    shop_url: "https://selfcustody.github.io/krux/"
-    features:
-      qr: true
-      sd: true
-    bitcoin_only: true
+- id: coldcard-q
+  slug: coldcard-q
+  slugimage: q
+  name:
+    en: Coldcard Q
+  summary_points:
+    en:
+    - Large-screen Bitcoin-only signer with a full keyboard.
+    - Stores multisig wallet details on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma solo para Bitcoin con pantalla grande y teclado completo.
+    - Guarda los datos de la billetera multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire Bitcoin uniquement avec grand écran et clavier complet.
+    - Stocke les détails du portefeuille multisig sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Bitcoin-Only-Signer mit großem Bildschirm und vollständiger Tastatur.
+    - Speichert Multisig-Wallet-Daten auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer solo Bitcoin con schermo grande e tastiera completa.
+    - Memorizza i dettagli del wallet multisig sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura apenas Bitcoin com ecrã grande e teclado completo.
+    - Guarda os dados da carteira multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz tylko do Bitcoina z dużym ekranem i pełną klawiaturą.
+    - Przechowuje dane portfela multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Tam klavyeli, büyük ekranlı, sadece Bitcoin için imzalayıcı.
+    - Multisig cüzdan bilgilerini cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan khusus Bitcoin dengan layar besar dan papan tombol lengkap.
+    - Menyimpan detail dompet multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador només de Bitcoin amb pantalla gran i teclat complet.
+    - Desa els detalls de la cartera multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи только для Bitcoin с большим экраном и полноценной клавиатурой.
+    - Хранит данные multisig-кошелька на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач лише для Bitcoin з великим екраном і повною клавіатурою.
+    - Зберігає дані multisig-гаманця на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 仅支持比特币的签名设备，配有大屏幕和全键盘。
+    - 在设备上保存多签钱包信息。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - 大型画面とフルキーボードを備えた Bitcoin 専用署名デバイス。
+    - マルチシグウォレット情報をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 큰 화면과 전체 키보드를 갖춘 비트코인 전용 서명 장치.
+    - 멀티시그 지갑 정보를 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - बड़ी स्क्रीन और पूरे कीबोर्ड वाला केवल बिटकॉइन साइनर।
+    - मल्टीसिग वॉलेट का विवरण डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามเฉพาะ Bitcoin พร้อมหน้าจอขนาดใหญ่และแป้นพิมพ์เต็มรูปแบบ
+    - เก็บข้อมูลกระเป๋า multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع مخصص لبيتكوين فقط بشاشة كبيرة ولوحة مفاتيح كاملة.
+    - يخزن تفاصيل محفظة التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده مخصوص بیت‌کوین با نمایشگر بزرگ و صفحه‌کلید کامل.
+    - جزئیات کیف پول چندامضایی را روی دستگاه ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - မျက်နှာပြင်ကြီးပြီး ကီးဘုတ်အပြည့်ပါသော Bitcoin သီးသန့် signer ဖြစ်သည်။
+    - multisig wallet အချက်အလက်များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Large-screen Bitcoin-only signer with a full keyboard; stores multisig wallet
+      details on-device and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-q-thumb.webp
+  shop_url: https://store.coinkite.com/promo/8BFF877000C34A86F410
+  discount:
+    code: 8BFF877000C34A86F410
+    note:
+      en: Promo automatically applied at Coinkite.
+  features:
+    usb: true
+    qr: true
+    sd: true
+  bitcoin_only: true
+- id: coldcard-mk4
+  slug: coldcard-mk4
+  slugimage: coldcard
+  name:
+    en: Coldcard Mk4
+  summary_points:
+    en:
+    - Bitcoin-only signer with USB and microSD.
+    - Stores multisig wallet details on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma solo para Bitcoin con USB y microSD.
+    - Guarda los datos de la billetera multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire Bitcoin uniquement avec USB et microSD.
+    - Stocke les détails du portefeuille multisig sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Bitcoin-Only-Signer mit USB und microSD.
+    - Speichert Multisig-Wallet-Daten auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer solo Bitcoin con USB e microSD.
+    - Memorizza i dettagli del wallet multisig sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura apenas Bitcoin com USB e microSD.
+    - Guarda os dados da carteira multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz tylko do Bitcoina z USB i microSD.
+    - Przechowuje dane portfela multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - USB ve microSD içeren, sadece Bitcoin için imzalayıcı.
+    - Multisig cüzdan bilgilerini cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan khusus Bitcoin dengan USB dan microSD.
+    - Menyimpan detail dompet multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador només de Bitcoin amb USB i microSD.
+    - Desa els detalls de la cartera multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи только для Bitcoin с USB и microSD.
+    - Хранит данные multisig-кошелька на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач лише для Bitcoin з USB і microSD.
+    - Зберігає дані multisig-гаманця на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 仅支持比特币的签名设备，带 USB 和 microSD。
+    - 在设备上保存多签钱包信息。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - USB と microSD を備えた Bitcoin 専用署名デバイス。
+    - マルチシグウォレット情報をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - USB와 microSD를 갖춘 비트코인 전용 서명 장치.
+    - 멀티시그 지갑 정보를 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - USB और microSD वाला केवल बिटकॉइन साइनर।
+    - मल्टीसिग वॉलेट का विवरण डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามเฉพาะ Bitcoin พร้อม USB และ microSD
+    - เก็บข้อมูลกระเป๋า multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع مخصص لبيتكوين فقط مع USB وmicroSD.
+    - يخزن تفاصيل محفظة التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده مخصوص بیت‌کوین با USB و microSD.
+    - جزئیات کیف پول چندامضایی را روی دستگاه ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - USB နှင့် microSD ပါသော Bitcoin သီးသန့် signer ဖြစ်သည်။
+    - multisig wallet အချက်အလက်များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Bitcoin-only signer with USB and microSD; stores multisig wallet details on-device
+      and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk4-thumb.webp
+  shop_url: https://store.coinkite.com/promo/8BFF877000C34A86F410
+  discount:
+    code: 8BFF877000C34A86F410
+    note:
+      en: Promo automatically applied at Coinkite.
+  features:
+    usb: true
+    sd: true
+  bitcoin_only: true
+- id: coldcard-mk5
+  slug: coldcard-mk5
+  slugimage: coldcard
+  name:
+    en: Coldcard Mk5
+  summary_points:
+    en:
+    - Bitcoin-only signer with USB and microSD.
+    - Stores multisig wallet details on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma solo para Bitcoin con USB y microSD.
+    - Guarda los datos de la billetera multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire Bitcoin uniquement avec USB et microSD.
+    - Stocke les détails du portefeuille multisig sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Bitcoin-Only-Signer mit USB und microSD.
+    - Speichert Multisig-Wallet-Daten auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer solo Bitcoin con USB e microSD.
+    - Memorizza i dettagli del wallet multisig sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura apenas Bitcoin com USB e microSD.
+    - Guarda os dados da carteira multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz tylko do Bitcoina z USB i microSD.
+    - Przechowuje dane portfela multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - USB ve microSD içeren, sadece Bitcoin için imzalayıcı.
+    - Multisig cüzdan bilgilerini cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan khusus Bitcoin dengan USB dan microSD.
+    - Menyimpan detail dompet multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador només de Bitcoin amb USB i microSD.
+    - Desa els detalls de la cartera multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи только для Bitcoin с USB и microSD.
+    - Хранит данные multisig-кошелька на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач лише для Bitcoin з USB і microSD.
+    - Зберігає дані multisig-гаманця на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 仅支持比特币的签名设备，带 USB 和 microSD。
+    - 在设备上保存多签钱包信息。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - USB と microSD を備えた Bitcoin 専用署名デバイス。
+    - マルチシグウォレット情報をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - USB와 microSD를 갖춘 비트코인 전용 서명 장치.
+    - 멀티시그 지갑 정보를 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - USB और microSD वाला केवल बिटकॉइन साइनर।
+    - मल्टीसिग वॉलेट का विवरण डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามเฉพาะ Bitcoin พร้อม USB และ microSD
+    - เก็บข้อมูลกระเป๋า multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع مخصص لبيتكوين فقط مع USB وmicroSD.
+    - يخزن تفاصيل محفظة التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده مخصوص بیت‌کوین با USB و microSD.
+    - جزئیات کیف پول چندامضایی را روی دستگاه ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - USB နှင့် microSD ပါသော Bitcoin သီးသန့် signer ဖြစ်သည်။
+    - multisig wallet အချက်အလက်များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Bitcoin-only signer with USB and microSD; stores multisig wallet details on-device
+      and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp
+  shop_url: https://store.coinkite.com/promo/8BFF877000C34A86F410
+  discount:
+    code: 8BFF877000C34A86F410
+    note:
+      en: Promo automatically applied at Coinkite.
+  features:
+    usb: true
+    sd: true
+  bitcoin_only: true
+- id: bitbox02
+  slug: bitbox02
+  slugimage: bitbox02
+  name:
+    en: BitBox02 / BitBox02 Nova
+  summary_points:
+    en:
+    - Signer with touch sensors and microSD backups.
+    - Requires the BitBoxApp for setup and supports multisig account registration.
+    es:
+    - Dispositivo de firma con sensores táctiles y copias de seguridad en microSD.
+    - Requiere BitBoxApp para la configuración y admite el registro de cuentas multifirma.
+    fr:
+    - Signataire avec capteurs tactiles et sauvegardes sur microSD.
+    - Nécessite BitBoxApp pour la configuration et prend en charge l’enregistrement
+      des comptes multisig.
+    de:
+    - Signer mit Berührungssensoren und microSD-Backups.
+    - Benötigt die BitBoxApp für die Einrichtung und unterstützt die Registrierung
+      von Multisig-Konten.
+    it:
+    - Signer con sensori touch e backup su microSD.
+    - Richiede BitBoxApp per la configurazione e supporta la registrazione di account
+      multisig.
+    pt:
+    - Dispositivo de assinatura com sensores táteis e cópias de segurança em microSD.
+    - Requer a BitBoxApp para a configuração e suporta o registo de contas multisig.
+    pl:
+    - Podpisywacz z czujnikami dotykowymi i kopiami zapasowymi na microSD.
+    - Wymaga BitBoxApp do konfiguracji i obsługuje rejestrację kont multisig.
+    tr:
+    - Dokunmatik sensörlü ve microSD yedeklemeli imzalayıcı.
+    - Kurulum için BitBoxApp gerekir ve multisig hesap kaydını destekler.
+    id:
+    - Penanda tangan dengan sensor sentuh dan cadangan microSD.
+    - Memerlukan BitBoxApp untuk penyiapan dan mendukung pendaftaran akun multisig.
+    ca:
+    - Signador amb sensors tàctils i còpies de seguretat a microSD.
+    - Requereix BitBoxApp per a la configuració i admet el registre de comptes multifirma.
+    ru:
+    - Устройство подписи с сенсорными датчиками и резервными копиями на microSD.
+    - Для настройки требуется BitBoxApp, поддерживается регистрация multisig-аккаунтов.
+    uk:
+    - Підписувач із сенсорними датчиками та резервними копіями на microSD.
+    - Потребує BitBoxApp для налаштування та підтримує реєстрацію multisig-акаунтів.
+    zh:
+    - 带触摸传感器和 microSD 备份的签名设备。
+    - 需要 BitBoxApp 完成设置，并支持多签账户注册。
+    ja:
+    - タッチセンサーと microSD バックアップを備えた署名デバイス。
+    - 設定には BitBoxApp が必要で、マルチシグアカウントの登録に対応します。
+    ko:
+    - 터치 센서와 microSD 백업을 갖춘 서명 장치.
+    - 설정에는 BitBoxApp이 필요하며 멀티시그 계정 등록을 지원합니다.
+    hi:
+    - टच सेंसर और microSD बैकअप वाला साइनर।
+    - सेटअप के लिए BitBoxApp चाहिए और मल्टीसिग खाते के पंजीकरण का समर्थन करता है।
+    th:
+    - อุปกรณ์ลงนามพร้อมเซ็นเซอร์สัมผัสและการสำรองข้อมูลบน microSD
+    - ต้องใช้ BitBoxApp สำหรับการตั้งค่าและรองรับการลงทะเบียนบัญชี multisig
+    ar:
+    - جهاز توقيع مع حساسات لمس ونسخ احتياطية على microSD.
+    - يتطلب BitBoxApp للإعداد ويدعم تسجيل حسابات التوقيع المتعدد.
+    fa:
+    - امضاکننده با حسگرهای لمسی و نسخه پشتیبان microSD.
+    - برای راه‌اندازی به BitBoxApp نیاز دارد و از ثبت حساب چندامضایی پشتیبانی می‌کند.
+    my:
+    - touch sensor များနှင့် microSD backup များပါသော signer ဖြစ်သည်။
+    - setup အတွက် BitBoxApp လိုအပ်ပြီး multisig account registration ကို ထောက်ပံ့သည်။
+  summary:
+    en: Signer with touch sensors and microSD backups; requires the BitBoxApp for
+      setup and supports multisig account registration.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/bitbox02-multi-thumb.webp
+  shop_url: https://shop.bitbox.swiss/?ref=MOB4dk7gpm
+  features:
+    usb: true
+  bitcoin_only_available: true
+- id: passport
+  slug: passport
+  slugimage: passport
+  name:
+    en: Passport Core
+  summary_points:
+    en:
+    - Bitcoin-only camera signer with a physical keypad.
+    - Stores multisig wallet details on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma solo para Bitcoin con cámara y teclado físico.
+    - Guarda los datos de la billetera multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire Bitcoin uniquement avec caméra et clavier physique.
+    - Stocke les détails du portefeuille multisig sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Bitcoin-Only-Kamera-Signer mit physischer Tastatur.
+    - Speichert Multisig-Wallet-Daten auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer solo Bitcoin con fotocamera e tastierino fisico.
+    - Memorizza i dettagli del wallet multisig sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura apenas Bitcoin com câmara e teclado físico.
+    - Guarda os dados da carteira multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz tylko do Bitcoina z kamerą i fizyczną klawiaturą.
+    - Przechowuje dane portfela multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Kameralı ve fiziksel tuş takımlı, sadece Bitcoin için imzalayıcı.
+    - Multisig cüzdan bilgilerini cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan kamera khusus Bitcoin dengan keypad fisik.
+    - Menyimpan detail dompet multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador només de Bitcoin amb càmera i teclat físic.
+    - Desa els detalls de la cartera multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи только для Bitcoin с камерой и физической клавиатурой.
+    - Хранит данные multisig-кошелька на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач лише для Bitcoin з камерою та фізичною клавіатурою.
+    - Зберігає дані multisig-гаманця на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 仅支持比特币的相机签名设备，配有实体键盘。
+    - 在设备上保存多签钱包信息。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - カメラと物理キーパッドを備えた Bitcoin 専用署名デバイス。
+    - マルチシグウォレット情報をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 카메라와 물리 키패드를 갖춘 비트코인 전용 서명 장치.
+    - 멀티시그 지갑 정보를 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - कैमरा और भौतिक कीपैड वाला केवल बिटकॉइन साइनर।
+    - मल्टीसिग वॉलेट का विवरण डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามเฉพาะ Bitcoin พร้อมกล้องและแป้นพิมพ์จริง
+    - เก็บข้อมูลกระเป๋า multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع مخصص لبيتكوين فقط مع كاميرا ولوحة أزرار فعلية.
+    - يخزن تفاصيل محفظة التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده مخصوص بیت‌کوین با دوربین و صفحه‌کلید فیزیکی.
+    - جزئیات کیف پول چندامضایی را روی دستگاه ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - ကင်မရာနှင့် physical keypad ပါသော Bitcoin သီးသန့် signer ဖြစ်သည်။
+    - multisig wallet အချက်အလက်များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Bitcoin-only camera signer with a physical keypad; stores multisig wallet
+      details on-device and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp
+  shop_url: https://foundation.xyz/?ref=cbyqjjxumy
+  discount:
+    code: BITCOINSAFE
+    note:
+      en: $10 off with code at checkout.
+  features:
+    qr: true
+    sd: true
+  bitcoin_only: true
+- id: passport-prime
+  slug: passport-prime
+  name:
+    en: Passport Prime
+  summary_points:
+    en:
+    - Touchscreen Passport.
+    - Requires Envoy for initial setup only and stores multisig configs on-device.
+    es:
+    - Passport con pantalla táctil.
+    - Requiere Envoy solo para la configuración inicial y guarda configuraciones multifirma
+      en el dispositivo.
+    fr:
+    - Passport à écran tactile.
+    - Nécessite Envoy uniquement pour la configuration initiale et stocke les configurations
+      multisig sur l’appareil.
+    de:
+    - Passport mit Touchscreen.
+    - Benötigt Envoy nur für die Ersteinrichtung und speichert Multisig-Konfigurationen
+      auf dem Gerät.
+    it:
+    - Passport con touchscreen.
+    - Richiede Envoy solo per la configurazione iniziale e memorizza le configurazioni
+      multisig sul dispositivo.
+    pt:
+    - Passport com ecrã tátil.
+    - Requer o Envoy apenas para a configuração inicial e guarda configurações multisig
+      no dispositivo.
+    pl:
+    - Passport z ekranem dotykowym.
+    - Wymaga Envoy tylko do początkowej konfiguracji i przechowuje konfiguracje multisig
+      na urządzeniu.
+    tr:
+    - Dokunmatik ekranlı Passport.
+    - Yalnızca ilk kurulum için Envoy gerektirir ve multisig yapılandırmalarını cihazda
+      saklar.
+    id:
+    - Passport layar sentuh.
+    - Memerlukan Envoy hanya untuk penyiapan awal dan menyimpan konfigurasi multisig
+      di perangkat.
+    ca:
+    - Passport amb pantalla tàctil.
+    - Requereix Envoy només per a la configuració inicial i desa configuracions multifirma
+      al dispositiu.
+    ru:
+    - Passport с сенсорным экраном.
+    - Требует Envoy только для первоначальной настройки и хранит multisig-конфигурации
+      на устройстве.
+    uk:
+    - Passport із сенсорним екраном.
+    - Потребує Envoy лише для початкового налаштування та зберігає multisig-конфігурації
+      на пристрої.
+    zh:
+    - 带触摸屏的 Passport。
+    - 仅初始设置需要 Envoy，并在设备上保存多签配置。
+    ja:
+    - タッチスクリーン搭載の Passport。
+    - 初期設定にのみ Envoy が必要で、マルチシグ設定をデバイス上に保存します。
+    ko:
+    - 터치스크린 Passport.
+    - 초기 설정에만 Envoy가 필요하며 멀티시그 구성을 장치에 저장합니다.
+    hi:
+    - टचस्क्रीन Passport।
+    - केवल शुरुआती सेटअप के लिए Envoy चाहिए और मल्टीसिग कॉन्फ़िगरेशन डिवाइस पर संग्रहीत
+      करता है।
+    th:
+    - Passport แบบหน้าจอสัมผัส
+    - ต้องใช้ Envoy เฉพาะการตั้งค่าเริ่มต้นและเก็บค่ากำหนด multisig ไว้บนอุปกรณ์
+    ar:
+    - Passport بشاشة لمس.
+    - يتطلب Envoy للإعداد الأولي فقط ويخزن إعدادات التوقيع المتعدد على الجهاز.
+    fa:
+    - Passport با نمایشگر لمسی.
+    - فقط برای راه‌اندازی اولیه به Envoy نیاز دارد و تنظیمات چندامضایی را روی دستگاه
+      ذخیره می‌کند.
+    my:
+    - touchscreen ပါသော Passport ဖြစ်သည်။
+    - စတင် setup အတွက်သာ Envoy လိုအပ်ပြီး multisig config များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+  summary:
+    en: Touchscreen Passport; requires Envoy for initial setup only and stores multisig
+      configs on-device.
+  image: https://thebitcoinhole.com/img/item-types/hardware-wallets/passport-prime.webp
+  shop_url: https://foundation.xyz/?ref=cbyqjjxumy
+  features:
+    qr: true
+  bitcoin_only: true
+- id: jade
+  slug: jade
+  slugimage: jade
+  name:
+    en: Jade
+  summary_points:
+    en:
+    - Bitcoin-only signer with a camera and battery.
+    - Can also be used stateless and stores multisig configs on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma solo para Bitcoin con cámara y batería.
+    - También puede usarse sin estado y guarda configuraciones multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire Bitcoin uniquement avec caméra et batterie.
+    - Peut aussi être utilisé sans état et stocke les configurations multisig sur
+      l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Bitcoin-Only-Signer mit Kamera und Akku.
+    - Kann auch zustandslos verwendet werden und speichert Multisig-Konfigurationen
+      auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer solo Bitcoin con fotocamera e batteria.
+    - Può essere usato anche senza stato e memorizza le configurazioni multisig sul
+      dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura apenas Bitcoin com câmara e bateria.
+    - Também pode ser usado sem estado e guarda configurações multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz tylko do Bitcoina z kamerą i baterią.
+    - Może być używany także bezstanowo i przechowuje konfiguracje multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Kameralı ve bataryalı, sadece Bitcoin için imzalayıcı.
+    - Durumsuz olarak da kullanılabilir ve multisig yapılandırmalarını cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan khusus Bitcoin dengan kamera dan baterai.
+    - Juga dapat digunakan tanpa status dan menyimpan konfigurasi multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador només de Bitcoin amb càmera i bateria.
+    - També es pot utilitzar sense estat i desa configuracions multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи только для Bitcoin с камерой и батареей.
+    - Может использоваться без состояния и хранит multisig-конфигурации на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач лише для Bitcoin з камерою та батареєю.
+    - Також може використовуватися без стану та зберігає multisig-конфігурації на
+      пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 仅支持比特币的签名设备，配有相机和电池。
+    - 也可无状态使用，并在设备上保存多签配置。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - カメラとバッテリーを備えた Bitcoin 専用署名デバイス。
+    - ステートレスでも使え、マルチシグ設定をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 카메라와 배터리를 갖춘 비트코인 전용 서명 장치.
+    - 상태 없이도 사용할 수 있으며 멀티시그 구성을 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - कैमरा और बैटरी वाला केवल बिटकॉइन साइनर।
+    - इसे स्टेटलेस रूप में भी इस्तेमाल किया जा सकता है और यह मल्टीसिग कॉन्फ़िगरेशन
+      डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามเฉพาะ Bitcoin พร้อมกล้องและแบตเตอรี่
+    - ใช้งานแบบ stateless ได้และเก็บค่ากำหนด multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع مخصص لبيتكوين فقط مع كاميرا وبطارية.
+    - يمكن استخدامه أيضًا دون حالة ويخزن إعدادات التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده مخصوص بیت‌کوین با دوربین و باتری.
+    - به‌صورت بدون‌حالت هم قابل استفاده است و تنظیمات چندامضایی را روی دستگاه ذخیره
+      می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - ကင်မရာနှင့် battery ပါသော Bitcoin သီးသန့် signer ဖြစ်သည်။
+    - stateless အဖြစ်လည်း သုံးနိုင်ပြီး multisig config များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Bitcoin-only signer with a camera and battery; can also be used stateless,
+      stores multisig configs on-device, and works with Bitcoin Safe without a vendor
+      app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-thumb.webp
+  shop_url: https://rewards.blockstream.com/885who
+  discount:
+    code: 885WHO
+    note:
+      en: 10% off at Blockstream Store.
+  features:
+    usb: true
+    qr: true
+    bluetooth: true
+  bitcoin_only: true
+- id: jade-plus
+  slug: jade-plus
+  slugimage: jade
+  name:
+    en: Jade Plus
+  summary_points:
+    en:
+    - Signer with a larger screen, camera, and microSD support.
+    - Stores multisig wallet details on-device.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma con pantalla más grande, cámara y soporte para microSD.
+    - Guarda los datos de la billetera multifirma en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire avec écran plus grand, caméra et prise en charge microSD.
+    - Stocke les détails du portefeuille multisig sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Signer mit größerem Bildschirm, Kamera und microSD-Unterstützung.
+    - Speichert Multisig-Wallet-Daten auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer con schermo più grande, fotocamera e supporto microSD.
+    - Memorizza i dettagli del wallet multisig sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura com ecrã maior, câmara e suporte para microSD.
+    - Guarda os dados da carteira multisig no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz z większym ekranem, kamerą i obsługą microSD.
+    - Przechowuje dane portfela multisig na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Daha büyük ekranlı, kameralı ve microSD destekli imzalayıcı.
+    - Multisig cüzdan bilgilerini cihazda saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan dengan layar lebih besar, kamera, dan dukungan microSD.
+    - Menyimpan detail dompet multisig di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador amb pantalla més gran, càmera i suport per a microSD.
+    - Desa els detalls de la cartera multifirma al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Устройство подписи с большим экраном, камерой и поддержкой microSD.
+    - Хранит данные multisig-кошелька на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Підписувач із більшим екраном, камерою та підтримкою microSD.
+    - Зберігає дані multisig-гаманця на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 签名设备配有更大屏幕、相机，并支持 microSD。
+    - 在设备上保存多签钱包信息。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - 大きめの画面、カメラ、microSD 対応を備えた署名デバイス。
+    - マルチシグウォレット情報をデバイス上に保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 더 큰 화면, 카메라, microSD 지원을 갖춘 서명 장치.
+    - 멀티시그 지갑 정보를 장치에 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - बड़ी स्क्रीन, कैमरा और microSD समर्थन वाला साइनर।
+    - मल्टीसिग वॉलेट का विवरण डिवाइस पर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามพร้อมหน้าจอใหญ่ขึ้น กล้อง และรองรับ microSD
+    - เก็บข้อมูลกระเป๋า multisig ไว้บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع بشاشة أكبر وكاميرا ودعم microSD.
+    - يخزن تفاصيل محفظة التوقيع المتعدد على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده با نمایشگر بزرگ‌تر، دوربین و پشتیبانی از microSD.
+    - جزئیات کیف پول چندامضایی را روی دستگاه ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - မျက်နှာပြင်ပိုကြီးပြီး ကင်မရာနှင့် microSD support ပါသော signer ဖြစ်သည်။
+    - multisig wallet အချက်အလက်များကို စက်ပေါ်တွင် သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Signer with a larger screen, camera, and microSD support; stores multisig
+      wallet details on-device and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/jade-plus-metal-thumb.webp
+  shop_url: https://rewards.blockstream.com/885who
+  discount:
+    code: 885WHO
+    note:
+      en: 10% off at Blockstream Store.
+  features:
+    usb: true
+    qr: true
+    sd: true
+    bluetooth: true
+  bitcoin_only: true
+- id: trezor
+  slug: trezor
+  slugimage: trezor
+  name:
+    en: Trezor Safe 3 & 5
+  summary_points:
+    en:
+    - USB signer.
+    - Safe 5 adds a touchscreen, while Safe 3 keeps a button-based interface.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma por USB.
+    - Safe 5 añade pantalla táctil, mientras que Safe 3 mantiene una interfaz con
+      botones.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire USB.
+    - Safe 5 ajoute un écran tactile, tandis que Safe 3 conserve une interface à boutons.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - USB-Signer.
+    - Safe 5 bietet einen Touchscreen, während Safe 3 eine Tastenoberfläche beibehält.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer USB.
+    - Safe 5 aggiunge un touchscreen, mentre Safe 3 mantiene un’interfaccia a pulsanti.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura USB.
+    - O Safe 5 adiciona um ecrã tátil, enquanto o Safe 3 mantém uma interface com
+      botões.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz USB.
+    - Safe 5 dodaje ekran dotykowy, a Safe 3 zachowuje interfejs oparty na przyciskach.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - USB imzalayıcı.
+    - Safe 5 dokunmatik ekran eklerken Safe 3 düğmeli arayüzü korur.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan USB.
+    - Safe 5 menambahkan layar sentuh, sedangkan Safe 3 tetap menggunakan antarmuka
+      tombol.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador USB.
+    - Safe 5 afegeix pantalla tàctil, mentre que Safe 3 manté una interfície amb botons.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - USB-устройство подписи.
+    - Safe 5 добавляет сенсорный экран, а Safe 3 сохраняет интерфейс с кнопками.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - USB-підписувач.
+    - Safe 5 додає сенсорний екран, а Safe 3 зберігає інтерфейс на кнопках.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - USB 签名设备。
+    - Safe 5 增加了触摸屏，而 Safe 3 保留按键式界面。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - USB 署名デバイス。
+    - Safe 5 はタッチスクリーンを追加し、Safe 3 はボタン操作のインターフェースを維持します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - USB 서명 장치.
+    - Safe 5는 터치스크린을 추가했고, Safe 3는 버튼 기반 인터페이스를 유지합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - USB साइनर।
+    - Safe 5 में टचस्क्रीन है, जबकि Safe 3 में बटन आधारित इंटरफ़ेस बना रहता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามผ่าน USB
+    - Safe 5 เพิ่มหน้าจอสัมผัส ขณะที่ Safe 3 ยังคงใช้อินเทอร์เฟซแบบปุ่ม
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع عبر USB.
+    - يضيف Safe 5 شاشة لمس، بينما يحافظ Safe 3 على واجهة تعتمد على الأزرار.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده USB.
+    - Safe 5 نمایشگر لمسی اضافه می‌کند، در حالی که Safe 3 رابط دکمه‌ای را حفظ می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - USB signer ဖြစ်သည်။
+    - Safe 5 တွင် touchscreen ပါရှိပြီး Safe 3 သည် button-based interface ကို ဆက်လက်ထိန်းသိမ်းထားသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: USB signer; Safe 5 adds a touchscreen, while Safe 3 keeps a button-based interface,
+      and it works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-5-btconly-thumb.webp
+  shop_url: https://affil.trezor.io/SHtN
+  features:
+    usb: true
+  bitcoin_only_available: true
+- id: trezor-safe-7
+  slug: trezor-safe-7
+  slugimage: trezor
+  name:
+    en: Trezor Safe 7
+  summary_points:
+    en:
+    - Trezor touchscreen model.
+    - USB signer.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Modelo Trezor con pantalla táctil.
+    - Dispositivo de firma por USB.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Modèle Trezor à écran tactile.
+    - Signataire USB.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Trezor-Modell mit Touchscreen.
+    - USB-Signer.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Modello Trezor con touchscreen.
+    - Signer USB.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Modelo Trezor com ecrã tátil.
+    - Dispositivo de assinatura USB.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Model Trezor z ekranem dotykowym.
+    - Podpisywacz USB.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Dokunmatik ekranlı Trezor modeli.
+    - USB imzalayıcı.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Model Trezor layar sentuh.
+    - Penanda tangan USB.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Model Trezor amb pantalla tàctil.
+    - Signador USB.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Модель Trezor с сенсорным экраном.
+    - USB-устройство подписи.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Модель Trezor із сенсорним екраном.
+    - USB-підписувач.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 带触摸屏的 Trezor 型号。
+    - USB 签名设备。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - タッチスクリーン搭載の Trezor モデル。
+    - USB 署名デバイス。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 터치스크린 Trezor 모델.
+    - USB 서명 장치.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - टचस्क्रीन वाला Trezor मॉडल।
+    - USB साइनर।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - รุ่น Trezor แบบหน้าจอสัมผัส
+    - อุปกรณ์ลงนามผ่าน USB
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - طراز Trezor بشاشة لمس.
+    - جهاز توقيع عبر USB.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - مدل Trezor با نمایشگر لمسی.
+    - امضاکننده USB.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - touchscreen ပါသော Trezor model ဖြစ်သည်။
+    - USB signer ဖြစ်သည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Trezor touchscreen model; USB signer that works with Bitcoin Safe without
+      a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/trezor-safe-7-btconly-thumb.webp
+  shop_url: https://affil.trezor.io/SH13X
+  features:
+    usb: true
+  bitcoin_only_available: true
+- id: keystone
+  slug: keystone
+  slugimage: keystone
+  name:
+    en: Keystone
+  summary_points:
+    en:
+    - Air-gapped signer with a touchscreen, camera, and fingerprint unlock.
+    - Imports multisig wallets for on-device address verification.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma aislado con pantalla táctil, cámara y desbloqueo por huella.
+    - Importa billeteras multifirma para verificar direcciones en el dispositivo.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire isolé avec écran tactile, caméra et déverrouillage par empreinte.
+    - Importe des portefeuilles multisig pour la vérification des adresses sur l’appareil.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Air-Gap-Signer mit Touchscreen, Kamera und Fingerabdruck-Entsperrung.
+    - Importiert Multisig-Wallets zur Adressprüfung auf dem Gerät.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer air-gapped con touchscreen, fotocamera e sblocco con impronta.
+    - Importa wallet multisig per la verifica degli indirizzi sul dispositivo.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura isolado com ecrã tátil, câmara e desbloqueio por impressão
+      digital.
+    - Importa carteiras multisig para verificação de endereços no dispositivo.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz air-gapped z ekranem dotykowym, kamerą i odblokowaniem odciskiem
+      palca.
+    - Importuje portfele multisig do weryfikacji adresów na urządzeniu.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Dokunmatik ekranlı, kameralı ve parmak izi kilit açmalı air-gapped imzalayıcı.
+    - Cihaz üzerinde adres doğrulaması için multisig cüzdanları içe aktarır.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan air-gapped dengan layar sentuh, kamera, dan pembuka sidik jari.
+    - Mengimpor dompet multisig untuk verifikasi alamat di perangkat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador aïllat amb pantalla tàctil, càmera i desbloqueig per empremta digital.
+    - Importa carteres multifirma per verificar adreces al dispositiu.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - Изолированное устройство подписи с сенсорным экраном, камерой и разблокировкой
+      по отпечатку пальца.
+    - Импортирует multisig-кошельки для проверки адресов на устройстве.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - Ізольований підписувач із сенсорним екраном, камерою та розблокуванням відбитком
+      пальця.
+    - Імпортує multisig-гаманці для перевірки адрес на пристрої.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 隔离式签名设备，配有触摸屏、相机和指纹解锁。
+    - 导入多签钱包以便在设备上验证地址。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - タッチスクリーン、カメラ、指紋ロック解除を備えたエアギャップ署名デバイス。
+    - デバイス上でのアドレス検証用にマルチシグウォレットをインポートします。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 터치스크린, 카메라, 지문 잠금 해제를 갖춘 에어갭 서명 장치.
+    - 장치에서 주소를 확인하기 위해 멀티시그 지갑을 가져옵니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - टचस्क्रीन, कैमरा और फिंगरप्रिंट अनलॉक वाला एयर-गैप्ड साइनर।
+    - डिवाइस पर पते की पुष्टि के लिए मल्टीसिग वॉलेट आयात करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนามแบบ air-gapped พร้อมหน้าจอสัมผัส กล้อง และปลดล็อกด้วยลายนิ้วมือ
+    - นำเข้ากระเป๋า multisig เพื่อยืนยันที่อยู่บนอุปกรณ์
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع معزول بشاشة لمس وكاميرا وفتح ببصمة الإصبع.
+    - يستورد محافظ التوقيع المتعدد للتحقق من العناوين على الجهاز.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده ایزوله با نمایشگر لمسی، دوربین و بازکردن با اثر انگشت.
+    - کیف پول‌های چندامضایی را برای تأیید آدرس روی دستگاه وارد می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - touchscreen၊ ကင်မရာနှင့် fingerprint unlock ပါသော air-gapped signer ဖြစ်သည်။
+    - စက်ပေါ်တွင် address verification လုပ်ရန် multisig wallet များကို import လုပ်သည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Air-gapped signer with a touchscreen, camera, and fingerprint unlock; imports
+      multisig wallets for on-device address verification and works with Bitcoin Safe
+      without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keystone-3-pro-thumb.webp
+  shop_url: https://keyst.one/btc-only?rfsn=8630473.c25550a&utm_source=refersion&utm_medium=affiliate&utm_campaign=8630473.c25550a
+  features:
+    qr: true
+    sd: true
+  bitcoin_only_available: true
+- id: ledger
+  slug: ledger
+  slugimage: ledger
+  name:
+    en: Ledger Nano S / S Plus / X / Flex
+  summary_points:
+    en:
+    - USB signer.
+    - Ledger Live is needed for setup.
+    - The Bitcoin app must be installed on the device.
+    es:
+    - Dispositivo de firma por USB.
+    - Ledger Live es necesario para la configuración.
+    - La app de Bitcoin debe estar instalada en el dispositivo.
+    fr:
+    - Signataire USB.
+    - Ledger Live est nécessaire pour la configuration.
+    - L’application Bitcoin doit être installée sur l’appareil.
+    de:
+    - USB-Signer.
+    - Ledger Live wird für die Einrichtung benötigt.
+    - Die Bitcoin-App muss auf dem Gerät installiert sein.
+    it:
+    - Signer USB.
+    - Ledger Live è necessario per la configurazione.
+    - L’app Bitcoin deve essere installata sul dispositivo.
+    pt:
+    - Dispositivo de assinatura USB.
+    - O Ledger Live é necessário para a configuração.
+    - A aplicação Bitcoin deve estar instalada no dispositivo.
+    pl:
+    - Podpisywacz USB.
+    - Ledger Live jest wymagany do konfiguracji.
+    - Aplikacja Bitcoin musi być zainstalowana na urządzeniu.
+    tr:
+    - USB imzalayıcı.
+    - Kurulum için Ledger Live gerekir.
+    - Bitcoin uygulaması cihazda kurulu olmalıdır.
+    id:
+    - Penanda tangan USB.
+    - Ledger Live diperlukan untuk penyiapan.
+    - Aplikasi Bitcoin harus dipasang di perangkat.
+    ca:
+    - Signador USB.
+    - Ledger Live és necessari per a la configuració.
+    - L’aplicació Bitcoin ha d’estar instal·lada al dispositiu.
+    ru:
+    - USB-устройство подписи.
+    - Для настройки нужен Ledger Live.
+    - Приложение Bitcoin должно быть установлено на устройстве.
+    uk:
+    - USB-підписувач.
+    - Для налаштування потрібен Ledger Live.
+    - Застосунок Bitcoin має бути встановлений на пристрої.
+    zh:
+    - USB 签名设备。
+    - 设置时需要 Ledger Live。
+    - 设备上必须安装 Bitcoin 应用。
+    ja:
+    - USB 署名デバイス。
+    - 設定には Ledger Live が必要です。
+    - デバイスに Bitcoin アプリをインストールする必要があります。
+    ko:
+    - USB 서명 장치.
+    - 설정에는 Ledger Live가 필요합니다.
+    - Bitcoin 앱이 장치에 설치되어 있어야 합니다.
+    hi:
+    - USB साइनर।
+    - सेटअप के लिए Ledger Live चाहिए।
+    - Bitcoin ऐप डिवाइस पर स्थापित होना चाहिए।
+    th:
+    - อุปกรณ์ลงนามผ่าน USB
+    - ต้องใช้ Ledger Live สำหรับการตั้งค่า
+    - ต้องติดตั้งแอป Bitcoin บนอุปกรณ์
+    ar:
+    - جهاز توقيع عبر USB.
+    - يلزم Ledger Live للإعداد.
+    - يجب تثبيت تطبيق Bitcoin على الجهاز.
+    fa:
+    - امضاکننده USB.
+    - برای راه‌اندازی به Ledger Live نیاز است.
+    - برنامه Bitcoin باید روی دستگاه نصب شود.
+    my:
+    - USB signer ဖြစ်သည်။
+    - setup အတွက် Ledger Live လိုအပ်သည်။
+    - Bitcoin app ကို စက်ပေါ်တွင် install လုပ်ထားရမည်။
+  summary:
+    en: USB signer; Ledger Live is needed for setup, the Bitcoin app must be installed
+      on the device, and multisig wallet details are not stored on-device.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/ledger-nano-x-thumb.webp
+  shop_url: https://shop.ledger.com/?r=400f1fff75b5
+  features:
+    usb: true
+- id: specter
+  slug: specter
+  slugimage: specterdiy
+  name:
+    en: Specter DIY / Shield / Shield Lite
+  summary_points:
+    en:
+    - Open-source DIY signer.
+    - Stores wallet descriptors for multisig address verification.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma DIY de código abierto.
+    - Guarda descriptores de billetera para verificar direcciones multifirma.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire DIY open source.
+    - Stocke les descripteurs de portefeuille pour la vérification des adresses multisig.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Open-Source-DIY-Signer.
+    - Speichert Wallet-Deskriptoren zur Prüfung von Multisig-Adressen.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer DIY open source.
+    - Memorizza i descrittori del wallet per la verifica degli indirizzi multisig.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura DIY de código aberto.
+    - Guarda descritores de carteira para verificação de endereços multisig.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz DIY o otwartym kodzie źródłowym.
+    - Przechowuje deskryptory portfela do weryfikacji adresów multisig.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Açık kaynaklı DIY imzalayıcı.
+    - Multisig adres doğrulaması için cüzdan tanımlayıcılarını saklar.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan DIY sumber terbuka.
+    - Menyimpan deskriptor dompet untuk verifikasi alamat multisig.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador DIY de codi obert.
+    - Desa descriptors de cartera per verificar adreces multifirma.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - DIY-устройство подписи с открытым исходным кодом.
+    - Хранит дескрипторы кошелька для проверки multisig-адресов.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - DIY-підписувач із відкритим кодом.
+    - Зберігає дескриптори гаманця для перевірки multisig-адрес.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 开源 DIY 签名设备。
+    - 保存钱包描述符以验证多签地址。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - オープンソースの DIY 署名デバイス。
+    - マルチシグアドレス確認用のウォレット記述子を保存します。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 오픈소스 DIY 서명 장치.
+    - 멀티시그 주소 확인을 위한 지갑 디스크립터를 저장합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - ओपन-सोर्स DIY साइनर।
+    - मल्टीसिग पते की पुष्टि के लिए वॉलेट डिस्क्रिप्टर संग्रहीत करता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนาม DIY แบบโอเพนซอร์ส
+    - เก็บ wallet descriptor สำหรับยืนยันที่อยู่ multisig
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع DIY مفتوح المصدر.
+    - يخزن أوصاف المحافظ للتحقق من عناوين التوقيع المتعدد.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده DIY متن‌باز.
+    - توصیف‌گرهای کیف پول را برای تأیید آدرس چندامضایی ذخیره می‌کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - open-source DIY signer ဖြစ်သည်။
+    - multisig address verification အတွက် wallet descriptor များကို သိမ်းဆည်းသည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Open-source DIY signer; stores wallet descriptors for multisig address verification
+      and works with Bitcoin Safe without a vendor app.
+  image: /en/knowledge/supported-hardware-signers/specter-diy.png
+  shop_url: https://clavastack.com/en/?coupon=bitcoin-safe
+  discount:
+    code: bitcoin-safe
+    note:
+      en: 5% off with coupon.
+  features:
+    qr: true
+    sd: true
+  bitcoin_only: true
+- id: seedsigner
+  slug: seedsigner
+  slugimage: seedsigner
+  name:
+    en: SeedSigner
+  summary_points:
+    en:
+    - Stateless DIY signer with QR workflows.
+    - Wallet descriptors must be loaded when needed.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma DIY sin estado con flujos QR.
+    - Los descriptores de billetera deben cargarse cuando se necesiten.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire DIY sans état avec flux QR.
+    - Les descripteurs de portefeuille doivent être chargés lorsque nécessaire.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - Zustandsloser DIY-Signer mit QR-Abläufen.
+    - Wallet-Deskriptoren müssen bei Bedarf geladen werden.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer DIY senza stato con flussi QR.
+    - I descrittori del wallet devono essere caricati quando servono.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura DIY sem estado com fluxos QR.
+    - Os descritores de carteira devem ser carregados quando necessário.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Bezstanowy podpisywacz DIY z przepływami QR.
+    - Deskryptory portfela muszą być ładowane, gdy są potrzebne.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - QR iş akışlarına sahip durumsuz DIY imzalayıcı.
+    - Gerektiğinde cüzdan tanımlayıcıları yüklenmelidir.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan DIY tanpa status dengan alur QR.
+    - Deskriptor dompet harus dimuat saat diperlukan.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador DIY sense estat amb fluxos QR.
+    - Els descriptors de cartera s’han de carregar quan calgui.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - DIY-устройство подписи без состояния с QR-потоками.
+    - Дескрипторы кошелька нужно загружать по мере необходимости.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - DIY-підписувач без стану з QR-процесами.
+    - Дескриптори гаманця потрібно завантажувати за потреби.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 支持二维码流程的无状态 DIY 签名设备。
+    - 需要时必须加载钱包描述符。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - QR ワークフロー対応のステートレス DIY 署名デバイス。
+    - 必要なときにウォレット記述子を読み込む必要があります。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - QR 워크플로를 지원하는 상태 없는 DIY 서명 장치.
+    - 필요할 때 지갑 디스크립터를 불러와야 합니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - QR वर्कफ़्लो वाला स्टेटलेस DIY साइनर।
+    - ज़रूरत पड़ने पर वॉलेट डिस्क्रिप्टर लोड करने होंगे।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนาม DIY แบบ stateless พร้อมขั้นตอนการทำงานผ่าน QR
+    - ต้องโหลด wallet descriptor เมื่อจำเป็น
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع DIY عديم الحالة مع تدفقات عمل QR.
+    - يجب تحميل أوصاف المحافظ عند الحاجة.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده DIY بدون‌حالت با روندهای QR.
+    - توصیف‌گرهای کیف پول باید هنگام نیاز بارگذاری شوند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - QR workflow များပါသော stateless DIY signer ဖြစ်သည်။
+    - wallet descriptor များကို လိုအပ်သည့်အခါ load လုပ်ရမည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: Stateless DIY signer with QR workflows; wallet descriptors must be loaded
+      when needed, and it works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/seedsigner-thumb.webp
+  shop_url: https://seedsigner.com/
+  features:
+    qr: true
+    sd: true
+  bitcoin_only: true
+- id: krux
+  slug: krux
+  slugimage: krux
+  name:
+    en: Krux
+  summary_points:
+    en:
+    - DIY signer for off-the-shelf hardware.
+    - Can register and save multisig quorums for address verification.
+    - Works with Bitcoin Safe without a vendor app.
+    es:
+    - Dispositivo de firma DIY para hardware disponible comercialmente.
+    - Puede registrar y guardar quórums multifirma para verificar direcciones.
+    - Funciona con Bitcoin Safe sin una app del fabricante.
+    fr:
+    - Signataire DIY pour matériel du commerce.
+    - Peut enregistrer et sauvegarder des quorums multisig pour la vérification des
+      adresses.
+    - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    de:
+    - DIY-Signer für handelsübliche Hardware.
+    - Kann Multisig-Quoren zur Adressprüfung registrieren und speichern.
+    - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    it:
+    - Signer DIY per hardware facilmente reperibile.
+    - Può registrare e salvare quorum multisig per la verifica degli indirizzi.
+    - Funziona con Bitcoin Safe senza un’app del produttore.
+    pt:
+    - Dispositivo de assinatura DIY para hardware disponível no mercado.
+    - Pode registar e guardar quóruns multisig para verificação de endereços.
+    - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    pl:
+    - Podpisywacz DIY dla łatwo dostępnego sprzętu.
+    - Może rejestrować i zapisywać kworum multisig do weryfikacji adresów.
+    - Działa z Bitcoin Safe bez aplikacji producenta.
+    tr:
+    - Hazır donanım için DIY imzalayıcı.
+    - Adres doğrulaması için multisig kvorumlarını kaydedebilir ve saklayabilir.
+    - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    id:
+    - Penanda tangan DIY untuk perangkat keras siap pakai.
+    - Dapat mendaftarkan dan menyimpan kuorum multisig untuk verifikasi alamat.
+    - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    ca:
+    - Signador DIY per a maquinari comercial.
+    - Pot registrar i desar quòrums multifirma per verificar adreces.
+    - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    ru:
+    - DIY-устройство подписи для готового оборудования.
+    - Может регистрировать и сохранять multisig-кворумы для проверки адресов.
+    - Работает с Bitcoin Safe без приложения производителя.
+    uk:
+    - DIY-підписувач для готового обладнання.
+    - Може реєструвати й зберігати multisig-кворуми для перевірки адрес.
+    - Працює з Bitcoin Safe без застосунку виробника.
+    zh:
+    - 适用于现成硬件的 DIY 签名设备。
+    - 可注册并保存多签法定人数配置以验证地址。
+    - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    ja:
+    - 市販ハードウェア向けの DIY 署名デバイス。
+    - アドレス確認用にマルチシグ定足数を登録して保存できます。
+    - ベンダーアプリなしで Bitcoin Safe と使えます。
+    ko:
+    - 기성 하드웨어용 DIY 서명 장치.
+    - 주소 확인을 위해 멀티시그 정족수를 등록하고 저장할 수 있습니다.
+    - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    hi:
+    - तैयार हार्डवेयर के लिए DIY साइनर।
+    - पते की पुष्टि के लिए मल्टीसिग कोरम दर्ज और सहेज सकता है।
+    - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    th:
+    - อุปกรณ์ลงนาม DIY สำหรับฮาร์ดแวร์สำเร็จรูป
+    - สามารถลงทะเบียนและบันทึก quorum ของ multisig เพื่อยืนยันที่อยู่
+    - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    ar:
+    - جهاز توقيع DIY للأجهزة الجاهزة.
+    - يمكنه تسجيل وحفظ نصاب التوقيع المتعدد للتحقق من العناوين.
+    - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    fa:
+    - امضاکننده DIY برای سخت‌افزار آماده.
+    - می‌تواند نصاب‌های چندامضایی را برای تأیید آدرس ثبت و ذخیره کند.
+    - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    my:
+    - ready-made hardware အတွက် DIY signer ဖြစ်သည်။
+    - address verification အတွက် multisig quorum များကို register လုပ်ပြီး သိမ်းဆည်းနိုင်သည်။
+    - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+  summary:
+    en: DIY signer for off-the-shelf hardware; can register and save multisig quorums
+      for address verification and works with Bitcoin Safe without a vendor app.
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/krux-thumb.webp
+  shop_url: https://selfcustody.github.io/krux/
+  features:
+    qr: true
+    sd: true
+  bitcoin_only: true

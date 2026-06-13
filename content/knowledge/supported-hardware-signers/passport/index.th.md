@@ -1,7 +1,7 @@
 ---
 aliases:
 - /th/knowledge/supported-hardware-signers/passport/
-title: Foundation Passport Core
+title: Passport Core
 signer: passport
 ---
 
