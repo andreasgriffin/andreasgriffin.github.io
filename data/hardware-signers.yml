@@ -466,15 +466,15 @@ signers:
   image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/passport-batch-2-thumb.webp
   shop_url: https://foundation.xyz/?ref=cbyqjjxumy
   discount:
-    code: BITCOINSAFE
-    note:
-      en: $10 off with code at checkout.
+    code: RTPSMJIP
   features:
     qr: true
     sd: true
   bitcoin_only: true
 - id: passport-prime
   slug: passport-prime
+  discount:
+    code: RTPSMJIP
   name:
     en: Passport Prime
   summary_points:
