@@ -774,88 +774,101 @@ signers:
     en: Trezor Safe 3 & 5
   summary_points:
     en:
-    - USB signer.
     - Safe 5 adds a touchscreen, while Safe 3 keeps a button-based interface.
     - Works with Bitcoin Safe without a vendor app.
+    - No multisig quorum storage, so it cannot validate multisig change addresses.
     es:
-    - Dispositivo de firma por USB.
     - Safe 5 añade pantalla táctil, mientras que Safe 3 mantiene una interfaz con
       botones.
     - Funciona con Bitcoin Safe sin una app del fabricante.
+    - Sin almacenamiento de quórums multifirma, por lo que no puede validar direcciones
+      de cambio multifirma.
     fr:
-    - Signataire USB.
     - Safe 5 ajoute un écran tactile, tandis que Safe 3 conserve une interface à boutons.
     - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    - Pas de stockage des quorums multisig, il ne peut donc pas valider les adresses
+      de change multisig.
     de:
-    - USB-Signer.
     - Safe 5 bietet einen Touchscreen, während Safe 3 eine Tastenoberfläche beibehält.
     - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    - Keine Speicherung von Multisig-Quoren, daher keine Validierung von
+      Multisig-Wechseladressen.
     it:
-    - Signer USB.
     - Safe 5 aggiunge un touchscreen, mentre Safe 3 mantiene un’interfaccia a pulsanti.
     - Funziona con Bitcoin Safe senza un’app del produttore.
+    - Nessuna memorizzazione dei quorum multisig, quindi nessuna convalida degli
+      indirizzi di resto multisig.
     pt:
-    - Dispositivo de assinatura USB.
     - O Safe 5 adiciona um ecrã tátil, enquanto o Safe 3 mantém uma interface com
       botões.
     - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    - Sem armazenamento de quóruns multisig, por isso não consegue validar endereços
+      de troco multisig.
     pl:
-    - Podpisywacz USB.
     - Safe 5 dodaje ekran dotykowy, a Safe 3 zachowuje interfejs oparty na przyciskach.
     - Działa z Bitcoin Safe bez aplikacji producenta.
+    - Bez przechowywania kworów multisig, więc nie może weryfikować adresów zmiany
+      multisig.
     tr:
-    - USB imzalayıcı.
     - Safe 5 dokunmatik ekran eklerken Safe 3 düğmeli arayüzü korur.
     - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    - Multisig quorum'ları saklanmaz, bu yüzden multisig change adresleri doğrulanamaz.
     id:
-    - Penanda tangan USB.
     - Safe 5 menambahkan layar sentuh, sedangkan Safe 3 tetap menggunakan antarmuka
       tombol.
     - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    - Tidak menyimpan kuorum multisig, sehingga tidak dapat memvalidasi alamat kembalian
+      multisig.
     ca:
-    - Signador USB.
     - Safe 5 afegeix pantalla tàctil, mentre que Safe 3 manté una interfície amb botons.
     - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    - Sense emmagatzemar quòrums multifirma, de manera que no pot validar adreces
+      de canvi multifirma.
     ru:
-    - USB-устройство подписи.
     - Safe 5 добавляет сенсорный экран, а Safe 3 сохраняет интерфейс с кнопками.
     - Работает с Bitcoin Safe без приложения производителя.
+    - Не хранит multisig-кворумы, поэтому не может проверять multisig-адреса сдачи.
     uk:
-    - USB-підписувач.
     - Safe 5 додає сенсорний екран, а Safe 3 зберігає інтерфейс на кнопках.
     - Працює з Bitcoin Safe без застосунку виробника.
+    - Не зберігає multisig-кворуми, тому не може перевіряти multisig-адреси здачі.
     zh:
-    - USB 签名设备。
     - Safe 5 增加了触摸屏，而 Safe 3 保留按键式界面。
     - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    - 不存储多签 quorum，因此无法验证多签找零地址。
     ja:
-    - USB 署名デバイス。
     - Safe 5 はタッチスクリーンを追加し、Safe 3 はボタン操作のインターフェースを維持します。
     - ベンダーアプリなしで Bitcoin Safe と使えます。
+    - マルチシグのクォーラムを保存しないため、マルチシグのチェンジアドレスを検証できません。
     ko:
-    - USB 서명 장치.
     - Safe 5는 터치스크린을 추가했고, Safe 3는 버튼 기반 인터페이스를 유지합니다.
     - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    - 멀티시그 쿼럼을 저장하지 않아 멀티시그 잔돈 주소를 검증할 수 없습니다.
     hi:
-    - USB साइनर।
     - Safe 5 में टचस्क्रीन है, जबकि Safe 3 में बटन आधारित इंटरफ़ेस बना रहता है।
     - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    - मल्टीसिग क्वोरम संग्रहीत नहीं करता, इसलिए मल्टीसिग चेंज एड्रेस सत्यापित
+      नहीं कर सकता।
     th:
-    - อุปกรณ์ลงนามผ่าน USB
     - Safe 5 เพิ่มหน้าจอสัมผัส ขณะที่ Safe 3 ยังคงใช้อินเทอร์เฟซแบบปุ่ม
     - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    - ไม่เก็บ quorum ของ multisig จึงไม่สามารถตรวจสอบที่อยู่เงินทอนแบบ
+      multisig ได้
     ar:
-    - جهاز توقيع عبر USB.
     - يضيف Safe 5 شاشة لمس، بينما يحافظ Safe 3 على واجهة تعتمد على الأزرار.
     - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    - لا يخزن quorums للمحافظ متعددة التوقيع، لذلك لا يمكنه التحقق من عناوين
+      الفكة متعددة التوقيع.
     fa:
-    - امضاکننده USB.
     - Safe 5 نمایشگر لمسی اضافه می‌کند، در حالی که Safe 3 رابط دکمه‌ای را حفظ می‌کند.
     - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    - کوئوروم‌های چندامضایی را ذخیره نمی‌کند، بنابراین نمی‌تواند آدرس‌های change
+      چندامضایی را اعتبارسنجی کند.
     my:
-    - USB signer ဖြစ်သည်။
     - Safe 5 တွင် touchscreen ပါရှိပြီး Safe 3 သည် button-based interface ကို ဆက်လက်ထိန်းသိမ်းထားသည်။
     - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+    - multisig quorum များကို မသိမ်းဆည်းသဖြင့် multisig change address များကို
+      validate မလုပ်နိုင်ပါ။
   summary:
     en: USB signer; Safe 5 adds a touchscreen, while Safe 3 keeps a button-based interface,
       and it works with Bitcoin Safe without a vendor app.
@@ -874,82 +887,115 @@ signers:
     - Trezor touchscreen model.
     - USB signer.
     - Works with Bitcoin Safe without a vendor app.
+    - No multisig quorum storage, so it cannot validate multisig change addresses.
     es:
     - Modelo Trezor con pantalla táctil.
     - Dispositivo de firma por USB.
     - Funciona con Bitcoin Safe sin una app del fabricante.
+    - Sin almacenamiento de quórums multifirma, por lo que no puede validar direcciones
+      de cambio multifirma.
     fr:
     - Modèle Trezor à écran tactile.
     - Signataire USB.
     - Fonctionne avec Bitcoin Safe sans application du fabricant.
+    - Pas de stockage des quorums multisig, il ne peut donc pas valider les adresses
+      de change multisig.
     de:
     - Trezor-Modell mit Touchscreen.
     - USB-Signer.
     - Funktioniert mit Bitcoin Safe ohne Hersteller-App.
+    - Keine Speicherung von Multisig-Quoren, daher keine Validierung von
+      Multisig-Wechseladressen.
     it:
     - Modello Trezor con touchscreen.
     - Signer USB.
     - Funziona con Bitcoin Safe senza un’app del produttore.
+    - Nessuna memorizzazione dei quorum multisig, quindi nessuna convalida degli
+      indirizzi di resto multisig.
     pt:
     - Modelo Trezor com ecrã tátil.
     - Dispositivo de assinatura USB.
     - Funciona com o Bitcoin Safe sem uma aplicação do fabricante.
+    - Sem armazenamento de quóruns multisig, por isso não consegue validar endereços
+      de troco multisig.
     pl:
     - Model Trezor z ekranem dotykowym.
     - Podpisywacz USB.
     - Działa z Bitcoin Safe bez aplikacji producenta.
+    - Bez przechowywania kworów multisig, więc nie może weryfikować adresów zmiany
+      multisig.
     tr:
     - Dokunmatik ekranlı Trezor modeli.
     - USB imzalayıcı.
     - Bir üretici uygulaması olmadan Bitcoin Safe ile çalışır.
+    - Multisig quorum'ları saklanmaz, bu yüzden multisig change adresleri doğrulanamaz.
     id:
     - Model Trezor layar sentuh.
     - Penanda tangan USB.
     - Bekerja dengan Bitcoin Safe tanpa aplikasi vendor.
+    - Tidak menyimpan kuorum multisig, sehingga tidak dapat memvalidasi alamat kembalian
+      multisig.
     ca:
     - Model Trezor amb pantalla tàctil.
     - Signador USB.
     - Funciona amb Bitcoin Safe sense una aplicació del fabricant.
+    - Sense emmagatzemar quòrums multifirma, de manera que no pot validar adreces
+      de canvi multifirma.
     ru:
     - Модель Trezor с сенсорным экраном.
     - USB-устройство подписи.
     - Работает с Bitcoin Safe без приложения производителя.
+    - Не хранит multisig-кворумы, поэтому не может проверять multisig-адреса сдачи.
     uk:
     - Модель Trezor із сенсорним екраном.
     - USB-підписувач.
     - Працює з Bitcoin Safe без застосунку виробника.
+    - Не зберігає multisig-кворуми, тому не може перевіряти multisig-адреси здачі.
     zh:
     - 带触摸屏的 Trezor 型号。
     - USB 签名设备。
     - 无需厂商应用即可配合 Bitcoin Safe 使用。
+    - 不存储多签 quorum，因此无法验证多签找零地址。
     ja:
     - タッチスクリーン搭載の Trezor モデル。
     - USB 署名デバイス。
     - ベンダーアプリなしで Bitcoin Safe と使えます。
+    - マルチシグのクォーラムを保存しないため、マルチシグのチェンジアドレスを検証できません。
     ko:
     - 터치스크린 Trezor 모델.
     - USB 서명 장치.
     - 제조사 앱 없이 Bitcoin Safe와 함께 사용할 수 있습니다.
+    - 멀티시그 쿼럼을 저장하지 않아 멀티시그 잔돈 주소를 검증할 수 없습니다.
     hi:
     - टचस्क्रीन वाला Trezor मॉडल।
     - USB साइनर।
     - निर्माता ऐप के बिना Bitcoin Safe के साथ काम करता है।
+    - मल्टीसिग क्वोरम संग्रहीत नहीं करता, इसलिए मल्टीसिग चेंज एड्रेस सत्यापित
+      नहीं कर सकता।
     th:
     - รุ่น Trezor แบบหน้าจอสัมผัส
     - อุปกรณ์ลงนามผ่าน USB
     - ทำงานกับ Bitcoin Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต
+    - ไม่เก็บ quorum ของ multisig จึงไม่สามารถตรวจสอบที่อยู่เงินทอนแบบ
+      multisig ได้
     ar:
     - طراز Trezor بشاشة لمس.
     - جهاز توقيع عبر USB.
     - يعمل مع Bitcoin Safe دون تطبيق من الشركة المصنعة.
+    - لا يخزن quorums للمحافظ متعددة التوقيع، لذلك لا يمكنه التحقق من عناوين
+      الفكة متعددة التوقيع.
     fa:
     - مدل Trezor با نمایشگر لمسی.
     - امضاکننده USB.
     - بدون اپ سازنده با Bitcoin Safe کار می‌کند.
+    - کوئوروم‌های چندامضایی را ذخیره نمی‌کند، بنابراین نمی‌تواند آدرس‌های change
+      چندامضایی را اعتبارسنجی کند.
     my:
     - touchscreen ပါသော Trezor model ဖြစ်သည်။
     - USB signer ဖြစ်သည်။
     - ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin Safe နှင့် အလုပ်လုပ်သည်။
+    - multisig quorum များကို မသိမ်းဆည်းသဖြင့် multisig change address များကို
+      validate မလုပ်နိုင်ပါ။
   summary:
     en: Trezor touchscreen model; USB signer that works with Bitcoin Safe without
       a vendor app.
