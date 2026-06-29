@@ -1,0 +1,20 @@
+---
+aliases:
+  - "/uk/features/pdf-export/"
+title: "Експорт PDF"
+description: "Експортуйте PDF-аркуш резервної копії для мультисиг-гаманця"
+draft: false
+bucket: features
+tags: ["Multisignature"]
+images: ["logo.png"]
+keywords: ["pdf backup", "wallet descriptor", "multisig", "export"]
+weight: 15
+---
+
+### {{< page-title >}} 
+{{< page-description >}} 
+
+<br>
+
+
+{{< video "pdf-backup-sheet.mp4" controls  autoplay muted playsinline >}}

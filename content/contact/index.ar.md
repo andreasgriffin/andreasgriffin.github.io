@@ -18,4 +18,4 @@ menu:
 
 أو أرسل إلينا رسالة مشفّرة على [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
-أو أرسل بريدًا إلكترونيًا إلى: bitcoinsafe.strobe206@aleeas.com
+أو أرسل بريدًا إلكترونيًا إلى: Contact@Bitcoin-Safe.org

@@ -19,6 +19,10 @@
       {{ with .Params.images }}
         {{ $image = index . 0 }}
       {{ end }}
+      {{ $resolvedImage := $image }}
+      {{ if ne $image "/images/logo/logo-bare.svg" }}
+        {{ $resolvedImage = partial "resolve-rel-url.html" (dict "Page" . "src" $image "langAware" true) }}
+      {{ end }}
       {{ if and (eq $image "/images/logo/logo-bare.svg") .Params.videos }}
         {{ $video := index .Params.videos 0 }}
         {{ $videoId := replaceRE `(?i)^.*(?:v=|youtu\.be/|shorts/|embed/)([A-Za-z0-9_-]{11}).*$` `$1` $video }}
@@ -29,7 +33,7 @@
           {{ end }}
         {{ end }}
         {{ if eq (len $videoId) 11 }}
-          {{ $image = printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $videoId }}
+          {{ $resolvedImage = printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $videoId }}
         {{ end }}
       {{ end }}
       {{ $items = $items | append (dict
@@ -38,7 +42,7 @@
         "description" (or .Params.description (.Summary | plainify | truncate 220))
         "dateSort" .Date
         "dateDisplay" (.Date.Format "Jan 2, 2006")
-        "image" $image
+        "image" $resolvedImage
         "kind" "Update"
         "source" "Bitcoin Safe"
         "cta" "Read update"

@@ -1,0 +1,20 @@
+---
+aliases:
+  - "/features/money-flow-diagram/"
+  - "/en/features/money-flow-diagram/"
+title: "Navigate Money flow diagrams"
+description: "Navigate through the money flow diagrams via simple clicks on the inputs or outputs of a transaction or PSBT"
+draft: false
+bucket: features
+tags: ["Featured"]
+images: ["logo.png"]
+keywords: ["money flow", "wallet visualization", "cash flow diagram"]
+---
+
+### {{< page-title >}} 
+{{< page-description >}} 
+
+<br>
+
+ 
+{{< video "navigating.mp4" controls  autoplay muted playsinline >}}

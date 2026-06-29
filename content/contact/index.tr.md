@@ -18,4 +18,4 @@ Bitcoin Safe topluluğu: [https://substr.network/s/bitcoin-safe](https://substr.
 
 Veya bize [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) üzerinden şifreli bir mesaj gönderin
 
-veya e-posta gönderin: bitcoinsafe.strobe206@aleeas.com
+veya e-posta gönderin: Contact@Bitcoin-Safe.org

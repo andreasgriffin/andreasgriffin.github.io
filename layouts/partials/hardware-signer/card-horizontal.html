@@ -2,8 +2,8 @@
 {{ $signer := .signer }}
 {{ $ctx := .context }}
 {{ $lang := default "en" $ctx.Site.Language.Lang }}
-{{ $page := $ctx.Site.GetPage (printf "knowledge/supported-hardware-signers/%s" $signer.slug) }}
-{{ $href := cond $page ($page.RelPermalink) (relLangURL (printf "/knowledge/supported-hardware-signers/%s/" $signer.slug)) }}
+{{ $page := $ctx.Site.GetPage (printf "library/supported-hardware-signers/%s" $signer.slug) }}
+{{ $href := cond $page ($page.RelPermalink) (relLangURL (printf "/library/supported-hardware-signers/%s/" $signer.slug)) }}
 {{ $name := or (index $signer.name $lang) (index $signer.name "en") }}
 {{ $discount := $signer.discount }}
 

@@ -1,5 +1,5 @@
 ---
 title: "Знания"
 layout: "custom-tag-list"
-tag: "knowledge"
+bucket: knowledge
 ---

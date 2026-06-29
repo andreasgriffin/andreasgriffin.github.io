@@ -50,6 +50,8 @@ Support **Bitcoin Safe** and get into the list below
   {{< person-circle image_url="https://unavatar.io/x/bsn21m" title="bsn21m 🇩🇪 (German)" target_url="https://x.com/bsn21m" >}}
   {{< person-circle image_url="https://github.com/cyphra.png" title="cyphra 🇪🇸 (Spanish)" target_url="https://github.com/cyphra" >}}
   {{< person-circle image_url="https://unavatar.io/x/DaGrindDontStop" title="DaGrindDontStop 🇨🇳 (Chinese)" target_url="https://hosted.weblate.org/user/DaGrindDontStop/" >}}
+  {{< person-circle image_url="https://unavatar.io/github/TamilNeram" title="@TamilNeram 🇮🇳 (Tamil)" target_url="https://github.com/TamilNeram" >}}
+  {{< person-circle image_url="https://unavatar.io/weblate/Libertad" title="Libertad 🇪🇸 (Spanish)" target_url="https://hosted.weblate.org/user/Libertad/" >}}
 </div>
 
 <br>

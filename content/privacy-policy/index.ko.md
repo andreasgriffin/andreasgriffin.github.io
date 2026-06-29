@@ -21,7 +21,7 @@ menu:
 
 #### 책임자
 
-데이터 처리의 책임자는 Andreas Griffin님이며 주소는 C. Camagüey 20, San Salvador, El Salvador입니다. 전화번호 +503 61545253, 이메일 bitcoinsafe.strobe206@aleeas.com 또는 우편으로 C. Camagüey 20, San Salvador, El Salvador 주소로 연락하실 수 있습니다.
+데이터 처리의 책임자는 Andreas Griffin님이며 주소는 C. Camagüey 20, San Salvador, El Salvador입니다. 전화번호 +503 61545253, 이메일 Contact@Bitcoin-Safe.org 또는 우편으로 C. Camagüey 20, San Salvador, El Salvador 주소로 연락하실 수 있습니다.
 #### 데이터 보안
 
 GDPR 제32조에 따라 당사는 귀하의 개인정보를 보호하기 위해 적절한 조치를 취합니다. 이는 특히 무단·불법적이거나 우발적인 접근, 처리, 분실, 사용 및 조작에 대한 보호를 포함합니다.
@@ -66,4 +66,4 @@ GDPR 제32조에 따라 당사는 귀하의 개인정보를 보호하기 위해 
 
 귀하는 일반적으로 정보 제공, 정정, 삭제, 처리 제한, 데이터 이동성, 철회 및 반대에 대한 권리를 가집니다.
 
-당사가 귀하의 데이터 처리가 데이터 보호법을 위반한다고 판단되거나 귀하의 데이터 보호 권리가 침해되었다고 생각하는 경우, bitcoinsafe.strobe206@aleeas.com으로 당사에 불만을 제기하거나 관할 데이터 보호 당국에 제소할 수 있습니다.
+당사가 귀하의 데이터 처리가 데이터 보호법을 위반한다고 판단되거나 귀하의 데이터 보호 권리가 침해되었다고 생각하는 경우, Contact@Bitcoin-Safe.org으로 당사에 불만을 제기하거나 관할 데이터 보호 당국에 제소할 수 있습니다.

@@ -5,7 +5,15 @@
         {{ . }}
       </div>
     {{ end }}
-    {{ $key := urlize .Params.tag }} {{/* normalize to match taxonomy keys */}}
-    {{ partial "featured-pages" (dict "context" . "tags" (index .Site.Taxonomies.tags $key)) }}
+    {{ $bucket := .Params.bucket }}
+    {{ $pages := slice }}
+    {{ with site.GetPage "library" }}
+      {{ range .Pages }}
+        {{ if and (eq .Params.bucket $bucket) (in (slice "page" "section") .Kind) }}
+          {{ $pages = $pages | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ partial "featured-pages" (dict "context" . "pages" $pages) }}
   </div>
 {{ end }}

@@ -1299,7 +1299,7 @@ signers:
   summary:
     en: Open-source DIY signer; stores wallet descriptors for multisig address verification
       and works with Bitcoin Safe without a vendor app.
-  image: /en/knowledge/supported-hardware-signers/specter-diy.png
+  image: /en/library/supported-hardware-signers/specter-diy.png
   shop_url: https://clavastack.com/en/?coupon=bitcoin-safe
   discount:
     code: bitcoin-safe

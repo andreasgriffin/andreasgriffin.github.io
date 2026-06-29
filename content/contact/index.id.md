@@ -18,4 +18,4 @@ Komunitas Bitcoin Safe: [https://substr.network/s/bitcoin-safe](https://substr.n
 
 Atau kirimkan pesan terenkripsi kepada kami di [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
-atau kirim email: bitcoinsafe.strobe206@aleeas.com
+atau kirim email: Contact@Bitcoin-Safe.org

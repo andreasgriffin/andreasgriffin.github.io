@@ -7,6 +7,7 @@
 {{ $upload  := .Get "uploadDate" | default (now.Format "2006-01-02") }}
 {{ $name    := .Get "name" | default .Page.Title }}
 {{ $desc    := .Get "description" | default .Page.Params.description }}
+{{ $align   := lower (.Get "align" | default "center") }}
 {{ $dir     := replace .Page.File.Dir "content/" "" }}
 {{ $res     := .Page.Resources.Get $file }}
 {{ $src     := "" }}
@@ -100,7 +101,14 @@
   {{- $attrs = $attrs | append (printf `poster="%s"` .) -}}
 {{- end -}}
 
-<video style="display:block;max-width:720px;width:100%;height:auto;margin:0 auto;" {{ delimit $attrs " " | safeHTMLAttr }}>
+{{- $margin := "0 auto" -}}
+{{- if or (eq $align "left") (eq $align "start") -}}
+  {{- $margin = "0 auto 0 0" -}}
+{{- else if or (eq $align "right") (eq $align "end") -}}
+  {{- $margin = "0 0 0 auto" -}}
+{{- end -}}
+
+<video style="display:block;max-width:720px;width:100%;height:auto;margin:{{ $margin }};" {{ delimit $attrs " " | safeHTMLAttr }}>
   <source src="{{ $src }}" type="video/mp4">
   {{ if and (not $res) hugo.IsServer }}
     <p style="color:#d33">Note: Page resource “{{ $file }}” not found; using relLangURL fallback.</p>

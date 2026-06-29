@@ -1,4 +1,0 @@
----
-title: "Krux"
-signer: krux
----

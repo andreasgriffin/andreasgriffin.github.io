@@ -1,0 +1,24 @@
+---
+aliases:
+  - "/hi/features/search/"
+title: "खोज"
+description: "सभी खुले वॉलेट्स में खोजने के लिए टाइप करें"
+draft: false
+bucket: features
+tags: ["Featured"]
+images: [ "logo.png" ]
+keywords: ["खोज", "लेन -देन खोज", "पता लुकअप", "बटुआ"]
+---
+
+
+
+
+
+### {{< page-title >}} 
+{{< page-description >}} 
+
+<br>
+
+
+
+{{< video "search.mp4" controls  autoplay muted playsinline >}}
