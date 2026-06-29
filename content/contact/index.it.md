@@ -18,4 +18,4 @@ Comunità Bitcoin Safe: [https://substr.network/s/bitcoin-safe](https://substr.n
 
 Oppure inviaci un messaggio crittografato su [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
-o scrivi una e-mail: bitcoinsafe.strobe206@aleeas.com
+o scrivi una e-mail: Contact@Bitcoin-Safe.org

@@ -1,0 +1,45 @@
+{{ $itemsParam := .Get "items" | default "" }}
+{{ $columns := .Get "columns" | default "3" }}
+{{ $slugs := split $itemsParam "," }}
+
+{{ if $itemsParam }}
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ $columns }} g-4">
+    {{ range $rawSlug := $slugs }}
+      {{ $slug := trim $rawSlug " " }}
+      {{ if $slug }}
+        {{ $page := $.Page.GetPage (printf "/library/%s" $slug) }}
+        {{ if $page }}
+          {{ $imageURL := "" }}
+          {{ with $page.Resources.GetMatch "logo.*" }}
+            {{ $imageURL = .RelPermalink }}
+          {{ else }}
+            {{ with index $page.Params.images 0 }}
+              {{ with $page.Resources.GetMatch . }}
+                {{ $imageURL = .RelPermalink }}
+              {{ else }}
+                {{ $imageURL = . | relURL }}
+              {{ end }}
+            {{ else }}
+              {{ with $page.Params.previewimage }}
+                {{ with $page.Resources.GetMatch . }}
+                  {{ $imageURL = .RelPermalink }}
+                {{ else }}
+                  {{ $imageURL = . | relURL }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ partial "card.html" (dict
+            "target_url" $page.RelPermalink
+            "title" $page.Title
+            "description" $page.Description
+            "image_url" $imageURL
+            "entire_card_clickable" true
+            "open_in_blank_page" false
+          ) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

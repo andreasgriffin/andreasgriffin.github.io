@@ -74,7 +74,7 @@
   {{ end }}
 
   {{/* Auto-discover screenshots using shared folder resolved via resolve-media-folder */}}
-  {{ $media := partial "resolve-media-folder.html" (dict "Page" $ctx "folder" "knowledge/supported-hardware-signers/screenshots") }}
+  {{ $media := partial "resolve-media-folder.html" (dict "Page" $ctx "folder" "library/supported-hardware-signers/screenshots") }}
   {{ if $media.found }}
     {{ $files := slice }}
     {{ if eq $media.mode "resources" }}

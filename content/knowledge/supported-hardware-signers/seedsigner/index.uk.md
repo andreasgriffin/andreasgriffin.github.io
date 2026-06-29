@@ -1,4 +1,0 @@
----
-title: "SeedSigner"
-signer: seedsigner
----

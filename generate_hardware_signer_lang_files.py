@@ -2,11 +2,11 @@
 """Generate per-language stub pages for hardware signer detail routes.
 
 The script reads the default English `index.md` in each signer folder under
-`content/knowledge/supported-hardware-signers/` and emits `index.<lang>.md`
+`content/library/supported-hardware-signers/` and emits `index.<lang>.md`
 for every language defined in `config/_default/languages.toml` (excluding the
 default language set in `config/_default/config.toml`).
 
-Only minimal front matter is written (title, signer, aliases). Page body is
+Only minimal front matter is written (title, signer, bucket, aliases). Page body is
 copied from the base file so you can add real content later if desired.
 
 Usage:
@@ -29,7 +29,7 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parent
-CONTENT_DIR = ROOT / "content" / "knowledge" / "supported-hardware-signers"
+CONTENT_DIR = ROOT / "content" / "library" / "supported-hardware-signers"
 LANGS_FILE = ROOT / "config" / "_default" / "languages.toml"
 CONFIG_FILE = ROOT / "config" / "_default" / "config.toml"
 
@@ -84,6 +84,7 @@ def generate_for_signer(folder: Path, languages: list[str], default_lang: str, f
         meta = dict(base_meta)
         meta.setdefault("title", base_meta.get("title", folder.name))
         meta.setdefault("signer", base_meta.get("signer", folder.name))
+        meta["bucket"] = "knowledge"
         meta["aliases"] = [f"/{lang}/knowledge/supported-hardware-signers/{folder.name}/"]
 
         content = build_front_matter(meta) + body

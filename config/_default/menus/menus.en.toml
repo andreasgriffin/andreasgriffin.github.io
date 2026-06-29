@@ -24,7 +24,7 @@ weight = 52
 
 [[main]]
 identifier = "Knowledge"
-name = "🏫Knowledge"
+name = "🎬How-To"
 url = "knowledge"
 weight = 55
 
@@ -61,7 +61,7 @@ weight = 60
 # [[social]]
 #   name = "Email"
 #   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-email'><use href='images/feather/feather-sprite.svg#email'/></svg>"
-#   url = "<a href='bitcoinsafe.strobe206@aleeas.com'>Example mailto link</a>"
+#   url = "<a href='Contact@Bitcoin-Safe.org'>Example mailto link</a>"
 #   weight = 10
 #   title = "Mail me"
 

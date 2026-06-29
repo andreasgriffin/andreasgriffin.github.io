@@ -18,4 +18,4 @@ menu:
 
 Або надішліть нам зашифроване повідомлення в [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
-або напишіть листа: bitcoinsafe.strobe206@aleeas.com
+або напишіть листа: Contact@Bitcoin-Safe.org

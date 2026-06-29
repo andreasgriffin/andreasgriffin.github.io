@@ -21,7 +21,7 @@ Ochrona Twoich danych osobowych jest dla nas sprawą szczególnej wagi. W związ
 
 #### Administrator danych osobowych
 
-Administratorem danych osobowych jest osoba Andreas Griffin, z siedzibą przy C. Camagüey 20, San Salvador, El Salvador. Możesz się z nami skontaktować telefonicznie pod numerem +503 61545253, mailowo na adres bitcoinsafe.strobe206@aleeas.com lub pocztą na adres C. Camagüey 20, San Salvador, El Salvador.
+Administratorem danych osobowych jest osoba Andreas Griffin, z siedzibą przy C. Camagüey 20, San Salvador, El Salvador. Możesz się z nami skontaktować telefonicznie pod numerem +503 61545253, mailowo na adres Contact@Bitcoin-Safe.org lub pocztą na adres C. Camagüey 20, San Salvador, El Salvador.
 
 #### Bezpieczeństwo danych
 
@@ -69,4 +69,4 @@ Dane osobowe są przez nas udostępniane lub przekazywane następującym podmiot
 
 Zasadniczo przysługują Ci prawa do informowania, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, cofnięcia zgody oraz wniesienia sprzeciwu.
 
-Jeśli uważasz, że przetwarzanie Twoich danych narusza przepisy o ochronie danych osobowych lub że Twoje prawa w tym zakresie zostały w inny sposób naruszone, możesz złożyć skargę do nas na adres bitcoinsafe.strobe206@aleeas.com lub do organu ochrony danych.
+Jeśli uważasz, że przetwarzanie Twoich danych narusza przepisy o ochronie danych osobowych lub że Twoje prawa w tym zakresie zostały w inny sposób naruszone, możesz złożyć skargę do nas na adres Contact@Bitcoin-Safe.org lub do organu ochrony danych.

@@ -23,7 +23,7 @@ Protecting your personal data is of special concern to us. Therefore, we process
 
 #### Responsible Party
 
-The responsible party for data processing is the person Andreas Griffin, located at C. Camagüey 20, San Salvador, El Salvador. You can reach us by phone at +503 61545253, by email at bitcoinsafe.strobe206@aleeas.com, or by mail at the address C. Camagüey 20, San Salvador, El Salvador.
+The responsible party for data processing is the person Andreas Griffin, located at C. Camagüey 20, San Salvador, El Salvador. You can reach us by phone at +503 61545253, by email at Contact@Bitcoin-Safe.org, or by mail at the address C. Camagüey 20, San Salvador, El Salvador.
 #### Data Security
 
 In accordance with Article 32 of the GDPR, we take appropriate measures to protect your personal data. This particularly involves protection against unauthorized, illegal, or accidental access, processing, loss, use, and manipulation.
@@ -68,4 +68,4 @@ Personal data are shared or transmitted by us to the following third parties:
 
 You generally have the rights to information, correction, deletion, restriction, data portability, revocation, and objection.
 
-If you believe that the processing of your data violates data protection law or that your data protection rights have otherwise been infringed, you can complain to us at bitcoinsafe.strobe206@aleeas.com or the data protection authority.
+If you believe that the processing of your data violates data protection law or that your data protection rights have otherwise been infringed, you can complain to us at Contact@Bitcoin-Safe.org or the data protection authority.

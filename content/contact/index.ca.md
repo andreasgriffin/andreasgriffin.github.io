@@ -18,4 +18,4 @@ Comunitat de Bitcoin Safe: [https://substr.network/s/bitcoin-safe](https://subst
 
 O envia'ns un missatge xifrat a [nostr](https://nostr.com/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v) 
 
-o escriu un correu electrònic: bitcoinsafe.strobe206@aleeas.com
+o escriu un correu electrònic: Contact@Bitcoin-Safe.org

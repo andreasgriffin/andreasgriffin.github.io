@@ -21,7 +21,7 @@ Melindungi data pribadi Anda adalah perhatian khusus bagi kami. Oleh karena itu,
 
 #### Pihak yang Bertanggung Jawab
 
-Pihak yang bertanggung jawab atas pemrosesan data adalah Andreas Griffin, yang beralamat di C. Camagüey 20, San Salvador, El Salvador. Anda dapat menghubungi kami melalui telepon di +503 61545253, melalui email di bitcoinsafe.strobe206@aleeas.com, atau melalui surat ke alamat C. Camagüey 20, San Salvador, El Salvador.
+Pihak yang bertanggung jawab atas pemrosesan data adalah Andreas Griffin, yang beralamat di C. Camagüey 20, San Salvador, El Salvador. Anda dapat menghubungi kami melalui telepon di +503 61545253, melalui email di Contact@Bitcoin-Safe.org, atau melalui surat ke alamat C. Camagüey 20, San Salvador, El Salvador.
 #### Keamanan Data
 
 Sesuai dengan Pasal 32 GDPR, kami mengambil langkah-langkah yang tepat untuk melindungi data pribadi Anda. Ini terutama meliputi perlindungan terhadap akses, pemrosesan, kehilangan, penggunaan, dan manipulasi yang tidak sah, ilegal, atau tidak disengaja.
@@ -66,4 +66,4 @@ Data pribadi dibagikan atau dikirimkan oleh kami kepada pihak ketiga berikut:
 
 Anda pada umumnya memiliki hak atas informasi, koreksi, penghapusan, pembatasan, portabilitas data, pencabutan, dan keberatan.
 
-Jika Anda yakin bahwa pemrosesan data Anda melanggar undang-undang perlindungan data atau bahwa hak-hak perlindungan data Anda telah dilanggar dengan cara lain, Anda dapat mengajukan keluhan kepada kami di bitcoinsafe.strobe206@aleeas.com atau otoritas perlindungan data.
+Jika Anda yakin bahwa pemrosesan data Anda melanggar undang-undang perlindungan data atau bahwa hak-hak perlindungan data Anda telah dilanggar dengan cara lain, Anda dapat mengajukan keluhan kepada kami di Contact@Bitcoin-Safe.org atau otoritas perlindungan data.

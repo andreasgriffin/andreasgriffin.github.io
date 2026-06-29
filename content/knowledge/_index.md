@@ -1,9 +1,9 @@
 ---
 aliases:
   - "/knowledge/_index/"
-title: "Knowledge"
+title: "How-To"
 layout: "custom-tag-list"
-tag: "knowledge"
+bucket: knowledge
 description: "Guides on Bitcoin Safe wallets, hardware signers, Tor setup, and secure address verification."
 keywords:
   - "bitcoin safe"

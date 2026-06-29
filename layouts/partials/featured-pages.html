@@ -1,7 +1,7 @@
 {{ $rowClass := .row_class | default "" }}
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4{{ if $rowClass }} {{ $rowClass }}{{ end }}">   <!-- add this to get 4 columns: row-cols-xl-4  -->
-  {{ $tags := .tags | default (slice) }}
-  {{ $sortedPages := sort $tags "Params.weight" "desc" }}
+  {{ $pages := .pages | default (.tags | default (slice)) }}
+  {{ $sortedPages := sort $pages "Params.weight" "desc" }}
   {{ range $sortedPages }}
     {{/* Process the image resource if available */}}
     {{ $imageURL := "" }}
