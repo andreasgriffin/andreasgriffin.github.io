@@ -1,5 +1,5 @@
 {
-  "newer_than_latest_stable": true,
+  "newer_than_latest_stable": false,
   "name": "2.0.0rc3",
   "tag_name": "2.0.0rc3",
   "html_url": "https://github.com/andreasgriffin/bitcoin-safe/releases/tag/2.0.0rc3",

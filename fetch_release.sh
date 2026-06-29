@@ -71,8 +71,5 @@ if [[ "$stable_changed" -eq 0 && "$prerelease_changed" -eq 0 ]]; then
   exit 2
 fi
 
-if [[ "$stable_changed" -eq 1 ]]; then
-  ./update_readme.sh
-fi
 
 exit 0
