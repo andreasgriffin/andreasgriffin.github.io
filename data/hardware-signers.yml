@@ -1500,3 +1500,149 @@ signers:
     qr: true
     sd: true
   bitcoin_only: true
+- id: metrovault
+  slug: metrovault
+  name:
+    en: MetroVault
+  summary_points:
+    en:
+    - Turns an old Android device into a dedicated offline Bitcoin signing device.
+    - Uses QR-based PSBT and multisig descriptor workflows with Bitcoin Safe.
+    - Requires a factory reset and signer-only use with no internet, no SIM, and no other apps.
+    es:
+    - Convierte un dispositivo Android antiguo en un dispositivo dedicado de firma de Bitcoin sin conexion.
+    - Usa flujos de trabajo basados en QR para PSBT y descriptores multifirma con Bitcoin Safe.
+    - Requiere un restablecimiento de fabrica y uso exclusivo como firmador, sin internet, sin SIM y sin otras apps.
+    ca:
+    - Converteix un dispositiu Android antic en un dispositiu dedicat de signatura de Bitcoin fora de linia.
+    - Utilitza fluxos basats en QR per a PSBT i descriptors multifirma amb Bitcoin Safe.
+    - Requereix un restabliment de fabrica i us exclusiu com a signador, sense internet, sense SIM i sense altres aplicacions.
+    de:
+    - Verwandelt ein altes Android-Gerat in ein dediziertes Offline-Bitcoin-Signiergerat.
+    - Nutzt QR-basierte Arbeitsablaufe fur PSBTs und Multisig-Deskriptoren mit Bitcoin Safe.
+    - Erfordert einen Werksreset und ausschliessliche Nutzung zum Signieren, ohne Internet, ohne SIM und ohne andere Apps.
+    fr:
+    - Transforme un ancien appareil Android en dispositif dedie de signature Bitcoin hors ligne.
+    - Utilise des flux QR pour les PSBT et les descripteurs multisig avec Bitcoin Safe.
+    - Exige une reinitialisation d'usine et un usage exclusif pour signer, sans internet, sans SIM et sans autres applications.
+    it:
+    - Trasforma un vecchio dispositivo Android in un dispositivo dedicato di firma Bitcoin offline.
+    - Usa flussi basati su QR per PSBT e descrittori multisig con Bitcoin Safe.
+    - Richiede un ripristino di fabbrica e un uso esclusivo per la firma, senza internet, senza SIM e senza altre app.
+    pt:
+    - Transforma um dispositivo Android antigo num dispositivo dedicado de assinatura Bitcoin offline.
+    - Usa fluxos baseados em QR para PSBT e descritores multisig com o Bitcoin Safe.
+    - Requer reposicao de fabrica e uso exclusivo para assinar, sem internet, sem SIM e sem outras aplicacoes.
+    pl:
+    - Zmienia stary telefon z Androidem w dedykowane urzadzenie do podpisywania Bitcoina offline.
+    - Korzysta z workflow opartych na QR dla PSBT i deskryptorow multisig z Bitcoin Safe.
+    - Wymaga resetu fabrycznego i uzywania wylacznie do podpisywania, bez internetu, bez SIM i bez innych aplikacji.
+    tr:
+    - Eski bir Android cihazi ozel bir cevrimdisi Bitcoin imzalama cihazina donusturur.
+    - Bitcoin Safe ile PSBT ve multisig descriptor is akislari icin QR tabanli yontemler kullanir.
+    - Fabrika sifirlamasi ve yalnizca imzalama amacli kullanim gerektirir; internet, SIM ve baska uygulama olmamalidir.
+    id:
+    - Mengubah perangkat Android lama menjadi perangkat penandatangan Bitcoin offline khusus.
+    - Menggunakan alur berbasis QR untuk PSBT dan descriptor multisig dengan Bitcoin Safe.
+    - Memerlukan reset pabrik dan penggunaan khusus untuk menandatangani, tanpa internet, tanpa SIM, dan tanpa aplikasi lain.
+    ru:
+    - Превращает старое Android-устройство в отдельное офлайн-устройство для подписи Bitcoin.
+    - Использует QR-потоки для PSBT и multisig-дескрипторов вместе с Bitcoin Safe.
+    - Требует сброса к заводским настройкам и использования только для подписи, без интернета, без SIM и без других приложений.
+    uk:
+    - Перетворює старий Android-пристрій на окремий офлайн-пристрій для підпису Bitcoin.
+    - Використовує QR-процеси для PSBT і multisig-дескрипторів разом із Bitcoin Safe.
+    - Вимагає скидання до заводських налаштувань і використання лише для підпису, без інтернету, без SIM і без інших застосунків.
+    zh:
+    - 把旧的 Android 设备变成专用的离线 Bitcoin 签名设备。
+    - 通过 QR 工作流与 Bitcoin Safe 处理 PSBT 和多签描述符。
+    - 需要恢复出厂设置并且只能用于签名，不能联网、不能插 SIM，也不能安装其他应用。
+    ja:
+    - 古い Android 端末を専用のオフライン Bitcoin 署名デバイスに変えます。
+    - Bitcoin Safe と連携して QR ベースの PSBT とマルチシグ記述子のワークフローを使います。
+    - 工場出荷状態への初期化が必要で、インターネットなし、SIM なし、他アプリなしで署名専用に使う必要があります。
+    ko:
+    - 오래된 Android 기기를 전용 오프라인 Bitcoin 서명 장치로 바꿉니다.
+    - Bitcoin Safe와 함께 QR 기반 PSBT 및 멀티시그 디스크립터 워크플로를 사용합니다.
+    - 공장 초기화가 필요하며 인터넷, SIM, 다른 앱 없이 서명 전용으로만 사용해야 합니다.
+    hi:
+    - पुराने Android डिवाइस को एक समर्पित ऑफलाइन Bitcoin signing device में बदलता है।
+    - Bitcoin Safe के साथ PSBT और multisig descriptor के लिए QR-आधारित workflow का उपयोग करता है।
+    - Factory reset और केवल signing के लिए उपयोग जरूरी है; इंटरनेट, SIM और दूसरी apps नहीं होनी चाहिए।
+    th:
+    - เปลี่ยนเครื่อง Android เก่าให้เป็นอุปกรณ์ลงนาม Bitcoin แบบออฟไลน์โดยเฉพาะ
+    - ใช้ขั้นตอนแบบ QR สำหรับ PSBT และ descriptor แบบ multisig ร่วมกับ Bitcoin Safe
+    - ต้องรีเซ็ตเป็นค่าโรงงานและใช้เพื่อการลงนามเท่านั้น โดยไม่มีอินเทอร์เน็ต ไม่มี SIM และไม่มีแอปอื่น
+    ar:
+    - يحول جهاز Android قديما إلى جهاز مخصص لتوقيع Bitcoin دون اتصال.
+    - يستخدم تدفقات عمل تعتمد على QR لملفات PSBT وواصفات multisig مع Bitcoin Safe.
+    - يتطلب إعادة ضبط المصنع واستخدامه للتوقيع فقط، من دون إنترنت أو SIM أو تطبيقات أخرى.
+    fa:
+    - یک دستگاه Android قدیمی را به یک دستگاه اختصاصی امضای Bitcoin به صورت آفلاین تبدیل می‌کند.
+    - از روندهای مبتنی بر QR برای PSBT و descriptorهای multisig همراه با Bitcoin Safe استفاده می‌کند.
+    - به بازنشانی کارخانه و استفاده فقط برای امضا نیاز دارد؛ بدون اینترنت، بدون SIM و بدون برنامه‌های دیگر.
+    my:
+    - Android စက်ဟောင်းတစ်လုံးကို သီးသန့် အော့ဖ်လိုင်း Bitcoin လက်မှတ်ရေးထိုးစက်အဖြစ် ပြောင်းလဲပေးသည်။
+    - Bitcoin Safe နှင့်အတူ PSBT နှင့် multisig descriptor workflow များအတွက် QR အခြေပြု လုပ်ငန်းစဉ်များကို အသုံးပြုသည်။
+    - Factory reset လုပ်ထားရမည်ဖြစ်ပြီး signing အတွက်သာ သုံးရမည်၊ internet, SIM နှင့် အခြား app များ မရှိရပါ။
+  summary:
+    en: Turns an old Android device into a dedicated offline Bitcoin signing device
+      for Bitcoin Safe; requires a factory reset and signer-only use with no internet
+      connection and no other apps.
+    es: Convierte un dispositivo Android antiguo en un dispositivo dedicado de firma
+      de Bitcoin sin conexion para Bitcoin Safe; requiere restablecimiento de fabrica
+      y uso exclusivo como firmador, sin internet ni otras apps.
+    ca: Converteix un dispositiu Android antic en un dispositiu dedicat de signatura
+      de Bitcoin fora de linia per a Bitcoin Safe; requereix restabliment de fabrica
+      i us exclusiu com a signador, sense internet ni altres aplicacions.
+    de: Verwandelt ein altes Android-Gerat in ein dediziertes Offline-Bitcoin-Signiergerat
+      fur Bitcoin Safe; erfordert Werksreset und ausschliessliche Nutzung zum Signieren
+      ohne Internet und ohne andere Apps.
+    fr: Transforme un ancien appareil Android en dispositif dedie de signature Bitcoin
+      hors ligne pour Bitcoin Safe; exige une reinitialisation d'usine et un usage
+      exclusif pour signer, sans internet ni autres applications.
+    it: Trasforma un vecchio dispositivo Android in un dispositivo dedicato di firma
+      Bitcoin offline per Bitcoin Safe; richiede un ripristino di fabbrica e un
+      uso esclusivo per la firma, senza internet ne altre app.
+    pt: Transforma um dispositivo Android antigo num dispositivo dedicado de assinatura
+      Bitcoin offline para o Bitcoin Safe; requer reposicao de fabrica e uso exclusivo
+      para assinar, sem internet nem outras aplicacoes.
+    pl: Zmienia stary telefon z Androidem w dedykowane urzadzenie do podpisywania
+      Bitcoina offline dla Bitcoin Safe; wymaga resetu fabrycznego i uzywania wylacznie
+      do podpisywania, bez internetu i bez innych aplikacji.
+    tr: Eski bir Android cihazi Bitcoin Safe icin ozel bir cevrimdisi Bitcoin imzalama
+      cihazina donusturur; internet ve baska uygulamalar olmadan fabrika sifirlamasi
+      ve yalnizca imzalama amacli kullanim gerektirir.
+    id: Mengubah perangkat Android lama menjadi perangkat penandatangan Bitcoin
+      offline khusus untuk Bitcoin Safe; memerlukan reset pabrik dan penggunaan
+      khusus untuk menandatangani, tanpa internet dan tanpa aplikasi lain.
+    ru: Превращает старое Android-устройство в отдельное офлайн-устройство для
+      подписи Bitcoin для Bitcoin Safe; требует сброса к заводским настройкам и
+      использования только для подписи, без интернета и без других приложений.
+    uk: Перетворює старий Android-пристрій на окремий офлайн-пристрій для підпису
+      Bitcoin для Bitcoin Safe; вимагає скидання до заводських налаштувань і використання
+      лише для підпису, без інтернету та інших застосунків.
+    zh: 把旧的 Android 设备变成 Bitcoin Safe 专用的离线 Bitcoin 签名设备；需要恢复出厂设置，并且只能用于签名，不能联网，也不能安装其他应用。
+    ja: 古い Android 端末を Bitcoin Safe 用の専用オフライン Bitcoin 署名デバイスに変えます。工場出荷状態への初期化が必要で、インターネットや他アプリなしで署名専用に使う必要があります。
+    ko: 오래된 Android 기기를 Bitcoin Safe용 전용 오프라인 Bitcoin 서명 장치로
+      바꿉니다. 공장 초기화가 필요하며 인터넷이나 다른 앱 없이 서명 전용으로만
+      사용해야 합니다.
+    hi: पुराने Android डिवाइस को Bitcoin Safe के लिए एक समर्पित ऑफलाइन Bitcoin
+      signing device में बदलता है; factory reset और केवल signing के लिए उपयोग
+      जरूरी है, इंटरनेट और दूसरी apps के बिना।
+    th: เปลี่ยนเครื่อง Android เก่าให้เป็นอุปกรณ์ลงนาม Bitcoin แบบออฟไลน์สำหรับ
+      Bitcoin Safe โดยเฉพาะ; ต้องรีเซ็ตเป็นค่าโรงงานและใช้เพื่อการลงนามเท่านั้น
+      โดยไม่มีอินเทอร์เน็ตหรือแอปอื่น
+    ar: يحول جهاز Android قديما إلى جهاز مخصص لتوقيع Bitcoin دون اتصال لصالح
+      Bitcoin Safe؛ ويتطلب إعادة ضبط المصنع واستخدامه للتوقيع فقط، من دون إنترنت
+      أو تطبيقات أخرى.
+    fa: یک دستگاه Android قدیمی را به یک دستگاه اختصاصی امضای Bitcoin به صورت
+      آفلاین برای Bitcoin Safe تبدیل می‌کند؛ به بازنشانی کارخانه و استفاده فقط
+      برای امضا، بدون اینترنت و بدون برنامه‌های دیگر نیاز دارد.
+    my: Android စက်ဟောင်းတစ်လုံးကို Bitcoin Safe အတွက် သီးသန့် အော့ဖ်လိုင်း
+      Bitcoin လက်မှတ်ရေးထိုးစက်အဖြစ် ပြောင်းလဲပေးသည်။ Factory reset လုပ်ထားရမည်ဖြစ်ပြီး
+      internet မရှိဘဲ အခြား app များမရှိဘဲ signing အတွက်သာ သုံးရမည်။
+  image: /en/library/supported-hardware-signers/metrovault-logo.png
+  features:
+    qr: true
+  bitcoin_only: true
