@@ -12,7 +12,7 @@ bucket: knowledge
 
 - Reset an old Android device before installation and use it only as a fully featured bitcoin signer.
 - **Do not** install other apps, sign in to accounts, insert a SIM card, or reconnect the device to the internet.
-- **The security is not as high as a dedicated bitcoin hardware signer**, so do not use signle-sig with large funds.
+- **The security is not as high as a dedicated bitcoin hardware signer**, so do not use single-sig with large funds.
 
 ## Reset Android Device And Use It Only As An Offline Signer
 
