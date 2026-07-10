@@ -39,10 +39,26 @@
         <div class="mb-2">
           {{ partial "hardware-signer/features.html" (dict "features" $signer.features "center" false) }}
         </div>
-        {{ if $signer.shop_url }}
-          <a class="btn btn-primary btn-md px-4" href="{{ $signer.shop_url }}" target="_blank" rel="noopener">
-            {{ i18n "hardware_buy_official" }}
-          </a>
+        {{ if or $signer.shop_url $signer.download_url $signer.source_url }}
+          <div class="d-flex gap-2 flex-wrap">
+            {{ if $signer.shop_url }}
+              <a class="btn btn-primary btn-md px-4" href="{{ $signer.shop_url }}" target="_blank" rel="noopener">
+                {{ i18n "hardware_buy_official" }}
+              </a>
+            {{ end }}
+            {{ with $signer.download_url }}
+              {{ $label := or (index $signer.download_label $lang) (index $signer.download_label "en") "Download" }}
+              <a class="btn btn-primary btn-md px-4" href="{{ . }}" target="_blank" rel="noopener">
+                {{ $label }}
+              </a>
+            {{ end }}
+            {{ with $signer.source_url }}
+              {{ $label := or (index $signer.source_label $lang) (index $signer.source_label "en") "Source code" }}
+              <a class="btn btn-outline-secondary btn-md px-4" href="{{ . }}" target="_blank" rel="noopener">
+                {{ $label }}
+              </a>
+            {{ end }}
+          </div>
           {{ with $discount }}
             <p class="mt-2 mb-0 text-success fw-semibold">{{ i18n "hardware_discount" }} <strong>{{ .code }}</strong> {{ with .note }}<span class="text-muted small">— {{ or (index . $lang) (index . "en") }}</span>{{ end }}</p>
           {{ end }}
