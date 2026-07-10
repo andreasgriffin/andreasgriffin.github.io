@@ -1643,6 +1643,50 @@ signers:
       Bitcoin လက်မှတ်ရေးထိုးစက်အဖြစ် ပြောင်းလဲပေးသည်။ Factory reset လုပ်ထားရမည်ဖြစ်ပြီး
       internet မရှိဘဲ အခြား app များမရှိဘဲ signing အတွက်သာ သုံးရမည်။
   image: /en/library/supported-hardware-signers/metrovault-logo.png
+  download_url: https://f-droid.org/en/packages/com.gorunjinian.metrovault/
+  download_label:
+    en: Download on F-Droid
+    es: Descargar en F-Droid
+    ca: Baixa des de F-Droid
+    de: Bei F-Droid herunterladen
+    fr: Telecharger sur F-Droid
+    it: Scarica da F-Droid
+    pt: Transferir no F-Droid
+    pl: Pobierz z F-Droid
+    tr: F-Droid'den indir
+    id: Unduh di F-Droid
+    ru: Скачать в F-Droid
+    uk: Завантажити з F-Droid
+    zh: 在 F-Droid 下载
+    ja: F-Droid からダウンロード
+    ko: F-Droid에서 다운로드
+    hi: F-Droid से डाउनलोड करें
+    th: ดาวน์โหลดจาก F-Droid
+    ar: تنزيل من F-Droid
+    fa: دانلود از F-Droid
+    my: F-Droid မှ ဒေါင်းလုဒ်
+  source_url: https://github.com/gorunjinian/MetroVault/
+  source_label:
+    en: View Source Code
+    es: Ver codigo fuente
+    ca: Veure codi font
+    de: Quellcode ansehen
+    fr: Voir le code source
+    it: Vedi il codice sorgente
+    pt: Ver codigo-fonte
+    pl: Zobacz kod zrodlowy
+    tr: Kaynak kodunu gor
+    id: Lihat kode sumber
+    ru: Посмотреть исходный код
+    uk: Переглянути вихідний код
+    zh: 查看源代码
+    ja: ソースコードを見る
+    ko: 소스 코드 보기
+    hi: सोर्स कोड देखें
+    th: ดูซอร์สโค้ด
+    ar: عرض الشفرة المصدرية
+    fa: مشاهده کد منبع
+    my: source code ကို ကြည့်ရန်
   features:
     qr: true
   bitcoin_only: true
