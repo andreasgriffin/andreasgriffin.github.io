@@ -20,7 +20,7 @@
       {{- $src -}}
     {{- else -}}
       {{- /* static or relative path; prefer lang-aware */ -}}
-      {{- if $langAware -}}
+      {{- if and $langAware (not (hasPrefix $src "/en/")) -}}
         {{- $src | relLangURL -}}
       {{- else -}}
         {{- $src | relURL -}}
