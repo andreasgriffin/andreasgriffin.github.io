@@ -18,7 +18,7 @@ MetroVault သည် Android စက်ဟောင်းတစ်လုံးက
 
 ## Android စက်ကို reset လုပ်ပြီး အော့ဖ်လိုင်း signer အဖြစ်သာ အသုံးပြုပါ
 
-MetroVault ၏ မူရင်း documentation တွင် [recommended device setup](https://github.com/gorunjinian/MetroVault/#recommended-device-setup) ရှိသည်။ ၎င်းကို မဖြစ်မနေလိုအပ်ချက်အဖြစ် ယူဆပါ: factory reset လုပ်ထားပြီး setup ပြီးနောက်လည်း အင်တာနက်မှ ခွဲထားသည့် သီးသန့် **အော့ဖ်လိုင်းဖုန်း** ကို အသုံးပြုပြီး လက်မှတ်ရေးထိုးရန်အတွက်သာ သုံးပါ။
+MetroVault ၏ မူရင်း documentation တွင် ယခု [device setup guide အပြည့်အစုံ](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md) ရှိသည်။ ထို guide ကို အဆင့်လိုက် တိတိကျကျလိုက်နာရန်နှင့် မဖြစ်မနေလိုအပ်ချက်အဖြစ် ယူဆရန် အပြင်းအထန် အကြံပြုပါသည်: factory reset လုပ်ထားပြီး setup ပြီးနောက်လည်း အင်တာနက်မှ ခွဲထားသည့် သီးသန့် **အော့ဖ်လိုင်းဖုန်း** ကို အသုံးပြုပြီး လက်မှတ်ရေးထိုးရန်အတွက်သာ သုံးပါ။
 
 1. တင်သွင်းမီ ဖုန်းကို factory reset လုပ်ပါ။
 2. Google account setup ကို ကျော်ပြီး စက်ကို offline ထားပါ။

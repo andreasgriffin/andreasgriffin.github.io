@@ -18,7 +18,7 @@ MetroVault は古い Android 端末を、Bitcoin Safe 専用のオフライン B
 
 ## Android 端末を初期化し、オフライン署名専用として使う
 
-MetroVault の元ドキュメントには[推奨デバイス設定](https://github.com/gorunjinian/MetroVault/#recommended-device-setup)があります。これは必須条件として扱ってください。設定後もインターネットから切り離された、初期化済みの専用**オフライン端末**を使い、署名以外には使わないでください。
+MetroVault の元ドキュメントには、現在、包括的な[デバイス設定ガイド](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md)があります。これを最初から最後まで手順どおりに進め、必須条件として扱うことを強く推奨します。設定後もインターネットから切り離された、初期化済みの専用**オフライン端末**を使い、署名以外には使わないでください。
 
 1. インストール前に端末を工場出荷状態に初期化します。
 2. Google アカウントの設定をスキップし、端末をオフラインのままにします。

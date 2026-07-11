@@ -18,7 +18,7 @@ MetroVault peut transformer un ancien appareil Android en dispositif dedie de si
 
 ## Reinitialisez l'appareil Android et utilisez-le uniquement comme signataire hors ligne
 
-La documentation amont de MetroVault contient une [configuration recommandee de l'appareil](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Traitez cela comme une exigence : utilisez un telephone dedie, reinitialise en usine et **HORS LIGNE** qui reste deconnecte d'internet apres la configuration et qui sert uniquement a signer.
+La documentation amont de MetroVault contient maintenant un [guide complet de configuration de l'appareil](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Nous recommandons fortement de le suivre etape par etape et de le traiter comme une exigence : utilisez un telephone dedie, reinitialise en usine et **HORS LIGNE** qui reste deconnecte d'internet apres la configuration et qui sert uniquement a signer.
 
 1. Reinitialisez le telephone aux parametres d'usine avant l'installation.
 2. Ignorez la configuration du compte Google et gardez l'appareil hors ligne.

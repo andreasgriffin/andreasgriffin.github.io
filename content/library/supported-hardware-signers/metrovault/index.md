@@ -16,7 +16,7 @@ bucket: knowledge
 
 ## Reset Android Device And Use It Only As An Offline Signer
 
-MetroVault's has a [recommended device setup](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Treat this as a requirement: use a dedicated, factory-reset **OFFLINE phone** that stays disconnected from the internet after setup and is used only for signing.
+MetroVault now has a comprehensive [device setup guide](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). We strongly recommend following it step by step and treating it as a requirement: use a dedicated, factory-reset **OFFLINE phone** that stays disconnected from the internet after setup and is used only for signing.
 
 1. Factory reset the phone before installation.
 2. Skip Google account setup and keep the device offline.

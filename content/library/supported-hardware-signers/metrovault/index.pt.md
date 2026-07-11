@@ -18,7 +18,7 @@ MetroVault pode transformar um dispositivo Android antigo num dispositivo dedica
 
 ## Reposiciona o dispositivo Android e usa-o apenas como assinador offline
 
-A documentacao upstream do MetroVault tem uma [configuracao recomendada do dispositivo](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Trata isto como um requisito: usa um telefone dedicado, reposto de fabrica e **OFFLINE** que permaneça desligado da internet apos a configuracao e seja usado apenas para assinar.
+A documentacao upstream do MetroVault tem agora um [guia completo de configuracao do dispositivo](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Recomendamos fortemente que o sigas passo a passo e o trates como um requisito: usa um telefone dedicado, reposto de fabrica e **OFFLINE** que permaneça desligado da internet apos a configuracao e seja usado apenas para assinar.
 
 1. Reposiciona o telefone para as definicoes de fabrica antes da instalacao.
 2. Ignora a configuracao da conta Google e mantem o dispositivo offline.

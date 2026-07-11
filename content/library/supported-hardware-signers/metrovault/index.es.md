@@ -18,7 +18,7 @@ MetroVault puede convertir un dispositivo Android antiguo en un dispositivo dedi
 
 ## Restablece el dispositivo Android y usalo solo como firmador sin conexion
 
-La documentacion original de MetroVault tiene una [configuracion recomendada del dispositivo](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Tratalo como un requisito: usa un telefono dedicado, restablecido de fabrica y **SIN CONEXION** que siga desconectado de internet despues de la configuracion y se use solo para firmar.
+La documentacion original de MetroVault ahora tiene una [guia completa de configuracion del dispositivo](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Recomendamos encarecidamente seguirla paso a paso y tratarla como un requisito: usa un telefono dedicado, restablecido de fabrica y **SIN CONEXION** que siga desconectado de internet despues de la configuracion y se use solo para firmar.
 
 1. Restablece de fabrica el telefono antes de la instalacion.
 2. Omite la configuracion de la cuenta de Google y manten el dispositivo sin conexion.

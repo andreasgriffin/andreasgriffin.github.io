@@ -18,7 +18,7 @@ MetroVault pot convertir un dispositiu Android antic en un dispositiu dedicat de
 
 ## Restableix el dispositiu Android i fes-lo servir nomes com a signador fora de linia
 
-La documentacio original de MetroVault te una [configuracio recomanada del dispositiu](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Tracta-ho com un requisit: fes servir un telefon dedicat, restablert de fabrica i **SENSE CONNEXIO** que continu desconnectat d'internet despres de la configuracio i que s'utilitzi nomes per signar.
+La documentacio original de MetroVault ara te una [guia completa de configuracio del dispositiu](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Recomanem fermament seguir-la pas a pas i tractar-la com un requisit: fes servir un telefon dedicat, restablert de fabrica i **SENSE CONNEXIO** que continu desconnectat d'internet despres de la configuracio i que s'utilitzi nomes per signar.
 
 1. Restableix de fabrica el telefon abans de la instal·lacio.
 2. Omet la configuracio del compte de Google i mantingues el dispositiu fora de linia.

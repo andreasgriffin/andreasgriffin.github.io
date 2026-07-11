@@ -18,7 +18,7 @@ MetroVault, eski bir Android cihazi Bitcoin Safe icin ozel bir cevrimdisi Bitcoi
 
 ## Android cihazini sifirlayin ve onu yalnizca cevrimdisi bir imzalayici olarak kullanin
 
-MetroVault'un kaynak dokumantasyonunda [onerilen cihaz kurulumu](https://github.com/gorunjinian/MetroVault/#recommended-device-setup) bulunur. Bunu bir gereklilik olarak gorun: kurulumdan sonra internetten bagimsiz kalan ve yalnizca imzalama icin kullanilan, fabrikaya sifirlanmis, ozel bir **CEVRIMDISI telefon** kullanin.
+MetroVault'un kaynak dokumantasyonunda artik kapsamli bir [cihaz kurulum kilavuzu](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md) bulunuyor. Bunu adim adim takip etmenizi ve bir gereklilik olarak gormenizi siddetle tavsiye ediyoruz: kurulumdan sonra internetten bagimsiz kalan ve yalnizca imzalama icin kullanilan, fabrikaya sifirlanmis, ozel bir **CEVRIMDISI telefon** kullanin.
 
 1. Kurulumdan once telefonu fabrika ayarlarina sifirlayin.
 2. Google hesabi kurulumunu atlayin ve cihazi cevrimdisi tutun.

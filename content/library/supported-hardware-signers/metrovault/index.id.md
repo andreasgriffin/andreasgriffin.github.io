@@ -18,7 +18,7 @@ MetroVault dapat mengubah perangkat Android lama menjadi perangkat penandatangan
 
 ## Reset perangkat Android dan gunakan hanya sebagai penanda tangan offline
 
-Dokumentasi upstream MetroVault memiliki [pengaturan perangkat yang direkomendasikan](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Anggap ini sebagai persyaratan: gunakan ponsel khusus yang sudah di-reset ke setelan pabrik, **OFFLINE**, tetap terputus dari internet setelah penyiapan, dan dipakai hanya untuk menandatangani.
+Dokumentasi upstream MetroVault sekarang memiliki [panduan penyiapan perangkat yang lengkap](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Kami sangat menyarankan untuk mengikutinya langkah demi langkah dan menganggapnya sebagai persyaratan: gunakan ponsel khusus yang sudah di-reset ke setelan pabrik, **OFFLINE**, tetap terputus dari internet setelah penyiapan, dan dipakai hanya untuk menandatangani.
 
 1. Reset ponsel ke setelan pabrik sebelum instalasi.
 2. Lewati penyiapan akun Google dan biarkan perangkat tetap offline.

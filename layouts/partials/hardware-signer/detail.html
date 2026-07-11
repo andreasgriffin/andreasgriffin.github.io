@@ -39,7 +39,7 @@
         <div class="mb-2">
           {{ partial "hardware-signer/features.html" (dict "features" $signer.features "center" false) }}
         </div>
-        {{ if or $signer.shop_url $signer.download_url $signer.source_url }}
+        {{ if or $signer.shop_url $signer.download_url $signer.instructions_url $signer.source_url }}
           <div class="d-flex gap-2 flex-wrap">
             {{ if $signer.shop_url }}
               <a class="btn btn-primary btn-md px-4" href="{{ $signer.shop_url }}" target="_blank" rel="noopener">
@@ -49,6 +49,12 @@
             {{ with $signer.download_url }}
               {{ $label := or (index $signer.download_label $lang) (index $signer.download_label "en") "Download" }}
               <a class="btn btn-primary btn-md px-4" href="{{ . }}" target="_blank" rel="noopener">
+                {{ $label }}
+              </a>
+            {{ end }}
+            {{ with $signer.instructions_url }}
+              {{ $label := or (index $signer.instructions_label $lang) (index $signer.instructions_label "en") (i18n "hardware_instructions") "Instructions" }}
+              <a class="btn btn-outline-secondary btn-md px-4" href="{{ . }}" target="_blank" rel="noopener">
                 {{ $label }}
               </a>
             {{ end }}
