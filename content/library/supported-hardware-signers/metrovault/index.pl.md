@@ -18,7 +18,7 @@ MetroVault moze zamienic stary telefon z Androidem w dedykowane urzadzenie do po
 
 ## Zresetuj urzadzenie z Androidem i uzywaj go tylko jako podpisujacego offline
 
-Dokumentacja MetroVault zawiera [zalecana konfiguracje urzadzenia](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Traktuj to jako wymog: uzywaj dedykowanego telefonu po resecie fabrycznym, **OFFLINE**, ktory po konfiguracji pozostaje odlaczony od internetu i sluzy wylacznie do podpisywania.
+Dokumentacja MetroVault zawiera teraz kompleksowy [przewodnik konfiguracji urzadzenia](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Zdecydowanie zalecamy postepowanie zgodnie z nim krok po kroku i traktowanie go jako wymogu: uzywaj dedykowanego telefonu po resecie fabrycznym, **OFFLINE**, ktory po konfiguracji pozostaje odlaczony od internetu i sluzy wylacznie do podpisywania.
 
 1. Zresetuj telefon do ustawien fabrycznych przed instalacja.
 2. Pomin konfiguracje konta Google i utrzymuj urzadzenie offline.

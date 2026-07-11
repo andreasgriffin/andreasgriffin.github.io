@@ -18,7 +18,7 @@ MetroVault는 오래된 Android 기기를 Bitcoin Safe 전용 오프라인 Bitco
 
 ## Android 기기를 초기화하고 오프라인 서명 장치로만 사용하세요
 
-MetroVault의 원본 문서에는 [권장 기기 설정](https://github.com/gorunjinian/MetroVault/#recommended-device-setup)이 있습니다. 이것을 필수 요구 사항으로 보세요. 설정 후에도 인터넷과 분리된 전용 공장 초기화 **오프라인 휴대전화**를 사용하고, 오직 서명에만 사용해야 합니다.
+MetroVault의 원본 문서에는 이제 자세한 [기기 설정 가이드](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md)가 있습니다. 이 가이드를 처음부터 끝까지 그대로 따르기를 강력히 권장하며, 사실상 필수 요구 사항으로 보세요. 설정 후에도 인터넷과 분리된 전용 공장 초기화 **오프라인 휴대전화**를 사용하고, 오직 서명에만 사용해야 합니다.
 
 1. 설치 전에 휴대전화를 공장 초기화하세요.
 2. Google 계정 설정을 건너뛰고 기기를 오프라인 상태로 유지하세요.

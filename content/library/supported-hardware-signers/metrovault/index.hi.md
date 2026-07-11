@@ -18,7 +18,7 @@ MetroVault किसी पुराने Android डिवाइस को Bit
 
 ## Android डिवाइस reset करें और उसे केवल ऑफलाइन signer की तरह इस्तेमाल करें
 
-MetroVault के upstream documentation में [recommended device setup](https://github.com/gorunjinian/MetroVault/#recommended-device-setup) दिया गया है। इसे एक अनिवार्य requirement की तरह मानें: ऐसा dedicated, factory-reset **ऑफलाइन फोन** इस्तेमाल करें जो setup के बाद भी इंटरनेट से disconnected रहे और केवल signing के लिए इस्तेमाल हो।
+MetroVault के upstream documentation में अब एक comprehensive [device setup guide](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md) दिया गया है। हम जोरदार सिफारिश करते हैं कि इसे step by step follow करें और एक अनिवार्य requirement की तरह मानें: ऐसा dedicated, factory-reset **ऑफलाइन फोन** इस्तेमाल करें जो setup के बाद भी इंटरनेट से disconnected रहे और केवल signing के लिए इस्तेमाल हो।
 
 1. इंस्टॉलेशन से पहले फोन को factory reset करें।
 2. Google account setup को skip करें और डिवाइस को offline रखें।

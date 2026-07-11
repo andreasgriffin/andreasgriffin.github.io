@@ -18,7 +18,7 @@ MetroVault kann ein altes Android-Gerat in ein dediziertes Offline-Bitcoin-Signi
 
 ## Setze das Android-Gerat zuruck und nutze es nur als Offline-Signiergerat
 
-Die Upstream-Dokumentation von MetroVault enthalt eine [empfohlene Geratekonfiguration](https://github.com/gorunjinian/MetroVault/#recommended-device-setup). Betrachte das als Anforderung: Verwende ein dediziertes, auf Werkseinstellungen zuruckgesetztes **OFFLINE-Telefon**, das nach der Einrichtung vom Internet getrennt bleibt und nur zum Signieren genutzt wird.
+Die Upstream-Dokumentation von MetroVault enthalt jetzt einen umfassenden [Leitfaden zur Gerateeinrichtung](https://github.com/gorunjinian/MetroVault/blob/main/docs/DEVICE_SETUP.md). Wir empfehlen dringend, ihn Schritt fur Schritt zu befolgen und als Anforderung zu behandeln: Verwende ein dediziertes, auf Werkseinstellungen zuruckgesetztes **OFFLINE-Telefon**, das nach der Einrichtung vom Internet getrennt bleibt und nur zum Signieren genutzt wird.
 
 1. Setze das Telefon vor der Installation auf Werkseinstellungen zuruck.
 2. Uberspringe die Einrichtung eines Google-Kontos und halte das Gerat offline.
