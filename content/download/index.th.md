@@ -1,6 +1,6 @@
 ---
 title: "ดาวน์โหลด"
-description: "ดาวน์โหลด Bitcoin Safe"
+description: "ดาวน์โหลด Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe จะแจ้งเตือนเมื่อมีเวอร์ชันใหม่กว่าและยืนยันความถูกต้องโดยอัตโนมัติ.**
+✅ **Bitcoin-Safe จะแจ้งเตือนเมื่อมีเวอร์ชันใหม่กว่าและยืนยันความถูกต้องโดยอัตโนมัติ.**
 
 
-Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
+Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin-Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
 
 <br>
 <br>
 
 ###  macOS 
 
-โปรดทำตามขั้นตอนต่อไปเพื่อเรียกใช้ Bitcoin Safe บน macOS:
+โปรดทำตามขั้นตอนต่อไปเพื่อเรียกใช้ Bitcoin-Safe บน macOS:
 - คัดลอกไปยังโฟลเดอร์แอปของคุณ
 - ลองเปิดแอป จะมีข้อความเตือนปรากฏ
 - ไปที่ *การตั้งค่าระบบ* --> *ความเป็นส่วนตัวและความปลอดภัย* --> *เปิดต่อไป*
@@ -32,7 +32,7 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 
 <img src="/images/mac/copy-app.png" alt="คัดลอกแอปบน macOS"   /> 
 <img src="/images/mac/warning.png" alt="การเตือนบน macOS"   /> 
-<img src="/images/mac/disable.png" alt="เปิด Bitcoin Safe บน macOS"   /> 
+<img src="/images/mac/disable.png" alt="เปิด Bitcoin-Safe บน macOS"   /> 
 
 
 
@@ -42,6 +42,10 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 ### Debian/Ubuntu (คลังแพ็กเกจ APT)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+อีกทางเลือกหนึ่ง ผู้ใช้ Linux สามารถติดตั้ง Bitcoin-Safe จาก [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) ได้
 
 <br>
 <br>

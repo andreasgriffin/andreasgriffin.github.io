@@ -2,12 +2,12 @@
 aliases:
   - "/zh/features/readme/"
 title: "所有功能"
-description: "Bitcoin Safe 大部分功能的全面概述"
+description: "Bitcoin-Safe 大部分功能的全面概述"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "比特币储蓄钱包",
   "多重签名钱包",
   "Multisig 设置向导",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### 一个面向全家人的比特币储蓄钱包
 
@@ -80,7 +80,7 @@ weight: -10
   - 不同电脑间的钱包聊天和 PSBT 共享
 - **快速**：
   - Electrum 服务器同步
-  - 计划在 Bitcoin Safe 2.0 发布时升级为 **Compact Block Filters**
+  - 计划在 Bitcoin-Safe 2.0 发布时升级为 **Compact Block Filters**
 
 
 

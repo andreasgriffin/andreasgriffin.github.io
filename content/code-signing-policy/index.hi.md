@@ -1,5 +1,5 @@
 ---
-title: "कोड साइनिंग नीति और Bitcoin Safe गोपनीयता नीति"
+title: "कोड साइनिंग नीति और Bitcoin-Safe गोपनीयता नीति"
 description: "कोड साइनिंग नीति"
 draft: false
 tags: ["legal"]

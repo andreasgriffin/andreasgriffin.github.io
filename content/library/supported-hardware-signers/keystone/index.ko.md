@@ -8,7 +8,7 @@ videos:
 bucket: knowledge
 ---
 
-**가이드:** [Bitcoin Safe에서 Keystone 사용하기](https://guide.keyst.one/docs/bitcoinsafe)
+**가이드:** [Bitcoin-Safe에서 Keystone 사용하기](https://guide.keyst.one/docs/bitcoinsafe)
 
 # Videos
   

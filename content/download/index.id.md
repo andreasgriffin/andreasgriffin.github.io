@@ -1,6 +1,6 @@
 ---
 title: "Unduh"
-description: "Unduh Bitcoin Safe"
+description: "Unduh Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe memberi tahu Anda tentang versi yang lebih baru dan secara otomatis memverifikasi keasliannya.**
+✅ **Bitcoin-Safe memberi tahu Anda tentang versi yang lebih baru dan secara otomatis memverifikasi keasliannya.**
 
 
-Windows binary files are signed, check the [Kebijakan penandatanganan kode]({{< ref "code-signing-policy" >}}). Lihat juga [Kebijakan privasi Bitcoin Safe]({{< ref "code-signing-policy" >}}). Biner macOS tidak ditandatangani, jadi abaikan pesan peringatan tersebut.
+Windows binary files are signed, check the [Kebijakan penandatanganan kode]({{< ref "code-signing-policy" >}}). Lihat juga [Kebijakan privasi Bitcoin-Safe]({{< ref "code-signing-policy" >}}). Biner macOS tidak ditandatangani, jadi abaikan pesan peringatan tersebut.
 
 <br>
 <br>
 
 ###  macOS 
 
-Ikuti langkah-langkah berikut untuk menjalankan Bitcoin Safe di macOS:
+Ikuti langkah-langkah berikut untuk menjalankan Bitcoin-Safe di macOS:
 - Salin ke folder Aplikasi Anda
 - Saat mencoba membukanya, Anda akan menerima peringatan
 - Masuk ke *Pengaturan Sistem* --> *Privasi & Keamanan* --> *Buka saja*
@@ -32,7 +32,7 @@ Ikuti langkah-langkah berikut untuk menjalankan Bitcoin Safe di macOS:
 
 <img src="/images/mac/copy-app.png" alt="macOS salin aplikasi"   /> 
 <img src="/images/mac/warning.png" alt="peringatan macOS"   /> 
-<img src="/images/mac/disable.png" alt="membuka Bitcoin Safe di macOS"   /> 
+<img src="/images/mac/disable.png" alt="membuka Bitcoin-Safe di macOS"   /> 
 
 
 
@@ -42,6 +42,10 @@ Ikuti langkah-langkah berikut untuk menjalankan Bitcoin Safe di macOS:
 ### Debian/Ubuntu (repositori APT)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+Sebagai alternatif, pengguna Linux dapat menginstal Bitcoin-Safe dari [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "kompakt blok filtreleri"
   - "CBF"
   - "gizlilik"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**Kompakt blok filtreleri (CBF)**, [Bitcoin Safe]({{< ref "/" >}}) uygulamasının bir Electrum sunucusuna hangi adreslerin size ait olduğunu sormadan blok zincirini taramasını sağlar.
+**Kompakt blok filtreleri (CBF)**, [Bitcoin-Safe]({{< ref "/" >}}) uygulamasının bir Electrum sunucusuna hangi adreslerin size ait olduğunu sormadan blok zincirini taramasını sağlar.
 
-![Bitcoin Safe, birkaç rastgele Bitcoin Core peer'inden kompakt blok filtreleri indirir.](logo.jpg)
+![Bitcoin-Safe, birkaç rastgele Bitcoin Core peer'inden kompakt blok filtreleri indirir.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Bitcoin Safe, merkezi bir sunucuyu sorgulamak yerine her blok için küçük bir filtreyi rastgele Bitcoin Core peer'lerinden indirir. Cüzdanınız bunları yerel olarak kontrol eder ve yalnızca gerektiğinde tam blokları indirir.
+Bitcoin-Safe, merkezi bir sunucuyu sorgulamak yerine her blok için küçük bir filtreyi rastgele Bitcoin Core peer'lerinden indirir. Cüzdanınız bunları yerel olarak kontrol eder ve yalnızca gerektiğinde tam blokları indirir.
 
 ### CBF ve Electrum
 
@@ -71,7 +71,7 @@ Bitcoin Safe, merkezi bir sunucuyu sorgulamak yerine her blok için küçük bir
 ### Neden CBF kullanılır
 
 - Daha fazla gizlilik: cüzdanınız hiçbir zaman sunucuya adreslerinizi sormaz.
-- Güvenilen indeksleyici yok: Bitcoin Safe doğrudan Bitcoin ağıyla konuşur.
+- Güvenilen indeksleyici yok: Bitcoin-Safe doğrudan Bitcoin ağıyla konuşur.
 - Hafif senkronizasyon: filtreler küçüktür, bu yüzden tüm blok zinciri gerekmez.
 
 ### Ne beklemeli
@@ -80,7 +80,7 @@ Bitcoin Safe, merkezi bir sunucuyu sorgulamak yerine her blok için küçük bir
 - Zaten senkronize edilmiş cüzdan: genelde **çok hızlı** yetişir, çoğu zaman **30 saniyeden kısa** sürer.
 - Electrum'dan CBF'ye geçiş: genelde o da **30 saniyeden kısa** sürer.
 
-Bitcoin Safe'in kaç peer'e bağlanacağını seçebilirsiniz. Peer sayısı arttıkça yedeklilik artar, ancak genelde bant genişliği ve senkronizasyon süresi de artar. Varsayılan **2** peer'dir.
+Bitcoin-Safe'in kaç peer'e bağlanacağını seçebilirsiniz. Peer sayısı arttıkça yedeklilik artar, ancak genelde bant genişliği ve senkronizasyon süresi de artar. Varsayılan **2** peer'dir.
 
 ### Onaylanmamış işlemler
 
@@ -88,7 +88,7 @@ CBF yalnızca **onaylı blokları** kapsar. Onaylanmamış gelen ödemeler için
 
 ### Teknik not
 
-Kompakt blok filtreleri [BIP158](https://bips.dev/158/) içinde tanımlanmıştır. Bitcoin Safe, açık kaynaklı [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) kullanır.
+Kompakt blok filtreleri [BIP158](https://bips.dev/158/) içinde tanımlanmıştır. Bitcoin-Safe, açık kaynaklı [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) kullanır.
 
 Kendi Bitcoin Core düğümünüzü _Bitcoin network monitoring_ ayarlarında başlangıç peer'i olarak da kullanabilirsiniz.
 

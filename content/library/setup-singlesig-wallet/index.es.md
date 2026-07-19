@@ -2,7 +2,7 @@
 aliases:
   - "/es/knowledge/setup-singlesig-wallet/"
 title: "Configuración Singlesig paso a paso"
-description: "El asistente de configuración de Bitcoin Safe te guía a través de los pasos para crear una cartera Bitcoin singlesig"
+description: "El asistente de configuración de Bitcoin-Safe te guía a través de los pasos para crear una cartera Bitcoin singlesig"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Configuración guiada de cartera Singlesig
 
-🔒 Configurar una cartera segura **Bitcoin Safe** es la mejor manera de proteger tus fondos frente a fallos de exchanges, hacks y robos. En este tutorial, te guiaremos por todo el proceso con Trezor paso a paso.
+🔒 Configurar una cartera segura **Bitcoin-Safe** es la mejor manera de proteger tus fondos frente a fallos de exchanges, hacks y robos. En este tutorial, te guiaremos por todo el proceso con Trezor paso a paso.
  
 
 

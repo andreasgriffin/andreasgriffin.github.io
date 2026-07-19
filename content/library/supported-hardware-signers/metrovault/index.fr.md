@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault peut transformer un ancien appareil Android en dispositif dedie de signature Bitcoin hors ligne pour Bitcoin Safe. Ne l'installez pas sur votre telephone de tous les jours. Reinitialisez d'abord l'appareil, gardez-le **HORS LIGNE** et deconnecte d'internet, et utilisez-le uniquement pour signer.
+MetroVault peut transformer un ancien appareil Android en dispositif dedie de signature Bitcoin hors ligne pour Bitcoin-Safe. Ne l'installez pas sur votre telephone de tous les jours. Reinitialisez d'abord l'appareil, gardez-le **HORS LIGNE** et deconnecte d'internet, et utilisez-le uniquement pour signer.
 
 ## A quoi s'attendre
 
 - Reinitialisez un ancien appareil Android avant l'installation et utilisez-le uniquement comme appareil de signature.
 - N'installez pas d'autres applications, ne vous connectez a aucun compte, n'inserez pas de carte SIM et ne reconnectez pas l'appareil a internet.
-- Echangez les donnees du portefeuille, les descripteurs et les PSBT avec Bitcoin Safe a l'aide de codes QR.
-- Enregistrez les descripteurs multisig et exportez les donnees du signataire pour Bitcoin Safe.
+- Echangez les donnees du portefeuille, les descripteurs et les PSBT avec Bitcoin-Safe a l'aide de codes QR.
+- Enregistrez les descripteurs multisig et exportez les donnees du signataire pour Bitcoin-Safe.
 - Verifiez tous les details sur l'ecran de MetroVault avant de signer.
 
 ## Reinitialisez l'appareil Android et utilisez-le uniquement comme signataire hors ligne

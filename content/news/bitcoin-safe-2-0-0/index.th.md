@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "บันทึกประจำรุ่นของ Bitcoin Safe 2.0.0 พร้อมตัวช่วยตั้งค่าที่สร้างใหม่ การซิงก์แบบเป็นส่วนตัวด้วย Compact Block Filters และการรองรับฮาร์ดแวร์วอลเล็ตที่กว้างขึ้น"
+description: "บันทึกประจำรุ่นของ Bitcoin-Safe 2.0.0 พร้อมตัวช่วยตั้งค่าที่สร้างใหม่ การซิงก์แบบเป็นส่วนตัวด้วย Compact Block Filters และการรองรับฮาร์ดแวร์วอลเล็ตที่กว้างขึ้น"
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">ประกาศการออกรุ่น</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - การตั้งค่าวอลเล็ตแบบมีคำแนะนำ การซิงก์เชนแบบเป็นส่วนตัว และการลงนามที่โฟกัสกับอุปกรณ์</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - การตั้งค่าวอลเล็ตแบบมีคำแนะนำ การซิงก์เชนแบบเป็นส่วนตัว และการลงนามที่โฟกัสกับอุปกรณ์</h2>
     <p class="lead mb-4">รุ่นนี้มาพร้อมตัวช่วยตั้งค่าที่สร้างใหม่ทั้งหมด การซิงก์เชนแบบเป็นส่วนตัวด้วย Compact Block Filters และขั้นตอนการลงนามที่จัดวางรอบอุปกรณ์ฮาร์ดแวร์แต่ละตัว หากคุณสนใจ cold storage แต่ยังไม่มั่นใจ นี่คือรุ่นที่น่าลองมากที่สุด</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">ดาวน์โหลด Bitcoin Safe 2.0</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">ดาวน์โหลด Bitcoin-Safe 2.0</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">ดูว่ามีอะไรใหม่</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## เส้นทางแบบมีคำแนะนำสู่ self-custody {#setup-flow}
 
-ประสบการณ์การใช้งานครั้งแรกถูกสร้างใหม่ทั้งหมด Bitcoin Safe ยังคงมุ่งไปที่ self-custody อย่างจริงจัง รวมถึง hardware-backed multisig และในเวอร์ชัน 2.0 ก็เพิ่มเส้นทางแบบมีคำแนะนำสำหรับผู้ใช้ใหม่ให้ผ่านการตั้งค่านี้ได้ง่ายขึ้น ตัวช่วยใหม่จะอธิบายว่าเกิดอะไรขึ้น ตอนนี้คุณอยู่ตรงไหนของขั้นตอน และ signer แต่ละคนต้องการอะไรจากคุณก่อนจะไปต่อ
+ประสบการณ์การใช้งานครั้งแรกถูกสร้างใหม่ทั้งหมด Bitcoin-Safe ยังคงมุ่งไปที่ self-custody อย่างจริงจัง รวมถึง hardware-backed multisig และในเวอร์ชัน 2.0 ก็เพิ่มเส้นทางแบบมีคำแนะนำสำหรับผู้ใช้ใหม่ให้ผ่านการตั้งค่านี้ได้ง่ายขึ้น ตัวช่วยใหม่จะอธิบายว่าเกิดอะไรขึ้น ตอนนี้คุณอยู่ตรงไหนของขั้นตอน และ signer แต่ละคนต้องการอะไรจากคุณก่อนจะไปต่อ
 
 <p class="small text-muted">ดูรายละเอียดการพัฒนาได้ที่ <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a></p>
 
@@ -72,7 +72,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## การซิงก์เชนแบบเป็นส่วนตัวและแข็งแรงด้วย Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) กลายเป็นกลไกหลักของการซิงก์วอลเล็ตใหม่ใน Bitcoin Safe 2.0 แล้ว แทนที่จะถาม Electrum server ว่าที่อยู่ใดเป็นของคุณ Bitcoin Safe สามารถสแกนเชนแบบเป็นส่วนตัวได้ด้วยการดาวน์โหลด compact filters จาก Bitcoin Core peers แบบสุ่มแล้วตรวจสอบภายในเครื่อง
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) กลายเป็นกลไกหลักของการซิงก์วอลเล็ตใหม่ใน Bitcoin-Safe 2.0 แล้ว แทนที่จะถาม Electrum server ว่าที่อยู่ใดเป็นของคุณ Bitcoin-Safe สามารถสแกนเชนแบบเป็นส่วนตัวได้ด้วยการดาวน์โหลด compact filters จาก Bitcoin Core peers แบบสุ่มแล้วตรวจสอบภายในเครื่อง
 
 <p class="small text-muted">ดูรายละเอียดการพัฒนาได้ที่ <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a></p>
 
@@ -88,7 +88,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## ขั้นตอนการลงนามที่โฟกัสกับอุปกรณ์สำหรับทุกอุปกรณ์ {#device-focused-signing}
 
-การออกแบบใหม่นี้ยังปรับรูปแบบขั้นตอนการลงนามหลังจากสร้างวอลเล็ตแล้วด้วย จากเดิมที่ใช้หน้าจอทั่วไปหนึ่งหน้าสำหรับ signer ทุกคน ตอนนี้ Bitcoin Safe จะวาง actions ต่าง ๆ ไว้รอบอุปกรณ์ที่คุณกำลังใช้งานอยู่โดยตรง
+การออกแบบใหม่นี้ยังปรับรูปแบบขั้นตอนการลงนามหลังจากสร้างวอลเล็ตแล้วด้วย จากเดิมที่ใช้หน้าจอทั่วไปหนึ่งหน้าสำหรับ signer ทุกคน ตอนนี้ Bitcoin-Safe จะวาง actions ต่าง ๆ ไว้รอบอุปกรณ์ที่คุณกำลังใช้งานอยู่โดยตรง
 
 <p class="small text-muted">ดูรายละเอียดการพัฒนาได้ที่ <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a></p>
 
@@ -103,7 +103,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## สถาปัตยกรรม plugins สำหรับ workflow ทางธุรกิจและ power users
 
-Bitcoin Safe 2.0 ยังวางรากฐานสำหรับ plugins เพิ่มเติมในอนาคตที่มุ่งเป้าไปยังธุรกิจ Bitcoin และ power users ด้วย ดังนั้นอย่าลืมติดตามสิ่งที่จะตามมา :-)
+Bitcoin-Safe 2.0 ยังวางรากฐานสำหรับ plugins เพิ่มเติมในอนาคตที่มุ่งเป้าไปยังธุรกิจ Bitcoin และ power users ด้วย ดังนั้นอย่าลืมติดตามสิ่งที่จะตามมา :-)
 
 <p class="small text-muted">ดูรายละเอียดการพัฒนาได้ที่ <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a></p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0 ยังวางรากฐานสำหรับ plugins 
 <br><br>
 ## จุดแข็งเดิมยังอยู่ครบ
 
-เวอร์ชัน 2.0 ไม่ใช่การเริ่มต้นใหม่ทั้งหมด ภายใต้ onboarding และ signing flow ใหม่ Bitcoin Safe ยังคงรักษาความสามารถที่ทำให้มันมีประโยชน์ในทุกวันไว้เหมือนเดิม ไม่ว่าจะเป็น collaborative multisig, PDF backups, ประวัติวอลเล็ตที่ค้นหาได้, การแสดงภาพการไหลของเงิน, label sync และอื่น ๆ
+เวอร์ชัน 2.0 ไม่ใช่การเริ่มต้นใหม่ทั้งหมด ภายใต้ onboarding และ signing flow ใหม่ Bitcoin-Safe ยังคงรักษาความสามารถที่ทำให้มันมีประโยชน์ในทุกวันไว้เหมือนเดิม ไม่ว่าจะเป็น collaborative multisig, PDF backups, ประวัติวอลเล็ตที่ค้นหาได้, การแสดงภาพการไหลของเงิน, label sync และอื่น ๆ
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ Bitcoin Safe 2.0 ยังวางรากฐานสำหรับ plugins 
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">พร้อมลองใช้ Bitcoin Safe 2.0 แล้วหรือยัง?</h2>
+  <h2 class="h4 mb-2">พร้อมลองใช้ Bitcoin-Safe 2.0 แล้วหรือยัง?</h2>
   <p class="mb-3">ดาวน์โหลดรุ่นล่าสุดและลองสำรวจ onboarding ใหม่ การซิงก์แบบเป็นส่วนตัว และการปรับปรุงฮาร์ดแวร์วอลเล็ตด้วยตัวคุณเอง</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">ดาวน์โหลด Bitcoin Safe</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">ดาวน์โหลด Bitcoin-Safe</a>
 </div>
 
 
@@ -154,9 +154,9 @@ Bitcoin Safe 2.0 ยังวางรากฐานสำหรับ plugins 
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) สำหรับการออกแบบ wizard ใหม่ งานด้าน plugin UI และการสนับสนุน UI/UX ที่ **ยอดเยี่ยมและไม่ย่อท้อ**
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) สำหรับ Compact Block Filter client ที่ตอนนี้ขับเคลื่อนการซิงก์แบบเป็นส่วนตัวของวอลเล็ตใหม่
-- ทีม [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) สำหรับไลบรารีที่เป็นแกนหลักของ Bitcoin Safe
+- ทีม [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) สำหรับไลบรารีที่เป็นแกนหลักของ Bitcoin-Safe
 - ทีม [ndk](https://github.com/nostr-dev-kit/ndk) สำหรับไลบรารีที่ขับเคลื่อนความสามารถด้าน nostr
-- ทุกคนในชุมชน Bitcoin Safe ที่ช่วยทดสอบ release candidates, รายงาน bugs, แปลหน้าเว็บ, ส่ง sats และผลักดันโครงการต่อไป
+- ทุกคนในชุมชน Bitcoin-Safe ที่ช่วยทดสอบ release candidates, รายงาน bugs, แปลหน้าเว็บ, ส่ง sats และผลักดันโครงการต่อไป
 - [ผู้แปล]({{< ref "donate/#translators" >}}) ได้แก่ <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (เวียดนาม)" title="qdyg-vn 🇻🇳 (เวียดนาม)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (เยอรมัน)" title="bsn21m 🇩🇪 (เยอรมัน)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (สเปน)" title="cyphra 🇪🇸 (สเปน)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

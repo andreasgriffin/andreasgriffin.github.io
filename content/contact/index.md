@@ -14,7 +14,7 @@ aliases:
 <br>
 
 
-Bitcoin Safe community: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe community: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 [Open an issue](https://github.com/andreasgriffin/bitcoin-safe) on GitHub.
 

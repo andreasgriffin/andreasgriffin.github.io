@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault pode transformar um dispositivo Android antigo num dispositivo dedicado de assinatura Bitcoin offline para o Bitcoin Safe. Nao o instales no teu telefone de uso diario. Reposiciona primeiro o dispositivo, mantem-no **OFFLINE** e desligado da internet, e usa-o apenas para assinar.
+MetroVault pode transformar um dispositivo Android antigo num dispositivo dedicado de assinatura Bitcoin offline para o Bitcoin-Safe. Nao o instales no teu telefone de uso diario. Reposiciona primeiro o dispositivo, mantem-no **OFFLINE** e desligado da internet, e usa-o apenas para assinar.
 
 ## O que esperar
 
 - Reposiciona um dispositivo Android antigo antes da instalacao e usa-o apenas como assinador.
 - Nao instales outras aplicacoes, nao inicies sessao em contas, nao coloques um cartao SIM nem voltes a ligar o dispositivo a internet.
-- Troca dados da carteira, descritores e PSBT com o Bitcoin Safe atraves de codigos QR.
-- Regista descritores multisig e exporta dados do assinador para o Bitcoin Safe.
+- Troca dados da carteira, descritores e PSBT com o Bitcoin-Safe atraves de codigos QR.
+- Regista descritores multisig e exporta dados do assinador para o Bitcoin-Safe.
 - Verifica todos os detalhes no ecra do MetroVault antes de assinar.
 
 ## Reposiciona o dispositivo Android e usa-o apenas como assinador offline

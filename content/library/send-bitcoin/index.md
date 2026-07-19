@@ -3,7 +3,7 @@ aliases:
   - "/knowledge/send-bitcoin/"
   - "/en/knowledge/send-bitcoin/"
 title: "Send Bitcoin"
-description: "A full Bitcoin Safe send flow from selecting recipients to final review and broadcast."
+description: "A full Bitcoin-Safe send flow from selecting recipients to final review and broadcast."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -21,7 +21,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Walk through the full Bitcoin Safe send flow from preparing a payment to final confirmation and broadcast.
+Walk through the full Bitcoin-Safe send flow from preparing a payment to final confirmation and broadcast.
 
 - ✅ Build and review a transaction before signing
 - ✅ Confirm outputs and fees with confidence

@@ -12,7 +12,7 @@ menu:
 
 1. Allgemeiner Haftungsausschluss
 
-Die auf der Website "Bitcoin Safe" bereitgestellten Informationen dienen nur allgemeinen Informationszwecken. Wir geben keinerlei Zusicherungen oder Garantien irgendwelcher Art hinsichtlich der Vollständigkeit oder Genauigkeit dieser Informationen.
+Die auf der Website "Bitcoin-Safe" bereitgestellten Informationen dienen nur allgemeinen Informationszwecken. Wir geben keinerlei Zusicherungen oder Garantien irgendwelcher Art hinsichtlich der Vollständigkeit oder Genauigkeit dieser Informationen.
 
 2. Haftungsausschluss für Software
 

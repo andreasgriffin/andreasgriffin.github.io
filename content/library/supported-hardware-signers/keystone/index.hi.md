@@ -8,7 +8,7 @@ videos:
 bucket: knowledge
 ---
 
-**गाइड:** [Bitcoin Safe के साथ Keystone का उपयोग करें](https://guide.keyst.one/docs/bitcoinsafe)
+**गाइड:** [Bitcoin-Safe के साथ Keystone का उपयोग करें](https://guide.keyst.one/docs/bitcoinsafe)
 
 # Videos
   

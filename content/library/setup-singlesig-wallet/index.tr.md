@@ -2,7 +2,7 @@
 aliases:
   - "/tr/knowledge/setup-singlesig-wallet/"
 title: "Adım Adım Tek İmza (Singlesig) Kurulumu"
-description: "Bitcoin Safe kurulum sihirbazı, tek imzalı bir bitcoin cüzdanı oluşturma adımlarında size rehberlik eder"
+description: "Bitcoin-Safe kurulum sihirbazı, tek imzalı bir bitcoin cüzdanı oluşturma adımlarında size rehberlik eder"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Rehberli Singlesig Cüzdan Kurulumu
 
-🔒 Güvenli bir **Bitcoin Safe** cüzdanı kurmak, fonlarınızı borsa arızalarından, saldırılardan ve hırsızlıktan korumanın en iyi yoludur. Bu öğreticide, Trezor ile tüm süreci adım adım göstereceğiz!
+🔒 Güvenli bir **Bitcoin-Safe** cüzdanı kurmak, fonlarınızı borsa arızalarından, saldırılardan ve hırsızlıktan korumanın en iyi yoludur. Bu öğreticide, Trezor ile tüm süreci adım adım göstereceğiz!
  
 
 

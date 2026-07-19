@@ -2,7 +2,7 @@
 aliases:
   - "/ca/knowledge/setup-singlesig-wallet/"
 title: "Configuració pas a pas d'un moneder Singlesig"
-description: "L'assistent de configuració de Bitcoin Safe et guia pas a pas per crear un moneder de bitcoin singlesig"
+description: "L'assistent de configuració de Bitcoin-Safe et guia pas a pas per crear un moneder de bitcoin singlesig"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Configuració guiada d'un moneder Singlesig
 
-🔒 Configurar un moneder segur de **Bitcoin Safe** és la millor manera de protegir els teus fons de fallades d'intercanvis, pirates informàtics i robatoris. En aquest tutorial t'explicarem tot el procés amb Trezor pas a pas!
+🔒 Configurar un moneder segur de **Bitcoin-Safe** és la millor manera de protegir els teus fons de fallades d'intercanvis, pirates informàtics i robatoris. En aquest tutorial t'explicarem tot el procés amb Trezor pas a pas!
  
 
 

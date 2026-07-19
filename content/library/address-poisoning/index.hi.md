@@ -2,7 +2,7 @@
 aliases:
   - "/hi/features/address-poisoning/"
 title: "Address Poisoning का पता लगाना"
-description: "हमलावर आपको आपके पते जैसा दिखने वाले पतों के साथ लेन-देन भेज सकते हैं। अगर ऐसा होता है तो Bitcoin Safe आपको चेतावनी देगा।"
+description: "हमलावर आपको आपके पते जैसा दिखने वाले पतों के साथ लेन-देन भेज सकते हैं। अगर ऐसा होता है तो Bitcoin-Safe आपको चेतावनी देगा।"
 draft: false
 bucket: features
 images: ["logo.png"]
@@ -16,5 +16,5 @@ keywords: ["संबोधन विषाक्तता", "फ़िशिं
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 }

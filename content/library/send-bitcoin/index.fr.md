@@ -2,7 +2,7 @@
 aliases:
   - "/fr/knowledge/send-bitcoin/"
 title: "Envoyer du Bitcoin"
-description: "Un flux complet d’envoi dans Bitcoin Safe, de la sélection des destinataires à la révision finale et à la diffusion."
+description: "Un flux complet d’envoi dans Bitcoin-Safe, de la sélection des destinataires à la révision finale et à la diffusion."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Suivez le flux complet d’envoi dans Bitcoin Safe, de la préparation d’un paiement à la confirmation finale et à la diffusion.
+Suivez le flux complet d’envoi dans Bitcoin-Safe, de la préparation d’un paiement à la confirmation finale et à la diffusion.
 
 - ✅ Créez et vérifiez une transaction avant de signer
 - ✅ Confirmez les sorties et les frais en toute confiance

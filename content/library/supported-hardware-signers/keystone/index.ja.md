@@ -8,7 +8,7 @@ videos:
 bucket: knowledge
 ---
 
-**ガイド:** [Bitcoin SafeでKeystoneを使う](https://guide.keyst.one/docs/bitcoinsafe)
+**ガイド:** [Bitcoin-SafeでKeystoneを使う](https://guide.keyst.one/docs/bitcoinsafe)
 
 # Videos
   

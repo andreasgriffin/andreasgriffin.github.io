@@ -1,6 +1,6 @@
 ---
 title: "⚡الدعم"
-description: "تبرع وادعم Bitcoin Safe"
+description: "تبرع وادعم Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-بناء **Bitcoin Safe** عمل صعب ومعقد ويتطلب دقة لبناء أفضل قيمة لك. نحن نقدر كل دعم يمكنك تقديمه:
-- أسهل طريقة لدعم Bitcoin Safe هي بالتبرع:
+بناء **Bitcoin-Safe** عمل صعب ومعقد ويتطلب دقة لبناء أفضل قيمة لك. نحن نقدر كل دعم يمكنك تقديمه:
+- أسهل طريقة لدعم Bitcoin-Safe هي بالتبرع:
   - {{< donation_btc >}}
 - لكن يمكنك أيضًا المساهمة بعملك، على سبيل المثال
   - {{< i18n "donate_support_testing_feedback" >}}
-  - تحسين [الترجمات](https://hosted.weblate.org/engage/bitcoin-safe/) الخاصة بـ **Bitcoin Safe**. لا تجد لغتك هناك؟ اكتب لي وسنضيفها معًا.
+  - تحسين [الترجمات](https://hosted.weblate.org/engage/bitcoin-safe/) الخاصة بـ **Bitcoin-Safe**. لا تجد لغتك هناك؟ اكتب لي وسنضيفها معًا.
   - {{< i18n "donate_support_other_ways" >}}
 
-ادعم **Bitcoin Safe** واندرج في القائمة أدناه
+ادعم **Bitcoin-Safe** واندرج في القائمة أدناه
 
 <br>
 <br>

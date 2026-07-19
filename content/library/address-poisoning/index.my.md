@@ -2,7 +2,7 @@
 aliases:
   - "/my/features/address-poisoning/"
 title: "လိပ်စာ အဆိပ်ထိုး ရှာဖွေခြင်း"
-description: "တိုက်ခိုက်သူများသည် သင့်လိပ်စာနှင့် ဆင်တူသော လိပ်စာများဖြင့် သင့်သို့ ငွေလွှဲများ ပို့နိုင်သည်။ Bitcoin Safe သည် ထိုကဲ့သို့ဖြစ်ပါက သင့်အား သတိပေးမည်။"
+description: "တိုက်ခိုက်သူများသည် သင့်လိပ်စာနှင့် ဆင်တူသော လိပ်စာများဖြင့် သင့်သို့ ငွေလွှဲများ ပို့နိုင်သည်။ Bitcoin-Safe သည် ထိုကဲ့သို့ဖြစ်ပါက သင့်အား သတိပေးမည်။"
 draft: false
 bucket: features
 images: ["logo.png"]
@@ -16,5 +16,5 @@ keywords: ["Keracunan alamat", "phishing", "Serangan habuk", "perlindungan dompe
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 }

@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault 可以把一台旧的 Android 设备变成专门给 Bitcoin Safe 使用的离线 Bitcoin 签名设备。不要把它安装在你的日常手机上。请先重置设备，让它保持**离线**并与互联网断开连接，而且只把它用于签名。
+MetroVault 可以把一台旧的 Android 设备变成专门给 Bitcoin-Safe 使用的离线 Bitcoin 签名设备。不要把它安装在你的日常手机上。请先重置设备，让它保持**离线**并与互联网断开连接，而且只把它用于签名。
 
 ## 你需要预期什么
 
 - 在安装之前先重置一台旧的 Android 设备，并且只把它当作签名设备使用。
 - 不要安装其他应用，不要登录任何账户，不要插入 SIM 卡，也不要再把设备连回互联网。
-- 通过二维码与 Bitcoin Safe 交换钱包数据、描述符和 PSBT。
-- 为 Bitcoin Safe 注册多签描述符并导出签名设备数据。
+- 通过二维码与 Bitcoin-Safe 交换钱包数据、描述符和 PSBT。
+- 为 Bitcoin-Safe 注册多签描述符并导出签名设备数据。
 - 在签名之前先在 MetroVault 屏幕上核对所有细节。
 
 ## 重置 Android 设备，并且只把它当作离线签名器使用

@@ -2,7 +2,7 @@
 aliases:
   - "/de/knowledge/setup-multisig-wallet/"
 title: "Schritt-für-Schritt Multisig-Einrichtung"
-description: "Der Bitcoin Safe Einrichtungsassistent führt Sie Schritt für Schritt durch die Erstellung einer 2-von-3 Multisig-Bitcoin-Wallet"
+description: "Der Bitcoin-Safe Einrichtungsassistent führt Sie Schritt für Schritt durch die Erstellung einer 2-von-3 Multisig-Bitcoin-Wallet"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Geführte 2-von-3 Multisig-Wallet
 
-🔒 Das Einrichten einer sicheren **Bitcoin Safe** Wallet ist der beste Weg, Ihre Mittel vor Ausfällen von Börsen, Hacks und Diebstahl zu schützen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess!
+🔒 Das Einrichten einer sicheren **Bitcoin-Safe** Wallet ist der beste Weg, Ihre Mittel vor Ausfällen von Börsen, Hacks und Diebstahl zu schützen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess!
  
 
 - 🔐 Verbinden Sie eine *Coldcard Q*, eine *Bitbox02* und eine *Keystone*

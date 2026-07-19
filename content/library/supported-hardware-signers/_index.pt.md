@@ -2,7 +2,7 @@
 aliases:
   - "/pt/knowledge/supported-hardware-signers/"
 title: Assinadores de hardware totalmente compatíveis
-description: Assinadores de hardware totalmente compatíveis para Bitcoin Safe
+description: Assinadores de hardware totalmente compatíveis para Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

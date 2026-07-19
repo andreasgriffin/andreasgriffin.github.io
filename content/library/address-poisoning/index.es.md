@@ -2,7 +2,7 @@
 aliases:
   - "/es/features/address-poisoning/"
 title: "Detección de envenenamiento de direcciones"
-description: "Los atacantes pueden enviarte transacciones con direcciones similares a la tuya. Bitcoin Safe te avisará si eso ocurre"
+description: "Los atacantes pueden enviarte transacciones con direcciones similares a la tuya. Bitcoin-Safe te avisará si eso ocurre"
 draft: false
 bucket: features
 images: ["logo.png"]
@@ -16,5 +16,5 @@ keywords: ["dirigir envenenamiento", "phishing", "ataque con polvo", "protecció
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 }

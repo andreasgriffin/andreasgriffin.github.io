@@ -2,12 +2,12 @@
 aliases:
   - "/id/knowledge/hardware-signer-only/"
 title: "Diperlukan Penanda Perangkat Keras"
-description: "Bitcoin Safe menerapkan hanya seed perangkat keras di Mainnet untuk memaksimalkan keamanan dan menghindari risiko penyimpanan kunci berbasis perangkat lunak. Inilah alasannya."
+description: "Bitcoin-Safe menerapkan hanya seed perangkat keras di Mainnet untuk memaksimalkan keamanan dan menghindari risiko penyimpanan kunci berbasis perangkat lunak. Inilah alasannya."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "dompet perangkat keras",
   "seed perangkat lunak",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Mengapa Bitcoin Safe memblokir seed perangkat lunak di Mainnet?
+## 🚫 Mengapa Bitcoin-Safe memblokir seed perangkat lunak di Mainnet?
 
 🤔 Bukankah itu merepotkan?
 
 🔥 Ternyata — ini adalah **peningkatan keamanan besar**.
 
-Bitcoin Safe **hanya mengizinkan seed perangkat lunak di Testnet, Signet, dan Regtest** — tidak pernah di Mainnet. Begini alasannya:
+Bitcoin-Safe **hanya mengizinkan seed perangkat lunak di Testnet, Signet, dan Regtest** — tidak pernah di Mainnet. Begini alasannya:
 
 ### ✅ Alasan mengapa seed perangkat lunak diblokir di Mainnet
 
@@ -95,7 +95,7 @@ Bitcoin Safe **hanya mengizinkan seed perangkat lunak di Testnet, Signet, dan Re
 
 ## 🛡️ Perlindungan terhadap pemalsuan alamat
 
-Bitcoin Safe **mewarnai alamat penerimaan** untuk membuat pemalsuan alamat terlihat jelas:
+Bitcoin-Safe **mewarnai alamat penerimaan** untuk membuat pemalsuan alamat terlihat jelas:
 
 - 🟢 Hijau = alamat penerimaan yang terverifikasi  
 - 🟡 Kuning = alamat perubahan  
@@ -131,7 +131,7 @@ Verifikasi alamat penerimaan langsung di penanda perangkat keras Anda — tidak 
 
 ## 🤝 Multisig kolaboratif jadi mudah
 
-Bitcoin Safe membuat multisig ramah pengguna dan siap tim:
+Bitcoin-Safe membuat multisig ramah pengguna dan siap tim:
 
 - 🔐 Obrolan Nostr terenkripsi  
 - 🔁 Berbagi PSBT dengan 1-klik  
@@ -150,7 +150,7 @@ Bitcoin Safe membuat multisig ramah pengguna dan siap tim:
 - 🔁 Sinkronisasi label melalui Nostr  
 - 🔍 Diagram aliran uang lengkap & riwayat transaksi yang dapat dicari
 
-![Diagram transaksi di Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Diagram transaksi di Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ Bitcoin Safe membuat multisig ramah pengguna dan siap tim:
 
 ## 💡 Singkatnya
 
-Bitcoin Safe = Tabungan Bitcoin sejati:
+Bitcoin-Safe = Tabungan Bitcoin sejati:
 
 ✅ Hanya perangkat keras di Mainnet  
 ✅ Tidak ada paparan seed perangkat lunak  

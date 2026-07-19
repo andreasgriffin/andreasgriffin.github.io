@@ -9,7 +9,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Bitcoin multisig",
   "Multisig wallet",
   "2-of-3 multisig",
@@ -23,7 +23,7 @@ keywords: [
   "Bitcoin wallet security",
   "Nostr",
   "Decentralized chat",
-  "Bitcoin Safe demo",
+  "Bitcoin-Safe demo",
   "Multisig tutorial",
   "Bitcoin treasury",
   "Bitcoin organization wallet",
@@ -44,9 +44,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Collaborative signing of a 2-of-3 Multisig wallet using Bitcoin Safe — across different computers, hardware wallets, and secure communication via Nostr.
+ Collaborative signing of a 2-of-3 Multisig wallet using Bitcoin-Safe — across different computers, hardware wallets, and secure communication via Nostr.
 
-This video shows how two users collaboratively sign a Bitcoin transaction using a 2-of-3 multisig wallet setup in Bitcoin Safe. Each participant is on a different computer, using different hardware wallets (Jade and Bitbox02). They coordinate through the app’s built-in Chat & Sync feature, which uses Nostr to relay messages privately and securely.
+This video shows how two users collaboratively sign a Bitcoin transaction using a 2-of-3 multisig wallet setup in Bitcoin-Safe. Each participant is on a different computer, using different hardware wallets (Jade and Bitbox02). They coordinate through the app’s built-in Chat & Sync feature, which uses Nostr to relay messages privately and securely.
 
 The process supports both synchronous and asynchronous signing — perfect for users who aren’t online at the same time.
 

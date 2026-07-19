@@ -12,7 +12,7 @@ menu:
 
 1. Penafian Umum
 
-Informasi yang disediakan di situs web "Bitcoin Safe" hanya untuk tujuan informasi umum. Kami tidak membuat pernyataan atau jaminan apa pun mengenai kelengkapan atau ketepatan informasi ini.
+Informasi yang disediakan di situs web "Bitcoin-Safe" hanya untuk tujuan informasi umum. Kami tidak membuat pernyataan atau jaminan apa pun mengenai kelengkapan atau ketepatan informasi ini.
 
 2. Penafian Perangkat Lunak
 

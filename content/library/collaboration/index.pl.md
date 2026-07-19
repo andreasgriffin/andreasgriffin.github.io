@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Bitcoin multisig",
   "portfel multisig",
   "multisig 2 z 3",
@@ -22,7 +22,7 @@ keywords: [
   "bezpieczeństwo portfela Bitcoin",
   "Nostr",
   "zdecentralizowany czat",
-  "demo Bitcoin Safe",
+  "demo Bitcoin-Safe",
   "samouczek multisig",
   "skarbiec Bitcoina",
   "portfel organizacji Bitcoin",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Wspólne podpisywanie w portfelu multisig 2 z 3 z użyciem Bitcoin Safe — na różnych komputerach, z wykorzystaniem różnych portfeli sprzętowych i bezpieczną komunikacją przez Nostr.
+ Wspólne podpisywanie w portfelu multisig 2 z 3 z użyciem Bitcoin-Safe — na różnych komputerach, z wykorzystaniem różnych portfeli sprzętowych i bezpieczną komunikacją przez Nostr.
 
-To wideo pokazuje, jak dwaj użytkownicy wspólnie podpisują transakcję Bitcoin używając konfiguracji portfela multisig 2 z 3 w Bitcoin Safe. Każdy uczestnik pracuje na innym komputerze, używając różnego sprzętowego podpisywacza (Jade i Bitbox02). Koordynują się poprzez wbudowaną funkcję Czat i Synchronizacja aplikacji, która wykorzystuje Nostr do prywatnego i bezpiecznego przekazywania wiadomości.
+To wideo pokazuje, jak dwaj użytkownicy wspólnie podpisują transakcję Bitcoin używając konfiguracji portfela multisig 2 z 3 w Bitcoin-Safe. Każdy uczestnik pracuje na innym komputerze, używając różnego sprzętowego podpisywacza (Jade i Bitbox02). Koordynują się poprzez wbudowaną funkcję Czat i Synchronizacja aplikacji, która wykorzystuje Nostr do prywatnego i bezpiecznego przekazywania wiadomości.
 
 Proces obsługuje zarówno podpisywanie synchroniczne, jak i asynchroniczne — idealne dla użytkowników, którzy nie są online jednocześnie.
 

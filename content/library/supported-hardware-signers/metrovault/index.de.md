@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault kann ein altes Android-Gerat in ein dediziertes Offline-Bitcoin-Signiergerat fur Bitcoin Safe verwandeln. Installiere es nicht auf deinem Alltagstelefon. Setze das Gerat zuerst auf Werkseinstellungen zuruck, halte es **OFFLINE** und vom Internet getrennt und verwende es nur zum Signieren.
+MetroVault kann ein altes Android-Gerat in ein dediziertes Offline-Bitcoin-Signiergerat fur Bitcoin-Safe verwandeln. Installiere es nicht auf deinem Alltagstelefon. Setze das Gerat zuerst auf Werkseinstellungen zuruck, halte es **OFFLINE** und vom Internet getrennt und verwende es nur zum Signieren.
 
 ## Was du erwarten solltest
 
 - Setze vor der Installation ein altes Android-Gerat zuruck und verwende es nur als Signiergerat.
 - Installiere keine anderen Apps, melde dich in keinen Konten an, lege keine SIM-Karte ein und verbinde das Gerat nicht wieder mit dem Internet.
-- Tausche Wallet-Daten, Deskriptoren und PSBTs mit Bitcoin Safe per QR-Code aus.
-- Registriere Multisig-Deskriptoren und exportiere Signierdaten fur Bitcoin Safe.
+- Tausche Wallet-Daten, Deskriptoren und PSBTs mit Bitcoin-Safe per QR-Code aus.
+- Registriere Multisig-Deskriptoren und exportiere Signierdaten fur Bitcoin-Safe.
 - Prufe alle Details auf dem MetroVault-Bildschirm, bevor du signierst.
 
 ## Setze das Android-Gerat zuruck und nutze es nur als Offline-Signiergerat

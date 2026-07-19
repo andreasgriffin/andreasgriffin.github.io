@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault, eski bir Android cihazi Bitcoin Safe icin ozel bir cevrimdisi Bitcoin imzalama cihazina donusturebilir. Bunu gunluk kullandiginiz telefona kurmayin. Cihazi once sifirlayin, **CEVRIMDISI** ve internetten bagimsiz tutun, yalnizca imzalama icin kullanin.
+MetroVault, eski bir Android cihazi Bitcoin-Safe icin ozel bir cevrimdisi Bitcoin imzalama cihazina donusturebilir. Bunu gunluk kullandiginiz telefona kurmayin. Cihazi once sifirlayin, **CEVRIMDISI** ve internetten bagimsiz tutun, yalnizca imzalama icin kullanin.
 
 ## Sizi ne bekliyor
 
 - Kurulumdan once eski bir Android cihazi sifirlayin ve onu yalnizca bir imzalayici olarak kullanin.
 - Baska uygulamalar kurmayin, hesaplarda oturum acmayin, SIM kart takmayin ve cihazi tekrar internete baglamayin.
-- Cuzdan verilerini, descriptorleri ve PSBT'leri QR kodlariyla Bitcoin Safe ile alisveris yapin.
-- Multisig descriptorlerini kaydedin ve Bitcoin Safe icin imzalayici verilerini disa aktarın.
+- Cuzdan verilerini, descriptorleri ve PSBT'leri QR kodlariyla Bitcoin-Safe ile alisveris yapin.
+- Multisig descriptorlerini kaydedin ve Bitcoin-Safe icin imzalayici verilerini disa aktarın.
 - Imzalamadan once MetroVault ekranindaki tum ayrintilari dogrulayin.
 
 ## Android cihazini sifirlayin ve onu yalnizca cevrimdisi bir imzalayici olarak kullanin

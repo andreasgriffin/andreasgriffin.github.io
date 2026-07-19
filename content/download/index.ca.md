@@ -1,6 +1,6 @@
 ---
 title: "Descarrega"
-description: "Descarrega Bitcoin Safe"
+description: "Descarrega Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe et notifica quan hi ha una nova versió i en verifica l'autenticitat automàticament.**
+✅ **Bitcoin-Safe et notifica quan hi ha una nova versió i en verifica l'autenticitat automàticament.**
 
 
-Els fitxers binaris per a Windows estan signats; comprova la [política de firma de codi]({{< ref "code-signing-policy" >}}). Consulta aquí la [política de privadesa de Bitcoin Safe]({{< ref "code-signing-policy" >}}). Els binaris per a macOS no estan signats, així que ignora el missatge d'advertència.
+Els fitxers binaris per a Windows estan signats; comprova la [política de firma de codi]({{< ref "code-signing-policy" >}}). Consulta aquí la [política de privadesa de Bitcoin-Safe]({{< ref "code-signing-policy" >}}). Els binaris per a macOS no estan signats, així que ignora el missatge d'advertència.
 
 <br>
 <br>
 
 ###  macOS 
 
-Segueix aquests passos per executar Bitcoin Safe a macOS:
+Segueix aquests passos per executar Bitcoin-Safe a macOS:
 - Copia'l a la carpeta d'aplicacions
 - Intenta obrir-lo; rebràs un missatge d'advertència
 - Ves a *Configuració del sistema* --> *Privacitat i seguretat* --> *Obre igualment*
@@ -32,7 +32,7 @@ Segueix aquests passos per executar Bitcoin Safe a macOS:
 
 <img src="/images/mac/copy-app.png" alt="Copia l'aplicació (macOS)"   /> 
 <img src="/images/mac/warning.png" alt="Avís macOS"   /> 
-<img src="/images/mac/disable.png" alt="Obre Bitcoin Safe a macOS"   /> 
+<img src="/images/mac/disable.png" alt="Obre Bitcoin-Safe a macOS"   /> 
 
 
 
@@ -42,6 +42,10 @@ Segueix aquests passos per executar Bitcoin Safe a macOS:
 ### Debian/Ubuntu (repositori APT)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+Com a alternativa, els usuaris de Linux poden instal·lar Bitcoin-Safe des de [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

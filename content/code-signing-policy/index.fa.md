@@ -1,5 +1,5 @@
 ---
-title: "سیاست امضای کد و سیاست حفظ حریم خصوصی Bitcoin Safe"
+title: "سیاست امضای کد و سیاست حفظ حریم خصوصی Bitcoin-Safe"
 description: "سیاست امضای کد"
 draft: false
 tags: ["legal"]

@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "比特币多重签名",
   "多重签名钱包",
   "2-of-3 多重签名",
@@ -22,7 +22,7 @@ keywords: [
   "比特币钱包安全",
   "Nostr",
   "去中心化聊天",
-  "Bitcoin Safe 演示",
+  "Bitcoin-Safe 演示",
   "多重签名教程",
   "比特币金库",
   "组织用比特币钱包",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- 使用 Bitcoin Safe 对 2-of-3 多重签名钱包进行协作签名 — 跨不同电脑、硬件钱包，并通过 Nostr 进行安全通信。
+ 使用 Bitcoin-Safe 对 2-of-3 多重签名钱包进行协作签名 — 跨不同电脑、硬件钱包，并通过 Nostr 进行安全通信。
 
-本视频展示了两位用户如何在 Bitcoin Safe 中通过 2-of-3 多重签名钱包设置协作签署一笔比特币交易。每位参与者在不同的电脑上，使用不同的硬件钱包（Jade 和 BitBox02）。他们通过应用内置的聊天与同步功能协调，该功能使用 Nostr 私密且安全地中继消息。
+本视频展示了两位用户如何在 Bitcoin-Safe 中通过 2-of-3 多重签名钱包设置协作签署一笔比特币交易。每位参与者在不同的电脑上，使用不同的硬件钱包（Jade 和 BitBox02）。他们通过应用内置的聊天与同步功能协调，该功能使用 Nostr 私密且安全地中继消息。
 
 该流程支持同步和异步签名 —— 非常适合无法同时在线的用户。
 

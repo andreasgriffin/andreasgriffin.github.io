@@ -1,6 +1,6 @@
 ---
 title: "تحميل"
-description: "تحميل Bitcoin Safe"
+description: "تحميل Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **يُنبهك Bitcoin Safe عند توفر إصدار أحدث ويتحقق من الأصالة تلقائيًا.**
+✅ **يُنبهك Bitcoin-Safe عند توفر إصدار أحدث ويتحقق من الأصالة تلقائيًا.**
 
 
-ملفات البايناري لنظام Windows موقعة، راجع [سياسة توقيع الكود]({{< ref "code-signing-policy" >}}). انظر هنا أيضًا [سياسة خصوصية Bitcoin Safe]({{< ref "code-signing-policy" >}}). ملفات بايناري macOS غير موقعة، لذا تجاهل رسالة التحذير.
+ملفات البايناري لنظام Windows موقعة، راجع [سياسة توقيع الكود]({{< ref "code-signing-policy" >}}). انظر هنا أيضًا [سياسة خصوصية Bitcoin-Safe]({{< ref "code-signing-policy" >}}). ملفات بايناري macOS غير موقعة، لذا تجاهل رسالة التحذير.
 
 <br>
 <br>
 
 ###  macOS 
 
-يرجى اتباع الخطوات لتشغيل Bitcoin Safe على macOS:
+يرجى اتباع الخطوات لتشغيل Bitcoin-Safe على macOS:
 - انسخه إلى مجلد التطبيقات
 - حاول فتحه وستظهر لك رسالة تحذير
 - اذهب إلى *إعدادات النظام* --> *الخصوصية والأمان* --> *افتح على أي حال*
@@ -32,7 +32,7 @@ menu:
 
 <img src="/images/mac/copy-app.png" alt="نسخ التطبيق على macOS"   /> 
 <img src="/images/mac/warning.png" alt="تحذير على macOS"   /> 
-<img src="/images/mac/disable.png" alt="فتح Bitcoin Safe على macOS"   /> 
+<img src="/images/mac/disable.png" alt="فتح Bitcoin-Safe على macOS"   /> 
 
 
 <br>
@@ -41,6 +41,10 @@ menu:
 ### ديبيان/أوبونتو (مستودع APT)
 
 {{< apt_repo_install >}}
+
+### لينكس (Flathub)
+
+كبديل، يمكن لمستخدمي لينكس تثبيت Bitcoin-Safe من [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

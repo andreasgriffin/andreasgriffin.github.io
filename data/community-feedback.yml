@@ -35,7 +35,7 @@ items:
   - image: /images/community-feedback/rustaceanrob.png
     link: https://rustaceanrob.com/projects/project-2
     alt: |
-        You can try Kyoto out with the release of Bitcoin Safe, a multi-platform desktop wallet. Bitcoin Safe is the culmination of all the features I was looking for in a desktop wallet experience. Namely, it is lightweight and private when syncing the blockchain, but it also supports all major hardware signing devices, multisignature setups, label groupings, an analysis of your transaction graph, and much, much more.
+        You can try Kyoto out with the release of Bitcoin-Safe, a multi-platform desktop wallet. Bitcoin-Safe is the culmination of all the features I was looking for in a desktop wallet experience. Namely, it is lightweight and private when syncing the blockchain, but it also supports all major hardware signing devices, multisignature setups, label groupings, an analysis of your transaction graph, and much, much more.
 
 
 

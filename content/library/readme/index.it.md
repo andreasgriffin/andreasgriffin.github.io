@@ -2,12 +2,12 @@
 aliases:
   - "/it/features/readme/"
 title: "Tutte le funzionalità"
-description: "Panoramica completa della maggior parte delle funzionalità di Bitcoin Safe"
+description: "Panoramica completa della maggior parte delle funzionalità di Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "portafoglio di risparmio bitcoin",
   "portafoglio MultiSig",
   "procedura guidata di configurazione Multisig",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Un portafoglio di risparmio Bitcoin per tutta la famiglia
 
@@ -80,7 +80,7 @@ weight: -10
   - Chat del portafoglio e condivisione di PSBT tra diversi computer
 - **Veloce**:
   - Sincronizzazione tramite Electrum server
-  - aggiornamento pianificato a **Compact Block Filters** per il rilascio di Bitcoin Safe 2.0
+  - aggiornamento pianificato a **Compact Block Filters** per il rilascio di Bitcoin-Safe 2.0
 
 
 

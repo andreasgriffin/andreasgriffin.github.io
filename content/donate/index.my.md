@@ -1,6 +1,6 @@
 ---
 title: "⚡ထောက်ပံ့မှု"
-description: "Bitcoin Safe အတွက် လှူဒါန်း၍ ထောက်ပံ့ပါ"
+description: "Bitcoin-Safe အတွက် လှူဒါန်း၍ ထောက်ပံ့ပါ"
 draft: false
 menu:
   footer:
@@ -15,14 +15,14 @@ menu:
 <br>
 
 
-Bitcoin Safe ကို တည်ဆောက်ရတာ ခက်ခဲပြီး သေချာစွာ လုပ်ကိုင်ရတဲ့ အလုပ်ပါ။ သင်ပေးနိုင်သမျှ အထောက်အပံ့ တစ်ခုချင်းစီအား ကျွန်ုပ်တို့ အလွန်ကျေးဇူးတင်ပါတယ်။
-- Bitcoin Safe ကို အထောက်အပံ့ပေးရန် အလွယ်ဆုံးနည်းလမ်းမှာ လှူဒါန်းခြင်းဖြစ်ပါတယ်: 
+Bitcoin-Safe ကို တည်ဆောက်ရတာ ခက်ခဲပြီး သေချာစွာ လုပ်ကိုင်ရတဲ့ အလုပ်ပါ။ သင်ပေးနိုင်သမျှ အထောက်အပံ့ တစ်ခုချင်းစီအား ကျွန်ုပ်တို့ အလွန်ကျေးဇူးတင်ပါတယ်။
+- Bitcoin-Safe ကို အထောက်အပံ့ပေးရန် အလွယ်ဆုံးနည်းလမ်းမှာ လှူဒါန်းခြင်းဖြစ်ပါတယ်: 
   - {{< donation_btc >}}
 - သို့သော် သင့်အလုပ်ဖြင့်လည်း ထောက်ပံ့နိုင်ပါသည်၊ ဥပမာ
   - {{< i18n "donate_support_testing_feedback" >}}
   - {{< i18n "donate_support_other_ways" >}}
 
-Support **Bitcoin Safe** and get into the list below
+Support **Bitcoin-Safe** and get into the list below
 
 <br>
 <br>

@@ -2,12 +2,12 @@
 aliases:
   - "/ru/features/readme/"
 title: "Все функции"
-description: "Полный обзор большинства функций Bitcoin Safe"
+description: "Полный обзор большинства функций Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "кошелёк для накоплений в биткоинах",
   "мультисиг-кошелёк",
   "мастер установки multisig",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Кошелёк для накоплений в биткоинах для всей семьи
 
@@ -80,7 +80,7 @@ weight: -10
   - Чат кошелька и обмен PSBT между разными компьютерами
 - **Быстро**:
   - Синхронизация через Electrum-сервер
-  - Планируемое обновление до **Compact Block Filters** в релизе Bitcoin Safe 2.0
+  - Планируемое обновление до **Compact Block Filters** в релизе Bitcoin-Safe 2.0
 
 
 

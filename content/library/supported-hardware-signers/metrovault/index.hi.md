@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault किसी पुराने Android डिवाइस को Bitcoin Safe के लिए एक समर्पित ऑफलाइन Bitcoin signing device में बदल सकता है। इसे अपने रोजमर्रा वाले फोन पर इंस्टॉल न करें। पहले डिवाइस को reset करें, उसे **ऑफलाइन** और इंटरनेट से अलग रखें, और उसका उपयोग केवल signing के लिए करें।
+MetroVault किसी पुराने Android डिवाइस को Bitcoin-Safe के लिए एक समर्पित ऑफलाइन Bitcoin signing device में बदल सकता है। इसे अपने रोजमर्रा वाले फोन पर इंस्टॉल न करें। पहले डिवाइस को reset करें, उसे **ऑफलाइन** और इंटरनेट से अलग रखें, और उसका उपयोग केवल signing के लिए करें।
 
 ## क्या अपेक्षा करें
 
 - इंस्टॉलेशन से पहले पुराने Android डिवाइस को reset करें और उसे केवल signer की तरह इस्तेमाल करें।
 - कोई दूसरी ऐप इंस्टॉल न करें, किसी खाते में sign in न करें, SIM card न डालें, और डिवाइस को फिर से इंटरनेट से न जोड़ें।
-- Wallet data, descriptors और PSBT को QR codes के जरिए Bitcoin Safe के साथ आदान-प्रदान करें।
-- Bitcoin Safe के लिए multisig descriptors register करें और signer data export करें।
+- Wallet data, descriptors और PSBT को QR codes के जरिए Bitcoin-Safe के साथ आदान-प्रदान करें।
+- Bitcoin-Safe के लिए multisig descriptors register करें और signer data export करें।
 - Sign करने से पहले MetroVault की स्क्रीन पर सभी विवरण जांचें।
 
 ## Android डिवाइस reset करें और उसे केवल ऑफलाइन signer की तरह इस्तेमाल करें

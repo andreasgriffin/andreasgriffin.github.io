@@ -2,7 +2,7 @@
 aliases:
   - "/pl/features/instant-transactions-notifications/"
 title: "Natychmiastowe powiadomienia o transakcjach"
-description: "Jak Bitcoin Safe otrzymuje natychmiastowe powiadomienia o transakcjach"
+description: "Jak Bitcoin-Safe otrzymuje natychmiastowe powiadomienia o transakcjach"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (od wersji **1.5.0**) obsługuje natychmiastowe powiadamianie o przychodzących transakcjach Bitcoina istotnych dla twojego portfela. Oto jak to działa „pod maską”:
+**Bitcoin-Safe** (od wersji **1.5.0**) obsługuje natychmiastowe powiadamianie o przychodzących transakcjach Bitcoina istotnych dla twojego portfela. Oto jak to działa „pod maską”:
 
 
 
 
 ##### 1. 📡 Nasłuchiwanie sieci P2P Bitcoina
 
-Bitcoin Safe łączy się bezpośrednio z jednym lub kilkoma **węzłami Bitcoin Core**, które uczestniczą w globalnej **sieci peer-to-peer (P2P)**. Węzły te nieustannie wymieniają się nowo nadawanymi transakcjami przeznaczonymi do umieszczenia w **mempoolu**.
+Bitcoin-Safe łączy się bezpośrednio z jednym lub kilkoma **węzłami Bitcoin Core**, które uczestniczą w globalnej **sieci peer-to-peer (P2P)**. Węzły te nieustannie wymieniają się nowo nadawanymi transakcjami przeznaczonymi do umieszczenia w **mempoolu**.
 
-Bitcoin Safe nasłuchuje pasywnie tych komunikatów broadcast i sprawdza, czy:
+Bitcoin-Safe nasłuchuje pasywnie tych komunikatów broadcast i sprawdza, czy:
 
 * jakakolwiek transakcja dotyczy **adresów** lub **UTXO** z Twojego portfela.
 
 ✅ **Zachowanie prywatności**
 Ta metoda jest **całkowicie prywatna**. Nie ujawnia **niczego** na temat Twojego portfela światu zewnętrznemu.
-Bitcoin Safe zachowuje się dokładnie jak zwykły węzeł Bitcoin Core: jedynie nasłuchuje publicznego ruchu P2P — nigdy nie ogłasza ani nie żąda niczego specyficznego dla Twojego portfela.
+Bitcoin-Safe zachowuje się dokładnie jak zwykły węzeł Bitcoin Core: jedynie nasłuchuje publicznego ruchu P2P — nigdy nie ogłasza ani nie żąda niczego specyficznego dla Twojego portfela.
 
 
 
 ##### 2. 🧠 Znaleziono dopasowanie — co się dzieje dalej?
 
-Jeśli zostanie znaleziona pasująca transakcja, Bitcoin Safe zareaguje inaczej w zależności od używanego backendu:
+Jeśli zostanie znaleziona pasująca transakcja, Bitcoin-Safe zareaguje inaczej w zależności od używanego backendu:
 
 ###### Opcja A: ⚡ Backend Electrum lub Esplora
 
-* Bitcoin Safe wywoła **synchronizację w tle**, aby pobrać pełną transakcję i stan portfela z serwera.
+* Bitcoin-Safe wywoła **synchronizację w tle**, aby pobrać pełną transakcję i stan portfela z serwera.
 
 ###### Opcja B: 🔍 Filtry kompaktowych bloków (tryb Neutrino)
 
@@ -91,7 +91,7 @@ Masz pełną kontrolę i możesz w dowolnym momencie przełączyć tę funkcję.
 
 #### ⚠️ Tylko potwierdzone transakcje są wiarygodne
 
-Bitcoin Safe nie jest w stanie samodzielnie zweryfikować, że nadana (broadcast) transakcja jest poprawna. Atakujący — szczególnie taki, który kontroluje zarówno Twój serwer Electrum, jak i węzeł Bitcoin, z którym jesteś połączony — mógłby:
+Bitcoin-Safe nie jest w stanie samodzielnie zweryfikować, że nadana (broadcast) transakcja jest poprawna. Atakujący — szczególnie taki, który kontroluje zarówno Twój serwer Electrum, jak i węzeł Bitcoin, z którym jesteś połączony — mógłby:
 
 * Sfałszować transakcję dotyczącą Twojego adresu
 * Nadać ją, aby wywołać powiadomienie w portfelu
@@ -103,7 +103,7 @@ Bitcoin Safe nie jest w stanie samodzielnie zweryfikować, że nadana (broadcast
 
 #### ✅ Podsumowanie
 
-Od wersji **1.5.0**, Bitcoin Safe obsługuje natychmiastowe powiadomienia o transakcjach poprzez:
+Od wersji **1.5.0**, Bitcoin-Safe obsługuje natychmiastowe powiadomienia o transakcjach poprzez:
 
 * Pasywne nasłuchiwanie sieci P2P Bitcoina (jak Bitcoin Core)
 * Dopasowywanie transakcji dotyczących **adresów** lub **UTXO** Twojego portfela

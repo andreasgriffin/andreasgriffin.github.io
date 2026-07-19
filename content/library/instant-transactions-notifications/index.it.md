@@ -2,7 +2,7 @@
 aliases:
   - "/it/features/instant-transactions-notifications/"
 title: "Notifiche istantanee delle transazioni"
-description: "Come Bitcoin Safe riceve notifiche istantanee sulle transazioni"
+description: "Come Bitcoin-Safe riceve notifiche istantanee sulle transazioni"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (a partire dalla versione **1.5.0**) supporta le notifiche istantanee delle transazioni Bitcoin in arrivo rilevanti per il tuo portafoglio. Ecco come funziona sotto il cofano:
+**Bitcoin-Safe** (a partire dalla versione **1.5.0**) supporta le notifiche istantanee delle transazioni Bitcoin in arrivo rilevanti per il tuo portafoglio. Ecco come funziona sotto il cofano:
 
 
 
 
 ##### 1. 📡 Ascolto della rete P2P di Bitcoin
 
-Bitcoin Safe si connette direttamente a uno o più **nodi Bitcoin Core**, che partecipano alla rete globale **peer-to-peer (P2P)**. Questi nodi scambiano continuamente le nuove transazioni trasmesse destinate a essere incluse nella **mempool**.
+Bitcoin-Safe si connette direttamente a uno o più **nodi Bitcoin Core**, che partecipano alla rete globale **peer-to-peer (P2P)**. Questi nodi scambiano continuamente le nuove transazioni trasmesse destinate a essere incluse nella **mempool**.
 
-Bitcoin Safe ascolta in modo passivo questi messaggi di broadcast e verifica se:
+Bitcoin-Safe ascolta in modo passivo questi messaggi di broadcast e verifica se:
 
 * una qualsiasi transazione coinvolge **indirizzi** o **UTXO** del tuo portafoglio.
 
 ✅ **Rispetto della privacy**
 Questo metodo è **completamente privato**. Non **rivela nulla** sul tuo portafoglio al mondo esterno.
-Bitcoin Safe si comporta esattamente come un normale nodo Bitcoin Core: ascolta solamente il traffico P2P pubblico — senza mai annunciare o richiedere nulla di specifico riguardo al tuo portafoglio.
+Bitcoin-Safe si comporta esattamente come un normale nodo Bitcoin Core: ascolta solamente il traffico P2P pubblico — senza mai annunciare o richiedere nulla di specifico riguardo al tuo portafoglio.
 
 
 
 ##### 2. 🧠 Trovata una corrispondenza — Cosa succede dopo?
 
-Se viene trovata una transazione corrispondente, Bitcoin Safe reagirà in modo differente a seconda del backend che stai usando:
+Se viene trovata una transazione corrispondente, Bitcoin-Safe reagirà in modo differente a seconda del backend che stai usando:
 
 ###### Opzione A: ⚡ Backend Electrum o Esplora
 
-* Bitcoin Safe **avvierà una sincronizzazione in background** per recuperare la transazione completa e lo stato del portafoglio dal server.
+* Bitcoin-Safe **avvierà una sincronizzazione in background** per recuperare la transazione completa e lo stato del portafoglio dal server.
 
 ###### Opzione B: 🔍 Filtri di blocco compatti (Modalità Neutrino)
 
@@ -91,7 +91,7 @@ Rimani pienamente in controllo e puoi attivare o disattivare questa funzione in 
 
 #### ⚠️ Solo le transazioni confermate possono essere ritenute affidabili
 
-Bitcoin Safe non può verificare che una transazione trasmessa sia valida. Un attaccante — specialmente uno che controlla sia il tuo server Electrum sia il nodo Bitcoin a cui sei connesso — potrebbe:
+Bitcoin-Safe non può verificare che una transazione trasmessa sia valida. Un attaccante — specialmente uno che controlla sia il tuo server Electrum sia il nodo Bitcoin a cui sei connesso — potrebbe:
 
 * Creare una transazione fasulla che coinvolga il tuo indirizzo
 * Trasmetterla per innescare una notifica nel portafoglio
@@ -103,7 +103,7 @@ Bitcoin Safe non può verificare che una transazione trasmessa sia valida. Un at
 
 #### ✅ Riepilogo
 
-A partire dalla versione **1.5.0**, Bitcoin Safe supporta le notifiche istantanee delle transazioni tramite:
+A partire dalla versione **1.5.0**, Bitcoin-Safe supporta le notifiche istantanee delle transazioni tramite:
 
 * Ascolto passivo della rete P2P di Bitcoin (come Bitcoin Core)
 * Corrispondenza delle transazioni che coinvolgono gli **indirizzi** o gli **UTXO** del tuo portafoglio

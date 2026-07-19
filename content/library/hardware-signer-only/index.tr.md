@@ -2,12 +2,12 @@
 aliases:
   - "/tr/knowledge/hardware-signer-only/"
 title: "Donanım İmzacıları Gereklidir"
-description: "Bitcoin Safe, güvenliği en üst düzeye çıkarmak ve yazılım tabanlı anahtar saklama risklerinden kaçınmak için Mainnet'te yalnızca donanım tohumlarını zorunlu kılar. Neden önemli olduğunu burada bulabilirsiniz."
+description: "Bitcoin-Safe, güvenliği en üst düzeye çıkarmak ve yazılım tabanlı anahtar saklama risklerinden kaçınmak için Mainnet'te yalnızca donanım tohumlarını zorunlu kılar. Neden önemli olduğunu burada bulabilirsiniz."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "donanım cüzdanı",
   "yazılım tohumu",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Neden Bitcoin Safe Mainnet'te yazılım tohumlarını engelliyor?
+## 🚫 Neden Bitcoin-Safe Mainnet'te yazılım tohumlarını engelliyor?
 
 🤔 Bu rahatsız edici değil mi?
 
 🔥 Meğerse — bu **büyük bir güvenlik iyileştirmesi**.
 
-Bitcoin Safe **yalnızca Testnet, Signet ve Regtest'te yazılım tohumlarına izin verir** — Mainnet'te asla. İşte nedenleri:
+Bitcoin-Safe **yalnızca Testnet, Signet ve Regtest'te yazılım tohumlarına izin verir** — Mainnet'te asla. İşte nedenleri:
 
 ### ✅ Mainnet'te yazılım tohumlarının engellenme nedenleri
 
@@ -95,7 +95,7 @@ Bitcoin Safe **yalnızca Testnet, Signet ve Regtest'te yazılım tohumlarına iz
 
 ## 🛡️ Adres zehirlenmesine karşı koruma
 
-Bitcoin Safe **alım adreslerini renklendirir** ve adres zehirlenmesini belirgin hale getirir:
+Bitcoin-Safe **alım adreslerini renklendirir** ve adres zehirlenmesini belirgin hale getirir:
 
 - 🟢 Yeşil = doğrulanmış alım adresi  
 - 🟡 Sarı = değişim (change) adresi  
@@ -131,7 +131,7 @@ Alım adreslerini doğrudan donanım imzacınızda doğrulayın — ekrana güve
 
 ## 🤝 İşbirlikçi çoklu imza artık kolay
 
-Bitcoin Safe çoklu imzayı kullanıcı dostu ve ekip hazır hale getirir:
+Bitcoin-Safe çoklu imzayı kullanıcı dostu ve ekip hazır hale getirir:
 
 - 🔐 Şifreli Nostr sohbeti  
 - 🔁 Tek tıkla PSBT paylaşımı  
@@ -150,7 +150,7 @@ Bitcoin Safe çoklu imzayı kullanıcı dostu ve ekip hazır hale getirir:
 - 🔁 Nostr üzerinden etiket senkronizasyonu  
 - 🔍 Tam para akışı diyagramı ve aranabilir işlem geçmişi
 
-![Transaction diagram in Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Transaction diagram in Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ Bitcoin Safe çoklu imzayı kullanıcı dostu ve ekip hazır hale getirir:
 
 ## 💡 Özet
 
-Bitcoin Safe = Gerçek Bitcoin tasarrufu:
+Bitcoin-Safe = Gerçek Bitcoin tasarrufu:
 
 ✅ Mainnet'te yalnızca donanım  
 ✅ Yazılım tohumu maruziyeti yok  

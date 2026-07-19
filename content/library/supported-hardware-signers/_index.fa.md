@@ -2,7 +2,7 @@
 aliases:
   - "/fa/knowledge/supported-hardware-signers/"
 title: امضاگرهای سخت‌افزاری کاملاً پشتیبانی‌شده
-description: امضاگرهای سخت‌افزاری کاملاً پشتیبانی‌شده برای Bitcoin Safe
+description: امضاگرهای سخت‌افزاری کاملاً پشتیبانی‌شده برای Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

@@ -2,12 +2,12 @@
 aliases:
   - "/uk/features/readme/"
 title: "Усі функції"
-description: "Розгорнутий огляд більшості функцій Bitcoin Safe"
+description: "Розгорнутий огляд більшості функцій Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "bitcoin savings wallet",
   "MultiSig wallet",
   "Multisig setup wizard",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Біткоїн‑гаманець для заощаджень усієї родини
 

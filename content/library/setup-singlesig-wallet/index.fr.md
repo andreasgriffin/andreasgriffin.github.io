@@ -2,7 +2,7 @@
 aliases:
   - "/fr/knowledge/setup-singlesig-wallet/"
 title: "Configuration Singlesig étape par étape"
-description: "L'assistant de configuration de Bitcoin Safe vous guide à travers les étapes pour créer un portefeuille Bitcoin singlesig"
+description: "L'assistant de configuration de Bitcoin-Safe vous guide à travers les étapes pour créer un portefeuille Bitcoin singlesig"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Configuration guidée d'un portefeuille Singlesig
 
-🔒 Configurer un portefeuille sécurisé **Bitcoin Safe** est la meilleure façon de protéger vos fonds contre les défaillances des plateformes d'échange, les piratages et le vol. Dans ce tutoriel, nous vous accompagnerons étape par étape dans tout le processus avec Trezor !
+🔒 Configurer un portefeuille sécurisé **Bitcoin-Safe** est la meilleure façon de protéger vos fonds contre les défaillances des plateformes d'échange, les piratages et le vol. Dans ce tutoriel, nous vous accompagnerons étape par étape dans tout le processus avec Trezor !
  
 
 

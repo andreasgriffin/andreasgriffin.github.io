@@ -2,7 +2,7 @@
 aliases:
   - "/zh/knowledge/supported-hardware-signers/"
 title: 完全受支持的硬件签名器
-description: 适用于 Bitcoin Safe 的完全受支持硬件签名器
+description: 适用于 Bitcoin-Safe 的完全受支持硬件签名器
 draft: false
 bucket: knowledge
 images:

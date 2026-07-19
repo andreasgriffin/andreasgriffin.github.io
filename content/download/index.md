@@ -2,7 +2,7 @@
 aliases:
   - "/download/"
 title: "Download"
-description: "Download Bitcoin Safe"
+description: "Download Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -15,17 +15,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe notifies you of a newer version and verifies the authenticity automatically.**
+✅ **Bitcoin-Safe notifies you of a newer version and verifies the authenticity automatically.**
 
 
-Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
+Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin-Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
 
 <br>
 <br>
 
 ###  macOS 
 
-Please follow the steps to run Bitcoin Safe on macOS:
+Please follow the steps to run Bitcoin-Safe on macOS:
 - Copy it into your app folder
 - Try to open it you will get a warning
 - Go into the *System Settings* --> *Privacy & Security* --> *Open Anyway*
@@ -34,7 +34,7 @@ Please follow the steps to run Bitcoin Safe on macOS:
 
 <img src="/images/mac/copy-app.png" alt="macOS copy-app"   /> 
 <img src="/images/mac/warning.png" alt="macOS warning"   /> 
-<img src="/images/mac/disable.png" alt="macOS open Bitcoin Safe"   /> 
+<img src="/images/mac/disable.png" alt="macOS open Bitcoin-Safe"   /> 
 
 
 
@@ -44,6 +44,10 @@ Please follow the steps to run Bitcoin Safe on macOS:
 ### Debian/Ubuntu (APT Repository)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+As an alternative, Linux users can install Bitcoin-Safe from [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

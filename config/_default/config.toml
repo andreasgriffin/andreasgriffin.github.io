@@ -1,6 +1,6 @@
 baseURL = 'https://bitcoin-safe.org/'
 languageCode = 'en-US'
-title= 'Bitcoin Safe - Free & OpenSource software for securely manage your Bitcoin cold storage wallets'
+title= 'Bitcoin-Safe - Free & OpenSource software for securely manage your Bitcoin cold storage wallets'
 
 timeZone = 'Europe/London'
 
@@ -19,9 +19,9 @@ enableEmoji = true
 #googleAnalytics = "UA-1511XXXX-X"
 
 [params]
-  shorttitle= 'Bitcoin Safe'
+  shorttitle= 'Bitcoin-Safe'
 
-  title = 'Bitcoin Safe'
+  title = 'Bitcoin-Safe'
   description = 'Bitcoin-Safe is a FOSS desktop wallet that makes self-custody accessible to everyone. It supports hardware wallets, multisig, testnet playgroun, encrypted nostr chat groups, categories and labels sync, and air-gapped signing — no KYC, no accounts, no telemetry, no middlemen. Your keys, your sats!'
   images = ['images/social-share.png']
   mainMenuLogo = "images/logo/logo-cut.svg"

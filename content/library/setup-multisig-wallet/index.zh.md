@@ -2,7 +2,7 @@
 aliases:
   - "/zh/knowledge/setup-multisig-wallet/"
 title: "分步多重签名设置"
-description: "Bitcoin Safe 设置向导将指导您完成创建 2-of-3 多重签名比特币钱包的各个步骤"
+description: "Bitcoin-Safe 设置向导将指导您完成创建 2-of-3 多重签名比特币钱包的各个步骤"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # 引导式 2-of-3 多重签名钱包
 
-🔒 设置一个安全的 **Bitcoin Safe** 钱包是保护您的资金免受交易所故障、黑客攻击和盗窃的最佳方式。在本教程中，我们将一步步引导您完成整个过程！
+🔒 设置一个安全的 **Bitcoin-Safe** 钱包是保护您的资金免受交易所故障、黑客攻击和盗窃的最佳方式。在本教程中，我们将一步步引导您完成整个过程！
  
 
 - 🔐 连接一个 *Coldcard Q*、一个 *Bitbox02* 和一个 *Keystone*

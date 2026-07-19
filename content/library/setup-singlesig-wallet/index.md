@@ -3,7 +3,7 @@ aliases:
   - "/knowledge/setup-singlesig-wallet/"
   - "/en/knowledge/setup-singlesig-wallet/"
 title: "Step-by-step Singlesig Setup"
-description: "Bitcoin Safe setup wizard guides you through the steps to create a singlesig bitcoin wallet"
+description: "Bitcoin-Safe setup wizard guides you through the steps to create a singlesig bitcoin wallet"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -39,7 +39,7 @@ videos:
 
 # Guided Singlesig Wallet Setup
 
-🔒 Setting up a secure **Bitcoin Safe** wallet is the best way to protect your funds from exchange failures, hacks, and theft.
+🔒 Setting up a secure **Bitcoin-Safe** wallet is the best way to protect your funds from exchange failures, hacks, and theft.
 
 
 - 🔐 Connect a hardware signer

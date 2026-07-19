@@ -2,12 +2,12 @@
 aliases:
   - "/th/features/readme/"
 title: "ฟีเจอร์ทั้งหมด"
-description: "ภาพรวมโดยละเอียดของฟีเจอร์ส่วนใหญ่ใน Bitcoin Safe"
+description: "ภาพรวมโดยละเอียดของฟีเจอร์ส่วนใหญ่ใน Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "กระเป๋าออมบิตคอยน์",
   "กระเป๋า MultiSig",
   "ตัวช่วยตั้งค่า Multisig",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### กระเป๋าออมบิตคอยน์สำหรับทุกคนในครอบครัว
 
@@ -80,7 +80,7 @@ weight: -10
   - แชทกระเป๋าและการแชร์ PSBT ระหว่างคอมพิวเตอร์ต่างกัน
 - **เร็ว**: 
   - การซิงค์เซิร์ฟเวอร์ Electrum
-  - การอัปเกรดที่วางแผนสำหรับ **Compact Block Filters** ในการปล่อย Bitcoin Safe 2.0 release
+  - การอัปเกรดที่วางแผนสำหรับ **Compact Block Filters** ในการปล่อย Bitcoin-Safe 2.0 release
 
 
 ### ฟีเจอร์ครบถ้วน - ง่ายและทรงพลัง

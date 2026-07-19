@@ -2,7 +2,7 @@
 aliases:
   - "/de/knowledge/setup-singlesig-wallet/"
 title: "Schritt-für-Schritt Singlesig-Einrichtung"
-description: "Der Bitcoin Safe Einrichtungsassistent führt Sie durch die Schritte zur Erstellung eines Singlesig-Bitcoin-Wallets"
+description: "Der Bitcoin-Safe Einrichtungsassistent führt Sie durch die Schritte zur Erstellung eines Singlesig-Bitcoin-Wallets"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Geführte Singlesig-Wallet-Einrichtung
 
-🔒 Die Einrichtung eines sicheren **Bitcoin Safe** Wallets ist der beste Weg, Ihre Gelder vor Ausfällen von Börsen, Hacks und Diebstahl zu schützen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess mit Trezor!
+🔒 Die Einrichtung eines sicheren **Bitcoin-Safe** Wallets ist der beste Weg, Ihre Gelder vor Ausfällen von Börsen, Hacks und Diebstahl zu schützen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess mit Trezor!
  
 
 

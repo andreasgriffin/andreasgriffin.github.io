@@ -2,7 +2,7 @@
 aliases:
   - "/tr/knowledge/supported-hardware-signers/"
 title: Tam destekli donanım imzacıları
-description: Bitcoin Safe için tam destekli donanım imzacıları
+description: Bitcoin-Safe için tam destekli donanım imzacıları
 draft: false
 bucket: knowledge
 images:

@@ -2,7 +2,7 @@
 aliases:
   - "/th/knowledge/supported-hardware-signers/"
 title: อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับเต็มรูปแบบ
-description: อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับอย่างเต็มรูปแบบสำหรับ Bitcoin Safe
+description: อุปกรณ์ลงนามฮาร์ดแวร์ที่รองรับอย่างเต็มรูปแบบสำหรับ Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

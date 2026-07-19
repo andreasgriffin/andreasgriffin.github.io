@@ -14,13 +14,13 @@ Tanggal: *3 November 2024*
 
 1. Penerimaan Ketentuan
 
-    - Dengan mengakses dan menggunakan situs web "Bitcoin Safe" ("Situs Web") dan perangkat lunak Bitcoin Safe ("Perangkat Lunak"), Anda setuju untuk mematuhi Ketentuan Penggunaan ini.
+    - Dengan mengakses dan menggunakan situs web "Bitcoin-Safe" ("Situs Web") dan perangkat lunak Bitcoin-Safe ("Perangkat Lunak"), Anda setuju untuk mematuhi Ketentuan Penggunaan ini.
 
 2. Penggunaan Situs Web dan Perangkat Lunak
 
     2a. Penggunaan Situs Web
 
-        - Penggunaan yang Diizinkan: Anda dapat menggunakan Situs Web untuk tujuan informasional yang berkaitan dengan program sumber terbuka Bitcoin Safe.
+        - Penggunaan yang Diizinkan: Anda dapat menggunakan Situs Web untuk tujuan informasional yang berkaitan dengan program sumber terbuka Bitcoin-Safe.
         - Penggunaan yang Dilarang: Anda setuju untuk tidak menyalahgunakan Situs Web atau kontennya. Tindakan yang dilarang meliputi, tetapi tidak terbatas pada:
             - Mencoba mendapatkan akses tidak sah ke bagian manapun dari Situs Web atau sistem terkait.
             - Terlibat dalam aktivitas yang mengganggu atau mengintervensi fungsionalitas Situs Web.
@@ -28,7 +28,7 @@ Tanggal: *3 November 2024*
 
     2b. Penggunaan Perangkat Lunak
 
-        - Penggunaan yang Diizinkan: Anda dapat menggunakan perangkat lunak Bitcoin Safe sesuai dengan lisensi sumber terbukanya, yaitu [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+        - Penggunaan yang Diizinkan: Anda dapat menggunakan perangkat lunak Bitcoin-Safe sesuai dengan lisensi sumber terbukanya, yaitu [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
         - Penggunaan yang Dilarang: Anda setuju untuk tidak menyalahgunakan Perangkat Lunak atau menggunakannya untuk tujuan yang dilarang. Tindakan yang dilarang meliputi, tetapi tidak terbatas pada:
             - Menggunakan Perangkat Lunak yang melanggar hukum atau peraturan yang berlaku.
             - Memodifikasi atau mendistribusikan Perangkat Lunak dengan cara yang tidak diizinkan oleh lisensinya.
@@ -36,7 +36,7 @@ Tanggal: *3 November 2024*
 
 3. Hak Kekayaan Intelektual
 
-    - Kepemilikan: Konten di Situs Web dimiliki oleh kontributor "Bitcoin Safe" dan dilindungi oleh undang-undang hak kekayaan intelektual yang berlaku.
+    - Kepemilikan: Konten di Situs Web dimiliki oleh kontributor "Bitcoin-Safe" dan dilindungi oleh undang-undang hak kekayaan intelektual yang berlaku.
     - Lisensi: Perangkat lunak sumber terbuka dilisensikan di bawah [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 4. Penyangkalan Jaminan
@@ -45,7 +45,7 @@ Tanggal: *3 November 2024*
 
 5. Batasan Tanggung Jawab
 
-    - Dalam keadaan apa pun kontributor "Bitcoin Safe" tidak akan bertanggung jawab atas kerusakan apa pun yang timbul dari penggunaan Situs Web atau perangkat lunak.
+    - Dalam keadaan apa pun kontributor "Bitcoin-Safe" tidak akan bertanggung jawab atas kerusakan apa pun yang timbul dari penggunaan Situs Web atau perangkat lunak.
 
 6. Tautan Eksternal
 

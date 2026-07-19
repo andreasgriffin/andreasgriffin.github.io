@@ -1,6 +1,6 @@
 ---
 title: "Завантажити"
-description: "Завантаження Bitcoin Safe"
+description: "Завантаження Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe сповіщає про новішу версію та автоматично перевіряє справжність.**
+✅ **Bitcoin-Safe сповіщає про новішу версію та автоматично перевіряє справжність.**
 
 
-Бінарні файли для Windows підписані, дивіться [Політику підпису коду]({{< ref "code-signing-policy" >}}). Також дивіться [політику конфіденційності Bitcoin Safe]({{< ref "code-signing-policy" >}}). Бінарні файли для macOS не підписані, тому попередження можна ігнорувати.
+Бінарні файли для Windows підписані, дивіться [Політику підпису коду]({{< ref "code-signing-policy" >}}). Також дивіться [політику конфіденційності Bitcoin-Safe]({{< ref "code-signing-policy" >}}). Бінарні файли для macOS не підписані, тому попередження можна ігнорувати.
 
 <br>
 <br>
 
 ###  macOS 
 
-Будь ласка, виконайте ці кроки, щоб запустити Bitcoin Safe на macOS:
+Будь ласка, виконайте ці кроки, щоб запустити Bitcoin-Safe на macOS:
 - Скопіюйте його в папку програм (Applications)
 - Спробуйте відкрити — з’явиться попередження
 - Перейдіть у *System Settings* --> *Privacy & Security* --> *Open Anyway*
@@ -32,7 +32,7 @@ menu:
 
 <img src="/images/mac/copy-app.png" alt="macOS copy-app"   /> 
 <img src="/images/mac/warning.png" alt="macOS warning"   /> 
-<img src="/images/mac/disable.png" alt="macOS open Bitcoin Safe"   /> 
+<img src="/images/mac/disable.png" alt="macOS open Bitcoin-Safe"   /> 
 
 
 
@@ -42,6 +42,10 @@ menu:
 ### Debian/Ubuntu (APT-репозиторій)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+Як альтернативу, користувачі Linux можуть установити Bitcoin-Safe із [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

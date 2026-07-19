@@ -2,7 +2,7 @@
 aliases:
   - "/es/features/instant-transactions-notifications/"
 title: "Notificaciones instantáneas de transacciones"
-description: "Cómo Bitcoin Safe recibe notificaciones instantáneas de transacciones"
+description: "Cómo Bitcoin-Safe recibe notificaciones instantáneas de transacciones"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (a partir de la versión **1.5.0**) admite notificaciones instantáneas de transacciones entrantes de Bitcoin relevantes para tu monedero. Así es como funciona internamente:
+**Bitcoin-Safe** (a partir de la versión **1.5.0**) admite notificaciones instantáneas de transacciones entrantes de Bitcoin relevantes para tu monedero. Así es como funciona internamente:
 
 
 
 
 ##### 1. 📡 Escuchando la red P2P de Bitcoin
 
-Bitcoin Safe se conecta directamente a uno o más **nodos Bitcoin Core**, que participan en la red global **peer-to-peer (P2P)**. Estos nodos intercambian continuamente las transacciones recién difundidas destinadas a ser incluidas en la **mempool**.
+Bitcoin-Safe se conecta directamente a uno o más **nodos Bitcoin Core**, que participan en la red global **peer-to-peer (P2P)**. Estos nodos intercambian continuamente las transacciones recién difundidas destinadas a ser incluidas en la **mempool**.
 
-Bitcoin Safe escucha pasivamente esos mensajes difundidos y comprueba si:
+Bitcoin-Safe escucha pasivamente esos mensajes difundidos y comprueba si:
 
 * alguna transacción involucra **direcciones** o **UTXOs** de tu monedero.
 
 ✅ **Preservación de la privacidad**
 Este método es **completamente privado**. No **revela nada** sobre tu monedero al mundo exterior.
-Bitcoin Safe se comporta justo como un nodo normal de Bitcoin Core: solo escucha el tráfico P2P público — nunca anuncia ni solicita nada específico de tu monedero.
+Bitcoin-Safe se comporta justo como un nodo normal de Bitcoin Core: solo escucha el tráfico P2P público — nunca anuncia ni solicita nada específico de tu monedero.
 
 
 
 ##### 2. 🧠 Coincidencia encontrada — ¿qué ocurre a continuación?
 
-Si se encuentra una transacción coincidente, Bitcoin Safe reaccionará de forma diferente según el backend que estés usando:
+Si se encuentra una transacción coincidente, Bitcoin-Safe reaccionará de forma diferente según el backend que estés usando:
 
 ###### Opción A: ⚡ Backend Electrum o Esplora
 
-* Bitcoin Safe **iniciará una sincronización en segundo plano** para obtener la transacción completa y el estado del monedero desde el servidor.
+* Bitcoin-Safe **iniciará una sincronización en segundo plano** para obtener la transacción completa y el estado del monedero desde el servidor.
 
 ###### Opción B: 🔍 Filtros compactos de bloques (modo Neutrino)
 
@@ -91,7 +91,7 @@ Mantienes el control total y puedes activar o desactivar esta función en cualqu
 
 #### ⚠️ Solo las transacciones confirmadas pueden considerarse fiables
 
-Bitcoin Safe no puede validar por sí mismo que una transacción difundida sea válida. Un atacante —especialmente uno que controle tanto tu servidor Electrum como el nodo Bitcoin al que estás conectado— podría:
+Bitcoin-Safe no puede validar por sí mismo que una transacción difundida sea válida. Un atacante —especialmente uno que controle tanto tu servidor Electrum como el nodo Bitcoin al que estás conectado— podría:
 
 * Fabricar una transacción falsa que involucre tu dirección
 * Difundirla para desencadenar una notificación en el monedero
@@ -103,7 +103,7 @@ Bitcoin Safe no puede validar por sí mismo que una transacción difundida sea v
 
 #### ✅ Resumen
 
-A partir de la versión **1.5.0**, Bitcoin Safe soporta notificaciones instantáneas de transacciones mediante:
+A partir de la versión **1.5.0**, Bitcoin-Safe soporta notificaciones instantáneas de transacciones mediante:
 
 * Escuchar pasivamente la red P2P de Bitcoin (como Bitcoin Core)
 * Coincidir transacciones que involucren las **direcciones** o **UTXOs** de tu monedero

@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Multisig de Bitcoin",
   "Cartera Multisig",
   "Multisig 2-de-3",
@@ -22,7 +22,7 @@ keywords: [
   "Seguridad de carteras Bitcoin",
   "Nostr",
   "Chat descentralizado",
-  "Demostración de Bitcoin Safe",
+  "Demostración de Bitcoin-Safe",
   "Tutorial de multisig",
   "Tesorería Bitcoin",
   "Cartera de organización de Bitcoin",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Firma colaborativa de una cartera Multisig 2-de-3 usando Bitcoin Safe — entre diferentes ordenadores, carteras de hardware y comunicación segura vía Nostr.
+ Firma colaborativa de una cartera Multisig 2-de-3 usando Bitcoin-Safe — entre diferentes ordenadores, carteras de hardware y comunicación segura vía Nostr.
 
-Este vídeo muestra cómo dos usuarios firman colaborativamente una transacción de Bitcoin usando una configuración Multisig 2-de-3 en Bitcoin Safe. Cada participante está en un ordenador distinto, utilizando diferentes carteras de hardware (Jade y Bitbox02). Se coordinan a través de la función integrada Chat & Sync de la app, que utiliza Nostr para retransmitir mensajes de forma privada y segura.
+Este vídeo muestra cómo dos usuarios firman colaborativamente una transacción de Bitcoin usando una configuración Multisig 2-de-3 en Bitcoin-Safe. Cada participante está en un ordenador distinto, utilizando diferentes carteras de hardware (Jade y Bitbox02). Se coordinan a través de la función integrada Chat & Sync de la app, que utiliza Nostr para retransmitir mensajes de forma privada y segura.
 
 El proceso admite tanto la firma síncrona como la asíncrona — perfecto para usuarios que no están en línea al mismo tiempo.
 

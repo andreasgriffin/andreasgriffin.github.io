@@ -2,12 +2,12 @@
 aliases:
   - "/uk/knowledge/hardware-signer-only/"
 title: "Потрібні апаратні підписувачі"
-description: "Bitcoin Safe примусово використовує лише апаратні сіди в Mainnet, щоб максимізувати безпеку й уникнути ризиків програмного зберігання ключів. Ось чому це важливо."
+description: "Bitcoin-Safe примусово використовує лише апаратні сіди в Mainnet, щоб максимізувати безпеку й уникнути ризиків програмного зберігання ключів. Ось чому це важливо."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "hardware wallet",
   "software seed",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Чому Bitcoin Safe блокує програмні сіди в Mainnet?
+## 🚫 Чому Bitcoin-Safe блокує програмні сіди в Mainnet?
 
 🤔 Хіба це не незручно?
 
 🔥 Виявляється — це **значне підсилення безпеки**.
 
-Bitcoin Safe **дозволяє програмні сіди лише в Testnet, Signet і Regtest** — ніколи в Mainnet. Ось чому:
+Bitcoin-Safe **дозволяє програмні сіди лише в Testnet, Signet і Regtest** — ніколи в Mainnet. Ось чому:
 
 ### ✅ Причини, чому програмні сіди заблоковані в Mainnet
 
@@ -95,7 +95,7 @@ Bitcoin Safe **дозволяє програмні сіди лише в Testnet,
 
 ## 🛡️ Захист від отруєння адрес
 
-Bitcoin Safe **позначає адреси отримання кольорами**, щоб отруєння було очевидним:
+Bitcoin-Safe **позначає адреси отримання кольорами**, щоб отруєння було очевидним:
 
 - 🟢 Зелений = перевірена адреса отримання  
 - 🟡 Жовтий = адреса здачі  
@@ -131,7 +131,7 @@ Bitcoin Safe **позначає адреси отримання кольорам
 
 ## 🤝 Спільний мультисиг — просто
 
-Bitcoin Safe робить мультисиг зручним для команд:
+Bitcoin-Safe робить мультисиг зручним для команд:
 
 - 🔐 Зашифрований чат Nostr  
 - 🔁 Обмін PSBT одним кліком  
@@ -150,7 +150,7 @@ Bitcoin Safe робить мультисиг зручним для команд:
 - 🔁 Синхронізація міток через Nostr  
 - 🔍 Повна діаграма руху коштів і пошук в історії транзакцій
 
-![Transaction diagram in Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Transaction diagram in Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ Bitcoin Safe робить мультисиг зручним для команд:
 
 ## 💡 Коротко
 
-Bitcoin Safe = справжні біткоїн‑заощадження:
+Bitcoin-Safe = справжні біткоїн‑заощадження:
 
 ✅ Лише апаратні підписувачі в Mainnet  
 ✅ Жодного експонування сідів у ПЗ  

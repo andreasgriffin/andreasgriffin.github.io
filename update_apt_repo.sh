@@ -187,15 +187,15 @@ release_file="$release_dir/Release"
 mapfile -t index_files < <(find "$release_dir/$APT_COMPONENT" -type f \( -name "Packages" -o -name "Packages.gz" \) | sort)
 
 {
-  echo "Origin: Bitcoin Safe"
-  echo "Label: Bitcoin Safe"
+  echo "Origin: Bitcoin-Safe"
+  echo "Label: Bitcoin-Safe"
   echo "Suite: $APT_SUITE"
   echo "Codename: $APT_SUITE"
   echo "Date: $release_date"
   echo "Acquire-By-Hash: yes"
   echo "Architectures: ${arches[*]}"
   echo "Components: $APT_COMPONENT"
-  echo "Description: Bitcoin Safe APT repository"
+  echo "Description: Bitcoin-Safe APT repository"
   echo "MD5Sum:"
   for abs_path in "${index_files[@]}"; do
     rel_path="${abs_path#"$release_dir"/}"

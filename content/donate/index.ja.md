@@ -1,6 +1,6 @@
 ---
 title: "⚡サポート"
-description: "Bitcoin Safe を寄付で支援する"
+description: "Bitcoin-Safe を寄付で支援する"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-最高の価値を提供するために、**Bitcoin Safe** を構築するのは困難で慎重を要する作業です。いただけるすべてのサポートに感謝します：
-- Bitcoin Safe を支援する最も簡単な方法は寄付です： 
+最高の価値を提供するために、**Bitcoin-Safe** を構築するのは困難で慎重を要する作業です。いただけるすべてのサポートに感謝します：
+- Bitcoin-Safe を支援する最も簡単な方法は寄付です： 
   - {{< donation_btc >}}
 - また、作業でサポートすることもできます。例えば
   - {{< i18n "donate_support_testing_feedback" >}}
-  - **Bitcoin Safe** の [翻訳](https://hosted.weblate.org/engage/bitcoin-safe/) を改善する。あなたの言語が見つかりませんか？ 私に連絡してください、一緒に追加します。
+  - **Bitcoin-Safe** の [翻訳](https://hosted.weblate.org/engage/bitcoin-safe/) を改善する。あなたの言語が見つかりませんか？ 私に連絡してください、一緒に追加します。
   - {{< i18n "donate_support_other_ways" >}}
 
-**Bitcoin Safe** を支援して以下のリストに加わりましょう
+**Bitcoin-Safe** を支援して以下のリストに加わりましょう
 
 <br>
 <br>

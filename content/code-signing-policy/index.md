@@ -1,5 +1,5 @@
 ---
-title: "Code signing policy and Bitcoin Safe Privacy policy"
+title: "Code signing policy and Bitcoin-Safe Privacy policy"
 description: "Code signing policy"
 draft: false
 tags: ["legal"]

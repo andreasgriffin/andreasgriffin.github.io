@@ -1,6 +1,6 @@
 ---
 title: "⚡Sostieni"
-description: "Dona e sostieni Bitcoin Safe"
+description: "Dona e sostieni Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-Building **Bitcoin Safe** è un lavoro difficile, impegnativo e accurato per offrire il massimo valore per te. Apprezziamo qualsiasi supporto tu possa dare:
-- Il modo più semplice per supportare Bitcoin Safe è donare: 
+Building **Bitcoin-Safe** è un lavoro difficile, impegnativo e accurato per offrire il massimo valore per te. Apprezziamo qualsiasi supporto tu possa dare:
+- Il modo più semplice per supportare Bitcoin-Safe è donare: 
   - {{< donation_btc >}}
 - Ma puoi anche contribuire con il tuo lavoro, per esempio
   - {{< i18n "donate_support_testing_feedback" >}}
-  - migliora le [traduzioni](https://hosted.weblate.org/engage/bitcoin-safe/) di **Bitcoin Safe**. Non trovi la tua lingua? Scrivimi e la aggiungiamo insieme.
+  - migliora le [traduzioni](https://hosted.weblate.org/engage/bitcoin-safe/) di **Bitcoin-Safe**. Non trovi la tua lingua? Scrivimi e la aggiungiamo insieme.
   - {{< i18n "donate_support_other_ways" >}}
 
-Sostieni **Bitcoin Safe** e entra nella lista qui sotto
+Sostieni **Bitcoin-Safe** e entra nella lista qui sotto
 
 <br>
 <br>

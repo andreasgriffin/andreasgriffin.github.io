@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault moze zamienic stary telefon z Androidem w dedykowane urzadzenie do podpisywania Bitcoina offline dla Bitcoin Safe. Nie instaluj go na swoim codziennym telefonie. Najpierw zresetuj urzadzenie, trzymaj je **OFFLINE** i bez polaczenia z internetem oraz uzywaj go wylacznie do podpisywania.
+MetroVault moze zamienic stary telefon z Androidem w dedykowane urzadzenie do podpisywania Bitcoina offline dla Bitcoin-Safe. Nie instaluj go na swoim codziennym telefonie. Najpierw zresetuj urzadzenie, trzymaj je **OFFLINE** i bez polaczenia z internetem oraz uzywaj go wylacznie do podpisywania.
 
 ## Czego sie spodziewac
 
 - Zresetuj stary telefon z Androidem przed instalacja i uzywaj go tylko jako urzadzenia podpisujacego.
 - Nie instaluj innych aplikacji, nie loguj sie do zadnych kont, nie wkladaj karty SIM i nie podlaczaj urzadzenia ponownie do internetu.
-- Wymieniaj dane portfela, deskryptory i PSBT z Bitcoin Safe za pomoca kodow QR.
-- Rejestruj deskryptory multisig i eksportuj dane sygnatariusza dla Bitcoin Safe.
+- Wymieniaj dane portfela, deskryptory i PSBT z Bitcoin-Safe za pomoca kodow QR.
+- Rejestruj deskryptory multisig i eksportuj dane sygnatariusza dla Bitcoin-Safe.
 - Sprawdz wszystkie szczegoly na ekranie MetroVault przed podpisaniem.
 
 ## Zresetuj urzadzenie z Androidem i uzywaj go tylko jako podpisujacego offline

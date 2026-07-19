@@ -1,5 +1,5 @@
 ---
-title: "代码签名政策与 Bitcoin Safe 隐私政策"
+title: "代码签名政策与 Bitcoin-Safe 隐私政策"
 description: "代码签名政策"
 draft: false
 tags: ["legal"]

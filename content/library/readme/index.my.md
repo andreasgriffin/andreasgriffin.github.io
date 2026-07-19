@@ -2,12 +2,12 @@
 aliases:
   - "/my/features/readme/"
 title: "အားလုံးသော အင်္ဂါရပ်များ"
-description: "Bitcoin Safe တွင် အများဆုံး အင်္ဂါရပ်များ၏ အကျယ်အဝဲအနှစ်ချုပ်"
+description: "Bitcoin-Safe တွင် အများဆုံး အင်္ဂါရပ်များ၏ အကျယ်အဝဲအနှစ်ချုပ်"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "ဘစ်ကွိုင်း စာရင်းသိမ်းဆည်း ပိုက်ဆံအိတ်",
   "MultiSig အိတ်",
   "Multisig စတင်သူ စက်",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### မိသားစုအပေါ်တွင် Bitcoin စာရင်းသိမ်းဆည်း ပိုက်ဆံအိတ်
 
@@ -80,7 +80,7 @@ weight: -10
   - Wallet chat and PSBTs sharing between different computers
 - **မြန်ဆန်သော**: 
   - Electrum server syncing
-  - planned upgrade to **Compact Block Filters** for the Bitcoin Safe 2.0 release
+  - planned upgrade to **Compact Block Filters** for the Bitcoin-Safe 2.0 release
 
 
 

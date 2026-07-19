@@ -2,7 +2,7 @@
 aliases:
   - "/id/knowledge/setup-multisig-wallet/"
 title: "Panduan Langkah demi Langkah Pengaturan Multisig"
-description: "Panduan pengaturan Bitcoin Safe memandu Anda melalui langkah-langkah untuk membuat dompet bitcoin Multisig 2-dari-3"
+description: "Panduan pengaturan Bitcoin-Safe memandu Anda melalui langkah-langkah untuk membuat dompet bitcoin Multisig 2-dari-3"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Panduan Dompet Multisig 2-dari-3
 
-🔒 Menyiapkan dompet **Bitcoin Safe** yang aman adalah cara terbaik untuk melindungi dana Anda dari kegagalan bursa, peretasan, dan pencurian. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses langkah demi langkah!
+🔒 Menyiapkan dompet **Bitcoin-Safe** yang aman adalah cara terbaik untuk melindungi dana Anda dari kegagalan bursa, peretasan, dan pencurian. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses langkah demi langkah!
  
 
 - 🔐 Sambungkan *Coldcard Q*, *Bitbox02*, dan *Keystone*

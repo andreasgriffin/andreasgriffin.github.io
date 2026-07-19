@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "Catatan rilis untuk Bitcoin Safe 2.0.0, dengan wizard penyiapan yang dibangun ulang, sinkronisasi privat menggunakan Compact Block Filters, dan dukungan dompet perangkat keras yang lebih luas."
+description: "Catatan rilis untuk Bitcoin-Safe 2.0.0, dengan wizard penyiapan yang dibangun ulang, sinkronisasi privat menggunakan Compact Block Filters, dan dukungan dompet perangkat keras yang lebih luas."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">Pengumuman rilis</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - penyiapan dompet terpandu, sinkronisasi chain privat, dan penandatanganan yang berfokus pada perangkat</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - penyiapan dompet terpandu, sinkronisasi chain privat, dan penandatanganan yang berfokus pada perangkat</h2>
     <p class="lead mb-4">Rilis ini menghadirkan wizard penyiapan yang dibangun ulang, sinkronisasi chain privat dengan Compact Block Filters, dan alur penandatanganan yang diatur di sekitar setiap perangkat keras. Jika Anda penasaran dengan cold storage tetapi masih ragu, inilah rilis yang patut dicoba.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Unduh Bitcoin Safe 2.0</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Unduh Bitcoin-Safe 2.0</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">Lihat yang baru</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## Jalur terpandu menuju self-custody {#setup-flow}
 
-Pengalaman penggunaan pertama telah dibangun ulang dari nol. Bitcoin Safe tetap ditujukan untuk self-custody yang serius, termasuk multisig berbasis perangkat keras, dan versi 2.0 kini memberi pengguna baru jalur terpandu melalui penyiapan tersebut. Wizard baru menjelaskan apa yang sedang terjadi, Anda sedang berada di bagian mana dari alur, dan apa yang dibutuhkan setiap signer sebelum Anda melanjutkan.
+Pengalaman penggunaan pertama telah dibangun ulang dari nol. Bitcoin-Safe tetap ditujukan untuk self-custody yang serius, termasuk multisig berbasis perangkat keras, dan versi 2.0 kini memberi pengguna baru jalur terpandu melalui penyiapan tersebut. Wizard baru menjelaskan apa yang sedang terjadi, Anda sedang berada di bagian mana dari alur, dan apa yang dibutuhkan setiap signer sebelum Anda melanjutkan.
 
 <p class="small text-muted">Untuk detail implementasi, lihat <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>.</p>
 
@@ -72,7 +72,7 @@ Sorotan desain ulang:
 <br><br>
 ## Sinkronisasi chain yang privat dan tangguh dengan Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) kini menjadi mesin sinkronisasi dompet baru di Bitcoin Safe 2.0. Alih-alih bertanya ke server Electrum alamat mana yang milik Anda, Bitcoin Safe sekarang dapat memindai chain secara privat dengan mengunduh filter ringkas dari peer Bitcoin Core acak dan memeriksanya secara lokal.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) kini menjadi mesin sinkronisasi dompet baru di Bitcoin-Safe 2.0. Alih-alih bertanya ke server Electrum alamat mana yang milik Anda, Bitcoin-Safe sekarang dapat memindai chain secara privat dengan mengunduh filter ringkas dari peer Bitcoin Core acak dan memeriksanya secara lokal.
 
 <p class="small text-muted">Untuk detail implementasi, lihat <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>.</p>
 
@@ -88,7 +88,7 @@ Sorotan desain ulang:
 <br><br>
 ## Alur penandatanganan yang berfokus pada perangkat untuk setiap perangkat {#device-focused-signing}
 
-Desain ulang ini juga membentuk ulang alur penandatanganan setelah pembuatan dompet. Alih-alih satu layar generik untuk semua signer, Bitcoin Safe sekarang memusatkan tindakan di sekitar perangkat spesifik yang sedang Anda gunakan.
+Desain ulang ini juga membentuk ulang alur penandatanganan setelah pembuatan dompet. Alih-alih satu layar generik untuk semua signer, Bitcoin-Safe sekarang memusatkan tindakan di sekitar perangkat spesifik yang sedang Anda gunakan.
 
 <p class="small text-muted">Untuk detail implementasi, lihat <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>.</p>
 
@@ -103,7 +103,7 @@ Desain ulang ini juga membentuk ulang alur penandatanganan setelah pembuatan dom
 <br><br>
 ## Arsitektur plugin untuk alur kerja bisnis dan power user
 
-Bitcoin Safe 2.0 juga meletakkan dasar bagi plugin tambahan di masa depan yang ditujukan untuk bisnis Bitcoin dan power user. Jadi pantau terus apa yang akan datang :-)
+Bitcoin-Safe 2.0 juga meletakkan dasar bagi plugin tambahan di masa depan yang ditujukan untuk bisnis Bitcoin dan power user. Jadi pantau terus apa yang akan datang :-)
 
 <p class="small text-muted">Untuk detail implementasi, lihat <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>.</p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0 juga meletakkan dasar bagi plugin tambahan di masa depan yang d
 <br><br>
 ## Kekuatan lama yang tetap ada
 
-Rilis 2.0 bukan reset. Di balik alur onboarding dan penandatanganan yang baru, Bitcoin Safe tetap membawa fitur-fitur yang membuatnya berguna sehari-hari: multisig kolaboratif, cadangan PDF, riwayat dompet yang dapat dicari, visualisasi arus dana, sinkronisasi label, dan banyak lagi.
+Rilis 2.0 bukan reset. Di balik alur onboarding dan penandatanganan yang baru, Bitcoin-Safe tetap membawa fitur-fitur yang membuatnya berguna sehari-hari: multisig kolaboratif, cadangan PDF, riwayat dompet yang dapat dicari, visualisasi arus dana, sinkronisasi label, dan banyak lagi.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ Rilis 2.0 bukan reset. Di balik alur onboarding dan penandatanganan yang baru, B
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">Siap mencoba Bitcoin Safe 2.0?</h2>
+  <h2 class="h4 mb-2">Siap mencoba Bitcoin-Safe 2.0?</h2>
   <p class="mb-3">Unduh rilis terbaru dan jelajahi sendiri onboarding baru, sinkronisasi privat, serta peningkatan hardware wallet.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Unduh Bitcoin Safe</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Unduh Bitcoin-Safe</a>
 </div>
 
 
@@ -154,9 +154,9 @@ Rilis ini berdiri di atas banyak kerja dari para kontributor, penguji, dan [pend
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) untuk desain ulang wizard, pekerjaan UI plugin, dan dukungan UI/UX yang **luar biasa dan tanpa lelah**
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) untuk klien Compact Block Filters yang kini mendukung sinkronisasi dompet privat untuk dompet baru
-- Tim [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) untuk pustaka yang menjadi inti Bitcoin Safe
+- Tim [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) untuk pustaka yang menjadi inti Bitcoin-Safe
 - Tim [ndk](https://github.com/nostr-dev-kit/ndk) untuk pustaka yang mendukung fungsionalitas nostr
-- Semua orang di komunitas Bitcoin Safe yang menguji release candidate, melaporkan bug, menerjemahkan halaman, mengirim sats, dan terus mendorong proyek ini maju
+- Semua orang di komunitas Bitcoin-Safe yang menguji release candidate, melaporkan bug, menerjemahkan halaman, mengirim sats, dan terus mendorong proyek ini maju
 - [Penerjemah]({{< ref "donate/#translators" >}}), termasuk <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (Vietnam)" title="qdyg-vn 🇻🇳 (Vietnam)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (Jerman)" title="bsn21m 🇩🇪 (Jerman)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (Spanyol)" title="cyphra 🇪🇸 (Spanyol)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

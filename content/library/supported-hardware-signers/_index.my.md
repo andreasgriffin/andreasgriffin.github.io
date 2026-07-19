@@ -2,7 +2,7 @@
 aliases:
   - "/my/knowledge/supported-hardware-signers/"
 title: အပြည့်အစုံ ပံ့ပိုးထားသော ဟာ့ဒ်ဝဲ လက်မှတ်ထိုးကိရိယာများ
-description: Bitcoin Safe အတွက် အပြည့်အစုံ ပံ့ပိုးထားသော ဟာ့ဒ်ဝဲ လက်မှတ်ထိုးကိရိယာများ
+description: Bitcoin-Safe အတွက် အပြည့်အစုံ ပံ့ပိုးထားသော ဟာ့ဒ်ဝဲ လက်မှတ်ထိုးကိရိယာများ
 draft: false
 bucket: knowledge
 images:

@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "Notes de la versio de Bitcoin Safe 2.0.0, amb un assistent de configuracio reconstruït, sincronitzacio privada amb Compact Block Filters i suport ampliat per a carteres de maquinari."
+description: "Notes de la versio de Bitcoin-Safe 2.0.0, amb un assistent de configuracio reconstruït, sincronitzacio privada amb Compact Block Filters i suport ampliat per a carteres de maquinari."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">Anunci de llançament</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - configuracio guiada de la cartera, sincronitzacio privada de la cadena i signatures centrades en el dispositiu</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - configuracio guiada de la cartera, sincronitzacio privada de la cadena i signatures centrades en el dispositiu</h2>
     <p class="lead mb-4">Aquesta versio incorpora un assistent de configuracio reconstruït, sincronitzacio privada de la cadena amb Compact Block Filters i un flux de signatura organitzat al voltant de cada dispositiu de maquinari. Si tenies curiositat pel cold storage pero no ho tenies clar, aquesta es la versio que has de provar.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Descarrega Bitcoin Safe 2.0</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Descarrega Bitcoin-Safe 2.0</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">Veure les novetats</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## Un cami guiat cap a l'autocustodia {#setup-flow}
 
-L'experiencia del primer inici s'ha reconstruït des de zero. Bitcoin Safe continua pensat per a una autocustodia seriosa, incloent-hi multisig amb suport de maquinari, i ara la versio 2.0 ofereix a les persones noves un cami guiat per aquesta configuracio. El nou assistent explica que esta passant, en quin punt del flux et trobes i que necessita cada signer abans de continuar.
+L'experiencia del primer inici s'ha reconstruït des de zero. Bitcoin-Safe continua pensat per a una autocustodia seriosa, incloent-hi multisig amb suport de maquinari, i ara la versio 2.0 ofereix a les persones noves un cami guiat per aquesta configuracio. El nou assistent explica que esta passant, en quin punt del flux et trobes i que necessita cada signer abans de continuar.
 
 <p class="small text-muted">Per als detalls d'implementacio, consulta la <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>.</p>
 
@@ -72,7 +72,7 @@ Punts destacats del redisseny:
 <br><br>
 ## Sincronitzacio privada i robusta de la cadena amb Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) ara impulsen la sincronitzacio de carteres noves a Bitcoin Safe 2.0. En lloc de preguntar a un servidor Electrum quines adreces et pertanyen, Bitcoin Safe ara pot escanejar la cadena de manera privada descarregant filtres compactes de nodes aleatoris de Bitcoin Core i comprovant-los localment.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) ara impulsen la sincronitzacio de carteres noves a Bitcoin-Safe 2.0. En lloc de preguntar a un servidor Electrum quines adreces et pertanyen, Bitcoin-Safe ara pot escanejar la cadena de manera privada descarregant filtres compactes de nodes aleatoris de Bitcoin Core i comprovant-los localment.
 
 <p class="small text-muted">Per als detalls d'implementacio, consulta la <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>.</p>
 
@@ -88,7 +88,7 @@ Punts destacats del redisseny:
 <br><br>
 ## Un flux de signatura centrat en el dispositiu per a cada dispositiu {#device-focused-signing}
 
-El redisseny tambe remodela el flux de signatura despres de crear la cartera. En lloc d'una pantalla generica per a tots els signers, Bitcoin Safe ara centra les accions al voltant del dispositiu concret que estas fent servir.
+El redisseny tambe remodela el flux de signatura despres de crear la cartera. En lloc d'una pantalla generica per a tots els signers, Bitcoin-Safe ara centra les accions al voltant del dispositiu concret que estas fent servir.
 
 <p class="small text-muted">Per als detalls d'implementacio, consulta la <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>.</p>
 
@@ -103,7 +103,7 @@ El redisseny tambe remodela el flux de signatura despres de crear la cartera. En
 <br><br>
 ## Arquitectura de plugins per a fluxos de treball empresarials i usuaris avançats
 
-Bitcoin Safe 2.0 tambe posa les bases per a futurs plugins addicionals pensats per a empreses de Bitcoin i usuaris avançats. Així que val la pena estar atents al que vindra :-)
+Bitcoin-Safe 2.0 tambe posa les bases per a futurs plugins addicionals pensats per a empreses de Bitcoin i usuaris avançats. Així que val la pena estar atents al que vindra :-)
 
 <p class="small text-muted">Per als detalls d'implementacio, consulta la <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>.</p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0 tambe posa les bases per a futurs plugins addicionals pensats p
 <br><br>
 ## Els punts forts que ja existien continuen aqui
 
-La versio 2.0 no es un reinici. Sota el nou flux d'onboarding i signatura, Bitcoin Safe continua mantenint les funcionalitats que el feien util cada dia: multisig col·laboratiu, copies de seguretat en PDF, historial de cartera cercable, visualitzacions del flux de diners, sincronitzacio d'etiquetes i mes.
+La versio 2.0 no es un reinici. Sota el nou flux d'onboarding i signatura, Bitcoin-Safe continua mantenint les funcionalitats que el feien util cada dia: multisig col·laboratiu, copies de seguretat en PDF, historial de cartera cercable, visualitzacions del flux de diners, sincronitzacio d'etiquetes i mes.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ La versio 2.0 no es un reinici. Sota el nou flux d'onboarding i signatura, Bitco
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">Preparat per provar Bitcoin Safe 2.0?</h2>
+  <h2 class="h4 mb-2">Preparat per provar Bitcoin-Safe 2.0?</h2>
   <p class="mb-3">Descarrega l'ultima versio i explora per tu mateix el nou onboarding, la sincronitzacio privada i les millores per a wallets de maquinari.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Descarrega Bitcoin Safe</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Descarrega Bitcoin-Safe</a>
 </div>
 
 
@@ -154,9 +154,9 @@ Aquesta versio es basa en molta feina de col·laboradors, testers i [persones qu
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) pel redisseny de l'assistent, el treball d'UI dels plugins i un suport d'UI/UX **fantastic i incansable**
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) pel client de Compact Block Filters que ara impulsa la sincronitzacio privada de carteres noves
-- L'[equip de Bitcoin Dev Kit](https://github.com/bitcoindevkit/) per les biblioteques al cor de Bitcoin Safe
+- L'[equip de Bitcoin Dev Kit](https://github.com/bitcoindevkit/) per les biblioteques al cor de Bitcoin-Safe
 - L'[equip d'ndk](https://github.com/nostr-dev-kit/ndk) per les biblioteques que impulsen la funcionalitat nostr
-- Tota la comunitat de Bitcoin Safe que ha provat release candidates, ha informat d'errors, ha traduit pagines, ha enviat sats i ha continuat empenyent el projecte endavant
+- Tota la comunitat de Bitcoin-Safe que ha provat release candidates, ha informat d'errors, ha traduit pagines, ha enviat sats i ha continuat empenyent el projecte endavant
 - [Traductors]({{< ref "donate/#translators" >}}), incloent-hi <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (Vietnamita)" title="qdyg-vn 🇻🇳 (Vietnamita)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (Alemany)" title="bsn21m 🇩🇪 (Alemany)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (Espanyol)" title="cyphra 🇪🇸 (Espanyol)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

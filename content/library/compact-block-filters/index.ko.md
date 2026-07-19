@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "컴팩트 블록 필터"
   - "CBF"
   - "프라이버시"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**컴팩트 블록 필터(CBF)** 를 사용하면 [Bitcoin Safe]({{< ref "/" >}}) 는 Electrum 서버에 주소를 묻지 않고도 블록체인을 스캔할 수 있습니다.
+**컴팩트 블록 필터(CBF)** 를 사용하면 [Bitcoin-Safe]({{< ref "/" >}}) 는 Electrum 서버에 주소를 묻지 않고도 블록체인을 스캔할 수 있습니다.
 
-![Bitcoin Safe가 여러 랜덤 Bitcoin Core 피어에서 컴팩트 블록 필터를 다운로드합니다.](logo.jpg)
+![Bitcoin-Safe가 여러 랜덤 Bitcoin Core 피어에서 컴팩트 블록 필터를 다운로드합니다.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-중앙 서버를 조회하는 대신, Bitcoin Safe는 각 블록에 대한 작은 필터를 랜덤한 Bitcoin Core 피어들로부터 다운로드합니다. 지갑은 이를 로컬에서 확인하고 필요할 때만 전체 블록을 내려받습니다.
+중앙 서버를 조회하는 대신, Bitcoin-Safe는 각 블록에 대한 작은 필터를 랜덤한 Bitcoin Core 피어들로부터 다운로드합니다. 지갑은 이를 로컬에서 확인하고 필요할 때만 전체 블록을 내려받습니다.
 
 ### CBF 와 Electrum
 
@@ -71,7 +71,7 @@ weight: 0
 ### CBF 를 사용하는 이유
 
 - 더 나은 프라이버시: 지갑이 서버에 주소를 묻지 않습니다.
-- 신뢰할 수 있는 인덱서 불필요: Bitcoin Safe 는 비트코인 네트워크와 직접 통신합니다.
+- 신뢰할 수 있는 인덱서 불필요: Bitcoin-Safe 는 비트코인 네트워크와 직접 통신합니다.
 - 가벼운 동기화: 필터가 작아서 전체 블록체인이 필요 없습니다.
 
 ### 기대할 수 있는 점
@@ -80,7 +80,7 @@ weight: 0
 - 이미 동기화된 지갑: 보통 **매우 빠르게** 따라잡으며, 종종 **30초 이내** 입니다.
 - Electrum 에서 CBF 로 전환: 보통 역시 **30초 이내** 입니다.
 
-Bitcoin Safe 가 연결할 피어 수를 선택할 수 있습니다. 피어가 많을수록 중복성은 좋아지지만, 대개 대역폭과 동기화 시간도 늘어납니다. 기본값은 **2** 개입니다.
+Bitcoin-Safe 가 연결할 피어 수를 선택할 수 있습니다. 피어가 많을수록 중복성은 좋아지지만, 대개 대역폭과 동기화 시간도 늘어납니다. 기본값은 **2** 개입니다.
 
 ### 미확인 거래
 
@@ -88,7 +88,7 @@ CBF 는 **확인된 블록** 만 다룹니다. 미확인 입금 알림도 받으
 
 ### 기술 참고
 
-컴팩트 블록 필터는 [BIP158](https://bips.dev/158/) 에 정의되어 있습니다. Bitcoin Safe 는 오픈 소스 [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) 를 사용합니다.
+컴팩트 블록 필터는 [BIP158](https://bips.dev/158/) 에 정의되어 있습니다. Bitcoin-Safe 는 오픈 소스 [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto) 를 사용합니다.
 
 _Bitcoin network monitoring_ 설정에서 자신의 Bitcoin Core 노드를 초기 피어로 사용할 수도 있습니다.
 

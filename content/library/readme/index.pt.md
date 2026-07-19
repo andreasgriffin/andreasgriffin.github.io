@@ -2,12 +2,12 @@
 aliases:
   - "/pt/features/readme/"
 title: "Todas as funcionalidades"
-description: "Visão geral abrangente da maioria das funcionalidades do Bitcoin Safe"
+description: "Visão geral abrangente da maioria das funcionalidades do Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "carteira de poupança Bitcoin",
   "carteira MultiSig",
   "assistente de configuração Multisig",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Uma carteira de poupança Bitcoin para toda a família
 
@@ -74,7 +74,7 @@ weight: -10
   - Chat da carteira e partilha de PSBTs entre diferentes computadores
 - **Rápido**: 
   - Sincronização com servidor Electrum
-  - Atualização planejada para **Compact Block Filters** para o lançamento Bitcoin Safe 2.0 
+  - Atualização planejada para **Compact Block Filters** para o lançamento Bitcoin-Safe 2.0 
 
 
 

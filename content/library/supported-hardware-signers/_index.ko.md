@@ -2,7 +2,7 @@
 aliases:
   - "/ko/knowledge/supported-hardware-signers/"
 title: 완전 지원되는 하드웨어 서명기
-description: Bitcoin Safe용 완전 지원되는 하드웨어 서명기
+description: Bitcoin-Safe용 완전 지원되는 하드웨어 서명기
 draft: false
 bucket: knowledge
 images:

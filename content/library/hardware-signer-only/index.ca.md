@@ -2,12 +2,12 @@
 aliases:
   - "/ca/knowledge/hardware-signer-only/"
 title: "Signants de maquinari obligatoris"
-description: "Bitcoin Safe exigeix llavors exclusivament de maquinari a la Mainnet per maximitzar la seguretat i evitar els riscos de l'emmagatzematge de claus en programari. Per això és important."
+description: "Bitcoin-Safe exigeix llavors exclusivament de maquinari a la Mainnet per maximitzar la seguretat i evitar els riscos de l'emmagatzematge de claus en programari. Per això és important."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "cartera de maquinari",
   "llavor de programari",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Per què Bitcoin Safe bloqueja les llavors de programari a la Mainnet?
+## 🚫 Per què Bitcoin-Safe bloqueja les llavors de programari a la Mainnet?
 
 🤔 No és incòmode?
 
 🔥 Resulta que — és una **millora important de seguretat**.
 
-Bitcoin Safe **només permet llavors de programari a Testnet, Signet i Regtest** — mai a la Mainnet. Així és per què:
+Bitcoin-Safe **només permet llavors de programari a Testnet, Signet i Regtest** — mai a la Mainnet. Així és per què:
 
 ### ✅ Raons per les quals les llavors de programari estan bloquejades a la Mainnet
 
@@ -95,7 +95,7 @@ Bitcoin Safe **només permet llavors de programari a Testnet, Signet i Regtest**
 
 ## 🛡️ Protecció contra l'enverinament d'adreces
 
-Bitcoin Safe **codifica amb colors les adreces de recepció** per fer evident l'enverinament d'adreces:
+Bitcoin-Safe **codifica amb colors les adreces de recepció** per fer evident l'enverinament d'adreces:
 
 - 🟢 Verd = adreça de recepció verificada  
 - 🟡 Groc = adreça de canvi  
@@ -131,7 +131,7 @@ Verifica les adreces de recepció directament al teu signant de maquinari — no
 
 ## 🤝 Multisig col·laboratiu fàcil
 
-Bitcoin Safe fa que el multisig sigui fàcil d'usar i apte per a equips:
+Bitcoin-Safe fa que el multisig sigui fàcil d'usar i apte per a equips:
 
 - 🔐 Xat Nostr xifrat  
 - 🔁 Compartir PSBT amb 1 clic  
@@ -150,7 +150,7 @@ Bitcoin Safe fa que el multisig sigui fàcil d'usar i apte per a equips:
 - 🔁 Sincronització d'etiquetes via Nostr  
 - 🔍 Diagrama complet del flux de diners i historial de transaccions amb cerca
 
-![Diagrama de transaccions a Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Diagrama de transaccions a Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ Bitcoin Safe fa que el multisig sigui fàcil d'usar i apte per a equips:
 
 ## 💡 Resum
 
-Bitcoin Safe = Estalvis reals en Bitcoin:
+Bitcoin-Safe = Estalvis reals en Bitcoin:
 
 ✅ Maquinari obligatori a la Mainnet  
 ✅ Cap exposició de llavors de programari  

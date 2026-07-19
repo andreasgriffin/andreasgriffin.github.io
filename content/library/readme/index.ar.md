@@ -2,12 +2,12 @@
 aliases:
   - "/ar/features/readme/"
 title: "جميع الميزات"
-description: "نظرة شاملة على معظم ميزات Bitcoin Safe"
+description: "نظرة شاملة على معظم ميزات Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "محفظة ادخار بيتكوين",
   "محفظة متعددة التوقيع",
   "معالج إعداد متعدد التوقيع",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### محفظة ادخار بيتكوين لجميع أفراد العائلة
 
@@ -80,7 +80,7 @@ weight: -10
   - دردشة المحفظة ومشاركة PSBTs بين أجهزة الكمبيوتر المختلفة
 - **سريع**:
   - مزامنة مع خادم Electrum
-  - ترقية مخططة إلى **Compact Block Filters** لإصدار Bitcoin Safe 2.0
+  - ترقية مخططة إلى **Compact Block Filters** لإصدار Bitcoin-Safe 2.0
 
 
 ### كامل الميزات - سهل وقوي

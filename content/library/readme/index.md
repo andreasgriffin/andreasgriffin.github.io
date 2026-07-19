@@ -3,12 +3,12 @@ aliases:
   - "/features/readme/"
   - "/en/features/readme/"
 title: "All features"
-description: "Comprehensive overview of most features in Bitcoin Safe"
+description: "Comprehensive overview of most features in Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "bitcoin savings wallet",
   "MultiSig wallet",
   "Multisig setup wizard",
@@ -56,7 +56,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### A bitcoin savings wallet for the entire family
 

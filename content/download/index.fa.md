@@ -1,6 +1,6 @@
 ---
 title: "دانلود"
-description: "دانلود Bitcoin Safe"
+description: "دانلود Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe شما را از نسخهٔ جدیدتر مطلع می‌کند و اصالت را به‌صورت خودکار تأیید می‌کند.**
+✅ **Bitcoin-Safe شما را از نسخهٔ جدیدتر مطلع می‌کند و اصالت را به‌صورت خودکار تأیید می‌کند.**
 
 
-فایل‌های باینری ویندوز امضا شده‌اند، [سیاست امضای کد]({{< ref "code-signing-policy" >}}) را بررسی کنید. همچنین [سیاست حفظ حریم خصوصی Bitcoin Safe]({{< ref "code-signing-policy" >}}) را ببینید. فایل‌های باینری macOS امضا نشده‌اند، بنابراین لطفاً پیام هشدار را نادیده بگیرید.
+فایل‌های باینری ویندوز امضا شده‌اند، [سیاست امضای کد]({{< ref "code-signing-policy" >}}) را بررسی کنید. همچنین [سیاست حفظ حریم خصوصی Bitcoin-Safe]({{< ref "code-signing-policy" >}}) را ببینید. فایل‌های باینری macOS امضا نشده‌اند، بنابراین لطفاً پیام هشدار را نادیده بگیرید.
 
 <br>
 <br>
 
 ###  macOS 
 
-لطفاً برای اجرای Bitcoin Safe روی macOS مراحل زیر را دنبال کنید:
+لطفاً برای اجرای Bitcoin-Safe روی macOS مراحل زیر را دنبال کنید:
 - آن را در پوشهٔ Applications (پوشهٔ برنامه‌ها) خود کپی کنید
 - برای باز کردن آن تلاش کنید؛ یک هشدار دریافت خواهید کرد
 - به *تنظیمات سیستم* --> *حریم خصوصی و امنیت* --> *باز کردن به هر حال* بروید
@@ -32,7 +32,7 @@ menu:
 
 <img src="/images/mac/copy-app.png" alt="کپی برنامه در macOS"   /> 
 <img src="/images/mac/warning.png" alt="هشدار macOS"   /> 
-<img src="/images/mac/disable.png" alt="باز کردن Bitcoin Safe در macOS"   /> 
+<img src="/images/mac/disable.png" alt="باز کردن Bitcoin-Safe در macOS"   /> 
 
 
 <br>
@@ -41,6 +41,10 @@ menu:
 ### دبیان/اوبونتو (مخزن APT)
 
 {{< apt_repo_install >}}
+
+### لینوکس (Flathub)
+
+به‌عنوان روشی جایگزین، کاربران لینوکس می‌توانند Bitcoin-Safe را از [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) نصب کنند.
 
 <br>
 <br>

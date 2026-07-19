@@ -9,7 +9,7 @@ videos:
 bucket: knowledge
 ---
 
-**指南：** [在 Bitcoin Safe 中使用 Keystone](https://guide.keyst.one/docs/bitcoinsafe)
+**指南：** [在 Bitcoin-Safe 中使用 Keystone](https://guide.keyst.one/docs/bitcoinsafe)
 
 # Videos
   
