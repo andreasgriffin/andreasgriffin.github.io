@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe အသိုင်းအဝိုင်း: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe အသိုင်းအဝိုင်း: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 GitHub တွင် [Issue တင်ရန်](https://github.com/andreasgriffin/bitcoin-safe)။
 

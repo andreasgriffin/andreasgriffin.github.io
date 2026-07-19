@@ -8,7 +8,7 @@ videos:
 bucket: knowledge
 ---
 
-**လမ်းညွှန်:** [Bitcoin Safe နှင့် Keystone ကို အသုံးပြုရန်](https://guide.keyst.one/docs/bitcoinsafe)
+**လမ်းညွှန်:** [Bitcoin-Safe နှင့် Keystone ကို အသုံးပြုရန်](https://guide.keyst.one/docs/bitcoinsafe)
 
 # Videos
   

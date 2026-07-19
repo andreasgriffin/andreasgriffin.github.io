@@ -1,5 +1,5 @@
 ---
-title: "Politique de signature du code et politique de confidentialité de Bitcoin Safe"
+title: "Politique de signature du code et politique de confidentialité de Bitcoin-Safe"
 description: "Politique de signature du code"
 draft: false
 tags: ["legal"]

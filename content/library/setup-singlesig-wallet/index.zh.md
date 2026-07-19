@@ -2,7 +2,7 @@
 aliases:
   - "/zh/knowledge/setup-singlesig-wallet/"
 title: "逐步单签设置"
-description: "Bitcoin Safe 设置向导将引导您完成创建单签比特币钱包的所有步骤"
+description: "Bitcoin-Safe 设置向导将引导您完成创建单签比特币钱包的所有步骤"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -35,7 +35,7 @@ videos:
 
 # 指导单签钱包设置
 
-🔒 设置一个安全的 **Bitcoin Safe** 钱包是保护您的资金免受交易所倒闭、黑客和盗窃的最佳方式。在本教程中，我们将一步步使用 Trezor 引导您完成整个过程！
+🔒 设置一个安全的 **Bitcoin-Safe** 钱包是保护您的资金免受交易所倒闭、黑客和盗窃的最佳方式。在本教程中，我们将一步步使用 Trezor 引导您完成整个过程！
  
 
 

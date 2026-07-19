@@ -1,6 +1,6 @@
 ---
 title: "下载"
-description: "下载 Bitcoin Safe"
+description: "下载 Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe 会自动通知您有新版本并验证其真实性。**
+✅ **Bitcoin-Safe 会自动通知您有新版本并验证其真实性。**
 
 
-Windows 二进制文件已签名，请查看 [代码签名策略]({{< ref "code-signing-policy" >}})。在此查看 [Bitcoin Safe 隐私政策]({{< ref "code-signing-policy" >}})。MacOS 的二进制文件未签名，因此请忽略警告信息。
+Windows 二进制文件已签名，请查看 [代码签名策略]({{< ref "code-signing-policy" >}})。在此查看 [Bitcoin-Safe 隐私政策]({{< ref "code-signing-policy" >}})。MacOS 的二进制文件未签名，因此请忽略警告信息。
 
 <br>
 <br>
 
 ###  macOS 
 
-请按照以下步骤在 macOS 上运行 Bitcoin Safe：
+请按照以下步骤在 macOS 上运行 Bitcoin-Safe：
 - 将其复制到您的应用程序文件夹
 - 尝试打开它时会出现警告
 - 进入 *系统设置* --> *隐私与安全性* --> *仍要打开*
@@ -32,7 +32,7 @@ Windows 二进制文件已签名，请查看 [代码签名策略]({{< ref "code-
 
 <img src="/images/mac/copy-app.png" alt="macOS 复制应用"   /> 
 <img src="/images/mac/warning.png" alt="macOS 警告"   /> 
-<img src="/images/mac/disable.png" alt="macOS 打开 Bitcoin Safe"   /> 
+<img src="/images/mac/disable.png" alt="macOS 打开 Bitcoin-Safe"   /> 
 
 
 
@@ -42,6 +42,10 @@ Windows 二进制文件已签名，请查看 [代码签名策略]({{< ref "code-
 ### Debian/Ubuntu（APT 软件源）
 
 {{< apt_repo_install >}}
+
+### Linux（Flathub）
+
+作为另一种选择，Linux 用户可以从 [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) 安装 Bitcoin-Safe。
 
 <br>
 <br>

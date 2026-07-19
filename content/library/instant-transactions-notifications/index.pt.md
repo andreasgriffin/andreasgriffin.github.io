@@ -2,7 +2,7 @@
 aliases:
   - "/pt/features/instant-transactions-notifications/"
 title: "Notificações instantâneas de transações"
-description: "Como o Bitcoin Safe recebe notificações instantâneas de transações"
+description: "Como o Bitcoin-Safe recebe notificações instantâneas de transações"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (a partir da versão **1.5.0**) suporta notificações instantâneas de transações Bitcoin relevantes para a sua carteira. Eis como funciona nos bastidores:
+**Bitcoin-Safe** (a partir da versão **1.5.0**) suporta notificações instantâneas de transações Bitcoin relevantes para a sua carteira. Eis como funciona nos bastidores:
 
 
 
 
 ##### 1. 📡 A escuta da rede P2P do Bitcoin
 
-O Bitcoin Safe liga-se diretamente a um ou mais **nós Bitcoin Core**, que participam na rede global **peer-to-peer (P2P)**. Esses nós trocam continuamente transacções recém-difundidas destinadas a serem incluídas no **mempool**.
+O Bitcoin-Safe liga-se diretamente a um ou mais **nós Bitcoin Core**, que participam na rede global **peer-to-peer (P2P)**. Esses nós trocam continuamente transacções recém-difundidas destinadas a serem incluídas no **mempool**.
 
-O Bitcoin Safe escuta passivamente essas mensagens de difusão e verifica se:
+O Bitcoin-Safe escuta passivamente essas mensagens de difusão e verifica se:
 
 * alguma transacção envolve **endereços** ou **UTXOs** da sua carteira.
 
 ✅ **Preservação da privacidade**
 Este método é **completamente privado**. Não **revela nada** sobre a sua carteira ao mundo exterior.
-O Bitcoin Safe comporta-se exatamente como um nó Bitcoin Core normal: limita-se a ouvir o tráfego público P2P — nunca anunciando ou solicitando algo específico da sua carteira.
+O Bitcoin-Safe comporta-se exatamente como um nó Bitcoin Core normal: limita-se a ouvir o tráfego público P2P — nunca anunciando ou solicitando algo específico da sua carteira.
 
 
 
 ##### 2. 🧠 Correspondência encontrada — O que acontece a seguir?
 
-Se for encontrada uma transacção correspondente, o Bitcoin Safe reagirá de forma diferente dependendo do backend que estiver a utilizar:
+Se for encontrada uma transacção correspondente, o Bitcoin-Safe reagirá de forma diferente dependendo do backend que estiver a utilizar:
 
 ###### Opção A: ⚡ Backend Electrum ou Esplora
 
-* O Bitcoin Safe irá **disparar uma sincronização em segundo plano** para obter a transacção completa e o estado da carteira a partir do servidor.
+* O Bitcoin-Safe irá **disparar uma sincronização em segundo plano** para obter a transacção completa e o estado da carteira a partir do servidor.
 
 ###### Opção B: 🔍 Filtros de Blocos Compactos (Modo Neutrino)
 
@@ -91,7 +91,7 @@ Permanece em controlo total e pode alternar esta funcionalidade a qualquer momen
 
 #### ⚠️ Apenas transacções confirmadas são fiáveis
 
-O Bitcoin Safe não consegue validar que uma transacção difundida seja válida. Um atacante — especialmente se controlar tanto o seu servidor Electrum como o nó Bitcoin ao qual está ligado — poderia:
+O Bitcoin-Safe não consegue validar que uma transacção difundida seja válida. Um atacante — especialmente se controlar tanto o seu servidor Electrum como o nó Bitcoin ao qual está ligado — poderia:
 
 * Forjar uma transacção falsa envolvendo o seu endereço
 * Difundi‑la para desencadear uma notificação na carteira
@@ -103,7 +103,7 @@ O Bitcoin Safe não consegue validar que uma transacção difundida seja válida
 
 #### ✅ Resumo
 
-A partir da versão **1.5.0**, o Bitcoin Safe suporta notificações instantâneas de transacções através de:
+A partir da versão **1.5.0**, o Bitcoin-Safe suporta notificações instantâneas de transacções através de:
 
 * Escuta passiva da rede P2P do Bitcoin (como o Bitcoin Core)
 * Correspondência de transacções que envolvem os **endereços** ou **UTXOs** da sua carteira

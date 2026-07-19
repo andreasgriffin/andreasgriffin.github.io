@@ -2,7 +2,7 @@
 aliases:
   - "/pl/knowledge/setup-singlesig-wallet/"
 title: "Konfiguracja portfela Singlesig krok po kroku"
-description: "Kreator konfiguracji Bitcoin Safe przeprowadzi Cię przez kroki tworzenia jednopodpisowego portfela Bitcoin."
+description: "Kreator konfiguracji Bitcoin-Safe przeprowadzi Cię przez kroki tworzenia jednopodpisowego portfela Bitcoin."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Przewodnik krok po kroku: konfiguracja portfela Singlesig
 
-🔒 Skonfigurowanie bezpiecznego **Bitcoin Safe** to najlepszy sposób, aby chronić swoje środki przed awariami giełd, atakami hakerskimi i kradzieżą. W tym poradniku przeprowadzimy Cię przez cały proces krok po kroku z użyciem Trezora!
+🔒 Skonfigurowanie bezpiecznego **Bitcoin-Safe** to najlepszy sposób, aby chronić swoje środki przed awariami giełd, atakami hakerskimi i kradzieżą. W tym poradniku przeprowadzimy Cię przez cały proces krok po kroku z użyciem Trezora!
  
 
 

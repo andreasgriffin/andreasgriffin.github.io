@@ -2,7 +2,7 @@
 aliases:
   - "/ca/knowledge/supported-hardware-signers/"
 title: Firmadors de maquinari completament compatibles
-description: Firmadors de maquinari completament compatibles per a Bitcoin Safe
+description: Firmadors de maquinari completament compatibles per a Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

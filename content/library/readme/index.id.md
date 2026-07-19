@@ -2,12 +2,12 @@
 aliases:
   - "/id/features/readme/"
 title: "Semua fitur"
-description: "Gambaran menyeluruh tentang sebagian besar fitur di Bitcoin Safe"
+description: "Gambaran menyeluruh tentang sebagian besar fitur di Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "dompet tabungan bitcoin",
   "wallet MultiSig",
   "panduan setup multisig",
@@ -21,7 +21,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Dompet tabungan bitcoin untuk seluruh keluarga
 

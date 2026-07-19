@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "Informacje o wydaniu Bitcoin Safe 2.0.0 z przebudowanym kreatorem konfiguracji, prywatna synchronizacja przez Compact Block Filters oraz szersza obsluga portfeli sprzetowych."
+description: "Informacje o wydaniu Bitcoin-Safe 2.0.0 z przebudowanym kreatorem konfiguracji, prywatna synchronizacja przez Compact Block Filters oraz szersza obsluga portfeli sprzetowych."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">Ogłoszenie wydania</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - prowadzone tworzenie portfela, prywatna synchronizacja lancucha i podpisywanie skupione na urzadzeniu</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - prowadzone tworzenie portfela, prywatna synchronizacja lancucha i podpisywanie skupione na urzadzeniu</h2>
     <p class="lead mb-4">To wydanie przynosi przebudowany kreator konfiguracji, prywatna synchronizacje lancucha z Compact Block Filters oraz przeplyw podpisywania zorganizowany wokol kazdego urzadzenia sprzetowego. Jesli interesowala Cie samodzielna piecza nad srodkami, ale miales watpliwosci, to jest wydanie warte wyprobowania.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Pobierz Bitcoin Safe 2.0</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Pobierz Bitcoin-Safe 2.0</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">Zobacz nowosci</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## Prowadzona droga do samodzielnej pieczy nad srodkami {#setup-flow}
 
-Doswiadczenie pierwszego uruchomienia zostalo zbudowane od nowa. Bitcoin Safe nadal celuje w powazna samodzielna piecze nad srodkami, w tym multisig oparty na urzadzeniach sprzetowych, a wersja 2.0 daje nowym osobom prowadzona sciezke przez ten proces. Nowy kreator wyjasnia, co sie dzieje, gdzie jestes w przeplywie i czego kazdy signer potrzebuje od Ciebie, zanim przejdziesz dalej.
+Doswiadczenie pierwszego uruchomienia zostalo zbudowane od nowa. Bitcoin-Safe nadal celuje w powazna samodzielna piecze nad srodkami, w tym multisig oparty na urzadzeniach sprzetowych, a wersja 2.0 daje nowym osobom prowadzona sciezke przez ten proces. Nowy kreator wyjasnia, co sie dzieje, gdzie jestes w przeplywie i czego kazdy signer potrzebuje od Ciebie, zanim przejdziesz dalej.
 
 <p class="small text-muted">Szczegoly implementacji znajdziesz w <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>.</p>
 
@@ -72,7 +72,7 @@ Najwazniejsze elementy przebudowy:
 <br><br>
 ## Prywatna i solidna synchronizacja lancucha z Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) napedzaja teraz synchronizacje nowych portfeli w Bitcoin Safe 2.0. Zamiast pytac serwer Electrum, ktore adresy naleza do Ciebie, Bitcoin Safe moze teraz skanowac lancuch prywatnie, pobierajac zwarte filtry od losowych wezlow Bitcoin Core i sprawdzajac je lokalnie.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) napedzaja teraz synchronizacje nowych portfeli w Bitcoin-Safe 2.0. Zamiast pytac serwer Electrum, ktore adresy naleza do Ciebie, Bitcoin-Safe moze teraz skanowac lancuch prywatnie, pobierajac zwarte filtry od losowych wezlow Bitcoin Core i sprawdzajac je lokalnie.
 
 <p class="small text-muted">Szczegoly implementacji znajdziesz w <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>.</p>
 
@@ -88,7 +88,7 @@ Najwazniejsze elementy przebudowy:
 <br><br>
 ## Przeplyw podpisywania skupiony na urzadzeniu dla kazdego urzadzenia {#device-focused-signing}
 
-Przebudowa zmienia takze przeplyw podpisywania po utworzeniu portfela. Zamiast jednego ogolnego ekranu dla wszystkich signerow, Bitcoin Safe skupia teraz akcje wokol konkretnego urzadzenia, ktorego uzywasz.
+Przebudowa zmienia takze przeplyw podpisywania po utworzeniu portfela. Zamiast jednego ogolnego ekranu dla wszystkich signerow, Bitcoin-Safe skupia teraz akcje wokol konkretnego urzadzenia, ktorego uzywasz.
 
 <p class="small text-muted">Szczegoly implementacji znajdziesz w <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>.</p>
 
@@ -103,7 +103,7 @@ Przebudowa zmienia takze przeplyw podpisywania po utworzeniu portfela. Zamiast j
 <br><br>
 ## Architektura pluginow dla procesow biznesowych i zaawansowanych uzytkownikow
 
-Bitcoin Safe 2.0 kladzie tez fundament pod przyszle dodatkowe pluginy kierowane do firm Bitcoinowych i zaawansowanych Bitcoinowcow. Warto wiec obserwowac, co nadejdzie :-)
+Bitcoin-Safe 2.0 kladzie tez fundament pod przyszle dodatkowe pluginy kierowane do firm Bitcoinowych i zaawansowanych Bitcoinowcow. Warto wiec obserwowac, co nadejdzie :-)
 
 <p class="small text-muted">Szczegoly implementacji znajdziesz w <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>.</p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0 kladzie tez fundament pod przyszle dodatkowe pluginy kierowane 
 <br><br>
 ## Dotychczasowe mocne strony nadal tu sa
 
-Wersja 2.0 nie jest resetem. Pod nowym onboardingiem i przeplywem podpisywania Bitcoin Safe nadal zachowuje funkcje, ktore sprawialy, ze byl przydatny na co dzien: wspolpracujacy multisig, kopie zapasowe PDF, przeszukiwalna historie portfela, wizualizacje przeplywu pieniedzy, synchronizacje etykiet i wiele wiecej.
+Wersja 2.0 nie jest resetem. Pod nowym onboardingiem i przeplywem podpisywania Bitcoin-Safe nadal zachowuje funkcje, ktore sprawialy, ze byl przydatny na co dzien: wspolpracujacy multisig, kopie zapasowe PDF, przeszukiwalna historie portfela, wizualizacje przeplywu pieniedzy, synchronizacje etykiet i wiele wiecej.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ Wersja 2.0 nie jest resetem. Pod nowym onboardingiem i przeplywem podpisywania B
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">Gotowy, aby wyprobowac Bitcoin Safe 2.0?</h2>
+  <h2 class="h4 mb-2">Gotowy, aby wyprobowac Bitcoin-Safe 2.0?</h2>
   <p class="mb-3">Pobierz najnowsze wydanie i samodzielnie sprawdz nowy onboarding, prywatna synchronizacje oraz ulepszenia dla portfeli sprzetowych.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Pobierz Bitcoin Safe</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Pobierz Bitcoin-Safe</a>
 </div>
 
 
@@ -154,9 +154,9 @@ To wydanie opiera sie na ogromie pracy wspoltworcow, testerow i [osob wspierajac
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) za przebudowe kreatora, prace nad UI pluginow i **swietne oraz niestrudzone** wsparcie UI/UX
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) za klienta Compact Block Filter, ktory teraz napedza prywatna synchronizacje nowych portfeli
-- Zespol [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) za biblioteki stanowiace rdzen Bitcoin Safe
+- Zespol [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) za biblioteki stanowiace rdzen Bitcoin-Safe
 - Zespol [ndk](https://github.com/nostr-dev-kit/ndk) za biblioteki napedzajace funkcjonalnosc nostr
-- Wszystkim w spolecznosci Bitcoin Safe, ktorzy testowali wersje kandydujace, zglaszali bledy, tlumaczyli strony, wysylali saty i popychali projekt do przodu
+- Wszystkim w spolecznosci Bitcoin-Safe, ktorzy testowali wersje kandydujace, zglaszali bledy, tlumaczyli strony, wysylali saty i popychali projekt do przodu
 - [Tlumacze]({{< ref "donate/#translators" >}}), w tym <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (Wietnamski)" title="qdyg-vn 🇻🇳 (Wietnamski)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (Niemiecki)" title="bsn21m 🇩🇪 (Niemiecki)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (Hiszpanski)" title="cyphra 🇪🇸 (Hiszpanski)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

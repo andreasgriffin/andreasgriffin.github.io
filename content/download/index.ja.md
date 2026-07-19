@@ -1,6 +1,6 @@
 ---
 title: "ダウンロード"
-description: "Bitcoin Safe をダウンロード"
+description: "Bitcoin-Safe をダウンロード"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe は新しいバージョンがあると通知し、正当性を自動で検証します。**
+✅ **Bitcoin-Safe は新しいバージョンがあると通知し、正当性を自動で検証します。**
 
 
-Windows のバイナリは署名されています。[コード署名ポリシー]({{< ref "code-signing-policy" >}}) を確認してください。こちらも [Bitcoin Safe プライバシーポリシー]({{< ref "code-signing-policy" >}}) をご覧ください。macOS のバイナリは署名されていないため、警告メッセージは無視してください。
+Windows のバイナリは署名されています。[コード署名ポリシー]({{< ref "code-signing-policy" >}}) を確認してください。こちらも [Bitcoin-Safe プライバシーポリシー]({{< ref "code-signing-policy" >}}) をご覧ください。macOS のバイナリは署名されていないため、警告メッセージは無視してください。
 
 <br>
 <br>
 
 ###  macOS 
 
-macOS で Bitcoin Safe を実行するには、次の手順に従ってください:
+macOS で Bitcoin-Safe を実行するには、次の手順に従ってください:
 - アプリケーションフォルダにコピーします
 - 開こうとすると警告が表示されます
 - *システム設定* --> *プライバシーとセキュリティ* --> *とにかく開く* に移動します
@@ -32,7 +32,7 @@ macOS で Bitcoin Safe を実行するには、次の手順に従ってくださ
 
 <img src="/images/mac/copy-app.png" alt="macOS アプリをコピー"   /> 
 <img src="/images/mac/warning.png" alt="macOS 警告"   /> 
-<img src="/images/mac/disable.png" alt="macOS で Bitcoin Safe を開く"   /> 
+<img src="/images/mac/disable.png" alt="macOS で Bitcoin-Safe を開く"   /> 
 
 
 
@@ -42,6 +42,10 @@ macOS で Bitcoin Safe を実行するには、次の手順に従ってくださ
 ### Debian/Ubuntu（APT リポジトリ）
 
 {{< apt_repo_install >}}
+
+### Linux（Flathub）
+
+別の方法として、Linux ユーザーは [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) から Bitcoin-Safe をインストールできます。
 
 <br>
 <br>

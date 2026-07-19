@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "penapis blok padat"
   - "CBF"
   - "privasi"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**Penapis Blok Padat (CBF)** membolehkan [Bitcoin Safe]({{< ref "/" >}}) mengimbas blockchain tanpa bertanya kepada pelayan Electrum alamat yang milik anda.
+**Penapis Blok Padat (CBF)** membolehkan [Bitcoin-Safe]({{< ref "/" >}}) mengimbas blockchain tanpa bertanya kepada pelayan Electrum alamat yang milik anda.
 
-![Bitcoin Safe memuat turun penapis blok padat daripada beberapa peer Bitcoin Core rawak.](logo.jpg)
+![Bitcoin-Safe memuat turun penapis blok padat daripada beberapa peer Bitcoin Core rawak.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Daripada bertanya kepada pelayan pusat, Bitcoin Safe memuat turun penapis kecil untuk setiap blok daripada peer Bitcoin Core rawak. Dompet anda menyemak penapis itu secara tempatan dan hanya memuat turun blok penuh apabila perlu.
+Daripada bertanya kepada pelayan pusat, Bitcoin-Safe memuat turun penapis kecil untuk setiap blok daripada peer Bitcoin Core rawak. Dompet anda menyemak penapis itu secara tempatan dan hanya memuat turun blok penuh apabila perlu.
 
 ### CBF vs Electrum
 
@@ -71,7 +71,7 @@ Daripada bertanya kepada pelayan pusat, Bitcoin Safe memuat turun penapis kecil 
 ### Mengapa guna CBF
 
 - Privasi lebih baik: dompet anda tidak pernah bertanya kepada pelayan alamat anda.
-- Tanpa pengindeks yang dipercayai: Bitcoin Safe bercakap terus dengan rangkaian Bitcoin.
+- Tanpa pengindeks yang dipercayai: Bitcoin-Safe bercakap terus dengan rangkaian Bitcoin.
 - Penyegerakan ringan: penapisnya kecil, jadi anda tidak perlu seluruh blockchain.
 
 ### Apa yang dijangka
@@ -80,7 +80,7 @@ Daripada bertanya kepada pelayan pusat, Bitcoin Safe memuat turun penapis kecil 
 - Dompet yang sudah disegerakkan: biasanya mengejar **sangat pantas**, selalunya dalam **kurang daripada 30 saat**.
 - Bertukar daripada Electrum ke CBF: biasanya juga **kurang daripada 30 saat**.
 
-Anda boleh memilih berapa banyak peer yang disambungkan oleh Bitcoin Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan jalur lebar dan masa penyegerakan. Lalai ialah **2** peer.
+Anda boleh memilih berapa banyak peer yang disambungkan oleh Bitcoin-Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan jalur lebar dan masa penyegerakan. Lalai ialah **2** peer.
 
 ### Transaksi belum disahkan
 
@@ -88,7 +88,7 @@ CBF hanya meliputi **blok yang telah disahkan**. Untuk juga menerima makluman pe
 
 ### Nota teknikal
 
-Penapis blok padat ditakrifkan dalam [BIP158](https://bips.dev/158/). Bitcoin Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
+Penapis blok padat ditakrifkan dalam [BIP158](https://bips.dev/158/). Bitcoin-Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
 Anda juga boleh menggunakan nod Bitcoin Core anda sendiri sebagai peer awal dalam tetapan _Bitcoin network monitoring_.
 

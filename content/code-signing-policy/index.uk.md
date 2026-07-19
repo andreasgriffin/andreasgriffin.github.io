@@ -1,5 +1,5 @@
 ---
-title: "Політика підпису коду та політика конфіденційності Bitcoin Safe"
+title: "Політика підпису коду та політика конфіденційності Bitcoin-Safe"
 description: "Політика підпису коду"
 draft: false
 tags: ["legal"]

@@ -2,7 +2,7 @@
 aliases:
   - "/id/knowledge/setup-singlesig-wallet/"
 title: "Panduan Langkah demi Langkah Pengaturan Singlesig"
-description: "Panduan pengaturan Bitcoin Safe akan memandu Anda melalui langkah-langkah untuk membuat dompet bitcoin singlesig"
+description: "Panduan pengaturan Bitcoin-Safe akan memandu Anda melalui langkah-langkah untuk membuat dompet bitcoin singlesig"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Panduan Pengaturan Dompet Singlesig
 
-🔒 Menyiapkan dompet **Bitcoin Safe** yang aman adalah cara terbaik untuk melindungi dana Anda dari kegagalan bursa, peretasan, dan pencurian. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses dengan Trezor langkah demi langkah!
+🔒 Menyiapkan dompet **Bitcoin-Safe** yang aman adalah cara terbaik untuk melindungi dana Anda dari kegagalan bursa, peretasan, dan pencurian. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses dengan Trezor langkah demi langkah!
  
 
 

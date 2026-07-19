@@ -1,5 +1,5 @@
 ---
-title: "นโยบายการลงนามโค้ด และ นโยบายความเป็นส่วนตัวของ Bitcoin Safe"
+title: "นโยบายการลงนามโค้ด และ นโยบายความเป็นส่วนตัวของ Bitcoin-Safe"
 description: "นโยบายการลงนามโค้ด"
 draft: false
 tags: ["legal"]

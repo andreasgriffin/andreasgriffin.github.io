@@ -2,12 +2,12 @@
 aliases:
   - "/pl/knowledge/hardware-signer-only/"
 title: "Wymagane sprzętowe urządzenia podpisujące"
-description: "Bitcoin Safe wymusza użycie tylko sprzętowych seedów na Mainnecie, aby zmaksymalizować bezpieczeństwo i uniknąć ryzyka przechowywania kluczy w oprogramowaniu. Oto, dlaczego to ma znaczenie."
+description: "Bitcoin-Safe wymusza użycie tylko sprzętowych seedów na Mainnecie, aby zmaksymalizować bezpieczeństwo i uniknąć ryzyka przechowywania kluczy w oprogramowaniu. Oto, dlaczego to ma znaczenie."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "portfel sprzętowy",
   "seed programowy",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Dlaczego Bitcoin Safe blokuje seedy programowe na Mainnecie?
+## 🚫 Dlaczego Bitcoin-Safe blokuje seedy programowe na Mainnecie?
 
 🤔 Czy to nie niewygodne?
 
 🔥 Okazuje się — to **ogromna poprawa bezpieczeństwa**.
 
-Bitcoin Safe **pozwala na seedy programowe tylko na Testnecie, Signet i Regtest** — nigdy na Mainnecie. Oto dlaczego:
+Bitcoin-Safe **pozwala na seedy programowe tylko na Testnecie, Signet i Regtest** — nigdy na Mainnecie. Oto dlaczego:
 
 ### ✅ Powody, dla których seedy programowe są zablokowane na Mainnecie
 
@@ -95,7 +95,7 @@ Bitcoin Safe **pozwala na seedy programowe tylko na Testnecie, Signet i Regtest*
 
 ## 🛡️ Ochrona przed zatruciem adresu
 
-Bitcoin Safe **koduje kolorem adresy odbioru**, aby zatrucie adresu było oczywiste:
+Bitcoin-Safe **koduje kolorem adresy odbioru**, aby zatrucie adresu było oczywiste:
 
 - 🟢 Zielony = zweryfikowany adres odbioru  
 - 🟡 Żółty = adres reszty  
@@ -131,7 +131,7 @@ Weryfikuj adresy odbioru bezpośrednio na swoim sprzętowym urządzeniu podpisuj
 
 ## 🤝 Współpraca w multisig — prosto
 
-Bitcoin Safe sprawia, że multisig jest przyjazny dla użytkownika i gotowy dla zespołu:
+Bitcoin-Safe sprawia, że multisig jest przyjazny dla użytkownika i gotowy dla zespołu:
 
 - 🔐 Szyfrowany czat Nostr  
 - 🔁 Udostępnianie PSBT jednym kliknięciem  
@@ -150,7 +150,7 @@ Bitcoin Safe sprawia, że multisig jest przyjazny dla użytkownika i gotowy dla 
 - 🔁 Synchronizacja etykiet przez Nostr  
 - 🔍 Pełny diagram przepływu środków i przeszukiwalna historia transakcji
 
-![Diagram transakcji w Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Diagram transakcji w Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ Bitcoin Safe sprawia, że multisig jest przyjazny dla użytkownika i gotowy dla 
 
 ## 💡 W skrócie
 
-Bitcoin Safe = prawdziwe oszczędności w Bitcoinie:
+Bitcoin-Safe = prawdziwe oszczędności w Bitcoinie:
 
 ✅ Tylko sprzęt na Mainnecie  
 ✅ Brak narażenia seedów w oprogramowaniu  

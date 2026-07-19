@@ -2,7 +2,7 @@
 aliases:
   - "/id/features/instant-transactions-notifications/"
 title: "Notifikasi transaksi instan"
-description: "Bagaimana Bitcoin Safe Menerima Notifikasi Transaksi Instan"
+description: "Bagaimana Bitcoin-Safe Menerima Notifikasi Transaksi Instan"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (mulai dari versi **1.5.0**) mendukung notifikasi instan untuk transaksi Bitcoin masuk yang relevan dengan dompet Anda. Berikut cara kerjanya di balik layar:
+**Bitcoin-Safe** (mulai dari versi **1.5.0**) mendukung notifikasi instan untuk transaksi Bitcoin masuk yang relevan dengan dompet Anda. Berikut cara kerjanya di balik layar:
 
 
 
 
 ##### 1. 📡 Mendengarkan Jaringan P2P Bitcoin
 
-Bitcoin Safe terhubung langsung ke satu atau beberapa **node Bitcoin Core**, yang berpartisipasi dalam jaringan **peer-to-peer (P2P)** global. Node-node ini terus bertukar transaksi yang baru disiarkan yang dimaksudkan untuk dimasukkan ke dalam **mempool**.
+Bitcoin-Safe terhubung langsung ke satu atau beberapa **node Bitcoin Core**, yang berpartisipasi dalam jaringan **peer-to-peer (P2P)** global. Node-node ini terus bertukar transaksi yang baru disiarkan yang dimaksudkan untuk dimasukkan ke dalam **mempool**.
 
-Bitcoin Safe mendengarkan secara pasif pesan-pesan siaran ini dan memeriksa apakah:
+Bitcoin-Safe mendengarkan secara pasif pesan-pesan siaran ini dan memeriksa apakah:
 
 * ada transaksi yang melibatkan **alamat** atau **UTXO** dari dompet Anda.
 
 ✅ **Menjaga Privasi**
 Metode ini **sepenuhnya privat**. Ini **tidak mengungkapkan apa pun** tentang dompet Anda ke dunia luar.
-Bitcoin Safe berperilaku sama seperti node Bitcoin Core biasa: hanya mendengarkan lalu lintas P2P publik — tidak pernah mengumumkan atau meminta sesuatu yang spesifik untuk dompet Anda.
+Bitcoin-Safe berperilaku sama seperti node Bitcoin Core biasa: hanya mendengarkan lalu lintas P2P publik — tidak pernah mengumumkan atau meminta sesuatu yang spesifik untuk dompet Anda.
 
 
 
 ##### 2. 🧠 Kecocokan Ditemukan — Apa yang Terjadi Selanjutnya?
 
-Jika ditemukan transaksi yang cocok, Bitcoin Safe akan bereaksi berbeda tergantung pada backend yang Anda gunakan:
+Jika ditemukan transaksi yang cocok, Bitcoin-Safe akan bereaksi berbeda tergantung pada backend yang Anda gunakan:
 
 ###### Opsi A: ⚡ Backend Electrum atau Esplora
 
-* Bitcoin Safe akan **memicu sinkronisasi latar belakang** untuk mengambil transaksi lengkap dan status dompet dari server.
+* Bitcoin-Safe akan **memicu sinkronisasi latar belakang** untuk mengambil transaksi lengkap dan status dompet dari server.
 
 ###### Opsi B: 🔍 Compact Block Filters (Mode Neutrino)
 
@@ -91,7 +91,7 @@ Anda tetap memiliki kendali penuh dan dapat mengubah pengaturan ini kapan saja.
 
 #### ⚠️  Hanya transaksi yang terkonfirmasi yang dapat dipercaya
 
-Bitcoin Safe tidak dapat memvalidasi bahwa sebuah transaksi yang disiarkan itu valid. Seorang penyerang — terutama yang mengendalikan baik server Electrum Anda maupun node Bitcoin yang terhubung ke Anda — dapat:
+Bitcoin-Safe tidak dapat memvalidasi bahwa sebuah transaksi yang disiarkan itu valid. Seorang penyerang — terutama yang mengendalikan baik server Electrum Anda maupun node Bitcoin yang terhubung ke Anda — dapat:
 
 * Membuat transaksi palsu yang melibatkan alamat Anda
 * Menyiarkannya untuk memicu notifikasi dompet
@@ -103,7 +103,7 @@ Bitcoin Safe tidak dapat memvalidasi bahwa sebuah transaksi yang disiarkan itu v
 
 #### ✅ Ringkasan
 
-Mulai dari versi **1.5.0**, Bitcoin Safe mendukung notifikasi transaksi instan dengan:
+Mulai dari versi **1.5.0**, Bitcoin-Safe mendukung notifikasi transaksi instan dengan:
 
 * Mendengarkan secara pasif jaringan P2P Bitcoin (seperti Bitcoin Core)
 * Mencocokkan transaksi yang melibatkan **alamat** atau **UTXO** dompet Anda

@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault pot convertir un dispositiu Android antic en un dispositiu dedicat de signatura de Bitcoin fora de linia per a Bitcoin Safe. No l'instal·lis al teu telefon d'us diari. Restableix primer el dispositiu, mantingues-lo **SENSE CONNEXIO** i desconnectat d'internet, i fes-lo servir nomes com a signador.
+MetroVault pot convertir un dispositiu Android antic en un dispositiu dedicat de signatura de Bitcoin fora de linia per a Bitcoin-Safe. No l'instal·lis al teu telefon d'us diari. Restableix primer el dispositiu, mantingues-lo **SENSE CONNEXIO** i desconnectat d'internet, i fes-lo servir nomes com a signador.
 
 ## Que cal esperar
 
 - Restableix un dispositiu Android antic abans de la instal·lacio i fes-lo servir nomes com a signador.
 - No instal·lis altres aplicacions, no iniciis sessio en comptes, no hi posis una targeta SIM ni reconnectis el dispositiu a internet.
-- Intercanvia dades del moneder, descriptors i PSBT amb Bitcoin Safe mitjancant codis QR.
-- Registra descriptors multifirma i exporta dades del signador per a Bitcoin Safe.
+- Intercanvia dades del moneder, descriptors i PSBT amb Bitcoin-Safe mitjancant codis QR.
+- Registra descriptors multifirma i exporta dades del signador per a Bitcoin-Safe.
 - Verifica tots els detalls a la pantalla de MetroVault abans de signar.
 
 ## Restableix el dispositiu Android i fes-lo servir nomes com a signador fora de linia

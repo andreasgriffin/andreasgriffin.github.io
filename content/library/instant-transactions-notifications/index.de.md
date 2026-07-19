@@ -2,7 +2,7 @@
 aliases:
   - "/de/features/instant-transactions-notifications/"
 title: "Sofortige Transaktionsbenachrichtigungen"
-description: "Wie Bitcoin Safe sofortige Transaktionsbenachrichtigungen empfängt"
+description: "Wie Bitcoin-Safe sofortige Transaktionsbenachrichtigungen empfängt"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -32,7 +32,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -41,32 +41,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (ab Version **1.5.0**) unterstützt sofortige Benachrichtigungen über eingehende Bitcoin-Transaktionen, die für Ihre Wallet relevant sind. So funktioniert es unter der Haube:
+**Bitcoin-Safe** (ab Version **1.5.0**) unterstützt sofortige Benachrichtigungen über eingehende Bitcoin-Transaktionen, die für Ihre Wallet relevant sind. So funktioniert es unter der Haube:
 
 
 
 
 ##### 1. 📡 Abhören des Bitcoin P2P-Netzwerks
 
-Bitcoin Safe verbindet sich direkt mit einem oder mehreren **Bitcoin Core-Knoten**, die am globalen **Peer-to-Peer (P2P)**-Netzwerk teilnehmen. Diese Knoten tauschen kontinuierlich neu verbreitete Transaktionen aus, die für die Aufnahme in den **Mempool** bestimmt sind.
+Bitcoin-Safe verbindet sich direkt mit einem oder mehreren **Bitcoin Core-Knoten**, die am globalen **Peer-to-Peer (P2P)**-Netzwerk teilnehmen. Diese Knoten tauschen kontinuierlich neu verbreitete Transaktionen aus, die für die Aufnahme in den **Mempool** bestimmt sind.
 
-Bitcoin Safe lauscht passiv auf diese Broadcast-Nachrichten und prüft, ob:
+Bitcoin-Safe lauscht passiv auf diese Broadcast-Nachrichten und prüft, ob:
 
 * eine Transaktion **Adressen** oder **UTXOs** aus Ihrer Wallet betrifft.
 
 ✅ **Datenschutzfreundlich**
 Diese Methode ist **vollkommen privat**. Sie **enthüllt nichts** über Ihre Wallet nach außen.
-Bitcoin Safe verhält sich wie ein normaler Bitcoin Core-Knoten: Es hört nur den öffentlichen P2P-Verkehr — es gibt niemals spezifische Anfragen oder Ankündigungen, die Ihre Wallet betreffen.
+Bitcoin-Safe verhält sich wie ein normaler Bitcoin Core-Knoten: Es hört nur den öffentlichen P2P-Verkehr — es gibt niemals spezifische Anfragen oder Ankündigungen, die Ihre Wallet betreffen.
 
 
 
 ##### 2. 🧠 Treffer — Was passiert als Nächstes?
 
-Falls eine übereinstimmende Transaktion gefunden wird, reagiert Bitcoin Safe unterschiedlich, abhängig vom verwendeten Backend:
+Falls eine übereinstimmende Transaktion gefunden wird, reagiert Bitcoin-Safe unterschiedlich, abhängig vom verwendeten Backend:
 
 ###### Option A: ⚡ Electrum- oder Esplora-Backend
 
-* Bitcoin Safe wird einen **Hintergrund-Sync auslösen**, um die vollständige Transaktion und den Wallet-Zustand vom Server abzurufen.
+* Bitcoin-Safe wird einen **Hintergrund-Sync auslösen**, um die vollständige Transaktion und den Wallet-Zustand vom Server abzurufen.
 
 ###### Option B: 🔍 Compact Block Filters (Neutrino-Modus)
 
@@ -91,7 +91,7 @@ Sie behalten die volle Kontrolle und können diese Funktion jederzeit aktivieren
 
 #### ⚠️ Nur bestätigte Transaktionen sind vertrauenswürdig
 
-Bitcoin Safe kann nicht bestätigen, dass eine übermittelte Transaktion gültig ist. Ein Angreifer — insbesondere einer, der sowohl Ihren Electrum-Server als auch den Bitcoin-Knoten kontrolliert, mit dem Sie verbunden sind — könnte:
+Bitcoin-Safe kann nicht bestätigen, dass eine übermittelte Transaktion gültig ist. Ein Angreifer — insbesondere einer, der sowohl Ihren Electrum-Server als auch den Bitcoin-Knoten kontrolliert, mit dem Sie verbunden sind — könnte:
 
 * Eine gefälschte Transaktion erstellen, die Ihre Adresse betrifft
 * Diese verbreiten, um eine Wallet-Benachrichtigung auszulösen
@@ -103,7 +103,7 @@ Bitcoin Safe kann nicht bestätigen, dass eine übermittelte Transaktion gültig
 
 #### ✅ Zusammenfassung
 
-Ab Version **1.5.0** unterstützt Bitcoin Safe sofortige Transaktionsbenachrichtigungen durch:
+Ab Version **1.5.0** unterstützt Bitcoin-Safe sofortige Transaktionsbenachrichtigungen durch:
 
 * Passives Abhören des P2P-Bitcoin-Netzwerks (wie Bitcoin Core)
 * Abgleich von Transaktionen, die die **Adressen** oder **UTXOs** Ihrer Wallet betreffen

@@ -1,5 +1,5 @@
 ---
-title: "سياسة توقيع الشيفرة وسياسة خصوصية Bitcoin Safe"
+title: "سياسة توقيع الشيفرة وسياسة خصوصية Bitcoin-Safe"
 description: "سياسة توقيع الشيفرة"
 draft: false
 tags: ["legal"]

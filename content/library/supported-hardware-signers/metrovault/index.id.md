@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault dapat mengubah perangkat Android lama menjadi perangkat penandatangan Bitcoin offline khusus untuk Bitcoin Safe. Jangan memasangnya di ponsel harian Anda. Reset perangkat terlebih dahulu, jaga tetap **OFFLINE** dan terputus dari internet, lalu gunakan hanya untuk menandatangani.
+MetroVault dapat mengubah perangkat Android lama menjadi perangkat penandatangan Bitcoin offline khusus untuk Bitcoin-Safe. Jangan memasangnya di ponsel harian Anda. Reset perangkat terlebih dahulu, jaga tetap **OFFLINE** dan terputus dari internet, lalu gunakan hanya untuk menandatangani.
 
 ## Yang perlu diharapkan
 
 - Reset perangkat Android lama sebelum instalasi dan gunakan hanya sebagai penanda tangan.
 - Jangan instal aplikasi lain, jangan masuk ke akun apa pun, jangan masukkan kartu SIM, dan jangan sambungkan kembali perangkat ke internet.
-- Tukarkan data dompet, descriptor, dan PSBT dengan Bitcoin Safe menggunakan kode QR.
-- Daftarkan descriptor multisig dan ekspor data penanda tangan untuk Bitcoin Safe.
+- Tukarkan data dompet, descriptor, dan PSBT dengan Bitcoin-Safe menggunakan kode QR.
+- Daftarkan descriptor multisig dan ekspor data penanda tangan untuk Bitcoin-Safe.
 - Verifikasi semua detail di layar MetroVault sebelum menandatangani.
 
 ## Reset perangkat Android dan gunakan hanya sebagai penanda tangan offline

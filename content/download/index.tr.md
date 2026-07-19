@@ -1,6 +1,6 @@
 ---
 title: "İndir"
-description: "Bitcoin Safe'i indirin"
+description: "Bitcoin-Safe'i indirin"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe sizi daha yeni bir sürüm olduğunda bilgilendirir ve özgünlüğünü otomatik olarak doğrular.**
+✅ **Bitcoin-Safe sizi daha yeni bir sürüm olduğunda bilgilendirir ve özgünlüğünü otomatik olarak doğrular.**
 
 
-Windows ikili dosyaları imzalanmıştır, [Code signing policy]({{< ref "code-signing-policy" >}}) belgesine göz atın. Burada ayrıca [Bitcoin Safe gizlilik politikası]({{< ref "code-signing-policy" >}}) bulunmaktadır. macOS ikili dosyaları imzalanmamıştır, bu yüzden lütfen uyarı mesajını görmezden gelin.
+Windows ikili dosyaları imzalanmıştır, [Code signing policy]({{< ref "code-signing-policy" >}}) belgesine göz atın. Burada ayrıca [Bitcoin-Safe gizlilik politikası]({{< ref "code-signing-policy" >}}) bulunmaktadır. macOS ikili dosyaları imzalanmamıştır, bu yüzden lütfen uyarı mesajını görmezden gelin.
 
 <br>
 <br>
 
 ###  macOS 
 
-Bitcoin Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
+Bitcoin-Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
 - Uygulama klasörünüze kopyalayın
 - Açmayı denediğinizde bir uyarı alacaksınız
 - *Sistem Ayarları* --> *Gizlilik & Güvenlik* --> *Yine de Aç* kısmına gidin
@@ -32,7 +32,7 @@ Bitcoin Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
 
 <img src="/images/mac/copy-app.png" alt="macOS uygulamayı kopyala"   /> 
 <img src="/images/mac/warning.png" alt="macOS uyarı"   /> 
-<img src="/images/mac/disable.png" alt="macOS Bitcoin Safe'i aç"   /> 
+<img src="/images/mac/disable.png" alt="macOS Bitcoin-Safe'i aç"   /> 
 
 
 
@@ -42,6 +42,10 @@ Bitcoin Safe'i macOS'ta çalıştırmak için şu adımları izleyin:
 ### Debian/Ubuntu (APT deposu) ile kurulum
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+Alternatif olarak Linux kullanıcıları Bitcoin-Safe'i [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) üzerinden kurabilir.
 
 <br>
 <br>

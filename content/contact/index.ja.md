@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe コミュニティ： [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe コミュニティ： [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 GitHubで[Issueを作成する](https://github.com/andreasgriffin/bitcoin-safe)。
 

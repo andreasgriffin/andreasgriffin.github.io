@@ -2,7 +2,7 @@
 aliases:
   - "/tr/knowledge/setup-multisig-wallet/"
 title: "Adım Adım Multisig Kurulumu"
-description: "Bitcoin Safe kurulum sihirbazı, 3'te 2 (2-of-3) çok imzalı bir Bitcoin cüzdanı oluşturma adımlarında sizi yönlendirir"
+description: "Bitcoin-Safe kurulum sihirbazı, 3'te 2 (2-of-3) çok imzalı bir Bitcoin cüzdanı oluşturma adımlarında sizi yönlendirir"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Rehberli 2-of-3 Multisig Cüzdanı
 
-🔒 Güvenli bir **Bitcoin Safe** cüzdanı kurmak, fonlarınızı borsa arızalarından, saldırılardan ve hırsızlıktan korumanın en iyi yoludur. Bu eğitimde sizi tüm süreç boyunca adım adım yönlendireceğiz!
+🔒 Güvenli bir **Bitcoin-Safe** cüzdanı kurmak, fonlarınızı borsa arızalarından, saldırılardan ve hırsızlıktan korumanın en iyi yoludur. Bu eğitimde sizi tüm süreç boyunca adım adım yönlendireceğiz!
  
 
 - 🔐 Bir *Coldcard Q*, bir *Bitbox02* ve bir *Keystone* bağlayın

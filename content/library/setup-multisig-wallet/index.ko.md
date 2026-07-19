@@ -2,7 +2,7 @@
 aliases:
   - "/ko/knowledge/setup-multisig-wallet/"
 title: "단계별 멀티시그 설정"
-description: "Bitcoin Safe 설정 마법사는 2-of-3 멀티시그 비트코인 지갑을 생성하는 과정을 안내합니다"
+description: "Bitcoin-Safe 설정 마법사는 2-of-3 멀티시그 비트코인 지갑을 생성하는 과정을 안내합니다"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # 단계별 2-of-3 멀티시그 지갑 안내
 
-🔒 안전한 **Bitcoin Safe** 지갑을 설정하는 것은 거래소 실패, 해킹 및 도난으로부터 자금을 보호하는 가장 좋은 방법입니다. 이 튜토리얼에서는 전체 과정을 단계별로 안내해드립니다!
+🔒 안전한 **Bitcoin-Safe** 지갑을 설정하는 것은 거래소 실패, 해킹 및 도난으로부터 자금을 보호하는 가장 좋은 방법입니다. 이 튜토리얼에서는 전체 과정을 단계별로 안내해드립니다!
  
 
 - 🔐 *Coldcard Q*, *Bitbox02*, *Keystone*를 연결하세요

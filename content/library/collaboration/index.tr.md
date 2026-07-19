@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Bitcoin çoklu imza",
   "Çoklu imza cüzdanı",
   "2-of-3 çoklu imza",
@@ -22,7 +22,7 @@ keywords: [
   "Bitcoin cüzdan güvenliği",
   "Nostr",
   "Merkeziyetsiz sohbet",
-  "Bitcoin Safe demo",
+  "Bitcoin-Safe demo",
   "Çoklu imza öğreticisi",
   "Bitcoin hazine",
   "Bitcoin organizasyon cüzdanı",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Bitcoin Safe kullanılarak 2-of-3 çoklu imza cüzdanının ortak imzalanması — farklı bilgisayarlar, donanım cüzdanları ve Nostr üzerinden güvenli iletişim.
+ Bitcoin-Safe kullanılarak 2-of-3 çoklu imza cüzdanının ortak imzalanması — farklı bilgisayarlar, donanım cüzdanları ve Nostr üzerinden güvenli iletişim.
 
-Bu video, iki kullanıcının Bitcoin Safe içindeki 2-of-3 çoklu imza kurulumu kullanarak bir Bitcoin işlemini nasıl ortak imzaladığını gösterir. Her katılımcı farklı bir bilgisayarda, farklı donanım cüzdanları (Jade ve Bitbox02) kullanıyor. Uygulamanın yerleşik Sohbet & Senkronizasyon özelliği aracılığıyla, mesajları özel ve güvenli şekilde iletmek için Nostr'dan yararlanarak koordinasyon kuruyorlar.
+Bu video, iki kullanıcının Bitcoin-Safe içindeki 2-of-3 çoklu imza kurulumu kullanarak bir Bitcoin işlemini nasıl ortak imzaladığını gösterir. Her katılımcı farklı bir bilgisayarda, farklı donanım cüzdanları (Jade ve Bitbox02) kullanıyor. Uygulamanın yerleşik Sohbet & Senkronizasyon özelliği aracılığıyla, mesajları özel ve güvenli şekilde iletmek için Nostr'dan yararlanarak koordinasyon kuruyorlar.
 
 İşlem hem eşzamanlı hem de eşzamansız imzalamayı destekler — aynı anda çevrimiçi olmayan kullanıcılar için ideal.
 

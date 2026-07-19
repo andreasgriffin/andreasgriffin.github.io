@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Bitcoin-Multisig",
   "Multisig-Wallet",
   "2-von-3 Multisig",
@@ -22,7 +22,7 @@ keywords: [
   "Sicherheit von Bitcoin-Wallets",
   "Nostr",
   "Dezentrale Chat",
-  "Bitcoin Safe Demo",
+  "Bitcoin-Safe Demo",
   "Multisig-Anleitung",
   "Bitcoin-Treasury",
   "Bitcoin-Wallet für Organisationen",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Kollaboratives Signieren einer 2-von-3-Multisig-Wallet mit Bitcoin Safe — über verschiedene Computer, Hardware-Wallets und sichere Kommunikation über Nostr.
+ Kollaboratives Signieren einer 2-von-3-Multisig-Wallet mit Bitcoin-Safe — über verschiedene Computer, Hardware-Wallets und sichere Kommunikation über Nostr.
 
-Dieses Video zeigt, wie zwei Benutzer gemeinsam eine Bitcoin-Transaktion signieren, indem sie eine 2‑von‑3-Multisig-Wallet in Bitcoin Safe verwenden. Jeder Teilnehmer arbeitet an einem anderen Computer und nutzt unterschiedliche Hardware-Wallets (Jade und Bitbox02). Sie koordinieren sich über die integrierte Chat & Sync‑Funktion der App, die Nostr verwendet, um Nachrichten privat und sicher weiterzuleiten.
+Dieses Video zeigt, wie zwei Benutzer gemeinsam eine Bitcoin-Transaktion signieren, indem sie eine 2‑von‑3-Multisig-Wallet in Bitcoin-Safe verwenden. Jeder Teilnehmer arbeitet an einem anderen Computer und nutzt unterschiedliche Hardware-Wallets (Jade und Bitbox02). Sie koordinieren sich über die integrierte Chat & Sync‑Funktion der App, die Nostr verwendet, um Nachrichten privat und sicher weiterzuleiten.
 
 Der Prozess unterstützt sowohl synchrone als auch asynchrone Signiervorgänge — ideal für Nutzer, die nicht gleichzeitig online sind.
 

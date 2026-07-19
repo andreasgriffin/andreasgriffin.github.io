@@ -1,5 +1,5 @@
 ---
-title: "コード署名ポリシーと Bitcoin Safe プライバシーポリシー"
+title: "コード署名ポリシーと Bitcoin-Safe プライバシーポリシー"
 description: "コード署名ポリシー"
 draft: false
 tags: ["legal"]

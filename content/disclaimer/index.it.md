@@ -12,7 +12,7 @@ menu:
 
 1. Avvertenze generali
 
-Le informazioni fornite sul sito "Bitcoin Safe" sono soltanto a scopo informativo generale. Non rilasciamo dichiarazioni né garanzie di alcun tipo sulla completezza o l'accuratezza di queste informazioni.
+Le informazioni fornite sul sito "Bitcoin-Safe" sono soltanto a scopo informativo generale. Non rilasciamo dichiarazioni né garanzie di alcun tipo sulla completezza o l'accuratezza di queste informazioni.
 
 2. Esclusione di responsabilità relativa al software
 

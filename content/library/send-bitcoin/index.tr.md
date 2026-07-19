@@ -2,7 +2,7 @@
 aliases:
   - "/tr/knowledge/send-bitcoin/"
 title: "Bitcoin gönder"
-description: "Alıcıları seçmekten son inceleme ve yayına kadar Bitcoin Safe içinde tam bir gönderim akışı."
+description: "Alıcıları seçmekten son inceleme ve yayına kadar Bitcoin-Safe içinde tam bir gönderim akışı."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Bir ödemeyi hazırlamaktan son onay ve yayına kadar Bitcoin Safe içindeki tam gönderim akışını izleyin.
+Bir ödemeyi hazırlamaktan son onay ve yayına kadar Bitcoin-Safe içindeki tam gönderim akışını izleyin.
 
 - ✅ İmzalamadan önce işlemi oluşturup gözden geçirin
 - ✅ Çıkışları ve ücretleri güvenle onaylayın

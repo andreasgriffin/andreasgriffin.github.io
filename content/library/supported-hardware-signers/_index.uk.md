@@ -2,7 +2,7 @@
 aliases:
   - "/uk/knowledge/supported-hardware-signers/"
 title: "Повністю підтримувані апаратні підписувачі"
-description: "Повністю підтримувані апаратні підписувачі для Bitcoin Safe"
+description: "Повністю підтримувані апаратні підписувачі для Bitcoin-Safe"
 draft: false
 bucket: knowledge
 keywords: [

@@ -6,14 +6,14 @@ signer: metrovault
 bucket: knowledge
 ---
 
-MetroVault puo trasformare un vecchio dispositivo Android in un dispositivo dedicato di firma Bitcoin offline per Bitcoin Safe. Non installarlo sul tuo telefono di tutti i giorni. Ripristina prima il dispositivo, mantienilo **OFFLINE** e scollegato da internet, e usalo solo per firmare.
+MetroVault puo trasformare un vecchio dispositivo Android in un dispositivo dedicato di firma Bitcoin offline per Bitcoin-Safe. Non installarlo sul tuo telefono di tutti i giorni. Ripristina prima il dispositivo, mantienilo **OFFLINE** e scollegato da internet, e usalo solo per firmare.
 
 ## Cosa aspettarsi
 
 - Ripristina un vecchio dispositivo Android prima dell'installazione e usalo solo come firmatore.
 - Non installare altre app, non accedere ad account, non inserire una SIM e non ricollegare il dispositivo a internet.
-- Scambia dati del wallet, descrittori e PSBT con Bitcoin Safe tramite codici QR.
-- Registra i descrittori multisig ed esporta i dati del firmatore per Bitcoin Safe.
+- Scambia dati del wallet, descrittori e PSBT con Bitcoin-Safe tramite codici QR.
+- Registra i descrittori multisig ed esporta i dati del firmatore per Bitcoin-Safe.
 - Verifica tutti i dettagli sullo schermo di MetroVault prima di firmare.
 
 ## Ripristina il dispositivo Android e usalo solo come firmatore offline

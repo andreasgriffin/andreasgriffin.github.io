@@ -2,7 +2,7 @@
 aliases:
   - "/pl/knowledge/send-bitcoin/"
 title: "Wyślij Bitcoin"
-description: "Pełny przepływ wysyłki w Bitcoin Safe, od wyboru odbiorców po końcową weryfikację i rozgłoszenie transakcji."
+description: "Pełny przepływ wysyłki w Bitcoin-Safe, od wyboru odbiorców po końcową weryfikację i rozgłoszenie transakcji."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Przejdź przez pełny proces wysyłki w Bitcoin Safe, od przygotowania płatności po końcowe potwierdzenie i rozgłoszenie.
+Przejdź przez pełny proces wysyłki w Bitcoin-Safe, od przygotowania płatności po końcowe potwierdzenie i rozgłoszenie.
 
 - ✅ Zbuduj i sprawdź transakcję przed podpisaniem
 - ✅ Potwierdź wyjścia i opłaty z pewnością

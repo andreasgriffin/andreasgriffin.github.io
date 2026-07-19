@@ -2,12 +2,12 @@
 aliases:
   - "/hi/features/readme/"
 title: "सभी फीचर"
-description: "Bitcoin Safe में अधिकांश फीचर की व्यापक अवलोकन"
+description: "Bitcoin-Safe में अधिकांश फीचर की व्यापक अवलोकन"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "बिटकॉइन बचत वॉलेट",
   "MultiSig वॉलेट",
   "Multisig सेटअप विज़र्ड",
@@ -80,7 +80,7 @@ weight: -10
   - वॉलेट चैट और PSBTs का विभिन्न कंप्यूटर्स के बीच साझा करना
 - **तेज़**: 
   - Electrum सर्वर सिंकिंग
-  - Bitcoin Safe 2.0 रिलीज़ के लिए **कॉम्पैक्ट ब्लॉक फ़िल्टर** के नियोजित अपग्रेड
+  - Bitcoin-Safe 2.0 रिलीज़ के लिए **कॉम्पैक्ट ब्लॉक फ़िल्टर** के नियोजित अपग्रेड
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Скачать"
-description: "Скачать Bitcoin Safe"
+description: "Скачать Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe автоматически уведомляет вас о наличии новой версии и проверяет её подлинность.**
+✅ **Bitcoin-Safe автоматически уведомляет вас о наличии новой версии и проверяет её подлинность.**
 
 
-Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
+Windows binary files are signed, check the [Code signing policy]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin-Safe privacy policy]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
 
 <br>
 <br>
 
 ###  macOS 
 
-Следуйте этим шагам, чтобы запустить Bitcoin Safe на macOS:
+Следуйте этим шагам, чтобы запустить Bitcoin-Safe на macOS:
 - Скопируйте его в папку *Приложения*
 - При попытке открыть его появится предупреждение
 - Перейдите в *Системные настройки* --> *Конфиденциальность и безопасность* --> *Открыть в любом случае*
@@ -32,7 +32,7 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 
 <img src="/images/mac/copy-app.png" alt="Копирование приложения (macOS)"   /> 
 <img src="/images/mac/warning.png" alt="Предупреждение (macOS)"   /> 
-<img src="/images/mac/disable.png" alt="Открытие Bitcoin Safe (macOS)"   /> 
+<img src="/images/mac/disable.png" alt="Открытие Bitcoin-Safe (macOS)"   /> 
 
 
 
@@ -42,6 +42,10 @@ Windows binary files are signed, check the [Code signing policy]({{< ref "code-s
 ### Debian/Ubuntu (APT-репозиторий)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+В качестве альтернативы пользователи Linux могут установить Bitcoin-Safe из [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

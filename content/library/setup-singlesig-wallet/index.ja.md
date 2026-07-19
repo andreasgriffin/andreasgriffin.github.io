@@ -2,7 +2,7 @@
 aliases:
   - "/ja/knowledge/setup-singlesig-wallet/"
 title: "シングルシグ ウォレットのステップバイステップ設定"
-description: "Bitcoin Safe のセットアップウィザードが、シングルシグのビットコインウォレットを作成する手順を案内します"
+description: "Bitcoin-Safe のセットアップウィザードが、シングルシグのビットコインウォレットを作成する手順を案内します"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # ガイド付きシングルシグウォレットの設定
 
-🔒 安全な **Bitcoin Safe** ウォレットを設定することは、取引所の障害、ハッキング、盗難から資金を守る最良の方法です。本チュートリアルでは、Trezor を使ってその手順をステップごとにご案内します！
+🔒 安全な **Bitcoin-Safe** ウォレットを設定することは、取引所の障害、ハッキング、盗難から資金を守る最良の方法です。本チュートリアルでは、Trezor を使ってその手順をステップごとにご案内します！
  
 
 

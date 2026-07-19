@@ -2,12 +2,12 @@
 aliases:
   - "/tr/features/readme/"
 title: "Tum ozellikler"
-description: "Bitcoin Safe'deki ozelliklerin buyuk bolumu icin kapsamli genel bakis"
+description: "Bitcoin-Safe'deki ozelliklerin buyuk bolumu icin kapsamli genel bakis"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "bitcoin tasarruf cuzdanı",
   "MultiSig cuzdan",
   "multisig kurulum sihirbazi",
@@ -21,7 +21,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Tum aile icin bir bitcoin tasarruf cuzdanı
 

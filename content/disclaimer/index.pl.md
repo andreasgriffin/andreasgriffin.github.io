@@ -12,7 +12,7 @@ menu:
 
 1. Ogólne zastrzeżenie
 
-Informacje udostępnione na stronie "Bitcoin Safe" mają charakter wyłącznie informacyjny. Nie składamy żadnych oświadczeń ani gwarancji co do kompletności ani dokładności tych informacji.
+Informacje udostępnione na stronie "Bitcoin-Safe" mają charakter wyłącznie informacyjny. Nie składamy żadnych oświadczeń ani gwarancji co do kompletności ani dokładności tych informacji.
 
 2. Zastrzeżenie dotyczące oprogramowania
 

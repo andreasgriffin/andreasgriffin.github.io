@@ -2,7 +2,7 @@
 aliases:
   - "/ar/features/address-poisoning/"
 title: "الكشف عن تسميم العناوين"
-description: "قد يرسل إليك المهاجمون معاملات تحتوي على عناوين مشابهة لعنوانك. سيُنبهك Bitcoin Safe إذا حدث ذلك"
+description: "قد يرسل إليك المهاجمون معاملات تحتوي على عناوين مشابهة لعنوانك. سيُنبهك Bitcoin-Safe إذا حدث ذلك"
 draft: false
 bucket: features
 images: ["logo.png"]
@@ -16,5 +16,5 @@ keywords: ["معالجة التسمم", "التصيد", "هجوم الغبار",
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 }

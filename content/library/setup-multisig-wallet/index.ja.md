@@ -2,7 +2,7 @@
 aliases:
   - "/ja/knowledge/setup-multisig-wallet/"
 title: "ステップバイステップのマルチシグ設定"
-description: "Bitcoin Safe セットアップウィザードは、2-of-3 のマルチシグビットコインウォレットを作成する手順を順を追って案内します。"
+description: "Bitcoin-Safe セットアップウィザードは、2-of-3 のマルチシグビットコインウォレットを作成する手順を順を追って案内します。"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # ガイド付き 2-of-3 マルチシグウォレット
 
-🔒 安全な **Bitcoin Safe** ウォレットを設定することは、取引所の障害、ハッキング、窃盗から資金を守る最良の方法です。このチュートリアルでは、手順を順を追って丁寧に案内します！
+🔒 安全な **Bitcoin-Safe** ウォレットを設定することは、取引所の障害、ハッキング、窃盗から資金を守る最良の方法です。このチュートリアルでは、手順を順を追って丁寧に案内します！
  
 
 - 🔐 *Coldcard Q*、*Bitbox02*、*Keystone* を接続

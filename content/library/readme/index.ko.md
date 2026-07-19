@@ -2,12 +2,12 @@
 aliases:
   - "/ko/features/readme/"
 title: "모든 기능"
-description: "Bitcoin Safe의 대부분 기능에 대한 포괄적인 개요"
+description: "Bitcoin-Safe의 대부분 기능에 대한 포괄적인 개요"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "비트코인 저축 지갑",
   "멀티시그 지갑",
   "멀티시그 설정 마법사",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### 전체 가족을 위한 비트코인 저축 지갑
 
@@ -80,7 +80,7 @@ weight: -10
   - Wallet chat and PSBTs sharing between different computers
 - **빠름**: 
   - Electrum server syncing
-  - planned upgrade to **Compact Block Filters** for the Bitcoin Safe 2.0 release
+  - planned upgrade to **Compact Block Filters** for the Bitcoin-Safe 2.0 release
 
 
 

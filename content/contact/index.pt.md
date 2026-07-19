@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Comunidade Bitcoin Safe: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Comunidade Bitcoin-Safe: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 [Abrir uma issue](https://github.com/andreasgriffin/bitcoin-safe) no GitHub.
 

@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Multisig Bitcoin",
   "Dompet multisig",
   "Multisig 2-dari-3",
@@ -22,7 +22,7 @@ keywords: [
   "Keamanan dompet Bitcoin",
   "Nostr",
   "Obrolan terdesentralisasi",
-  "Demo Bitcoin Safe",
+  "Demo Bitcoin-Safe",
   "Tutorial multisig",
   "Perbendaharaan Bitcoin",
   "Dompet organisasi Bitcoin",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Penandatanganan kolaboratif dompet Multisig 2-dari-3 menggunakan Bitcoin Safe — antar komputer yang berbeda, hardware wallet berbeda, dan komunikasi aman melalui Nostr.
+ Penandatanganan kolaboratif dompet Multisig 2-dari-3 menggunakan Bitcoin-Safe — antar komputer yang berbeda, hardware wallet berbeda, dan komunikasi aman melalui Nostr.
 
-Video ini memperlihatkan bagaimana dua pengguna menandatangani transaksi Bitcoin secara kolaboratif menggunakan konfigurasi dompet multisig 2-dari-3 di Bitcoin Safe. Setiap peserta berada di komputer yang berbeda, menggunakan hardware wallet yang berbeda (Jade dan Bitbox02). Mereka berkoordinasi melalui fitur Chat & Sync bawaan aplikasi, yang menggunakan Nostr untuk meneruskan pesan secara pribadi dan aman.
+Video ini memperlihatkan bagaimana dua pengguna menandatangani transaksi Bitcoin secara kolaboratif menggunakan konfigurasi dompet multisig 2-dari-3 di Bitcoin-Safe. Setiap peserta berada di komputer yang berbeda, menggunakan hardware wallet yang berbeda (Jade dan Bitbox02). Mereka berkoordinasi melalui fitur Chat & Sync bawaan aplikasi, yang menggunakan Nostr untuk meneruskan pesan secara pribadi dan aman.
 
 Proses ini mendukung penandatanganan sinkron dan asinkron — sempurna untuk pengguna yang tidak online pada waktu yang sama.
 

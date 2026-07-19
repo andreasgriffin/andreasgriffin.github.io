@@ -2,12 +2,12 @@
 aliases:
   - "/ja/features/readme/"
 title: "すべての機能"
-description: "Bitcoin Safe の主要機能の包括的な概要"
+description: "Bitcoin-Safe の主要機能の包括的な概要"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "ビットコイン貯蓄ウォレット",
   "マルチシグウォレット",
   "マルチシグセットアップウィザード",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### 家族全員向けのビットコイン貯蓄ウォレット
 
@@ -80,7 +80,7 @@ weight: -10
   - 異なるコンピュータ間でのウォレットチャットとPSBT共有
 - **高速**:
   - Electrumサーバー同期
-  - Bitcoin Safe 2.0 リリースでは **Compact Block Filters** へのアップグレードを予定
+  - Bitcoin-Safe 2.0 リリースでは **Compact Block Filters** へのアップグレードを予定
 
 
 

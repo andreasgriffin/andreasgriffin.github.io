@@ -2,7 +2,7 @@
 aliases:
   - "/fr/knowledge/supported-hardware-signers/"
 title: Signataires matériels entièrement pris en charge
-description: Signataires matériels entièrement pris en charge pour Bitcoin Safe
+description: Signataires matériels entièrement pris en charge pour Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

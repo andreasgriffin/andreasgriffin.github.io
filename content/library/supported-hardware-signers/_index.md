@@ -3,7 +3,7 @@ aliases:
   - "/knowledge/supported-hardware-signers/"
   - "/en/knowledge/supported-hardware-signers/"
 title: "Fully supported hardware signers"
-description: "Fully supported hardware signers for Bitcoin Safe"
+description: "Fully supported hardware signers for Bitcoin-Safe"
 draft: false
 bucket: knowledge
 keywords: [

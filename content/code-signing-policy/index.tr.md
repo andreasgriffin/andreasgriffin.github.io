@@ -1,5 +1,5 @@
 ---
-title: "Kod İmzalama Politikası ve Bitcoin Safe Gizlilik Politikası"
+title: "Kod İmzalama Politikası ve Bitcoin-Safe Gizlilik Politikası"
 description: "Kod imzalama politikası"
 draft: false
 tags: ["legal"]

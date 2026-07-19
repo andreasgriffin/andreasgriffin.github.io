@@ -1,6 +1,6 @@
 ---
 title: "डाउनलोड"
-description: "Bitcoin Safe डाउनलोड करें"
+description: "Bitcoin-Safe डाउनलोड करें"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe आपको नई रिलीज़ के बारे में सूचित करता है और स्वचालित रूप से प्रामाणिकता सत्यापित करता है।**
+✅ **Bitcoin-Safe आपको नई रिलीज़ के बारे में सूचित करता है और स्वचालित रूप से प्रामाणिकता सत्यापित करता है।**
 
 
-Windows binary files are signed, check the [कोड साइनिंग नीति]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin Safe गोपनीयता नीति]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
+Windows binary files are signed, check the [कोड साइनिंग नीति]({{< ref "code-signing-policy" >}}). See here the   [Bitcoin-Safe गोपनीयता नीति]({{< ref "code-signing-policy" >}}).  The  MacOS binaries are not signed, so please disregard the warning message.
 
 <br>
 <br>
 
 ###  macOS 
 
-Please follow the steps to run Bitcoin Safe on macOS:
+Please follow the steps to run Bitcoin-Safe on macOS:
 - इसे अपने ऐप फ़ोल्डर में कॉपी करें
 - इसे खोलने का प्रयास करें — आपको एक चेतावनी मिलेगी
 - *सिस्टम सेटिंग्स* --> *गोपनीयता और सुरक्षा* --> *फिर भी खोलें*
@@ -32,7 +32,7 @@ Please follow the steps to run Bitcoin Safe on macOS:
 
 <img src="/images/mac/copy-app.png" alt="macOS ऐप को कॉपी करें"   /> 
 <img src="/images/mac/warning.png" alt="macOS चेतावनी"   /> 
-<img src="/images/mac/disable.png" alt="macOS Bitcoin Safe खोलें"   /> 
+<img src="/images/mac/disable.png" alt="macOS Bitcoin-Safe खोलें"   /> 
 
 
 
@@ -42,6 +42,10 @@ Please follow the steps to run Bitcoin Safe on macOS:
 ### Debian/Ubuntu (APT रिपॉज़िटरी)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+वैकल्पिक रूप से, Linux उपयोगकर्ता [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe) से Bitcoin-Safe इंस्टॉल कर सकते हैं।
 
 <br>
 <br>

@@ -2,7 +2,7 @@
 aliases:
   - "/ca/knowledge/setup-multisig-wallet/"
 title: "Configuració Multisig pas a pas"
-description: "L'assistent de configuració de Bitcoin Safe et guia a través dels passos per crear una cartera bitcoin Multisig 2-de-3"
+description: "L'assistent de configuració de Bitcoin-Safe et guia a través dels passos per crear una cartera bitcoin Multisig 2-de-3"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Cartera Multisig 2-de-3 guiada
 
-🔒 Configurar una cartera segura **Bitcoin Safe** és la millor manera de protegir els teus fons d'errors d'intercanvis, hacks i robatoris. En aquest tutorial, et guiarem pas a pas per tot el procés!
+🔒 Configurar una cartera segura **Bitcoin-Safe** és la millor manera de protegir els teus fons d'errors d'intercanvis, hacks i robatoris. En aquest tutorial, et guiarem pas a pas per tot el procés!
  
 
 - 🔐 Connecta una *Coldcard Q*, una *Bitbox02* i una *Keystone*

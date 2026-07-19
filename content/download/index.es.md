@@ -1,6 +1,6 @@
 ---
 title: "Descargar"
-description: "Descargar Bitcoin Safe"
+description: "Descargar Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -13,17 +13,17 @@ menu:
 
 {{< latest_release >}}
 
-✅ **Bitcoin Safe le notifica cuando hay una versión más reciente y verifica automáticamente la autenticidad.**
+✅ **Bitcoin-Safe le notifica cuando hay una versión más reciente y verifica automáticamente la autenticidad.**
 
 
-Los binarios de Windows están firmados; consulte la [política de firma de código]({{< ref "code-signing-policy" >}}). Vea aquí la [política de privacidad de Bitcoin Safe]({{< ref "code-signing-policy" >}}). Los binarios de macOS no están firmados, por lo que puede ignorar el mensaje de advertencia.
+Los binarios de Windows están firmados; consulte la [política de firma de código]({{< ref "code-signing-policy" >}}). Vea aquí la [política de privacidad de Bitcoin-Safe]({{< ref "code-signing-policy" >}}). Los binarios de macOS no están firmados, por lo que puede ignorar el mensaje de advertencia.
 
 <br>
 <br>
 
 ###  macOS 
 
-Por favor, siga los pasos para ejecutar Bitcoin Safe en macOS:
+Por favor, siga los pasos para ejecutar Bitcoin-Safe en macOS:
 - Copie la aplicación en la carpeta de aplicaciones
 - Al intentar abrirla recibirá una advertencia
 - Vaya a *Ajustes del Sistema* --> *Privacidad y Seguridad* --> *Abrir de todos modos*
@@ -32,7 +32,7 @@ Por favor, siga los pasos para ejecutar Bitcoin Safe en macOS:
 
 <img src="/images/mac/copy-app.png" alt="macOS copiar la aplicación"   /> 
 <img src="/images/mac/warning.png" alt="macOS advertencia"   /> 
-<img src="/images/mac/disable.png" alt="macOS abrir Bitcoin Safe"   /> 
+<img src="/images/mac/disable.png" alt="macOS abrir Bitcoin-Safe"   /> 
 
 
 
@@ -42,6 +42,10 @@ Por favor, siga los pasos para ejecutar Bitcoin Safe en macOS:
 ### Debian/Ubuntu (repositorio APT)
 
 {{< apt_repo_install >}}
+
+### Linux (Flathub)
+
+Como alternativa, los usuarios de Linux pueden instalar Bitcoin-Safe desde [Flathub](https://flathub.org/apps/org.bitcoin_safe.BitcoinSafe).
 
 <br>
 <br>

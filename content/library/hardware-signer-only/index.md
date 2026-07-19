@@ -3,12 +3,12 @@ aliases:
   - "/knowledge/hardware-signer-only/"
   - "/en/knowledge/hardware-signer-only/"
 title: "Hardware Signers Required"
-description: "Bitcoin Safe enforces hardware-only seeds on Mainnet to maximize security and avoid the risks of software-based key storage. Here's why that matters."
+description: "Bitcoin-Safe enforces hardware-only seeds on Mainnet to maximize security and avoid the risks of software-based key storage. Here's why that matters."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "hardware wallet",
   "software seed",
   "Coldcard",
@@ -32,16 +32,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Why does Bitcoin Safe block software seeds on Mainnet?
+## 🚫 Why does Bitcoin-Safe block software seeds on Mainnet?
 
 🤔 Isn't that inconvenient?
 
 🔥 Turns out — it's a **major security upgrade**.
 
-Bitcoin Safe **only allows software seeds on Testnet, Signet, and Regtest** — never on Mainnet. Here's why:
+Bitcoin-Safe **only allows software seeds on Testnet, Signet, and Regtest** — never on Mainnet. Here's why:
 
 ### ✅ Reasons why software seeds are blocked on Mainnet
 
@@ -96,7 +96,7 @@ Bitcoin Safe **only allows software seeds on Testnet, Signet, and Regtest** — 
 
 ## 🛡️ Address poisoning protection
 
-Bitcoin Safe **color-codes receive addresses** to make address poisoning obvious:
+Bitcoin-Safe **color-codes receive addresses** to make address poisoning obvious:
 
 - 🟢 Green = verified receive address  
 - 🟡 Yellow = change address  
@@ -128,7 +128,7 @@ Verify receive addresses directly on your hardware signer — no need to trust t
 
 ## 🤝 Collaborative multisig made easy
 
-Bitcoin Safe makes multisig user-friendly and team-ready:
+Bitcoin-Safe makes multisig user-friendly and team-ready:
 
 - 🔐 Encrypted Nostr chat  
 - 🔁 1-click PSBT sharing  
@@ -147,7 +147,7 @@ Bitcoin Safe makes multisig user-friendly and team-ready:
 - 🔁 Label sync via Nostr  
 - 🔍 Full money-flow diagram & searchable transaction history
 
-![Transaction diagram in Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Transaction diagram in Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -162,7 +162,7 @@ Bitcoin Safe makes multisig user-friendly and team-ready:
 
 ## 💡 TL;DR
 
-Bitcoin Safe = Real Bitcoin savings:
+Bitcoin-Safe = Real Bitcoin savings:
 
 ✅ Hardware-only on Mainnet  
 ✅ No software seed exposure  

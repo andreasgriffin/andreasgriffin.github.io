@@ -11,7 +11,7 @@ other = "Mais detalhes sobre este assinador serão adicionados em breve."
 other = "O que esperar"
 
 [hardware_expect_intro]
-other = "O {{ .Name }} é totalmente suportado pelo Bitcoin Safe. Você pode assinar transações via {{ .Connections }} sem configuração extra."
+other = "O {{ .Name }} é totalmente suportado pelo Bitcoin-Safe. Você pode assinar transações via {{ .Connections }} sem configuração extra."
 
 [hardware_expect_usb]
 other = "Use USB para um fluxo de trabalho rápido no desktop."
@@ -59,7 +59,7 @@ other = "Exporte o arquivo/descritor do assinador para backup e coordenação."
 other = "*testar*, *testar*, *testar*, e enviar novos relatórios de bugs e feedback via [GitHub](https://github.com/andreasgriffin/bitcoin-safe/issues/new), [Community Forum](https://substr.network/s/bitcoin-safe) ou em privado por [Email](mailto:Contact@Bitcoin-Safe.org)."
 
 [donate_support_other_ways]
-other = "ou encontrar outras formas de tornar o **Bitcoin Safe** melhor para todos"
+other = "ou encontrar outras formas de tornar o **Bitcoin-Safe** melhor para todos"
 
 [hardware_badge_bitcoin_only]
 other = "Apenas Bitcoin"

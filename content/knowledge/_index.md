@@ -4,7 +4,7 @@ aliases:
 title: "How-To"
 layout: "custom-tag-list"
 bucket: knowledge
-description: "Guides on Bitcoin Safe wallets, hardware signers, Tor setup, and secure address verification."
+description: "Guides on Bitcoin-Safe wallets, hardware signers, Tor setup, and secure address verification."
 keywords:
   - "bitcoin safe"
   - "bitcoin safe wallet"

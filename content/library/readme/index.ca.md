@@ -2,12 +2,12 @@
 aliases:
   - "/ca/features/readme/"
 title: "Totes les funcionalitats"
-description: "Visió general exhaustiva de la majoria de les funcionalitats de Bitcoin Safe"
+description: "Visió general exhaustiva de la majoria de les funcionalitats de Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "cartera d'estalvi bitcoin",
   "cartera MultiSig",
   "Assistent de configuració Multisig",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Una'estalvi bitcoin per a tota la família
 
@@ -80,7 +80,7 @@ weight: -10
   - Xat de cartera i compartició de PSBTs entre diferents ordinadors
 - **Ràpid**: 
   - Sincronització amb servidor Electrum
-  - actualització planificada a **Compact Block Filters** per al llançament de Bitcoin Safe 2.0 
+  - actualització planificada a **Compact Block Filters** per al llançament de Bitcoin-Safe 2.0 
 
 
 

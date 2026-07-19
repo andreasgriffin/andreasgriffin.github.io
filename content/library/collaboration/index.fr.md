@@ -8,7 +8,7 @@ bucket: knowledge
 tags: ["Featured", "sync"]
 images: [ "logo.png" ]
 keywords: [ 
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Multisignature Bitcoin",
   "Portefeuille multisignature",
   "Multisignature 2-sur-3",
@@ -22,7 +22,7 @@ keywords: [
   "Sécurité des portefeuilles Bitcoin",
   "Nostr",
   "Messagerie décentralisée",
-  "Démonstration de Bitcoin Safe",
+  "Démonstration de Bitcoin-Safe",
   "Tutoriel multisignature",
   "Trésorerie Bitcoin",
   "Portefeuille d'organisation Bitcoin",
@@ -43,9 +43,9 @@ videos:
 ### {{< page-title >}}  
   
  
- Signature collaborative d'un portefeuille multisignature 2-sur-3 avec Bitcoin Safe — entre différents ordinateurs, portefeuilles matériels et communication sécurisée via Nostr.
+ Signature collaborative d'un portefeuille multisignature 2-sur-3 avec Bitcoin-Safe — entre différents ordinateurs, portefeuilles matériels et communication sécurisée via Nostr.
 
-Cette vidéo montre comment deux utilisateurs signent de manière collaborative une transaction Bitcoin en utilisant une configuration de portefeuille multisignature 2-sur-3 dans Bitcoin Safe. Chaque participant est sur un ordinateur différent, utilisant des portefeuilles matériels différents (Jade et Bitbox02). Ils se coordonnent via la fonction Chat & Sync intégrée à l'application, qui utilise Nostr pour relayer les messages de manière privée et sécurisée.
+Cette vidéo montre comment deux utilisateurs signent de manière collaborative une transaction Bitcoin en utilisant une configuration de portefeuille multisignature 2-sur-3 dans Bitcoin-Safe. Chaque participant est sur un ordinateur différent, utilisant des portefeuilles matériels différents (Jade et Bitbox02). Ils se coordonnent via la fonction Chat & Sync intégrée à l'application, qui utilise Nostr pour relayer les messages de manière privée et sécurisée.
 
 Le processus prend en charge la signature synchrone et asynchrone — parfait pour les utilisateurs qui ne sont pas en ligne en même temps.
 

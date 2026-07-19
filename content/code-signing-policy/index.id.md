@@ -1,5 +1,5 @@
 ---
-title: "Kebijakan penandatanganan kode dan kebijakan privasi Bitcoin Safe"
+title: "Kebijakan penandatanganan kode dan kebijakan privasi Bitcoin-Safe"
 description: "Kebijakan penandatanganan kode"
 draft: false
 tags: ["legal"]

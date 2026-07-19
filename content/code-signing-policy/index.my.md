@@ -1,5 +1,5 @@
 ---
-title: "ကုဒ်လက်မှတ် မူဝါဒ နှင့် Bitcoin Safe ကိုယ်ရေးအချက်အလက် မူဝါဒ"
+title: "ကုဒ်လက်မှတ် မူဝါဒ နှင့် Bitcoin-Safe ကိုယ်ရေးအချက်အလက် မူဝါဒ"
 description: "ကုဒ်လက်မှတ် မူဝါဒ"
 draft: false
 tags: ["legal"]

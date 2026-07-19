@@ -1,5 +1,5 @@
 ---
-title: "Code-Signing-Richtlinie und Datenschutzrichtlinie von Bitcoin Safe"
+title: "Code-Signing-Richtlinie und Datenschutzrichtlinie von Bitcoin-Safe"
 description: "Richtlinie zur Code-Signierung"
 draft: false
 tags: ["legal"]

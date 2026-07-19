@@ -14,13 +14,13 @@ Date : *3 novembre 2024*
 
 1. Acceptation des conditions
 
-    - En accédant et en utilisant le site Bitcoin Safe ("le Site") et le logiciel Bitcoin Safe ("le Logiciel"), vous acceptez de vous conformer aux présentes Conditions d'utilisation. 
+    - En accédant et en utilisant le site Bitcoin-Safe ("le Site") et le logiciel Bitcoin-Safe ("le Logiciel"), vous acceptez de vous conformer aux présentes Conditions d'utilisation. 
 
 2. Utilisation du site et du logiciel
 
     2a. Utilisation du site
 
-        - Utilisation autorisée : Vous pouvez utiliser le Site à des fins d'information liées au programme open-source Bitcoin Safe.
+        - Utilisation autorisée : Vous pouvez utiliser le Site à des fins d'information liées au programme open-source Bitcoin-Safe.
         - Utilisation interdite : Vous acceptez de ne pas abuser du Site ou de son contenu. Les actions interdites incluent, sans s'y limiter :
             - Tenter d'obtenir un accès non autorisé à une quelconque partie du Site ou de ses systèmes associés.
             - Participer à toute activité qui perturbe ou interfère avec le fonctionnement du Site.
@@ -28,7 +28,7 @@ Date : *3 novembre 2024*
 
     2b. Utilisation du logiciel
 
-        - Utilisation autorisée : Vous pouvez utiliser le logiciel Bitcoin Safe conformément à sa licence open-source, qui est la [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+        - Utilisation autorisée : Vous pouvez utiliser le logiciel Bitcoin-Safe conformément à sa licence open-source, qui est la [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
         - Utilisation interdite : Vous acceptez de ne pas abuser du Logiciel ni de l'utiliser à des fins interdites. Les actions interdites incluent, sans s'y limiter :
             - Utiliser le Logiciel en violation de toute loi ou réglementation applicable.
             - Modifier ou distribuer le Logiciel d'une manière non autorisée par sa licence.
@@ -36,7 +36,7 @@ Date : *3 novembre 2024*
 
 3. Propriété intellectuelle
 
-    - Propriété : Le contenu du Site est la propriété des contributeurs de "Bitcoin Safe" et est protégé par les lois applicables en matière de propriété intellectuelle.
+    - Propriété : Le contenu du Site est la propriété des contributeurs de "Bitcoin-Safe" et est protégé par les lois applicables en matière de propriété intellectuelle.
     - Licence : Le logiciel open-source est publié sous la licence [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 
@@ -46,7 +46,7 @@ Date : *3 novembre 2024*
 
 5. Limitation de responsabilité
 
-    - En aucun cas les contributeurs de "Bitcoin Safe" ne pourront être tenus responsables de dommages quelconques résultant de l'utilisation du Site ou du logiciel.
+    - En aucun cas les contributeurs de "Bitcoin-Safe" ne pourront être tenus responsables de dommages quelconques résultant de l'utilisation du Site ou du logiciel.
 
 6. Liens externes
 

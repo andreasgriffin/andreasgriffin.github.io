@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin Safe 커뮤니티: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe 커뮤니티: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
 
 [이슈 열기](https://github.com/andreasgriffin/bitcoin-safe) GitHub에서.
 

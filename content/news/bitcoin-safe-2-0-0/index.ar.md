@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "ملاحظات إصدار Bitcoin Safe 2.0.0، مع معالج إعداد معاد بناؤه، ومزامنة خاصة عبر Compact Block Filters، ودعم أوسع للمحافظ الصلبة."
+description: "ملاحظات إصدار Bitcoin-Safe 2.0.0، مع معالج إعداد معاد بناؤه، ومزامنة خاصة عبر Compact Block Filters، ودعم أوسع للمحافظ الصلبة."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">إعلان الإصدار</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - إعداد موجّه للمحفظة، ومزامنة خاصة للسلسلة، وتوقيع يركّز على الجهاز</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - إعداد موجّه للمحفظة، ومزامنة خاصة للسلسلة، وتوقيع يركّز على الجهاز</h2>
     <p class="lead mb-4">يأتي هذا الإصدار بمعالج إعداد جديد بالكامل، ومزامنة خاصة للسلسلة باستخدام Compact Block Filters، وتدفّق توقيع منظّم حول كل جهاز عتادي. إذا كنت مهتمًا بـ cold storage لكنك لم تكن واثقًا بعد، فهذا هو الإصدار الذي يستحق التجربة.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">تنزيل Bitcoin Safe 2.0</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">تنزيل Bitcoin-Safe 2.0</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">شاهد ما الجديد</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## مسار موجّه نحو self-custody {#setup-flow}
 
-تمت إعادة بناء تجربة التشغيل الأول من الصفر. لا يزال Bitcoin Safe موجّهًا إلى self-custody الجاد، بما في ذلك multisig المدعوم بالأجهزة، ويمنح الإصدار 2.0 الآن المستخدمين الجدد مسارًا موجّهًا عبر هذا الإعداد. يشرح المعالج الجديد ما الذي يحدث، وأين أنت داخل التدفق، وما الذي يحتاجه كل signer منك قبل الانتقال إلى الخطوة التالية.
+تمت إعادة بناء تجربة التشغيل الأول من الصفر. لا يزال Bitcoin-Safe موجّهًا إلى self-custody الجاد، بما في ذلك multisig المدعوم بالأجهزة، ويمنح الإصدار 2.0 الآن المستخدمين الجدد مسارًا موجّهًا عبر هذا الإعداد. يشرح المعالج الجديد ما الذي يحدث، وأين أنت داخل التدفق، وما الذي يحتاجه كل signer منك قبل الانتقال إلى الخطوة التالية.
 
 <p class="small text-muted">للتفاصيل التنفيذية، راجع <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>.</p>
 
@@ -72,7 +72,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## مزامنة خاصة ومتينة للسلسلة باستخدام Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) أصبحت الآن تشغّل مزامنة المحافظ الجديدة في Bitcoin Safe 2.0. وبدلًا من سؤال Electrum server عن العناوين التي تخصك، يستطيع Bitcoin Safe الآن فحص السلسلة بشكل خاص عبر تنزيل compact filters من Bitcoin Core peers عشوائيين والتحقق منها محليًا.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) أصبحت الآن تشغّل مزامنة المحافظ الجديدة في Bitcoin-Safe 2.0. وبدلًا من سؤال Electrum server عن العناوين التي تخصك، يستطيع Bitcoin-Safe الآن فحص السلسلة بشكل خاص عبر تنزيل compact filters من Bitcoin Core peers عشوائيين والتحقق منها محليًا.
 
 <p class="small text-muted">للتفاصيل التنفيذية، راجع <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>.</p>
 
@@ -88,7 +88,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## تدفّق توقيع يركّز على الجهاز لكل جهاز {#device-focused-signing}
 
-تعيد هذه الواجهة الجديدة أيضًا تشكيل تدفّق التوقيع بعد إنشاء المحفظة. بدلًا من شاشة عامة واحدة لكل signer، يضع Bitcoin Safe الآن الإجراءات حول الجهاز المحدد الذي تستخدمه.
+تعيد هذه الواجهة الجديدة أيضًا تشكيل تدفّق التوقيع بعد إنشاء المحفظة. بدلًا من شاشة عامة واحدة لكل signer، يضع Bitcoin-Safe الآن الإجراءات حول الجهاز المحدد الذي تستخدمه.
 
 <p class="small text-muted">للتفاصيل التنفيذية، راجع <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>.</p>
 
@@ -103,7 +103,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## بنية plugins لسير العمل التجاري ولمستخدمي القوة
 
-يضع Bitcoin Safe 2.0 أيضًا الأساس لإضافات مستقبلية موجهة إلى شركات Bitcoin ومستخدمي القوة. لذا ترقّب ما سيأتي لاحقًا :-)
+يضع Bitcoin-Safe 2.0 أيضًا الأساس لإضافات مستقبلية موجهة إلى شركات Bitcoin ومستخدمي القوة. لذا ترقّب ما سيأتي لاحقًا :-)
 
 <p class="small text-muted">للتفاصيل التنفيذية، راجع <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>.</p>
 
@@ -132,7 +132,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## نقاط القوة الحالية لا تزال موجودة
 
-إصدار 2.0 ليس إعادة ضبط كاملة. فأسفل تدفّق onboarding والتوقيع الجديدين، لا يزال Bitcoin Safe يحتفظ بالميزات التي جعلته مفيدًا يوميًا: collaborative multisig، ونسخ احتياطية PDF، وسجل محفظة قابل للبحث، وتصوّرات لتدفق الأموال، وlabel sync، وغير ذلك.
+إصدار 2.0 ليس إعادة ضبط كاملة. فأسفل تدفّق onboarding والتوقيع الجديدين، لا يزال Bitcoin-Safe يحتفظ بالميزات التي جعلته مفيدًا يوميًا: collaborative multisig، ونسخ احتياطية PDF، وسجل محفظة قابل للبحث، وتصوّرات لتدفق الأموال، وlabel sync، وغير ذلك.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ previewimage: "wizard single sig.png"
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">هل أنت جاهز لتجربة Bitcoin Safe 2.0؟</h2>
+  <h2 class="h4 mb-2">هل أنت جاهز لتجربة Bitcoin-Safe 2.0؟</h2>
   <p class="mb-3">نزّل أحدث إصدار واستكشف بنفسك onboarding الجديد والمزامنة الخاصة وتحسينات المحافظ الصلبة.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">تنزيل Bitcoin Safe</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">تنزيل Bitcoin-Safe</a>
 </div>
 
 
@@ -154,9 +154,9 @@ previewimage: "wizard single sig.png"
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) على إعادة تصميم المعالج، والعمل على واجهة plugins، والدعم **الرائع والمتواصل** في UI/UX
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) على عميل Compact Block Filter الذي يشغّل الآن مزامنة المحافظ الجديدة بشكل خاص
-- فريق [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) على المكتبات الموجودة في قلب Bitcoin Safe
+- فريق [Bitcoin Dev Kit](https://github.com/bitcoindevkit/) على المكتبات الموجودة في قلب Bitcoin-Safe
 - فريق [ndk](https://github.com/nostr-dev-kit/ndk) على المكتبات التي تشغّل وظائف nostr
-- كل من في مجتمع Bitcoin Safe ممن اختبروا release candidates، وأبلغوا عن الأخطاء، وترجموا الصفحات، وأرسلوا sats، واستمروا في دفع المشروع إلى الأمام
+- كل من في مجتمع Bitcoin-Safe ممن اختبروا release candidates، وأبلغوا عن الأخطاء، وترجموا الصفحات، وأرسلوا sats، واستمروا في دفع المشروع إلى الأمام
 - [المترجمون]({{< ref "donate/#translators" >}})، ومنهم <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (الفيتنامية)" title="qdyg-vn 🇻🇳 (الفيتنامية)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (الألمانية)" title="bsn21m 🇩🇪 (الألمانية)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (الإسبانية)" title="cyphra 🇪🇸 (الإسبانية)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

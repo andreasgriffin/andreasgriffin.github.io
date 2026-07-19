@@ -2,7 +2,7 @@
 aliases:
   - "/ca/knowledge/send-bitcoin/"
 title: "Enviar Bitcoin"
-description: "Un recorregut complet del flux d’enviament a Bitcoin Safe, des de seleccionar destinataris fins a la revisió final i l’emissió."
+description: "Un recorregut complet del flux d’enviament a Bitcoin-Safe, des de seleccionar destinataris fins a la revisió final i l’emissió."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Segueix el flux complet d’enviament a Bitcoin Safe, des de preparar un pagament fins a la confirmació final i l’emissió.
+Segueix el flux complet d’enviament a Bitcoin-Safe, des de preparar un pagament fins a la confirmació final i l’emissió.
 
 - ✅ Crea i revisa una transacció abans de signar
 - ✅ Confirma sortides i comissions amb confiança

@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "filtros compactos de bloco"
   - "CBF"
   - "privacidade"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**Os filtros compactos de bloco (CBF)** permitem ao [Bitcoin Safe]({{< ref "/" >}}) analisar a blockchain sem perguntar a um servidor Electrum quais endereços são seus.
+**Os filtros compactos de bloco (CBF)** permitem ao [Bitcoin-Safe]({{< ref "/" >}}) analisar a blockchain sem perguntar a um servidor Electrum quais endereços são seus.
 
-![O Bitcoin Safe descarrega filtros compactos de bloco de vários pares aleatórios do Bitcoin Core.](logo.jpg)
+![O Bitcoin-Safe descarrega filtros compactos de bloco de vários pares aleatórios do Bitcoin Core.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Em vez de consultar um servidor central, o Bitcoin Safe descarrega um filtro pequeno para cada bloco de pares aleatórios do Bitcoin Core. A sua carteira verifica esses filtros localmente e só descarrega blocos completos quando é necessário.
+Em vez de consultar um servidor central, o Bitcoin-Safe descarrega um filtro pequeno para cada bloco de pares aleatórios do Bitcoin Core. A sua carteira verifica esses filtros localmente e só descarrega blocos completos quando é necessário.
 
 ### CBF vs Electrum
 
@@ -71,7 +71,7 @@ Em vez de consultar um servidor central, o Bitcoin Safe descarrega um filtro peq
 ### Por que usar CBF
 
 - Mais privacidade: a sua carteira nunca pergunta a um servidor quais endereços são seus.
-- Sem indexador de confiança: o Bitcoin Safe fala diretamente com a rede Bitcoin.
+- Sem indexador de confiança: o Bitcoin-Safe fala diretamente com a rede Bitcoin.
 - Sincronização leve: os filtros são pequenos, por isso não precisa de toda a blockchain.
 
 ### O que esperar
@@ -80,7 +80,7 @@ Em vez de consultar um servidor central, o Bitcoin Safe descarrega um filtro peq
 - Carteira já sincronizada: normalmente recupera **muito rápido**, muitas vezes em **menos de 30 segundos**.
 - Mudança de Electrum para CBF: normalmente também **menos de 30 segundos**.
 
-Pode escolher com quantos pares o Bitcoin Safe se liga. Mais pares melhoram a redundância, mas normalmente aumentam a largura de banda e o tempo de sincronização. O predefinido é **2** pares.
+Pode escolher com quantos pares o Bitcoin-Safe se liga. Mais pares melhoram a redundância, mas normalmente aumentam a largura de banda e o tempo de sincronização. O predefinido é **2** pares.
 
 ### Transações não confirmadas
 
@@ -88,7 +88,7 @@ CBF cobre apenas **blocos confirmados**. Para também receber alertas de pagamen
 
 ### Nota técnica
 
-Os filtros compactos de bloco estão definidos no [BIP158](https://bips.dev/158/). O Bitcoin Safe usa o módulo de código aberto [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
+Os filtros compactos de bloco estão definidos no [BIP158](https://bips.dev/158/). O Bitcoin-Safe usa o módulo de código aberto [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
 Também pode usar o seu próprio nó Bitcoin Core como peer inicial nas definições de _Bitcoin network monitoring_.
 

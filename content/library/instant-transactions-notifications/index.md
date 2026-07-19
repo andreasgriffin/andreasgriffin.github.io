@@ -5,7 +5,7 @@ aliases:
   - "/en/knowledge/instant-transactions-notifications/"
   - "/en/features/instant-transactions-notifications/"
 title: "Instant transaction notifications"
-description: "How Bitcoin Safe Receives Instant Transaction Notifications"
+description: "How Bitcoin-Safe Receives Instant Transaction Notifications"
 draft: false
 bucket: features
 images: ["logo.png" ]
@@ -35,7 +35,7 @@ weight: 0
 
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
 
@@ -44,32 +44,32 @@ weight: 0
   
 
 
-**Bitcoin Safe** (starting from version **1.5.0**) supports instant notification of incoming Bitcoin transactions relevant to your wallet. Here’s how it works under the hood:
+**Bitcoin-Safe** (starting from version **1.5.0**) supports instant notification of incoming Bitcoin transactions relevant to your wallet. Here’s how it works under the hood:
 
 
 
 
 ##### 1. 📡 Listening to the Bitcoin P2P Network
 
-Bitcoin Safe connects directly to one or more **Bitcoin Core nodes**, which participate in the global **peer-to-peer (P2P)** network. These nodes continuously exchange newly broadcasted transactions intended for inclusion in the **mempool**.
+Bitcoin-Safe connects directly to one or more **Bitcoin Core nodes**, which participate in the global **peer-to-peer (P2P)** network. These nodes continuously exchange newly broadcasted transactions intended for inclusion in the **mempool**.
 
-Bitcoin Safe listens passively to these broadcast messages and checks whether:
+Bitcoin-Safe listens passively to these broadcast messages and checks whether:
 
 * any transaction involves **addresses** or **UTXOs** from your wallet.
 
 ✅ **Privacy Preserving**
 This method is **completely private**. It does **not reveal anything** about your wallet to the outside world.
-Bitcoin Safe behaves just like a regular Bitcoin Core node: it only listens to public P2P traffic — never announcing or requesting anything specific to your wallet.
+Bitcoin-Safe behaves just like a regular Bitcoin Core node: it only listens to public P2P traffic — never announcing or requesting anything specific to your wallet.
 
 
 
 ##### 2. 🧠 Match Found — What Happens Next?
 
-If a matching transaction is found, Bitcoin Safe will react differently depending on the backend you're using:
+If a matching transaction is found, Bitcoin-Safe will react differently depending on the backend you're using:
 
 ###### Option A: ⚡ Electrum or Esplora Backend
 
-* Bitcoin Safe will **trigger a background sync** to fetch the full transaction and wallet state from the server.
+* Bitcoin-Safe will **trigger a background sync** to fetch the full transaction and wallet state from the server.
 
 ###### Option B: 🔍 Compact Block Filters (Neutrino Mode)
 
@@ -94,7 +94,7 @@ You remain in full control and can toggle this feature at any time.
 
 #### ⚠️  Only confirmed transactions can be trusted
 
-Bitcoin Safe cannot **not** validate that a broadcast transaction is valid. An attacker — especially one controlling both your Electrum server and the Bitcoin node you're connected to — could:
+Bitcoin-Safe cannot **not** validate that a broadcast transaction is valid. An attacker — especially one controlling both your Electrum server and the Bitcoin node you're connected to — could:
 
 * Craft a fake transaction involving your address
 * Broadcast it to trigger a wallet notification
@@ -106,7 +106,7 @@ Bitcoin Safe cannot **not** validate that a broadcast transaction is valid. An a
 
 #### ✅ Summary
 
-From version **1.5.0**, Bitcoin Safe supports instant transaction notifications by:
+From version **1.5.0**, Bitcoin-Safe supports instant transaction notifications by:
 
 * Listening passively to the P2P Bitcoin network (like Bitcoin Core)
 * Matching transactions involving your wallet's **addresses** or **UTXOs**

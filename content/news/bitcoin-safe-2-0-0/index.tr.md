@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "Yeniden tasarlanan kurulum sihirbazi, Compact Block Filters ile ozel senkronizasyon ve genisletilmis donanim cuzdan destegiyle Bitcoin Safe 2.0.0 surum notlari."
+description: "Yeniden tasarlanan kurulum sihirbazi, Compact Block Filters ile ozel senkronizasyon ve genisletilmis donanim cuzdan destegiyle Bitcoin-Safe 2.0.0 surum notlari."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">Surum duyurusu</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - yonlendirmeli cuzdan kurulumu, ozel zincir senkronizasyonu ve cihaz odakli imzalama</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - yonlendirmeli cuzdan kurulumu, ozel zincir senkronizasyonu ve cihaz odakli imzalama</h2>
     <p class="lead mb-4">Bu surum, yeniden yapilan bir kurulum sihirbazi, Compact Block Filters ile ozel zincir senkronizasyonu ve her donanim cihazi etrafinda duzenlenen bir imzalama akisi getiriyor. Cold storage ilgini cekiyordu ama emin degilsen, denemek icin dogru surum bu.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin Safe 2.0'yi indir</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin-Safe 2.0'yi indir</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">Yeniliklere goz at</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## Oz saklamaya yonlendiren rehberli bir yol {#setup-flow}
 
-Ilk kullanim deneyimi bastan sona yeniden kuruldu. Bitcoin Safe, donanim destekli multisig dahil ciddi oz saklamayi hedeflemeye devam ediyor ve 2.0 artik yeni kullanicilara bu kurulum boyunca yonlendirmeli bir yol sunuyor. Yeni sihirbaz, ne oldugunu, akisin neresinde oldugunu ve ilerlemeden once her signer'in senden neye ihtiyac duydugunu acikliyor.
+Ilk kullanim deneyimi bastan sona yeniden kuruldu. Bitcoin-Safe, donanim destekli multisig dahil ciddi oz saklamayi hedeflemeye devam ediyor ve 2.0 artik yeni kullanicilara bu kurulum boyunca yonlendirmeli bir yol sunuyor. Yeni sihirbaz, ne oldugunu, akisin neresinde oldugunu ve ilerlemeden once her signer'in senden neye ihtiyac duydugunu acikliyor.
 
 <p class="small text-muted">Uygulama ayrintilari icin <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>'ye bak.</p>
 
@@ -72,7 +72,7 @@ Yeniden tasarimin one cikan yonleri:
 <br><br>
 ## Compact Block Filters ile ozel ve saglam zincir senkronizasyonu {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) artik Bitcoin Safe 2.0'daki yeni cuzdanlarin senkronizasyonunu sagliyor. Electrum sunucusuna hangi adreslerin sana ait oldugunu sormak yerine Bitcoin Safe, rastgele Bitcoin Core eslerinden kompakt filtreler indirip bunlari yerel olarak kontrol ederek zinciri ozel bicimde tarayabiliyor.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) artik Bitcoin-Safe 2.0'daki yeni cuzdanlarin senkronizasyonunu sagliyor. Electrum sunucusuna hangi adreslerin sana ait oldugunu sormak yerine Bitcoin-Safe, rastgele Bitcoin Core eslerinden kompakt filtreler indirip bunlari yerel olarak kontrol ederek zinciri ozel bicimde tarayabiliyor.
 
 <p class="small text-muted">Uygulama ayrintilari icin <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>'a bak.</p>
 
@@ -88,7 +88,7 @@ Yeniden tasarimin one cikan yonleri:
 <br><br>
 ## Her cihaz icin cihaz odakli bir imzalama akisi {#device-focused-signing}
 
-Yeniden tasarim, cuzdan olusturulduktan sonraki imzalama akislarini da yeniden sekillendiriyor. Her signer icin tek bir genel ekran yerine Bitcoin Safe artik eylemleri kullandigin belirli cihaz etrafinda merkezliyor.
+Yeniden tasarim, cuzdan olusturulduktan sonraki imzalama akislarini da yeniden sekillendiriyor. Her signer icin tek bir genel ekran yerine Bitcoin-Safe artik eylemleri kullandigin belirli cihaz etrafinda merkezliyor.
 
 <p class="small text-muted">Uygulama ayrintilari icin <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>'a bak.</p>
 
@@ -103,7 +103,7 @@ Yeniden tasarim, cuzdan olusturulduktan sonraki imzalama akislarini da yeniden s
 <br><br>
 ## Is akisleri ve ileri duzey kullanicilar icin eklenti mimarisi
 
-Bitcoin Safe 2.0, Bitcoin isletmeleri ve ileri duzey Bitcoin kullanicilari icin hedeflenen gelecekteki ek eklentiler icin de temel atiyor. Bu yuzden yakinda neler gelecegini takip etmeye deger :-)
+Bitcoin-Safe 2.0, Bitcoin isletmeleri ve ileri duzey Bitcoin kullanicilari icin hedeflenen gelecekteki ek eklentiler icin de temel atiyor. Bu yuzden yakinda neler gelecegini takip etmeye deger :-)
 
 <p class="small text-muted">Uygulama ayrintilari icin <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>'ye bak.</p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0, Bitcoin isletmeleri ve ileri duzey Bitcoin kullanicilari icin 
 <br><br>
 ## Hala burada olan mevcut gucler
 
-2.0 surumu bir sifirlama degil. Yeni onboarding ve imzalama akislarinin altinda Bitcoin Safe, onu gunluk kullanimda yararli kilan ozellikleri tasimaya devam ediyor: ortak multisig, PDF yedekleri, aranabilir cuzdan gecmisi, para akisi gorsellestirmeleri, etiket senkronizasyonu ve daha fazlasi.
+2.0 surumu bir sifirlama degil. Yeni onboarding ve imzalama akislarinin altinda Bitcoin-Safe, onu gunluk kullanimda yararli kilan ozellikleri tasimaya devam ediyor: ortak multisig, PDF yedekleri, aranabilir cuzdan gecmisi, para akisi gorsellestirmeleri, etiket senkronizasyonu ve daha fazlasi.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ Bitcoin Safe 2.0, Bitcoin isletmeleri ve ileri duzey Bitcoin kullanicilari icin 
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">Bitcoin Safe 2.0'yi denemeye hazir misin?</h2>
+  <h2 class="h4 mb-2">Bitcoin-Safe 2.0'yi denemeye hazir misin?</h2>
   <p class="mb-3">En son surumu indir ve yeni onboarding'i, ozel senkronizasyonu ve donanim cuzdan iyilestirmelerini kendin kesfet.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin Safe'i indir</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin-Safe'i indir</a>
 </div>
 
 
@@ -154,9 +154,9 @@ Bu surum, katki saglayanlarin, test edenlerin ve [projenin her yanindaki destekc
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) sihirbaz yeniden tasarimi, eklenti arayuzu calismalari ve **harika ve bitmek bilmeyen** UI/UX destegi icin
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) yeni cuzdanlar icin ozel senkronizasyonu saglayan Compact Block Filter istemcisi icin
-- Bitcoin Safe'in cekirdegindeki kutuphaneler icin [Bitcoin Dev Kit ekibine](https://github.com/bitcoindevkit/)
+- Bitcoin-Safe'in cekirdegindeki kutuphaneler icin [Bitcoin Dev Kit ekibine](https://github.com/bitcoindevkit/)
 - Nostr islevlerini saglayan kutuphaneler icin [ndk ekibine](https://github.com/nostr-dev-kit/ndk)
-- Aday surumleri test eden, hata bildiren, sayfalari ceviren, sats gonderen ve projeyi ileri tasimaya devam eden Bitcoin Safe toplulugundaki herkese
+- Aday surumleri test eden, hata bildiren, sayfalari ceviren, sats gonderen ve projeyi ileri tasimaya devam eden Bitcoin-Safe toplulugundaki herkese
 - [Cevirmenler]({{< ref "donate/#translators" >}}) arasinda <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (Vietnamca)" title="qdyg-vn 🇻🇳 (Vietnamca)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://x.com/bsn21m" target="_blank"><img src="https://unavatar.io/x/bsn21m" alt="bsn21m 🇩🇪 (Almanca)" title="bsn21m 🇩🇪 (Almanca)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>
 <a href="https://github.com/cyphra" target="_blank"><img src="https://github.com/cyphra.png" alt="cyphra 🇪🇸 (Ispanyolca)" title="cyphra 🇪🇸 (Ispanyolca)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

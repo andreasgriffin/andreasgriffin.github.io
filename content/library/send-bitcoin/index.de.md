@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Gehen Sie den vollständigen Sendefluss in Bitcoin Safe durch, von der Vorbereitung einer Zahlung bis zur finalen Bestätigung und Übertragung.
+Gehen Sie den vollständigen Sendefluss in Bitcoin-Safe durch, von der Vorbereitung einer Zahlung bis zur finalen Bestätigung und Übertragung.
 
 - ✅ Erstellen und prüfen Sie eine Transaktion vor dem Signieren
 - ✅ Bestätigen Sie Ausgänge und Gebühren mit Zuversicht

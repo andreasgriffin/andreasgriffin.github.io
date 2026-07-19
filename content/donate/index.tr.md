@@ -1,6 +1,6 @@
 ---
 title: "⚡Destek"
-description: "Bitcoin Safe'e bağış yaparak destek olun"
+description: "Bitcoin-Safe'e bağış yaparak destek olun"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-Bitcoin Safe'i geliştirmek, sizin için en iyi değeri oluşturmak adına zor, titiz ve dikkatli bir iştir. Verebileceğiniz her desteği takdir ediyoruz:
-- Bitcoin Safe'e destek olmanın en kolay yolu bağış yapmaktır:
+Bitcoin-Safe'i geliştirmek, sizin için en iyi değeri oluşturmak adına zor, titiz ve dikkatli bir iştir. Verebileceğiniz her desteği takdir ediyoruz:
+- Bitcoin-Safe'e destek olmanın en kolay yolu bağış yapmaktır:
   - {{< donation_btc >}}
 - Ancak katkıda bulunabileceğiniz başka yollar da var, örneğin
   - {{< i18n "donate_support_testing_feedback" >}}
-  - **Bitcoin Safe**'in [çevirilerini](https://hosted.weblate.org/engage/bitcoin-safe/) geliştirmek. Dilinizi orada bulamıyor musunuz? Bana yazın, birlikte ekleyelim.
+  - **Bitcoin-Safe**'in [çevirilerini](https://hosted.weblate.org/engage/bitcoin-safe/) geliştirmek. Dilinizi orada bulamıyor musunuz? Bana yazın, birlikte ekleyelim.
   - {{< i18n "donate_support_other_ways" >}}
 
-Bitcoin Safe'e destek olun ve aşağıdaki listeye girin
+Bitcoin-Safe'e destek olun ve aşağıdaki listeye girin
 
 <br>
 <br>

@@ -14,13 +14,13 @@ Tarih: *3 Kasım 2024*
 
 1. Şartların Kabulü
 
-    - Bitcoin Safe web sitesine ("Web Sitesi") ve Bitcoin Safe yazılımına ("Yazılım") erişerek ve bunları kullanarak, bu Kullanım Şartlarına uymayı kabul etmiş olursunuz. 
+    - Bitcoin-Safe web sitesine ("Web Sitesi") ve Bitcoin-Safe yazılımına ("Yazılım") erişerek ve bunları kullanarak, bu Kullanım Şartlarına uymayı kabul etmiş olursunuz. 
 
 2. Web Sitesi ve Yazılımın Kullanımı
 
     2a. Web Sitesinin Kullanımı
 
-        - İzin Verilen Kullanım: Web Sitesini Bitcoin Safe açık kaynak programıyla ilgili bilgilendirme amaçlı olarak kullanabilirsiniz.
+        - İzin Verilen Kullanım: Web Sitesini Bitcoin-Safe açık kaynak programıyla ilgili bilgilendirme amaçlı olarak kullanabilirsiniz.
         - Yasaklanan Kullanım: Web Sitesini veya içeriğini kötüye kullanmamayı kabul edersiniz. Yasaklanan eylemler, ancak bunlarla sınırlı olmamak üzere şunları içerir:
             - Web Sitesinin herhangi bir bölümüne veya ilgili sistemlerine yetkisiz erişim sağlamaya çalışmak.
             - Web Sitesinin işlevselliğini bozan veya engelleyen herhangi bir etkinlikte bulunmak.
@@ -28,7 +28,7 @@ Tarih: *3 Kasım 2024*
 
     2b. Yazılımın Kullanımı
 
-        - İzin Verilen Kullanım: Bitcoin Safe yazılımını, lisansı olan [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) kapsamında kullanabilirsiniz.
+        - İzin Verilen Kullanım: Bitcoin-Safe yazılımını, lisansı olan [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) kapsamında kullanabilirsiniz.
         - Yasaklanan Kullanım: Yazılımı kötüye kullanmamayı veya yasaklanmış amaçlar için kullanmamayı kabul edersiniz. Yasaklanan eylemler, ancak bunlarla sınırlı olmamak üzere şunları içerir:
             - Yazılımı yürürlükteki herhangi bir yasa veya düzenlemeyi ihlal edecek şekilde kullanmak.
             - Yazılımı lisansı kapsamında izin verilmeyen şekilde değiştirmek veya dağıtmak.
@@ -36,7 +36,7 @@ Tarih: *3 Kasım 2024*
 
 3. Fikri Mülkiyet
 
-    - Mülkiyet: Web Sitesindeki içerik "Bitcoin Safe" katkıda bulunanlarına aittir ve uygulanabilir fikri mülkiyet yasalarıyla korunmaktadır.
+    - Mülkiyet: Web Sitesindeki içerik "Bitcoin-Safe" katkıda bulunanlarına aittir ve uygulanabilir fikri mülkiyet yasalarıyla korunmaktadır.
     - Lisans: Açık kaynak yazılım [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) lisansı altında lisanslanmıştır.
 
 
@@ -46,7 +46,7 @@ Tarih: *3 Kasım 2024*
 
 5. Sorumluluğun Sınırlandırılması
 
-    - Hiçbir durumda "Bitcoin Safe" katkıda bulunanları, Web Sitesi veya yazılımın kullanımından kaynaklanan herhangi bir zarardan sorumlu tutulamaz.
+    - Hiçbir durumda "Bitcoin-Safe" katkıda bulunanları, Web Sitesi veya yazılımın kullanımından kaynaklanan herhangi bir zarardan sorumlu tutulamaz.
 
 6. Harici Bağlantılar
 

@@ -1,5 +1,5 @@
 ---
-title: "코드 서명 정책 및 Bitcoin Safe 개인정보 처리방침"
+title: "코드 서명 정책 및 Bitcoin-Safe 개인정보 처리방침"
 description: "코드 서명 정책"
 draft: false
 tags: ["legal"]

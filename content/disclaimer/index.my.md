@@ -12,7 +12,7 @@ menu:
 
 1. General Disclaimer
 
-The information provided on the "Bitcoin Safe" website is for general informational purposes only. We make no representations or warranties of any kind about the completeness or accuracy of this information.
+The information provided on the "Bitcoin-Safe" website is for general informational purposes only. We make no representations or warranties of any kind about the completeness or accuracy of this information.
 
 2. Software Disclaimer
 

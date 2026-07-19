@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "kompakte Block-Filter"
   - "CBF"
   - "Privatsphäre"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**Kompakte Block-Filter (CBF)** ermöglichen es [Bitcoin Safe]({{< ref "/" >}}), die Blockchain zu scannen, ohne einen Electrum-Server nach Ihren Adressen zu fragen.
+**Kompakte Block-Filter (CBF)** ermöglichen es [Bitcoin-Safe]({{< ref "/" >}}), die Blockchain zu scannen, ohne einen Electrum-Server nach Ihren Adressen zu fragen.
 
-![Bitcoin Safe lädt kompakte Block-Filter von mehreren zufälligen Bitcoin-Core-Peers herunter.](logo.jpg)
+![Bitcoin-Safe lädt kompakte Block-Filter von mehreren zufälligen Bitcoin-Core-Peers herunter.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Statt einen zentralen Server abzufragen, lädt Bitcoin Safe für jeden Block einen kleinen Filter von zufälligen Bitcoin-Core-Peers herunter. Ihre Wallet prüft diese Filter lokal und lädt vollständige Blöcke nur bei Bedarf.
+Statt einen zentralen Server abzufragen, lädt Bitcoin-Safe für jeden Block einen kleinen Filter von zufälligen Bitcoin-Core-Peers herunter. Ihre Wallet prüft diese Filter lokal und lädt vollständige Blöcke nur bei Bedarf.
 
 ### CBF gegen Electrum
 
@@ -71,7 +71,7 @@ Statt einen zentralen Server abzufragen, lädt Bitcoin Safe für jeden Block ein
 ### Warum CBF verwenden
 
 - Mehr Privatsphäre: Ihre Wallet fragt nie einen Server nach Ihren Adressen.
-- Kein vertrauenswürdiger Indexer: Bitcoin Safe spricht direkt mit dem Bitcoin-Netzwerk.
+- Kein vertrauenswürdiger Indexer: Bitcoin-Safe spricht direkt mit dem Bitcoin-Netzwerk.
 - Leichte Synchronisierung: Die Filter sind klein, daher brauchen Sie nicht die gesamte Blockchain.
 
 ### Was Sie erwarten können
@@ -80,7 +80,7 @@ Statt einen zentralen Server abzufragen, lädt Bitcoin Safe für jeden Block ein
 - Bereits synchronisierte Wallet: holt sehr schnell auf, oft in **unter 30 Sekunden**.
 - Wechsel von Electrum zu CBF: ebenfalls meist **unter 30 Sekunden**.
 
-Sie können wählen, mit wie vielen Peers sich Bitcoin Safe verbindet. Mehr Peers verbessern die Redundanz, erhöhen aber meist Bandbreite und Synchronisationszeit. Die Standardeinstellung ist **2** Peers.
+Sie können wählen, mit wie vielen Peers sich Bitcoin-Safe verbindet. Mehr Peers verbessern die Redundanz, erhöhen aber meist Bandbreite und Synchronisationszeit. Die Standardeinstellung ist **2** Peers.
 
 ### Unbestätigte Transaktionen
 
@@ -88,7 +88,7 @@ CBF deckt nur **bestätigte Blöcke** ab. Damit Sie auch Hinweise auf eingehende
 
 ### Technischer Hinweis
 
-Kompakte Block-Filter sind in [BIP158](https://bips.dev/158/) definiert. Bitcoin Safe verwendet das Open-Source-[Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
+Kompakte Block-Filter sind in [BIP158](https://bips.dev/158/) definiert. Bitcoin-Safe verwendet das Open-Source-[Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
 Sie können in den Einstellungen für _Bitcoin network monitoring_ auch Ihren eigenen Bitcoin-Core-Knoten als anfänglichen Peer verwenden.
 

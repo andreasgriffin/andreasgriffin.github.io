@@ -2,7 +2,7 @@
 aliases:
   - "/id/knowledge/send-bitcoin/"
 title: "Kirim Bitcoin"
-description: "Alur pengiriman penuh di Bitcoin Safe, dari memilih penerima hingga peninjauan akhir dan siaran transaksi."
+description: "Alur pengiriman penuh di Bitcoin-Safe, dari memilih penerima hingga peninjauan akhir dan siaran transaksi."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -14,7 +14,7 @@ weight: 21
 
 ### {{< page-title >}}
 
-Ikuti alur pengiriman penuh di Bitcoin Safe, dari menyiapkan pembayaran hingga konfirmasi akhir dan siaran transaksi.
+Ikuti alur pengiriman penuh di Bitcoin-Safe, dari menyiapkan pembayaran hingga konfirmasi akhir dan siaran transaksi.
 
 - ✅ Buat dan tinjau transaksi sebelum menandatangani
 - ✅ Konfirmasi output dan biaya dengan percaya diri

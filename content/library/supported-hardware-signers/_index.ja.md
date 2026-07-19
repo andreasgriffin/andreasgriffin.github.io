@@ -2,7 +2,7 @@
 aliases:
   - "/ja/knowledge/supported-hardware-signers/"
 title: フルサポートのハードウェア署名デバイス
-description: Bitcoin Safe向けに完全サポートされたハードウェア署名デバイス
+description: Bitcoin-Safe向けに完全サポートされたハードウェア署名デバイス
 draft: false
 bucket: knowledge
 images:

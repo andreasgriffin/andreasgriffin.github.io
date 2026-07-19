@@ -2,12 +2,12 @@
 aliases:
   - "/de/features/readme/"
 title: "Alle Funktionen"
-description: "Umfassender Überblick über die meisten Funktionen von Bitcoin Safe"
+description: "Umfassender Überblick über die meisten Funktionen von Bitcoin-Safe"
 draft: false
 bucket: features
 images: ["logo.png"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "Bitcoin-Spar-Wallet",
   "MultiSig-Wallet",
   "Multisig‑Einrichtungsassistent",
@@ -55,7 +55,7 @@ keywords: [
 weight: -10
 ---
 <!-- header-end -->
-# Bitcoin Safe
+# Bitcoin-Safe
 
 #### Eine Bitcoin‑Spar‑Wallet für die ganze Familie
 
@@ -80,7 +80,7 @@ weight: -10
   - Wallet‑Chat und PSBT‑Teilen zwischen verschiedenen Computern
 - **Schnell**: 
   - Synchronisation mit Electrum‑Server
-  - geplantes Upgrade zu **Compact Block Filters** für die Bitcoin Safe 2.0‑Version
+  - geplantes Upgrade zu **Compact Block Filters** für die Bitcoin-Safe 2.0‑Version
 
 
 

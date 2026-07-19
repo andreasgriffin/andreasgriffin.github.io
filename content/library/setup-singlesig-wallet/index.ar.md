@@ -2,7 +2,7 @@
 aliases:
   - "/ar/knowledge/setup-singlesig-wallet/"
 title: "إعداد Singlesig خطوة بخطوة"
-description: "مرشد إعداد Bitcoin Safe يوجهك خلال خطوات إنشاء محفظة بيتكوين بنظام singlesig"
+description: "مرشد إعداد Bitcoin-Safe يوجهك خلال خطوات إنشاء محفظة بيتكوين بنظام singlesig"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # إعداد محفظة Singlesig الموجّهة
 
-🔒 إعداد محفظة **Bitcoin Safe** آمنة هو أفضل طريقة لحماية أموالك من فشل البورصات والاختراقات والسرقة. في هذا الدليل، سنرشدك خلال العملية بأكملها مع Trezor خطوة بخطوة!
+🔒 إعداد محفظة **Bitcoin-Safe** آمنة هو أفضل طريقة لحماية أموالك من فشل البورصات والاختراقات والسرقة. في هذا الدليل، سنرشدك خلال العملية بأكملها مع Trezor خطوة بخطوة!
  
 
 

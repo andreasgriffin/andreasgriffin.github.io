@@ -1,6 +1,6 @@
 ---
 title: "⚡Dukung"
-description: "Donasi dan dukung Bitcoin Safe"
+description: "Donasi dan dukung Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-Membangun **Bitcoin Safe** adalah pekerjaan yang sulit, menantang, dan memerlukan kehati-hatian untuk memberikan nilai terbaik bagi Anda. Kami menghargai setiap dukungan yang dapat Anda berikan:
-- Cara termudah untuk mendukung Bitcoin Safe adalah dengan berdonasi: 
+Membangun **Bitcoin-Safe** adalah pekerjaan yang sulit, menantang, dan memerlukan kehati-hatian untuk memberikan nilai terbaik bagi Anda. Kami menghargai setiap dukungan yang dapat Anda berikan:
+- Cara termudah untuk mendukung Bitcoin-Safe adalah dengan berdonasi: 
   - {{< donation_btc >}}
 - Namun Anda juga bisa mendukung melalui kontribusi kerja Anda, misalnya:
   - {{< i18n "donate_support_testing_feedback" >}}
-  - meningkatkan [terjemahan](https://hosted.weblate.org/engage/bitcoin-safe/) dari **Bitcoin Safe**. Tidak menemukan bahasa Anda di sana? Tulis kepada saya dan kita tambahkan bersama.
+  - meningkatkan [terjemahan](https://hosted.weblate.org/engage/bitcoin-safe/) dari **Bitcoin-Safe**. Tidak menemukan bahasa Anda di sana? Tulis kepada saya dan kita tambahkan bersama.
   - {{< i18n "donate_support_other_ways" >}}
 
-Dukung **Bitcoin Safe** dan masuk ke daftar di bawah ini
+Dukung **Bitcoin-Safe** dan masuk ke daftar di bawah ini
 
 <br>
 <br>

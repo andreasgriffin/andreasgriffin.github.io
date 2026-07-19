@@ -1,8 +1,8 @@
 ---
-title: "Bitcoin Safe 2.0.0"
+title: "Bitcoin-Safe 2.0.0"
 date: "2026-06-09"
 draft: false
-description: "Versionshinweise zu Bitcoin Safe 2.0.0 mit einem neu aufgebauten Einrichtungsassistenten, privater Compact-Block-Filter-Synchronisierung und erweiterter Hardware-Wallet-Unterstuetzung."
+description: "Versionshinweise zu Bitcoin-Safe 2.0.0 mit einem neu aufgebauten Einrichtungsassistenten, privater Compact-Block-Filter-Synchronisierung und erweiterter Hardware-Wallet-Unterstuetzung."
 images: ["wizard single sig.png"]
 previewimage: "wizard single sig.png"
 ---
@@ -10,10 +10,10 @@ previewimage: "wizard single sig.png"
 <div class="card border-0 shadow-none my-4">
   <div class="card-body p-4 p-lg-5 text-start">
     <p class="text-uppercase text-muted fw-semibold mb-2">Release-Ankuendigung</p>
-    <h2 class="display-6 mb-3">Bitcoin Safe 2.0 - gefuehrte Wallet-Einrichtung, private Chain-Synchronisierung und geraetefokussiertes Signieren</h2>
+    <h2 class="display-6 mb-3">Bitcoin-Safe 2.0 - gefuehrte Wallet-Einrichtung, private Chain-Synchronisierung und geraetefokussiertes Signieren</h2>
     <p class="lead mb-4">Dieses Release bringt einen neu aufgebauten Einrichtungsassistenten, private Chain-Synchronisierung mit Compact Block Filters und einen Signierablauf, der um jedes Hardware-Geraet herum organisiert ist. Wenn du neugierig auf Cold Storage warst, aber unsicher, ist das die richtige Version zum Ausprobieren.</p>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin Safe 2.0 herunterladen</a>
+      <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin-Safe 2.0 herunterladen</a>
       <a class="btn btn-outline-primary btn-lg px-4" href="#setup-flow" role="button">Neuerungen ansehen</a>
     </div>
   </div>
@@ -55,7 +55,7 @@ previewimage: "wizard single sig.png"
 <br><br>
 ## Ein gefuehrter Weg zur Selbstverwahrung {#setup-flow}
 
-Das erste Nutzungserlebnis wurde von Grund auf neu aufgebaut. Bitcoin Safe richtet sich weiterhin an ernsthafte Selbstverwahrung, einschliesslich hardwaregestuetzter Multisig-Setups, und 2.0 bietet neuen Nutzerinnen und Nutzern nun einen gefuehrten Weg durch diese Einrichtung. Der neue Assistent erklaert, was gerade passiert, wo du dich im Ablauf befindest und was jeder Signer von dir braucht, bevor du weitergehst.
+Das erste Nutzungserlebnis wurde von Grund auf neu aufgebaut. Bitcoin-Safe richtet sich weiterhin an ernsthafte Selbstverwahrung, einschliesslich hardwaregestuetzter Multisig-Setups, und 2.0 bietet neuen Nutzerinnen und Nutzern nun einen gefuehrten Weg durch diese Einrichtung. Der neue Assistent erklaert, was gerade passiert, wo du dich im Ablauf befindest und was jeder Signer von dir braucht, bevor du weitergehst.
 
 <p class="small text-muted">Details zur Implementierung findest du in <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/627">PR #627</a>.</p>
 
@@ -72,7 +72,7 @@ Highlights des Redesigns:
 <br><br>
 ## Private und robuste Chain-Synchronisierung mit Compact Block Filters {#private-sync-default}
 
-[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) treiben jetzt die Wallet-Synchronisierung fuer neue Wallets in Bitcoin Safe 2.0 an. Anstatt einen Electrum-Server zu fragen, welche Adressen zu dir gehoeren, kann Bitcoin Safe die Blockchain nun privat scannen, indem kompakte Filter von zufaelligen Bitcoin-Core-Peers geladen und lokal geprueft werden.
+[Compact Block Filters]({{< ref "library/compact-block-filters" >}}) treiben jetzt die Wallet-Synchronisierung fuer neue Wallets in Bitcoin-Safe 2.0 an. Anstatt einen Electrum-Server zu fragen, welche Adressen zu dir gehoeren, kann Bitcoin-Safe die Blockchain nun privat scannen, indem kompakte Filter von zufaelligen Bitcoin-Core-Peers geladen und lokal geprueft werden.
 
 <p class="small text-muted">Details zur Implementierung findest du in <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/559">PR #559</a>.</p>
 
@@ -88,7 +88,7 @@ Highlights des Redesigns:
 <br><br>
 ## Ein geraetefokussierter Signierablauf fuer jedes Geraet {#device-focused-signing}
 
-Das Redesign formt auch den Signierablauf nach der Wallet-Erstellung neu. Statt eines generischen Bildschirms fuer alle Signer stellt Bitcoin Safe die Aktionen jetzt rund um das konkrete Geraet in den Mittelpunkt, das du gerade verwendest.
+Das Redesign formt auch den Signierablauf nach der Wallet-Erstellung neu. Statt eines generischen Bildschirms fuer alle Signer stellt Bitcoin-Safe die Aktionen jetzt rund um das konkrete Geraet in den Mittelpunkt, das du gerade verwendest.
 
 <p class="small text-muted">Details zur Implementierung findest du in <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/639">PR #639</a>.</p>
 
@@ -103,7 +103,7 @@ Das Redesign formt auch den Signierablauf nach der Wallet-Erstellung neu. Statt 
 <br><br>
 ## Plugin-Architektur fuer Geschaeftsablaeufe und Power-User
 
-Bitcoin Safe 2.0 legt ausserdem die Grundlage fuer zukuenftige zusaetzliche Plugins, die sich an Bitcoin-Unternehmen und Power-Bitcoiner richten. Es lohnt sich also, auf das zu achten, was noch kommt :-)
+Bitcoin-Safe 2.0 legt ausserdem die Grundlage fuer zukuenftige zusaetzliche Plugins, die sich an Bitcoin-Unternehmen und Power-Bitcoiner richten. Es lohnt sich also, auf das zu achten, was noch kommt :-)
 
 <p class="small text-muted">Details zur Implementierung findest du in <a href="https://github.com/andreasgriffin/bitcoin-safe/pull/602">PR #602</a>.</p>
 
@@ -132,7 +132,7 @@ Bitcoin Safe 2.0 legt ausserdem die Grundlage fuer zukuenftige zusaetzliche Plug
 <br><br>
 ## Bestehende Staerken sind weiterhin da
 
-Die Version 2.0 ist kein Neustart. Unter dem neuen Onboarding- und Signierablauf bietet Bitcoin Safe weiterhin die Funktionen, die es im Alltag nuetzlich machen: kollaboratives Multisig, PDF-Backups, durchsuchbare Wallet-Historie, Visualisierungen des Geldflusses, Label-Synchronisierung und mehr.
+Die Version 2.0 ist kein Neustart. Unter dem neuen Onboarding- und Signierablauf bietet Bitcoin-Safe weiterhin die Funktionen, die es im Alltag nuetzlich machen: kollaboratives Multisig, PDF-Backups, durchsuchbare Wallet-Historie, Visualisierungen des Geldflusses, Label-Synchronisierung und mehr.
 
 {{< library-cards
   items="collaboration,label-sync,chart-zooming,address-tab-filters,balance-statement,pdf-export,address-poisoning,money-flow-diagram,multi-language,search,reproducibility-and-security"
@@ -140,9 +140,9 @@ Die Version 2.0 ist kein Neustart. Unter dem neuen Onboarding- und Signierablauf
 >}}
 
 <div class="alert alert-primary text-start my-5" role="alert">
-  <h2 class="h4 mb-2">Bereit, Bitcoin Safe 2.0 auszuprobieren?</h2>
+  <h2 class="h4 mb-2">Bereit, Bitcoin-Safe 2.0 auszuprobieren?</h2>
   <p class="mb-3">Lade die neueste Version herunter und entdecke selbst das neue Onboarding, die private Synchronisierung und die Verbesserungen fuer Hardware-Wallets.</p>
-  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin Safe herunterladen</a>
+  <a class="btn btn-primary btn-lg px-4" href='{{< ref "download" >}}' role="button">Bitcoin-Safe herunterladen</a>
 </div>
 
 
@@ -154,7 +154,7 @@ Dieses Release basiert auf viel Arbeit von Mitwirkenden, Testerinnen und Testern
 
 - **[@design-rrr](https://github.com/design-rrr)** ([nostr](https://nostr.com/npub12lg6yexfh0gsk8aupv5cr5fnj46l0kxg6lp6rz0zw6kwx603lmsshmac9c),  [X](https://x.com/deSign__r)) fuer das Redesign des Assistenten, die Plugin-Oberflaeche und **grossartige und unermuedliche** UI/UX-Unterstuetzung
 - [@rustaceanrob](https://github.com/rustaceanrob) ([website](https://rustaceanrob.com/)) fuer den Compact-Block-Filter-Client, der jetzt die private Wallet-Synchronisierung fuer neue Wallets ermoeglicht
-- Das [Bitcoin Dev Kit Team](https://github.com/bitcoindevkit/) fuer die Bibliotheken im Kern von Bitcoin Safe
+- Das [Bitcoin Dev Kit Team](https://github.com/bitcoindevkit/) fuer die Bibliotheken im Kern von Bitcoin-Safe
 - Das [ndk Team](https://github.com/nostr-dev-kit/ndk) fuer die Bibliotheken, die die Nostr-Funktionalitaet antreiben
 - Alle in der Bitcoin-Safe-Community, die Release-Kandidaten getestet, Fehler gemeldet, Seiten uebersetzt, Sats geschickt und das Projekt weiter vorangetrieben haben
 - [Uebersetzer]({{< ref "donate/#translators" >}}) darunter <a href="https://github.com/qdyg-vn" target="_blank"><img src="https://github.com/qdyg-vn.png" alt="qdyg-vn 🇻🇳 (Vietnamesisch)" title="qdyg-vn 🇻🇳 (Vietnamesisch)" style="width: 1.2em; height: 1.2em; object-fit: cover; border-radius: 50%; vertical-align: text-bottom;" /></a>

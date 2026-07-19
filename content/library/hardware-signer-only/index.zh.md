@@ -2,12 +2,12 @@
 aliases:
   - "/zh/knowledge/hardware-signer-only/"
 title: "需要硬件签名器"
-description: "Bitcoin Safe 在主网强制只允许硬件种子，以最大化安全性并避免基于软件的密钥存储风险。下面说明这为何重要。"
+description: "Bitcoin-Safe 在主网强制只允许硬件种子，以最大化安全性并避免基于软件的密钥存储风险。下面说明这为何重要。"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "硬件钱包",
   "软件种子",
   "Coldcard",
@@ -30,16 +30,16 @@ weight: 21
 ---
 
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 为什么 Bitcoin Safe 在主网禁止软件种子？
+## 🚫 为什么 Bitcoin-Safe 在主网禁止软件种子？
 
 🤔 这是不是很不方便？
 
 🔥 其实——这是一次重大的安全升级。
 
-Bitcoin Safe **仅在 Testnet、Signet 和 Regtest 上允许软件种子**——在主网绝不允许。原因如下：
+Bitcoin-Safe **仅在 Testnet、Signet 和 Regtest 上允许软件种子**——在主网绝不允许。原因如下：
 
 ### ✅ 软件种子在主网被禁止的原因
 
@@ -94,7 +94,7 @@ Bitcoin Safe **仅在 Testnet、Signet 和 Regtest 上允许软件种子**——
 
 ## 🛡️ 地址中毒防护
 
-Bitcoin Safe **用颜色标记接收地址**，让地址中毒一目了然：
+Bitcoin-Safe **用颜色标记接收地址**，让地址中毒一目了然：
 
 - 🟢 绿色 = 验证过的接收地址  
 - 🟡 黄色 = 找零地址  
@@ -130,7 +130,7 @@ Bitcoin Safe **用颜色标记接收地址**，让地址中毒一目了然：
 
 ## 🤝 协作式多重签名，轻松实现
 
-Bitcoin Safe 使多重签名对团队和用户都很友好：
+Bitcoin-Safe 使多重签名对团队和用户都很友好：
 
 - 🔐 加密的 Nostr 聊天  
 - 🔁 一键 PSBT 共享  
@@ -149,7 +149,7 @@ Bitcoin Safe 使多重签名对团队和用户都很友好：
 - 🔁 通过 Nostr 同步标签  
 - 🔍 完整的资金流向图与可搜索的交易历史
 
-![Bitcoin Safe 中的交易流程图](/images/bitcoin-safe-diagram-overview.png)
+![Bitcoin-Safe 中的交易流程图](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -164,7 +164,7 @@ Bitcoin Safe 使多重签名对团队和用户都很友好：
 
 ## 💡 要点速览
 
-Bitcoin Safe = 真正的比特币储蓄：
+Bitcoin-Safe = 真正的比特币储蓄：
 
 ✅ 主网仅硬件  
 ✅ 无软件种子暴露  

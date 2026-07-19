@@ -12,7 +12,7 @@ menu:
 
 1. Genel Feragatname
 
-"Bitcoin Safe" web sitesinde sağlanan bilgiler yalnızca genel bilgi amaçlıdır. Bu bilgilerin eksiksizliği veya doğruluğu konusunda herhangi bir beyan veya garanti vermiyoruz.
+"Bitcoin-Safe" web sitesinde sağlanan bilgiler yalnızca genel bilgi amaçlıdır. Bu bilgilerin eksiksizliği veya doğruluğu konusunda herhangi bir beyan veya garanti vermiyoruz.
 
 2. Yazılım Feragatnamesi
 

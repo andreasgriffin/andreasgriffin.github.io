@@ -1,6 +1,6 @@
 ---
 title: "⚡支持"
-description: "捐赠并支持 Bitcoin Safe"
+description: "捐赠并支持 Bitcoin-Safe"
 draft: false
 menu:
   footer:
@@ -15,15 +15,15 @@ menu:
 <br>
 
 
-构建 **Bitcoin Safe** 是一项艰难、细致的工作，旨在为你提供最大的价值。我们感谢你给予的每一份支持：
-- 支持 Bitcoin Safe 最简单的方式是捐赠：
+构建 **Bitcoin-Safe** 是一项艰难、细致的工作，旨在为你提供最大的价值。我们感谢你给予的每一份支持：
+- 支持 Bitcoin-Safe 最简单的方式是捐赠：
   - {{< donation_btc >}}
 - 但你也可以通过贡献工作来支持，例如
   - {{< i18n "donate_support_testing_feedback" >}}
-  - 改进 **Bitcoin Safe** 的[翻译](https://hosted.weblate.org/engage/bitcoin-safe/)。没有找到你的语言？写信给我，我们一起来添加。
+  - 改进 **Bitcoin-Safe** 的[翻译](https://hosted.weblate.org/engage/bitcoin-safe/)。没有找到你的语言？写信给我，我们一起来添加。
   - {{< i18n "donate_support_other_ways" >}}
 
-支持 **Bitcoin Safe** 并进入下面的名单
+支持 **Bitcoin-Safe** 并进入下面的名单
 
 <br>
 <br>

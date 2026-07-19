@@ -2,7 +2,7 @@
 aliases:
   - "/ar/knowledge/supported-hardware-signers/"
 title: أجهزة التوقيع المادية المدعومة بالكامل
-description: أجهزة التوقيع المادية المدعومة بالكامل لـ Bitcoin Safe
+description: أجهزة التوقيع المادية المدعومة بالكامل لـ Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

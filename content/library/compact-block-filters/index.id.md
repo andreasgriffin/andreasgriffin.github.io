@@ -8,7 +8,7 @@ bucket: features
 tags: ["Featured"]
 images: ["logo.jpg" ]
 keywords:
-  - "Bitcoin Safe"
+  - "Bitcoin-Safe"
   - "filter blok kompak"
   - "CBF"
   - "privasi"
@@ -20,12 +20,12 @@ weight: 0
 
 ## {{< page-title >}}
 
-**Filter Blok Kompak (CBF)** memungkinkan [Bitcoin Safe]({{< ref "/" >}}) memindai blockchain tanpa menanyakan server Electrum alamat mana yang milik Anda.
+**Filter Blok Kompak (CBF)** memungkinkan [Bitcoin-Safe]({{< ref "/" >}}) memindai blockchain tanpa menanyakan server Electrum alamat mana yang milik Anda.
 
-![Bitcoin Safe mengunduh filter blok kompak dari beberapa peer Bitcoin Core acak.](logo.jpg)
+![Bitcoin-Safe mengunduh filter blok kompak dari beberapa peer Bitcoin Core acak.](logo.jpg)
 { .img-fluid .float-end .ms-4 .mb-3 style="max-width: 260px;" }
 
-Alih-alih meminta server pusat, Bitcoin Safe mengunduh filter kecil untuk setiap blok dari peer Bitcoin Core acak. Dompet Anda memeriksa filter itu secara lokal dan hanya mengunduh blok penuh saat diperlukan.
+Alih-alih meminta server pusat, Bitcoin-Safe mengunduh filter kecil untuk setiap blok dari peer Bitcoin Core acak. Dompet Anda memeriksa filter itu secara lokal dan hanya mengunduh blok penuh saat diperlukan.
 
 ### CBF vs Electrum
 
@@ -71,7 +71,7 @@ Alih-alih meminta server pusat, Bitcoin Safe mengunduh filter kecil untuk setiap
 ### Mengapa memakai CBF
 
 - Privasi lebih baik: dompet Anda tidak pernah menanyakan alamat Anda ke server.
-- Tanpa indexer tepercaya: Bitcoin Safe berbicara langsung dengan jaringan Bitcoin.
+- Tanpa indexer tepercaya: Bitcoin-Safe berbicara langsung dengan jaringan Bitcoin.
 - Sinkronisasi ringan: filternya kecil, jadi Anda tidak perlu seluruh blockchain.
 
 ### Apa yang diharapkan
@@ -80,7 +80,7 @@ Alih-alih meminta server pusat, Bitcoin Safe mengunduh filter kecil untuk setiap
 - Dompet yang sudah tersinkron: biasanya mengejar **sangat cepat**, sering kali dalam **kurang dari 30 detik**.
 - Pindah dari Electrum ke CBF: biasanya juga **kurang dari 30 detik**.
 
-Anda dapat memilih berapa banyak peer yang dihubungkan Bitcoin Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan bandwidth dan waktu sinkronisasi. Default-nya adalah **2** peer.
+Anda dapat memilih berapa banyak peer yang dihubungkan Bitcoin-Safe. Lebih banyak peer meningkatkan redundansi, tetapi biasanya menambah penggunaan bandwidth dan waktu sinkronisasi. Default-nya adalah **2** peer.
 
 ### Transaksi belum dikonfirmasi
 
@@ -88,7 +88,7 @@ CBF hanya mencakup **blok yang dikonfirmasi**. Untuk juga menerima notifikasi pe
 
 ### Catatan teknis
 
-Filter blok kompak didefinisikan dalam [BIP158](https://bips.dev/158/). Bitcoin Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
+Filter blok kompak didefinisikan dalam [BIP158](https://bips.dev/158/). Bitcoin-Safe menggunakan modul sumber terbuka [Kyoto compact block filter module for BDK](https://github.com/2140-dev/kyoto).
 
 Anda juga dapat memakai node Bitcoin Core Anda sendiri sebagai peer awal di pengaturan _Bitcoin network monitoring_.
 

@@ -2,7 +2,7 @@
 aliases:
   - "/pl/knowledge/setup-multisig-wallet/"
 title: "Konfiguracja Multisig krok po kroku"
-description: "Kreator konfiguracji Bitcoin Safe przeprowadzi Cię krok po kroku przez proces tworzenia portfela bitcoin Multisig 2-z-3"
+description: "Kreator konfiguracji Bitcoin-Safe przeprowadzi Cię krok po kroku przez proces tworzenia portfela bitcoin Multisig 2-z-3"
 draft: false
 bucket: knowledge
 tags: ["Featured"]
@@ -34,7 +34,7 @@ videos:
 
 # Prowadzony portfel Multisig 2-z-3
 
-🔒 Skonfigurowanie bezpiecznego **Bitcoin Safe** to najlepszy sposób ochrony Twoich środków przed awariami giełd, atakami hakerskimi i kradzieżą. W tym samouczku przeprowadzimy Cię przez cały proces krok po kroku!
+🔒 Skonfigurowanie bezpiecznego **Bitcoin-Safe** to najlepszy sposób ochrony Twoich środków przed awariami giełd, atakami hakerskimi i kradzieżą. W tym samouczku przeprowadzimy Cię przez cały proces krok po kroku!
  
 
 - 🔐 Podłącz *Coldcard Q*, *Bitbox02* i *Keystone*

@@ -2,12 +2,12 @@
 aliases:
   - "/pt/knowledge/hardware-signer-only/"
 title: "Assinadores de Hardware Obrigatórios"
-description: "O Bitcoin Safe impõe seeds apenas em hardware na Mainnet para maximizar a segurança e evitar os riscos do armazenamento de chaves por software. Aqui está o porquê."
+description: "O Bitcoin-Safe impõe seeds apenas em hardware na Mainnet para maximizar a segurança e evitar os riscos do armazenamento de chaves por software. Aqui está o porquê."
 draft: false
 bucket: knowledge
 tags: ["Featured"]
 keywords: [
-  "Bitcoin Safe",
+  "Bitcoin-Safe",
   "carteira de hardware",
   "semente de software",
   "Coldcard",
@@ -31,16 +31,16 @@ weight: 21
 
  
 
-![Bitcoin Safe logo](logo.png)
+![Bitcoin-Safe logo](logo.png)
 { .img-fluid .mb-5 .float-end style="max-width: 300px;" }
 
-## 🚫 Porque é que o Bitcoin Safe bloqueia seeds de software na Mainnet?
+## 🚫 Porque é que o Bitcoin-Safe bloqueia seeds de software na Mainnet?
 
 🤔 Não é isso inconveniente?
 
 🔥 A verdade é — é uma **grande melhoria de segurança**.
 
-O Bitcoin Safe **permite seeds de software apenas em Testnet, Signet e Regtest** — nunca na Mainnet. Eis porquê:
+O Bitcoin-Safe **permite seeds de software apenas em Testnet, Signet e Regtest** — nunca na Mainnet. Eis porquê:
 
 ### ✅ Razões pelas quais as seeds de software são bloqueadas na Mainnet
 
@@ -95,7 +95,7 @@ O Bitcoin Safe **permite seeds de software apenas em Testnet, Signet e Regtest**
 
 ## 🛡️ Proteção contra envenenamento de endereços
 
-O Bitcoin Safe **codifica a cores os endereços de receção** para tornar o envenenamento de endereços óbvio:
+O Bitcoin-Safe **codifica a cores os endereços de receção** para tornar o envenenamento de endereços óbvio:
 
 - 🟢 Verde = endereço de receção verificado  
 - 🟡 Amarelo = endereço de troco  
@@ -131,7 +131,7 @@ Verifique endereços de receção diretamente no seu assinador de hardware — n
 
 ## 🤝 Multisig colaborativo facilitado
 
-O Bitcoin Safe torna o multisig fácil de usar e pronto para equipas:
+O Bitcoin-Safe torna o multisig fácil de usar e pronto para equipas:
 
 - 🔐 Chat Nostr encriptado  
 - 🔁 Partilha de PSBT com 1 clique  
@@ -150,7 +150,7 @@ O Bitcoin Safe torna o multisig fácil de usar e pronto para equipas:
 - 🔁 Sincronização de etiquetas via Nostr  
 - 🔍 Diagrama completo de fluxo de fundos e histórico de transações pesquisável
 
-![Transaction diagram in Bitcoin Safe](/images/bitcoin-safe-diagram-overview.png)
+![Transaction diagram in Bitcoin-Safe](/images/bitcoin-safe-diagram-overview.png)
 
 ---
 
@@ -165,7 +165,7 @@ O Bitcoin Safe torna o multisig fácil de usar e pronto para equipas:
 
 ## 💡 Resumo rápido
 
-Bitcoin Safe = poupanças reais em Bitcoin:
+Bitcoin-Safe = poupanças reais em Bitcoin:
 
 ✅ Apenas hardware na Mainnet  
 ✅ Sem exposição da seed por software  

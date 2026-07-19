@@ -2,7 +2,7 @@
 aliases:
   - "/de/knowledge/supported-hardware-signers/"
 title: Vollständig unterstützte Hardware-Signer
-description: Vollständig unterstützte Hardware-Signer für Bitcoin Safe
+description: Vollständig unterstützte Hardware-Signer für Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:

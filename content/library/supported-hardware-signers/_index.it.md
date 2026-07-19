@@ -2,7 +2,7 @@
 aliases:
   - "/it/knowledge/supported-hardware-signers/"
 title: Firmatari hardware completamente supportati
-description: Firmatari hardware completamente supportati per Bitcoin Safe
+description: Firmatari hardware completamente supportati per Bitcoin-Safe
 draft: false
 bucket: knowledge
 images:
