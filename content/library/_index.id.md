@@ -1,6 +1,6 @@
 ---
 title: "Library"
-_build:
+build:
   render: never
   list: never
 ---

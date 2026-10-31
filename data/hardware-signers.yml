@@ -1596,3 +1596,114 @@ signers:
   features:
     qr: true
   bitcoin_only: true
+- id: keycard-shell
+  slug: keycard-shell
+  slugimage: keycard
+  name:
+    en: Keycard Shell
+  summary_points:
+    en:
+    - "Air-gapped signer with a keypad and camera; signs over QR."
+    - "Keys stay on a removable Keycard secure element; Shell itself stores no keys."
+    - "Works with Bitcoin-Safe without a vendor app, using PSBT and multisig (P2WSH) support."
+    ar:
+    - "جهاز توقيع معزول بلوحة مفاتيح وكاميرا؛ يوقّع عبر QR."
+    - "تبقى المفاتيح على عنصر الأمان القابل للإزالة في Keycard؛ ولا يخزن Shell أي مفاتيح بنفسه."
+    - "يعمل مع Bitcoin-Safe دون تطبيق من الشركة المصنعة، مع دعم PSBT وmultisig (P2WSH)."
+    ca:
+    - "Signador aïllat amb teclat i càmera; signa per QR."
+    - "Les claus romanen a l'element segur extraïble de la Keycard; Shell no emmagatzema cap clau."
+    - "Funciona amb Bitcoin-Safe sense una aplicació del fabricant, amb suport de PSBT i multifirma (P2WSH)."
+    de:
+    - "Air-Gap-Signer mit Tastatur und Kamera; signiert über QR."
+    - "Schlüssel bleiben auf dem austauschbaren Keycard-Secure-Element; Shell speichert selbst keine Schlüssel."
+    - "Funktioniert mit Bitcoin-Safe ohne Hersteller-App, mit Unterstützung für PSBT und Multisig (P2WSH)."
+    es:
+    - "Firmador aislado con teclado y cámara; firma mediante QR."
+    - "Las claves permanecen en el elemento seguro extraíble de la Keycard; Shell no almacena claves."
+    - "Funciona con Bitcoin-Safe sin una app del fabricante, con soporte de PSBT y multifirma (P2WSH)."
+    fa:
+    - "امضاکننده ایزوله با صفحه‌کلید و دوربین؛ امضا از طریق QR."
+    - "کلیدها روی عنصر امن جداشدنی Keycard می‌مانند؛ خود Shell هیچ کلیدی ذخیره نمی‌کند."
+    - "بدون اپ سازنده با Bitcoin-Safe کار می‌کند و از PSBT و multisig (P2WSH) پشتیبانی می‌کند."
+    fr:
+    - "Signataire isolé avec clavier et caméra ; signe via QR."
+    - "Les clés restent sur l'élément sécurisé amovible de la Keycard ; Shell ne stocke aucune clé."
+    - "Fonctionne avec Bitcoin-Safe sans application du fabricant, avec prise en charge des PSBT et du multisig (P2WSH)."
+    hi:
+    - "कीपैड और कैमरे वाला एयर-गैप्ड साइनर; QR के जरिए साइन करता है।"
+    - "Keys हटाने योग्य Keycard secure element पर रहती हैं; Shell खुद कोई key संग्रहीत नहीं करता।"
+    - "निर्माता ऐप के बिना Bitcoin-Safe के साथ काम करता है, PSBT और multisig (P2WSH) समर्थन के साथ।"
+    id:
+    - "Penanda tangan air-gapped dengan keypad dan kamera; menandatangani melalui QR."
+    - "Kunci tetap berada di elemen aman Keycard yang dapat dilepas; Shell sendiri tidak menyimpan kunci."
+    - "Bekerja dengan Bitcoin-Safe tanpa aplikasi vendor, dengan dukungan PSBT dan multisig (P2WSH)."
+    it:
+    - "Signer air-gapped con tastierino e fotocamera; firma tramite QR."
+    - "Le chiavi restano sull'elemento sicuro rimovibile della Keycard; Shell non memorizza chiavi."
+    - "Funziona con Bitcoin-Safe senza un'app del produttore, con supporto a PSBT e multisig (P2WSH)."
+    ja:
+    - "キーパッドとカメラを備えたエアギャップ署名デバイス。QR で署名します。"
+    - "鍵は取り外し可能な Keycard のセキュアエレメントに保管され、Shell 自体は鍵を保存しません。"
+    - "ベンダーアプリなしで Bitcoin-Safe と使えます。PSBT とマルチシグ（P2WSH）に対応。"
+    ko:
+    - "키패드와 카메라를 갖춘 에어갭 서명 장치; QR로 서명합니다."
+    - "키는 분리 가능한 Keycard 보안 요소에 보관되며, Shell 자체는 키를 저장하지 않습니다."
+    - "제조사 앱 없이 Bitcoin-Safe와 함께 사용할 수 있으며, PSBT와 멀티시그(P2WSH)를 지원합니다."
+    my:
+    - "keypad နှင့် ကင်မရာပါသော air-gapped signer ဖြစ်သည်; QR ဖြင့် လက်မှတ်ထိုးသည်။"
+    - "သော့များသည် ခွဲထုတ်နိုင်သော Keycard secure element ပေါ်တွင် ရှိနေပြီး Shell သည် သော့ကို မသိမ်းဆည်းပါ။"
+    - "ထုတ်လုပ်သူ app မလိုဘဲ Bitcoin-Safe နှင့် အလုပ်လုပ်ပြီး PSBT နှင့် multisig (P2WSH) ကို ထောက်ပံ့သည်။"
+    pl:
+    - "Podpisywacz air-gapped z klawiaturą i kamerą; podpisuje przez QR."
+    - "Klucze pozostają na wymiennym elemencie bezpiecznym Keycard; sam Shell nie przechowuje kluczy."
+    - "Działa z Bitcoin-Safe bez aplikacji producenta, z obsługą PSBT i multisig (P2WSH)."
+    pt:
+    - "Assinador isolado com teclado e câmara; assina através de QR."
+    - "As chaves permanecem no elemento seguro amovível do Keycard; o Shell não guarda chaves."
+    - "Funciona com o Bitcoin-Safe sem uma aplicação do fabricante, com suporte a PSBT e multisig (P2WSH)."
+    ru:
+    - "Изолированное устройство подписи с клавиатурой и камерой; подписывает через QR."
+    - "Ключи остаются на съемном защищенном элементе Keycard; сам Shell ключей не хранит."
+    - "Работает с Bitcoin-Safe без приложения производителя, с поддержкой PSBT и multisig (P2WSH)."
+    th:
+    - "อุปกรณ์ลงนาม air-gapped พร้อมปุ่มกดและกล้อง ลงนามผ่าน QR"
+    - "คีย์เก็บอยู่ใน secure element ของ Keycard ที่ถอดได้ ส่วน Shell ไม่เก็บคีย์ใด ๆ"
+    - "ทำงานกับ Bitcoin-Safe ได้โดยไม่ต้องใช้แอปของผู้ผลิต รองรับ PSBT และ multisig (P2WSH)"
+    tr:
+    - "Tuş takımı ve kameralı air-gapped imzalayıcı; QR üzerinden imzalar."
+    - "Anahtarlar çıkarılabilir Keycard güvenli elemanında kalır; Shell kendisi anahtar saklamaz."
+    - "Bir üretici uygulaması olmadan Bitcoin-Safe ile çalışır; PSBT ve multisig (P2WSH) desteği vardır."
+    uk:
+    - "Ізольований підписувач з клавіатурою та камерою; підписує через QR."
+    - "Ключі залишаються на знімному захищеному елементі Keycard; сам Shell ключів не зберігає."
+    - "Працює з Bitcoin-Safe без застосунку виробника, з підтримкою PSBT і multisig (P2WSH)."
+    zh:
+    - "带键盘和摄像头的隔离式签名设备；通过二维码签名。"
+    - "密钥保存在可拆卸的 Keycard 安全元件中，Shell 本身不存储密钥。"
+    - "无需厂商应用即可配合 Bitcoin-Safe 使用，支持 PSBT 和多签（P2WSH）。"
+  summary:
+    en: "Air-gapped signer with a camera, keypad, and removable Keycard secure element; works with Bitcoin-Safe over QR without a vendor app."
+    ar: "جهاز توقيع معزول بكاميرا ولوحة مفاتيح وعنصر أمان قابل للإزالة من Keycard؛ يعمل مع Bitcoin-Safe عبر QR دون تطبيق من الشركة المصنعة."
+    ca: "Signador aïllat amb càmera, teclat i element segur extraïble de Keycard; funciona amb Bitcoin-Safe per QR sense aplicació del fabricant."
+    de: "Air-Gap-Signer mit Kamera, Tastatur und austauschbarem Keycard-Secure-Element; funktioniert mit Bitcoin-Safe über QR ohne Hersteller-App."
+    es: "Firmador aislado con cámara, teclado y elemento seguro extraíble de Keycard; funciona con Bitcoin-Safe mediante QR sin app del fabricante."
+    fa: "امضاکننده ایزوله با دوربین، صفحه‌کلید و عنصر امن جداشدنی Keycard؛ با Bitcoin-Safe از طریق QR و بدون اپ سازنده کار می‌کند."
+    fr: "Signataire isolé avec caméra, clavier et élément sécurisé amovible Keycard ; fonctionne avec Bitcoin-Safe via QR sans application du fabricant."
+    hi: "कैमरा, कीपैड और हटाने योग्य Keycard secure element वाला एयर-गैप्ड साइनर; निर्माता ऐप के बिना QR के जरिए Bitcoin-Safe के साथ काम करता है।"
+    id: "Penanda tangan air-gapped dengan kamera, keypad, dan elemen aman Keycard yang dapat dilepas; bekerja dengan Bitcoin-Safe melalui QR tanpa aplikasi vendor."
+    it: "Signer air-gapped con fotocamera, tastierino e elemento sicuro Keycard rimovibile; funziona con Bitcoin-Safe tramite QR senza app del produttore."
+    ja: "カメラ、キーパッド、取り外し可能な Keycard セキュアエレメントを備えたエアギャップ署名デバイス。ベンダーアプリなしで QR を介して Bitcoin-Safe と使えます。"
+    ko: "카메라, 키패드, 분리 가능한 Keycard 보안 요소를 갖춘 에어갭 서명 장치; 제조사 앱 없이 QR로 Bitcoin-Safe와 함께 작동합니다."
+    my: "ကင်မရာ၊ keypad နှင့် ခွဲထုတ်နိုင်သော Keycard secure element ပါသော air-gapped signer ဖြစ်သည်; ထုတ်လုပ်သူ app မလိုဘဲ QR ဖြင့် Bitcoin-Safe နှင့် အလုပ်လုပ်သည်။"
+    pl: "Podpisywacz air-gapped z kamerą, klawiaturą i wymiennym elementem bezpiecznym Keycard; działa z Bitcoin-Safe przez QR bez aplikacji producenta."
+    pt: "Assinador isolado com câmara, teclado e elemento seguro amovível Keycard; funciona com o Bitcoin-Safe por QR sem aplicação do fabricante."
+    ru: "Изолированное устройство подписи с камерой, клавиатурой и съемным защищенным элементом Keycard; работает с Bitcoin-Safe через QR без приложения производителя."
+    th: "อุปกรณ์ลงนาม air-gapped พร้อมกล้อง ปุ่มกด และ secure element ของ Keycard ที่ถอดได้ ทำงานกับ Bitcoin-Safe ผ่าน QR โดยไม่ต้องใช้แอปของผู้ผลิต"
+    tr: "Kamera, tuş takımı ve çıkarılabilir Keycard güvenli elemanına sahip air-gapped imzalayıcı; bir üretici uygulaması olmadan QR ile Bitcoin-Safe'te çalışır."
+    uk: "Ізольований підписувач з камерою, клавіатурою та знімним захищеним елементом Keycard; працює з Bitcoin-Safe через QR без застосунку виробника."
+    zh: "带摄像头、键盘和可拆卸 Keycard 安全元件的隔离式签名设备；无需厂商应用，即可通过二维码与 Bitcoin-Safe 配合使用。"
+  image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keycard-shell-thumb.webp
+  shop_url: https://keycard.tech/products/keycard-shell
+  features:
+    qr: true
