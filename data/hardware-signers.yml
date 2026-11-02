@@ -1704,6 +1704,10 @@ signers:
     uk: "Ізольований підписувач з камерою, клавіатурою та знімним захищеним елементом Keycard; працює з Bitcoin-Safe через QR без застосунку виробника."
     zh: "带摄像头、键盘和可拆卸 Keycard 安全元件的隔离式签名设备；无需厂商应用，即可通过二维码与 Bitcoin-Safe 配合使用。"
   image: https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/keycard-shell-thumb.webp
-  shop_url: https://keycard.tech/products/keycard-shell
+  shop_url: https://keycard.tech/products/keycard-shell?bg_ref=luUwTEGTot
   features:
     qr: true
+  discount:
+    code: bitcoin-safe
+    note:
+      en: 5% off with coupon.
