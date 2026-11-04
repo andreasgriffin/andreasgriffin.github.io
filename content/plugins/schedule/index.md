@@ -15,7 +15,7 @@ faq:
     - question: "How often can a schedule repeat?"
       answer: "Repeat intervals are available as:\n- Minutes, hours, or days\n- Weeks, optionally on selected weekdays\n- Months or years, on calendar dates or weekday patterns"
     - question: "Can I set the amount in fiat?"
-      answer: "Yes, in Bitcoin or a supported fiat currency. Fiat amounts can use a live rate or the CoinGecko rate fixed at 00:00 GMT, and an exchange-rate override can be set for the next payment."
+      answer: "Yes. You can set the amount in:\n- Bitcoin\n- A supported fiat currency\n\nFiat amounts can use either:\n- A live exchange rate\n- The CoinGecko rate, fixed at 00:00 GMT\n\nAn exchange-rate override can also be set for the next payment."
     - question: "Are addresses reused?"
       answer: "No. Each recipient address is used only once. When a recipient's addresses run out, you can add more addresses for that recipient."
     - question: "Does Bitcoin-Safe send the payments automatically?"
@@ -80,7 +80,17 @@ Repeat intervals are available as:
 <details>
 <summary>Can I set the amount in fiat?</summary>
 
-Yes, in Bitcoin or a supported fiat currency. Fiat amounts can use a live rate or the CoinGecko rate fixed at 00:00 GMT, and an exchange-rate override can be set for the next payment.
+Yes. You can set the amount in:
+
+- Bitcoin
+- A supported fiat currency
+
+Fiat amounts can use either:
+
+- A live exchange rate
+- The CoinGecko rate, fixed at 00:00 GMT
+
+An exchange-rate override can also be set for the next payment.
 
 </details>
 
