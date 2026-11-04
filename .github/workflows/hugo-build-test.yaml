@@ -1,18 +1,22 @@
-name: Test Hugo build
+name: Test Hugo build and deploy PR preview
 
 on:
   pull_request:
   workflow_dispatch:
 
-defaults:
-  run:
-    shell: bash
+env:
+  HUGO_VERSION: 0.147.9
+  CLOUDFLARE_PAGES_PROJECT: bitcoin-safe-preview
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.147.9
+
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,7 +33,23 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      - name: Build with Hugo
+      # Build with preview URL for pull requests
+      - name: Build Hugo preview
+        if: github.event_name == 'pull_request'
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+          TZ: America/Los_Angeles
+          PREVIEW_BASE_URL: https://pr-${{ github.event.pull_request.number }}.${{ env.CLOUDFLARE_PAGES_PROJECT }}.pages.dev/
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "$PREVIEW_BASE_URL"
+
+      # Normal build for manual workflow runs
+      - name: Build Hugo
+        if: github.event_name != 'pull_request'
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
@@ -38,3 +58,71 @@ jobs:
           hugo \
             --gc \
             --minify
+
+      # Deploy only PRs originating from this repository
+      - name: Deploy preview to Cloudflare
+        id: deploy
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: >-
+            pages deploy ./public
+            --project-name=${{ env.CLOUDFLARE_PAGES_PROJECT }}
+            --branch=pr-${{ github.event.pull_request.number }}
+            --commit-hash=${{ github.sha }}
+
+      # Publish or update the preview link in the PR
+      - name: Add preview link to PR
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.deploy.outputs.pages-deployment-alias-url }}
+        with:
+          script: |
+            const previewUrl = process.env.PREVIEW_URL;
+
+            if (!previewUrl) {
+              throw new Error("Cloudflare did not return a preview URL.");
+            }
+
+            const marker = '<!-- cloudflare-pages-preview -->';
+
+            const body = `${marker}
+
+            ## Website preview
+
+            🚀 [Open preview website](${previewUrl})
+
+            Updated for commit \`${context.sha.slice(0, 7)}\`.
+            `;
+
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              }
+            );
+
+            const existing = comments.find(
+              comment => comment.body?.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body
+              });
+            }
