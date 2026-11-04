@@ -5,12 +5,21 @@
         {{ . }}
       </div>
     {{ end }}
-    {{ $bucket := .Params.bucket }}
     {{ $pages := slice }}
-    {{ with site.GetPage "library" }}
-      {{ range .Pages }}
-        {{ if and (eq .Params.bucket $bucket) (in (slice "page" "section") .Kind) }}
-          {{ $pages = $pages | append . }}
+    {{ if .Params.bucket }}
+      {{ with site.GetPage "library" }}
+        {{ range .Pages }}
+          {{ if and (eq .Params.bucket $.Params.bucket) (in (slice "page" "section") .Kind) }}
+            {{ $pages = $pages | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ else if .Params.tag }}
+      {{ with index site.Taxonomies.tags (urlize .Params.tag) }}
+        {{ range .Pages }}
+          {{ if in (slice "page" "section") .Kind }}
+            {{ $pages = $pages | append . }}
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}

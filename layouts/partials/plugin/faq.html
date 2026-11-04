@@ -1,0 +1,29 @@
+{{/* Visible FAQ. Input: the page; reads .Params.faq = { title, items: [{question, answer}] }.
+     The theme already emits the matching FAQPage JSON-LD from the same param. */}}
+{{ $page := . }}
+{{ $faq := $page.Params.faq }}
+{{ with $faq }}
+  {{ with .items }}
+    <section class="plugin-faq mt-5">
+      <h2 class="h4 mb-3">{{ $faq.title | default (printf "Frequently asked questions about %s" $page.Title) }}</h2>
+      <div class="accordion" id="plugin-faq-{{ $page.File.ContentBaseName }}">
+        {{ range $index, $entry := . }}
+          {{ $collapseID := printf "plugin-faq-%s-%d" $page.File.ContentBaseName $index }}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button {{ if ne $index 0 }}collapsed{{ end }}" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#{{ $collapseID }}"
+                      aria-expanded="{{ if eq $index 0 }}true{{ else }}false{{ end }}" aria-controls="{{ $collapseID }}">
+                {{ $entry.question }}
+              </button>
+            </h3>
+            <div id="{{ $collapseID }}" class="accordion-collapse collapse {{ if eq $index 0 }}show{{ end }}"
+                 data-bs-parent="#plugin-faq-{{ $page.File.ContentBaseName }}">
+              <div class="accordion-body">{{ $entry.answer | markdownify }}</div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

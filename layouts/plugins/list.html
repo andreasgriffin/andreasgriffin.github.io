@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ $page := . }}
+{{ $pages := where $page.Pages "Kind" "page" }}
+<div class="container py-4">
+  <h1 class="h2 mb-2">{{ $page.Params.heading | default $page.Title }}</h1>
+  {{ with $page.Params.lead | default $page.Description }}
+    <p class="lead">{{ . }}</p>
+  {{ end }}
+
+  {{ with $page.Content }}{{ . }}{{ end }}
+
+  {{ if $pages }}
+    <div class="mt-4">{{ partial "featured-pages" (dict "context" $page "pages" $pages) }}</div>
+  {{ end }}
+
+  <section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
+    <h2 class="h4 mb-2">Run all plugins in one app</h2>
+    <p class="text-muted mb-3">Bitcoin-Safe is free, open-source desktop software for Windows, macOS, and Linux.</p>
+    <div class="d-flex justify-content-center">{{ partial "plugin/cta.html" $page }}</div>
+  </section>
+
+  {{/* ItemList structured data for the plugin directory. */}}
+  {{ $listItems := slice }}
+  {{ range $index, $p := sort $pages "Params.weight" "asc" }}
+    {{ $listItems = $listItems | append (dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $p.Title
+      "url" $p.RelPermalink
+      "description" $p.Description) }}
+  {{ end }}
+  <script type="application/ld+json">
+  {{ dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "name" $page.Title
+    "numberOfItems" (len $listItems)
+    "itemListElement" $listItems
+  | jsonify | safeJS }}
+  </script>
+</div>
+{{ end }}

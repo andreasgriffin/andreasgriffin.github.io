@@ -1,0 +1,24 @@
+{{/* Optional related guides. Input: the page; reads .Params.related_docs = [ref, ...].
+     Keeps editorial cross-linking (and internal links for SEO) out of the body markdown. */}}
+{{ $page := . }}
+{{ with $page.Params.related_docs }}
+  {{ $links := slice }}
+  {{ range . }}
+    {{ with site.GetPage . }}
+      {{ $links = $links | append (dict "url" .RelPermalink "title" .Title "description" .Description) }}
+    {{ end }}
+  {{ end }}
+  {{ if $links }}
+    <section class="plugin-links mt-5">
+      <h2 class="h4 mb-3">Related guides</h2>
+      <div class="list-group">
+        {{ range $links }}
+          <a class="list-group-item list-group-item-action border-0 rounded-3 mb-2 bg-body-tertiary" href="{{ .url }}">
+            <div class="fw-semibold">{{ .title }}</div>
+            {{ with .description }}<div class="small text-muted">{{ . }}</div>{{ end }}
+          </a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

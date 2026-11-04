@@ -1,0 +1,114 @@
+{{/* Unified plugin media showcase.
+     Input dict:
+       - page:  the plugin page (required)
+       - items: slice of media items from .Params.media (required)
+     Item shapes (all take optional `heading` and `caption`):
+       { type: image,    src, alt }
+       { type: video,    src, poster }          local file from the page bundle
+       { type: youtube,  link }                 embedded YouTube video
+       { type: carousel, folder, per_slide, match }
+*/}}
+{{ $page := .page }}
+{{ $items := .items | default slice }}
+{{ if $items }}
+  <section class="plugin-media mt-4" aria-label="Plugin media">
+    {{ range $item := $items }}
+      {{ $kind := lower (default "image" $item.type) }}
+      <div class="plugin-media-item mb-4">
+        {{ with $item.heading }}<h2 class="h4 text-center mb-3">{{ . }}</h2>{{ end }}
+
+        {{ if eq $kind "image" }}
+          {{ $src := partial "resolve-rel-url.html" (dict "Page" $page "src" $item.src) }}
+          {{ if $src }}
+            <figure class="text-center mb-0">
+              <img class="img-fluid rounded border" src="{{ $src }}"
+                   alt="{{ $item.alt | default $item.caption | default $page.Title }}" loading="lazy" decoding="async">
+              {{ with $item.caption }}<figcaption class="text-muted small mt-2">{{ . }}</figcaption>{{ end }}
+            </figure>
+          {{ end }}
+
+        {{ else if eq $kind "video" }}
+          {{ $res := $page.Resources.GetMatch $item.src }}
+          {{ $src := "" }}
+          {{ $videoType := "" }}
+          {{ $poster := "" }}
+          {{ $name := $item.caption | default $page.Title }}
+          {{ if $res }}
+            {{ $src = $res.RelPermalink }}
+            {{ $videoType = strings.TrimPrefix "." (lower (path.Ext $res.Name)) }}
+          {{ else if hasPrefix $item.src "/" }}
+            {{/* site-root path, e.g. /library/label-sync/label-sync.mp4 */}}
+            {{ $src = relLangURL (strings.TrimPrefix "/" $item.src) }}
+            {{ $videoType = strings.TrimPrefix "." (lower (path.Ext $item.src)) }}
+          {{ end }}
+          {{ with $item.poster }}
+            {{ $poster = partial "resolve-rel-url.html" (dict "Page" $page "src" .) }}
+          {{ end }}
+          {{ if not $poster }}
+            {{ $base := replace (path.Base $item.src) (path.Ext $item.src) "" }}
+            {{ with $page.Resources.GetMatch (printf "%s.{jpg,jpeg,png,webp}" $base) }}{{ $poster = .RelPermalink }}{{ end }}
+          {{ end }}
+          {{/* Schema thumbnail: visible poster if any, else the page OG image. */}}
+          {{ $thumb := $poster }}
+          {{ if not $thumb }}
+            {{ with $page.Params.images }}
+              {{ with $page.Resources.GetMatch (index . 0) }}{{ $thumb = .RelPermalink }}{{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if $src }}
+            <figure class="text-center mb-0">
+              <video class="w-100 rounded border" style="max-width:860px; display:inline-block;" controls playsinline
+                     {{ with $poster }}poster="{{ . }}"{{ end }}>
+                <source src="{{ $src }}" type="video/{{ $videoType }}">
+                Your browser does not support the video tag.
+              </video>
+              {{ with $item.caption }}<figcaption class="text-muted small mt-2">{{ . }}</figcaption>{{ end }}
+            </figure>
+            {{ $schema := dict
+              "@context" "https://schema.org"
+              "@type" "VideoObject"
+              "name" $name
+              "description" ($item.caption | default $page.Description | default $name)
+              "contentUrl" ($src | absURL)
+              "uploadDate" ($page.Lastmod.Format "2006-01-02")
+            }}
+            {{ with $thumb }}{{ $schema = merge $schema (dict "thumbnailUrl" (slice (absURL .))) }}{{ end }}
+            <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+          {{ end }}
+
+        {{ else if eq $kind "youtube" }}
+          {{ with $item.link }}
+            {{/* youtube-gallery.html already provides the container + 16:9 ratio and a VideoObject */}}
+            {{ partial "youtube-gallery.html" (dict "videos" (slice (dict "url" . "name" ($item.caption | default $page.Title))) "Page" $page) }}
+            {{ with $item.caption }}<p class="text-muted small mt-2 text-center">{{ . }}</p>{{ end }}
+          {{ end }}
+
+        {{ else if eq $kind "carousel" }}
+          {{ $carousel := slice }}
+          {{ range $item.srcs }}
+            {{ with $page.Resources.GetMatch . }}{{ $carousel = $carousel | append . }}{{ end }}
+          {{ end }}
+          {{ if $carousel }}
+            {{ partial "carousel.html" (dict
+              "resources" $carousel
+              "id" (printf "plugin-carousel-%d" now.UnixNano)
+              "maximum_per_slide" ($item.per_slide | default 1)) }}
+          {{ else }}
+            {{ $resolved := partial "resolve-media-folder" (dict "Page" $page "folder" $item.folder) }}
+            {{ if $resolved.resources }}
+              {{ partial "carousel.html" (dict
+                "resources" $resolved.resources
+                "id" (printf "plugin-carousel-%d" now.UnixNano)
+                "maximum_per_slide" ($item.per_slide | default 1)) }}
+            {{ else if $resolved.found }}
+              {{ partial "carousel.html" (dict
+                "path" $resolved.path "base" $resolved.base
+                "id" (printf "plugin-carousel-%d" now.UnixNano)
+                "maximum_per_slide" ($item.per_slide | default 1)) }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

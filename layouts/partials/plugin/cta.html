@@ -1,0 +1,31 @@
+{{/* Plugin CTA buttons. Input: the page.
+     Optional .Params.cta: [{ label, url, style }]  (style: primary|outline, default primary)
+     Falls back to a single "Download Bitcoin-Safe" button pointing at the download page. */}}
+{{ $page := . }}
+{{ $download := site.GetPage "/download" }}
+{{ $default := slice (dict
+  "label" (.Params.cta_label | default "Download Bitcoin-Safe")
+  "url" ($download.RelPermalink | default (relLangURL "download"))
+  "style" "primary") }}
+{{ $items := .Params.cta | default $default }}
+<div class="plugin-cta d-flex flex-column align-items-center gap-1">
+  <div class="d-flex gap-2 flex-wrap">
+    {{ range $items }}
+      {{ $url := .url }}
+      {{ if and $url (not (or (hasPrefix $url "http://") (hasPrefix $url "https://") (hasPrefix $url "/"))) }}
+        {{ $url = $url | relLangURL }}
+      {{ end }}
+      {{ $style := .style | default "primary" }}
+      <a class="btn {{ if eq $style "outline" }}btn-outline-primary{{ else }}btn-primary{{ end }} px-4"
+         href="{{ $url }}"
+         {{ if and .url (hasPrefix .url "http") }}target="_blank" rel="noopener"{{ end }}>
+        {{ .label }}
+      </a>
+    {{ end }}
+  </div>
+  {{ if .Params.cta_note }}
+    <small class="text-muted">{{ .Params.cta_note }}</small>
+  {{ else if not .Params.cta }}
+    <small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
+  {{ end }}
+</div>

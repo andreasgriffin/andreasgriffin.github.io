@@ -1,0 +1,33 @@
+{{/* Plugin hero: logo, h1, lead, feature bullets, primary CTA. Input: the page. */}}
+{{ $page := . }}
+{{ $params := $page.Params }}
+<header class="plugin-hero row g-4 align-items-center mb-4">
+  <div class="{{ if $params.logo }}col-lg-9{{ else }}col-12{{ end }}">
+    <h1 class="h2 mb-2">{{ $params.heading | default $page.Title }}</h1>
+    {{ with $params.lead | default $page.Description }}
+      <p class="lead mb-3">{{ . }}</p>
+    {{ end }}
+    {{ with $params.features }}
+      <ul class="plugin-features list-unstyled mb-4">
+        {{ range . }}
+          <li>
+            <svg class="plugin-feature-check" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+              <path fill="currentColor" d="M13.485 3.515a1 1 0 0 1 0 1.414l-6.5 6.5a1 1 0 0 1-1.414 0l-3-3a1 1 0 1 1 1.414-1.414L6.278 9.308l5.793-5.793a1 1 0 0 1 1.414 0z"/>
+            </svg>
+            <span>{{ . }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    {{ partial "plugin/cta.html" $page }}
+  </div>
+  {{ with $params.logo }}
+    {{ $src := partial "resolve-rel-url.html" (dict "Page" $page "src" .) }}
+    {{ if $src }}
+      <div class="col-lg-3 text-center">
+        <img class="plugin-hero-logo img-fluid" src="{{ $src }}"
+             alt="{{ $page.Title }} logo" width="160" height="160">
+      </div>
+    {{ end }}
+  {{ end }}
+</header>

@@ -1,0 +1,9 @@
+{{/* Related plugins strip. Input: the current plugin page. */}}
+{{ $page := . }}
+{{ $others := where (where site.RegularPages "Section" "plugins") "Permalink" "!=" $page.Permalink }}
+{{ if $others }}
+  <section class="plugin-related mt-5">
+    <h2 class="h4 mb-3">More Bitcoin-Safe plugins</h2>
+    {{ partial "featured-pages" (dict "context" $page "pages" $others) }}
+  </section>
+{{ end }}

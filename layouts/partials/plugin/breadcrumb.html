@@ -1,0 +1,9 @@
+{{/* BreadcrumbList JSON-LD mirroring the theme's visible breadcrumb. Input: the page. */}}
+{{ $page := . }}
+{{ $crumbs := slice }}
+{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.Home.RelPermalink) }}
+{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Plugins" "item" (site.GetPage "plugins").RelPermalink) }}
+{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 3 "name" $page.Title "item" $page.RelPermalink) }}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs | jsonify | safeJS }}
+</script>

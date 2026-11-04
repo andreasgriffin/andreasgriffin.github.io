@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{/* Unified plugin page. Pages that provide any of lead/features/media render the structured
+     layout; language versions that have not been migrated yet fall back to their body content. */}}
+{{ $page := . }}
+{{ $structured := or $page.Params.lead $page.Params.features $page.Params.media }}
+<div class="container py-4">
+  <article class="plugin-page">
+    {{ if $structured }}
+      {{ partial "plugin/breadcrumb.html" $page }}
+      {{ partial "plugin/hero.html" $page }}
+      {{ partial "plugin/media.html" (dict "page" $page "items" $page.Params.media) }}
+
+      {{ with $page.Params.steps }}
+        <section class="plugin-steps mt-4">
+          <h2 class="h4 mb-3">{{ .title | default "How to enable it" }}</h2>
+          <ol class="plugin-steps-list">
+            {{ range .items }}<li>{{ . | markdownify }}</li>{{ end }}
+          </ol>
+        </section>
+      {{ end }}
+    {{ end }}
+
+    {{ with $page.Content }}<div class="plugin-body">{{ . }}</div>{{ end }}
+
+    {{ if $structured }}
+      {{ partial "plugin/faq.html" $page }}
+      {{ partial "plugin/links.html" $page }}
+      <section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
+        <h2 class="h4 mb-2">{{ $page.Params.cta_heading | default "Get Bitcoin-Safe" }}</h2>
+        <p class="text-muted mb-3">{{ $page.Params.cta_text | default "Plugins ship with Bitcoin-Safe. Download the app to try them." }}</p>
+        <div class="d-flex justify-content-center">{{ partial "plugin/cta.html" $page }}</div>
+      </section>
+      {{ partial "plugin/related.html" $page }}
+    {{ end }}
+  </article>
+</div>
+{{ end }}
