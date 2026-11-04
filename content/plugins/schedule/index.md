@@ -16,6 +16,8 @@ faq:
       answer: "By minutes, hours, days, weeks, months, or years. Weekly schedules can use selected weekdays; monthly and yearly schedules support calendar dates and weekday patterns."
     - question: "Can I set the amount in fiat?"
       answer: "Yes, in Bitcoin or a supported fiat currency. Fiat amounts can use a live rate or the CoinGecko rate fixed at 00:00 GMT, and an exchange-rate override can be set for the next payment."
+    - question: "Are addresses reused?"
+      answer: "No. Each recipient address is used only once. When a recipient's addresses run out, you can add more addresses for that recipient."
     - question: "Does Bitcoin-Safe send the payments automatically?"
       answer: "No. When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for your review, and you remain responsible for signing and broadcasting it."
 ---
@@ -75,6 +77,13 @@ By minutes, hours, days, weeks, months, or years. Weekly schedules can use selec
 <summary>Can I set the amount in fiat?</summary>
 
 Yes, in Bitcoin or a supported fiat currency. Fiat amounts can use a live rate or the CoinGecko rate fixed at 00:00 GMT, and an exchange-rate override can be set for the next payment.
+
+</details>
+
+<details>
+<summary>Are addresses reused?</summary>
+
+No. Each recipient address is used only once. When a recipient's addresses run out, you can add more addresses for that recipient.
 
 </details>
 
