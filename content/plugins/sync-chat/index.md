@@ -13,7 +13,7 @@ faq:
     - question: "How do devices find each other?"
       answer: "Sync & Chat looks for other devices that use the same wallet descriptor. The descriptor is hashed before it is used for discovery, so it is not exposed in plain form. Each discovered device must also be added and trusted manually before it can take part in the chat. This keeps the chat safe even if the descriptor is not secret."
     - question: "How does collaboration work in practice?"
-      answer: "Once, after the initial setup, add and trust each device. Then one participant creates a PSBT and adds their signature, and shares it with all participants or only selected ones. Each participant signs it in turn until it is fully signed. The last signer broadcasts the transaction, and it then appears in every participant's wallet."
+      answer: "1. Setup (once): add and trust each participant's device.\n2. Create: one participant creates a PSBT and adds their signature.\n3. Share: the PSBT goes to all participants, or only to selected ones.\n4. Sign: each participant adds their signature until the transaction is fully signed.\n5. Broadcast: the last signer broadcasts the transaction, and it then appears in every participant's wallet."
     - question: "What gets synchronized?"
       answer: "Coin categories and labels are synced between signers, even across different operating systems. You can also share PSBTs in one click."
     - question: "Is the chat private?"
@@ -50,7 +50,11 @@ Sync & Chat looks for other devices that use the same wallet descriptor. The des
 <details>
 <summary>How does collaboration work in practice?</summary>
 
-Once, after the initial setup, add and trust each device. Then one participant creates a PSBT and adds their signature, and shares it with all participants or only selected ones. Each participant signs it in turn until it is fully signed. The last signer broadcasts the transaction, and it then appears in every participant's wallet.
+1. **Setup (once):** Add and trust each participant's device.
+2. **Create:** One participant creates a PSBT and adds their signature.
+3. **Share:** The PSBT goes to all participants, or only to selected ones.
+4. **Sign:** Each participant adds their signature until the transaction is fully signed.
+5. **Broadcast:** The last signer broadcasts the transaction, and it then appears in every participant's wallet.
 
 </details>
 
