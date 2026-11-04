@@ -7,16 +7,29 @@ draft: false
 tags: ["Plugins"]
 images: ["notifications.png"]
 weight: 35
+faq:
+  title: "Wallet Notifications questions"
+  items:
+    - question: "Where can Bitcoin-Safe send notifications?"
+      answer: "To webhooks (generic JSON or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats), Nostr direct messages, Telegram bots, email over SMTP, and CalDAV calendars."
+    - question: "Can I keep sensitive details out of the alerts?"
+      answer: "Yes. Turn on hiding sensitive details and the message contains only a generic notice that a Bitcoin-Safe notification event occurred."
+    - question: "Do I control which events go where?"
+      answer: "Each destination has its own rules for which event types it receives, such as wallet transactions, scheduled payments, sync and chat, or warnings, plus an optional randomized delivery delay."
+    - question: "Does the app need to stay unlocked?"
+      answer: "No. Lock and Minimize to Tray keeps Bitcoin-Safe running in the background while your wallet stays locked."
 ---
 
 ### {{< page-title >}}
 
 <p class="lead">Get notified about wallet activity through the channels that work for you.</p>
 
-- Incoming and outgoing transactions, Chat&Sync messages, due scheduled payments, ...
-- Forward alerts to webhooks, Nostr, Telegram, email, calendars, and more
-- Choose which events each destination receives and hide sensitive details
-- Keep Bitcoin-Safe running in the background; use <strong>Lock and Minimize to Tray</strong> to leave it running while your wallet is locked
+<ul class="plugin-features">
+<li>Incoming and outgoing transactions, Sync&Chat messages, due scheduled payments, ...</li>
+<li>Forward alerts to webhooks, Nostr, Telegram, email, calendars, and more</li>
+<li>Choose which events each destination receives and hide sensitive details</li>
+<li>Keep Bitcoin-Safe running in the background; use <strong>Lock and Minimize to Tray</strong> to leave it running while your wallet is locked</li>
+</ul>
 
 
 ### Webhook setup
@@ -57,3 +70,32 @@ weight: 35
 - Recent history shows each event, destination, adapter, time, and result: sent, partial, or failed.
 - Delivery depends on your configured destination and its availability. Consider what information you send to external services.
 
+### Frequently asked questions
+
+<details>
+<summary>Where can Bitcoin-Safe send notifications?</summary>
+
+To webhooks (generic JSON or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats), Nostr direct messages, Telegram bots, email over SMTP, and CalDAV calendars.
+
+</details>
+
+<details>
+<summary>Can I keep sensitive details out of the alerts?</summary>
+
+Yes. Turn on hiding sensitive details and the message contains only a generic notice that a Bitcoin-Safe notification event occurred.
+
+</details>
+
+<details>
+<summary>Do I control which events go where?</summary>
+
+Each destination has its own rules for which event types it receives, such as wallet transactions, scheduled payments, sync and chat, or warnings, plus an optional randomized delivery delay.
+
+</details>
+
+<details>
+<summary>Does the app need to stay unlocked?</summary>
+
+No. Lock and Minimize to Tray keeps Bitcoin-Safe running in the background while your wallet stays locked.
+
+</details>

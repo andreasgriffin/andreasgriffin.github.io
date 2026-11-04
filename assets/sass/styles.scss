@@ -366,3 +366,38 @@ h1,h2, h3, h4, h5, h6 {
     opacity: 1;
   }
   
+
+/* ---- Plugin pages: green checkmark feature bullets ---- */
+ul.plugin-features {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 42rem;
+
+  li {
+    position: relative;
+    padding-left: 1.6rem;
+  }
+
+  li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--bs-success, #198754);
+    font-weight: 700;
+  }
+}
+
+details {
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+  padding: 0.6rem 0;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  p { margin-top: 0.5rem; }
+}
