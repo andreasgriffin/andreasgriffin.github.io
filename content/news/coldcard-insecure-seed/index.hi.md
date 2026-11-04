@@ -1,6 +1,7 @@
 ---
 title: "असुरक्षित COLDCARD सीड"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Coinkite डिवाइस पर बनाए गए सीड से धन स्थानांतरित करने के लिए संक्षिप्त मार्गदर्शन।"
 ---

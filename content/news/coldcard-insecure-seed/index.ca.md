@@ -1,6 +1,7 @@
 ---
 title: "Seed COLDCARD insegura"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Guia mínima per traslladar fons des d'una seed generada en un dispositiu Coinkite."
 ---

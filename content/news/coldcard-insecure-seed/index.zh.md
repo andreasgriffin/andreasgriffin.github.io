@@ -1,6 +1,7 @@
 ---
 title: "不安全的 COLDCARD Seed"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "将资金从 Coinkite 设备生成的 seed 中迁出的简要指南。"
 ---

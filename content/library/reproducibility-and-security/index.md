@@ -28,6 +28,7 @@ We implemented multiple ways to protect the integrity of the downloads on the we
 - **Independent reproducibility checks**: [WalletScrutiny](https://walletscrutiny.com/desktop/bitcoin.safe/) tracks Bitcoin-Safe independently and exposes reproducible-verification status for desktop releases.
 - **Ongoing signature monitoring**: [BinaryWatch](https://binarywatch.org/) regularly checks Bitcoin-Safe release files and whether their signatures still validate against the Bitcoin-Safe [public PGP key]({{< gpg_key_link >}}).
 - **Update verification**: Updates are shown in Bitcoin-Safe, and their signature is verified automatically.
+- **Protection against malicious servers**: A malicious server can feed a wallet a conflicting, invalid unconfirmed transaction and trick the user into fee-bumping it, paying the attacker. This class of attack was recently disclosed ([GHSA-6jp4-8v48-cc5v](https://github.com/advisories/GHSA-6jp4-8v48-cc5v)). Bitcoin-Safe verifies the signatures of its own wallet inputs in synced and locally created transactions, so invalid ones are rejected ([PR #873](https://github.com/andreasgriffin/bitcoin-safe/pull/873)). Taproot ANYONECANPAY and SINGLE sighashes are not yet covered.
 
 Taken together, these measures put Bitcoin-Safe in a small group of projects that treat binary security as a first-class part of user safety, not an afterthought.
 
