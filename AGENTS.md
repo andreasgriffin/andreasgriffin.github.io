@@ -4,4 +4,4 @@
 - Always test the build with `hugo`.
 - Each session should be on a dedicated branch; commit and push results when done.
 - Do not modify `themes/hugo-bootstrap-theme`.
-- Use relative links in cli commands to not trigger external directory restrictions
+- For AI development only: When you want to run cli, use relative links in cli commands to not trigger external directory restrictions
