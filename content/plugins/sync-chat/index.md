@@ -32,7 +32,7 @@ faq:
 
 ### Label synchronisation
 
-{{< video src="/library/label-sync/label-sync.mp4" controls="true" >}}
+{{< video src="../../library/label-sync/label-sync.mp4" controls="true" >}}
 
 ### Collaborative signing
 

@@ -7,30 +7,12 @@
 {{ $align := .Get "align" | default "center" }}
 {{ $maxWidth := or (.Get "max_width") (.Get "maxwidth") }}
 {{ $mediaSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" "mp4" "webm" "ogg" "mkv" }}
-{{ $imageSubtypes := slice "jpg" "jpeg" "png" "gif" "webp" "avif" }}
-{{ $folders := .Get "folders" }}
+{{ $resolved := partial "resolve-media-folder" (dict "Page" .Page "folder" $folder "mediaSubtypes" $mediaSubtypes) }}
 
-{{ if $folders }}
-  {{ $items := slice }}
-  {{ range where (.Page.Resources.Match "*") "MediaType.SubType" "in" $imageSubtypes }}
-    {{ $items = $items | append (dict "src" .RelPermalink "alt" .Name) }}
-  {{ end }}
-  {{ range (split $folders ",") }}
-    {{ $folderPath := strings.TrimSpace . }}
-    {{ with site.GetPage (printf "plugins/%s" $folderPath) }}
-      {{ range where (.Resources.Match "*") "MediaType.SubType" "in" $imageSubtypes }}
-        {{ $items = $items | append (dict "src" .RelPermalink "alt" .Name) }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
-  {{ partial "carousel" (dict "items" $items "id" (printf "carousel-%d" now.UnixNano) "align" $align "max_width" $maxWidth) }}
+{{ if not $resolved.found }}
+  <p class="text-danger">carousel-images: {{ $resolved.error }}</p>
+{{ else if $resolved.resources }}
+  {{ partial "carousel" (dict "resources" $resolved.resources "id" (printf "carousel-%d" now.UnixNano) "align" $align "max_width" $maxWidth) }}
 {{ else }}
-  {{ $resolved := partial "resolve-media-folder" (dict "Page" .Page "folder" $folder "mediaSubtypes" $mediaSubtypes) }}
-  {{ if not $resolved.found }}
-    <p class="text-danger">carousel-images: {{ $resolved.error }}</p>
-  {{ else if $resolved.resources }}
-    {{ partial "carousel" (dict "resources" $resolved.resources "id" (printf "carousel-%d" now.UnixNano) "align" $align "max_width" $maxWidth) }}
-  {{ else }}
-    {{ partial "carousel" (dict "path" $resolved.path "base" $resolved.base "folder" $folder "id" (printf "carousel-%d" now.UnixNano) "align" $align "max_width" $maxWidth) }}
-  {{ end }}
+  {{ partial "carousel" (dict "path" $resolved.path "base" $resolved.base "folder" $folder "id" (printf "carousel-%d" now.UnixNano) "align" $align "max_width" $maxWidth) }}
 {{ end }}
