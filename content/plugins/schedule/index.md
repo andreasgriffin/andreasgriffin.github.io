@@ -20,6 +20,11 @@ faq:
       answer: "No. Each recipient address is used only once. When a recipient's addresses run out, you can add more addresses for that recipient."
     - question: "Does Bitcoin-Safe send the payments automatically?"
       answer: "No. When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for your review, and you remain responsible for signing and broadcasting it."
+    - question: "Can I pay multiple recipients at once?"
+      answer: "Yes. Select several scheduled payments and click **Pay selected**. Bitcoin-Safe combines them into one batch transaction."
+    - question: "What if a payment was already made in cash or another way?"
+      answer: "Add an **out of band** payout. It records the payment in your schedule without a Bitcoin transaction, so the progress stays accurate."
+
 ---
 
 ### {{< page-title >}}
@@ -105,5 +110,19 @@ No. Each recipient address is used only once. When a recipient's addresses run o
 <summary>Does Bitcoin-Safe send the payments automatically?</summary>
 
 No. When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for your review, and you remain responsible for signing and broadcasting it.
+
+</details>
+
+<details>
+<summary>Can I pay multiple recipients at once?</summary>
+
+Yes. Select several scheduled payments and click **Pay selected**. Bitcoin-Safe combines them into one batch transaction.
+
+</details>
+
+<details>
+<summary>What if a payment was already made in cash or another way?</summary>
+
+Add an **out of band** payout. It records the payment in your schedule without a Bitcoin transaction, so the progress stays accurate.
 
 </details>
