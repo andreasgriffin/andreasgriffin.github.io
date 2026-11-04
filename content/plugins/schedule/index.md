@@ -13,7 +13,7 @@ faq:
     - question: "Can I schedule a single payment or only recurring ones?"
       answer: "Both. You can create a one-time payment, a fixed number of repeats, or an ongoing schedule."
     - question: "How often can a schedule repeat?"
-      answer: "By minutes, hours, days, weeks, months, or years. Weekly schedules can use selected weekdays; monthly and yearly schedules support calendar dates and weekday patterns."
+      answer: "Repeat intervals are available as:\n- Minutes, hours, or days\n- Weeks, optionally on selected weekdays\n- Months or years, on calendar dates or weekday patterns"
     - question: "Can I set the amount in fiat?"
       answer: "Yes, in Bitcoin or a supported fiat currency. Fiat amounts can use a live rate or the CoinGecko rate fixed at 00:00 GMT, and an exchange-rate override can be set for the next payment."
     - question: "Are addresses reused?"
@@ -69,7 +69,11 @@ Both. You can create a one-time payment, a fixed number of repeats, or an ongoin
 <details>
 <summary>How often can a schedule repeat?</summary>
 
-By minutes, hours, days, weeks, months, or years. Weekly schedules can use selected weekdays; monthly and yearly schedules support calendar dates and weekday patterns.
+Repeat intervals are available as:
+
+- Minutes, hours, or days
+- Weeks, optionally on selected weekdays
+- Months or years, on calendar dates or weekday patterns
 
 </details>
 

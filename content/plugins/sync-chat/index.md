@@ -15,7 +15,7 @@ faq:
     - question: "How does collaboration work in practice?"
       answer: "1. Setup (once): add and trust each participant's device.\n2. Create: one participant creates a PSBT and adds their signature.\n3. Share: the PSBT goes to all participants, or only to selected ones.\n4. Sign: each participant adds their signature until the transaction is fully signed.\n5. Broadcast: the last signer broadcasts the transaction, and it then appears in every participant's wallet."
     - question: "What gets synchronized?"
-      answer: "Coin categories and labels are synced between signers, even across different operating systems. You can also share PSBTs in one click."
+      answer: "Sync & Chat handles:\n- Coin categories and labels, synced between signers, even across different operating systems\n- Sharing PSBTs in one click"
     - question: "Is the chat private?"
       answer: "Yes. Wallet chat is encrypted and runs over Nostr, and label backups are stored encrypted via Nostr as well."
 ---
@@ -63,7 +63,10 @@ Sync & Chat looks for other devices that use the same wallet descriptor. The des
 <details>
 <summary>What gets synchronized?</summary>
 
-Coin categories and labels are synced between signers, even across different operating systems. You can also share PSBTs in one click.
+Sync & Chat handles:
+
+- Coin categories and labels, synced between signers, even across different operating systems
+- Sharing PSBTs in one click
 
 </details>
 

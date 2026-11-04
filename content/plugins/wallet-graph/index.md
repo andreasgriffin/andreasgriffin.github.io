@@ -11,7 +11,7 @@ faq:
   title: "Wallet Graph questions"
   items:
     - question: "What can I do with the Wallet Graph?"
-      answer: "You can follow transaction inputs and outputs over time and jump between inputs, outputs, and transactions inside one interactive view."
+      answer: "Inside one interactive view you can:\n- Follow transaction inputs and outputs over time\n- Jump between inputs, outputs, and transactions"
     - question: "Can I analyze the data outside Bitcoin-Safe?"
       answer: "Yes. Wallet Graph exports your transactions and UTXOs as GraphML, a graph format that third-party analysis tools can load."
     - question: "Which transactions does the graph show?"
@@ -35,7 +35,10 @@ faq:
 <details>
 <summary>What can I do with the Wallet Graph?</summary>
 
-You can follow transaction inputs and outputs over time and jump between inputs, outputs, and transactions inside one interactive view.
+Inside one interactive view you can:
+
+- Follow transaction inputs and outputs over time
+- Jump between inputs, outputs, and transactions
 
 </details>
 

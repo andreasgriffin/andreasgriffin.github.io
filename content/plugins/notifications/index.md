@@ -11,11 +11,11 @@ faq:
   title: "Wallet Notifications questions"
   items:
     - question: "Where can Bitcoin-Safe send notifications?"
-      answer: "To webhooks (generic JSON or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats), Nostr direct messages, Telegram bots, email over SMTP, and CalDAV calendars."
+      answer: "Bitcoin-Safe can send notifications to:\n- Webhooks: generic JSON, or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats\n- Nostr direct messages\n- Telegram bots\n- Email over SMTP\n- CalDAV calendars"
     - question: "Can I keep sensitive details out of the alerts?"
       answer: "Yes. Turn on hiding sensitive details and the message contains only a generic notice that a Bitcoin-Safe notification event occurred."
     - question: "Do I control which events go where?"
-      answer: "Each destination has its own rules for which event types it receives, such as wallet transactions, scheduled payments, sync and chat, or warnings, plus an optional randomized delivery delay."
+      answer: "Each destination has its own rules. You choose which event types it receives:\n- Wallet transactions\n- Scheduled payments\n- Sync and chat\n- Warnings\n\nYou can also set an optional randomized delivery delay."
     - question: "Does the app need to stay unlocked?"
       answer: "No. Lock and Minimize to Tray keeps Bitcoin-Safe running in the background while your wallet stays locked."
 ---
@@ -75,7 +75,13 @@ faq:
 <details>
 <summary>Where can Bitcoin-Safe send notifications?</summary>
 
-To webhooks (generic JSON or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats), Nostr direct messages, Telegram bots, email over SMTP, and CalDAV calendars.
+Bitcoin-Safe can send notifications to:
+
+- Webhooks: generic JSON, or Slack-compatible, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify formats
+- Nostr direct messages
+- Telegram bots
+- Email over SMTP
+- CalDAV calendars
 
 </details>
 
@@ -89,7 +95,14 @@ Yes. Turn on hiding sensitive details and the message contains only a generic no
 <details>
 <summary>Do I control which events go where?</summary>
 
-Each destination has its own rules for which event types it receives, such as wallet transactions, scheduled payments, sync and chat, or warnings, plus an optional randomized delivery delay.
+Each destination has its own rules. You choose which event types it receives:
+
+- Wallet transactions
+- Scheduled payments
+- Sync and chat
+- Warnings
+
+You can also set an optional randomized delivery delay.
 
 </details>
 
