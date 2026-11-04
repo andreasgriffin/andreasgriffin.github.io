@@ -11,9 +11,10 @@ weight: 20
 
 ### {{< page-title >}}
 
+<p class="lead">Explore your wallet's transaction history as an interactive graph.</p>
 
-- Visual map of inputs, outputs, and Transactions over time
-- Jump to inputs, outputs or open transactions
-- Export every transaction and UTXO as GraphML analysis
+- Follow transaction inputs and outputs over time
+- Jump between inputs, outputs, and transactions
+- Export transactions and UTXOs as GraphML for analysis
 
 {{< carousel-images >}}

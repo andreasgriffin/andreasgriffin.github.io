@@ -13,6 +13,8 @@
 {{ $src     := "" }}
 {{ if $res }}
   {{ $src = $res.RelPermalink }}
+{{ else if hasPrefix $file "/" }}
+  {{ $src = relLangURL (strings.TrimPrefix "/" $file) }}
 {{ else }}
   {{ $src = relLangURL (print $dir $file) }}
 {{ end }}

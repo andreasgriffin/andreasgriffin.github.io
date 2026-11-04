@@ -11,12 +11,18 @@ weight: 30
 
 ### {{< page-title >}}
 
-Coordinate signers without leaving the wallet: discover other devices on the same wallet descriptor in one click, sync labels/categories, chat inline, and pass PSBTs without juggling files. That keeps wallets aligned and makes multisig collaboration smoother.
+<p class="lead">Coordinate multisig signers and keep wallet context in sync from within Bitcoin-Safe.</p>
 
-- One-click discovery of peers using the same wallet descriptor
-- Encrypted chat scoped to the wallet/policy for real-time coordination
-- Label and category sync so every signer sees identical context
-- One-click PSBT sharing to cut down on file passing and back-and-forth
-- Works both for keeping wallets in sync and for full multisig approval flows
+- Discover other devices using the same wallet descriptor
+- Sync labels and categories between signers
+- Chat securely and share PSBTs in one click
+
+### See it in action
+
+{{< video src="/library/label-sync/label-sync.mp4" controls="true" >}}
+
+{{< youtube-embed link="https://www.youtube.com/watch?v=oQB2qzYZ_cw" >}}
+
+For the complete walkthrough of collaborative multisig signing, see [Collaboration in a Multisig]({{< ref "library/collaboration/" >}}).
 
 {{< sync-page-box >}}
