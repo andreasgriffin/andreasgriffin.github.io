@@ -3,7 +3,7 @@ external:
     source: "Bitcoin.diy"
     url: "https://www.bitcoin.diy/reviews/bitcoin-safe"
     date: "2026-06-30"
-    image: "https://bitcoin.diy/api/og?title=Bitcoin-Safe%20Review%202026&type=review"
+    image: "https://www.bitcoin.diy/favicon.svg"
     description: "Bitcoin.diy reviewed Bitcoin-Safe v2.0 as a free hardware-wallet-focused multisig companion with private syncing, PDF backups, and coin control."
   - title: "Seventeenth Wave of Bitcoin Grants"
     source: "OpenSats"

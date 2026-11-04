@@ -1,6 +1,7 @@
 ---
 title: "Unsicherer COLDCARD-Seed"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Kurzanleitung zum Verschieben von Guthaben aus einem Seed, der auf einem Coinkite-Gerät erzeugt wurde."
 ---

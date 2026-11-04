@@ -1,6 +1,7 @@
 ---
 title: "မလုံခြုံသော COLDCARD Seed"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Coinkite device ပေါ်တွင် ဖန်တီးထားသော seed မှ ရန်ပုံငွေများကို ရွှေ့ပြောင်းရန် အကျဉ်းချုပ်လမ်းညွှန်။"
 ---

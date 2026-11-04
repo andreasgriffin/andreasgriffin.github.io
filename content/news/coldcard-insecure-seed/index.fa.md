@@ -1,6 +1,7 @@
 ---
 title: "Seed ناامن COLDCARD"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "راهنمایی کوتاه برای انتقال دارایی از Seed ساخته‌شده روی دستگاه Coinkite."
 ---

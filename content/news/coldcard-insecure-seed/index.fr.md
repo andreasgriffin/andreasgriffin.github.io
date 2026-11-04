@@ -1,6 +1,7 @@
 ---
 title: "Seed COLDCARD non sécurisée"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Guide minimal pour déplacer des fonds protégés par une seed générée sur un appareil Coinkite."
 ---

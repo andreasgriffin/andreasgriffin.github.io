@@ -1,6 +1,7 @@
 ---
 title: "安全でない COLDCARD シード"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Coinkite デバイスで生成されたシードから資金を移行するための簡潔なガイドです。"
 ---

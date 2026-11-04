@@ -1,6 +1,7 @@
 ---
 title: "안전하지 않은 COLDCARD 시드"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Coinkite 기기에서 생성한 시드로 보호된 자금을 옮기기 위한 간단한 안내입니다."
 ---

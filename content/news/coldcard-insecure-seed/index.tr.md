@@ -1,6 +1,7 @@
 ---
 title: "Güvenli Olmayan COLDCARD Seed'i"
 date: "2026-08-02"
+images: ["https://raw.githubusercontent.com/thebitcoinhole/database/refs/heads/master/item-types/hardware-wallets/img/coldcard-mk5-thumb.webp"]
 draft: false
 description: "Coinkite cihazında oluşturulan bir seed ile korunan fonları taşımak için kısa rehber."
 ---
