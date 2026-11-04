@@ -30,9 +30,11 @@ faq:
 <li>Chat securely and share PSBTs in one click</li>
 </ul>
 
-### See it in action
+### Label synchronisation
 
 {{< video src="/library/label-sync/label-sync.mp4" controls="true" >}}
+
+### Collaborative signing
 
 {{< youtube-embed link="https://www.youtube.com/watch?v=oQB2qzYZ_cw" >}}
 
