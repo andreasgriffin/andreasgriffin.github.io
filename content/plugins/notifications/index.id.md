@@ -15,7 +15,7 @@ faq:
     - question: "Apakah saya dapat mengatur peristiwa mana yang dikirim ke mana?"
       answer: "Setiap tujuan memiliki aturannya sendiri. Anda memilih jenis peristiwa yang diterimanya:\n- Transaksi dompet\n- Pembayaran terjadwal\n- Sinkronisasi dan chat\n- Peringatan\n\nAnda juga dapat mengatur penundaan pengiriman acak secara opsional."
     - question: "Apakah aplikasi harus tetap terbuka?"
-      answer: "Tidak. Opsi \"Kunci dan Minimalkan ke Tray\" membuat Bitcoin-Safe tetap berjalan di latar belakang saat dompet terkunci."
+      answer: "Tidak. Opsi “Kunci dan Minimalkan ke Tray” membuat Bitcoin-Safe tetap berjalan di latar belakang saat dompet terkunci."
 ---
 
 ### {{< page-title >}}
