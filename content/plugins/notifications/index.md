@@ -31,7 +31,6 @@ faq:
 <li>Keep Bitcoin-Safe running in the background; use <strong>Lock and Minimize to Tray</strong> to leave it running while your wallet is locked</li>
 </ul>
 
-
 ### Webhook setup
 
 {{< video "webhook.mp4" controls >}}
@@ -69,6 +68,15 @@ faq:
 
 - Recent history shows each event, destination, adapter, time, and result: sent, partial, or failed.
 - Delivery depends on your configured destination and its availability. Consider what information you send to external services.
+
+<section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
+<h2 class="h4 mb-2">Get Bitcoin-Safe</h2>
+<p class="text-muted mb-3">Plugins ship with Bitcoin-Safe. Download the app to try them.</p>
+<div class="plugin-cta d-flex flex-column align-items-center gap-1">
+<a class="btn btn-primary px-4" href="../../download/">Download Bitcoin-Safe</a>
+<small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
+</div>
+</section>
 
 ### Frequently asked questions
 
@@ -113,11 +121,3 @@ No. Lock and Minimize to Tray keeps Bitcoin-Safe running in the background while
 
 </details>
 
-<section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
-<h2 class="h4 mb-2">Get Bitcoin-Safe</h2>
-<p class="text-muted mb-3">Plugins ship with Bitcoin-Safe. Download the app to try them.</p>
-<div class="plugin-cta d-flex flex-column align-items-center gap-1">
-<a class="btn btn-primary px-4" href="../../download/">Download Bitcoin-Safe</a>
-<small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
-</div>
-</section>
