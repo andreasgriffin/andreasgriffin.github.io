@@ -78,3 +78,12 @@ Yes. Wallet chat is encrypted and runs over Nostr, and label backups are stored 
 </details>
 
 {{< sync-page-box >}}
+
+<section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
+<h2 class="h4 mb-2">Get Bitcoin-Safe</h2>
+<p class="text-muted mb-3">Plugins ship with Bitcoin-Safe. Download the app to try them.</p>
+<div class="plugin-cta d-flex flex-column align-items-center gap-1">
+<a class="btn btn-primary px-4" href="{{< relref "download" >}}">Download Bitcoin-Safe</a>
+<small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
+</div>
+</section>
