@@ -18,7 +18,7 @@ weight = 50
 
 [[main]]
 identifier = "Knowledge"
-name = "🏫Conhecimento"
+name = "🎬Tutoriais"
 url = "knowledge"
 weight = 55
 
