@@ -1,0 +1,33 @@
+{{/* Usage: {{< plugin-pricing plan="schedule" >}}
+     Plans are fetched from the live catalog at build time, so no prices are hardcoded.
+     Renders nothing if the catalog cannot be fetched or has no active plans. */}}
+{{ $plan := .Get "plan" }}
+{{ $res := try (resources.GetRemote "https://subscription.bitcoin-safe.org/api/subscription-plans" (dict "headers" (dict "Content-Type" (slice "application/json")))) }}
+{{ if and $res.Err (not $res.Value) }}
+  {{ warnf "plugin-pricing: could not fetch plan catalog: %v" $res.Err }}
+{{ else }}
+  {{ with $res.Value }}
+    {{ $plans := (transform.Unmarshal .Content).plans }}
+    {{ $active := where (index $plans $plan | default slice) "status" "Active" }}
+    {{ with $active }}
+      {{ $span := cond (eq (len .) 1) "col-12 col-lg-6" "col-md-6 col-lg-4" }}
+      <section class="plugin-pricing mt-4">
+        <h2 class="h4 mb-3">Pricing</h2>
+        <div class="row g-3">
+          {{ range . }}
+            {{ $period := dict "month" "per month" "year" "per year" }}
+            <div class="{{ $span }}">
+              <div class="plugin-plan h-100 border rounded-4 bg-body-tertiary p-4 d-flex flex-column">
+                <p class="plugin-plan-name text-body-secondary mb-1">{{ .name }}</p>
+                <p class="plugin-plan-price mb-1">{{ printf "$%s %s" .price .currency }}</p>
+                <p class="text-body-secondary small mb-2">{{ index $period .duration }}</p>
+                <p class="plugin-plan-trial small mb-0">{{ printf "%.0f-day free trial" .trialDays }}</p>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        <p class="text-body-secondary small mt-3 mb-0">Bitcoin-Safe is free and open source. After the free trial, an active subscription is required to keep using this plugin. You can review and manage it from the plugin list in the app.</p>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

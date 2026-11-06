@@ -78,6 +78,8 @@ faq:
 </div>
 </section>
 
+{{< plugin-pricing plan="notifications" >}}
+
 ### Frequently asked questions
 
 <details>

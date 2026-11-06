@@ -367,6 +367,25 @@ h1,h2, h3, h4, h5, h6 {
   }
   
 
+/* ---- Plugin pages: live subscription pricing cards ---- */
+.plugin-plan {
+  .plugin-plan-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .plugin-plan-price {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .plugin-plan-trial {
+    color: var(--bs-primary);
+  }
+}
+
 /* ---- Plugin pages: green checkmark feature bullets ---- */
 ul.plugin-features {
   list-style: none;

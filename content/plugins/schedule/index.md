@@ -71,6 +71,8 @@ When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for you
 </div>
 </section>
 
+{{< plugin-pricing plan="schedule" >}}
+
 ### Frequently asked questions
 
 <details>
