@@ -62,6 +62,8 @@ When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for you
 - Review completed payouts and upcoming occurrences. Matching wallet transactions can update progress; you can also add a payout manually or rescan wallet transactions.
 - Edit a schedule before its first recorded payout, duplicate or delete it, and import/export schedules as a JSON backup.
 
+{{< plugin-pricing plan="schedule" >}}
+
 <section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
 <h2 class="h4 mb-2">Get Bitcoin-Safe</h2>
 <p class="text-muted mb-3">Plugins ship with Bitcoin-Safe. Download the app to try them.</p>
@@ -70,8 +72,6 @@ When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for you
 <small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
 </div>
 </section>
-
-{{< plugin-pricing plan="schedule" >}}
 
 ### Frequently asked questions
 

@@ -69,6 +69,8 @@ faq:
 - Recent history shows each event, destination, adapter, time, and result: sent, partial, or failed.
 - Delivery depends on your configured destination and its availability. Consider what information you send to external services.
 
+{{< plugin-pricing plan="notifications" >}}
+
 <section class="plugin-cta-band border rounded-4 bg-body-tertiary p-4 mt-5 text-center">
 <h2 class="h4 mb-2">Get Bitcoin-Safe</h2>
 <p class="text-muted mb-3">Plugins ship with Bitcoin-Safe. Download the app to try them.</p>
@@ -77,8 +79,6 @@ faq:
 <small class="text-muted">Free &amp; open source · Windows, macOS, Linux</small>
 </div>
 </section>
-
-{{< plugin-pricing plan="notifications" >}}
 
 ### Frequently asked questions
 
