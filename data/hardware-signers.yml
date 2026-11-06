@@ -281,7 +281,7 @@ signers:
   bitcoin_only_available: true
 - id: passport
   slug: passport
-  slugimage: passport
+  slugimage: passport-core
   name:
     en: Passport Core
   summary_points:
