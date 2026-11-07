@@ -25,10 +25,10 @@ faq:
 <p class="lead">Get notified about wallet activity through the channels that work for you.</p>
 
 <ul class="plugin-features">
-<li>Incoming and outgoing transactions, Sync&Chat messages, due scheduled payments, ...</li>
-<li>Forward alerts to webhooks, Nostr, Telegram, email, calendars, and more</li>
+<li>Get alerts about wallet transactions, scheduled payments, Sync &amp; Chat messages, and warnings</li>
+<li>Forward notifications to webhooks, Nostr, Telegram, email, or calendars</li>
 <li>Choose which events each destination receives and hide sensitive details</li>
-<li>Keep Bitcoin-Safe running in the background; use <strong>Lock and Minimize to Tray</strong> to leave it running while your wallet is locked</li>
+<li>Keep Bitcoin-Safe running in the background with <strong>Lock and Minimize to Tray</strong>, even while your wallet is locked</li>
 </ul>
 
 ### Webhook setup
@@ -45,29 +45,25 @@ faq:
 
 ### Connect your destinations
 
-- Add one or more destinations. Each can have its own recipients and delivery rules.
-- **Email:** Connect directly to an SMTP server with your host, port, credentials, sender, and security settings. This is not a managed Gmail or Outlook integration.
-- **Telegram:** Send to a chat using a bot. Start a conversation with the bot to check it and detect recent chat IDs.
-- **Nostr DM:** Send encrypted NIP-17 messages to `npub` recipients through configured relays with a sender key.
-- **CalDAV:** Add events to an existing calendar, such as a configured Nextcloud calendar.
-- **Webhooks:** Send Generic JSON or formats for Slack-compatible endpoints, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify. Common endpoint types may be detected automatically.
-- Save the destination settings and use the test action where supported.
+- 🔗 Add multiple destinations, each with its own recipients and delivery rules.
+- ✉️ **Email:** Connect to an SMTP server using your host, port, credentials, sender, and security settings.
+- 💬 **Telegram:** Send to a chat through a bot. Start a conversation to check the bot and detect recent chat IDs.
+- 🟣 **Nostr:** Send encrypted NIP-17 direct messages to `npub` recipients through configured relays with a sender key.
+- 📆 **Calendars:** Add events to an existing CalDAV calendar, such as a configured Nextcloud calendar.
+- 🪝 **Webhooks:** Send Generic JSON or formats for Slack-compatible endpoints, Discord, Google Chat, Microsoft Teams, Telegram Bot API, ntfy, and Gotify.
+- 🧪 Save destination settings and test the connection where supported.
 
 ### Choose what gets sent
 
-- Choose which event types each destination receives:
-  - Wallet transactions
-  - Scheduled payments
-  - Sync and chat
-  - Warnings
-- Hide sensitive details. The message then contains only a generic notice that a Bitcoin-Safe notification event occurred.
-- Set a randomized delivery delay up to your chosen maximum.
-- Wallet transaction messages may include an explorer link when available and details are not hidden.
+- Set per-destination rules for wallet transactions, scheduled payments, Sync & Chat activity, and warnings.
+- Hide sensitive details so notifications contain only a generic Bitcoin-Safe event notice.
+- Add a randomized delivery delay up to your chosen maximum.
+- Wallet transaction notifications can include an explorer link when available, unless details are hidden.
 
 ### Review delivery
 
-- Recent history shows each event, destination, adapter, time, and result: sent, partial, or failed.
-- Delivery depends on your configured destination and its availability. Consider what information you send to external services.
+- Recent history shows the event, destination, adapter, time, and delivery result: sent, partial, or failed.
+- Notifications depend on your destination's availability. Consider what information you send to external services.
 
 {{< plugin-pricing plan="notifications" >}}
 
@@ -122,4 +118,3 @@ You can also set an optional randomized delivery delay.
 No. Lock and Minimize to Tray keeps Bitcoin-Safe running in the background while your wallet stays locked.
 
 </details>
-

@@ -41,26 +41,35 @@ When a payment is due, Schedule prepares the transaction in Bitcoin-Safe for you
 
 {{< video "schedule.mp4" controls >}}
 
-### Flexible payment plans
+### 1. Create a schedule
 
-- Choose a one-time payment, a fixed number of repeats, or an ongoing schedule.
-- Set a start date and repeat interval: minutes, hours, days, weeks, months, or years. Weekly schedules can use selected weekdays; monthly and yearly schedules support calendar dates and weekday patterns.
-- Set a recipient, category, and amount in Bitcoin or a supported fiat currency.
-- For fiat amounts, use a live rate or the CoinGecko rate fixed at 00:00 GMT. An exchange-rate override can be set for the next payment.
-- Fixed-count schedules show per-payment and total amount previews.
+![Create a one-time or recurring payment schedule](add-schedule.png)
+{ .img-fluid }
 
-### Prepare payments in your wallet
+- 🗓️ Create a one-time payment, a fixed number of repeats, or an ongoing schedule.
+- 🔁 Choose a start date and repeat as often as minutes, hours, days, weeks, months, or years. Set specific weekdays or calendar dates for weekly, monthly, and yearly schedules.
+- 💱 Set an amount in bitcoin or a supported fiat currency. Choose a live exchange rate, the CoinGecko rate from 00:00 GMT, or enter a custom rate before creating the payout.
+- 🧮 Preview per-payment and total amounts for schedules with a fixed number of payments.
 
-- See the next due date and payment progress; due payments are highlighted and can trigger a Bitcoin-Safe notice.
-- Prepare one due payment or a batch in the transaction composer, with recipient outputs, labels, and categories filled in.
-- Review and customize the transaction before signing and broadcasting it yourself.
-- Save reusable recipients with a name and multiple addresses. Schedule can select an unused address for a payout.
+### 2. Add a recipient
 
-### Track and manage schedules
+![Add a recipient and their payment addresses](recipient.png)
+{ .img-fluid }
 
-- Find schedules by due status, schedule type, or category. Lists show dates, completed payments, frequency, recipient, amount, category, and total.
-- Review completed payouts and upcoming occurrences. Matching wallet transactions can update progress; you can also add a payout manually or rescan wallet transactions.
-- Edit a schedule before its first recorded payout, duplicate or delete it, and import/export schedules as a JSON backup.
+- 👤 Save recipient details and organize multiple payout addresses under one recipient.
+- 📬 Add addresses directly or use a PGP-signed message.
+- 🔐 Each address is used only once. Add more addresses to a recipient whenever needed.
+
+### 3. Create transactions and review payouts
+
+![Review completed and upcoming payouts](payouts.png)
+{ .img-fluid }
+
+- ⚡ Create a transaction for one due payment, or select payouts to different recipients and combine them into one batch.
+- ✅ Review and customize each transaction in Bitcoin-Safe, then sign and broadcast it yourself. Schedule never sends bitcoin automatically.
+- 📊 See completed payouts, upcoming payments, and schedule progress in one place.
+- 🧾 Record a payout manually (Add out-of-band) if it was already made outside Bitcoin, such as in fiat, without creating a Bitcoin transaction.
+- 📤 Export all schedule and payout data to CSV.
 
 {{< plugin-pricing plan="schedule" >}}
 
@@ -137,4 +146,3 @@ Yes. Select several scheduled payments and click **Pay selected**. Bitcoin-Safe 
 Add an **out of band** payout. It records the payment in your schedule without a Bitcoin transaction, so the progress stays accurate.
 
 </details>
-
