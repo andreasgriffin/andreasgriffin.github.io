@@ -4,6 +4,4 @@ layout: "custom-tag-list"
 tag: "plugins"
 ---
 ## Amplia Bitcoin-Safe amb complements
-Hem afegit compatibilitat amb complements a Bitcoin-Safe perquè puguis adaptar el programari al teu flux de treball. Els complements s'integren directament amb la teva cartera i et permeten afegir funcions segons el que realment necessites. Es tracta de donar-te més control mantenint-ho senzill i segur. Mira què hi ha disponible:
-
-{{< carousel-images >}}
+<p class="lead">Hem afegit suport de complements a Bitcoin-Safe, perquè puguis ampliar el programari segons el teu flux de treball. Els complements s'integren directament amb la teva cartera i et permeten afegir funcions segons el que realment necessites. L'objectiu és donar-te més control, mantenint-ho tot senzill i segur. Aquests són els disponibles:</p>

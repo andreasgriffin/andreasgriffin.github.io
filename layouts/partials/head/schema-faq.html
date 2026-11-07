@@ -1,0 +1,21 @@
+<!-- FAQPage Schema.org Type (site override of the theme partial).
+     Built with jsonify so quotes, backslashes and newlines in questions/answers are always escaped. -->
+{{ with .Params.faq }}
+{{ $entities := slice }}
+{{ range .items }}
+  {{ $entities = $entities | append (dict
+      "@type" "Question"
+      "name" .question
+      "acceptedAnswer" (dict
+        "@type" "Answer"
+        "text" (replace .answer "\n" "<br>"))) }}
+{{ end }}
+{{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" "FAQPage"
+    "mainEntity" $entities }}
+{{ with .title }}{{ $schema = merge $schema (dict "name" .) }}{{ end }}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
