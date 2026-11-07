@@ -4,7 +4,13 @@ aliases:
 title: Keycard Shell
 signer: keycard-shell
 bucket: knowledge
+videos:
+   - https://www.youtube.com/watch?v=OSAmVnqenso 
 ---
+
+### Videos
+  
+{{< youtube-gallery >}} 
 
 ## 你需要了解的内容
 

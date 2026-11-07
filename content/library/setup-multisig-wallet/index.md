@@ -29,6 +29,7 @@ weight: 30
 # or the list will be rendered below the content
 # type: "watch"
 videos:
+  - https://www.youtube.com/watch?v=OSAmVnqenso
   - "https://www.youtube.com/watch?v=8n8lPfZZQPY"
 ---
 

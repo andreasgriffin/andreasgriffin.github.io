@@ -5,7 +5,14 @@ aliases:
 title: "Keycard Shell"
 signer: keycard-shell
 bucket: knowledge
+videos:
+   - https://www.youtube.com/watch?v=OSAmVnqenso 
 ---
+
+### Videos
+  
+{{< youtube-gallery >}} 
+
 
 
 ## What to Expect
