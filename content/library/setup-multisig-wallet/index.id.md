@@ -38,11 +38,4 @@ videos:
 🔒 Menyiapkan dompet **Bitcoin-Safe** yang aman adalah cara terbaik untuk melindungi dana Anda dari kegagalan bursa, peretasan, dan pencurian. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses langkah demi langkah!
  
 
-- 🔐 Sambungkan *Coldcard Q*, *Bitbox02*, dan *Keystone*
-- 📥 Tes penerimaan
-- 📤 Tes pengiriman
-- ✅ Selesai
-
-
-
 {{< youtube-gallery >}}

@@ -39,10 +39,7 @@ videos:
 🔒 Setting up a secure **Bitcoin-Safe** wallet is the best way to protect your funds from exchange failures, hacks, and theft. In this tutorial, we’ll walk you through the entire process step by step!
  
 
-- 🔐 Connect a *Coldcard Q*, a *Bitbox02*, and a *Keystone*
-- 📥 Receive test
-- 📤 Send test
-- ✅ Done
+
 
 
 

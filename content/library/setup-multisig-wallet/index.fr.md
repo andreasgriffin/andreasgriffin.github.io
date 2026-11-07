@@ -38,11 +38,6 @@ videos:
 🔒 Configurer un portefeuille sécurisé **Bitcoin-Safe** est le meilleur moyen de protéger vos fonds contre les défaillances d'échange, les piratages et le vol. Dans ce tutoriel, nous vous guiderons pas à pas à travers tout le processus !
  
 
-- 🔐 Connectez un *Coldcard Q*, un *Bitbox02* et un *Keystone*
-- 📥 Test de réception
-- 📤 Test d'envoi
-- ✅ Terminé
-
 
 
 {{< youtube-gallery >}}

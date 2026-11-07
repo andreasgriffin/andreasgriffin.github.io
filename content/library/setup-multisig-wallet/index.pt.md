@@ -38,11 +38,5 @@ videos:
 🔒 Configurar uma carteira segura **Bitcoin-Safe** é a melhor forma de proteger os seus fundos contra falhas de exchanges, ataques e roubos. Neste tutorial, iremos guiá-lo por todo o processo passo a passo!
  
 
-- 🔐 Ligue um *Coldcard Q*, um *Bitbox02* e um *Keystone*
-- 📥 Teste de receção
-- 📤 Teste de envio
-- ✅ Concluído
-
-
 
 {{< youtube-gallery >}}

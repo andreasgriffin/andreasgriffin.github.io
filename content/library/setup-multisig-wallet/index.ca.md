@@ -38,11 +38,6 @@ videos:
 🔒 Configurar una cartera segura **Bitcoin-Safe** és la millor manera de protegir els teus fons d'errors d'intercanvis, hacks i robatoris. En aquest tutorial, et guiarem pas a pas per tot el procés!
  
 
-- 🔐 Connecta una *Coldcard Q*, una *Bitbox02* i una *Keystone*
-- 📥 Prova de recepció
-- 📤 Prova d'enviament
-- ✅ Fet
-
 
 
 {{< youtube-gallery >}}

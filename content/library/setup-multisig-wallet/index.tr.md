@@ -38,11 +38,6 @@ videos:
 🔒 Güvenli bir **Bitcoin-Safe** cüzdanı kurmak, fonlarınızı borsa arızalarından, saldırılardan ve hırsızlıktan korumanın en iyi yoludur. Bu eğitimde sizi tüm süreç boyunca adım adım yönlendireceğiz!
  
 
-- 🔐 Bir *Coldcard Q*, bir *Bitbox02* ve bir *Keystone* bağlayın
-- 📥 Alma testi
-- 📤 Gönderme testi
-- ✅ Tamamlandı
-
 
 
 {{< youtube-gallery >}}

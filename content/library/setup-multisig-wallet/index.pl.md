@@ -38,10 +38,6 @@ videos:
 🔒 Skonfigurowanie bezpiecznego **Bitcoin-Safe** to najlepszy sposób ochrony Twoich środków przed awariami giełd, atakami hakerskimi i kradzieżą. W tym samouczku przeprowadzimy Cię przez cały proces krok po kroku!
  
 
-- 🔐 Podłącz *Coldcard Q*, *Bitbox02* i *Keystone*
-- 📥 Test odbioru
-- 📤 Test wysyłki
-- ✅ Gotowe
 
 
 

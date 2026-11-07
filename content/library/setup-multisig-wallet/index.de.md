@@ -38,11 +38,6 @@ videos:
 🔒 Das Einrichten einer sicheren **Bitcoin-Safe** Wallet ist der beste Weg, Ihre Mittel vor Ausfällen von Börsen, Hacks und Diebstahl zu schützen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess!
  
 
-- 🔐 Verbinden Sie eine *Coldcard Q*, eine *Bitbox02* und eine *Keystone*
-- 📥 Empfangstest
-- 📤 Sendetest
-- ✅ Fertig
-
 
 
 {{< youtube-gallery >}}

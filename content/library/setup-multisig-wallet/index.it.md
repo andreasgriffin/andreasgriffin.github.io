@@ -38,11 +38,5 @@ videos:
 🔒 Configurare un portafoglio sicuro **Bitcoin-Safe** è il modo migliore per proteggere i tuoi fondi da fallimenti degli exchange, attacchi hacker e furti. In questo tutorial, ti guideremo passo dopo passo attraverso l'intero processo!
  
 
-- 🔐 Collega una *Coldcard Q*, una *Bitbox02* e una *Keystone*
-- 📥 Ricezione di prova
-- 📤 Invio di prova
-- ✅ Completato
-
-
 
 {{< youtube-gallery >}}
