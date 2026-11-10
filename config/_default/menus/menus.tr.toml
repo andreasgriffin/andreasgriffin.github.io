@@ -17,8 +17,14 @@ url = "features"
 weight = 50
 
 [[main]]
+identifier = "Plugins"
+name = "🧰Eklentiler"
+url = "plugins"
+weight = 52
+
+[[main]]
 identifier = "Knowledge"
-name = "🏫Bilgi"
+name = "🎬Eğitimler"
 url = "knowledge"
 weight = 55
 

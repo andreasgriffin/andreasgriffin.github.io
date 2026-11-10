@@ -4,6 +4,4 @@ layout: "custom-tag-list"
 tag: "plugins"
 ---
 ## Estenda o Bitcoin-Safe com plugins
-Adicionamos suporte a plugins no Bitcoin-Safe para você adaptar o software ao seu fluxo de trabalho. Os plugins se integram diretamente à sua carteira e permitem adicionar recursos conforme o que você realmente precisa. É sobre dar mais controle para você, mantendo tudo simples e seguro. Confira o que está disponível:
-
-{{< carousel-images >}}
+<p class="lead">Adicionamos suporte a plugins ao Bitcoin-Safe, para que você possa estender o software de acordo com o seu fluxo de trabalho. Os plugins se integram diretamente à sua carteira e permitem adicionar recursos conforme a sua necessidade real. A ideia é dar a você mais controle, mantendo tudo simples e seguro. Confira o que está disponível:</p>

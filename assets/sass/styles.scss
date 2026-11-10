@@ -219,6 +219,10 @@ table img {
     font-size: 0.95rem;
 }
 
+body.single #content > .container > :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 2rem;
+}
+
 .hardware-signer-summary-list {
     margin-top: 0;
     padding-left: 1.15rem;
@@ -366,3 +370,86 @@ h1,h2, h3, h4, h5, h6 {
     opacity: 1;
   }
   
+
+/* ---- Plugin pages: live subscription pricing cards ---- */
+.plugin-plan {
+  .plugin-plan-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .plugin-plan-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .plugin-plan-trial {
+    color: var(--bs-primary);
+  }
+}
+
+/* ---- Plugin pages: green checkmark feature bullets ---- */
+ul.plugin-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.25rem;
+
+  li {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 0.4rem;
+  }
+
+  li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--bs-success, #198754);
+    font-weight: 700;
+  }
+}
+
+/* ---- Plugin FAQ: soft cards in the theme's primary color ---- */
+details {
+  margin-bottom: 0.6rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(var(--bs-primary-rgb), 0.25);
+  border-left: 4px solid rgba(var(--bs-primary-rgb), 0.7);
+  border-radius: 0.5rem;
+  background-color: rgba(var(--bs-primary-rgb), 0.04);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  &[open] {
+    background-color: rgba(var(--bs-primary-rgb), 0.08);
+    border-color: rgba(var(--bs-primary-rgb), 0.45);
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--bs-emphasis-color, inherit);
+    list-style: none;
+    position: relative;
+    padding-right: 1.5rem;
+  }
+
+  summary::-webkit-details-marker { display: none; }
+
+  summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--bs-primary, #0d6efd);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  &[open] summary::after { content: "\2212"; }
+
+  p { margin: 0.5rem 0 0.2rem; }
+}

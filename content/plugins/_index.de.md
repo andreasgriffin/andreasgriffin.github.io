@@ -4,6 +4,4 @@ layout: "custom-tag-list"
 tag: "plugins"
 ---
 ## Erweitere Bitcoin-Safe mit Plugins
-Wir haben Bitcoin-Safe um Plugin-Unterstützung erweitert, damit du die Software an deinen Workflow anpassen kannst. Plugins integrieren sich direkt in deine Wallet und lassen dich genau die Funktionen hinzufügen, die du wirklich brauchst. So behältst du mehr Kontrolle, während alles einfach und sicher bleibt. Sieh dir an, was verfügbar ist:
-
-{{< carousel-images >}}
+<p class="lead">Wir haben Plugin-Unterstützung zu Bitcoin-Safe hinzugefügt, damit du die Software an deinen Arbeitsablauf anpassen kannst. Plugins sind direkt in deine Wallet integriert und ermöglichen dir Funktionen, die du wirklich brauchst. Es geht darum, dir mehr Kontrolle zu geben und dabei alles einfach und sicher zu halten. Hier ist, was verfügbar ist:</p>

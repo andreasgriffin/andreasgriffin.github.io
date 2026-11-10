@@ -17,8 +17,14 @@ url = "features"
 weight = 50
 
 [[main]]
+identifier = "Plugins"
+name = "🧰ပလပ်အင်များ"
+url = "plugins"
+weight = 52
+
+[[main]]
 identifier = "Knowledge"
-name = "🏫အသိပညာ"
+name = "🎬သင်ခန်းစာများ"
 url = "knowledge"
 weight = 55
 

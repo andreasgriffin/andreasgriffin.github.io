@@ -123,7 +123,7 @@
     {{ end }}
 
     {{ $candidates := slice $slug (replace $slug "-" "") }}
-    {{ with $signer.slugimage }}{{ $candidates = $candidates | append . }}{{ end }}
+    {{ with $signer.slugimage }}{{ $candidates = slice . }}{{ end }}
 
     {{ $allowedExt := slice ".png" ".jpg" ".jpeg" ".webp" ".gif" ".avif" ".mp4" ".webm" ".ogg" ".mkv" }}
     {{ $screens := slice }}
@@ -137,7 +137,8 @@
           {{ $base := lower (strings.TrimSuffix $ext $name) }}
           {{ $matched := false }}
           {{ range $candidates }}
-            {{ if and (not $matched) (hasPrefix $base (printf "%s-" (lower .))) }}
+            {{ $prefix := printf "%s-" (lower .) }}
+            {{ if and (not $matched) (hasPrefix $base $prefix) }}
             {{ $src := "" }}
             {{ if eq $media.mode "resources" }}
               {{ $src = $item.RelPermalink }}
@@ -149,7 +150,7 @@
               {{ end }}
               {{ $src = relURL (path.Join $defaultPrefix $target) }}
             {{ end }}
-            {{ $screens = $screens | append (dict "name" $base "src" $src) }}
+            {{ $screens = $screens | append (dict "name" $base "step" (strings.TrimPrefix $prefix $base) "src" $src) }}
             {{ $matched = true }}
             {{ end }}
           {{ end }}
@@ -176,7 +177,7 @@
       {{ $stepOrder := slice "generate-seed" "view-seed" "wallet-export" "register-multisig-decriptor" "register-multisig-descriptor" }}
       {{ $steps := slice }}
       {{ range $screens }}
-        {{ $step := replaceRE "^[^-]+-" "" .name }}
+        {{ $step := .step }}
         {{ if not (in $steps $step) }}{{ $steps = $steps | append $step }}{{ end }}
       {{ end }}
       <section class="mt-4">
@@ -198,7 +199,7 @@
           {{ with (index $introMap $step) }}<p class="text-muted small mb-2">{{ . }}</p>{{ end }}
           <div class="row row-cols-1 g-3 mb-3">
             {{ range $screens }}
-              {{ $stepOfImg := replaceRE "^[^-]+-" "" .name }}
+              {{ $stepOfImg := .step }}
               {{ if eq $stepOfImg $step }}
                 <div class="col hardware-signer-screenshot-col">
                   <a href="{{ .src }}" target="_blank" rel="noopener" class="card hardware-signer-screenshot-card shadow-sm text-decoration-none">

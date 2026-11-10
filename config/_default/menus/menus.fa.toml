@@ -17,8 +17,14 @@ url = "features"
 weight = 50
 
 [[main]]
+identifier = "Plugins"
+name = "🧰افزونه‌ها"
+url = "plugins"
+weight = 52
+
+[[main]]
 identifier = "Knowledge"
-name = "🏫دانش"
+name = "🎬آموزش‌ها"
 url = "knowledge"
 weight = 55
 
