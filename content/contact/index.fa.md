@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-جامعه Bitcoin-Safe: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+جامعه Bitcoin-Safe: [گروه Signal](https://signal.group/#CjQKIDPsmxN0ganTjU0_lvTxQHfz4-9MiQMbDY6B5wBb4nOHEhAHMbP9FlVtGIgwbbb4caem)
 
 [یک issue باز کنید](https://github.com/andreasgriffin/bitcoin-safe) در GitHub.
 

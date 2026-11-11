@@ -453,3 +453,16 @@ details {
 
   p { margin: 0.5rem 0 0.2rem; }
 }
+
+/* Signal menu logo: white outline by default, filled Signal blue on hover */
+.feather-signal {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    background: url('/icons/signal-outline.svg') no-repeat center / contain;
+}
+
+a:hover .feather-signal {
+    background-image: url('/icons/signal-filled.svg');
+}

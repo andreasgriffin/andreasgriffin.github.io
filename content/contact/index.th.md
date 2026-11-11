@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-ชุมชน Bitcoin-Safe: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+ชุมชน Bitcoin-Safe: [กลุ่ม Signal](https://signal.group/#CjQKIDPsmxN0ganTjU0_lvTxQHfz4-9MiQMbDY6B5wBb4nOHEhAHMbP9FlVtGIgwbbb4caem)
 
 [เปิด issue](https://github.com/andreasgriffin/bitcoin-safe) บน GitHub.
 
