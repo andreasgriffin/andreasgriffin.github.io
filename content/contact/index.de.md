@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin-Safe-Community: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe-Community: [Signal-Gruppe](https://signal.group/#CjQKIDPsmxN0ganTjU0_lvTxQHfz4-9MiQMbDY6B5wBb4nOHEhAHMbP9FlVtGIgwbbb4caem)
 
 [Ein Issue eröffnen](https://github.com/andreasgriffin/bitcoin-safe) auf GitHub.
 

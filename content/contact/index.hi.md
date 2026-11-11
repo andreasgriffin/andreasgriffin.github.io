@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin-Safe समुदाय: [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe समुदाय: [Signal समूह](https://signal.group/#CjQKIDPsmxN0ganTjU0_lvTxQHfz4-9MiQMbDY6B5wBb4nOHEhAHMbP9FlVtGIgwbbb4caem)
 
 [इश्यू खोलें](https://github.com/andreasgriffin/bitcoin-safe) GitHub पर।
 

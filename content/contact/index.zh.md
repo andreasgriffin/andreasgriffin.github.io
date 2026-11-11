@@ -12,7 +12,7 @@ menu:
 <br>
 
 
-Bitcoin-Safe 社区： [https://substr.network/s/bitcoin-safe](https://substr.network/s/bitcoin-safe)
+Bitcoin-Safe 社区： [Signal 群组](https://signal.group/#CjQKIDPsmxN0ganTjU0_lvTxQHfz4-9MiQMbDY6B5wBb4nOHEhAHMbP9FlVtGIgwbbb4caem)
 
 [在 GitHub 上提交问题](https://github.com/andreasgriffin/bitcoin-safe)。
 
